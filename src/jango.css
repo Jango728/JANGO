@@ -1,0 +1,1916 @@
+/* =====================================================================
+   JANGO PLAYZ · design system v2 (black & gold)
+   One theme, one type scale, semantic colours:
+   gold = model edge · green = correct/verified · amber = thin data
+   red = miss/error · blue = neutral info
+   ===================================================================== */
+
+:root {
+  --jp-bg: #f4f1ea;
+  --jp-surface: #ffffff;
+  --jp-surface-2: #f7f4ee;
+  --jp-raised: #efe9de;
+  --jp-line: #e2dacb;
+  --jp-line-2: #d4c9b5;
+  --jp-text: #15130f;
+  --jp-muted: #6c655a;
+  --jp-gold: #9b6c19;
+  --jp-gold-2: #b98524;
+  --jp-gold-soft: #9b6c1914;
+  --jp-green: #23794e;
+  --jp-amber: #a86b00;
+  --jp-red: #c23b30;
+  --jp-blue: #2f6fae;
+  --jp-corner-a: #c9463d;
+  --jp-corner-b: #3d7cc4;
+  --jp-shadow: 0 1px 2px #0000000d, 0 8px 24px #0000000a;
+  --jp-radius: 14px;
+  --jp-radius-sm: 10px;
+
+  /* keep legacy component tokens in the same palette */
+  --background: var(--jp-bg);
+  --foreground: var(--jp-text);
+  --card: var(--jp-surface);
+  --card-foreground: var(--jp-text);
+  --popover: var(--jp-surface);
+  --popover-foreground: var(--jp-text);
+  --primary: var(--jp-gold);
+  --primary-foreground: #fff;
+  --secondary: var(--jp-raised);
+  --secondary-foreground: var(--jp-text);
+  --muted: var(--jp-surface-2);
+  --muted-foreground: var(--jp-muted);
+  --accent: var(--jp-raised);
+  --accent-foreground: var(--jp-text);
+  --border: var(--jp-line);
+  --input: var(--jp-line-2);
+  --ring: var(--jp-gold);
+  --positive: var(--jp-green);
+  --red: var(--jp-red);
+  --blue: var(--jp-blue);
+  color-scheme: light;
+}
+
+.dark {
+  --jp-bg: #07080a;
+  --jp-surface: #101216;
+  --jp-surface-2: #14171c;
+  --jp-raised: #1a1d23;
+  --jp-line: #23272e;
+  --jp-line-2: #30353e;
+  --jp-text: #f3efe6;
+  --jp-muted: #9a9486;
+  --jp-gold: #d8ad52;
+  --jp-gold-2: #f2d386;
+  --jp-gold-soft: #d8ad521a;
+  --jp-green: #6fcf97;
+  --jp-amber: #f0b44c;
+  --jp-red: #ff6b5e;
+  --jp-blue: #7fb2ea;
+  --jp-corner-a: #e0574c;
+  --jp-corner-b: #4f8fd6;
+  --jp-shadow: 0 1px 0 #ffffff06 inset, 0 12px 30px #00000059;
+  --primary-foreground: #14100a;
+  --positive-bg: #15301f;
+  --negative-bg: #341d1b;
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: var(--jp-bg);
+  color: var(--jp-text);
+}
+body {
+  font-family: "Barlow", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "tnum" 1, "ss01" 1;
+}
+
+/* ---------- shell ---------- */
+.jp-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(1200px 500px at 50% -200px, var(--jp-gold-soft), transparent 70%),
+    var(--jp-bg);
+}
+.jp-main {
+  width: 100%;
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 18px 24px 40px;
+  flex: 1;
+}
+
+/* ---------- top bar ---------- */
+.jp-top {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 24px;
+  background: color-mix(in srgb, var(--jp-bg) 82%, transparent);
+  backdrop-filter: blur(14px) saturate(1.4);
+  border-bottom: 1px solid var(--jp-line);
+}
+.jp-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--jp-text);
+  justify-self: start;
+}
+.jp-brand img {
+  width: 38px;
+  height: 38px;
+  filter: drop-shadow(0 2px 8px var(--jp-gold-soft));
+}
+.jp-brand span {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.jp-brand strong {
+  font-weight: 900;
+}
+.jp-brand em {
+  font-weight: 800;
+  font-style: italic;
+  color: var(--jp-gold);
+  background: linear-gradient(180deg, var(--jp-gold-2), var(--jp-gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.jp-nav {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--jp-surface);
+  border: 1px solid var(--jp-line);
+  border-radius: 999px;
+}
+.jp-nav button {
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--jp-muted);
+  transition: color 0.15s, background 0.15s, transform 0.1s;
+}
+.jp-nav button:hover {
+  color: var(--jp-text);
+}
+.jp-nav button.on {
+  color: var(--primary-foreground);
+  background: linear-gradient(180deg, var(--jp-gold-2), var(--jp-gold));
+  box-shadow: 0 4px 14px var(--jp-gold-soft);
+}
+.jp-nav button:active,
+.jp-btn:active,
+.jp-promo:active,
+.jp-event:active,
+.jp-bout:active,
+.jp-tabs button:active,
+.jp-seg button:active {
+  transform: scale(0.97);
+}
+.jp-top-tools {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.jp-top-tools .theme-control {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--jp-muted);
+  font-size: 12px;
+}
+
+/* ---------- shared atoms ---------- */
+.jp-card {
+  background: var(--jp-surface);
+  border: 1px solid var(--jp-line);
+  border-radius: var(--jp-radius);
+  box-shadow: var(--jp-shadow);
+  padding: 18px 20px;
+}
+.jp-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--jp-gold);
+}
+.jp-h3 {
+  font-size: 16px;
+  font-weight: 750;
+  letter-spacing: -0.01em;
+  margin: 0 0 8px;
+}
+.jp-fine {
+  font-size: 12px;
+  color: var(--jp-muted);
+  line-height: 1.5;
+}
+.jp-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: var(--jp-raised);
+  color: var(--jp-muted);
+  border: 1px solid var(--jp-line);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.jp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 6px 12px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 600;
+  transition: background 0.15s, color 0.15s, border-color 0.15s, transform 0.1s;
+}
+.jp-btn.ghost {
+  border: 1px solid var(--jp-line);
+  background: var(--jp-surface-2);
+  color: var(--jp-text);
+}
+.jp-btn.ghost:hover:not(:disabled) {
+  border-color: var(--jp-gold);
+  color: var(--jp-gold-2);
+}
+.jp-btn.ghost.on {
+  background: var(--jp-gold-soft);
+  border-color: var(--jp-gold);
+  color: var(--jp-gold-2);
+}
+.jp-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.jp-seg {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 11px;
+  background: var(--jp-surface-2);
+  border: 1px solid var(--jp-line);
+}
+.jp-seg button {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 650;
+  color: var(--jp-muted);
+  transition: background 0.15s, color 0.15s, transform 0.1s;
+}
+.jp-seg button small {
+  margin-left: 4px;
+  opacity: 0.7;
+  font-weight: 600;
+}
+.jp-seg button.on {
+  background: var(--jp-raised);
+  color: var(--jp-text);
+  box-shadow: inset 0 -2px 0 var(--jp-gold);
+}
+.jp-seg button:disabled {
+  opacity: 0.35;
+}
+button:focus-visible,
+a:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--jp-gold);
+  outline-offset: 2px;
+}
+
+/* ---------- promotions + event rail ---------- */
+.jp-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 4px 0 14px;
+}
+.jp-promo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  min-width: 92px;
+  padding: 0 16px;
+  border-radius: 12px;
+  border: 1px solid var(--jp-line);
+  background: var(--jp-surface);
+  transition: border-color 0.15s, background 0.15s, transform 0.1s, box-shadow 0.15s;
+}
+.jp-promo:hover {
+  border-color: var(--jp-line-2);
+  transform: translateY(-1px);
+}
+.jp-promo.on {
+  border-color: var(--jp-gold);
+  background: var(--jp-gold-soft);
+  box-shadow: 0 0 0 3px var(--jp-gold-soft);
+}
+.jp-promo-all {
+  font-weight: 750;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+.jp-promo .promotion-logo,
+.jp-event .promotion-logo,
+.jp-ledger-head .promotion-logo {
+  background: none !important;
+  border: 0 !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+}
+.jp-promo .promotion-logo img,
+.jp-event .promotion-logo img,
+.jp-ledger-head .promotion-logo img {
+  height: 20px !important;
+  width: auto !important;
+  max-width: 70px;
+  object-fit: contain;
+  background: none !important;
+}
+.jp-promo .dwcs-mark,
+.jp-event .dwcs-mark,
+.jp-ledger-head .dwcs-mark {
+  background: none !important;
+  font-size: 12px;
+}
+
+.jp-rail-wrap {
+  display: grid;
+  grid-template-columns: 36px 1fr 36px;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.jp-rail-arrow {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--jp-surface);
+  border: 1px solid var(--jp-line);
+  color: var(--jp-muted);
+  transition: color 0.15s, border-color 0.15s;
+}
+.jp-rail-arrow:hover {
+  color: var(--jp-gold-2);
+  border-color: var(--jp-gold);
+}
+.jp-rail {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 4px 2px 8px;
+  scrollbar-width: none;
+  mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent);
+}
+.jp-rail::-webkit-scrollbar {
+  display: none;
+}
+.jp-event {
+  scroll-snap-align: center;
+  flex: 0 0 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+  padding: 12px 14px;
+  border-radius: 13px;
+  background: var(--jp-surface);
+  border: 1px solid var(--jp-line);
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+  position: relative;
+}
+.jp-event:hover {
+  transform: translateY(-2px);
+  border-color: var(--jp-line-2);
+}
+.jp-event.on {
+  border-color: var(--jp-gold);
+  box-shadow: 0 0 0 3px var(--jp-gold-soft), var(--jp-shadow);
+}
+.jp-event.on::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: -1px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--jp-gold), var(--jp-gold-2));
+}
+.jp-event-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.jp-event strong {
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.25;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 35px;
+}
+.jp-event-sub {
+  font-size: 12px;
+  color: var(--jp-muted);
+}
+.jp-status {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 7px;
+  border-radius: 999px;
+  background: var(--jp-raised);
+  color: var(--jp-muted);
+}
+.jp-status.s-upcoming {
+  color: var(--jp-gold-2);
+  background: var(--jp-gold-soft);
+}
+.jp-status.s-fight-day {
+  color: #fff;
+  background: var(--jp-red);
+}
+.jp-status.s-results-in {
+  color: var(--jp-green);
+  background: color-mix(in srgb, var(--jp-green) 14%, transparent);
+}
+.jp-status.s-awaiting-results,
+.jp-status.s-card-tba {
+  color: var(--jp-amber);
+  background: color-mix(in srgb, var(--jp-amber) 14%, transparent);
+}
+
+/* ---------- event header ---------- */
+.jp-event-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 6px 0 16px;
+}
+.jp-event-head h1 {
+  font-size: clamp(26px, 3.2vw, 40px);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  margin: 6px 0 6px;
+}
+.jp-event-head p {
+  color: var(--jp-muted);
+  font-size: 14px;
+}
+.jp-pulse {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.jp-pulse > div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 8px;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: var(--jp-surface);
+  border: 1px solid var(--jp-line);
+  min-width: 150px;
+}
+.jp-pulse > div svg {
+  grid-row: span 2;
+  color: var(--jp-gold);
+}
+.jp-pulse > div span {
+  font-size: 11px;
+  color: var(--jp-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+.jp-pulse > div strong {
+  font-size: 14px;
+}
+.jp-pulse .jp-pulse-title {
+  display: none;
+}
+
+/* ---------- layout ---------- */
+.jp-layout {
+  display: grid;
+  grid-template-columns: 330px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+.jp-bouts {
+  position: sticky;
+  top: 76px;
+  padding: 10px;
+  max-height: calc(100vh - 92px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.jp-bout-list {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-right: 2px;
+  scrollbar-width: thin;
+}
+.jp-bout {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 10px 9px;
+  border-radius: 11px;
+  border: 1px solid transparent;
+  background: var(--jp-surface-2);
+  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+}
+.jp-bout:hover {
+  border-color: var(--jp-line-2);
+}
+.jp-bout.active {
+  border-color: var(--jp-gold);
+  background: linear-gradient(90deg, var(--jp-gold-soft), var(--jp-surface-2) 70%);
+  box-shadow: inset 3px 0 0 var(--jp-gold);
+}
+.jp-bout-names {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.jp-bout-names > span {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  column-gap: 8px;
+  align-items: center;
+}
+.jp-bout-names .avatar,
+.jp-bout-names img.avatar,
+.jp-bout-names .portrait-small {
+  grid-row: span 2;
+  width: 34px !important;
+  height: 34px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 12%;
+  background: var(--jp-raised);
+  border: 1px solid var(--jp-line);
+}
+.jp-bout-names b {
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jp-bout-names small {
+  font-size: 11px;
+  color: var(--jp-muted);
+}
+.jp-bout-names .ufc-record {
+  font-size: 11px;
+  color: var(--jp-muted);
+  margin-left: 2px;
+}
+.jp-bout-names > span.won b {
+  color: var(--jp-green);
+}
+.jp-bout-names > span.lost {
+  opacity: 0.55;
+}
+.jp-bout-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--jp-muted);
+  flex-wrap: wrap;
+}
+.jp-bout-meta > span:first-child {
+  flex: 1;
+}
+.jp-pick-chip {
+  font-weight: 800;
+  color: var(--jp-gold-2);
+  background: var(--jp-gold-soft);
+  padding: 2px 7px;
+  border-radius: 6px;
+}
+.jp-pick-chip.pending {
+  color: var(--jp-amber);
+  background: color-mix(in srgb, var(--jp-amber) 12%, transparent);
+}
+.jp-result-chip {
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: 6px;
+  background: var(--jp-raised);
+}
+.jp-result-chip.hit {
+  color: var(--jp-green);
+  background: color-mix(in srgb, var(--jp-green) 14%, transparent);
+}
+.jp-result-chip.miss {
+  color: var(--jp-red);
+  background: color-mix(in srgb, var(--jp-red) 12%, transparent);
+}
+.jp-odds {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.8;
+}
+.jp-odds:empty {
+  display: none;
+}
+
+.jp-detail {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.jp-matchnav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.jp-matchnav > span {
+  flex: 1;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--jp-muted);
+}
+
+.jp-final {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--jp-line);
+  background: var(--jp-surface);
+}
+.jp-final > svg {
+  color: var(--jp-gold);
+}
+.jp-final > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.jp-final > div span {
+  font-size: 12px;
+  color: var(--jp-muted);
+}
+.jp-final.hit {
+  border-color: color-mix(in srgb, var(--jp-green) 50%, var(--jp-line));
+}
+.jp-final.miss {
+  border-color: color-mix(in srgb, var(--jp-red) 45%, var(--jp-line));
+}
+.jp-final-tag {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 9px;
+  border-radius: 7px;
+  background: var(--jp-raised);
+}
+.jp-final.hit .jp-final-tag {
+  color: var(--jp-green);
+}
+.jp-final.miss .jp-final-tag {
+  color: var(--jp-red);
+}
+
+/* ---------- face-off (bigger fighters, heads never cut) ---------- */
+.jp-detail .arena {
+  border-radius: 18px !important;
+  border: 1px solid var(--jp-line) !important;
+  background:
+    radial-gradient(60% 90% at 25% 100%, color-mix(in srgb, var(--jp-corner-a) 18%, transparent), transparent 70%),
+    radial-gradient(60% 90% at 75% 100%, color-mix(in srgb, var(--jp-corner-b) 18%, transparent), transparent 70%),
+    linear-gradient(180deg, #0c0e12, #07080a) !important;
+  box-shadow: var(--jp-shadow);
+}
+.jp-detail .arena-topline {
+  background: transparent !important;
+  border-bottom: 1px solid #ffffff10 !important;
+  color: #cfc7b8 !important;
+}
+.jp-detail .arena-fighters {
+  background: none !important;
+}
+.jp-detail .fighter-stage {
+  height: 360px !important;
+  background: none !important;
+  border-top: 0 !important;
+}
+.jp-detail .fighter-stage .portrait,
+.jp-detail .fighter-stage img.portrait {
+  height: 350px !important;
+  width: 320px !important;
+  max-width: 78% !important;
+  bottom: 0 !important;
+  object-fit: contain !important;
+  object-position: center bottom !important;
+  filter: drop-shadow(0 18px 24px #0009);
+}
+.jp-detail .arena-vs {
+  width: 52px !important;
+  height: 52px !important;
+  background: #0b0c0f !important;
+  border: 1px solid var(--jp-gold) !important;
+  color: var(--jp-gold-2) !important;
+  box-shadow: 0 0 0 6px #0b0c0f99, 0 0 24px var(--jp-gold-soft);
+  font-size: 17px !important;
+}
+.jp-detail .stage-title h2 {
+  font-size: 24px !important;
+  font-weight: 900 !important;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 12px #000;
+}
+.jp-detail .stage-record {
+  font-size: 18px !important;
+  font-weight: 800;
+  color: #fff;
+}
+.jp-detail .stage-title .ufc-record {
+  color: var(--jp-gold-2) !important;
+}
+.jp-detail .stage-rank {
+  opacity: 0.06 !important;
+}
+
+/* ---------- detail tabs ---------- */
+.jp-tabs {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 6px;
+  padding: 10px;
+  background: #0b0c0f;
+  border-top: 1px solid #ffffff10;
+}
+.jp-tabs button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 8px 6px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #b3ab9c;
+  background: #15171c;
+  border: 1px solid #23262d;
+  transition: color 0.15s, border-color 0.15s, background 0.15s, transform 0.1s, box-shadow 0.15s;
+}
+.jp-tabs button:hover {
+  color: #f3efe6;
+  border-color: #3a3e47;
+}
+.jp-tabs button.on {
+  color: #14100a;
+  background: linear-gradient(180deg, #f2d386, #d8ad52);
+  border-color: #d8ad52;
+  box-shadow: 0 6px 18px #d8ad5233;
+}
+.jp-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  animation: jp-in 0.22s ease-out;
+}
+@keyframes jp-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+.jp-panel .quick-tape {
+  border-radius: 14px;
+  border: 1px solid var(--jp-line);
+  background: var(--jp-surface);
+  overflow: hidden;
+}
+
+.jp-pick-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+}
+.jp-pick-col,
+.jp-side-col {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-width: 0;
+}
+.jp-side-col > * {
+  margin: 0 !important;
+}
+
+/* ---------- pick card ---------- */
+.jp-pick {
+  position: relative;
+  overflow: hidden;
+  border-top: 3px solid var(--jp-gold);
+}
+.jp-pick-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+}
+.jp-pick-head h3 {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin: 6px 0 8px;
+}
+.jp-pick-ring {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.jp-pick-ring small {
+  font-size: 11px;
+  color: var(--jp-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+.jp-ring {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.jp-ring svg {
+  position: absolute;
+  inset: 0;
+  transform: rotate(-90deg);
+}
+.jp-ring circle {
+  fill: none;
+  stroke-width: 3.6;
+  stroke-linecap: round;
+}
+.jp-ring-track {
+  stroke: var(--jp-raised);
+}
+.jp-ring-value {
+  stroke: var(--jp-gold);
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  transition: stroke-dashoffset 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+  filter: drop-shadow(0 0 4px var(--jp-gold-soft));
+}
+.jp-ring > span {
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+.jp-ring > span small {
+  font-size: 13px;
+  color: var(--jp-muted);
+  margin-left: 1px;
+}
+.jp-tier {
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+.tier-flip {
+  background: var(--jp-raised);
+  color: var(--jp-muted);
+}
+.tier-slight {
+  background: color-mix(in srgb, var(--jp-blue) 16%, transparent);
+  color: var(--jp-blue);
+}
+.tier-solid {
+  background: var(--jp-gold-soft);
+  color: var(--jp-gold-2);
+}
+.tier-strong {
+  background: color-mix(in srgb, var(--jp-gold) 28%, transparent);
+  color: var(--jp-gold-2);
+}
+.tier-exceptional {
+  background: linear-gradient(90deg, var(--jp-gold), var(--jp-gold-2));
+  color: #14100a;
+}
+.tier-pending {
+  background: color-mix(in srgb, var(--jp-amber) 14%, transparent);
+  color: var(--jp-amber);
+}
+.jp-yours {
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--jp-blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.jp-block {
+  margin-top: 16px;
+}
+.jp-reasons {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.jp-reasons li {
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--jp-surface-2);
+  border: 1px solid var(--jp-line);
+}
+.jp-reasons li > svg {
+  color: var(--jp-gold);
+  margin-top: 2px;
+}
+.jp-reasons strong {
+  font-size: 14px;
+  font-weight: 750;
+}
+.jp-reasons p {
+  font-size: 13px;
+  color: var(--jp-muted);
+  line-height: 1.5;
+  margin: 2px 0 0;
+}
+.jp-counter {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-left: 3px solid var(--jp-blue);
+  background: color-mix(in srgb, var(--jp-blue) 8%, transparent);
+  border-radius: 0 10px 10px 0;
+}
+.jp-counter span {
+  display: block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--jp-blue);
+}
+.jp-counter strong {
+  font-size: 14px;
+}
+.jp-counter p {
+  font-size: 13px;
+  color: var(--jp-muted);
+  margin: 2px 0 0;
+}
+.jp-consensus {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.jp-consensus > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.jp-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  padding: 5px 9px;
+  border-radius: 8px;
+  border: 1px solid var(--jp-line);
+  background: var(--jp-surface-2);
+  color: var(--jp-muted);
+}
+.jp-chip b {
+  color: var(--jp-text);
+}
+.jp-chip.agree {
+  border-color: color-mix(in srgb, var(--jp-gold) 55%, var(--jp-line));
+}
+.jp-chip.agree b {
+  color: var(--jp-gold-2);
+}
+.jp-chip.disagree b {
+  color: var(--jp-blue);
+}
+.jp-pending {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--jp-amber) 10%, transparent);
+  color: var(--jp-amber);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.jp-pick-foot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--jp-line);
+}
+.jp-pick-foot .jp-fine {
+  flex: 1;
+}
+.jp-actions {
+  display: flex;
+  gap: 6px;
+}
+.jp-evidence {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 3px 8px;
+  border-radius: 6px;
+  cursor: help;
+}
+.ev-complete {
+  color: var(--jp-green);
+  background: color-mix(in srgb, var(--jp-green) 14%, transparent);
+}
+.ev-good {
+  color: var(--jp-blue);
+  background: color-mix(in srgb, var(--jp-blue) 14%, transparent);
+}
+.ev-limited,
+.ev-pending {
+  color: var(--jp-amber);
+  background: color-mix(in srgb, var(--jp-amber) 14%, transparent);
+}
+
+/* legacy side cards → same card language */
+.jp-side-col .rounds-summary,
+.jp-side-col .market-odds,
+.jp-side-col .finish-feature {
+  border-radius: var(--jp-radius) !important;
+  border: 1px solid var(--jp-line) !important;
+  background: var(--jp-surface) !important;
+  box-shadow: var(--jp-shadow);
+}
+.jp-side-col .rounds-summary {
+  border-top: 3px solid var(--jp-blue) !important;
+}
+.jp-side-col .finish-feature {
+  overflow: hidden;
+}
+.jp-side-col .finish-heading {
+  padding: 12px 16px !important;
+}
+.jp-side-col .market-odds {
+  border-style: dashed !important;
+}
+
+/* ---------- notes / film / gaps ---------- */
+.jp-notes-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 720px;
+}
+.jp-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 650;
+}
+.jp-field textarea {
+  width: 100%;
+  resize: vertical;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--jp-line-2);
+  background: var(--jp-surface-2);
+  color: var(--jp-text);
+  font: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.jp-film {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.jp-film-search {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 14px;
+}
+.jp-film-search > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--jp-surface-2);
+  border: 1px solid var(--jp-line);
+}
+.jp-film-search strong {
+  flex: 1 1 60%;
+}
+.jp-film-search a {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--jp-gold-2);
+}
+.jp-gaps ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13px;
+  color: var(--jp-muted);
+  line-height: 1.7;
+}
+.jp-empty {
+  text-align: center;
+  padding: 40px 24px;
+}
+.jp-empty p {
+  color: var(--jp-muted);
+  max-width: 520px;
+  margin: 6px auto 0;
+}
+
+
+
+/* ---------- pages ---------- */
+.jp-page-head {
+  margin: 10px 0 20px;
+  max-width: 780px;
+}
+.jp-page-head h1 {
+  font-size: clamp(28px, 3.4vw, 44px);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  margin: 6px 0 8px;
+}
+.jp-page-head p {
+  color: var(--jp-muted);
+  font-size: 15px;
+  line-height: 1.55;
+}
+.jp-track {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.jp-stats {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 10px;
+}
+.jp-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: var(--jp-surface);
+  border: 1px solid var(--jp-line);
+}
+.jp-stat span {
+  font-size: 11px;
+  color: var(--jp-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+.jp-stat strong {
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--jp-gold-2);
+  letter-spacing: -0.02em;
+}
+.jp-stat small {
+  font-size: 12px;
+  color: var(--jp-muted);
+}
+.jp-bands {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+.jp-band {
+  display: grid;
+  grid-template-columns: 150px 1fr 48px 70px;
+  gap: 10px;
+  align-items: center;
+  font-size: 13px;
+}
+.jp-bar {
+  height: 10px;
+  border-radius: 99px;
+  background: var(--jp-raised);
+  overflow: hidden;
+}
+.jp-bar i {
+  display: block;
+  height: 100%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--jp-gold), var(--jp-gold-2));
+  transition: width 0.8s;
+}
+.jp-band small {
+  color: var(--jp-muted);
+}
+.jp-ledger {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.jp-ledger-card {
+  padding: 0;
+  overflow: hidden;
+}
+.jp-ledger-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  text-align: left;
+  transition: background 0.15s;
+}
+.jp-ledger-head:hover {
+  background: var(--jp-surface-2);
+}
+.jp-ledger-head > div:nth-child(2) {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.jp-ledger-head > div:nth-child(2) span {
+  font-size: 12px;
+  color: var(--jp-muted);
+}
+.jp-ledger-score {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 6px;
+  align-items: baseline;
+}
+.jp-ledger-score b {
+  font-size: 18px;
+  color: var(--jp-gold-2);
+}
+.jp-ledger-score small {
+  font-size: 11px;
+  color: var(--jp-muted);
+}
+.jp-chev {
+  transition: transform 0.2s;
+  color: var(--jp-muted);
+}
+.jp-ledger-card.open .jp-chev {
+  transform: rotate(180deg);
+}
+.jp-ledger-body {
+  padding: 0 18px 18px;
+  border-top: 1px solid var(--jp-line);
+}
+.jp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin-top: 8px;
+}
+.jp-table th {
+  text-align: left;
+  font-size: 11px;
+  color: var(--jp-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 8px 6px;
+  border-bottom: 1px solid var(--jp-line);
+}
+.jp-table td {
+  padding: 10px 6px;
+  border-bottom: 1px solid var(--jp-line);
+  vertical-align: top;
+}
+.mk.hit {
+  color: var(--jp-green);
+}
+.mk.miss {
+  color: var(--jp-red);
+}
+.mk.none {
+  color: var(--jp-muted);
+  opacity: 0.5;
+}
+.jp-notes summary {
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--jp-gold-2);
+  margin-top: 4px;
+}
+.jp-notes ul {
+  margin: 6px 0;
+  padding-left: 16px;
+  color: var(--jp-muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.jp-review {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 12px;
+  background: var(--jp-surface-2);
+  border: 1px solid var(--jp-line);
+}
+.jp-review h4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 800;
+  margin: 0 0 8px;
+}
+.jp-review h5 {
+  font-size: 13px;
+  font-weight: 800;
+  margin: 14px 0 6px;
+}
+.jp-review ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13px;
+  line-height: 1.65;
+}
+.jp-misses {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+}
+.jp-miss {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--jp-surface);
+  border: 1px solid var(--jp-line);
+}
+.jp-miss strong {
+  font-size: 13px;
+}
+.jp-miss p {
+  font-size: 12px;
+  color: var(--jp-muted);
+  line-height: 1.55;
+  margin: 6px 0 0;
+}
+.jp-cause {
+  margin-left: 6px;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+.c-data {
+  color: var(--jp-amber);
+  background: color-mix(in srgb, var(--jp-amber) 14%, transparent);
+}
+.c-style-read {
+  color: var(--jp-blue);
+  background: color-mix(in srgb, var(--jp-blue) 14%, transparent);
+}
+.c-variance {
+  color: var(--jp-muted);
+  background: var(--jp-raised);
+}
+.c-model {
+  color: var(--jp-red);
+  background: color-mix(in srgb, var(--jp-red) 12%, transparent);
+}
+.jp-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+.jp-sources a {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 12px;
+  color: var(--jp-gold-2);
+}
+.jp-lab {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.jp-lab > .jp-card:first-child {
+  grid-column: 1 / -1;
+}
+.jp-models {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+.jp-models > div {
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--jp-surface-2);
+  border: 1px solid var(--jp-line);
+}
+.jp-models strong {
+  color: var(--jp-gold-2);
+}
+.jp-models p,
+.jp-lab p {
+  font-size: 13px;
+  color: var(--jp-muted);
+  line-height: 1.55;
+  margin: 4px 0 0;
+}
+.jp-scale {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0 10px;
+}
+.jp-scale span {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 5px 10px;
+  border-radius: 999px;
+}
+.jp-list {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--jp-muted);
+}
+.jp-change + .jp-change {
+  margin-top: 12px;
+}
+.jp-change strong {
+  font-size: 13px;
+}
+
+.jp-foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 16px 24px;
+  font-size: 12px;
+  color: var(--jp-muted);
+  border-top: 1px solid var(--jp-line);
+}
+.jp-foot span:first-child {
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: var(--jp-text);
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 1180px) {
+  .jp-pick-grid {
+    grid-template-columns: 1fr;
+  }
+  .jp-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .jp-models {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 960px) {
+  .jp-layout {
+    grid-template-columns: 1fr;
+  }
+  .jp-bouts {
+    position: static;
+    max-height: none;
+  }
+  .jp-bout-list {
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  .jp-bout {
+    flex: 0 0 250px;
+    scroll-snap-align: start;
+  }
+  .jp-tabs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .jp-detail .fighter-stage {
+    height: 320px !important;
+  }
+  .jp-detail .fighter-stage .portrait {
+    height: 300px !important;
+  }
+  .jp-lab {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .jp-main {
+    padding: 12px 16px 32px;
+  }
+  .jp-top {
+    grid-template-columns: 1fr auto;
+    padding: 8px 16px;
+  }
+  .jp-nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-content: center;
+  }
+  .jp-nav button {
+    padding: 7px 12px;
+    font-size: 13px;
+  }
+  .jp-brand span {
+    font-size: 21px;
+  }
+  .jp-rail-wrap {
+    grid-template-columns: 1fr;
+  }
+  .jp-rail-arrow {
+    display: none;
+  }
+  .jp-event {
+    flex-basis: 200px;
+  }
+  .jp-detail .fighter-stage {
+    height: 250px !important;
+  }
+  .jp-detail .fighter-stage .portrait {
+    height: 235px !important;
+    max-width: 92% !important;
+  }
+  .jp-detail .stage-title h2 {
+    font-size: 17px !important;
+  }
+  .jp-tabs button span {
+    font-size: 12px;
+  }
+  .jp-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .jp-band {
+    grid-template-columns: 110px 1fr 40px;
+  }
+  .jp-band small {
+    display: none;
+  }
+  .jp-models {
+    grid-template-columns: 1fr;
+  }
+  .jp-film-search {
+    grid-template-columns: 1fr;
+  }
+  .jp-pick-head h3 {
+    font-size: 22px;
+  }
+  .jp-table th:nth-child(6),
+  .jp-table td:nth-child(6),
+  .jp-table th:nth-child(7),
+  .jp-table td:nth-child(7) {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- edge map ---------- */
+.jp-edges header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.jp-edges header .jp-h3 {
+  margin: 0;
+  text-align: center;
+}
+.jp-edge-name {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.jp-edge-name.a {
+  color: var(--jp-corner-a);
+}
+.jp-edge-name.b {
+  color: var(--jp-corner-b);
+  text-align: right;
+}
+.jp-edge-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.jp-edge {
+  display: grid;
+  grid-template-columns: 1fr 170px 1fr;
+  align-items: center;
+  gap: 10px;
+  cursor: help;
+}
+.jp-edge > span {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 650;
+  color: var(--jp-muted);
+}
+.jp-edge.a > span,
+.jp-edge.b > span {
+  color: var(--jp-text);
+}
+.jp-edge-bar {
+  height: 10px;
+  border-radius: 99px;
+  background: var(--jp-raised);
+  display: flex;
+  overflow: hidden;
+}
+.jp-edge-bar.left {
+  justify-content: flex-end;
+}
+.jp-edge-bar i {
+  display: block;
+  height: 100%;
+  border-radius: 99px;
+  animation: jp-grow 0.9s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.jp-edge-bar.left i {
+  background: linear-gradient(270deg, var(--jp-corner-a), color-mix(in srgb, var(--jp-corner-a) 55%, transparent));
+}
+.jp-edge-bar.right i {
+  background: linear-gradient(90deg, var(--jp-corner-b), color-mix(in srgb, var(--jp-corner-b) 55%, transparent));
+}
+.jp-edge.none .jp-edge-bar {
+  background: none;
+  border: 1px dashed var(--jp-line-2);
+}
+@keyframes jp-grow {
+  from {
+    width: 0;
+  }
+}
+@media (max-width: 640px) {
+  .jp-edge {
+    grid-template-columns: 1fr 120px 1fr;
+    gap: 6px;
+  }
+  .jp-edge > span {
+    font-size: 11px;
+  }
+}
+
+/* ---------- overflow guards ---------- */
+.jp-shell { overflow-x: clip; }
+.jp-main, .jp-layout > *, .jp-rail-wrap > *, .jp-detail, .jp-panel, .jp-pick-grid > *, .jp-bouts { min-width: 0; }
+.jp-tag.gold { color: var(--jp-gold-2); background: var(--jp-gold-soft); border-color: color-mix(in srgb, var(--jp-gold) 40%, var(--jp-line)); }
+@media (max-width: 640px) {
+  .jp-detail .arena-topline { flex-wrap: wrap; }
+  .jp-pick-foot { justify-content: center; }
+  .jp-ledger-head { flex-wrap: wrap; }
+}
+
+/* ---------- display type: condensed, fight-poster caps ---------- */
+.jp-brand span,
+.jp-event-head h1,
+.jp-page-head h1,
+.jp-pick-head h3,
+.jp-detail .stage-title h2,
+.jp-stat strong,
+.jp-ring > span,
+.jp-detail .arena-vs,
+.jp-ledger-score b {
+  font-family: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+}
+.jp-event-head h1,
+.jp-page-head h1,
+.jp-detail .stage-title h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  text-wrap: balance;
+}
+.jp-event-head h1 { font-size: clamp(30px, 4vw, 52px); }
+.jp-pick-head h3 { font-size: 34px; text-transform: uppercase; letter-spacing: 0.01em; }
+.jp-ring > span { font-size: 30px; }
+.jp-brand span { font-size: 30px; letter-spacing: 0.02em; }
+
+/* ---------- projected finish film ---------- */
+.jp-ff { background: #050608; }
+.jp-ff-stage { position: relative; aspect-ratio: 16 / 9; container-type: size; overflow: hidden; background: #050608; }
+.jp-ff-stage video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.jp-ff-tag {
+  position: absolute; left: 0; top: 0; pointer-events: none; white-space: nowrap;
+  font: 800 11px/1 "Barlow Condensed", "Barlow", sans-serif; letter-spacing: .06em; text-transform: uppercase;
+  padding: 4px 7px 3px; border-radius: 3px; color: #f4efe4; background: #0b0c10cc;
+  border-bottom: 2px solid var(--jp-gold, #d8ad52); opacity: 0; transition: opacity .25s ease;
+  backdrop-filter: blur(4px);
+}
+.jp-ff-tag.l { border-bottom-color: #8a8f99; color: #cfd3da; }
+.jp-ff-result {
+  position: absolute; left: 10px; bottom: 10px; padding: 7px 10px; max-width: 70%;
+  background: #0b0c10d9; border-left: 3px solid var(--jp-gold, #d8ad52); color: #f4efe4; pointer-events: none;
+  animation: jp-ff-in .4s ease both;
+}
+.jp-ff-result strong { display: block; font: 800 16px/1.15 "Barlow Condensed", sans-serif; text-transform: uppercase; letter-spacing: .02em; }
+.jp-ff-result span { font-size: 11px; opacity: .75; }
+.jp-ff-replay {
+  position: absolute; right: 10px; bottom: 10px; display: inline-flex; align-items: center; gap: 5px;
+  min-height: 30px; padding: 5px 10px; border: 0; border-radius: 999px; cursor: pointer;
+  background: var(--jp-gold, #d8ad52); color: #15130f; font: 700 12px/1 "Barlow", sans-serif;
+  box-shadow: 0 2px 10px #0008; animation: jp-ff-in .4s ease both;
+}
+.jp-ff-replay:hover { filter: brightness(1.08); }
+.jp-ff-fail { position: absolute; inset: 0; display: grid; place-items: center; color: #bfc4cc; font-size: 13px; padding: 20px; text-align: center; }
+@keyframes jp-ff-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .jp-ff-result, .jp-ff-replay { animation: none; } }
+
+.jp-finish-wide { margin-top: 16px; }
+.jp-finish-wide .finish-feature { border-radius: var(--jp-radius) !important; border: 1px solid var(--jp-line) !important; background: var(--jp-surface) !important; box-shadow: var(--jp-shadow); overflow: hidden; }
+.jp-finish-wide .finish-heading { padding: 12px 16px !important; }
+.jp-finish-wide .jp-ff-tag { font-size: 13px; }
+@media (max-width: 600px) { .jp-ff-tag { font-size: 10px; padding: 3px 5px 2px; } .jp-ff-result { left: 8px; bottom: 8px; padding: 5px 8px; } .jp-ff-result strong { font-size: 13px; } .jp-ff-result span { font-size: 10px; } .jp-ff-replay { right: 8px; bottom: 8px; min-height: 28px; padding: 4px 9px; font-size: 11px; } }
+
+/* ---------- mobile header: brand, 4-tab nav on one line ---------- */
+@media (max-width: 640px) {
+  .jp-brand span { font-size: 22px; }
+  .jp-brand img { width: 32px; height: 32px; }
+  .jp-top-tools .theme-control span, .jp-top-tools label span { display: none; }
+  .jp-nav { overflow-x: auto; justify-content: flex-start; scrollbar-width: none; max-width: 100%; }
+  .jp-nav::-webkit-scrollbar { display: none; }
+  .jp-nav button { white-space: nowrap; padding: 7px 11px; font-size: 12.5px; flex: 0 0 auto; }
+}
+
+/* ---------- audit fixes: mobile nav + match nav ---------- */
+@media (max-width: 640px) {
+  .jp-nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2px; overflow: visible; width: 100%; }
+  .jp-nav button { padding: 8px 2px; font-size: 11.5px; letter-spacing: 0; text-align: center; }
+  .jp-matchnav { display: grid !important; grid-template-columns: auto 1fr auto; grid-template-areas: "label label label" "prev share next"; gap: 6px; }
+  .jp-matchnav > span { grid-area: label; text-align: center; white-space: nowrap; font-size: 11px; }
+  .jp-matchnav > button:nth-of-type(1) { grid-area: prev; }
+  .jp-matchnav > button:nth-of-type(2) { grid-area: share; justify-self: center; }
+  .jp-matchnav > button:nth-of-type(3) { grid-area: next; }
+}
+
+.jp-lab .jp-changelog { grid-column: 1 / -1; }
+.jp-lab .jp-changelog .jp-change { max-width: 900px; }
+@media (max-width: 640px) {
+  .jp-filters { display: grid !important; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 5px; }
+  .jp-filters .jp-promo { min-width: 0; padding: 7px 4px; height: 40px; }
+  .jp-filters .jp-promo img, .jp-filters .jp-promo svg { max-width: 100%; max-height: 18px; }
+  .jp-filters .jp-promo-all { font-size: 11px; white-space: nowrap; }
+}
+
+/* Faceoff names: wrap between words only (balance + overflow-wrap:anywhere split "MAHAMMADALI") */
+.jp-detail .stage-title h2, .jp-detail .pick-name h3, .stage-title h2, .pick-name h3 { overflow-wrap: break-word !important; word-break: normal !important; }
+
+/* Faceoff portraits sit on the stage floor at every width.
+   (The img.portrait rule above out-ranked the smaller-screen heights, so on phones the
+   350px-tall box overflowed the 250px stage and the fighter was clipped out of view.) */
+.jp-detail .fighter-stage img.portrait { top: auto !important; bottom: 0 !important; }
+@media (max-width: 960px) {
+  .jp-detail .fighter-stage img.portrait { height: 310px !important; }
+}
+@media (max-width: 640px) {
+  .jp-detail .fighter-stage { height: 300px !important; }
+  .jp-detail .fighter-stage img.portrait { height: 290px !important; width: 100% !important; max-width: 100% !important; }
+}
+/* Legible names over the portrait: soft dark fade behind the title block */
+.jp-detail .stage-title { left: 0 !important; right: 0 !important; bottom: 0 !important; padding: 56px 22px 16px; background: linear-gradient(180deg, transparent 0%, rgba(6, 7, 9, 0.62) 42%, rgba(6, 7, 9, 0.9) 100%); }
+@media (max-width: 640px) { .jp-detail .stage-title { padding: 44px 12px 12px; } }
+.jp-detail .stage-title h2 { max-width: min(100%, 300px) !important; }
+.jp-lab-stack { display: grid; gap: 14px; align-content: start; min-width: 0; }
+/* Bout list meta: division/rounds on its own line, pick + odds underneath (no mid-phrase wraps) */
+.jp-bout-meta > span:first-child { flex: 1 0 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.jp-bout-meta .jp-odds { margin-left: auto; }
+.jp-pulse > div.soon { border-color: color-mix(in srgb, var(--jp-gold) 55%, var(--jp-line)); box-shadow: 0 0 0 1px color-mix(in srgb, var(--jp-gold) 18%, transparent) inset; }
+.jp-pulse > div.soon strong { color: var(--jp-gold-2); }
+.jp-pulse > div.soon svg { animation: jp-pulse-tick 2.4s ease-in-out infinite; }
+@keyframes jp-pulse-tick { 0%, 100% { transform: none; } 50% { transform: scale(1.12); } }
+@media (prefers-reduced-motion: reduce) { .jp-pulse > div.soon svg { animation: none; } }
+/* PFL's logo is white: make it dark in light mode so it doesn't vanish on light buttons/cards */
+html:not(.dark) .jp-shell img[src*="promotions/pfl"] { filter: brightness(0) saturate(100%); opacity: .85; }
+html:not(.dark) .jp-detail .arena img[src*="promotions/pfl"] { filter: none; opacity: 1; }
+.jp-edges header { column-gap: 10px; }
+@media (max-width: 640px) {
+  .jp-edges header { grid-template-columns: 1fr 1fr; row-gap: 4px; }
+  .jp-edges header .jp-h3 { grid-column: 1 / -1; grid-row: 1; }
+  .jp-edges header .jp-edge-name.b { text-align: right; }
+  /* Track record cards: logo + status on top, full-width title underneath */
+  .jp-ledger-head { display: grid; grid-template-columns: 1fr auto auto; grid-template-areas: "logo tag chev" "title title title"; row-gap: 8px; column-gap: 10px; padding: 12px 14px; }
+  .jp-ledger-head > .promotion-logo { grid-area: logo; justify-self: start; }
+  .jp-ledger-head > div:nth-child(2) { grid-area: title; }
+  .jp-ledger-head > .jp-tag, .jp-ledger-head > .jp-ledger-score { grid-area: tag; }
+  .jp-ledger-head > .jp-chev { grid-area: chev; }
+}
+button.jp-edge { width: 100%; background: none; border: 0; padding: 3px 4px; margin: 0; color: inherit; font: inherit; border-radius: 7px; cursor: pointer; transition: background .15s; }
+button.jp-edge:hover, button.jp-edge.sel { background: var(--jp-surface-2); }
+button.jp-edge.sel > span { color: var(--jp-gold-2); }
+.jp-edge-why { margin: 10px 0 0; padding: 10px 12px; border-radius: 9px; background: var(--jp-surface-2); border-left: 3px solid var(--jp-gold); font-size: 13px; line-height: 1.5; color: var(--jp-text); animation: jp-edge-why .2s ease-out; }
+.jp-edge-why b { color: var(--jp-gold-2); }
+@keyframes jp-edge-why { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+/* DWCS word-mark needs more room than the fixed logo box in the arena header */
+.jp-detail .arena-promotion .promotion-logo-dwcs { width: auto !important; min-width: 0; padding: 4px 9px !important; flex-shrink: 0; }
+.jp-detail .arena-promotion .promotion-logo-dwcs .dwcs-mark { white-space: nowrap; }
+/* Model lab: live distribution of locked picks by tier */
+.jp-spread { margin-top: 14px; display: grid; gap: 7px; }
+.jp-spread-title { font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--jp-muted); margin-bottom: 2px; }
+.jp-spread-row { display: grid; grid-template-columns: 92px 1fr 28px; align-items: center; gap: 10px; font-size: 12.5px; color: var(--jp-muted); }
+.jp-spread-row b { text-align: right; color: var(--jp-text); font-variant-numeric: tabular-nums; }
+.jp-spread-bar { height: 8px; border-radius: 99px; background: var(--jp-raised); overflow: hidden; }
+.jp-spread-bar i { display: block; height: 100%; border-radius: 99px; min-width: 0; transform-origin: left; animation: jp-spread-grow .7s cubic-bezier(.2,.8,.2,1) both; }
+.jp-spread-bar i.tier-flip { background: var(--jp-muted); }
+.jp-spread-bar i.tier-slight { background: var(--jp-blue); }
+.jp-spread-bar i.tier-solid { background: color-mix(in srgb, var(--jp-gold) 60%, transparent); }
+.jp-spread-bar i.tier-strong { background: var(--jp-gold); }
+@keyframes jp-spread-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) { .jp-spread-bar i { animation: none; } }

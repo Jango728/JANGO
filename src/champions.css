@@ -1,0 +1,124 @@
+/* ================= Champions page ================= */
+.jp-ch-tabs { display: inline-flex; gap: 4px; padding: 4px; border: 1px solid var(--jp-line); border-radius: 999px; background: var(--jp-surface); margin: 4px 0 14px; }
+.jp-ch-tabs button { border: 0; background: transparent; color: var(--jp-muted); font: 700 13px/1 "Barlow", sans-serif; padding: 9px 16px; border-radius: 999px; cursor: pointer; transition: background .2s, color .2s; }
+.jp-ch-tabs button.on { background: var(--jp-gold); color: #15130f; }
+.jp-ch-tabs button:not(.on):hover { color: var(--jp-text); background: var(--jp-gold-soft); }
+
+/* belt wall */
+.jp-ch-wall { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(96px, 1fr); gap: 8px; overflow-x: auto; padding: 2px 2px 10px; scrollbar-width: thin; }
+.jp-ch-belt { position: relative; display: flex; flex-direction: column; align-items: stretch; border: 1px solid var(--jp-line); background: linear-gradient(180deg, var(--jp-surface-2), var(--jp-surface)); border-radius: 12px; padding: 0; cursor: pointer; overflow: hidden; transition: transform .2s ease, border-color .2s, box-shadow .2s; }
+.jp-ch-belt:hover { transform: translateY(-2px); border-color: var(--jp-line-2); }
+.jp-ch-belt.on { border-color: var(--jp-gold); box-shadow: 0 0 0 1px var(--jp-gold), 0 8px 22px color-mix(in srgb, var(--jp-gold) 30%, transparent); }
+.jp-ch-belt .img { height: 92px; overflow: hidden; display: flex; justify-content: center; background: radial-gradient(90% 80% at 50% 0%, color-mix(in srgb, var(--jp-gold) 22%, transparent), transparent 70%); }
+.jp-ch-belt img { height: 190px; width: auto; object-fit: cover; object-position: top; margin-top: -2px; filter: saturate(.95); transition: transform .3s ease; }
+.jp-ch-belt:hover img, .jp-ch-belt.on img { transform: scale(1.05); }
+.jp-ch-belt .lbl { display: flex; justify-content: space-between; align-items: baseline; gap: 4px; padding: 6px 8px 7px; border-top: 1px solid var(--jp-line); }
+.jp-ch-belt .lbl b { font: 800 11px/1 "Barlow Condensed", sans-serif; letter-spacing: .08em; color: var(--jp-gold); }
+.jp-ch-belt .lbl span { font: 700 12px/1.1 "Barlow Condensed", sans-serif; text-transform: uppercase; color: var(--jp-text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* stage */
+.jp-ch-stage { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 14px; margin-top: 6px; }
+.jp-ch-hero { position: relative; display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); align-items: end; min-height: 420px; border-radius: var(--jp-radius); overflow: hidden; isolation: isolate;
+  background: radial-gradient(70% 90% at 28% 30%, #3a2a0e 0%, #14110c 55%, #07080a 100%); border: 1px solid #2a2418; color: #f4efe4; box-shadow: var(--jp-shadow); }
+.jp-ch-rays { position: absolute; inset: -40%; z-index: -1; background: repeating-conic-gradient(from 0deg at 28% 42%, #d8ad5220 0deg 6deg, transparent 6deg 18deg); animation: jp-ch-spin 60s linear infinite; mask: radial-gradient(closest-side at 28% 42%, #000 20%, transparent 75%); }
+.jp-ch-rays.small { inset: -60%; }
+@keyframes jp-ch-spin { to { transform: rotate(360deg); } }
+.jp-ch-photo { position: relative; align-self: stretch; display: flex; justify-content: center; align-items: flex-end; overflow: hidden; }
+.jp-ch-photo img { height: 410px; width: auto; max-width: none; object-fit: contain; filter: drop-shadow(0 18px 30px #000a); animation: jp-ch-rise .6s cubic-bezier(.2, .8, .2, 1) both; }
+.jp-ch-shine { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(105deg, transparent 38%, #fff6d855 47%, #ffffff00 56%); transform: translateX(-120%); animation: jp-ch-shine 1.4s .35s ease-out both; mix-blend-mode: screen; }
+@keyframes jp-ch-rise { from { opacity: 0; transform: translateY(24px) scale(.97); } to { opacity: 1; transform: none; } }
+@keyframes jp-ch-shine { to { transform: translateX(120%); } }
+.jp-ch-info { padding: 24px 24px 26px 6px; align-self: center; animation: jp-ch-fade .5s .1s ease both; }
+@keyframes jp-ch-fade { from { opacity: 0; transform: translateX(10px); } to { opacity: 1; transform: none; } }
+.jp-ch-div { display: inline-flex; align-items: center; gap: 6px; font: 800 12px/1 "Barlow Condensed", sans-serif; letter-spacing: .12em; text-transform: uppercase; color: #d8ad52; }
+.jp-ch-hero h2 { margin: 10px 0 2px; font: 900 clamp(38px, 4.6vw, 58px)/.9 "Barlow Condensed", sans-serif; text-transform: uppercase; letter-spacing: -.01em; }
+.jp-ch-hero h2 small { display: block; font-size: .46em; letter-spacing: .04em; color: #cfc6b4; font-weight: 800; }
+.jp-ch-nick { display: block; color: #bfb6a4; font: italic 600 14px/1.3 "Barlow", sans-serif; margin-top: 4px; }
+.jp-ch-badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 12px; }
+.jp-ch-badges span { font: 800 11px/1 "Barlow", sans-serif; letter-spacing: .06em; text-transform: uppercase; padding: 6px 9px; border-radius: 999px; border: 1px solid #ffffff22; color: #e8e2d6; background: #ffffff0a; }
+.jp-ch-badges .gold { background: linear-gradient(135deg, #f2d386, #b98524); color: #1a1408; border: 0; box-shadow: 0 0 18px #d8ad5255; }
+.jp-ch-facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; margin: 0; border-radius: 10px; overflow: hidden; background: #ffffff14; }
+.jp-ch-facts div { background: #0d0e11cc; padding: 9px 10px; }
+.jp-ch-facts dt { font: 700 10px/1 "Barlow", sans-serif; letter-spacing: .08em; text-transform: uppercase; color: #9a9486; }
+.jp-ch-facts dd { margin: 5px 0 0; font: 800 18px/1 "Barlow Condensed", sans-serif; color: #f4efe4; }
+.jp-ch-note { margin: 12px 0 0; font-size: 13px; color: #b8b0a0; line-height: 1.45; }
+.jp-ch-nav { position: absolute; top: 14px; width: 32px; height: 32px; display: grid; place-items: center; border-radius: 50%; border: 1px solid #ffffff22; background: #0b0c10aa; color: #f4efe4; cursor: pointer; transition: background .2s, transform .15s; backdrop-filter: blur(4px); }
+.jp-ch-nav:hover { background: #d8ad52; color: #15130f; }
+.jp-ch-nav:active { transform: scale(.92); }
+.jp-ch-nav.prev { right: 54px; } .jp-ch-nav.next { right: 14px; }
+
+/* contender list */
+.jp-ch-list { border: 1px solid var(--jp-line); border-radius: var(--jp-radius); background: var(--jp-surface); box-shadow: var(--jp-shadow); overflow: hidden; }
+.jp-ch-list-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 13px 16px; border-bottom: 1px solid var(--jp-line); }
+.jp-ch-list-head span { font: 800 15px/1 "Barlow Condensed", sans-serif; text-transform: uppercase; letter-spacing: .03em; }
+.jp-ch-list-head em { font: italic 600 12px/1 "Barlow", sans-serif; color: var(--jp-muted); }
+.jp-ch-list ol { list-style: none; margin: 0; padding: 6px; }
+.jp-ch-list li { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 9px; font-weight: 600; font-size: 14px; animation: jp-ch-slide .45s ease both; transition: background .15s; }
+.jp-ch-list li:hover { background: var(--jp-gold-soft); }
+.jp-ch-list li b { width: 22px; text-align: right; font: 800 16px/1 "Barlow Condensed", sans-serif; color: var(--jp-muted); }
+.jp-ch-list li .nm { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.jp-ch-list li.next { background: linear-gradient(90deg, var(--jp-gold-soft), transparent); }
+.jp-ch-list li.next b { color: var(--jp-gold); }
+.jp-ch-next { font: 800 10px/1 "Barlow", sans-serif; text-transform: uppercase; letter-spacing: .07em; color: var(--jp-gold); border: 1px solid color-mix(in srgb, var(--jp-gold) 45%, transparent); padding: 4px 6px; border-radius: 999px; white-space: nowrap; }
+.jp-ch-move { display: inline-flex; align-items: center; gap: 2px; font: 800 11px/1 "Barlow", sans-serif; }
+.jp-ch-move.up { color: var(--jp-green); } .jp-ch-move.down { color: var(--jp-red); } .jp-ch-move.new { color: var(--jp-blue); }
+@keyframes jp-ch-slide { from { opacity: 0; transform: translateX(12px); } to { opacity: 1; transform: none; } }
+
+/* threat radar */
+.jp-ch-threats { margin-top: 14px; border: 1px solid var(--jp-line); border-radius: var(--jp-radius); background: var(--jp-surface); padding: 14px; box-shadow: var(--jp-shadow); }
+.jp-ch-threats-head { display: flex; gap: 10px; align-items: center; margin-bottom: 12px; color: var(--jp-red); }
+.jp-ch-threats-head strong { display: block; font: 800 16px/1 "Barlow Condensed", sans-serif; text-transform: uppercase; color: var(--jp-text); letter-spacing: .03em; }
+.jp-ch-threats-head span { font-size: 12.5px; color: var(--jp-muted); }
+.jp-ch-threat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.jp-ch-threat { position: relative; border: 1px solid var(--jp-line); border-radius: 12px; padding: 12px 13px; background: var(--jp-surface-2); overflow: hidden; animation: jp-ch-rise .5s ease both; transition: transform .2s, border-color .2s; }
+.jp-ch-threat:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--jp-red) 50%, var(--jp-line)); }
+.jp-ch-threat.t3 { border-color: color-mix(in srgb, var(--jp-red) 45%, var(--jp-line)); }
+.jp-ch-threat.t3::before { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--jp-red) 30%, transparent); animation: jp-ch-pulse 2.4s ease-in-out infinite; }
+@keyframes jp-ch-pulse { 50% { box-shadow: inset 0 0 18px color-mix(in srgb, var(--jp-red) 28%, transparent), inset 0 0 0 1px color-mix(in srgb, var(--jp-red) 50%, transparent); } }
+.jp-ch-threat .top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.jp-ch-threat .tag { font: 800 10px/1 "Barlow", sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--jp-red); }
+.jp-ch-threat .meter { display: inline-flex; gap: 1px; color: var(--jp-line-2); }
+.jp-ch-threat .meter .on { color: var(--jp-red); fill: color-mix(in srgb, var(--jp-red) 35%, transparent); }
+.jp-ch-threat h4 { margin: 8px 0 6px; font: 800 20px/1 "Barlow Condensed", sans-serif; text-transform: uppercase; }
+.jp-ch-threat .stats { display: flex; flex-wrap: wrap; gap: 5px; }
+.jp-ch-threat .stats span { font: 700 11px/1 "Barlow", sans-serif; padding: 4px 7px; border-radius: 6px; background: var(--jp-raised); color: var(--jp-text); }
+.jp-ch-threat p { margin: 9px 0 0; font-size: 13px; line-height: 1.45; color: var(--jp-muted); }
+
+/* p4p */
+.jp-ch-p4p { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.jp-ch-p4p-col { display: flex; flex-direction: column; gap: 10px; }
+.jp-ch-p4p-top { position: relative; display: flex; align-items: flex-end; gap: 14px; height: 230px; padding: 0 18px; border-radius: var(--jp-radius); overflow: hidden; isolation: isolate; background: radial-gradient(70% 100% at 20% 30%, #3a2a0e, #07080a 80%); color: #f4efe4; border: 1px solid #2a2418; }
+.jp-ch-p4p-top img { height: 225px; width: auto; filter: drop-shadow(0 12px 20px #000a); animation: jp-ch-rise .6s ease both; }
+.jp-ch-p4p-top > div:last-child { padding-bottom: 22px; }
+.jp-ch-p4p-top strong { display: block; font: 900 32px/.95 "Barlow Condensed", sans-serif; text-transform: uppercase; margin: 6px 0 4px; }
+.jp-ch-p4p-top em { font: italic 600 13px/1.2 "Barlow", sans-serif; color: #bfb6a4; }
+.jp-ch-foot { margin-top: 14px; }
+
+@media (max-width: 980px) {
+  .jp-ch-stage { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .jp-ch-hero { grid-template-columns: 1fr; min-height: 0; }
+  .jp-ch-photo { height: 300px; }
+  .jp-ch-photo img { height: 300px; }
+  .jp-ch-info { padding: 4px 16px 18px; }
+  .jp-ch-facts dd { font-size: 16px; }
+  .jp-ch-p4p { grid-template-columns: 1fr; }
+  .jp-ch-p4p-top { height: 190px; }
+  .jp-ch-p4p-top img { height: 185px; }
+  .jp-ch-p4p-top strong { font-size: 26px; }
+  .jp-ch-wall { grid-auto-columns: 88px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .jp-ch-rays, .jp-ch-shine, .jp-ch-threat.t3::before { animation: none; }
+  .jp-ch-photo img, .jp-ch-list li, .jp-ch-threat, .jp-ch-info, .jp-ch-p4p-top img { animation: none; }
+}
+
+.jp-ch-scope { font: italic 600 12px/1 "Barlow", sans-serif; text-transform: none; letter-spacing: 0; color: var(--jp-muted); margin-left: 6px; }
+@media (max-width: 640px) {
+  .jp-ch-threats-head { align-items: flex-start; }
+  .jp-ch-threats-head > svg { margin-top: 1px; }
+  .jp-ch-threats-head strong { line-height: 1.15; }
+  .jp-ch-threats-head span { display: block; margin-top: 4px; line-height: 1.45; }
+  .jp-ch-keys { display: none; }
+}
