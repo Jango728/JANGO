@@ -1,0 +1,259 @@
+{
+  "event": "UFC 331: Van vs. Pantoja 2",
+  "date": "2026-09-19",
+  "researchedAt": "2026-09-23",
+  "sources": {
+    "espn": "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+    "mmaFighting": "https://www.mmafighting.com/ufc/510861/ufc-331-results-van-vs-pantoja-2",
+    "reuters": "https://www.reuters.com/sports/van-dominates-pantoja-retain-flyweight-belt-ufc-331-2026-09-20/"
+  },
+  "bouts": [
+    {
+      "cardOrder": 1,
+      "section": "main",
+      "winner": "Joshua Van",
+      "loser": "Alexandre Pantoja",
+      "method": "DEC",
+      "detail": "Unanimous decision",
+      "round": 5,
+      "time": "5:00",
+      "scheduledRounds": 5,
+      "elapsedSeconds": 1500,
+      "totalLine": 2.5,
+      "thresholdSeconds": 750,
+      "overUnder": "Over",
+      "sourceIds": [
+        "espn",
+        "mmaFighting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 2,
+      "section": "main",
+      "winner": "Arman Tsarukyan",
+      "loser": "Mauricio Ruffy",
+      "method": "KO",
+      "detail": "KO/TKO (elbows)",
+      "round": 1,
+      "time": "4:56",
+      "scheduledRounds": 5,
+      "elapsedSeconds": 296,
+      "totalLine": 2.5,
+      "thresholdSeconds": 750,
+      "overUnder": "Under",
+      "sourceIds": [
+        "espn",
+        "mmaFighting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 3,
+      "section": "main",
+      "winner": "Patricio Pitbull",
+      "loser": "Dooho Choi",
+      "method": "KO",
+      "detail": "KO/TKO (punches)",
+      "round": 1,
+      "time": "3:28",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 208,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Under",
+      "sourceIds": [
+        "espn",
+        "mmaFighting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 4,
+      "section": "main",
+      "winner": "Alonzo Menifield",
+      "loser": "Iwo Baraniewski",
+      "method": "DEC",
+      "detail": "Split decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "espn",
+        "mmaFighting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 5,
+      "section": "main",
+      "winner": "Sean Sharaf",
+      "loser": "Gable Steveson",
+      "method": "KO",
+      "detail": "KO (punch)",
+      "round": 1,
+      "time": "0:12",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 12,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Under",
+      "sourceIds": [
+        "espn",
+        "mmaFighting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 6,
+      "section": "prelims",
+      "winner": "Marlon Vera",
+      "loser": "Charles Jourdain",
+      "method": "TKO",
+      "detail": "TKO (punches)",
+      "round": 3,
+      "time": "2:02",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 722,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "espn",
+        "mmaFighting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 7,
+      "section": "prelims",
+      "winner": "Robelis Despaigne",
+      "loser": "Tai Tuivasa",
+      "method": "DEC",
+      "detail": "Split decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "espn",
+        "mmaFighting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 8,
+      "section": "prelims",
+      "winner": "Michael Aswell Jr.",
+      "loser": "JooSang Yoo",
+      "method": "DEC",
+      "detail": "Split decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "espn",
+        "mmaFighting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 9,
+      "section": "early",
+      "winner": "Ryan Gandra",
+      "loser": "Ozzy Diaz",
+      "method": "KO",
+      "detail": "KO (punches)",
+      "round": 1,
+      "time": "2:04",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 124,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Under",
+      "sourceIds": [
+        "espn",
+        "mmaFighting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 10,
+      "section": "early",
+      "winner": "Edmen Shahbazyan",
+      "loser": "Brunno Ferreira",
+      "method": "DEC",
+      "detail": "Unanimous decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "espn",
+        "mmaFighting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 11,
+      "section": "early",
+      "winner": "Casey O'Neill",
+      "loser": "Eduarda Moura",
+      "method": "SUB",
+      "detail": "Armbar",
+      "round": 1,
+      "time": "3:22",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 202,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Under",
+      "sourceIds": [
+        "espn",
+        "mmaFighting"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 12,
+      "section": "early",
+      "winner": "Joanderson Brito",
+      "loser": "Giga Chikadze",
+      "method": "TKO",
+      "detail": "TKO (ground-and-pound)",
+      "round": 1,
+      "time": "1:57",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 117,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Under",
+      "sourceIds": [
+        "espn",
+        "mmaFighting"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "summary": "Chronological review of the model version published before UFC 331.",
+  "evidenceNotes": [
+    "Winner, round and time cross-checked against ESPN and MMA Fighting."
+  ],
+  "uncertainties": [
+    "Method descriptions are normalized for comparison."
+  ]
+}

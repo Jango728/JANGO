@@ -1,0 +1,323 @@
+{
+  "event": "Noche UFC: Silva vs Delgado",
+  "date": "2026-09-12",
+  "researchedAt": "2026-09-14",
+  "sources": {
+    "sherdog": "https://www.sherdog.com/events/UFC-Fight-Night-288-Noche-UFC-4-113632",
+    "sherdogPlay": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770",
+    "espn": "https://www.espn.com/mma/fightcenter/_/id/600060772/league/ufc",
+    "si": "https://www.si.com/fannation/mma/news/noche-ufc-free-live-stream-results-highlights-for-jean-silva-vs-jose-delgado",
+    "officialCard": "https://www.ufc.com/event/ufc-fight-night-september-12-2026",
+    "officialWeights": "https://www.ufc.com/news/noche-ufc-silva-delgado-official-weigh-in-results",
+    "officialScorecards": "https://www.ufc.com/news/noche-ufc-official-scorecards-silva-vs-delgado",
+    "officialPortuguese": "https://www.ufc.com.br/news/noche-ufc-silva-delgado-resultados"
+  },
+  "bouts": [
+    {
+      "cardOrder": 1,
+      "section": "main",
+      "winner": "Jean Silva",
+      "loser": "Jose Miguel Delgado",
+      "method": "SUB",
+      "detail": "Rear-naked choke",
+      "round": 3,
+      "time": "2:57",
+      "scheduledRounds": 5,
+      "elapsedSeconds": 777,
+      "totalLine": 2.5,
+      "thresholdSeconds": 750,
+      "overUnder": "Over",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 2,
+      "section": "main",
+      "winner": "Brandon Moreno",
+      "loser": "Joseph Morales",
+      "method": "DEC",
+      "detail": "Split decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 3,
+      "section": "main",
+      "winner": "Tommy McMillen",
+      "loser": "Marwan Rahiki",
+      "method": "DEC",
+      "detail": "Unanimous decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 4,
+      "section": "main",
+      "winner": "Alexa Grasso",
+      "loser": "Manon Fiorot",
+      "method": "DEC",
+      "detail": "Unanimous decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 5,
+      "section": "main",
+      "winner": "Curtis Blaydes",
+      "loser": "Waldo Cortes Acosta",
+      "method": "DEC",
+      "detail": "Unanimous decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 6,
+      "section": "main",
+      "winner": "David Martinez",
+      "loser": "Dan Ige",
+      "method": "DEC",
+      "detail": "Unanimous decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 7,
+      "section": "prelims",
+      "winner": "Tim Elliott",
+      "loser": "Edgar Chairez",
+      "method": "DEC",
+      "detail": "Unanimous decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 8,
+      "section": "prelims",
+      "winner": "Ignacio Bahamondes",
+      "loser": "Muslim Salikhov",
+      "method": "DEC",
+      "detail": "Unanimous decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 9,
+      "section": "prelims",
+      "winner": "Yousri Belgaroui",
+      "loser": "Djorden Santos",
+      "method": "KO/TKO",
+      "detail": "TKO (punches)",
+      "round": 1,
+      "time": "4:25",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 265,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Under",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 10,
+      "section": "prelims",
+      "winner": "Tommy Gantt",
+      "loser": "Drakkar Klose",
+      "method": "SUB",
+      "detail": "Reverse / inverted triangle choke",
+      "round": 3,
+      "time": "2:46",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 766,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 11,
+      "section": "prelims",
+      "winner": "Rongzhu",
+      "loser": "Rafa Garcia",
+      "method": "DEC",
+      "detail": "Unanimous decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 12,
+      "section": "prelims",
+      "winner": "Sean King III",
+      "loser": "Jessie Rosas",
+      "method": "KO/TKO",
+      "detail": "KO (slam and punches)",
+      "round": 1,
+      "time": "0:36",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 36,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Under",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    },
+    {
+      "cardOrder": 13,
+      "section": "prelims",
+      "winner": "Regina Tarin",
+      "loser": "JJ Aldrich",
+      "method": "DEC",
+      "detail": "Unanimous decision",
+      "round": 3,
+      "time": "5:00",
+      "scheduledRounds": 3,
+      "elapsedSeconds": 900,
+      "totalLine": 1.5,
+      "thresholdSeconds": 450,
+      "overUnder": "Over",
+      "sourceIds": [
+        "officialCard",
+        "sherdog",
+        "si"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "summary": {
+    "bouts": 13,
+    "decisions": 9,
+    "submissions": 2,
+    "knockouts": 2,
+    "overs": 11,
+    "unders": 2
+  },
+  "evidenceNotes": [
+    "Parent/owner agent inspected official UFC event page in browser and confirmed all actual results, including Silva submission round 3 at 2:57; matches Sherdog card.",
+    "Full 13-bout winners, methods, rounds and exact times directly observed on Sherdog event page. Sports Illustrated independently corroborates every winner and method plus all four exact finish times.",
+    "ESPN Fightcenter also corroborates all 13 outcomes and times. Use sparingly in final citations because retrieved source word limit is 25.",
+    "Official UFC weigh-in page confirms five scheduled rounds for main event and three for every other bout.",
+    "UFC official Portuguese article search snippet explicitly confirms Silva won in round 3. Official scorecard snippet corroborates Gantt reverse triangle R3 2:46 and Tarin/Elliott decisions.",
+    "Main event elapsed duration 12:57 exceeds 2.5-round threshold 12:30 by 27 seconds.",
+    "Every non-main threshold is 1.5 rounds = 7:30 total elapsed (2:30 of round 2). Only Belgaroui/Santos and King/Rosas went Under.",
+    "UFC English event/results pages initially returned pre-fight cached versions. Direct UFC opens returned 403. UFCStats completed-events URL returned internal error and searches found no relevant event record."
+  ],
+  "uncertainties": [
+    {
+      "issue": "MMA Mania 'Sooo ... About last night' news summary says Silva finished in round 2",
+      "resolution": "Discard as erroneous summary. Sherdog event card + Jose Delgado fighter history + ESPN + SI list R3 2:57, and official UFC Brazilian result snippet says round 3.",
+      "erroneousSource": "https://www.mmamania.com/ufc-results/471683/noche-ufc-4-results-sooo-about-last-night-silva-vs-delgado"
+    },
+    {
+      "issue": "Different name forms",
+      "resolution": "Rongzhu = Zhu Rong / Rong Zhu; Tommy Gantt = Thomas Gantt; Sean King III = Sean King. Use UFC display names."
+    },
+    {
+      "issue": "Finish nomenclature",
+      "resolution": "Sherdog lists King KO (Slam and Punches); ESPN says KO/TKO, slam. Belgaroui is TKO (punches), category KO/TKO. Gantt reverse triangle / inverted triangle refer to same finish."
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+ "eventId": "ufc333",
+ "title": "UFC 333: Volkanovski vs. Evloev",
+ "date": "2026-10-24",
+ "promotion": "UFC",
+ "forecast": {
+  "engine": "1.0",
+  "frozenAt": "2026-09-25T01:34:08.017Z",
+  "basis": "Engine output frozen before the event. Never edited after results.",
+  "bouts": [
+   {
+    "a": "Alexander Volkanovski",
+    "b": "Movsar Evloev",
+    "pick": "Movsar Evloev",
+    "confidence": 71,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 2.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 5,
+    "evidence": 92,
+    "reasons": [
+     "Better recent results: Last 10: Movsar Evloev 10-0-0. Last 10: Alexander Volkanovski 7-3-0.",
+     "Age curve: Alexander Volkanovski is 37; Movsar Evloev is 32.",
+     "On a run: Movsar Evloev has won 10 straight (Alexander Volkanovski: 2).",
+     "Proven at this level: UFC record: Movsar Evloev 10-0, Alexander Volkanovski 15-3.",
+     "Size and range: 1″ longer reach, 1″ taller for Movsar Evloev."
+    ]
+   },
+   {
+    "a": "Petr Yan",
+    "b": "Merab Dvalishvili",
+    "pick": "Merab Dvalishvili",
+    "confidence": 51,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 2.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 5,
+    "evidence": 93,
+    "reasons": [
+     "Better recent results: Last 10: Merab Dvalishvili 9-1-0. Last 10: Petr Yan 6-4-0.",
+     "Cleaner losses: Petr Yan has 4 losses in the last 10, to opponents averaging a 79% win rate; Merab Dvalishvili has 1.",
+     "Better over 5 rounds: In fights reaching round 3: Merab Dvalishvili 8-1-0, Petr Yan 6-4-0.",
+     "Proven at this level: UFC record: Merab Dvalishvili 14-3, Petr Yan 12-4.",
+     "Real finishing threat: Merab Dvalishvili finished 2 of 9 recent wins; Petr Yan has been stopped 0 times in the last 10."
+    ]
+   },
+   {
+    "a": "Lone'er Kavanagh",
+    "b": "Ramazan Temirov",
+    "pick": "Ramazan Temirov",
+    "confidence": 70,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Real finishing threat: Ramazan Temirov finished 7 of 10 recent wins; Lone'er Kavanagh has been stopped 2 times in the last 10.",
+     "Better recent results: Last 10: Ramazan Temirov 10-0-0. Last 10: Lone'er Kavanagh 8-2-0.",
+     "On a run: Ramazan Temirov has won 10 straight.",
+     "Proven at this level: UFC record: Ramazan Temirov 3-0, Lone'er Kavanagh 3-2.",
+     "Cleaner losses: Lone'er Kavanagh has 2 losses in the last 10, to opponents averaging a 64% win rate; Ramazan Temirov has 0."
+    ]
+   },
+   {
+    "a": "Alexander Volkov",
+    "b": "Rizvan Kuniev",
+    "pick": "Rizvan Kuniev",
+    "confidence": 50,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Real finishing threat: Rizvan Kuniev finished 6 of 8 recent wins; Alexander Volkov has been stopped 1 time in the last 10.",
+     "Age curve: Alexander Volkov is 37; Rizvan Kuniev is 34.",
+     "Better recent results: Last 10: Rizvan Kuniev 8-1-0 (1 NC). Last 10: Alexander Volkov 7-3-0.",
+     "Cleaner losses: Alexander Volkov has 3 losses in the last 10, to opponents averaging a 78% win rate; Rizvan Kuniev has 1.",
+     "Better when it goes long: In fights reaching round 3: Rizvan Kuniev 6-1-0, Alexander Volkov 4-2-0."
+    ]
+   },
+   {
+    "a": "Aaron Pico",
+    "b": "Losene Keita",
+    "pick": "Losene Keita",
+    "confidence": 58,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 76,
+    "reasons": [
+     "Real finishing threat: Losene Keita finished 5 of 8 recent wins; Aaron Pico has been stopped 1 time in the last 10.",
+     "Size and range: 2″ longer reach for Losene Keita.",
+     "Cleaner losses: Aaron Pico has 2 losses in the last 10, to opponents averaging a 84% win rate; Losene Keita has 2."
+    ]
+   },
+   {
+    "a": "Dominick Reyes",
+    "b": "Azamat Murzakanov",
+    "pick": "Azamat Murzakanov",
+    "confidence": 61,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Real finishing threat: Azamat Murzakanov finished 7 of 9 recent wins; Dominick Reyes has been stopped 4 times in the last 10.",
+     "Better recent results: Last 10: Azamat Murzakanov 9-1-0. Last 10: Dominick Reyes 5-5-0.",
+     "Cleaner losses: Dominick Reyes has 5 losses in the last 10, to opponents averaging a 77% win rate; Azamat Murzakanov has 1.",
+     "Better when it goes long: In fights reaching round 3: Azamat Murzakanov 4-1-0, Dominick Reyes 1-1-0.",
+     "Proven at this level: UFC record: Azamat Murzakanov 6-1, Dominick Reyes 10-5."
+    ]
+   },
+   {
+    "a": "Nikita Krylov",
+    "b": "Abdul-Rakhman Yakhyaev",
+    "pick": "Abdul-Rakhman Yakhyaev",
+    "confidence": 82,
+    "tier": "Exceptional",
+    "rounds": {
+     "line": 1.5,
+     "side": "Under"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Better recent results: Last 10: Abdul-Rakhman Yakhyaev 10-0-0. Last 10: Nikita Krylov 5-5-0.",
+     "Real finishing threat: Abdul-Rakhman Yakhyaev finished 9 of 10 recent wins; Nikita Krylov has been stopped 4 times in the last 10.",
+     "On a run: Abdul-Rakhman Yakhyaev has won 10 straight.",
+     "Cleaner losses: Nikita Krylov has 5 losses in the last 10, to opponents averaging a 72% win rate; Abdul-Rakhman Yakhyaev has 0.",
+     "Age curve: Nikita Krylov is 34; Abdul-Rakhman Yakhyaev is 25."
+    ]
+   },
+   {
+    "a": "Abus Magomedov",
+    "b": "Cam Rowston",
+    "pick": "Cam Rowston",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Better recent results: Last 10: Cam Rowston 9-1-0. Last 10: Abus Magomedov 7-3-0.",
+     "Real finishing threat: Cam Rowston finished 7 of 9 recent wins; Abus Magomedov has been stopped 2 times in the last 10.",
+     "On a run: Cam Rowston has won 7 straight (Abus Magomedov: 1).",
+     "Age curve: Abus Magomedov is 36; Cam Rowston is 31.",
+     "Cleaner losses: Abus Magomedov has 3 losses in the last 10, to opponents averaging a 79% win rate; Cam Rowston has 1."
+    ]
+   },
+   {
+    "a": "Grant Dawson",
+    "b": "Nurullo Aliev",
+    "pick": "Nurullo Aliev",
+    "confidence": 55,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Better recent results: Last 10: Nurullo Aliev 10-0-0. Last 10: Grant Dawson 7-2-1.",
+     "On a run: Nurullo Aliev has won 10 straight (Grant Dawson: 1).",
+     "Cleaner losses: Grant Dawson has 2 losses in the last 10, to opponents averaging a 70% win rate; Nurullo Aliev has 0.",
+     "Better when it goes long: In fights reaching round 3: Nurullo Aliev 8-0-0, Grant Dawson 6-0-1."
+    ]
+   },
+   {
+    "a": "Jacob Malkoun",
+    "b": "Abubakar Vagaev",
+    "pick": "Abubakar Vagaev",
+    "confidence": 57,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 82,
+    "reasons": [
+     "Better recent results: Last 10: Abubakar Vagaev 9-1-0. Last 10: Jacob Malkoun 7-3-0.",
+     "Beat the better opposition: Opponents Abubakar Vagaev beat (last 10) had a 72% win rate going in; Jacob Malkoun's had 74%.",
+     "Cleaner losses: Jacob Malkoun has 3 losses in the last 10, to opponents averaging a 68% win rate; Abubakar Vagaev has 1.",
+     "On a run: Abubakar Vagaev has won 4 straight (Jacob Malkoun: 3).",
+     "Size and range: 2″ taller for Abubakar Vagaev."
+    ]
+   },
+   {
+    "a": "Colby Thicknesse",
+    "b": "Asaf Chopurov",
+    "pick": "Asaf Chopurov",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Submission",
+    "scheduledRounds": 3,
+    "evidence": 77,
+    "reasons": [
+     "Beat the better opposition: Opponents Asaf Chopurov beat (last 10) had a 69% win rate going in; Colby Thicknesse's had 60%.",
+     "Real finishing threat: Asaf Chopurov finished 8 of 10 recent wins; Colby Thicknesse has been stopped 0 times in the last 10.",
+     "On a run: Asaf Chopurov has won 10 straight (Colby Thicknesse: 2).",
+     "Better recent results: Last 10: Asaf Chopurov 10-0-0. Last 10: Colby Thicknesse 9-1-0.",
+     "Cleaner losses: Colby Thicknesse has 1 loss in the last 10, to opponents averaging a 70% win rate; Asaf Chopurov has 0."
+    ]
+   }
+  ]
+ },
+ "results": null,
+ "review": null
+}

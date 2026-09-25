@@ -1,0 +1,928 @@
+{
+  "checkedAt": "2026-09-24",
+  "method": "Tapology event pages (bouts, record, height, reach, age-at-fight, cancellations) cross-checked against UFC.com event pages (order/sections), UFCStats event + fighter pages (stance/official tale of the tape; used as tiebreaker where Tapology and site disagree) and news reports. Odds = BestFightOdds, median of listed books converted via implied probability; display only. Ages are as of 2026-09-24.",
+  "events": [
+    {
+      "event": "ufc-fn-289",
+      "sources": [
+        "https://www.tapology.com/fightcenter/events/145961-ufc-fight-night",
+        "https://www.ufc.com/event/ufc-fight-night-september-26-2026",
+        "http://ufcstats.com/event-details/7e654edcddd71550",
+        "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+        "https://www.mmafighting.com/ufc/512297/sedriques-dumas-gets-new-opponent-on-2-days-notice-at-ufc-vegas-121",
+        "https://mmajunkie.usatoday.com/story/sports/ufc/2026/09/24/ufc-vegas-121-sedriques-dumas-luis-hernandez-cop-vs-criminal-fight-booked/91923830007/"
+      ],
+      "boutChanges": [
+        {
+          "type": "removed",
+          "detail": "Mickey Gall vs. Sedriques Dumas cancelled - Gall not medically cleared (Tapology cancellations); gone from UFC.com and UFCStats.",
+          "a": "Mickey Gall",
+          "b": "Sedriques Dumas",
+          "division": "Middleweight",
+          "rounds": 3,
+          "section": "Prelims"
+        },
+        {
+          "type": "replaced",
+          "detail": "Luis Hernandez (8-0) steps in on 2 days' notice vs. Sedriques Dumas at LIGHT HEAVYWEIGHT (205 lb), on the MAIN CARD as bout #3 (UFC.com, Tapology, UFCStats, MMA Fighting).",
+          "a": "Luis Hernandez",
+          "b": "Sedriques Dumas",
+          "division": "Light Heavyweight",
+          "rounds": 3,
+          "section": "Main Card",
+          "order": 3,
+          "a_stats": {
+            "record": "8-0-0",
+            "height_in": 69,
+            "reach_in": 73,
+            "stance": "Southpaw",
+            "age": 30,
+            "dob": "1996-08-22",
+            "source": "http://ufcstats.com/fighter-details/5dad1e8a516e6477"
+          }
+        },
+        {
+          "type": "section",
+          "detail": "Norma Dumont vs. Ailin Perez is the CO-MAIN EVENT (Main Card #2), not Prelims #9. Still 3 rounds (non-title).",
+          "a": "Norma Dumont",
+          "b": "Ailin Perez",
+          "division": "Women's Bantamweight",
+          "rounds": 3,
+          "section": "Main Card",
+          "order": 2
+        },
+        {
+          "type": "section",
+          "detail": "Brady Hiestand vs. Rinya Nakamura headlines the PRELIMS (bout 6 overall), not Main Card #5.",
+          "a": "Brady Hiestand",
+          "b": "Rinya Nakamura",
+          "division": "Bantamweight",
+          "rounds": 3,
+          "section": "Prelims",
+          "order": 6
+        },
+        {
+          "type": "section",
+          "detail": "Rodolfo Vieira vs. Robert Bryczek is on the PRELIMS (bout 7 overall), not Main Card #2.",
+          "a": "Rodolfo Vieira",
+          "b": "Robert Bryczek",
+          "division": "Middleweight",
+          "rounds": 3,
+          "section": "Prelims",
+          "order": 7
+        },
+        {
+          "type": "reordered",
+          "detail": "Full order per UFC.com (matches Tapology/UFCStats). MAIN CARD: 1 Rosas Jr.-Barcelos (5 rds), 2 Dumont-Perez, 3 Hernandez-Dumas, 4 Osmanli-Akylbek, 5 Amaya-Black. PRELIMS: 6 Hiestand-Nakamura, 7 Vieira-Bryczek, 8 Bellato-Edwards, 9 Brener-Harrell, 10 Jackson-Simon, 11 Castaneda-Alatengheili, 12 Demopoulos-Jauregui. No early prelims.",
+          "a": "(card)",
+          "b": "(card)",
+          "division": "-",
+          "rounds": 3,
+          "section": "Main Card"
+        }
+      ],
+      "roundsFixes": [],
+      "roundsCheck": "OK - only Rosas Jr. vs Barcelos is 5 rounds. Osmanli-Akylbek and Amaya-Black are the TUF 34 finals (UFCStats belt icon) but Tapology lists 3 x 5; no change.",
+      "fighterFixes": [
+        {
+          "name": "Mahammadali Osmanli",
+          "field": "stance",
+          "site": "--",
+          "correct": "Southpaw",
+          "source": "http://ufcstats.com/fighter-details/2bbdbc925f4323ac"
+        },
+        {
+          "name": "Ilimbek Akylbek",
+          "field": "stance",
+          "site": "--",
+          "correct": "Orthodox",
+          "source": "http://ufcstats.com/fighter-details/130b65b53f30f33c"
+        },
+        {
+          "name": "Melissa Amaya",
+          "field": "stance",
+          "site": "--",
+          "correct": "Orthodox",
+          "source": "http://ufcstats.com/fighter-details/71758ab9f337716c"
+        },
+        {
+          "name": "Christian Edwards",
+          "field": "stance",
+          "site": "--",
+          "correct": "Southpaw",
+          "source": "http://ufcstats.com/fighter-details/f5d82eccdea4e2dd"
+        },
+        {
+          "name": "Rodolfo Bellato",
+          "field": "reach_in",
+          "site": 75,
+          "correct": 77,
+          "source": "http://ufcstats.com/fighter-details/69898645d600abdb",
+          "note": "Tapology 77.5"
+        },
+        {
+          "name": "Elves Brener",
+          "field": "reach_in",
+          "site": 73,
+          "correct": 72,
+          "source": "http://ufcstats.com/fighter-details/48a9a128784d53d1",
+          "note": "Tapology 72.0"
+        }
+      ],
+      "fighterNotes": [
+        "Brady Hiestand record: site 9-2-0 matches UFCStats; Tapology shows 8-2 - left as is.",
+        "Osmanli/Akylbek/Amaya: UFCStats records (13-1, 11-3, 9-0) include TUF exhibition bouts; official pro records on site (12-1, 10-3, 8-0) match Tapology - no change.",
+        "Osmanli and Akylbek reach are not published by UFCStats/Tapology - keep '—'.",
+        "Rodolfo Vieira turns 37 on Sep 25 (36 today, 37 on fight night)."
+      ],
+      "odds": [
+        {
+          "a": "Raul Rosas Jr.",
+          "b": "Raoni Barcelos",
+          "a_odds": -165,
+          "b_odds": 132,
+          "source": "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "Norma Dumont",
+          "b": "Ailin Perez",
+          "a_odds": 118,
+          "b_odds": -146,
+          "source": "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "Luis Hernandez",
+          "b": "Sedriques Dumas",
+          "a_odds": -235,
+          "b_odds": 185,
+          "source": "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+          "books": 5,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "Mahammadali Osmanli",
+          "b": "Ilimbek Akylbek",
+          "a_odds": -292,
+          "b_odds": 226,
+          "source": "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "Melissa Amaya",
+          "b": "Tina Black",
+          "a_odds": 182,
+          "b_odds": -230,
+          "source": "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "Brady Hiestand",
+          "b": "Rinya Nakamura",
+          "a_odds": 282,
+          "b_odds": -377,
+          "source": "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "Rodolfo Vieira",
+          "b": "Robert Bryczek",
+          "a_odds": -162,
+          "b_odds": 129,
+          "source": "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "Rodolfo Bellato",
+          "b": "Christian Edwards",
+          "a_odds": -181,
+          "b_odds": 146,
+          "source": "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "Elves Brener",
+          "b": "Josiah Harrell",
+          "a_odds": 110,
+          "b_odds": -133,
+          "source": "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "Montel Jackson",
+          "b": "Ricky Simon",
+          "a_odds": -207,
+          "b_odds": 168,
+          "source": "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "John Castaneda",
+          "b": "Alatengheili",
+          "a_odds": -347,
+          "b_odds": 267,
+          "source": "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "Vanessa Demopoulos",
+          "b": "Yazmin Jauregui",
+          "a_odds": 587,
+          "b_odds": -953,
+          "source": "https://www.bestfightodds.com/events/ufc-vegas-121-4368",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        }
+      ]
+    },
+    {
+      "event": "ufc332",
+      "sources": [
+        "https://www.tapology.com/fightcenter/events/146635-ufc-332",
+        "https://www.ufc.com/event/ufc-332",
+        "http://ufcstats.com/event-details/ad3fdba28a7540cf",
+        "https://www.bestfightodds.com/events/ufc-332-4330",
+        "https://www.bestfightodds.com/events/ufc-332-4378"
+      ],
+      "boutChanges": [
+        {
+          "type": "section",
+          "detail": "Anthony Wint vs. Lucas Armand is on the PRELIMS (4th/last prelim, bout 9 overall, right after McGhee-Sopaj), not the last Early Prelim (UFC.com).",
+          "a": "Anthony Wint",
+          "b": "Lucas Armand",
+          "division": "Heavyweight",
+          "rounds": 3,
+          "section": "Prelims",
+          "order": 9
+        },
+        {
+          "type": "reordered",
+          "detail": "Order per UFC.com / UFCStats. MAIN CARD: Silva-Wang (5, title), Figueiredo-Talbott, Green-Ribovics, Soldic-Williams, Gautier-Kopylov. PRELIMS: Rodriguez-Coria, Pinas-Pulyaev, McGhee-Sopaj, Wint-Armand. EARLY PRELIMS: Walker-Parkin, Dos Anjos-Hernandez, Vettori-Naurdiev, McGee-Nolan. Site already matches except Wint-Armand. (Tapology orders the main card Silva, Talbott-Figueiredo, Kopylov-Gautier, Green-Ribovics, Williams-Soldic and does not split early prelims - UFC.com used as authority.)",
+          "a": "(card)",
+          "b": "(card)",
+          "division": "-",
+          "rounds": 3,
+          "section": "Prelims"
+        }
+      ],
+      "unconfirmed": [
+        "Tapology also lists Piera Rodriguez vs. Talita Alencar (women's strawweight) on this card, but UFC.com and UFCStats do not, and Ag. Fight (Sep 11) / Wikipedia place that bout on UFC Fight Night 292 (Oct 31, Las Vegas). NOT added - re-check closer to fight week."
+      ],
+      "roundsFixes": [],
+      "roundsCheck": "OK - Natalia Silva vs Wang Cong is for the VACANT women's flyweight title (Shevchenko out injured), 5 rounds; site already has 5. All others 3.",
+      "fighterFixes": [
+        {
+          "name": "Roberto Soldić",
+          "field": "stance",
+          "site": "--",
+          "correct": "Southpaw",
+          "source": "http://ufcstats.com/fighter-details/5a229cbd9cdd28ca"
+        },
+        {
+          "name": "Lucas Armand",
+          "field": "stance",
+          "site": "--",
+          "correct": "Orthodox",
+          "source": "http://ufcstats.com/fighter-details/20e04625a5395a06"
+        },
+        {
+          "name": "Imanol Rodriguez",
+          "field": "record",
+          "site": "7-1-0",
+          "correct": "7-0-0",
+          "source": "http://ufcstats.com/fighter-details/6e8349a0a0476d60",
+          "note": "Tapology 7-0 and BFO preview ('unbeaten') agree"
+        }
+      ],
+      "fighterNotes": [
+        "Record conflicts where site = UFCStats but Tapology differs (left unchanged): Marvin Vettori 19-10-1 (Tapology 19-9-1), Court McGee 23-14-0 (Tapology 22-14).",
+        "Height conflicts where site = UFCStats (left unchanged): Ismail Naurdiev 5'10\" (Tapology 6'0\"), Eric Nolan 6'2\"/74\" reach (Tapology 6'0\"/73\").",
+        "Roman Kopylov: UFCStats DOB 1992-05-04 -> 34 (site correct); Tapology implies 35.",
+        "Lucas Armand reach not published - keep '—'.",
+        "Age changes before fight night (not errors): Mick Parkin 30->31, Alexander Hernandez 33->34, Bernardo Sopaj 25->26.",
+        "Court McGee is billed as fighting his retirement bout (BFO preview)."
+      ],
+      "odds": [
+        {
+          "a": "Natalia Silva",
+          "b": "Wang Cong",
+          "a_odds": -207,
+          "b_odds": 164,
+          "source": "https://www.bestfightodds.com/events/ufc-332-4330",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "Deiveson Figueiredo",
+          "b": "Payton Talbott",
+          "a_odds": 432,
+          "b_odds": -674,
+          "source": "https://www.bestfightodds.com/events/ufc-332-4330",
+          "books": 6,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "King Green",
+          "b": "Esteban Ribovics",
+          "a_odds": 189,
+          "b_odds": -264,
+          "source": "https://www.bestfightodds.com/events/ufc-332-4378",
+          "books": 1,
+          "note": "Kalshi only (single prediction-market quote on BFO; no sportsbook lines yet) - low confidence"
+        },
+        {
+          "a": "Khaos Williams",
+          "b": "Roberto Soldić",
+          "a_odds": 173,
+          "b_odds": -382,
+          "source": "https://www.bestfightodds.com/events/ufc-332-4378",
+          "books": 1,
+          "note": "Kalshi only (single prediction-market quote on BFO; no sportsbook lines yet) - low confidence"
+        },
+        {
+          "a": "Ateba Gautier",
+          "b": "Roman Kopylov",
+          "a_odds": -209,
+          "b_odds": 152,
+          "source": "https://www.bestfightodds.com/events/ufc-332-4378",
+          "books": 1,
+          "note": "Kalshi only (single prediction-market quote on BFO; no sportsbook lines yet) - low confidence"
+        },
+        {
+          "a": "Marcus McGhee",
+          "b": "Bernardo Sopaj",
+          "a_odds": -176,
+          "b_odds": 140,
+          "source": "https://www.bestfightodds.com/events/ufc-332-4378",
+          "books": 1,
+          "note": "Kalshi only (single prediction-market quote on BFO; no sportsbook lines yet) - low confidence"
+        },
+        {
+          "a": "Imanol Rodriguez",
+          "b": "Alden Coria",
+          "a_odds": -251,
+          "b_odds": 105,
+          "source": "https://www.bestfightodds.com/events/ufc-332-4378",
+          "books": 1,
+          "note": "Kalshi only (single prediction-market quote on BFO; no sportsbook lines yet) - low confidence"
+        },
+        {
+          "a": "Damian Pinas",
+          "b": "Andrey Pulyaev",
+          "a_odds": -491,
+          "b_odds": 252,
+          "source": "https://www.bestfightodds.com/events/ufc-332-4378",
+          "books": 1,
+          "note": "Kalshi only (single prediction-market quote on BFO; no sportsbook lines yet) - low confidence"
+        },
+        {
+          "a": "Court McGee",
+          "b": "Eric Nolan",
+          "a_odds": 217,
+          "b_odds": -291,
+          "source": "https://www.bestfightodds.com/events/ufc-332-4378",
+          "books": 1,
+          "note": "Kalshi only (single prediction-market quote on BFO; no sportsbook lines yet) - low confidence"
+        },
+        {
+          "a": "Rafael Dos Anjos",
+          "b": "Alexander Hernandez",
+          "a_odds": 152,
+          "b_odds": -291,
+          "source": "https://www.bestfightodds.com/events/ufc-332-4378",
+          "books": 1,
+          "note": "Kalshi only (single prediction-market quote on BFO; no sportsbook lines yet) - low confidence"
+        },
+        {
+          "a": "Marvin Vettori",
+          "b": "Ismail Naurdiev",
+          "a_odds": 105,
+          "b_odds": -176,
+          "source": "https://www.bestfightodds.com/events/ufc-332-4378",
+          "books": 1,
+          "note": "Kalshi only (single prediction-market quote on BFO; no sportsbook lines yet) - low confidence"
+        },
+        {
+          "a": "Johnny Walker",
+          "b": "Mick Parkin",
+          "a_odds": -431,
+          "b_odds": 134,
+          "source": "https://www.bestfightodds.com/events/ufc-332-4378",
+          "books": 1,
+          "note": "Kalshi only (single prediction-market quote on BFO; no sportsbook lines yet) - low confidence"
+        }
+      ],
+      "oddsMissing": [
+        "Anthony Wint vs Lucas Armand - not listed on BFO"
+      ]
+    },
+    {
+      "event": "ufc333",
+      "sources": [
+        "https://www.tapology.com/fightcenter/events/146338-ufc-333",
+        "https://www.ufc.com/event/ufc-333",
+        "http://ufcstats.com/event-details/cc18abc046b382c9",
+        "https://www.bestfightodds.com/events/ufc-333-4321",
+        "https://cagesidepress.com/2026/09/18/with-arnold-allen-out-aaron-pico-gets-losene-keita-at-ufc-333/",
+        "https://www.si.com/fannation/mma/news/ufc-333-main-card-fight-reportedly-hit-with-major-change",
+        "https://heavy.com/sports/ufc/ufc-adds-middleweight-bout-ufc-333/",
+        "https://heavy.com/sports/ufc/colby-thicknesse-draws-undefeated-newcomer-at-ufc-333/"
+      ],
+      "boutChanges": [
+        {
+          "type": "replaced",
+          "detail": "Arnold Allen withdrew (injury, reported Sep 18). Losene Keita (17-2, ex-two-division Oktagon champ) replaces him vs. Aaron Pico - featherweight main card opener. UFC.com and UFCStats still show Allen (stale); Tapology, SI, Cageside Press, MMA Mania, MiddleEasy confirm Keita.",
+          "a": "Aaron Pico",
+          "b": "Losene Keita",
+          "division": "Featherweight",
+          "rounds": 3,
+          "section": "Main Card",
+          "order": 5,
+          "b_stats": {
+            "record": "17-2-0",
+            "height_in": 67,
+            "reach_in": 72,
+            "stance": "Orthodox",
+            "age": 28,
+            "source": "http://ufcstats.com/fighter-details/5b43d68174b6e2ab"
+          }
+        },
+        {
+          "type": "added",
+          "detail": "Jacob Malkoun vs. Abubakar Vagaev added (reported Sep 23; Tapology). Not yet on UFC.com.",
+          "a": "Jacob Malkoun",
+          "b": "Abubakar Vagaev",
+          "division": "Middleweight",
+          "rounds": 3,
+          "section": "Prelims",
+          "a_stats": {
+            "record": "10-3-0",
+            "height_in": 69,
+            "reach_in": 73,
+            "stance": "Orthodox",
+            "age": 31,
+            "source": "http://ufcstats.com/fighter-details/d4270315cbcf2569"
+          },
+          "b_stats": {
+            "record": "25-4-0",
+            "height_in": 71,
+            "reach_in": 73,
+            "stance": null,
+            "age": 33,
+            "source": "https://www.tapology.com/fightcenter/events/146338-ufc-333",
+            "note": "UFC debut; stance not published"
+          }
+        },
+        {
+          "type": "added",
+          "detail": "Colby Thicknesse vs. Asaf Chopurov (UFC debut, signed Sep 24) added (Heavy.com Sep 24; Tapology). Not yet on UFC.com.",
+          "a": "Colby Thicknesse",
+          "b": "Asaf Chopurov",
+          "division": "Bantamweight",
+          "rounds": 3,
+          "section": "Prelims",
+          "a_stats": {
+            "record": "9-1-0",
+            "height_in": 67,
+            "reach_in": 69,
+            "stance": "Orthodox",
+            "age": 27,
+            "source": "http://ufcstats.com/fighter-details/ed7d329d7c29428d"
+          },
+          "b_stats": {
+            "record": "11-0-0",
+            "height_in": 67,
+            "reach_in": null,
+            "stance": null,
+            "age": 24,
+            "source": "https://www.tapology.com/fightcenter/events/146338-ufc-333",
+            "note": "UFC debut; reach/stance not published"
+          }
+        },
+        {
+          "type": "reordered",
+          "detail": "Alexander Volkov vs. Rizvan Kuniev is Main Card bout #4 (after Kavanagh-Temirov, before Pico-Keita); site has it as order 9 after the early prelims.",
+          "a": "Alexander Volkov",
+          "b": "Rizvan Kuniev",
+          "division": "Heavyweight",
+          "rounds": 3,
+          "section": "Main Card",
+          "order": 4
+        },
+        {
+          "type": "reordered",
+          "detail": "Prelim order per UFC.com/UFCStats: Murzakanov-Reyes, Krylov-Yakhyaev, Magomedov-Rowston, Dawson-Aliev (site has Magomedov-Rowston ahead of Krylov-Yakhyaev; Tapology agrees with site). Reyes' opponent is still Azamat Murzakanov - no change found.",
+          "a": "Nikita Krylov",
+          "b": "Abdul-Rakhman Yakhyaev",
+          "division": "Light Heavyweight",
+          "rounds": 3,
+          "section": "Prelims",
+          "order": 7
+        },
+        {
+          "type": "section",
+          "detail": "Grant Dawson vs. Nurullo Aliev is listed under PRELIMS on UFC.com (Early Prelims section currently empty), not Early Prelims. The two newly added bouts will likely fill the early slots once UFC.com updates.",
+          "a": "Grant Dawson",
+          "b": "Nurullo Aliev",
+          "division": "Lightweight",
+          "rounds": 3,
+          "section": "Prelims",
+          "order": 9
+        }
+      ],
+      "roundsFixes": [],
+      "roundsCheck": "OK - Volkanovski vs Evloev (featherweight title) and Petr Yan vs Merab Dvalishvili (BANTAMWEIGHT TITLE, trilogy; Yan is champion after UFC 323) are both 5 rounds - UFC.com 'Title Bout', UFCStats belt icon, Tapology 5 x 5. Site already has 5 for both.",
+      "fighterFixes": [
+        {
+          "name": "Aaron Pico",
+          "field": "age",
+          "site": 29,
+          "correct": 30,
+          "source": "http://ufcstats.com/fighter-details/5537efc6e496dd84",
+          "note": "DOB 1996-09-23 (UFCStats); Tapology agrees"
+        }
+      ],
+      "fighterNotes": [
+        "Arnold Allen row should be deleted/replaced by Losene Keita (see boutChanges).",
+        "Record conflicts where site = UFCStats but Tapology differs (left unchanged): Ramazan Temirov 20-3-0 (Tapology 20-2), Rizvan Kuniev 14-3-1 +1 NC (Tapology 15-3-1).",
+        "Height/reach conflicts where site = UFCStats (left unchanged): Lone'er Kavanagh 5'6\" (Tapology 5'4\"), Cam Rowston reach 78\" (Tapology 75\").",
+        "Age changes before fight night (not errors): Alexander Volkanovski 37->38 (Sep 29), Alexander Volkov 37->38 (Oct 24)."
+      ],
+      "odds": [
+        {
+          "a": "Alexander Volkanovski",
+          "b": "Movsar Evloev",
+          "a_odds": -115,
+          "b_odds": -110,
+          "source": "https://www.bestfightodds.com/events/ufc-333-4321",
+          "books": 5,
+          "note": "median across listed books/markets on BFO"
+        },
+        {
+          "a": "Petr Yan",
+          "b": "Merab Dvalishvili",
+          "a_odds": -182,
+          "b_odds": 145,
+          "source": "https://www.bestfightodds.com/events/ufc-333-4321",
+          "books": 5,
+          "note": "median across listed books/markets on BFO"
+        }
+      ],
+      "oddsMissing": [
+        "All other UFC 333 bouts - not yet posted on BFO"
+      ]
+    },
+    {
+      "event": "dwcs-2026-week8",
+      "sources": [
+        "https://www.tapology.com/fightcenter/events/142727-contender-series-2026-week-8",
+        "https://www.sherdog.com/events/dana-whites-contender-series-contender-series-2026-week-8-112634"
+      ],
+      "boutChanges": [
+        {
+          "type": "reordered",
+          "detail": "Tapology bout order (main event first): 1 Loai Abushaar vs George Staines (MAIN EVENT), 2 Zaurbek Sabanov vs Adama Diop, 3 Luca Borando vs Ian Escuza, 4 Camila Reynoso vs Aieza Bertolso, 5 Ilias Bulaid vs Erick Visconde (opener). Site has Bertolso-Reynoso as order 1 and Diop-Sabanov last.",
+          "a": "Loai Abushaar",
+          "b": "George Staines",
+          "division": "Lightweight",
+          "rounds": 3,
+          "section": "Main Card",
+          "order": 1
+        }
+      ],
+      "roundsFixes": [],
+      "roundsCheck": "OK - DWCS bouts are all 3 x 5 (incl. the main event).",
+      "fighterFixes": [
+        {
+          "name": "George Staines",
+          "field": "record",
+          "site": "0-0-0",
+          "correct": "10-0-0",
+          "source": "https://www.tapology.com/fightcenter/events/142727-contender-series-2026-week-8"
+        },
+        {
+          "name": "Camila Reynoso",
+          "field": "height_in",
+          "site": 62,
+          "correct": 64,
+          "source": "https://www.tapology.com/fightcenter/events/142727-contender-series-2026-week-8"
+        },
+        {
+          "name": "Ilias Bulaid",
+          "field": "height_in",
+          "site": 68,
+          "correct": 70,
+          "source": "https://www.tapology.com/fightcenter/events/142727-contender-series-2026-week-8",
+          "note": "Tapology reach 70.5 (site 71) - fine"
+        },
+        {
+          "name": "Luca Borando",
+          "field": "age",
+          "site": 25,
+          "correct": 26,
+          "source": "https://www.tapology.com/fightcenter/events/142727-contender-series-2026-week-8",
+          "note": "turns 26 on Sep 24 (26y5d on Sep 29)"
+        }
+      ],
+      "fighterNotes": [
+        "Reynoso vs Bertolso is at 115 lb (women's strawweight) per Tapology - site division is correct (the older dwcs_s10.json says flyweight; that is wrong).",
+        "Stances for DWCS fighters are not published by Tapology/Sherdog/UFCStats - leave '--'.",
+        "Adama Diop age and Loai Abushaar/Staines/Escuza/etc reach not published - leave as is.",
+        "Cancelled on Tapology: Igor Cavalcanti vs Oscar Ravello ('fight rescheduled') - was never on site."
+      ],
+      "odds": [],
+      "oddsMissing": [
+        "No DWCS Week 8 event on BestFightOdds yet"
+      ]
+    },
+    {
+      "event": "dwcs-2026-week9",
+      "sources": [
+        "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9",
+        "https://www.sherdog.com/events/dana-whites-contender-series-contender-series-2026-week-9-112635"
+      ],
+      "boutChanges": [
+        {
+          "type": "replaced",
+          "detail": "Ivan Gnizditskiy out (visa issues, Tapology cancellations). Preston LaGrange (6-1, USA) now faces Nell Ariano at light heavyweight (205). Only Tapology reports this so far - not yet corroborated by news.",
+          "a": "Nell Ariano",
+          "b": "Preston LaGrange",
+          "division": "Light Heavyweight",
+          "rounds": 3,
+          "section": "Main Card",
+          "b_stats": {
+            "record": "6-1-0",
+            "height_in": 75,
+            "reach_in": null,
+            "stance": null,
+            "age": 27,
+            "source": "https://www.tapology.com/fightcenter/fighters/353189-preston-lagrange"
+          }
+        }
+      ],
+      "roundsFixes": [],
+      "roundsCheck": "OK - all 3 rounds.",
+      "fighterFixes": [
+        {
+          "name": "Roque Conceicao",
+          "field": "height_in",
+          "site": "—",
+          "correct": 64,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Roque Conceicao",
+          "field": "reach_in",
+          "site": "—",
+          "correct": 67,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Roque Conceicao",
+          "field": "age",
+          "site": null,
+          "correct": 26,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Nell Ariano",
+          "field": "height_in",
+          "site": "—",
+          "correct": 76,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Sal Everett",
+          "field": "height_in",
+          "site": "—",
+          "correct": 75,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Ozzy Martin",
+          "field": "height_in",
+          "site": "—",
+          "correct": 72,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Ozzy Martin",
+          "field": "age",
+          "site": null,
+          "correct": 24,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Ryuho Miyaguchi",
+          "field": "height_in",
+          "site": "—",
+          "correct": 70,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Ryuho Miyaguchi",
+          "field": "reach_in",
+          "site": "—",
+          "correct": 68.5,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Ryuho Miyaguchi",
+          "field": "age",
+          "site": null,
+          "correct": 28,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Mateus Soares",
+          "field": "height_in",
+          "site": "—",
+          "correct": 65,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Mateus Soares",
+          "field": "reach_in",
+          "site": "—",
+          "correct": 66.5,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Alivia Bierley",
+          "field": "height_in",
+          "site": "—",
+          "correct": 67,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Alivia Bierley",
+          "field": "reach_in",
+          "site": "—",
+          "correct": 66,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Alivia Bierley",
+          "field": "age",
+          "site": null,
+          "correct": 30,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        },
+        {
+          "name": "Summer Onley",
+          "field": "height_in",
+          "site": "—",
+          "correct": 67,
+          "source": "https://www.tapology.com/fightcenter/events/142728-contender-series-2026-week-9"
+        }
+      ],
+      "fighterNotes": [
+        "All records on site match Tapology.",
+        "Alexander Chavez: no height/reach/age published anywhere checked. Stances unavailable for all DWCS fighters.",
+        "Tapology does not number the Week 9 bout order (all 'Main Card'); no reorder asserted.",
+        "Sal Everett vs Ozzy Martin is at 170 lb - site 'Welterweight' is correct."
+      ],
+      "odds": [],
+      "oddsMissing": [
+        "Not posted on BestFightOdds"
+      ]
+    },
+    {
+      "event": "dwcs-2026-week10",
+      "sources": [
+        "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10",
+        "https://www.sherdog.com/events/dana-whites-contender-series-contender-series-2026-week-10-112636"
+      ],
+      "boutChanges": [],
+      "cardNote": "Tapology lists only these 3 bouts (card incomplete, site matches). Wikipedia-only mentions of Sean King and Jarrett Betancourt (no opponents) are unconfirmed - not added.",
+      "roundsFixes": [],
+      "roundsCheck": "OK - all 3 rounds.",
+      "fighterFixes": [
+        {
+          "name": "Davi Cabral",
+          "field": "height_in",
+          "site": "—",
+          "correct": 69,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Davi Cabral",
+          "field": "age",
+          "site": null,
+          "correct": 27,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Douglas da Lapa",
+          "field": "height_in",
+          "site": "—",
+          "correct": 75,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Douglas da Lapa",
+          "field": "reach_in",
+          "site": "—",
+          "correct": 74,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Douglas da Lapa",
+          "field": "age",
+          "site": null,
+          "correct": 27,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Luis Francischinelli",
+          "field": "height_in",
+          "site": "—",
+          "correct": 78,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Luis Francischinelli",
+          "field": "reach_in",
+          "site": "—",
+          "correct": 83,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Luis Francischinelli",
+          "field": "age",
+          "site": null,
+          "correct": 30,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Will Rentz",
+          "field": "age",
+          "site": null,
+          "correct": 27,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Aline Pereira",
+          "field": "height_in",
+          "site": "—",
+          "correct": 69,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Aline Pereira",
+          "field": "reach_in",
+          "site": "—",
+          "correct": 70,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Aline Pereira",
+          "field": "age",
+          "site": null,
+          "correct": 35,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10",
+          "note": "turns 36 on ~Oct 6, before the fight"
+        },
+        {
+          "name": "Smilla Sundell",
+          "field": "height_in",
+          "site": "—",
+          "correct": 70,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Smilla Sundell",
+          "field": "reach_in",
+          "site": "—",
+          "correct": 69.3,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        },
+        {
+          "name": "Smilla Sundell",
+          "field": "age",
+          "site": null,
+          "correct": 21,
+          "source": "https://www.tapology.com/fightcenter/events/142729-contender-series-2026-week-10"
+        }
+      ],
+      "fighterNotes": [
+        "All records on site match Tapology. Stances unavailable for DWCS fighters."
+      ],
+      "odds": [],
+      "oddsMissing": [
+        "Not posted on BestFightOdds"
+      ]
+    }
+  ]
+}

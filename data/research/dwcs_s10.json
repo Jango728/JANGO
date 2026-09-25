@@ -1,0 +1,797 @@
+{
+  "season": "Dana White's Contender Series Season 10 (2026)",
+  "venue": "Meta APEX, Las Vegas",
+  "as_of": "2026-09-24",
+  "format": "3 x 5-minute rounds; O/U 1.5 rounds = over if fight time > 7:30",
+  "sources": [
+    "sherdog.com event pages (Weeks 1-3, 5-7)",
+    "ufc.com Week 1-6 results + scorecards",
+    "tapology.com event pages (Weeks 4, 8-10)",
+    "cagesidepress.com, si.com, Yahoo/MMA Weekly (Week 7)",
+    "DraftKings Network (Week 6 contracts)",
+    "Wikipedia DWCS season 10"
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "date": "2026-08-11",
+      "status": "completed",
+      "contracts_awarded": 4,
+      "bouts": [
+        {
+          "winner": "Anthony Wint",
+          "loser": "Matt Adams",
+          "weight_class": "Heavyweight",
+          "method": "TKO (punches/ground strikes)",
+          "round": 1,
+          "time": "0:34",
+          "fight_time_elapsed": "0:34",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Leg kicks and an overhand right set up a power takedown.",
+            "Finished with ground strikes 34 seconds in."
+          ]
+        },
+        {
+          "winner": "Abe Alsaghir",
+          "loser": "Fabrizio Escarrega",
+          "weight_class": "Lightweight",
+          "method": "Decision (split)",
+          "round": 3,
+          "time": "5:00",
+          "fight_time_elapsed": "15:00",
+          "over_under_1_5": "Over",
+          "winner_contract": false,
+          "notes": [
+            "Constant forward pressure and takedown attempts won two judges.",
+            "Escarrega defended most takedowns; one judge had it a 30-27 shutout for him."
+          ],
+          "scores": [
+            "27-30",
+            "29-28",
+            "29-28"
+          ]
+        },
+        {
+          "winner": "Bilal Hasan",
+          "loser": "Mridul Saikia",
+          "weight_class": "Flyweight",
+          "method": "TKO (punches)",
+          "round": 1,
+          "time": "0:45",
+          "fight_time_elapsed": "0:45",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Caught a leg kick and dropped Saikia with an overhand right.",
+            "Quick follow-up strikes on the ground ended it."
+          ]
+        },
+        {
+          "winner": "Tom Pagliarulo",
+          "loser": "Ananias Mulumba",
+          "weight_class": "Featherweight",
+          "method": "TKO (punches/elbows)",
+          "round": 3,
+          "time": "4:24",
+          "fight_time_elapsed": "14:24",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Blended striking and wrestling, building momentum each round.",
+            "Late R3 takedown, then elbows from side control for the stoppage."
+          ]
+        },
+        {
+          "winner": "Joe Kropschot",
+          "loser": "Jon Kunneman",
+          "weight_class": "Middleweight",
+          "method": "Decision (unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "fight_time_elapsed": "15:00",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Controlled range with jab, straight shots and teeps.",
+            "Nearly finished an armbar late in R3."
+          ],
+          "scores": [
+            "30-27",
+            "30-27",
+            "29-28"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "date": "2026-08-18",
+      "status": "completed",
+      "contracts_awarded": 6,
+      "bouts": [
+        {
+          "winner": "Roman Puga",
+          "loser": "Taner Trembley",
+          "weight_class": "Featherweight",
+          "method": "Decision (unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "fight_time_elapsed": "15:00",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Sharper jab and straight right; scored an early knockdown.",
+            "Trembley rallied in R3 and also earned a contract in defeat."
+          ],
+          "scores": [
+            "29-28",
+            "29-28",
+            "29-28"
+          ],
+          "loser_contract": true
+        },
+        {
+          "winner": "Alik Lorenz",
+          "loser": "Mahamed Aly",
+          "weight_class": "Light Heavyweight",
+          "method": "KO (punches)",
+          "round": 1,
+          "time": "2:23",
+          "fight_time_elapsed": "2:23",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Upset the favored Aly with a well-timed right hand.",
+            "Ground strikes finished it."
+          ]
+        },
+        {
+          "winner": "Cristian Perez",
+          "loser": "Logan Paxton",
+          "weight_class": "Lightweight",
+          "method": "TKO (punches)",
+          "round": 2,
+          "time": "1:06",
+          "fight_time_elapsed": "6:06",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Counter right dropped Paxton in R2, left hook dropped him again.",
+            "Ground strikes ended Paxton's nine-fight win streak."
+          ]
+        },
+        {
+          "winner": "Trent Miller",
+          "loser": "Douglas Henrique Rodrigues",
+          "weight_class": "Middleweight",
+          "method": "Technical submission (Von Flue/shoulder choke)",
+          "round": 2,
+          "time": "1:04",
+          "fight_time_elapsed": "6:04",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Survived early trouble and a groin strike.",
+            "Turned a guillotine attempt into a rare Von Flue choke."
+          ]
+        },
+        {
+          "winner": "Kaik Brito",
+          "loser": "Namo Fazil",
+          "weight_class": "Welterweight",
+          "method": "KO (punch)",
+          "round": 3,
+          "time": "0:12",
+          "fight_time_elapsed": "10:12",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Faster hands through a back-and-forth first two rounds.",
+            "Right hand knocked Fazil out seconds into R3."
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "date": "2026-08-25",
+      "status": "completed",
+      "contracts_awarded": 5,
+      "bouts": [
+        {
+          "winner": "Nick Galanti",
+          "loser": "Carlos Petruzzella",
+          "weight_class": "Middleweight",
+          "method": "KO (punches)",
+          "round": 1,
+          "time": "0:35",
+          "fight_time_elapsed": "0:35",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Huge right hook floored Petruzzella.",
+            "Ground strikes sealed it at 0:35."
+          ]
+        },
+        {
+          "winner": "Ronald Humphrey",
+          "loser": "Alexis Miranda",
+          "weight_class": "Welterweight",
+          "method": "Submission (rear-naked choke)",
+          "round": 1,
+          "time": "4:03",
+          "fight_time_elapsed": "4:03",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Won exchanges and mixed in takedowns, bloodying Miranda.",
+            "Took the back and finished with a rear-naked choke."
+          ]
+        },
+        {
+          "winner": "Sean Clancy Jr.",
+          "loser": "Gary Balletto Jr.",
+          "weight_class": "Welterweight",
+          "method": "TKO (elbows/ground strikes)",
+          "round": 2,
+          "time": "3:54",
+          "fight_time_elapsed": "8:54",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Showed range on the feet before taking it down.",
+            "Advanced to mount and elbowed until the stoppage."
+          ]
+        },
+        {
+          "winner": "Guilherme Uriel",
+          "loser": "Mario Piazzon",
+          "weight_class": "Heavyweight",
+          "method": "Submission (standing guillotine)",
+          "round": 1,
+          "time": "0:50",
+          "fight_time_elapsed": "0:50",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Caught Piazzon's takedown attempt with an arm-in guillotine.",
+            "Choked him unconscious 50 seconds in."
+          ]
+        },
+        {
+          "winner": "Alex Apodaca",
+          "loser": "Bella Mir",
+          "weight_class": "Women's Bantamweight",
+          "method": "Decision (unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "fight_time_elapsed": "15:00",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Strong takedown defense and stance-switching striking.",
+            "Won as roughly a +1200 underdog, reported as the biggest upset in DWCS history."
+          ],
+          "scores": [
+            "29-28",
+            "29-28",
+            "29-28"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "date": "2026-09-01",
+      "status": "completed",
+      "contracts_awarded": 5,
+      "bouts": [
+        {
+          "winner": "Adam Livingston",
+          "loser": "Hunter Smith",
+          "weight_class": "Lightweight",
+          "method": "Decision (split)",
+          "round": 3,
+          "time": "5:00",
+          "fight_time_elapsed": "15:00",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Range striking and head kicks early; Smith pressured in R2.",
+            "Flashier kicks and footwork in R3 swung the split nod."
+          ],
+          "scores": [
+            "29-28",
+            "28-29",
+            "29-28"
+          ]
+        },
+        {
+          "winner": "Gabriel Lourenco",
+          "loser": "Charlie Cleveland",
+          "weight_class": "Heavyweight",
+          "method": "KO (elbow and hammerfists)",
+          "round": 1,
+          "time": "2:02",
+          "fight_time_elapsed": "2:02",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Right hand dropped Cleveland, who got up briefly.",
+            "A follow-up elbow put him down again and ground-and-pound finished it."
+          ]
+        },
+        {
+          "winner": "Silvestre Sanchez",
+          "loser": "Liam McCracken",
+          "weight_class": "Lightweight",
+          "method": "TKO (punches)",
+          "round": 3,
+          "time": "2:44",
+          "fight_time_elapsed": "12:44",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Landed repeated takedowns in a back-and-forth fight.",
+            "Left hook in R3 set up the finish."
+          ]
+        },
+        {
+          "winner": "Modestino Rodrigues",
+          "loser": "Brandon Holmes",
+          "weight_class": "Middleweight",
+          "method": "TKO (punches)",
+          "round": 1,
+          "time": "0:15",
+          "fight_time_elapsed": "0:15",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Charged forward with a rapid volley of straight punches.",
+            "Referee stepped in after 15 seconds."
+          ]
+        },
+        {
+          "winner": "Adam Darby",
+          "loser": "Patrick Rivera",
+          "weight_class": "Welterweight",
+          "method": "TKO (doctor stoppage)",
+          "round": 3,
+          "time": "2:42",
+          "fight_time_elapsed": "12:42",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Used his reach: jab, calf kicks and teeps for three rounds.",
+            "Rivera's cuts and damage led to a doctor stoppage in R3."
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "date": "2026-09-08",
+      "status": "completed",
+      "contracts_awarded": 4,
+      "bouts": [
+        {
+          "winner": "Christian Natividad",
+          "loser": "Colton Loud",
+          "weight_class": "Flyweight",
+          "method": "KO/TKO (punch to the body)",
+          "round": 1,
+          "time": "1:10",
+          "fight_time_elapsed": "1:10",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Answered a body kick with a left hook to the liver.",
+            "Loud folded; stoppage at 1:10."
+          ]
+        },
+        {
+          "winner": "Apollo Gomes",
+          "loser": "Won Il Kwon",
+          "weight_class": "Bantamweight",
+          "method": "Decision (unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "fight_time_elapsed": "15:00",
+          "over_under_1_5": "Over",
+          "winner_contract": false,
+          "notes": [
+            "Survived two knockdowns in R1.",
+            "Took over R2 and R3 with wrestling and striking."
+          ],
+          "scores": [
+            "29-28",
+            "29-28",
+            "29-28"
+          ]
+        },
+        {
+          "winner": "Martin Kozak",
+          "loser": "Christian Echols",
+          "weight_class": "Middleweight (Sherdog lists 189 lb catchweight)",
+          "method": "TKO (punches)",
+          "round": 2,
+          "time": "1:32",
+          "fight_time_elapsed": "6:32",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Used his 6'4\" reach to outstrike Echols.",
+            "Finished him against the fence in R2."
+          ],
+          "data_flags": [
+            "UFC.com lists middleweight; Sherdog lists a 189 lb catchweight."
+          ]
+        },
+        {
+          "winner": "Isaac Moreno",
+          "loser": "Reginaldo Geraldo Jr.",
+          "weight_class": "Welterweight",
+          "method": "Decision (unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "fight_time_elapsed": "15:00",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Clear striking edge in the first two rounds.",
+            "Held off late grappling and submission attempts."
+          ],
+          "scores": [
+            "29-28",
+            "29-28",
+            "29-28"
+          ]
+        },
+        {
+          "winner": "Quentin Pasley",
+          "loser": "Arlind Berisha",
+          "weight_class": "Light Heavyweight",
+          "method": "KO (elbows)",
+          "round": 1,
+          "time": "4:41",
+          "fight_time_elapsed": "4:41",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Moved from a submission attempt into strikes.",
+            "Two heavy elbows ended it, keeping his all-first-round-finish record."
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "date": "2026-09-15",
+      "status": "completed",
+      "contracts_awarded": 4,
+      "bouts": [
+        {
+          "winner": "Mayton Perea",
+          "loser": "Zevan Hunt",
+          "weight_class": "Welterweight",
+          "method": "KO (punches)",
+          "round": 1,
+          "time": "0:45",
+          "fight_time_elapsed": "0:45",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Straight shots dropped Hunt early.",
+            "Heavy follow-ups finished it after Hunt briefly recovered."
+          ]
+        },
+        {
+          "winner": "Igor Cavalcanti",
+          "loser": "Oscar Ravello",
+          "weight_class": "Middleweight",
+          "method": "TKO (punches/elbows)",
+          "round": 1,
+          "time": "1:38",
+          "fight_time_elapsed": "1:38",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Big right hand dropped Ravello.",
+            "Relentless ground strikes forced the stoppage."
+          ]
+        },
+        {
+          "winner": "Akbar Abdullaev",
+          "loser": "Ednilson Santos",
+          "weight_class": "Lightweight",
+          "method": "KO (punch)",
+          "round": 1,
+          "time": "0:19",
+          "fight_time_elapsed": "0:19",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Overhand right knocked Santos out cold in 19 seconds.",
+            "Dana White called him among the best talents in series history."
+          ],
+          "data_flags": [
+            "Santos was a replacement opponent (Anthony Figueroa was originally listed)."
+          ]
+        },
+        {
+          "winner": "Luis Hernandez",
+          "loser": "Hugo Guillon",
+          "weight_class": "Middleweight",
+          "method": "Submission (rear-naked choke)",
+          "round": 2,
+          "time": "1:01",
+          "fight_time_elapsed": "6:01",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Traded strikes and scrambles in R1.",
+            "Took the back in R2 and got the tap."
+          ]
+        },
+        {
+          "winner": "Tyshawn Williams",
+          "loser": "Antonio Monteiro",
+          "weight_class": "Featherweight",
+          "method": "Decision (unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "fight_time_elapsed": "15:00",
+          "over_under_1_5": "Over",
+          "winner_contract": false,
+          "notes": [
+            "Controlled with wrestling and ground strikes, fading late in R3.",
+            "No contract; offered a return DWCS fight this season."
+          ],
+          "scores": [
+            "29-28",
+            "29-27",
+            "29-27"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "date": "2026-09-22",
+      "status": "completed",
+      "contracts_awarded": 6,
+      "bouts": [
+        {
+          "winner": "Damian Piwowarczyk",
+          "loser": "Emilio Quissua",
+          "weight_class": "Light Heavyweight",
+          "method": "TKO (punches)",
+          "round": 1,
+          "time": "4:55",
+          "fight_time_elapsed": "4:55",
+          "over_under_1_5": "Under",
+          "winner_contract": true,
+          "notes": [
+            "Slow start, then a right hand dropped Quissua late in R1.",
+            "Follow-up strikes ended it five seconds before the bell."
+          ]
+        },
+        {
+          "winner": "Piero Guaylupo",
+          "loser": "Callum Connor",
+          "weight_class": "Lightweight",
+          "method": "Decision (unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "fight_time_elapsed": "15:00",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Relentless pressure; knocked Connor down at the end of R1.",
+            "Nearly 400 combined significant strikes; Connor also got a contract."
+          ],
+          "scores": [
+            "30-27",
+            "30-27",
+            "30-27"
+          ],
+          "loser_contract": true
+        },
+        {
+          "winner": "Marcos Degli",
+          "loser": "Paris Moran",
+          "weight_class": "Flyweight",
+          "method": "Submission (rear-naked choke)",
+          "round": 2,
+          "time": "4:46",
+          "fight_time_elapsed": "9:46",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Struggled early before taking control in R2.",
+            "Finished with a one-armed choke late in the round."
+          ]
+        },
+        {
+          "winner": "Alvi Dasuyev",
+          "loser": "Jaden Ortega",
+          "weight_class": "Welterweight",
+          "method": "Decision (unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "fight_time_elapsed": "15:00",
+          "over_under_1_5": "Over",
+          "winner_contract": true,
+          "notes": [
+            "Early knockdown, then faded in R2 as Ortega surged.",
+            "Recovered in R3; Ortega also got a contract."
+          ],
+          "scores": [
+            "30-27",
+            "30-27",
+            "29-28"
+          ],
+          "loser_contract": true
+        },
+        {
+          "winner": "Norbert Novenyi Jr.",
+          "loser": "Theo Haig",
+          "weight_class": "Middleweight",
+          "method": "Decision (unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "fight_time_elapsed": "15:00",
+          "over_under_1_5": "Over",
+          "winner_contract": false,
+          "notes": [
+            "Nearly finished Haig early.",
+            "Haig's grappling slowed it down; no contract, asked to return."
+          ],
+          "scores": [
+            "29-28",
+            "29-28",
+            "29-28"
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "date": "2026-09-29",
+      "status": "upcoming",
+      "bouts": [
+        {
+          "fighter_a": "George Staines",
+          "record_a": "10-0",
+          "fighter_b": "Loai Abushaar",
+          "record_b": "7-1",
+          "weight_class": "Lightweight"
+        },
+        {
+          "fighter_a": "Zaurbek Sabanov",
+          "record_a": "4-0",
+          "fighter_b": "Adama Diop",
+          "record_b": "6-1",
+          "weight_class": "Heavyweight"
+        },
+        {
+          "fighter_a": "Luca Borando",
+          "record_a": "9-1",
+          "fighter_b": "Ian Escuza",
+          "record_b": "7-0",
+          "weight_class": "Featherweight"
+        },
+        {
+          "fighter_a": "Camila Reynoso",
+          "record_a": "9-1",
+          "fighter_b": "Aieza Bertolso",
+          "record_b": "7-0",
+          "weight_class": "Women's Flyweight"
+        },
+        {
+          "fighter_a": "Ilias Bulaid",
+          "record_a": "9-0",
+          "fighter_b": "Erick Visconde",
+          "record_b": "17-3",
+          "weight_class": "Featherweight"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "date": "2026-10-06",
+      "status": "upcoming",
+      "bouts": [
+        {
+          "fighter_a": "Roque Conceicao",
+          "record_a": "11-3",
+          "fighter_b": "Alexander Chavez",
+          "record_b": "9-0",
+          "weight_class": "Flyweight"
+        },
+        {
+          "fighter_a": "Ivan Gnizditskiy",
+          "record_a": "7-0",
+          "fighter_b": "Nell Ariano",
+          "record_b": "6-0",
+          "weight_class": "Light Heavyweight"
+        },
+        {
+          "fighter_a": "Sal Everett",
+          "record_a": "4-0",
+          "fighter_b": "Ozzy Martin",
+          "record_b": "4-0",
+          "weight_class": "Welterweight",
+          "data_flags": [
+            "Tapology labels it middleweight but at 170 lb; Wikipedia lists welterweight."
+          ]
+        },
+        {
+          "fighter_a": "Ryuho Miyaguchi",
+          "record_a": "7-1",
+          "fighter_b": "Mateus Soares",
+          "record_b": "11-2",
+          "weight_class": "Bantamweight"
+        },
+        {
+          "fighter_a": "Alivia Bierley",
+          "record_a": "5-1",
+          "fighter_b": "Summer Onley",
+          "record_b": "6-0",
+          "weight_class": "Women's Bantamweight"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "date": "2026-10-13",
+      "status": "upcoming",
+      "card_complete": false,
+      "bouts": [
+        {
+          "fighter_a": "Davi Cabral",
+          "record_a": "7-0",
+          "fighter_b": "Douglas da Lapa",
+          "record_b": "6-0",
+          "weight_class": "Middleweight"
+        },
+        {
+          "fighter_a": "Luis Francischinelli",
+          "record_a": "6-1",
+          "fighter_b": "Will Rentz",
+          "record_b": "8-2",
+          "weight_class": "Welterweight"
+        },
+        {
+          "fighter_a": "Aline Pereira",
+          "record_a": "3-2",
+          "fighter_b": "Smilla Sundell",
+          "record_b": "2-0",
+          "weight_class": "Women's Bantamweight"
+        },
+        {
+          "fighter_a": "Sean King",
+          "record_a": null,
+          "fighter_b": "TBA",
+          "record_b": null,
+          "weight_class": "Featherweight",
+          "data_flags": [
+            "Listed on Wikipedia only; opponent and record not confirmed."
+          ]
+        },
+        {
+          "fighter_a": "Jarrett Betancourt",
+          "record_a": null,
+          "fighter_b": "TBA",
+          "record_b": null,
+          "weight_class": "Flyweight",
+          "data_flags": [
+            "Listed on Wikipedia only; opponent and record not confirmed."
+          ]
+        }
+      ]
+    }
+  ]
+}

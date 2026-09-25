@@ -1,0 +1,113 @@
+{
+ "eventId": "dwcs-2026-week1",
+ "title": "DWCS Season 10 · Week 1",
+ "date": "2026-08-11",
+ "promotion": "DWCS",
+ "forecast": null,
+ "results": {
+  "checkedAt": "2026-09-24",
+  "sources": [
+   {
+    "label": "Sherdog event page",
+    "url": "https://www.sherdog.com/events/Dana-Whites-Contender-Series-Contender-Series-2026-Week-1"
+   },
+   {
+    "label": "UFC.com DWCS results",
+    "url": "https://www.ufc.com/news/dana-whites-contender-series-season-10-week-1-results"
+   }
+  ],
+  "bouts": [
+   {
+    "a": "Anthony Wint",
+    "b": "Matt Adams",
+    "winner": "Anthony Wint",
+    "loser": "Matt Adams",
+    "method": "KO/TKO",
+    "detail": "TKO (punches/ground strikes)",
+    "round": 1,
+    "time": "0:34",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Leg kicks and an overhand right set up a power takedown.",
+     "Finished with ground strikes 34 seconds in."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Abe Alsaghir",
+    "b": "Fabrizio Escarrega",
+    "winner": "Abe Alsaghir",
+    "loser": "Fabrizio Escarrega",
+    "method": "Decision",
+    "detail": "Decision (split)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "Constant forward pressure and takedown attempts won two judges.",
+     "Escarrega defended most takedowns; one judge had it a 30-27 shutout for him."
+    ],
+    "contract": false
+   },
+   {
+    "a": "Bilal Hasan",
+    "b": "Mridul Saikia",
+    "winner": "Bilal Hasan",
+    "loser": "Mridul Saikia",
+    "method": "KO/TKO",
+    "detail": "TKO (punches)",
+    "round": 1,
+    "time": "0:45",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Caught a leg kick and dropped Saikia with an overhand right.",
+     "Quick follow-up strikes on the ground ended it."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Tom Pagliarulo",
+    "b": "Ananias Mulumba",
+    "winner": "Tom Pagliarulo",
+    "loser": "Ananias Mulumba",
+    "method": "KO/TKO",
+    "detail": "TKO (punches/elbows)",
+    "round": 3,
+    "time": "4:24",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "Blended striking and wrestling, building momentum each round.",
+     "Late R3 takedown, then elbows from side control for the stoppage."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Joe Kropschot",
+    "b": "Jon Kunneman",
+    "winner": "Joe Kropschot",
+    "loser": "Jon Kunneman",
+    "method": "Decision",
+    "detail": "Decision (unanimous)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "Controlled range with jab, straight shots and teeps.",
+     "Nearly finished an armbar late in R3."
+    ],
+    "contract": true
+   }
+  ]
+ },
+ "review": null
+}

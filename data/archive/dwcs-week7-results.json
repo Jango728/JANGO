@@ -1,0 +1,69 @@
+{
+  "eventId": "dwcs-2026-week7",
+  "event": "DWCS: Season 10 · Week 7",
+  "date": "2026-09-22",
+  "status": "completed",
+  "forecastStatus": "retrospective-only",
+  "note": "No frozen pre-event model forecast exists for this card. Results are recorded for future chronological learning and must not be scored as prospective predictions.",
+  "sources": {
+    "official": "https://www.ufc.com/story/4b65ddd2-e496-4a89-8bdf-ad9ed551c89a",
+    "results": "https://www.espn.com/mma/fightcenter/_/id/600060738/league/ufc"
+  },
+  "bouts": [
+    {
+      "fightId": "dwcs-2026-week7-norbert-novenyi-jr-theo-haig",
+      "winner": "Norbert Növényi Jr.",
+      "loser": "Theo Haig",
+      "method": "DEC",
+      "detail": "Unanimous decision (29-28, 29-28, 29-28)",
+      "round": 3,
+      "time": "5:00",
+      "overUnder": "Over",
+      "totalLine": 1.5
+    },
+    {
+      "fightId": "dwcs-2026-week7-jaden-ortega-alvi-dasuyev",
+      "winner": "Alvi Dasuyev",
+      "loser": "Jaden Ortega",
+      "method": "DEC",
+      "detail": "Unanimous decision (30-27, 30-27, 29-28)",
+      "round": 3,
+      "time": "5:00",
+      "overUnder": "Over",
+      "totalLine": 1.5
+    },
+    {
+      "fightId": "dwcs-2026-week7-marcos-degli-paris-moran",
+      "winner": "Marcos Degli",
+      "loser": "Paris Moran",
+      "method": "SUB",
+      "detail": "Submission (rear-naked choke)",
+      "round": 2,
+      "time": "4:46",
+      "overUnder": "Over",
+      "totalLine": 1.5
+    },
+    {
+      "fightId": "dwcs-2026-week7-callum-connor-piero-guaylupo",
+      "winner": "Piero Guaylupo",
+      "loser": "Callum Connor",
+      "method": "DEC",
+      "detail": "Unanimous decision (30-27, 30-27, 30-27)",
+      "round": 3,
+      "time": "5:00",
+      "overUnder": "Over",
+      "totalLine": 1.5
+    },
+    {
+      "fightId": "dwcs-2026-week7-emilio-quissua-damian-piwowarczyk",
+      "winner": "Damian Piwowarczyk",
+      "loser": "Emilio Quissua",
+      "method": "TKO",
+      "detail": "TKO (punches)",
+      "round": 1,
+      "time": "4:55",
+      "overUnder": "Under",
+      "totalLine": 1.5
+    }
+  ]
+}

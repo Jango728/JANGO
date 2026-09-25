@@ -1,0 +1,401 @@
+[
+  {
+    "name": "Giga Chikadze",
+    "url": "https://www.espn.com/mma/fighter/_/id/3957071",
+    "stance": "Orthodox",
+    "reachIn": 74,
+    "fighterId": "giga-chikadze",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Joanderson Brito",
+    "url": "https://www.espn.com/mma/fighter/_/id/4422355",
+    "stance": "Orthodox",
+    "reachIn": 72,
+    "fighterId": "joanderson-brito",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Casey O'Neill",
+    "url": "https://www.espn.com/mma/fighter/_/id/4699589",
+    "stance": "Orthodox",
+    "reachIn": 69,
+    "fighterId": "casey-o-neill",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Eduarda Moura",
+    "url": "https://www.espn.com/mma/fighter/_/id/5143888",
+    "stance": "Orthodox",
+    "reachIn": 67,
+    "fighterId": "eduarda-moura",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "ESPN lists 167.64 cm height; retained existing 165.1 cm listing (sources differ)."
+    ]
+  },
+  {
+    "name": "Edmen Shahbazyan",
+    "url": "https://www.espn.com/mma/fighter/_/id/4354318",
+    "stance": "Orthodox",
+    "reachIn": 74,
+    "fighterId": "edmen-shahbazyan",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Brunno Ferreira",
+    "url": "https://www.espn.com/mma/fighter/_/id/5077131",
+    "stance": "Orthodox",
+    "reachIn": 72,
+    "fighterId": "brunno-ferreira",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Ozzy Diaz",
+    "url": "https://www.espn.com/mma/fighter/_/id/4944080",
+    "stance": "Orthodox",
+    "reachIn": 79,
+    "fighterId": "ozzy-diaz",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Ryan Gandra",
+    "url": "https://www.espn.com/mma/fighter/_/id/5291085",
+    "stance": "Orthodox",
+    "reachIn": 74,
+    "fighterId": "ryan-gandra",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "ESPN lists 187.96 cm reach; retained existing 189.23 cm listing (sources differ)."
+    ]
+  },
+  {
+    "name": "Michael Aswell",
+    "url": "https://www.espn.com/mma/fighter/_/id/5212738",
+    "stance": "Orthodox",
+    "reachIn": 69,
+    "fighterId": "michael-aswell-jr",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "JooSang Yoo",
+    "url": "https://www.espn.com/mma/fighter/_/id/5282139",
+    "stance": "Orthodox",
+    "reachIn": 71,
+    "fighterId": "joosang-yoo",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "Reach supplied by ESPN.",
+      "ESPN lists 170.18 cm height; retained existing 175.26 cm listing (sources differ)."
+    ]
+  },
+  {
+    "name": "Tai Tuivasa",
+    "url": "https://www.espn.com/mma/fighter/_/id/3722422",
+    "stance": "Southpaw",
+    "reachIn": 75,
+    "fighterId": "tai-tuivasa",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Robelis Despaigne",
+    "url": "https://www.espn.com/mma/fighter/_/id/5189560",
+    "stance": "Orthodox",
+    "reachIn": 84,
+    "fighterId": "robelis-despaigne",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Marlon Vera",
+    "url": "https://www.espn.com/mma/fighter/_/id/3155424",
+    "stance": "Switch",
+    "reachIn": 70,
+    "fighterId": "marlon-vera",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "ESPN lists 177.8 cm reach; retained existing 179.07 cm listing (sources differ)."
+    ]
+  },
+  {
+    "name": "Charles Jourdain",
+    "url": "https://www.espn.com/mma/fighter/_/id/4421978",
+    "stance": "Switch",
+    "reachIn": 69,
+    "fighterId": "charles-jourdain",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Gable Steveson",
+    "url": "https://www.espn.com/mma/fighter/_/id/5214652",
+    "stance": "Orthodox",
+    "reachIn": 74,
+    "fighterId": "gable-steveson",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "ESPN lists 180.34 cm height; retained existing 185.42 cm listing (sources differ)."
+    ]
+  },
+  {
+    "name": "Sean Sharaf",
+    "url": "https://www.espn.com/mma/fighter/_/id/5240957",
+    "stance": "Orthodox",
+    "reachIn": 77,
+    "fighterId": "sean-sharaf",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "ESPN lists 195.58 cm reach; retained existing 193.04 cm listing (sources differ).",
+      "ESPN lists 190.5 cm height; retained existing 187.96 cm listing (sources differ)."
+    ]
+  },
+  {
+    "name": "Alonzo Menifield",
+    "url": "https://www.espn.com/mma/fighter/_/id/3948876",
+    "stance": "Orthodox",
+    "reachIn": 76,
+    "fighterId": "alonzo-menifield",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Iwo Baraniewski",
+    "url": "https://www.espn.com/mma/fighter/_/id/5307810",
+    "stance": "Orthodox",
+    "reachIn": 73,
+    "fighterId": "iwo-baraniewski",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "ESPN lists 185.42 cm reach; retained existing 186.69 cm listing (sources differ)."
+    ]
+  },
+  {
+    "name": "Patricio Pitbull",
+    "url": "https://www.espn.com/mma/fighter/_/id/2532870",
+    "stance": "Orthodox",
+    "reachIn": 67,
+    "fighterId": "patricio-pitbull",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Dooho Choi",
+    "url": "https://www.espn.com/mma/fighter/_/id/3093026",
+    "stance": "Orthodox",
+    "reachIn": 70,
+    "fighterId": "dooho-choi",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "ESPN lists 177.8 cm height; retained existing 175.26 cm listing (sources differ)."
+    ]
+  },
+  {
+    "name": "Arman Tsarukyan",
+    "url": "https://www.espn.com/mma/fighter/_/id/4419372",
+    "stance": "Orthodox",
+    "reachIn": 72,
+    "fighterId": "arman-tsarukyan",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "ESPN lists 182.88 cm reach; retained existing 184.15 cm listing (sources differ)."
+    ]
+  },
+  {
+    "name": "Mauricio Ruffy",
+    "url": "https://www.espn.com/mma/fighter/_/id/5122238",
+    "stance": "Orthodox",
+    "reachIn": 75,
+    "fighterId": "mauricio-ruffy",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Alexandre Pantoja",
+    "url": "https://www.espn.com/mma/fighter/_/id/2560746",
+    "stance": "Orthodox",
+    "reachIn": 67,
+    "fighterId": "alexandre-pantoja",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Joshua Van",
+    "url": "https://www.espn.com/mma/fighter/_/id/5120301",
+    "stance": "Orthodox",
+    "reachIn": 65,
+    "fighterId": "joshua-van",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026."
+    ]
+  },
+  {
+    "name": "Antonio Monteiro",
+    "url": "https://www.espn.com/mma/fighter/_/id/5057385",
+    "stance": "Orthodox",
+    "reachIn": 70,
+    "fighterId": "antonio-monteiro",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "Reach supplied by ESPN.",
+      "ESPN lists 170.18 cm height; retained existing 172.72 cm listing (sources differ)."
+    ]
+  },
+  {
+    "name": "Tyshawn Williams",
+    "url": "https://www.espn.com/mma/fighter/_/id/5369685",
+    "stance": "Switch",
+    "reachIn": 72,
+    "fighterId": "tyshawn-williams",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "Reach supplied by ESPN."
+    ]
+  },
+  {
+    "name": "Hugo Guillon",
+    "url": "https://www.espn.com/mma/fighter/_/id/5369426",
+    "stance": "Orthodox",
+    "reachIn": 78,
+    "fighterId": "hugo-guillon",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "Reach supplied by ESPN."
+    ]
+  },
+  {
+    "name": "Luis Hernandez",
+    "url": "https://www.espn.com/mma/fighter/_/id/5369427",
+    "stance": "Southpaw",
+    "reachIn": 73,
+    "fighterId": "luis-hernandez",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "Reach supplied by ESPN.",
+      "ESPN lists 175.26 cm height; retained existing 177.8 cm listing (sources differ)."
+    ]
+  },
+  {
+    "name": "Ednilson Santos",
+    "url": "https://www.espn.com/mma/fighter/_/id/5113920",
+    "stance": "Orthodox",
+    "reachIn": 73,
+    "fighterId": "ednilson-santos",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "Reach supplied by ESPN."
+    ]
+  },
+  {
+    "name": "Akbar Abdullaev",
+    "url": "https://www.espn.com/mma/fighter/_/id/5210077",
+    "stance": "Orthodox",
+    "reachIn": 70,
+    "fighterId": "akbar-abdullaev",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "Reach supplied by ESPN."
+    ]
+  },
+  {
+    "name": "Oscar Ravello",
+    "url": "https://www.espn.com/mma/fighter/_/id/4872704",
+    "stance": "Switch",
+    "reachIn": 72,
+    "fighterId": "oscar-ravello",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "Reach supplied by ESPN."
+    ]
+  },
+  {
+    "name": "Igor Cavalcanti",
+    "url": "https://www.espn.com/mma/fighter/_/id/5214599",
+    "stance": "Orthodox",
+    "reachIn": 79,
+    "fighterId": "igor-cavalcanti",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "Reach supplied by ESPN."
+    ]
+  },
+  {
+    "name": "Zevan Hunt",
+    "url": "https://www.espn.com/mma/fighter/_/id/5369672",
+    "stance": "Orthodox",
+    "reachIn": 73,
+    "fighterId": "zevan-hunt",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "Reach supplied by ESPN.",
+      "ESPN lists 182.88 cm height; retained existing 185.42 cm listing (sources differ)."
+    ]
+  },
+  {
+    "name": "Mayton Perea",
+    "url": "https://www.espn.com/mma/fighter/_/id/5369676",
+    "stance": "Orthodox",
+    "reachIn": 75,
+    "fighterId": "mayton-perea",
+    "checked": "2026-09-15",
+    "notes": [
+      "Stance listed by ESPN, checked September 15, 2026.",
+      "Reach supplied by ESPN.",
+      "ESPN lists 187.96 cm height; retained existing 177.8 cm listing (sources differ)."
+    ]
+  }
+]

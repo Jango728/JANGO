@@ -1,0 +1,184 @@
+{
+ "eventId": "dwcs-2026-week6",
+ "title": "DWCS Season 10 · Week 6",
+ "date": "2026-09-15",
+ "promotion": "DWCS",
+ "forecast": {
+  "engine": "0.4 (GPT era)",
+  "frozenAt": "2026-09-14",
+  "basis": "Default model output preserved in the historical pre-event revision; not a personally locked pick.",
+  "bouts": [
+   {
+    "a": "Zevan Hunt",
+    "b": "Mayton Perea",
+    "pick": "Zevan Hunt",
+    "confidence": null,
+    "tier": null,
+    "rounds": {
+     "side": "Under",
+     "line": 1.5
+    },
+    "method": "Submission",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Oscar Ravello",
+    "b": "Igor Cavalcanti",
+    "pick": "Oscar Ravello",
+    "confidence": null,
+    "tier": null,
+    "rounds": {
+     "side": "Under",
+     "line": 1.5
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Akbar Abdullaev",
+    "b": "Ednilson Santos",
+    "pick": "Akbar Abdullaev",
+    "confidence": null,
+    "tier": null,
+    "rounds": {
+     "side": "Over",
+     "line": 1.5
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Luis Hernandez",
+    "b": "Hugo Guillon",
+    "pick": "Luis Hernandez",
+    "confidence": null,
+    "tier": null,
+    "rounds": {
+     "side": "Under",
+     "line": 1.5
+    },
+    "method": "Submission",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Tyshawn Williams",
+    "b": "Antonio Monteiro",
+    "pick": "Antonio Monteiro",
+    "confidence": null,
+    "tier": null,
+    "rounds": {
+     "side": "Over",
+     "line": 1.5
+    },
+    "method": "Submission",
+    "scheduledRounds": 3
+   }
+  ]
+ },
+ "results": {
+  "checkedAt": "2026-09-24",
+  "sources": [
+   {
+    "label": "Sherdog event page",
+    "url": "https://www.sherdog.com/events/Dana-Whites-Contender-Series-Contender-Series-2026-Week-6"
+   },
+   {
+    "label": "UFC.com DWCS results",
+    "url": "https://www.ufc.com/news/dana-whites-contender-series-season-10-week-6-results"
+   }
+  ],
+  "bouts": [
+   {
+    "a": "Mayton Perea",
+    "b": "Zevan Hunt",
+    "winner": "Mayton Perea",
+    "loser": "Zevan Hunt",
+    "method": "KO/TKO",
+    "detail": "KO (punches)",
+    "round": 1,
+    "time": "0:45",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Straight shots dropped Hunt early.",
+     "Heavy follow-ups finished it after Hunt briefly recovered."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Igor Cavalcanti",
+    "b": "Oscar Ravello",
+    "winner": "Igor Cavalcanti",
+    "loser": "Oscar Ravello",
+    "method": "KO/TKO",
+    "detail": "TKO (punches/elbows)",
+    "round": 1,
+    "time": "1:38",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Big right hand dropped Ravello.",
+     "Relentless ground strikes forced the stoppage."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Akbar Abdullaev",
+    "b": "Ednilson Santos",
+    "winner": "Akbar Abdullaev",
+    "loser": "Ednilson Santos",
+    "method": "KO/TKO",
+    "detail": "KO (punch)",
+    "round": 1,
+    "time": "0:19",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Overhand right knocked Santos out cold in 19 seconds.",
+     "Dana White called him among the best talents in series history."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Luis Hernandez",
+    "b": "Hugo Guillon",
+    "winner": "Luis Hernandez",
+    "loser": "Hugo Guillon",
+    "method": "Submission",
+    "detail": "Submission (rear-naked choke)",
+    "round": 2,
+    "time": "1:01",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Traded strikes and scrambles in R1.",
+     "Took the back in R2 and got the tap."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Tyshawn Williams",
+    "b": "Antonio Monteiro",
+    "winner": "Tyshawn Williams",
+    "loser": "Antonio Monteiro",
+    "method": "Decision",
+    "detail": "Decision (unanimous)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "Controlled with wrestling and ground strikes, fading late in R3.",
+     "No contract; offered a return DWCS fight this season."
+    ],
+    "contract": false
+   }
+  ]
+ },
+ "review": null
+}

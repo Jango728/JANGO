@@ -1,0 +1,1608 @@
+{
+  "sourceCommit": "b415b127f5e2768d072f15fbd8b1571f64243172",
+  "publishedAt": "2026-09-11T06:22:00Z",
+  "reproducedAt": "2026-09-14",
+  "basis": "Default model reproduced from pre-event published source and data; not a personally locked prediction.",
+  "eventId": "noche-2026",
+  "forecasts": [
+    {
+      "fightId": "noche-2026-jean-silva-jose-miguel-delgado",
+      "a": "Jean Silva",
+      "b": "Jose Miguel Delgado",
+      "pick": "jose-miguel-delgado",
+      "edge": -3.5,
+      "coverage": 100,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": 0.08791665373806201,
+          "note": "Last 10 opponent-record coverage: 10/10 for Jean Silva; 9/10 for Jose Miguel Delgado. Schedule index 73 vs 69. Second-level coverage 2 vs 1. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/Jean-Silva-239947",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": -0.10490250000000001,
+          "note": "Official profile aggregates: strike differential 0.32 vs 1.89/min; TD rate 1.2 vs 1.37/15 min; TD defence 79% vs 63%; submission attempts 0.6 vs 0/15 min; knockdowns 1 vs 1.37/15 min. Small career samples reduce the signal. These are not last-10 bout statistics or a validated tactical forecast. Control time is unavailable.",
+          "basis": "Measured combat statistics",
+          "source": "https://www.ufc.com/athlete/jean-silva",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": -0.37000000000000005,
+          "note": "Reach 175.3 vs 185.4 cm; height 170.2 vs 180.3 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/jean-silva",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": 0.04285714285714287,
+          "note": "Within the last 10, bouts reaching round 3: Jean Silva 3-0-0 (3); Jose Miguel Delgado 4-1-0 (5). This is observed late-bout success, not a cardio measurement. Five-round capacity still needs separate evidence.",
+          "basis": "Last-10 distance evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": -0.01585769776767504,
+          "note": "Jean Silva: 9-1-0 in 10 available bouts; Jose Miguel Delgado: 9-1-0 in 10. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 7 vs 7; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": 0,
+          "note": "Jean Silva: 231 days since last bout; typical gap 133 days. Jose Miguel Delgado: 56 days; typical gap 119 days. Weight-class fields verified in 6/10 and 3/10 bouts. Weight-class changes need review. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Under",
+        "line": 2.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 5,
+        "thresholdMinutes": 12.5,
+        "confidence": 55,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "jean-silva",
+            "name": "Jean Silva",
+            "over": 2,
+            "under": 8,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Jean-Silva-239947"
+          },
+          {
+            "id": "jose-miguel-delgado",
+            "name": "Jose Miguel Delgado",
+            "over": 3,
+            "under": 7,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Jose-Delgado-307733"
+          }
+        ],
+        "notes": [
+          "Jean Silva: 2/10 known bouts went over 2.5; 8 stayed under.",
+          "Jose Miguel Delgado: 3/10 known bouts went over 2.5; 7 stayed under.",
+          "Both have frequent recorded knockdowns and KO wins over opponents with strong pre-fight records. That keeps a finish plausible even in a close matchup.",
+          "Knockout wins meet a history of knockout losses: an earlier finish is plausible."
+        ],
+        "limited": false
+      },
+      "finish": {
+        "modelVersion": "0.2",
+        "winnerId": "jose-miguel-delgado",
+        "method": "ko",
+        "label": "KO / TKO",
+        "limited": true,
+        "reasons": [
+          "Jose Miguel Delgado: 5 of 9 classified recent wins by ko / tko.",
+          "Jean Silva: 1 of 1 classified recent losses by this method.",
+          "The rounds model leans Under, so a decision is excluded from this scenario."
+        ],
+        "sources": [
+          {
+            "name": "Jose Miguel Delgado",
+            "url": "https://www.sherdog.com/fighter/Jose-Delgado-307733"
+          },
+          {
+            "name": "Jean Silva",
+            "url": "https://www.sherdog.com/fighter/Jean-Silva-239947"
+          }
+        ]
+      }
+    },
+    {
+      "fightId": "noche-2026-brandon-moreno-joseph-morales",
+      "a": "Brandon Moreno",
+      "b": "Joseph Morales",
+      "pick": "brandon-moreno",
+      "edge": 4.4,
+      "coverage": 100,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": 0.2463067528770635,
+          "note": "Last 10 opponent-record coverage: 10/10 for Brandon Moreno; 9/10 for Joseph Morales. Schedule index 79 vs 66. Second-level coverage 7 vs 1. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/Brandon-Moreno-80173",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": -0.008512500000000027,
+          "note": "Official profile aggregates: strike differential 0.20 vs -0.05/min; TD rate 1.36 vs 1.14/15 min; TD defence 65% vs 27%; submission attempts 0.4 vs 3.04/15 min; knockdowns 0.18 vs 0.38/15 min. Small career samples reduce the signal. These are not last-10 bout statistics or a validated tactical forecast. Control time is unavailable.",
+          "basis": "Measured combat statistics",
+          "source": "https://www.ufc.com/athlete/brandon-moreno",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": 0.12079999999999996,
+          "note": "Reach 177.8 vs 175.3 cm; height 170.2 vs 167.6 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/brandon-moreno",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": -0.08441558441558444,
+          "note": "Within the last 10, bouts reaching round 3: Brandon Moreno 5-4-0 (9); Joseph Morales 4-1-0 (5). This is observed late-bout success, not a cardio measurement. ",
+          "basis": "Last-10 distance evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": -0.4325849935519763,
+          "note": "Brandon Moreno: 5-5-0 in 10 available bouts; Joseph Morales: 8-2-0 in 10. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 3 vs 5; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": 0,
+          "note": "Brandon Moreno: 196 days since last bout; typical gap 189 days. Joseph Morales: 308 days; typical gap 215 days. Weight-class fields verified in 6/10 and 2/10 bouts. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Over",
+        "line": 1.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 3,
+        "thresholdMinutes": 7.5,
+        "confidence": 61,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "brandon-moreno",
+            "name": "Brandon Moreno",
+            "over": 9,
+            "under": 1,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Brandon-Moreno-80173"
+          },
+          {
+            "id": "joseph-morales",
+            "name": "Joseph Morales",
+            "over": 8,
+            "under": 2,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Joseph-Morales-123553"
+          }
+        ],
+        "notes": [
+          "Brandon Moreno: 9/10 known bouts went over 1.5; 1 stayed under.",
+          "Joseph Morales: 8/10 known bouts went over 1.5; 2 stayed under.",
+          "Knockout wins meet a history of knockout losses: an earlier finish is plausible."
+        ],
+        "limited": false
+      },
+      "finish": {
+        "modelVersion": "0.2",
+        "winnerId": "brandon-moreno",
+        "method": "decision",
+        "label": "Decision",
+        "limited": false,
+        "reasons": [
+          "Brandon Moreno: 2 of 4 classified recent wins by decision.",
+          "Joseph Morales: 1 of 2 classified recent losses by this method."
+        ],
+        "sources": [
+          {
+            "name": "Brandon Moreno",
+            "url": "https://www.sherdog.com/fighter/Brandon-Moreno-80173"
+          },
+          {
+            "name": "Joseph Morales",
+            "url": "https://www.sherdog.com/fighter/Joseph-Morales-123553"
+          }
+        ]
+      }
+    },
+    {
+      "fightId": "noche-2026-tommy-mcmillen-marwan-rahiki",
+      "a": "Tommy McMillen",
+      "b": "Marwan Rahiki",
+      "pick": "tommy-mcmillen",
+      "edge": 8.1,
+      "coverage": 90,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": 0.01649552319634129,
+          "note": "Last 10 opponent-record coverage: 10/10 for Tommy McMillen; 8/9 for Marwan Rahiki. Schedule index 57 vs 56. Second-level coverage 0 vs 0. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/Tommy-McMillen-229309",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": 0.16199999999999998,
+          "note": "Official profile aggregates: strike differential 8.58 vs 1.85/min; TD rate 0 vs 0/15 min; TD defence 83% vs 100%; submission attempts 0 vs 0.75/15 min; knockdowns 1.39 vs 2.25/15 min. Small career samples reduce the signal. These are not last-10 bout statistics or a validated tactical forecast. Control time is unavailable.",
+          "basis": "Measured combat statistics",
+          "source": "https://www.ufc.com/athlete/tommy-mcmillen",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": 0.2539999999999998,
+          "note": "Reach 188 vs 182.9 cm; height 182.9 vs 172.7 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/tommy-mcmillen",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": null,
+          "note": "More verified evidence is needed on both fighters.",
+          "basis": "Missing evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": 0.008400678115392912,
+          "note": "Tommy McMillen: 10-0-0 in 10 available bouts; Marwan Rahiki: 9-0-0 in 9. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 9 vs 9; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": 0,
+          "note": "Tommy McMillen: 56 days since last bout; typical gap 129 days. Marwan Rahiki: 133 days; typical gap 96 days. Weight-class fields verified in 1/10 and 2/9 bouts. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Under",
+        "line": 1.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 3,
+        "thresholdMinutes": 7.5,
+        "confidence": 57,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "tommy-mcmillen",
+            "name": "Tommy McMillen",
+            "over": 2,
+            "under": 8,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Tommy-McMillen-229309"
+          },
+          {
+            "id": "marwan-rahiki",
+            "name": "Marwan Rahiki",
+            "over": 2,
+            "under": 7,
+            "known": 9,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Marwan-Rahiki-430352"
+          }
+        ],
+        "notes": [
+          "Tommy McMillen: 2/10 known bouts went over 1.5; 8 stayed under.",
+          "Marwan Rahiki: 2/9 known bouts went over 1.5; 7 stayed under.",
+          "Both have frequent recorded knockdowns and KO wins over opponents with strong pre-fight records. That keeps a finish plausible even in a close matchup.",
+          "Early wins against weak or unverified opposition carry less influence."
+        ],
+        "limited": false
+      },
+      "finish": {
+        "modelVersion": "0.2",
+        "winnerId": "tommy-mcmillen",
+        "method": "ko",
+        "label": "KO / TKO",
+        "limited": true,
+        "reasons": [
+          "Tommy McMillen: 5 of 10 classified recent wins by ko / tko.",
+          "Marwan Rahiki: 0 of 0 classified recent losses by this method.",
+          "The rounds model leans Under, so a decision is excluded from this scenario."
+        ],
+        "sources": [
+          {
+            "name": "Tommy McMillen",
+            "url": "https://www.sherdog.com/fighter/Tommy-McMillen-229309"
+          },
+          {
+            "name": "Marwan Rahiki",
+            "url": "https://www.sherdog.com/fighter/Marwan-Rahiki-430352"
+          }
+        ]
+      }
+    },
+    {
+      "fightId": "noche-2026-manon-fiorot-alexa-grasso",
+      "a": "Manon Fiorot",
+      "b": "Alexa Grasso",
+      "pick": "manon-fiorot",
+      "edge": 4.3,
+      "coverage": 100,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": -0.080920874599693,
+          "note": "Last 10 opponent-record coverage: 10/10 for Manon Fiorot; 10/10 for Alexa Grasso. Schedule index 73 vs 77. Second-level coverage 5 vs 7. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/Manon-Fiorot-228689",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": 0.13185,
+          "note": "Official profile aggregates: strike differential 1.35 vs 0.40/min; TD rate 1.29 vs 0.4/15 min; TD defence 62% vs 55%; submission attempts 0.55 vs 0.67/15 min; knockdowns 0.09 vs 0.13/15 min. Small career samples reduce the signal. These are not last-10 bout statistics or a validated tactical forecast. Control time is unavailable.",
+          "basis": "Measured combat statistics",
+          "source": "https://www.ufc.com/athlete/manon-fiorot",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": -0.05920000000000005,
+          "note": "Reach 165.1 vs 167.6 cm; height 170.2 vs 165.1 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/manon-fiorot",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": 0.09999999999999998,
+          "note": "Within the last 10, bouts reaching round 3: Manon Fiorot 5-1-0 (6); Alexa Grasso 4-3-1 (8). This is observed late-bout success, not a cardio measurement. ",
+          "basis": "Last-10 distance evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": 0.27520514501890525,
+          "note": "Manon Fiorot: 9-1-0 in 10 available bouts; Alexa Grasso: 6-3-1 in 10. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 4 vs 3; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": 0,
+          "note": "Manon Fiorot: 329 days since last bout; typical gap 161 days. Alexa Grasso: 168 days; typical gap 238 days. Weight-class fields verified in 4/10 and 5/10 bouts. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Over",
+        "line": 1.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 3,
+        "thresholdMinutes": 7.5,
+        "confidence": 65,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "manon-fiorot",
+            "name": "Manon Fiorot",
+            "over": 8,
+            "under": 2,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Manon-Fiorot-228689"
+          },
+          {
+            "id": "alexa-grasso",
+            "name": "Alexa Grasso",
+            "over": 8,
+            "under": 2,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Alexa-Grasso-142845"
+          }
+        ],
+        "notes": [
+          "Manon Fiorot: 8/10 known bouts went over 1.5; 2 stayed under.",
+          "Alexa Grasso: 8/10 known bouts went over 1.5; 2 stayed under.",
+          "Similar verified opposition and few recent stoppage losses: their finish rates may not carry over against each other. A longer fight gets more consideration.",
+          "Recent duration patterns drive this lean; weight class alone does not force an early finish."
+        ],
+        "limited": false
+      },
+      "finish": {
+        "modelVersion": "0.2",
+        "winnerId": "manon-fiorot",
+        "method": "decision",
+        "label": "Decision",
+        "limited": false,
+        "reasons": [
+          "Manon Fiorot: 5 of 9 classified recent wins by decision.",
+          "Alexa Grasso: 3 of 3 classified recent losses by this method.",
+          "Similar verified opposition and few recent stoppage losses: their finish rates may not carry over against each other. A longer fight gets more consideration."
+        ],
+        "sources": [
+          {
+            "name": "Manon Fiorot",
+            "url": "https://www.sherdog.com/fighter/Manon-Fiorot-228689"
+          },
+          {
+            "name": "Alexa Grasso",
+            "url": "https://www.sherdog.com/fighter/Alexa-Grasso-142845"
+          }
+        ]
+      }
+    },
+    {
+      "fightId": "noche-2026-waldo-cortes-acosta-curtis-blaydes",
+      "a": "Waldo Cortes Acosta",
+      "b": "Curtis Blaydes",
+      "pick": "curtis-blaydes",
+      "edge": -1.7,
+      "coverage": 100,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": 0.0020105419056013485,
+          "note": "Last 10 opponent-record coverage: 9/10 for Waldo Cortes Acosta; 9/10 for Curtis Blaydes. Schedule index 75 vs 75. Second-level coverage 4 vs 5. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/Waldo-CortesAcosta-190909",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": -0.04778666666666667,
+          "note": "Official profile aggregates: strike differential 1.71 vs 1.42/min; TD rate 0.4 vs 5.12/15 min; TD defence 74% vs 35%; submission attempts 0.1 vs 0/15 min; knockdowns 0.7 vs 0.16/15 min. Small career samples reduce the signal. These are not last-10 bout statistics or a validated tactical forecast. Control time is unavailable.",
+          "basis": "Measured combat statistics",
+          "source": "https://www.ufc.com/athlete/waldo-cortes-acosta",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": -0.2039999999999998,
+          "note": "Reach 198.1 vs 203.2 cm; height 193 vs 193 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/waldo-cortes-acosta",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": -0.047619047619047616,
+          "note": "Within the last 10, bouts reaching round 3: Waldo Cortes Acosta 3-2-0 (5); Curtis Blaydes 3-1-0 (4). This is observed late-bout success, not a cardio measurement. ",
+          "basis": "Last-10 distance evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": 0.21856615674323654,
+          "note": "Waldo Cortes Acosta: 8-2-0 in 10 available bouts; Curtis Blaydes: 6-4-0 in 10. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 5 vs 3; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": 0,
+          "note": "Waldo Cortes Acosta: 126 days since last bout; typical gap 84 days. Curtis Blaydes: 154 days; typical gap 245 days. Weight-class fields verified in 6/10 and 3/10 bouts. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Over",
+        "line": 1.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 3,
+        "thresholdMinutes": 7.5,
+        "confidence": 52,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "waldo-cortes-acosta",
+            "name": "Waldo Cortes Acosta",
+            "over": 7,
+            "under": 3,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Waldo-CortesAcosta-190909"
+          },
+          {
+            "id": "curtis-blaydes",
+            "name": "Curtis Blaydes",
+            "over": 4,
+            "under": 6,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Curtis-Blaydes-172939"
+          }
+        ],
+        "notes": [
+          "Waldo Cortes Acosta: 7/10 known bouts went over 1.5; 3 stayed under.",
+          "Curtis Blaydes: 4/10 known bouts went over 1.5; 6 stayed under.",
+          "Knockout wins meet a history of knockout losses: an earlier finish is plausible."
+        ],
+        "limited": false
+      },
+      "finish": {
+        "modelVersion": "0.2",
+        "winnerId": "curtis-blaydes",
+        "method": "decision",
+        "label": "Decision",
+        "limited": false,
+        "reasons": [
+          "Curtis Blaydes: 3 of 5 classified recent wins by decision.",
+          "Waldo Cortes Acosta: 2 of 2 classified recent losses by this method."
+        ],
+        "sources": [
+          {
+            "name": "Curtis Blaydes",
+            "url": "https://www.sherdog.com/fighter/Curtis-Blaydes-172939"
+          },
+          {
+            "name": "Waldo Cortes Acosta",
+            "url": "https://www.sherdog.com/fighter/Waldo-CortesAcosta-190909"
+          }
+        ]
+      }
+    },
+    {
+      "fightId": "noche-2026-david-martinez-dan-ige",
+      "a": "David Martinez",
+      "b": "Dan Ige",
+      "pick": null,
+      "edge": -0.1,
+      "coverage": 100,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": -0.27421219247565376,
+          "note": "Last 10 opponent-record coverage: 9/10 for David Martinez; 9/10 for Dan Ige. Schedule index 66 vs 79. Second-level coverage 0 vs 2. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/David-Martinez-221351",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": 0.10003333333333335,
+          "note": "Official profile aggregates: strike differential 1.92 vs 0.04/min; TD rate 0.6 vs 0.93/15 min; TD defence 100% vs 56%; submission attempts 0 vs 0.22/15 min; knockdowns 0.3 vs 0.44/15 min. Small career samples reduce the signal. These are not last-10 bout statistics or a validated tactical forecast. Control time is unavailable.",
+          "basis": "Measured combat statistics",
+          "source": "https://www.ufc.com/athlete/david-martinez",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": -0.3608,
+          "note": "Reach 171.4 vs 180.3 cm; height 165.1 vs 170.2 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/david-martinez",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": 0.27083333333333337,
+          "note": "Within the last 10, bouts reaching round 3: David Martinez 6-0-0 (6); Dan Ige 2-5-0 (7). This is observed late-bout success, not a cardio measurement. ",
+          "basis": "Last-10 distance evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": 0.7407238968834202,
+          "note": "David Martinez: 10-0-0 in 10 available bouts; Dan Ige: 4-6-0 in 10. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 6 vs 3; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": 0,
+          "note": "David Martinez: 196 days since last bout; typical gap 168 days. Dan Ige: 203 days; typical gap 140 days. Weight-class fields verified in 6/10 and 3/10 bouts. Weight-class changes need review. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Over",
+        "line": 1.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 3,
+        "thresholdMinutes": 7.5,
+        "confidence": 57,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "david-martinez",
+            "name": "David Martinez",
+            "over": 6,
+            "under": 4,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/David-Martinez-221351"
+          },
+          {
+            "id": "dan-ige",
+            "name": "Dan Ige",
+            "over": 8,
+            "under": 2,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Dan-Ige-136499"
+          }
+        ],
+        "notes": [
+          "David Martinez: 6/10 known bouts went over 1.5; 4 stayed under.",
+          "Dan Ige: 8/10 known bouts went over 1.5; 2 stayed under.",
+          "Knockout wins meet a history of knockout losses: an earlier finish is plausible."
+        ],
+        "limited": false
+      },
+      "finish": null
+    },
+    {
+      "fightId": "noche-2026-tim-elliott-edgar-chairez",
+      "a": "Tim Elliott",
+      "b": "Edgar Chairez",
+      "pick": "tim-elliott",
+      "edge": 9.4,
+      "coverage": 100,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": 0.1267043899818654,
+          "note": "Last 10 opponent-record coverage: 10/10 for Tim Elliott; 10/10 for Edgar Chairez. Schedule index 72 vs 66. Second-level coverage 1 vs 3. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/Tim-Elliott-49213",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": 0.29555333333333333,
+          "note": "Official profile aggregates: strike differential 0.51 vs -0.95/min; TD rate 3.61 vs 0/15 min; TD defence 59% vs 48%; submission attempts 1.06 vs 1.44/15 min; knockdowns 0.11 vs 0.62/15 min. Small career samples reduce the signal. These are not last-10 bout statistics or a validated tactical forecast. Control time is unavailable.",
+          "basis": "Measured combat statistics",
+          "source": "https://www.ufc.com/athlete/tim-elliott",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": -0.32000000000000006,
+          "note": "Reach 167.6 vs 180.3 cm; height 170.2 vs 170.2 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/tim-elliott",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": 0.06349206349206352,
+          "note": "Within the last 10, bouts reaching round 3: Tim Elliott 4-3-0 (7); Edgar Chairez 2-3-0 (5). This is observed late-bout success, not a cardio measurement. ",
+          "basis": "Last-10 distance evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": -0.13510621332195605,
+          "note": "Tim Elliott: 6-4-0 in 10 available bouts; Edgar Chairez: 6-3-0 (1 NC) in 10. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 2 vs 5; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": 0,
+          "note": "Tim Elliott: 133 days since last bout; typical gap 217 days. Edgar Chairez: 98 days; typical gap 119 days. Weight-class fields verified in 2/10 and 6/10 bouts. Weight-class changes need review. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Over",
+        "line": 1.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 3,
+        "thresholdMinutes": 7.5,
+        "confidence": 56,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "tim-elliott",
+            "name": "Tim Elliott",
+            "over": 9,
+            "under": 1,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Tim-Elliott-49213"
+          },
+          {
+            "id": "edgar-chairez",
+            "name": "Edgar Chairez",
+            "over": 5,
+            "under": 5,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Edgar-Chairez-244721"
+          }
+        ],
+        "notes": [
+          "Tim Elliott: 9/10 known bouts went over 1.5; 1 stayed under.",
+          "Edgar Chairez: 5/10 known bouts went over 1.5; 5 stayed under.",
+          "Submission wins meet a history of submission losses: an earlier finish is plausible."
+        ],
+        "limited": false
+      },
+      "finish": {
+        "modelVersion": "0.2",
+        "winnerId": "tim-elliott",
+        "method": "decision",
+        "label": "Decision",
+        "limited": false,
+        "reasons": [
+          "Tim Elliott: 4 of 6 classified recent wins by decision.",
+          "Edgar Chairez: 3 of 3 classified recent losses by this method."
+        ],
+        "sources": [
+          {
+            "name": "Tim Elliott",
+            "url": "https://www.sherdog.com/fighter/Tim-Elliott-49213"
+          },
+          {
+            "name": "Edgar Chairez",
+            "url": "https://www.sherdog.com/fighter/Edgar-Chairez-244721"
+          }
+        ]
+      }
+    },
+    {
+      "fightId": "noche-2026-ignacio-bahamondes-muslim-salikhov",
+      "a": "Ignacio Bahamondes",
+      "b": "Muslim Salikhov",
+      "pick": "ignacio-bahamondes",
+      "edge": 4,
+      "coverage": 100,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": -0.07293045507336116,
+          "note": "Last 10 opponent-record coverage: 10/10 for Ignacio Bahamondes; 10/10 for Muslim Salikhov. Schedule index 74 vs 77. Second-level coverage 1 vs 2. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/Ignacio-Bahamondes-221417",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": 0.14839999999999998,
+          "note": "Official profile aggregates: strike differential 1.92 vs 0.41/min; TD rate 0 vs 1.07/15 min; TD defence 70% vs 72%; submission attempts 0.63 vs 0/15 min; knockdowns 0.76 vs 0.59/15 min. Small career samples reduce the signal. These are not last-10 bout statistics or a validated tactical forecast. Control time is unavailable.",
+          "basis": "Measured combat statistics",
+          "source": "https://www.ufc.com/athlete/ignacio-bahamondes",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": 0.37000000000000005,
+          "note": "Reach 191.8 vs 177.8 cm; height 190.5 vs 180.3 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/ignacio-bahamondes",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": -0.13492063492063494,
+          "note": "Within the last 10, bouts reaching round 3: Ignacio Bahamondes 3-4-0 (7); Muslim Salikhov 4-1-0 (5). This is observed late-bout success, not a cardio measurement. ",
+          "basis": "Last-10 distance evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": -0.02696224250763285,
+          "note": "Ignacio Bahamondes: 6-4-0 in 10 available bouts; Muslim Salikhov: 6-4-0 in 10. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 5 vs 3; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": 0,
+          "note": "Ignacio Bahamondes: 168 days since last bout; typical gap 175 days. Muslim Salikhov: 308 days; typical gap 210 days. Weight-class fields verified in 5/10 and 3/10 bouts. Weight-class changes need review. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Over",
+        "line": 1.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 3,
+        "thresholdMinutes": 7.5,
+        "confidence": 52,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "ignacio-bahamondes",
+            "name": "Ignacio Bahamondes",
+            "over": 7,
+            "under": 3,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Ignacio-Bahamondes-221417"
+          },
+          {
+            "id": "muslim-salikhov",
+            "name": "Muslim Salikhov",
+            "over": 6,
+            "under": 4,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Muslim-Salikhov-129929"
+          }
+        ],
+        "notes": [
+          "Ignacio Bahamondes: 7/10 known bouts went over 1.5; 3 stayed under.",
+          "Muslim Salikhov: 6/10 known bouts went over 1.5; 4 stayed under.",
+          "Knockout wins meet a history of knockout losses: an earlier finish is plausible."
+        ],
+        "limited": false
+      },
+      "finish": {
+        "modelVersion": "0.2",
+        "winnerId": "ignacio-bahamondes",
+        "method": "ko",
+        "label": "KO / TKO",
+        "limited": false,
+        "reasons": [
+          "Ignacio Bahamondes: 3 of 6 classified recent wins by ko / tko.",
+          "Muslim Salikhov: 3 of 4 classified recent losses by this method."
+        ],
+        "sources": [
+          {
+            "name": "Ignacio Bahamondes",
+            "url": "https://www.sherdog.com/fighter/Ignacio-Bahamondes-221417"
+          },
+          {
+            "name": "Muslim Salikhov",
+            "url": "https://www.sherdog.com/fighter/Muslim-Salikhov-129929"
+          }
+        ]
+      }
+    },
+    {
+      "fightId": "noche-2026-yousri-belgaroui-djorden-santos",
+      "a": "Yousri Belgaroui",
+      "b": "Djorden Santos",
+      "pick": "yousri-belgaroui",
+      "edge": 14.9,
+      "coverage": 100,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": 0.08670305505541087,
+          "note": "Last 10 opponent-record coverage: 10/10 for Yousri Belgaroui; 9/10 for Djorden Santos. Schedule index 64 vs 59. Second-level coverage 0 vs 0. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/Yousri-Belgaroui-380449",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": 0.19726,
+          "note": "Official profile aggregates: strike differential 3.93 vs 0.29/min; TD rate 0.29 vs 0.51/15 min; TD defence 67% vs 85%; submission attempts 0 vs 0/15 min; knockdowns 0.86 vs 0/15 min. Small career samples reduce the signal. These are not last-10 bout statistics or a validated tactical forecast. Control time is unavailable.",
+          "basis": "Measured combat statistics",
+          "source": "https://www.ufc.com/athlete/yousri-belgaroui",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": 0.37000000000000005,
+          "note": "Reach 200.7 vs 191.8 cm; height 198.1 vs 182.9 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/yousri-belgaroui",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": 0.012500000000000011,
+          "note": "Within the last 10, bouts reaching round 3: Yousri Belgaroui 4-2-0 (6); Djorden Santos 5-3-0 (8). This is observed late-bout success, not a cardio measurement. ",
+          "basis": "Last-10 distance evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": 0.21487356671841773,
+          "note": "Yousri Belgaroui: 8-2-0 in 10 available bouts; Djorden Santos: 7-3-0 in 10. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 7 vs 3; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": 0,
+          "note": "Yousri Belgaroui: 168 days since last bout; typical gap 161 days. Djorden Santos: 126 days; typical gap 203 days. Weight-class fields verified in 2/10 and 3/10 bouts. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Over",
+        "line": 1.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 3,
+        "thresholdMinutes": 7.5,
+        "confidence": 63,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "yousri-belgaroui",
+            "name": "Yousri Belgaroui",
+            "over": 6,
+            "under": 4,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Yousri-Belgaroui-380449"
+          },
+          {
+            "id": "djorden-santos",
+            "name": "Djorden Santos",
+            "over": 9,
+            "under": 1,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Djorden-Santos-164321"
+          }
+        ],
+        "notes": [
+          "Yousri Belgaroui: 6/10 known bouts went over 1.5; 4 stayed under.",
+          "Djorden Santos: 9/10 known bouts went over 1.5; 1 stayed under.",
+          "Early wins against weak or unverified opposition carry less influence."
+        ],
+        "limited": false
+      },
+      "finish": {
+        "modelVersion": "0.2",
+        "winnerId": "yousri-belgaroui",
+        "method": "ko",
+        "label": "KO / TKO",
+        "limited": false,
+        "reasons": [
+          "Yousri Belgaroui: 7 of 8 classified recent wins by ko / tko.",
+          "Djorden Santos: 0 of 3 classified recent losses by this method."
+        ],
+        "sources": [
+          {
+            "name": "Yousri Belgaroui",
+            "url": "https://www.sherdog.com/fighter/Yousri-Belgaroui-380449"
+          },
+          {
+            "name": "Djorden Santos",
+            "url": "https://www.sherdog.com/fighter/Djorden-Santos-164321"
+          }
+        ]
+      }
+    },
+    {
+      "fightId": "noche-2026-drakkar-klose-tommy-gantt",
+      "a": "Drakkar Klose",
+      "b": "Tommy Gantt",
+      "pick": "drakkar-klose",
+      "edge": 7,
+      "coverage": 90,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": 0.481422897507936,
+          "note": "Last 10 opponent-record coverage: 10/10 for Drakkar Klose; 10/10 for Tommy Gantt. Schedule index 75 vs 51. Second-level coverage 5 vs 0. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/Drakkar-Klose-84568",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": -0.12099999999999998,
+          "note": "Official profile aggregates: strike differential 0.60 vs 2.07/min; TD rate 1.49 vs 11.29/15 min; TD defence 69% vs 100%; submission attempts 0 vs 1.41/15 min; knockdowns 0.2 vs 0/15 min. Small career samples reduce the signal. These are not last-10 bout statistics or a validated tactical forecast. Control time is unavailable.",
+          "basis": "Measured combat statistics",
+          "source": "https://www.ufc.com/athlete/drakkar-klose",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": -0.3600000000000001,
+          "note": "Reach 177.8 vs 194.3 cm; height 175.3 vs 180.3 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/drakkar-klose",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": null,
+          "note": "More verified evidence is needed on both fighters.",
+          "basis": "Missing evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": -0.24381441910970453,
+          "note": "Drakkar Klose: 8-2-0 in 10 available bouts; Tommy Gantt: 9-0-0 (1 NC) in 10. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 2 vs 8; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": -0.036986301369863014,
+          "note": "Drakkar Klose: 392 days since last bout; typical gap 224 days. Tommy Gantt: 119 days; typical gap 35 days. Weight-class fields verified in 3/10 and 0/10 bouts. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Over",
+        "line": 1.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 3,
+        "thresholdMinutes": 7.5,
+        "confidence": 52,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "drakkar-klose",
+            "name": "Drakkar Klose",
+            "over": 6,
+            "under": 4,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Drakkar-Klose-84568"
+          },
+          {
+            "id": "tommy-gantt",
+            "name": "Tommy Gantt",
+            "over": 4,
+            "under": 6,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Thomas-Gantt-428202"
+          }
+        ],
+        "notes": [
+          "Drakkar Klose: 6/10 known bouts went over 1.5; 4 stayed under.",
+          "Tommy Gantt: 4/10 known bouts went over 1.5; 6 stayed under.",
+          "Knockout wins meet a history of knockout losses: an earlier finish is plausible."
+        ],
+        "limited": false
+      },
+      "finish": {
+        "modelVersion": "0.2",
+        "winnerId": "drakkar-klose",
+        "method": "decision",
+        "label": "Decision",
+        "limited": true,
+        "reasons": [
+          "Drakkar Klose: 6 of 8 classified recent wins by decision.",
+          "Tommy Gantt: 0 of 0 classified recent losses by this method."
+        ],
+        "sources": [
+          {
+            "name": "Drakkar Klose",
+            "url": "https://www.sherdog.com/fighter/Drakkar-Klose-84568"
+          },
+          {
+            "name": "Tommy Gantt",
+            "url": "https://www.sherdog.com/fighter/Thomas-Gantt-428202"
+          }
+        ]
+      }
+    },
+    {
+      "fightId": "noche-2026-rafa-garcia-rongzhu",
+      "a": "Rafa Garcia",
+      "b": "Rongzhu",
+      "pick": "rafa-garcia",
+      "edge": 1.6,
+      "coverage": 100,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": 0.16876282596765546,
+          "note": "Last 10 opponent-record coverage: 10/10 for Rafa Garcia; 9/10 for Rongzhu. Schedule index 75 vs 66. Second-level coverage 4 vs 1. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/Rafa-Garcia-186049",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": -0.059849999999999966,
+          "note": "Official profile aggregates: strike differential -0.14 vs 0.67/min; TD rate 3.22 vs 1.34/15 min; TD defence 77% vs 84%; submission attempts 0.4 vs 0.13/15 min; knockdowns 0.1 vs 0.67/15 min. Small career samples reduce the signal. These are not last-10 bout statistics or a validated tactical forecast. Control time is unavailable.",
+          "basis": "Measured combat statistics",
+          "source": "https://www.ufc.com/athlete/rafa-garcia",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": -0.1408000000000002,
+          "note": "Reach 177.8 vs 180.3 cm; height 170.2 vs 175.3 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/rafa-garcia",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": -0.025000000000000022,
+          "note": "Within the last 10, bouts reaching round 3: Rafa Garcia 6-2-0 (8); Rongzhu 5-1-0 (6). This is observed late-bout success, not a cardio measurement. ",
+          "basis": "Last-10 distance evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": -0.08605343186492942,
+          "note": "Rafa Garcia: 7-3-0 in 10 available bouts; Rongzhu: 8-2-0 in 10. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 2 vs 5; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": 0,
+          "note": "Rafa Garcia: 140 days since last bout; typical gap 147 days. Rongzhu: 107 days; typical gap 196 days. Weight-class fields verified in 4/10 and 2/10 bouts. Weight-class changes need review. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Over",
+        "line": 1.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 3,
+        "thresholdMinutes": 7.5,
+        "confidence": 65,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "rafa-garcia",
+            "name": "Rafa Garcia",
+            "over": 9,
+            "under": 1,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Rafa-Garcia-186049"
+          },
+          {
+            "id": "rongzhu",
+            "name": "Rongzhu",
+            "over": 7,
+            "under": 3,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Zhu-Rong-233823"
+          }
+        ],
+        "notes": [
+          "Rafa Garcia: 9/10 known bouts went over 1.5; 1 stayed under.",
+          "Rongzhu: 7/10 known bouts went over 1.5; 3 stayed under.",
+          "Similar verified opposition and few recent stoppage losses: their finish rates may not carry over against each other. A longer fight gets more consideration.",
+          "Knockout wins meet a history of knockout losses: an earlier finish is plausible."
+        ],
+        "limited": false
+      },
+      "finish": {
+        "modelVersion": "0.2",
+        "winnerId": "rafa-garcia",
+        "method": "decision",
+        "label": "Decision",
+        "limited": true,
+        "reasons": [
+          "Rafa Garcia: 5 of 7 classified recent wins by decision.",
+          "Rongzhu: 0 of 1 classified recent losses by this method.",
+          "Similar verified opposition and few recent stoppage losses: their finish rates may not carry over against each other. A longer fight gets more consideration."
+        ],
+        "sources": [
+          {
+            "name": "Rafa Garcia",
+            "url": "https://www.sherdog.com/fighter/Rafa-Garcia-186049"
+          },
+          {
+            "name": "Rongzhu",
+            "url": "https://www.sherdog.com/fighter/Zhu-Rong-233823"
+          }
+        ]
+      }
+    },
+    {
+      "fightId": "noche-2026-sean-king-iii-jessie-rosas",
+      "a": "Sean King III",
+      "b": "Jessie Rosas",
+      "pick": "sean-king-iii",
+      "edge": 1.4,
+      "coverage": 60,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": -0.0001673227151168799,
+          "note": "Last 10 opponent-record coverage: 6/6 for Sean King III; 9/9 for Jessie Rosas. Schedule index 45 vs 45. Second-level coverage 0 vs 0. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/Sean-King-423706",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": null,
+          "note": "More verified evidence is needed on both fighters.",
+          "basis": "Missing evidence",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": 0.05,
+          "note": "Reach unknown vs 172.7 cm; height 182.9 vs 171.4 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/sean-king-iii",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": null,
+          "note": "More verified evidence is needed on both fighters.",
+          "basis": "Missing evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": 0.09480562103042667,
+          "note": "Sean King III: 6-0-0 in 6 available bouts; Jessie Rosas: 8-1-0 in 9. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 4 vs 6; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": 0,
+          "note": "Sean King III: 50 days since last bout; typical gap 98 days. Jessie Rosas: 97 days; typical gap 137 days. Weight-class fields verified in 0/6 and 0/9 bouts. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Over",
+        "line": 1.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 3,
+        "thresholdMinutes": 7.5,
+        "confidence": 50,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "sean-king-iii",
+            "name": "Sean King III",
+            "over": 3,
+            "under": 3,
+            "known": 6,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Sean-King-423706"
+          },
+          {
+            "id": "jessie-rosas",
+            "name": "Jessie Rosas",
+            "over": 2,
+            "under": 7,
+            "known": 9,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Jessie-Rosas-338741"
+          }
+        ],
+        "notes": [
+          "Sean King III: 3/6 known bouts went over 1.5; 3 stayed under.",
+          "Jessie Rosas: 2/9 known bouts went over 1.5; 7 stayed under.",
+          "Submission wins meet a history of submission losses: an earlier finish is plausible."
+        ],
+        "limited": false
+      },
+      "finish": {
+        "modelVersion": "0.2",
+        "winnerId": "sean-king-iii",
+        "method": "ko",
+        "label": "KO / TKO",
+        "limited": true,
+        "reasons": [
+          "Sean King III: 3 of 6 classified recent wins by ko / tko.",
+          "Jessie Rosas: 0 of 1 classified recent losses by this method."
+        ],
+        "sources": [
+          {
+            "name": "Sean King III",
+            "url": "https://www.sherdog.com/fighter/Sean-King-423706"
+          },
+          {
+            "name": "Jessie Rosas",
+            "url": "https://www.sherdog.com/fighter/Jessie-Rosas-338741"
+          }
+        ]
+      }
+    },
+    {
+      "fightId": "noche-2026-jj-aldrich-regina-tarin",
+      "a": "JJ Aldrich",
+      "b": "Regina Tarin",
+      "pick": "jj-aldrich",
+      "edge": 8.1,
+      "coverage": 100,
+      "factors": [
+        {
+          "id": "opposition",
+          "label": "Quality of opposition",
+          "help": "Last 10: smoothed opponent records before each bout, prior experience in that promotion, and second-level opposition when at least 3 records are verified. No promotion popularity or ranking bonus.",
+          "score": 0.3158583394328791,
+          "note": "Last 10 opponent-record coverage: 10/10 for JJ Aldrich; 8/8 for Regina Tarin. Schedule index 66 vs 51. Second-level coverage 4 vs 0. Reconstructed records use results before that bout; later record corrections may still be reflected.",
+          "basis": "Pre-bout opponent records",
+          "source": "https://www.sherdog.com/fighter/JJ-Aldrich-75565",
+          "weight": 35
+        },
+        {
+          "id": "style",
+          "label": "Striking & grappling matchup",
+          "help": "Sourced striking differential, takedown rate against the opponent’s defence, submission attempts and knockdowns. Career aggregates stay labelled and cannot enter an earlier backtest.",
+          "score": -0.012374999999999994,
+          "note": "Official profile aggregates: strike differential -0.42 vs 0.60/min; TD rate 0.7 vs 1/15 min; TD defence 68% vs 50%; submission attempts 0 vs 0/15 min; knockdowns 0 vs 0/15 min. Small career samples reduce the signal. These are not last-10 bout statistics or a validated tactical forecast. Control time is unavailable.",
+          "basis": "Measured combat statistics",
+          "source": "https://www.ufc.com/athlete/jj-aldrich",
+          "weight": 30
+        },
+        {
+          "id": "size",
+          "label": "Height & reach",
+          "help": "A small, capped combined reach and height signal. Measurements are not strength ratings. Nationality and appearance receive no points.",
+          "score": 0.11120000000000052,
+          "note": "Reach 171.4 vs 167.6 cm; height 165.1 vs 170.2 cm. Combined and capped so size cannot dominate. Effective range and strength are not established by measurements.",
+          "basis": "Sourced measurements",
+          "source": "https://www.ufc.com/athlete/jj-aldrich",
+          "weight": 10
+        },
+        {
+          "id": "distance",
+          "label": "Rounds & pace",
+          "help": "Last 10: results in bouts reaching round 3, with at least 3 such bouts per fighter. Early finishes leave endurance unproven; they do not imply poor cardio.",
+          "score": -0.050000000000000044,
+          "note": "Within the last 10, bouts reaching round 3: JJ Aldrich 6-2-0 (8); Regina Tarin 3-0-0 (3). This is observed late-bout success, not a cardio measurement. ",
+          "basis": "Last-10 distance evidence",
+          "weight": 10
+        },
+        {
+          "id": "form",
+          "label": "Recent performance · last 10",
+          "help": "Up to 10 completed bouts under the same rules, newest weighted most (0.9 decay). Draws are half a result, no contests are excluded. Every available bout is shown.",
+          "score": -0.3216729285905824,
+          "note": "JJ Aldrich: 7-3-0 in 10 available bouts; Regina Tarin: 8-0-0 in 8. Last 10 maximum, newest weighted most (0.9 decay), with smoothing. NCs carry no result signal. Finishes 1 vs 6; opponent strength is scored separately.",
+          "basis": "Last-10 results",
+          "weight": 10
+        },
+        {
+          "id": "context",
+          "label": "Camp & readiness · last 10",
+          "help": "A limited activity proxy: days since the last fight, usual turnaround, and weight changes in the last 10. Long inactivity or a very short turnaround adds a small uncertainty penalty. Actual camp quality remains unverified.",
+          "score": 0,
+          "note": "JJ Aldrich: 147 days since last bout; typical gap 196 days. Regina Tarin: 196 days; typical gap 91 days. Weight-class fields verified in 3/10 and 1/8 bouts. Only inactivity over a year or turnaround under 45 days receives a small penalty. Camp quality, injuries and conditioning are not inferred.",
+          "basis": "Last-10 activity proxy",
+          "weight": 5
+        }
+      ],
+      "rounds": {
+        "modelVersion": "0.2",
+        "side": "Over",
+        "line": 1.5,
+        "roundMinutes": 5,
+        "scheduledRounds": 3,
+        "thresholdMinutes": 7.5,
+        "confidence": 60,
+        "strength": "Last-10 sample",
+        "sample": [
+          {
+            "id": "jj-aldrich",
+            "name": "JJ Aldrich",
+            "over": 10,
+            "under": 0,
+            "known": 10,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/JJ-Aldrich-75565"
+          },
+          {
+            "id": "regina-tarin",
+            "name": "Regina Tarin",
+            "over": 4,
+            "under": 4,
+            "known": 8,
+            "exact": 0,
+            "source": "https://www.sherdog.com/fighter/Regina-Tarin-396659"
+          }
+        ],
+        "notes": [
+          "JJ Aldrich: 10/10 known bouts went over 1.5; 0 stayed under.",
+          "Regina Tarin: 4/8 known bouts went over 1.5; 4 stayed under.",
+          "Submission wins meet a history of submission losses: an earlier finish is plausible."
+        ],
+        "limited": false
+      },
+      "finish": {
+        "modelVersion": "0.2",
+        "winnerId": "jj-aldrich",
+        "method": "decision",
+        "label": "Decision",
+        "limited": true,
+        "reasons": [
+          "JJ Aldrich: 6 of 7 classified recent wins by decision.",
+          "Regina Tarin: 0 of 0 classified recent losses by this method."
+        ],
+        "sources": [
+          {
+            "name": "JJ Aldrich",
+            "url": "https://www.sherdog.com/fighter/JJ-Aldrich-75565"
+          },
+          {
+            "name": "Regina Tarin",
+            "url": "https://www.sherdog.com/fighter/Regina-Tarin-396659"
+          }
+        ]
+      }
+    }
+  ]
+}

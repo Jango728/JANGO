@@ -1,0 +1,261 @@
+{
+ "eventId": "ufc-fn-289",
+ "title": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+ "date": "2026-09-26",
+ "promotion": "UFC",
+ "forecast": {
+  "engine": "1.0",
+  "frozenAt": "2026-09-25T01:34:08.017Z",
+  "basis": "Engine output frozen before the event. Never edited after results.",
+  "bouts": [
+   {
+    "a": "Raul Rosas Jr.",
+    "b": "Raoni Barcelos",
+    "pick": "Raul Rosas Jr.",
+    "confidence": 65,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 2.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 5,
+    "evidence": 92,
+    "reasons": [
+     "Age curve: Raoni Barcelos is 39; Raul Rosas Jr. is 21.",
+     "Real finishing threat: Raul Rosas Jr. finished 5 of 9 recent wins; Raoni Barcelos has been stopped 1 time in the last 10.",
+     "Better recent results: Last 10: Raul Rosas Jr. 9-1-0. Last 10: Raoni Barcelos 6-4-0.",
+     "Cleaner losses: Raoni Barcelos has 4 losses in the last 10, to opponents averaging a 75% win rate; Raul Rosas Jr. has 1.",
+     "Size and range: 2″ taller for Raul Rosas Jr.."
+    ]
+   },
+   {
+    "a": "Norma Dumont",
+    "b": "Ailin Perez",
+    "pick": "Ailin Perez",
+    "confidence": 56,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "On a run: Ailin Perez has won 6 straight.",
+     "Age curve: Norma Dumont is 35; Ailin Perez is 31.",
+     "Better recent results: Last 10: Ailin Perez 8-2-0. Last 10: Norma Dumont 8-2-0.",
+     "Real finishing threat: Ailin Perez finished 3 of 8 recent wins; Norma Dumont has been stopped 0 times in the last 10."
+    ]
+   },
+   {
+    "a": "Luis Hernandez",
+    "b": "Sedriques Dumas",
+    "pick": "Luis Hernandez",
+    "confidence": 67,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Under"
+    },
+    "method": "Submission",
+    "scheduledRounds": 3,
+    "evidence": 77,
+    "reasons": [
+     "Better recent results: Last 8: Luis Hernandez 8-0-0. Last 10: Sedriques Dumas 4-5-0 (1 NC).",
+     "Real finishing threat: Luis Hernandez finished 8 of 8 recent wins; Sedriques Dumas has been stopped 5 times in the last 9.",
+     "Opponent is sliding: Sedriques Dumas has lost 3 straight; Luis Hernandez has won 8 straight.",
+     "Cleaner losses: Sedriques Dumas has 5 losses in the last 10, to opponents averaging a 71% win rate; Luis Hernandez has 0."
+    ]
+   },
+   {
+    "a": "Mahammadali Osmanli",
+    "b": "Ilimbek Akylbek",
+    "pick": "Mahammadali Osmanli",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 61,
+    "reasons": [
+     "Better recent results: Last 10: Mahammadali Osmanli 9-1-0. Last 10: Ilimbek Akylbek 7-3-0.",
+     "Real finishing threat: Mahammadali Osmanli finished 7 of 9 recent wins; Ilimbek Akylbek has been stopped 3 times in the last 10.",
+     "On a run: Mahammadali Osmanli has won 9 straight (Ilimbek Akylbek: 2).",
+     "Cleaner losses: Ilimbek Akylbek has 3 losses in the last 10; Mahammadali Osmanli has 1.",
+     "Size and range: 2″ taller for Mahammadali Osmanli."
+    ]
+   },
+   {
+    "a": "Melissa Amaya",
+    "b": "Tina Black",
+    "pick": "Melissa Amaya",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 61,
+    "reasons": [
+     "Better recent results: Last 8: Melissa Amaya 8-0-0. Last 10: Tina Black 8-2-0.",
+     "Real finishing threat: Melissa Amaya finished 5 of 8 recent wins; Tina Black has been stopped 0 times in the last 10.",
+     "Cleaner losses: Tina Black has 2 losses in the last 10, to opponents averaging a 76% win rate; Melissa Amaya has 0.",
+     "On a run: Melissa Amaya has won 8 straight (Tina Black: 3).",
+     "Ring rust on the other side: Tina Black last fought 651 days before this card; Melissa Amaya 464 days."
+    ]
+   },
+   {
+    "a": "Brady Hiestand",
+    "b": "Rinya Nakamura",
+    "pick": "Rinya Nakamura",
+    "confidence": 57,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Ring rust on the other side: Brady Hiestand last fought 833 days before this card; Rinya Nakamura 420 days.",
+     "Beat the better opposition: Opponents Rinya Nakamura beat (last 10) had a 71% win rate going in; Brady Hiestand's had 68%.",
+     "Cleaner losses: Brady Hiestand has 2 losses in the last 10, to opponents averaging a 64% win rate; Rinya Nakamura has 1.",
+     "Real finishing threat: Rinya Nakamura finished 6 of 9 recent wins; Brady Hiestand has been stopped 1 time in the last 10.",
+     "Proven at this level: UFC record: Rinya Nakamura 4-1, Brady Hiestand 3-1."
+    ]
+   },
+   {
+    "a": "Rodolfo Vieira",
+    "b": "Robert Bryczek",
+    "pick": "Robert Bryczek",
+    "confidence": 58,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Beat the better opposition: Opponents Robert Bryczek beat (last 10) had a 62% win rate going in; Rodolfo Vieira's had 66%.",
+     "Better recent results: Last 10: Robert Bryczek 6-4-0. Last 10: Rodolfo Vieira 5-5-0.",
+     "Size and range: 2″ longer reach for Robert Bryczek.",
+     "Opponent is sliding: Rodolfo Vieira has lost 2 straight.",
+     "Real finishing threat: Robert Bryczek finished 6 of 6 recent wins; Rodolfo Vieira has been stopped 2 times in the last 10."
+    ]
+   },
+   {
+    "a": "Rodolfo Bellato",
+    "b": "Christian Edwards",
+    "pick": "Rodolfo Bellato",
+    "confidence": 75,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 71,
+    "reasons": [
+     "Cleaner losses: Christian Edwards has 5 losses in the last 10, to opponents averaging a 71% win rate; Rodolfo Bellato has 2.",
+     "Proven at this level: UFC record: Rodolfo Bellato 2-1-1, Christian Edwards 0-1.",
+     "Real finishing threat: Rodolfo Bellato finished 5 of 6 recent wins; Christian Edwards has been stopped 2 times in the last 10.",
+     "Better recent results: Last 10: Rodolfo Bellato 6-2-1 (1 NC). Last 10: Christian Edwards 5-5-0.",
+     "Better when it goes long: In fights reaching round 3: Rodolfo Bellato 1-1-1, Christian Edwards 1-4-0."
+    ]
+   },
+   {
+    "a": "Elves Brener",
+    "b": "Josiah Harrell",
+    "pick": "Josiah Harrell",
+    "confidence": 64,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 71,
+    "reasons": [
+     "Better recent results: Last 10: Josiah Harrell 9-1-0. Last 10: Elves Brener 5-5-0.",
+     "Cleaner losses: Elves Brener has 5 losses in the last 10, to opponents averaging a 77% win rate; Josiah Harrell has 1.",
+     "Opponent is sliding: Elves Brener has lost 3 straight.",
+     "Better when it goes long: In fights reaching round 3: Josiah Harrell 4-0-0, Elves Brener 2-5-0.",
+     "Real finishing threat: Josiah Harrell finished 7 of 9 recent wins; Elves Brener has been stopped 1 time in the last 10."
+    ]
+   },
+   {
+    "a": "Montel Jackson",
+    "b": "Ricky Simon",
+    "pick": "Ricky Simon",
+    "confidence": 55,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 93,
+    "reasons": [
+     "Won the last meeting: They've met once (Ricky Simon 1-0). Latest: 2018, Ricky Simon by Decision.",
+     "Opponent is sliding: Montel Jackson has lost 2 straight.",
+     "Beat the better opposition: Opponents Ricky Simon beat (last 10) had a 73% win rate going in; Montel Jackson's had 71%."
+    ]
+   },
+   {
+    "a": "John Castaneda",
+    "b": "Alatengheili",
+    "pick": "John Castaneda",
+    "confidence": 57,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Beat the better opposition: Opponents John Castaneda beat (last 10) had a 68% win rate going in; Alatengheili's had 63%.",
+     "Size and range: 5″ longer reach, 1″ taller for John Castaneda.",
+     "Ring rust on the other side: Alatengheili last fought 518 days before this card; John Castaneda 161 days."
+    ]
+   },
+   {
+    "a": "Vanessa Demopoulos",
+    "b": "Yazmin Jauregui",
+    "pick": "Yazmin Jauregui",
+    "confidence": 73,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Better recent results: Last 10: Yazmin Jauregui 8-2-0. Last 10: Vanessa Demopoulos 5-5-0.",
+     "Age curve: Vanessa Demopoulos is 38; Yazmin Jauregui is 27.",
+     "Opponent is sliding: Vanessa Demopoulos has lost 3 straight.",
+     "Size and range: 5″ longer reach, 1″ taller for Yazmin Jauregui.",
+     "Cleaner losses: Vanessa Demopoulos has 5 losses in the last 10, to opponents averaging a 67% win rate; Yazmin Jauregui has 2."
+    ]
+   }
+  ]
+ },
+ "results": null,
+ "review": null
+}

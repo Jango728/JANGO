@@ -1,0 +1,417 @@
+{
+ "eventId": "noche-2026",
+ "title": "Noche UFC",
+ "date": "2026-09-12",
+ "promotion": "UFC",
+ "forecast": {
+  "engine": "0.4 (GPT era)",
+  "frozenAt": "2026-09-11T06:22:00Z",
+  "basis": "Default model reproduced from pre-event published source and data; not a personally locked prediction.",
+  "bouts": [
+   {
+    "a": "Jean Silva",
+    "b": "Jose Miguel Delgado",
+    "pick": "Jose Miguel Delgado",
+    "confidence": 63,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 2.5,
+     "side": "Under"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 5
+   },
+   {
+    "a": "Brandon Moreno",
+    "b": "Joseph Morales",
+    "pick": "Brandon Moreno",
+    "confidence": 66,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Tommy McMillen",
+    "b": "Marwan Rahiki",
+    "pick": "Tommy McMillen",
+    "confidence": 72,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Under"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Manon Fiorot",
+    "b": "Alexa Grasso",
+    "pick": "Manon Fiorot",
+    "confidence": 65,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Waldo Cortes Acosta",
+    "b": "Curtis Blaydes",
+    "pick": "Curtis Blaydes",
+    "confidence": 57,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "David Martinez",
+    "b": "Dan Ige",
+    "pick": null,
+    "confidence": null,
+    "tier": null,
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": null,
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Tim Elliott",
+    "b": "Edgar Chairez",
+    "pick": "Tim Elliott",
+    "confidence": 75,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Ignacio Bahamondes",
+    "b": "Muslim Salikhov",
+    "pick": "Ignacio Bahamondes",
+    "confidence": 64,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Yousri Belgaroui",
+    "b": "Djorden Santos",
+    "pick": "Yousri Belgaroui",
+    "confidence": 80,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Drakkar Klose",
+    "b": "Tommy Gantt",
+    "pick": "Drakkar Klose",
+    "confidence": 70,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Rafa Garcia",
+    "b": "Rongzhu",
+    "pick": "Rafa Garcia",
+    "confidence": 57,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Sean King III",
+    "b": "Jessie Rosas",
+    "pick": "Sean King III",
+    "confidence": 55,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "JJ Aldrich",
+    "b": "Regina Tarin",
+    "pick": "JJ Aldrich",
+    "confidence": 73,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3
+   }
+  ]
+ },
+ "results": {
+  "checkedAt": "2026-09-14",
+  "sources": [
+   {
+    "label": "sherdog",
+    "url": "https://www.sherdog.com/events/UFC-Fight-Night-288-Noche-UFC-4-113632"
+   },
+   {
+    "label": "sherdogPlay",
+    "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+   },
+   {
+    "label": "espn",
+    "url": "https://www.espn.com/mma/fightcenter/_/id/600060772/league/ufc"
+   },
+   {
+    "label": "si",
+    "url": "https://www.si.com/fannation/mma/news/noche-ufc-free-live-stream-results-highlights-for-jean-silva-vs-jose-delgado"
+   },
+   {
+    "label": "officialCard",
+    "url": "https://www.ufc.com/event/ufc-fight-night-september-12-2026"
+   },
+   {
+    "label": "officialWeights",
+    "url": "https://www.ufc.com/news/noche-ufc-silva-delgado-official-weigh-in-results"
+   },
+   {
+    "label": "officialScorecards",
+    "url": "https://www.ufc.com/news/noche-ufc-official-scorecards-silva-vs-delgado"
+   },
+   {
+    "label": "officialPortuguese",
+    "url": "https://www.ufc.com.br/news/noche-ufc-silva-delgado-resultados"
+   }
+  ],
+  "bouts": [
+   {
+    "a": "Jean Silva",
+    "b": "Jose Miguel Delgado",
+    "winner": "Jean Silva",
+    "loser": "Jose Miguel Delgado",
+    "method": "Submission",
+    "detail": "Rear-naked choke",
+    "round": 3,
+    "time": "2:57",
+    "scheduledRounds": 5,
+    "line": 2.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "main"
+   },
+   {
+    "a": "Brandon Moreno",
+    "b": "Joseph Morales",
+    "winner": "Brandon Moreno",
+    "loser": "Joseph Morales",
+    "method": "Decision",
+    "detail": "Split decision",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "main"
+   },
+   {
+    "a": "Tommy McMillen",
+    "b": "Marwan Rahiki",
+    "winner": "Tommy McMillen",
+    "loser": "Marwan Rahiki",
+    "method": "Decision",
+    "detail": "Unanimous decision",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "main"
+   },
+   {
+    "a": "Alexa Grasso",
+    "b": "Manon Fiorot",
+    "winner": "Alexa Grasso",
+    "loser": "Manon Fiorot",
+    "method": "Decision",
+    "detail": "Unanimous decision",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "main"
+   },
+   {
+    "a": "Curtis Blaydes",
+    "b": "Waldo Cortes Acosta",
+    "winner": "Curtis Blaydes",
+    "loser": "Waldo Cortes Acosta",
+    "method": "Decision",
+    "detail": "Unanimous decision",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "main"
+   },
+   {
+    "a": "David Martinez",
+    "b": "Dan Ige",
+    "winner": "David Martinez",
+    "loser": "Dan Ige",
+    "method": "Decision",
+    "detail": "Unanimous decision",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "main"
+   },
+   {
+    "a": "Tim Elliott",
+    "b": "Edgar Chairez",
+    "winner": "Tim Elliott",
+    "loser": "Edgar Chairez",
+    "method": "Decision",
+    "detail": "Unanimous decision",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "prelims"
+   },
+   {
+    "a": "Ignacio Bahamondes",
+    "b": "Muslim Salikhov",
+    "winner": "Ignacio Bahamondes",
+    "loser": "Muslim Salikhov",
+    "method": "Decision",
+    "detail": "Unanimous decision",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "prelims"
+   },
+   {
+    "a": "Yousri Belgaroui",
+    "b": "Djorden Santos",
+    "winner": "Yousri Belgaroui",
+    "loser": "Djorden Santos",
+    "method": "KO/TKO",
+    "detail": "TKO (punches)",
+    "round": 1,
+    "time": "4:25",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [],
+    "section": "prelims"
+   },
+   {
+    "a": "Tommy Gantt",
+    "b": "Drakkar Klose",
+    "winner": "Tommy Gantt",
+    "loser": "Drakkar Klose",
+    "method": "Submission",
+    "detail": "Reverse / inverted triangle choke",
+    "round": 3,
+    "time": "2:46",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "prelims"
+   },
+   {
+    "a": "Rongzhu",
+    "b": "Rafa Garcia",
+    "winner": "Rongzhu",
+    "loser": "Rafa Garcia",
+    "method": "Decision",
+    "detail": "Unanimous decision",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "prelims"
+   },
+   {
+    "a": "Sean King III",
+    "b": "Jessie Rosas",
+    "winner": "Sean King III",
+    "loser": "Jessie Rosas",
+    "method": "KO/TKO",
+    "detail": "KO (slam and punches)",
+    "round": 1,
+    "time": "0:36",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [],
+    "section": "prelims"
+   },
+   {
+    "a": "Regina Tarin",
+    "b": "JJ Aldrich",
+    "winner": "Regina Tarin",
+    "loser": "JJ Aldrich",
+    "method": "Decision",
+    "detail": "Unanimous decision",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "prelims"
+   }
+  ]
+ },
+ "review": null
+}

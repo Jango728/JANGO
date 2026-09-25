@@ -1,0 +1,44 @@
+{
+  "UFC": {
+    "path": "promotions/ufc.svg",
+    "source": "https://www.ufc.com",
+    "imageUrl": "https://www.ufc.com/themes/custom/ufc/assets/svg/sprite-ui.svg#ufc-logo",
+    "notes": "Official header SVG symbol extracted without geometry changes; white fill for dark plate."
+  },
+  "ONE": {
+    "path": "promotions/one.svg",
+    "source": "https://www.onefc.com",
+    "imageUrl": "https://www.onefc.com/",
+    "notes": "Official inline header wordmark extracted without geometry changes; white fill matching site header; transparent SVG. Original raster also downloaded but has black background."
+  },
+  "PFL": {
+    "path": "promotions/pfl.svg",
+    "source": "https://pflmma.com",
+    "imageUrl": "https://pflmma.com/assets/img/pfl-logo-crown-white.svg",
+    "notes": "Official white crown wordmark SVG, includes embedded PNG; transparent."
+  },
+  "RIZIN": {
+    "path": "promotions/rizin.png",
+    "source": "https://jp.rizinff.com",
+    "imageUrl": "https://d1uzk9o9cg136f.cloudfront.net/f/portal/16777301/rc/2021/10/27/f7eacabdc5f8d5082e64aa165a62042247a8f259.png",
+    "notes": "Official header logo, 720x192 transparent PNG; black/red with white outline suits dark plate."
+  },
+  "OKTAGON": {
+    "path": "promotions/oktagon-footer.png",
+    "source": "https://oktagonmma.com/en/",
+    "imageUrl": "https://oktagonmma.com/img/logo/new-logos/oktagon-logo-footer.png",
+    "notes": "Official yellow/white octagon emblem. Also available oktagon.png official black wordmark; use on light plate or CSS brightness(0) invert(1) for white."
+  },
+  "ACA": {
+    "path": "promotions/aca.svg",
+    "source": "https://www.aca-mma.com",
+    "imageUrl": "https://www.aca-mma.com/",
+    "notes": "Official inline gold header logo extracted without geometry changes. Also aca.png black wordmark available."
+  },
+  "K-1": {
+    "path": "promotions/k1.svg",
+    "source": "https://www.k-1.co.jp",
+    "imageUrl": "https://www.k-1.co.jp/images/common/icon_logo_sprite.svg#k1",
+    "notes": "Official K-1 sprite symbol extracted without geometry changes; currentColor resolved white for dark plate."
+  }
+}

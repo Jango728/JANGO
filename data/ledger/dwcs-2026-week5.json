@@ -1,0 +1,113 @@
+{
+ "eventId": "dwcs-2026-week5",
+ "title": "DWCS Season 10 · Week 5",
+ "date": "2026-09-08",
+ "promotion": "DWCS",
+ "forecast": null,
+ "results": {
+  "checkedAt": "2026-09-24",
+  "sources": [
+   {
+    "label": "Sherdog event page",
+    "url": "https://www.sherdog.com/events/Dana-Whites-Contender-Series-Contender-Series-2026-Week-5"
+   },
+   {
+    "label": "UFC.com DWCS results",
+    "url": "https://www.ufc.com/news/dana-whites-contender-series-season-10-week-5-results"
+   }
+  ],
+  "bouts": [
+   {
+    "a": "Christian Natividad",
+    "b": "Colton Loud",
+    "winner": "Christian Natividad",
+    "loser": "Colton Loud",
+    "method": "KO/TKO",
+    "detail": "KO/TKO (punch to the body)",
+    "round": 1,
+    "time": "1:10",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Answered a body kick with a left hook to the liver.",
+     "Loud folded; stoppage at 1:10."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Apollo Gomes",
+    "b": "Won Il Kwon",
+    "winner": "Apollo Gomes",
+    "loser": "Won Il Kwon",
+    "method": "Decision",
+    "detail": "Decision (unanimous)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "Survived two knockdowns in R1.",
+     "Took over R2 and R3 with wrestling and striking."
+    ],
+    "contract": false
+   },
+   {
+    "a": "Martin Kozak",
+    "b": "Christian Echols",
+    "winner": "Martin Kozak",
+    "loser": "Christian Echols",
+    "method": "KO/TKO",
+    "detail": "TKO (punches)",
+    "round": 2,
+    "time": "1:32",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Used his 6'4\" reach to outstrike Echols.",
+     "Finished him against the fence in R2."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Isaac Moreno",
+    "b": "Reginaldo Geraldo Jr.",
+    "winner": "Isaac Moreno",
+    "loser": "Reginaldo Geraldo Jr.",
+    "method": "Decision",
+    "detail": "Decision (unanimous)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "Clear striking edge in the first two rounds.",
+     "Held off late grappling and submission attempts."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Quentin Pasley",
+    "b": "Arlind Berisha",
+    "winner": "Quentin Pasley",
+    "loser": "Arlind Berisha",
+    "method": "KO/TKO",
+    "detail": "KO (elbows)",
+    "round": 1,
+    "time": "4:41",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Moved from a submission attempt into strikes.",
+     "Two heavy elbows ended it, keeping his all-first-round-finish record."
+    ],
+    "contract": true
+   }
+  ]
+ },
+ "review": null
+}

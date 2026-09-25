@@ -1,0 +1,355 @@
+[
+  {
+    "order": 1,
+    "section": "prelims",
+    "winner": "Joanderson Brito",
+    "loser": "Giga Chikadze",
+    "weight_class": "Featherweight",
+    "scheduled_rounds": 3,
+    "method": "KO/TKO",
+    "method_detail": "KO (punches/hammerfists)",
+    "round": 1,
+    "time": "1:57",
+    "ou_line": 1.5,
+    "ou_result": "UNDER",
+    "notes": [
+      "Chikadze started well at range with kicks, many of them to the body, while Brito kept walking forward behind punches.",
+      "The finish came from a scramble: Chikadze slipped throwing a high kick and Brito jumped into top position.",
+      "Brito's ground strikes got heavier and turned into repeated hammerfists on a dazed Chikadze until the stoppage."
+    ],
+    "context": "Opened the card (early prelims). Both fighters made weight.",
+    "sources": [
+      "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+      "https://www.ufc.com/event/ufc-331",
+      "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+      "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-alexandre-pantoja-results-winners/",
+      "https://www.thescore.com/mma/news/3599619/ufc-331-van-vs-pantoja-2-results-analysis",
+      "https://sports.yahoo.com/articles/ufc-331-official-weigh-results-150028870.html"
+    ]
+  },
+  {
+    "order": 2,
+    "section": "prelims",
+    "winner": "Casey O'Neill",
+    "loser": "Eduarda Moura",
+    "weight_class": "Women's Flyweight",
+    "scheduled_rounds": 3,
+    "method": "Submission",
+    "method_detail": "Submission (armbar, belly-down)",
+    "round": 1,
+    "time": "3:22",
+    "ou_line": 1.5,
+    "ou_result": "UNDER",
+    "notes": [
+      "Moura controlled most of the round: she caught a kick, tripped O'Neill and landed elbows and short punches from half guard.",
+      "Moura went to north-south and attempted an anaconda choke but lost the grip.",
+      "O'Neill came back from the bottom, lifting Moura, rotating her hips and rolling straight into a belly-down armbar for the tap.",
+      "Sherdog called it a Submission of the Year contender, and it earned a Performance of the Night bonus."
+    ],
+    "context": "Early prelims. Won from a losing position. Performance of the Night. Both made weight.",
+    "sources": [
+      "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+      "https://www.ufc.com/event/ufc-331",
+      "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+      "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-alexandre-pantoja-results-winners/",
+      "https://www.thescore.com/mma/news/3599619/ufc-331-van-vs-pantoja-2-results-analysis",
+      "https://sports.yahoo.com/articles/ufc-331-official-weigh-results-150028870.html"
+    ]
+  },
+  {
+    "order": 3,
+    "section": "prelims",
+    "winner": "Edmen Shahbazyan",
+    "loser": "Brunno Ferreira",
+    "weight_class": "Middleweight",
+    "scheduled_rounds": 3,
+    "method": "Decision",
+    "method_detail": "Unanimous decision (29-28, 29-28, 30-27)",
+    "round": 3,
+    "time": "5:00",
+    "ou_line": 1.5,
+    "ou_result": "OVER",
+    "notes": [
+      "A low-kick-led, jab-and-one-two game plan from the center of the cage. Ferreira's output was very low, especially in R1.",
+      "Shahbazyan added body kicks in R2. Ferreira landed a few big single shots but missed wild overhands and was warned for an eye poke.",
+      "Ferreira pushed harder in R3, but Shahbazyan clinched, landed knees and a takedown, then dropped him with a right hand late.",
+      "Sherdog's three scorers had it 30-27 Shahbazyan, sweeping all rounds."
+    ],
+    "context": "Early prelims. A clear decision with no controversy. Both made weight.",
+    "sources": [
+      "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+      "https://www.ufc.com/event/ufc-331",
+      "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+      "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-alexandre-pantoja-results-winners/",
+      "https://www.thescore.com/mma/news/3599619/ufc-331-van-vs-pantoja-2-results-analysis",
+      "https://www.ufc.com/news/cryptocom-ufc-331-van-vs-pantoja-2-official-scorecards",
+      "https://sports.yahoo.com/articles/ufc-331-official-weigh-results-150028870.html"
+    ]
+  },
+  {
+    "order": 4,
+    "section": "prelims",
+    "winner": "Ryan Gandra",
+    "loser": "Osman (Ozzy) Diaz",
+    "weight_class": "Middleweight",
+    "scheduled_rounds": 3,
+    "method": "KO/TKO",
+    "method_detail": "TKO (punches)",
+    "round": 1,
+    "time": "2:04",
+    "ou_line": 1.5,
+    "ou_result": "UNDER",
+    "notes": [
+      "The opening feeling-out was short: Gandra landed a low kick, a body jab and a left hook, and Diaz answered with a jab, an elbow and an inside leg kick.",
+      "A long punching combination backed Diaz onto the fence while he covered up.",
+      "An overhand right dropped Diaz, and Gandra followed up with unanswered punches for the stoppage."
+    ],
+    "context": "Opened the prelims. Gandra's third straight first-round finish (theScore). Both made weight.",
+    "sources": [
+      "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+      "https://www.ufc.com/event/ufc-331",
+      "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+      "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-alexandre-pantoja-results-winners/",
+      "https://www.thescore.com/mma/news/3599619/ufc-331-van-vs-pantoja-2-results-analysis",
+      "https://sports.yahoo.com/articles/ufc-331-official-weigh-results-150028870.html"
+    ]
+  },
+  {
+    "order": 5,
+    "section": "prelims",
+    "winner": "Michael Aswell Jr.",
+    "loser": "Joo Sang Yoo",
+    "weight_class": "Featherweight",
+    "scheduled_rounds": 3,
+    "method": "Decision",
+    "method_detail": "Split decision (28-29, 29-28, 29-28)",
+    "round": 3,
+    "time": "5:00",
+    "ou_line": 1.5,
+    "ou_result": "OVER",
+    "notes": [
+      "R1 was a high-impact striking exchange. Aswell's leg kicks and overhand rights carried the round, and he stopped a takedown with a front headlock and knee.",
+      "In R2, Aswell held double underhooks in the clinch and kneed the body, while Yoo landed the cleaner combinations and a left hook. The round split Sherdog's scorers 2-1 for Yoo.",
+      "Yoo raised his pace in R3, took Aswell down midway and passed to side control before Aswell scrambled up late.",
+      "Sherdog's scorers had it 2-1 for Yoo (29-28), but the official judges went 2-1 for Aswell, making it a close, disputable decision."
+    ],
+    "context": "theScore called Aswell's win an upset (Yoo was the favorite). Split decision that went against two of Sherdog's three scorers. Both made weight.",
+    "sources": [
+      "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+      "https://www.ufc.com/event/ufc-331",
+      "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+      "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-alexandre-pantoja-results-winners/",
+      "https://www.thescore.com/mma/news/3599619/ufc-331-van-vs-pantoja-2-results-analysis",
+      "https://www.ufc.com/news/cryptocom-ufc-331-van-vs-pantoja-2-official-scorecards",
+      "https://sports.yahoo.com/articles/ufc-331-official-weigh-results-150028870.html"
+    ]
+  },
+  {
+    "order": 6,
+    "section": "prelims",
+    "winner": "Robelis Despaigne",
+    "loser": "Tai Tuivasa",
+    "weight_class": "Heavyweight",
+    "scheduled_rounds": 3,
+    "method": "Decision",
+    "method_detail": "Split decision (29-28, 28-29, 29-28)",
+    "round": 3,
+    "time": "5:00",
+    "ou_line": 1.5,
+    "ou_result": "OVER",
+    "notes": [
+      "R1 was a wild brawl. Despaigne dropped Tuivasa early, took him down, got to mount and landed hammerfists, then Tuivasa got his own takedown and punched from the top.",
+      "Despaigne was badly fatigued from R2 on. Tuivasa won R2 through clinch work and knees, although Despaigne landed a throw to side control.",
+      "R3: Tuivasa dropped Despaigne with a leg kick, but Despaigne landed another throw and punched from half guard for much of the round, with both men exhausted.",
+      "Sherdog's scorers had it 2-1 for Tuivasa (29-28). The official judges went 2-1 for Despaigne."
+    ],
+    "context": "Close, disputable split decision. Tuivasa's eighth straight UFC loss, tying the promotion record for a losing streak (theScore). Both made weight.",
+    "sources": [
+      "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+      "https://www.ufc.com/event/ufc-331",
+      "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+      "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-alexandre-pantoja-results-winners/",
+      "https://www.thescore.com/mma/news/3599619/ufc-331-van-vs-pantoja-2-results-analysis",
+      "https://www.ufc.com/news/cryptocom-ufc-331-van-vs-pantoja-2-official-scorecards",
+      "https://sports.yahoo.com/articles/ufc-331-official-weigh-results-150028870.html"
+    ]
+  },
+  {
+    "order": 7,
+    "section": "prelims",
+    "winner": "Marlon Vera",
+    "loser": "Charles Jourdain",
+    "weight_class": "Bantamweight",
+    "scheduled_rounds": 3,
+    "method": "KO/TKO",
+    "method_detail": "TKO (submission to punch, left hook to the body)",
+    "round": 3,
+    "time": "2:02",
+    "ou_line": 1.5,
+    "ou_result": "OVER",
+    "notes": [
+      "Jourdain used southpaw low kicks and body work, but Vera caught kicks and tripped him to the mat twice in R1 (10-9 Vera on all Sherdog cards).",
+      "Vera took over R2: a left uppercut dropped Jourdain, he added another trip with punches on the ground, and a clinch knee scored a second knockdown late.",
+      "In R3, a left hook to the body followed by one to the head made Jourdain collapse and wave off the fight.",
+      "Vera wore Jourdain down steadily and was ahead on every card before the finish."
+    ],
+    "context": "Bout moved from UFC Fight Night: du Plessis vs. Usman (July). Vera snapped a four-fight losing streak (theScore). Both made weight.",
+    "sources": [
+      "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+      "https://www.ufc.com/event/ufc-331",
+      "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+      "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-alexandre-pantoja-results-winners/",
+      "https://www.thescore.com/mma/news/3599619/ufc-331-van-vs-pantoja-2-results-analysis",
+      "https://en.wikipedia.org/wiki/UFC_331",
+      "https://sports.yahoo.com/articles/ufc-331-official-weigh-results-150028870.html"
+    ]
+  },
+  {
+    "order": 8,
+    "section": "main",
+    "winner": "Alonzo Menifield",
+    "loser": "Iwo Baraniewski",
+    "weight_class": "Light Heavyweight",
+    "scheduled_rounds": 3,
+    "method": "Decision",
+    "method_detail": "Split decision (28-29, 29-28, 29-28)",
+    "round": 3,
+    "time": "5:00",
+    "ou_line": 1.5,
+    "ou_result": "OVER",
+    "notes": [
+      "Baraniewski (unbeaten coming in) won R1 clearly: clubbing right hands hurt Menifield several times, then a takedown to full mount and back control.",
+      "Baraniewski faded badly from R2 (fatigue, damaged nose). Menifield took over with jabs, power punches and dirty boxing to win the round.",
+      "R3 was mostly clinch work on the fence. Baraniewski got an early takedown and landed knees from double underhooks, while Menifield finished stronger with punches, elbows and low kicks.",
+      "Sherdog's scorers had it 2-1 for Menifield, matching the official split."
+    ],
+    "context": "Opened the main card. Menifield fought with a visibly damaged thumb from R1. Baraniewski's first pro loss. Both made weight.",
+    "sources": [
+      "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+      "https://www.ufc.com/event/ufc-331",
+      "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+      "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-alexandre-pantoja-results-winners/",
+      "https://www.thescore.com/mma/news/3599619/ufc-331-van-vs-pantoja-2-results-analysis",
+      "https://www.ufc.com/news/cryptocom-ufc-331-van-vs-pantoja-2-official-scorecards",
+      "https://sports.yahoo.com/articles/ufc-331-official-weigh-results-150028870.html"
+    ]
+  },
+  {
+    "order": 9,
+    "section": "main",
+    "winner": "Sean Sharaf",
+    "loser": "Gable Steveson",
+    "weight_class": "Heavyweight",
+    "scheduled_rounds": 3,
+    "method": "KO/TKO",
+    "method_detail": "KO (left hook, with follow-up hammerfists)",
+    "round": 1,
+    "time": "0:12",
+    "ou_line": 1.5,
+    "ou_result": "UNDER",
+    "notes": [
+      "Steveson opened with a hard low kick.",
+      "Sharaf answered with a clean left hook that knocked Steveson out on his feet, then landed a few hammerfists before the referee stepped in.",
+      "No grappling happened. Steveson's wrestling never came into play."
+    ],
+    "context": "Huge upset: Steveson (Olympic wrestling gold medalist, undefeated) was around -2400 per Sherdog, and Sharaf came in 0-2 in the UFC. The bout was moved up to the main card after Ortega vs. Moicano was cancelled days before the event. Third-fastest heavyweight finish in UFC history (theScore). Sharaf received a $100K bonus.",
+    "sources": [
+      "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+      "https://www.ufc.com/event/ufc-331",
+      "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+      "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-alexandre-pantoja-results-winners/",
+      "https://www.thescore.com/mma/news/3599619/ufc-331-van-vs-pantoja-2-results-analysis",
+      "https://en.wikipedia.org/wiki/UFC_331",
+      "https://www.si.com/fannation/mma/news/ufc-gable-steveson-huge-opportunity-major-ufc-331-fight-cancellation",
+      "https://sports.yahoo.com/articles/ufc-331-official-weigh-results-150028870.html"
+    ]
+  },
+  {
+    "order": 10,
+    "section": "main",
+    "winner": "Patricio \"Pitbull\" Freire",
+    "loser": "Doo Ho Choi",
+    "weight_class": "Featherweight",
+    "scheduled_rounds": 3,
+    "method": "KO/TKO",
+    "method_detail": "TKO (punches and elbows)",
+    "round": 1,
+    "time": "3:28",
+    "ou_line": 1.5,
+    "ou_result": "UNDER",
+    "notes": [
+      "It was a competitive boxing match early. Choi worked jabs to the body and head and landed an overhand right and a left hook.",
+      "Freire's body shots, hooks from both hands and kicks opened a cut over Choi's right eye.",
+      "Freire froze Choi with an overhand right, pushed him to the mat with follow-up shots and finished with ground punches and elbows."
+    ],
+    "context": "Freire's best UFC win, taking him to 2-2 in the promotion. Both made weight.",
+    "sources": [
+      "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+      "https://www.ufc.com/event/ufc-331",
+      "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+      "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-alexandre-pantoja-results-winners/",
+      "https://www.thescore.com/mma/news/3599619/ufc-331-van-vs-pantoja-2-results-analysis",
+      "https://sports.yahoo.com/articles/ufc-331-official-weigh-results-150028870.html"
+    ]
+  },
+  {
+    "order": 11,
+    "section": "main",
+    "winner": "Arman Tsarukyan",
+    "loser": "Mauricio Ruffy",
+    "weight_class": "Lightweight",
+    "scheduled_rounds": 3,
+    "method": "KO/TKO",
+    "method_detail": "KO (elbow)",
+    "round": 1,
+    "time": "4:56",
+    "ou_line": 1.5,
+    "ou_result": "UNDER",
+    "notes": [
+      "Ruffy won the early striking exchanges with low kicks, a body jab and a clean right that stunned Tsarukyan.",
+      "Tsarukyan's single-leg attempt failed, and he spent most of the round clinching on the fence and working behind Ruffy without much progress, while looking for elbows.",
+      "With seconds left in R1, Tsarukyan closed the distance and knocked Ruffy out with an elbow, landing two more as Ruffy fell."
+    ],
+    "context": "Co-main event. Ruffy replaced Charles Oliveira (announced Aug 5, about 6 weeks out, so not really short notice). Tsarukyan fought through a badly swollen left eye (CBS). Performance of the Night. Both made weight.",
+    "sources": [
+      "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+      "https://www.ufc.com/event/ufc-331",
+      "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+      "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-alexandre-pantoja-results-winners/",
+      "https://www.thescore.com/mma/news/3599619/ufc-331-van-vs-pantoja-2-results-analysis",
+      "https://en.wikipedia.org/wiki/UFC_331",
+      "https://sports.yahoo.com/articles/ufc-331-official-weigh-results-150028870.html"
+    ]
+  },
+  {
+    "order": 12,
+    "section": "main",
+    "winner": "Joshua Van",
+    "loser": "Alexandre Pantoja",
+    "weight_class": "Flyweight (title)",
+    "scheduled_rounds": 5,
+    "method": "Decision",
+    "method_detail": "Unanimous decision (49-46 D'Amato, 48-47 Cleary, 50-45 McCarthy)",
+    "round": 5,
+    "time": "5:00",
+    "ou_line": 2.5,
+    "ou_result": "OVER",
+    "notes": [
+      "Pantoja's wrestling won R1 (body-lock takedown within 10 seconds, mount, elbows) and R4 (long top control in side control and half guard with elbows late). Sherdog gave him both rounds 3-0.",
+      "Van's boxing won R2, R3 and R5. His jab, right hands and multi-punch bursts outlanded Pantoja on the feet, and he stuffed several takedowns and even reversed to the top.",
+      "Van dropped Pantoja with a one-two in R5 and finished the round on top, clearly the fresher fighter. Sherdog's scorers had it 48-47 Van.",
+      "Pantoja complained of head butts in R2 and R3 and was cut over the left eye, but no point was taken."
+    ],
+    "context": "Van's title defense and a rematch of UFC 323 (Dec 2025), which ended in 26 seconds with a Pantoja arm injury. Controversial scorecard: judge Ron McCarthy's 50-45 (giving Van R4) was publicly called 'not possible' by CSAC's Andy Foster, though the result itself isn't in dispute. Fight of the Night. Both made weight at 125.",
+    "sources": [
+      "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850",
+      "https://www.ufc.com/event/ufc-331",
+      "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc",
+      "https://www.cbssports.com/ufc/news/ufc-331-fight-card-joshua-van-alexandre-pantoja-results-winners/",
+      "https://www.thescore.com/mma/news/3599619/ufc-331-van-vs-pantoja-2-results-analysis",
+      "https://www.ufc.com/news/cryptocom-ufc-331-van-vs-pantoja-2-official-scorecards",
+      "https://heavy.com/sports/ufc/andy-foster-judges-scorecards-ufc-331/",
+      "https://sports.yahoo.com/articles/ufc-331-official-weigh-results-150028870.html"
+    ]
+  }
+]

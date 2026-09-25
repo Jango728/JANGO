@@ -1,0 +1,71 @@
+{
+ "eventId": "dwcs-2026-week10",
+ "title": "DWCS Season 10 · Week 10",
+ "date": "2026-10-13",
+ "promotion": "DWCS",
+ "forecast": {
+  "engine": "1.0",
+  "frozenAt": "2026-09-25T01:34:08.017Z",
+  "basis": "Engine output frozen before the event. Never edited after results.",
+  "bouts": [
+   {
+    "a": "Davi Cabral",
+    "b": "Douglas da Lapa",
+    "pick": "Douglas da Lapa",
+    "confidence": 60,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 69,
+    "reasons": [
+     "Beat the better opposition: Opponents Douglas da Lapa beat (last 10) had a 60% win rate going in; Davi Cabral's had 45%.",
+     "Size and range: 6″ taller for Douglas da Lapa.",
+     "Real finishing threat: Douglas da Lapa finished 4 of 6 recent wins; Davi Cabral has been stopped 0 times in the last 7."
+    ]
+   },
+   {
+    "a": "Luis Francischinelli",
+    "b": "Will Rentz",
+    "pick": "Luis Francischinelli",
+    "confidence": 61,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Under"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 65,
+    "reasons": [
+     "Beat the better opposition: Opponents Luis Francischinelli beat (last 10) had a 62% win rate going in; Will Rentz's had 46%.",
+     "Real finishing threat: Luis Francischinelli finished 6 of 6 recent wins; Will Rentz has been stopped 1 time in the last 10.",
+     "Cleaner losses: Will Rentz has 2 losses in the last 10, to opponents averaging a 54% win rate; Luis Francischinelli has 1."
+    ]
+   },
+   {
+    "a": "Aline Pereira",
+    "b": "Smilla Sundell",
+    "pick": null,
+    "confidence": null,
+    "tier": null,
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": null,
+    "scheduledRounds": 3,
+    "evidence": 34,
+    "reasons": [
+     "Beat the better opposition: Opponents Aline Pereira beat (last 10) had a 53% win rate going in; Smilla Sundell's had 48%.",
+     "Size and range: 1″ longer reach for Aline Pereira."
+    ]
+   }
+  ]
+ },
+ "results": null,
+ "review": null
+}

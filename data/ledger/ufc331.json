@@ -1,0 +1,499 @@
+{
+ "eventId": "ufc331",
+ "title": "UFC 331: Van vs. Pantoja 2",
+ "date": "2026-09-19",
+ "promotion": "UFC",
+ "forecast": {
+  "engine": "0.4 (GPT era)",
+  "frozenAt": "2026-09-15T19:53:30Z",
+  "basis": "Default model reproduced from the last version published before the event, not a personally locked prediction.",
+  "bouts": [
+   {
+    "a": "Joshua Van",
+    "b": "Alexandre Pantoja",
+    "pick": "Joshua Van",
+    "confidence": 67,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 2.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 5
+   },
+   {
+    "a": "Arman Tsarukyan",
+    "b": "Mauricio Ruffy",
+    "pick": "Arman Tsarukyan",
+    "confidence": 70,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 2.5,
+     "side": "Under"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 5
+   },
+   {
+    "a": "Patricio Pitbull",
+    "b": "Dooho Choi",
+    "pick": "Dooho Choi",
+    "confidence": 72,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Alonzo Menifield",
+    "b": "Iwo Baraniewski",
+    "pick": "Alonzo Menifield",
+    "confidence": 63,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Under"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Gable Steveson",
+    "b": "Sean Sharaf",
+    "pick": "Gable Steveson",
+    "confidence": 74,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Under"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Marlon Vera",
+    "b": "Charles Jourdain",
+    "pick": "Charles Jourdain",
+    "confidence": 62,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Tai Tuivasa",
+    "b": "Robelis Despaigne",
+    "pick": "Tai Tuivasa",
+    "confidence": 55,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Michael Aswell Jr.",
+    "b": "JooSang Yoo",
+    "pick": "JooSang Yoo",
+    "confidence": 70,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Ryan Gandra",
+    "b": "Ozzy Diaz",
+    "pick": "Ryan Gandra",
+    "confidence": 65,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Under"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Edmen Shahbazyan",
+    "b": "Brunno Ferreira",
+    "pick": "Edmen Shahbazyan",
+    "confidence": 66,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Casey O'Neill",
+    "b": "Eduarda Moura",
+    "pick": "Casey O'Neill",
+    "confidence": 75,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3
+   },
+   {
+    "a": "Giga Chikadze",
+    "b": "Joanderson Brito",
+    "pick": null,
+    "confidence": null,
+    "tier": null,
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": null,
+    "scheduledRounds": 3
+   }
+  ]
+ },
+ "results": {
+  "checkedAt": "2026-09-24",
+  "sources": [
+   {
+    "label": "Sherdog play-by-play & round scoring",
+    "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+   },
+   {
+    "label": "UFC.com results",
+    "url": "https://www.ufc.com/event/ufc-331"
+   },
+   {
+    "label": "UFC.com official scorecards",
+    "url": "https://www.ufc.com/news/cryptocom-ufc-331-van-vs-pantoja-2-official-scorecards"
+   },
+   {
+    "label": "ESPN fightcenter",
+    "url": "https://www.espn.com/mma/fightcenter/_/id/600060963/league/ufc"
+   }
+  ],
+  "bouts": [
+   {
+    "a": "Joshua Van",
+    "b": "Alexandre Pantoja",
+    "winner": "Joshua Van",
+    "loser": "Alexandre Pantoja",
+    "method": "Decision",
+    "detail": "Unanimous decision (49-46 D'Amato, 48-47 Cleary, 50-45 McCarthy)",
+    "round": 5,
+    "time": "5:00",
+    "scheduledRounds": 5,
+    "line": 2.5,
+    "ou": "Over",
+    "notes": [
+     "Pantoja's wrestling won R1 (body-lock takedown within 10 seconds, mount, elbows) and R4 (long top control in side control and half guard with elbows late). Sherdog gave him both rounds 3-0.",
+     "Van's boxing won R2, R3 and R5. His jab, right hands and multi-punch bursts outlanded Pantoja on the feet, and he stuffed several takedowns and even reversed to the top.",
+     "Van dropped Pantoja with a one-two in R5 and finished the round on top, clearly the fresher fighter. Sherdog's scorers had it 48-47 Van.",
+     "Pantoja complained of head butts in R2 and R3 and was cut over the left eye, but no point was taken."
+    ],
+    "context": "Van's title defense and a rematch of UFC 323 (Dec 2025), which ended in 26 seconds with a Pantoja arm injury. Controversial scorecard: judge Ron McCarthy's 50-45 (giving Van R4) was publicly called 'not possible' by CSAC's Andy Foster, though the result itself isn't in dispute. Fight of the Night. Both made weight at 125.",
+    "section": "main"
+   },
+   {
+    "a": "Arman Tsarukyan",
+    "b": "Mauricio Ruffy",
+    "winner": "Arman Tsarukyan",
+    "loser": "Mauricio Ruffy",
+    "method": "KO/TKO",
+    "detail": "KO (elbow)",
+    "round": 1,
+    "time": "4:56",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Ruffy won the early striking exchanges with low kicks, a body jab and a clean right that stunned Tsarukyan.",
+     "Tsarukyan's single-leg attempt failed, and he spent most of the round clinching on the fence and working behind Ruffy without much progress, while looking for elbows.",
+     "With seconds left in R1, Tsarukyan closed the distance and knocked Ruffy out with an elbow, landing two more as Ruffy fell."
+    ],
+    "context": "Co-main event. Ruffy replaced Charles Oliveira (announced Aug 5, about 6 weeks out, so not really short notice). Tsarukyan fought through a badly swollen left eye (CBS). Performance of the Night. Both made weight.",
+    "section": "main"
+   },
+   {
+    "a": "Patricio \"Pitbull\" Freire",
+    "b": "Doo Ho Choi",
+    "winner": "Patricio \"Pitbull\" Freire",
+    "loser": "Doo Ho Choi",
+    "method": "KO/TKO",
+    "detail": "TKO (punches and elbows)",
+    "round": 1,
+    "time": "3:28",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "It was a competitive boxing match early. Choi worked jabs to the body and head and landed an overhand right and a left hook.",
+     "Freire's body shots, hooks from both hands and kicks opened a cut over Choi's right eye.",
+     "Freire froze Choi with an overhand right, pushed him to the mat with follow-up shots and finished with ground punches and elbows."
+    ],
+    "context": "Freire's best UFC win, taking him to 2-2 in the promotion. Both made weight.",
+    "section": "main"
+   },
+   {
+    "a": "Sean Sharaf",
+    "b": "Gable Steveson",
+    "winner": "Sean Sharaf",
+    "loser": "Gable Steveson",
+    "method": "KO/TKO",
+    "detail": "KO (left hook, with follow-up hammerfists)",
+    "round": 1,
+    "time": "0:12",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Steveson opened with a hard low kick.",
+     "Sharaf answered with a clean left hook that knocked Steveson out on his feet, then landed a few hammerfists before the referee stepped in.",
+     "No grappling happened. Steveson's wrestling never came into play."
+    ],
+    "context": "Huge upset: Steveson (Olympic wrestling gold medalist, undefeated) was around -2400 per Sherdog, and Sharaf came in 0-2 in the UFC. The bout was moved up to the main card after Ortega vs. Moicano was cancelled days before the event. Third-fastest heavyweight finish in UFC history (theScore). Sharaf received a $100K bonus.",
+    "section": "main"
+   },
+   {
+    "a": "Alonzo Menifield",
+    "b": "Iwo Baraniewski",
+    "winner": "Alonzo Menifield",
+    "loser": "Iwo Baraniewski",
+    "method": "Decision",
+    "detail": "Split decision (28-29, 29-28, 29-28)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "Baraniewski (unbeaten coming in) won R1 clearly: clubbing right hands hurt Menifield several times, then a takedown to full mount and back control.",
+     "Baraniewski faded badly from R2 (fatigue, damaged nose). Menifield took over with jabs, power punches and dirty boxing to win the round.",
+     "R3 was mostly clinch work on the fence. Baraniewski got an early takedown and landed knees from double underhooks, while Menifield finished stronger with punches, elbows and low kicks.",
+     "Sherdog's scorers had it 2-1 for Menifield, matching the official split."
+    ],
+    "context": "Opened the main card. Menifield fought with a visibly damaged thumb from R1. Baraniewski's first pro loss. Both made weight.",
+    "section": "main"
+   },
+   {
+    "a": "Marlon Vera",
+    "b": "Charles Jourdain",
+    "winner": "Marlon Vera",
+    "loser": "Charles Jourdain",
+    "method": "KO/TKO",
+    "detail": "TKO (submission to punch, left hook to the body)",
+    "round": 3,
+    "time": "2:02",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "Jourdain used southpaw low kicks and body work, but Vera caught kicks and tripped him to the mat twice in R1 (10-9 Vera on all Sherdog cards).",
+     "Vera took over R2: a left uppercut dropped Jourdain, he added another trip with punches on the ground, and a clinch knee scored a second knockdown late.",
+     "In R3, a left hook to the body followed by one to the head made Jourdain collapse and wave off the fight.",
+     "Vera wore Jourdain down steadily and was ahead on every card before the finish."
+    ],
+    "context": "Bout moved from UFC Fight Night: du Plessis vs. Usman (July). Vera snapped a four-fight losing streak (theScore). Both made weight.",
+    "section": "prelims"
+   },
+   {
+    "a": "Robelis Despaigne",
+    "b": "Tai Tuivasa",
+    "winner": "Robelis Despaigne",
+    "loser": "Tai Tuivasa",
+    "method": "Decision",
+    "detail": "Split decision (29-28, 28-29, 29-28)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "R1 was a wild brawl. Despaigne dropped Tuivasa early, took him down, got to mount and landed hammerfists, then Tuivasa got his own takedown and punched from the top.",
+     "Despaigne was badly fatigued from R2 on. Tuivasa won R2 through clinch work and knees, although Despaigne landed a throw to side control.",
+     "R3: Tuivasa dropped Despaigne with a leg kick, but Despaigne landed another throw and punched from half guard for much of the round, with both men exhausted.",
+     "Sherdog's scorers had it 2-1 for Tuivasa (29-28). The official judges went 2-1 for Despaigne."
+    ],
+    "context": "Close, disputable split decision. Tuivasa's eighth straight UFC loss, tying the promotion record for a losing streak (theScore). Both made weight.",
+    "section": "prelims"
+   },
+   {
+    "a": "Michael Aswell Jr.",
+    "b": "Joo Sang Yoo",
+    "winner": "Michael Aswell Jr.",
+    "loser": "Joo Sang Yoo",
+    "method": "Decision",
+    "detail": "Split decision (28-29, 29-28, 29-28)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "R1 was a high-impact striking exchange. Aswell's leg kicks and overhand rights carried the round, and he stopped a takedown with a front headlock and knee.",
+     "In R2, Aswell held double underhooks in the clinch and kneed the body, while Yoo landed the cleaner combinations and a left hook. The round split Sherdog's scorers 2-1 for Yoo.",
+     "Yoo raised his pace in R3, took Aswell down midway and passed to side control before Aswell scrambled up late.",
+     "Sherdog's scorers had it 2-1 for Yoo (29-28), but the official judges went 2-1 for Aswell, making it a close, disputable decision."
+    ],
+    "context": "theScore called Aswell's win an upset (Yoo was the favorite). Split decision that went against two of Sherdog's three scorers. Both made weight.",
+    "section": "prelims"
+   },
+   {
+    "a": "Ryan Gandra",
+    "b": "Osman (Ozzy) Diaz",
+    "winner": "Ryan Gandra",
+    "loser": "Osman (Ozzy) Diaz",
+    "method": "KO/TKO",
+    "detail": "TKO (punches)",
+    "round": 1,
+    "time": "2:04",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "The opening feeling-out was short: Gandra landed a low kick, a body jab and a left hook, and Diaz answered with a jab, an elbow and an inside leg kick.",
+     "A long punching combination backed Diaz onto the fence while he covered up.",
+     "An overhand right dropped Diaz, and Gandra followed up with unanswered punches for the stoppage."
+    ],
+    "context": "Opened the prelims. Gandra's third straight first-round finish (theScore). Both made weight.",
+    "section": "prelims"
+   },
+   {
+    "a": "Edmen Shahbazyan",
+    "b": "Brunno Ferreira",
+    "winner": "Edmen Shahbazyan",
+    "loser": "Brunno Ferreira",
+    "method": "Decision",
+    "detail": "Unanimous decision (29-28, 29-28, 30-27)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "A low-kick-led, jab-and-one-two game plan from the center of the cage. Ferreira's output was very low, especially in R1.",
+     "Shahbazyan added body kicks in R2. Ferreira landed a few big single shots but missed wild overhands and was warned for an eye poke.",
+     "Ferreira pushed harder in R3, but Shahbazyan clinched, landed knees and a takedown, then dropped him with a right hand late.",
+     "Sherdog's three scorers had it 30-27 Shahbazyan, sweeping all rounds."
+    ],
+    "context": "Early prelims. A clear decision with no controversy. Both made weight.",
+    "section": "prelims"
+   },
+   {
+    "a": "Casey O'Neill",
+    "b": "Eduarda Moura",
+    "winner": "Casey O'Neill",
+    "loser": "Eduarda Moura",
+    "method": "Submission",
+    "detail": "Submission (armbar, belly-down)",
+    "round": 1,
+    "time": "3:22",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Moura controlled most of the round: she caught a kick, tripped O'Neill and landed elbows and short punches from half guard.",
+     "Moura went to north-south and attempted an anaconda choke but lost the grip.",
+     "O'Neill came back from the bottom, lifting Moura, rotating her hips and rolling straight into a belly-down armbar for the tap.",
+     "Sherdog called it a Submission of the Year contender, and it earned a Performance of the Night bonus."
+    ],
+    "context": "Early prelims. Won from a losing position. Performance of the Night. Both made weight.",
+    "section": "prelims"
+   },
+   {
+    "a": "Joanderson Brito",
+    "b": "Giga Chikadze",
+    "winner": "Joanderson Brito",
+    "loser": "Giga Chikadze",
+    "method": "KO/TKO",
+    "detail": "KO (punches/hammerfists)",
+    "round": 1,
+    "time": "1:57",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Chikadze started well at range with kicks, many of them to the body, while Brito kept walking forward behind punches.",
+     "The finish came from a scramble: Chikadze slipped throwing a high kick and Brito jumped into top position.",
+     "Brito's ground strikes got heavier and turned into repeated hammerfists on a dazed Chikadze until the stoppage."
+    ],
+    "context": "Opened the card (early prelims). Both fighters made weight.",
+    "section": "prelims"
+   }
+  ]
+ },
+ "review": {
+  "status": "final",
+  "reviewedAt": "2026-09-24",
+  "followUpUntil": "2026-09-22",
+  "lessons": [
+   "Pedigree outside MMA is not MMA evidence. Steveson (4 pro fights) was priced and modelled like a proven heavyweight; one clean left hook ended it in 12 seconds. v1.0 now scales confidence by loaded top-level fights and caps thin r\u00e9sum\u00e9s.",
+   "Sustained losing streaks are a decline signal \u2014 but 'due for a win' is not. Vera snapped a 4-fight skid against Jourdain; Tuivasa extended his to 8. v1.0 treats streaks through a separate momentum model instead of letting an old strong schedule erase them.",
+   "Two of our five misses were split decisions Sherdog's own scorers had the other way (Tuivasa\u2013Despaigne, Aswell\u2013Yoo). Those are logged as variance, not model errors.",
+   "Rounds model went 9/12. Its misses were early finishes by fighters with durable recent records (Brito, Pitbull, O'Neill's comeback armbar). Heavyweight and veteran-vs-veteran finishing threat gets more weight in rounds v1.1.",
+   "The frozen GPT-era picks went 7/11 (one abstention). Re-running engine v1.0 on this card with only pre-event data also gets 7 of 12 \u2014 it picks Despaigne and Brito correctly but still misses Pitbull, Sharaf, Vera, Menifield and Aswell. Across all 30 completed bouts with loaded histories, v1.0 is 19/30 vs 17/30 for the old model. Sample is still small; no claims of calibration yet."
+  ],
+  "modelChanges": [
+   "Engine v1.0: multi-model consensus (R\u00e9sum\u00e9, Style matchup, Form & readiness, Challenger baseline); disagreement lowers confidence.",
+   "Confidence now combines matchup edge \u00d7 evidence quality; thin top-level r\u00e9sum\u00e9s can no longer reach 'Strong'.",
+   "Added head-to-head and 'who beat them' (quality of losses) signals."
+  ],
+  "bouts": [
+   {
+    "a": "Patricio \"Pitbull\" Freire",
+    "b": "Doo Ho Choi",
+    "cause": "style-read",
+    "note": "We leaned Choi on striking rates, but Pitbull's body work and kicks opened a cut and the overhand right finished it in R1. Veteran finishing power against a fighter with prior KO losses was underweighted, and the rounds pick (Over) missed for the same reason."
+   },
+   {
+    "a": "Sean Sharaf",
+    "b": "Gable Steveson",
+    "cause": "data",
+    "note": "Steveson's 4-fight pro record didn't justify a 74% pick. No wrestling exchange happened \u2014 one left hook at 0:12. Thin-r\u00e9sum\u00e9 cap added."
+   },
+   {
+    "a": "Marlon Vera",
+    "b": "Charles Jourdain",
+    "cause": "model",
+    "note": "Leaned Jourdain on Vera's 4-fight skid. Vera's trips and body work dominated every round (Sherdog 10-9 R1, two knockdowns R2) before a R3 body-shot stoppage. Losing streaks against elite opposition shouldn't be read the same as losses to mid-tier opponents \u2014 now handled by 'who beat them'."
+   },
+   {
+    "a": "Robelis Despaigne",
+    "b": "Tai Tuivasa",
+    "cause": "variance",
+    "note": "Split decision; Sherdog's scorers had Tuivasa 29-28. Our lean on Tuivasa was wrong on the scorecards, but the fight itself was a coin flip after Despaigne gassed from R2."
+   },
+   {
+    "a": "Michael Aswell Jr.",
+    "b": "Joo Sang Yoo",
+    "cause": "variance",
+    "note": "Split decision; Sherdog's scorers had Yoo 29-28 (Yoo's R3 takedown and pass). Logged as variance."
+   },
+   {
+    "a": "Joanderson Brito",
+    "b": "Giga Chikadze",
+    "cause": "data",
+    "note": "GPT-era model abstained. Brito's forward pressure and a scramble off a slipped Chikadze high kick produced the R1 finish. v1.0 always makes a pick when data exists."
+   },
+   {
+    "a": "Casey O'Neill",
+    "b": "Eduarda Moura",
+    "note": "Winner correct, rounds wrong: O'Neill was losing R1 on the ground before a belly-down armbar at 3:22. Correct pick, wrong script."
+   }
+  ]
+ }
+}

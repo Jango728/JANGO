@@ -1,0 +1,1219 @@
+[
+ {
+  "event": "ufc-fn-289",
+  "title": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+  "date": "2026-09-26",
+  "bouts": [
+   {
+    "order": 1,
+    "section": "Main Card",
+    "division": "Bantamweight",
+    "rounds": 5,
+    "odds": "-180/143",
+    "a": {
+     "id": "raul-rosas-jr",
+     "name": "Raul Rosas Jr.",
+     "record": "12-1-0",
+     "height": "5′ 9″",
+     "reach": "67″",
+     "stance": "Switch",
+     "age": 21
+    },
+    "b": {
+     "id": "raoni-barcelos",
+     "name": "Raoni Barcelos",
+     "record": "22-5-0",
+     "height": "5′ 7″",
+     "reach": "67″",
+     "stance": "Orthodox",
+     "age": 39
+    }
+   },
+   {
+    "order": 2,
+    "section": "Main Card",
+    "division": "Middleweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "rodolfo-vieira",
+     "name": "Rodolfo Vieira",
+     "record": "11-5-0",
+     "height": "6′ 0″",
+     "reach": "73″",
+     "stance": "Orthodox",
+     "age": 36
+    },
+    "b": {
+     "id": "robert-bryczek",
+     "name": "Robert Bryczek",
+     "record": "18-7-0",
+     "height": "6′ 0″",
+     "reach": "75″",
+     "stance": "Orthodox",
+     "age": 36
+    }
+   },
+   {
+    "order": 3,
+    "section": "Main Card",
+    "division": "Bantamweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "mehemmedeli-osmanli",
+     "name": "Mahammadali Osmanli",
+     "record": "12-1-0",
+     "height": "5′ 9″",
+     "reach": "—",
+     "stance": "--",
+     "age": 22
+    },
+    "b": {
+     "id": "ilimbek-akylbek-uulu",
+     "name": "Ilimbek Akylbek",
+     "record": "10-3-0",
+     "height": "5′ 7″",
+     "reach": "—",
+     "stance": "--",
+     "age": 23
+    }
+   },
+   {
+    "order": 4,
+    "section": "Main Card",
+    "division": "Women's Strawweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "melissa-amaya",
+     "name": "Melissa Amaya",
+     "record": "8-0-0",
+     "height": "5′ 4″",
+     "reach": "64″",
+     "stance": "--",
+     "age": 31
+    },
+    "b": {
+     "id": "tina-black",
+     "name": "Tina Black",
+     "record": "15-4-0",
+     "height": "5′ 4″",
+     "reach": "63″",
+     "stance": "Orthodox",
+     "age": 30
+    }
+   },
+   {
+    "order": 5,
+    "section": "Main Card",
+    "division": "Bantamweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "brady-hiestand",
+     "name": "Brady Hiestand",
+     "record": "9-2-0",
+     "height": "5′ 8″",
+     "reach": "71″",
+     "stance": "Orthodox",
+     "age": 27
+    },
+    "b": {
+     "id": "rinya-nakamura",
+     "name": "Rinya Nakamura",
+     "record": "10-1-0",
+     "height": "5′ 7″",
+     "reach": "69″",
+     "stance": "Southpaw",
+     "age": 31
+    }
+   },
+   {
+    "order": 6,
+    "section": "Prelims",
+    "division": "Light Heavyweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "rodolfo-bellato",
+     "name": "Rodolfo Bellato",
+     "record": "13-3-1",
+     "height": "6′ 3″",
+     "reach": "75″",
+     "stance": "Orthodox",
+     "age": 30
+    },
+    "b": {
+     "id": "christian-edwards",
+     "name": "Christian Edwards",
+     "record": "8-5-0",
+     "height": "6′ 5″",
+     "reach": "79″",
+     "stance": "--",
+     "age": 27
+    }
+   },
+   {
+    "order": 7,
+    "section": "Prelims",
+    "division": "Lightweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "elves-brener",
+     "name": "Elves Brener",
+     "record": "16-6-0",
+     "height": "5′ 10″",
+     "reach": "73″",
+     "stance": "Orthodox",
+     "age": 28
+    },
+    "b": {
+     "id": "josiah-harrell",
+     "name": "Josiah Harrell",
+     "record": "11-1-0",
+     "height": "5′ 7″",
+     "reach": "68″",
+     "stance": "Southpaw",
+     "age": 27
+    }
+   },
+   {
+    "order": 8,
+    "section": "Prelims",
+    "division": "Bantamweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "montel-jackson",
+     "name": "Montel Jackson",
+     "record": "15-4-0",
+     "height": "5′ 10″",
+     "reach": "76″",
+     "stance": "Southpaw",
+     "age": 34
+    },
+    "b": {
+     "id": "ricky-simon",
+     "name": "Ricky Simon",
+     "record": "22-7-1",
+     "height": "5′ 6″",
+     "reach": "69″",
+     "stance": "Orthodox",
+     "age": 34
+    }
+   },
+   {
+    "order": 9,
+    "section": "Prelims",
+    "division": "Women's Bantamweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "norma-dumont",
+     "name": "Norma Dumont",
+     "record": "13-3-0",
+     "height": "5′ 7″",
+     "reach": "67″",
+     "stance": "Orthodox",
+     "age": 35
+    },
+    "b": {
+     "id": "ailin-perez",
+     "name": "Ailin Perez",
+     "record": "13-2-0",
+     "height": "5′ 5″",
+     "reach": "66″",
+     "stance": "Switch",
+     "age": 31
+    }
+   },
+   {
+    "order": 10,
+    "section": "Prelims",
+    "division": "Bantamweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "john-castaneda",
+     "name": "John Castaneda",
+     "record": "21-8-1",
+     "height": "5′ 6″",
+     "reach": "71″",
+     "stance": "Switch",
+     "age": 34
+    },
+    "b": {
+     "id": "alatengheili",
+     "name": "Alatengheili",
+     "record": "17-10-2",
+     "height": "5′ 5″",
+     "reach": "66″",
+     "stance": "Orthodox",
+     "age": 34
+    }
+   },
+   {
+    "order": 11,
+    "section": "Prelims",
+    "division": "Middleweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "mickey-gall",
+     "name": "Mickey Gall",
+     "record": "7-7-0",
+     "height": "6′ 2″",
+     "reach": "74″",
+     "stance": "Switch",
+     "age": 34
+    },
+    "b": {
+     "id": "sedriques-dumas",
+     "name": "Sedriques Dumas",
+     "record": "10-5-0",
+     "height": "6′ 2″",
+     "reach": "79″",
+     "stance": "Orthodox",
+     "age": 31
+    }
+   },
+   {
+    "order": 12,
+    "section": "Prelims",
+    "division": "Women's Strawweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "vanessa-demopoulos",
+     "name": "Vanessa Demopoulos",
+     "record": "11-8-0",
+     "height": "5′ 2″",
+     "reach": "59″",
+     "stance": "Orthodox",
+     "age": 38
+    },
+    "b": {
+     "id": "yazmin-jauregui",
+     "name": "Yazmin Jauregui",
+     "record": "11-2-0",
+     "height": "5′ 3″",
+     "reach": "64″",
+     "stance": "Orthodox",
+     "age": 27
+    }
+   }
+  ]
+ },
+ {
+  "event": "ufc332",
+  "title": "UFC 332: Silva vs. Wang",
+  "date": "2026-10-03",
+  "bouts": [
+   {
+    "order": 1,
+    "section": "Main Card",
+    "division": "Women's Flyweight",
+    "rounds": 5,
+    "odds": "-205/163",
+    "a": {
+     "id": "natalia-silva",
+     "name": "Natalia Silva",
+     "record": "20-5-1",
+     "height": "5′ 4″",
+     "reach": "65″",
+     "stance": "Southpaw",
+     "age": 29
+    },
+    "b": {
+     "id": "wang-cong",
+     "name": "Wang Cong",
+     "record": "10-1-0",
+     "height": "5′ 6″",
+     "reach": "66″",
+     "stance": "Southpaw",
+     "age": 34
+    }
+   },
+   {
+    "order": 2,
+    "section": "Main Card",
+    "division": "Bantamweight",
+    "rounds": 3,
+    "odds": "460/-715",
+    "a": {
+     "id": "deiveson-figueiredo",
+     "name": "Deiveson Figueiredo",
+     "record": "25-7-1",
+     "height": "5′ 5″",
+     "reach": "68″",
+     "stance": "Orthodox",
+     "age": 38
+    },
+    "b": {
+     "id": "payton-talbott",
+     "name": "Payton Talbott",
+     "record": "11-1-0",
+     "height": "5′ 10″",
+     "reach": "71″",
+     "stance": "Switch",
+     "age": 28
+    }
+   },
+   {
+    "order": 3,
+    "section": "Main Card",
+    "division": "Lightweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "king-green",
+     "name": "King Green",
+     "record": "36-17-1",
+     "height": "5′ 10″",
+     "reach": "71″",
+     "stance": "Orthodox",
+     "age": 40
+    },
+    "b": {
+     "id": "esteban-ribovics",
+     "name": "Esteban Ribovics",
+     "record": "16-3-0",
+     "height": "5′ 10″",
+     "reach": "69″",
+     "stance": "Orthodox",
+     "age": 30
+    }
+   },
+   {
+    "order": 4,
+    "section": "Main Card",
+    "division": "Welterweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "khaos-williams",
+     "name": "Khaos Williams",
+     "record": "16-5-0",
+     "height": "6′ 0″",
+     "reach": "77″",
+     "stance": "Orthodox",
+     "age": 32
+    },
+    "b": {
+     "id": "roberto-soldic",
+     "name": "Roberto Soldić",
+     "record": "21-4-0",
+     "height": "5′ 11″",
+     "reach": "73″",
+     "stance": "--",
+     "age": 31
+    }
+   },
+   {
+    "order": 5,
+    "section": "Main Card",
+    "division": "Middleweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "ateba-gautier",
+     "name": "Ateba Gautier",
+     "record": "11-1-0",
+     "height": "6′ 4″",
+     "reach": "81″",
+     "stance": "Switch",
+     "age": 24
+    },
+    "b": {
+     "id": "roman-kopylov",
+     "name": "Roman Kopylov",
+     "record": "15-5-0",
+     "height": "6′ 0″",
+     "reach": "75″",
+     "stance": "Southpaw",
+     "age": 34
+    }
+   },
+   {
+    "order": 6,
+    "section": "Prelims",
+    "division": "Flyweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "imanol-rodriguez",
+     "name": "Imanol Rodriguez",
+     "record": "7-1-0",
+     "height": "5′ 4″",
+     "reach": "65″",
+     "stance": "Orthodox",
+     "age": 26
+    },
+    "b": {
+     "id": "alden-coria",
+     "name": "Alden Coria",
+     "record": "13-3-0",
+     "height": "5′ 8″",
+     "reach": "67″",
+     "stance": "Orthodox",
+     "age": 28
+    }
+   },
+   {
+    "order": 7,
+    "section": "Prelims",
+    "division": "Middleweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "damian-pinas",
+     "name": "Damian Pinas",
+     "record": "10-1-0",
+     "height": "6′ 1″",
+     "reach": "80″",
+     "stance": "Orthodox",
+     "age": 24
+    },
+    "b": {
+     "id": "andrey-pulyaev",
+     "name": "Andrey Pulyaev",
+     "record": "10-5-0",
+     "height": "6′ 4″",
+     "reach": "78″",
+     "stance": "Southpaw",
+     "age": 29
+    }
+   },
+   {
+    "order": 8,
+    "section": "Prelims",
+    "division": "Bantamweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "marcus-mcghee",
+     "name": "Marcus McGhee",
+     "record": "11-2-0",
+     "height": "5′ 8″",
+     "reach": "69″",
+     "stance": "Orthodox",
+     "age": 36
+    },
+    "b": {
+     "id": "bernardo-sopaj",
+     "name": "Bernardo Sopaj",
+     "record": "13-3-0",
+     "height": "5′ 6″",
+     "reach": "66″",
+     "stance": "Orthodox",
+     "age": 25
+    }
+   },
+   {
+    "order": 9,
+    "section": "Early Prelims",
+    "division": "Heavyweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "johnny-walker",
+     "name": "Johnny Walker",
+     "record": "22-10-0",
+     "height": "6′ 6″",
+     "reach": "82″",
+     "stance": "Orthodox",
+     "age": 34
+    },
+    "b": {
+     "id": "mick-parkin",
+     "name": "Mick Parkin",
+     "record": "10-1-0",
+     "height": "6′ 4″",
+     "reach": "79″",
+     "stance": "Orthodox",
+     "age": 30
+    }
+   },
+   {
+    "order": 10,
+    "section": "Early Prelims",
+    "division": "Lightweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "rafael-dos-anjos",
+     "name": "Rafael Dos Anjos",
+     "record": "32-17-0",
+     "height": "5′ 8″",
+     "reach": "70″",
+     "stance": "Southpaw",
+     "age": 41
+    },
+    "b": {
+     "id": "alexander-hernandez",
+     "name": "Alexander Hernandez",
+     "record": "18-9-0",
+     "height": "5′ 9″",
+     "reach": "72″",
+     "stance": "Orthodox",
+     "age": 33
+    }
+   },
+   {
+    "order": 11,
+    "section": "Early Prelims",
+    "division": "Middleweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "marvin-vettori",
+     "name": "Marvin Vettori",
+     "record": "19-10-1",
+     "height": "6′ 0″",
+     "reach": "74″",
+     "stance": "Southpaw",
+     "age": 33
+    },
+    "b": {
+     "id": "ismail-naurdiev",
+     "name": "Ismail Naurdiev",
+     "record": "25-8-0",
+     "height": "5′ 10″",
+     "reach": "74″",
+     "stance": "Orthodox",
+     "age": 30
+    }
+   },
+   {
+    "order": 12,
+    "section": "Early Prelims",
+    "division": "Welterweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "court-mcgee",
+     "name": "Court McGee",
+     "record": "23-14-0",
+     "height": "5′ 11″",
+     "reach": "75″",
+     "stance": "Orthodox",
+     "age": 41
+    },
+    "b": {
+     "id": "eric-nolan",
+     "name": "Eric Nolan",
+     "record": "8-5-0",
+     "height": "6′ 2″",
+     "reach": "74″",
+     "stance": "Orthodox",
+     "age": 29
+    }
+   },
+   {
+    "order": 13,
+    "section": "Early Prelims",
+    "division": "Heavyweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "anthony-wint",
+     "name": "Anthony Wint",
+     "record": "8-0-0",
+     "height": "5′ 11″",
+     "reach": "78″",
+     "stance": "Orthodox",
+     "age": 31
+    },
+    "b": {
+     "id": "lucas-armand",
+     "name": "Lucas Armand",
+     "record": "6-0-0",
+     "height": "6′ 4″",
+     "reach": "—",
+     "stance": "--",
+     "age": 30
+    }
+   }
+  ]
+ },
+ {
+  "event": "ufc333",
+  "title": "UFC 333: Volkanovski vs. Evloev",
+  "date": "2026-10-24",
+  "bouts": [
+   {
+    "order": 1,
+    "section": "Main Card",
+    "division": "Featherweight",
+    "rounds": 5,
+    "odds": null,
+    "a": {
+     "id": "alexander-volkanovski",
+     "name": "Alexander Volkanovski",
+     "record": "28-4-0",
+     "height": "5′ 6″",
+     "reach": "72″",
+     "stance": "Orthodox",
+     "age": 37
+    },
+    "b": {
+     "id": "movsar-evloev",
+     "name": "Movsar Evloev",
+     "record": "20-0-0",
+     "height": "5′ 7″",
+     "reach": "73″",
+     "stance": "Orthodox",
+     "age": 32
+    }
+   },
+   {
+    "order": 2,
+    "section": "Main Card",
+    "division": "Bantamweight",
+    "rounds": 5,
+    "odds": null,
+    "a": {
+     "id": "petr-yan",
+     "name": "Petr Yan",
+     "record": "20-5-0",
+     "height": "5′ 7″",
+     "reach": "67″",
+     "stance": "Switch",
+     "age": 33
+    },
+    "b": {
+     "id": "merab-dvalishvili",
+     "name": "Merab Dvalishvili",
+     "record": "21-5-0",
+     "height": "5′ 6″",
+     "reach": "68″",
+     "stance": "Orthodox",
+     "age": 35
+    }
+   },
+   {
+    "order": 3,
+    "section": "Main Card",
+    "division": "Flyweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "lone-er-kavanagh",
+     "name": "Lone'er Kavanagh",
+     "record": "10-2-0",
+     "height": "5′ 6″",
+     "reach": "67″",
+     "stance": "Orthodox",
+     "age": 27
+    },
+    "b": {
+     "id": "ramazan-temirov",
+     "name": "Ramazan Temirov",
+     "record": "20-3-0",
+     "height": "5′ 4″",
+     "reach": "63″",
+     "stance": "Orthodox",
+     "age": 29
+    }
+   },
+   {
+    "order": 4,
+    "section": "Main Card",
+    "division": "Featherweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "arnold-allen",
+     "name": "Arnold Allen",
+     "record": "21-4-0",
+     "height": "5′ 8″",
+     "reach": "70″",
+     "stance": "Southpaw",
+     "age": 32
+    },
+    "b": {
+     "id": "aaron-pico",
+     "name": "Aaron Pico",
+     "record": "14-5-0",
+     "height": "5′ 8″",
+     "reach": "71″",
+     "stance": "Orthodox",
+     "age": 29
+    }
+   },
+   {
+    "order": 5,
+    "section": "Prelims",
+    "division": "Light Heavyweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "dominick-reyes",
+     "name": "Dominick Reyes",
+     "record": "16-5-0",
+     "height": "6′ 4″",
+     "reach": "77″",
+     "stance": "Southpaw",
+     "age": 36
+    },
+    "b": {
+     "id": "azamat-murzakanov",
+     "name": "Azamat Murzakanov",
+     "record": "16-1-0",
+     "height": "5′ 10″",
+     "reach": "72″",
+     "stance": "Southpaw",
+     "age": 37
+    }
+   },
+   {
+    "order": 6,
+    "section": "Prelims",
+    "division": "Middleweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "abus-magomedov",
+     "name": "Abus Magomedov",
+     "record": "29-7-1",
+     "height": "6′ 2″",
+     "reach": "78″",
+     "stance": "Orthodox",
+     "age": 36
+    },
+    "b": {
+     "id": "cam-rowston",
+     "name": "Cam Rowston",
+     "record": "15-3-0",
+     "height": "6′ 3″",
+     "reach": "78″",
+     "stance": "Orthodox",
+     "age": 31
+    }
+   },
+   {
+    "order": 7,
+    "section": "Prelims",
+    "division": "Light Heavyweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "nikita-krylov",
+     "name": "Nikita Krylov",
+     "record": "31-12-0",
+     "height": "6′ 3″",
+     "reach": "78″",
+     "stance": "Orthodox",
+     "age": 34
+    },
+    "b": {
+     "id": "abdul-rakhman-yakhyaev",
+     "name": "Abdul-Rakhman Yakhyaev",
+     "record": "10-0-0",
+     "height": "6′ 2″",
+     "reach": "78″",
+     "stance": "Orthodox",
+     "age": 25
+    }
+   },
+   {
+    "order": 8,
+    "section": "Early Prelims",
+    "division": "Lightweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "grant-dawson",
+     "name": "Grant Dawson",
+     "record": "24-3-1",
+     "height": "5′ 10″",
+     "reach": "72″",
+     "stance": "Switch",
+     "age": 32
+    },
+    "b": {
+     "id": "nurullo-aliev",
+     "name": "Nurullo Aliev",
+     "record": "12-0-0",
+     "height": "5′ 10″",
+     "reach": "72″",
+     "stance": "Orthodox",
+     "age": 25
+    }
+   },
+   {
+    "order": 9,
+    "section": "Main Card",
+    "division": "Heavyweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "alexander-volkov",
+     "name": "Alexander Volkov",
+     "record": "40-11-0",
+     "height": "6′ 7″",
+     "reach": "80″",
+     "stance": "Orthodox",
+     "age": 37
+    },
+    "b": {
+     "id": "rizvan-kuniev",
+     "name": "Rizvan Kuniev",
+     "record": "14-3-1",
+     "height": "6′ 4″",
+     "reach": "76″",
+     "stance": "Orthodox",
+     "age": 34
+    }
+   }
+  ]
+ },
+ {
+  "event": "dwcs-2026-week8",
+  "title": "Dana White's Contender Series: Season 10, Week 8",
+  "date": "2026-09-29",
+  "bouts": [
+   {
+    "order": 1,
+    "section": "Main Card",
+    "division": "Women's Strawweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "aieza-bertolso",
+     "name": "Aieza Bertolso",
+     "record": "7-0-0",
+     "height": "5′ 6″",
+     "reach": "68″",
+     "stance": "--",
+     "age": 25
+    },
+    "b": {
+     "id": "camila-reynoso",
+     "name": "Camila Reynoso",
+     "record": "9-1-0",
+     "height": "5′ 2″",
+     "reach": "—",
+     "stance": "--",
+     "age": 23
+    }
+   },
+   {
+    "order": 2,
+    "section": "Main Card",
+    "division": "Lightweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "loai-abushaar",
+     "name": "Loai Abushaar",
+     "record": "7-1-0",
+     "height": "6′ 4″",
+     "reach": "—",
+     "stance": "--",
+     "age": 30
+    },
+    "b": {
+     "id": "george-staines",
+     "name": "George Staines",
+     "record": "0-0-0",
+     "height": "6′ 1″",
+     "reach": "—",
+     "stance": "--",
+     "age": 26
+    }
+   },
+   {
+    "order": 3,
+    "section": "Main Card",
+    "division": "Featherweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "ian-escuza",
+     "name": "Ian Escuza",
+     "record": "7-0-0",
+     "height": "5′ 8″",
+     "reach": "—",
+     "stance": "--",
+     "age": 30
+    },
+    "b": {
+     "id": "luca-borando",
+     "name": "Luca Borando",
+     "record": "9-1-0",
+     "height": "5′ 10″",
+     "reach": "—",
+     "stance": "--",
+     "age": 25
+    }
+   },
+   {
+    "order": 4,
+    "section": "Main Card",
+    "division": "Featherweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "ilias-bulaid",
+     "name": "Ilias Bulaid",
+     "record": "9-0-0",
+     "height": "5′ 8″",
+     "reach": "71″",
+     "stance": "--",
+     "age": 31
+    },
+    "b": {
+     "id": "erick-visconde",
+     "name": "Erick Visconde",
+     "record": "17-3-0",
+     "height": "5′ 7″",
+     "reach": "66″",
+     "stance": "--",
+     "age": 29
+    }
+   },
+   {
+    "order": 5,
+    "section": "Main Card",
+    "division": "Heavyweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "adama-diop",
+     "name": "Adama Diop",
+     "record": "6-1-0",
+     "height": "6′ 1″",
+     "reach": "—",
+     "stance": "--",
+     "age": null
+    },
+    "b": {
+     "id": "zaurbek-sabanov",
+     "name": "Zaurbek Sabanov",
+     "record": "4-0-0",
+     "height": "6′ 4″",
+     "reach": "—",
+     "stance": "--",
+     "age": 28
+    }
+   }
+  ]
+ },
+ {
+  "event": "dwcs-2026-week9",
+  "title": "Dana White's Contender Series: Season 10, Week 9",
+  "date": "2026-10-06",
+  "bouts": [
+   {
+    "order": 1,
+    "section": "Main Card",
+    "division": "Flyweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "roque-conceicao",
+     "name": "Roque Conceicao",
+     "record": "11-3-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    },
+    "b": {
+     "id": "alexander-chavez",
+     "name": "Alexander Chavez",
+     "record": "9-0-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    }
+   },
+   {
+    "order": 2,
+    "section": "Main Card",
+    "division": "Light Heavyweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "ivan-gnizditskiy",
+     "name": "Ivan Gnizditskiy",
+     "record": "7-0-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    },
+    "b": {
+     "id": "nell-ariano",
+     "name": "Nell Ariano",
+     "record": "6-0-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    }
+   },
+   {
+    "order": 3,
+    "section": "Main Card",
+    "division": "Welterweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "sal-everett",
+     "name": "Sal Everett",
+     "record": "4-0-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    },
+    "b": {
+     "id": "ozzy-martin",
+     "name": "Ozzy Martin",
+     "record": "4-0-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    }
+   },
+   {
+    "order": 4,
+    "section": "Main Card",
+    "division": "Bantamweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "ryuho-miyaguchi",
+     "name": "Ryuho Miyaguchi",
+     "record": "7-1-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    },
+    "b": {
+     "id": "mateus-soares",
+     "name": "Mateus Soares",
+     "record": "11-2-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    }
+   },
+   {
+    "order": 5,
+    "section": "Main Card",
+    "division": "Women's Bantamweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "alivia-bierley",
+     "name": "Alivia Bierley",
+     "record": "5-1-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    },
+    "b": {
+     "id": "summer-onley",
+     "name": "Summer Onley",
+     "record": "6-0-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    }
+   }
+  ]
+ },
+ {
+  "event": "dwcs-2026-week10",
+  "title": "Dana White's Contender Series: Season 10, Week 10",
+  "date": "2026-10-13",
+  "bouts": [
+   {
+    "order": 1,
+    "section": "Main Card",
+    "division": "Middleweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "davi-cabral",
+     "name": "Davi Cabral",
+     "record": "7-0-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    },
+    "b": {
+     "id": "douglas-da-lapa",
+     "name": "Douglas da Lapa",
+     "record": "6-0-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    }
+   },
+   {
+    "order": 2,
+    "section": "Main Card",
+    "division": "Welterweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "luis-francischinelli",
+     "name": "Luis Francischinelli",
+     "record": "6-1-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    },
+    "b": {
+     "id": "will-rentz",
+     "name": "Will Rentz",
+     "record": "8-2-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    }
+   },
+   {
+    "order": 3,
+    "section": "Main Card",
+    "division": "Women's Bantamweight",
+    "rounds": 3,
+    "odds": null,
+    "a": {
+     "id": "aline-pereira",
+     "name": "Aline Pereira",
+     "record": "3-2-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    },
+    "b": {
+     "id": "smilla-sundell",
+     "name": "Smilla Sundell",
+     "record": "2-0-0",
+     "height": "—",
+     "reach": "—",
+     "stance": null,
+     "age": null
+    }
+   }
+  ]
+ }
+]

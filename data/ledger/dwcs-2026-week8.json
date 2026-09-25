@@ -1,0 +1,116 @@
+{
+ "eventId": "dwcs-2026-week8",
+ "title": "DWCS Season 10 · Week 8",
+ "date": "2026-09-29",
+ "promotion": "DWCS",
+ "forecast": {
+  "engine": "1.0",
+  "frozenAt": "2026-09-25T01:34:08.017Z",
+  "basis": "Engine output frozen before the event. Never edited after results.",
+  "bouts": [
+   {
+    "a": "Loai Abushaar",
+    "b": "George Staines",
+    "pick": "George Staines",
+    "confidence": 64,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 69,
+    "reasons": [
+     "Beat the better opposition: Opponents George Staines beat (last 10) had a 65% win rate going in; Loai Abushaar's had 51%.",
+     "Better recent results: Last 10: George Staines 10-0-0. Last 8: Loai Abushaar 7-1-0.",
+     "Cleaner losses: Loai Abushaar has 1 loss in the last 10, to opponents averaging a 56% win rate; George Staines has 0.",
+     "On a run: George Staines has won 10 straight (Loai Abushaar: 4)."
+    ]
+   },
+   {
+    "a": "Adama Diop",
+    "b": "Zaurbek Sabanov",
+    "pick": "Zaurbek Sabanov",
+    "confidence": 58,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 45,
+    "reasons": [
+     "Cleaner losses: Adama Diop has 1 loss in the last 10; Zaurbek Sabanov has 0.",
+     "Real finishing threat: Zaurbek Sabanov finished 3 of 4 recent wins; Adama Diop has been stopped 1 time in the last 7.",
+     "Size and range: 3″ taller for Zaurbek Sabanov.",
+     "Better recent results: Last 4: Zaurbek Sabanov 4-0-0. Last 7: Adama Diop 6-1-0."
+    ]
+   },
+   {
+    "a": "Ian Escuza",
+    "b": "Luca Borando",
+    "pick": "Ian Escuza",
+    "confidence": 58,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 58,
+    "reasons": [
+     "Real finishing threat: Ian Escuza finished 7 of 7 recent wins; Luca Borando has been stopped 1 time in the last 10.",
+     "Cleaner losses: Luca Borando has 1 loss in the last 10; Ian Escuza has 0.",
+     "Better recent results: Last 7: Ian Escuza 7-0-0. Last 10: Luca Borando 9-1-0."
+    ]
+   },
+   {
+    "a": "Aieza Bertolso",
+    "b": "Camila Reynoso",
+    "pick": "Aieza Bertolso",
+    "confidence": 64,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 61,
+    "reasons": [
+     "Real finishing threat: Aieza Bertolso finished 5 of 7 recent wins; Camila Reynoso has been stopped 0 times in the last 10.",
+     "On a run: Aieza Bertolso has won 7 straight (Camila Reynoso: 3).",
+     "Better recent results: Last 7: Aieza Bertolso 7-0-0. Last 10: Camila Reynoso 9-1-0.",
+     "Cleaner losses: Camila Reynoso has 1 loss in the last 10; Aieza Bertolso has 0.",
+     "Size and range: 2″ taller for Aieza Bertolso."
+    ]
+   },
+   {
+    "a": "Ilias Bulaid",
+    "b": "Erick Visconde",
+    "pick": "Ilias Bulaid",
+    "confidence": 67,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 61,
+    "reasons": [
+     "Size and range: 5″ longer reach, 3″ taller for Ilias Bulaid.",
+     "Real finishing threat: Ilias Bulaid finished 5 of 9 recent wins; Erick Visconde has been stopped 1 time in the last 10.",
+     "Better recent results: Last 10: Ilias Bulaid 9-0-0 (1 NC). Last 10: Erick Visconde 9-1-0.",
+     "Cleaner losses: Erick Visconde has 1 loss in the last 10; Ilias Bulaid has 0.",
+     "On a run: Ilias Bulaid has won 9 straight (Erick Visconde: 4)."
+    ]
+   }
+  ]
+ },
+ "results": null,
+ "review": null
+}

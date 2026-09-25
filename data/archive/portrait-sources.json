@@ -1,0 +1,1186 @@
+{
+  "jean-silva": {
+    "sitePath": "/fighters/jean-silva.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/SILVA_JEAN_L_09-12.png?itok=Mwc0Nn9B",
+    "sourcePage": "https://www.ufc.com/athlete/jean-silva",
+    "checked": "2026-09-10",
+    "alt": "Jean Silva",
+    "sha256": "ea714c350596602a8bee621b448c2e6377ae9829b8f013b8ad1f81abfaafc611"
+  },
+  "jose-miguel-delgado": {
+    "sitePath": "/fighters/jose-miguel-delgado.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2024-08/DELGADO_JOSE_L_08-13.png?itok=N01Dp1FE",
+    "sourcePage": "https://www.ufc.com/athlete/jose-miguel-delgado",
+    "checked": "2026-09-10",
+    "alt": "Jose Miguel Delgado",
+    "sha256": "dbef2f4b72d0a8d0cc8d883b62bc154d195d298a59c15f8420792204291e05cb"
+  },
+  "brandon-moreno": {
+    "sitePath": "/fighters/brandon-moreno.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/MORENO_BRANDON_L_09-12.png?itok=tIqGDEZU",
+    "sourcePage": "https://www.ufc.com/athlete/brandon-moreno",
+    "checked": "2026-09-10",
+    "alt": "Brandon Moreno",
+    "sha256": "16f81218b2684f6fd121211fe92eacc09fa9519740042db1667b8e647da54182"
+  },
+  "joseph-morales": {
+    "sitePath": "/fighters/joseph-morales.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-08/MORALES_JOSEPH_L.png?itok=z7_E8eW4",
+    "sourcePage": "https://www.ufc.com/athlete/joseph-morales",
+    "checked": "2026-09-10",
+    "alt": "Joseph Morales",
+    "sha256": "a554cdf45f165a7acb6219c108a31eb86f0db7b9805877bcf113a977542643b3"
+  },
+  "tommy-mcmillen": {
+    "sitePath": "/fighters/tommy-mcmillen.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/MCMILLEN_TOMMY_L_09-12.png?itok=lFqmApXw",
+    "sourcePage": "https://www.ufc.com/athlete/tommy-mcmillen",
+    "checked": "2026-09-10",
+    "alt": "Tommy McMillen",
+    "sha256": "f82411d47d7d674749a97ac38eb73011504bb6f2c164c7b980dcf6f20d646ad4"
+  },
+  "marwan-rahiki": {
+    "sitePath": "/fighters/marwan-rahiki.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-04/RAHIKI_MARWAN_L_05-02.png?itok=4HkXr7I1",
+    "sourcePage": "https://www.ufc.com/athlete/marwan-rahiki",
+    "checked": "2026-09-10",
+    "alt": "Marwan Rahiki",
+    "sha256": "0242209ac196d643ec5d2e7d36c1ed899855396dbba0e63bfa8a8fa81f4d8b47"
+  },
+  "manon-fiorot": {
+    "sitePath": "/fighters/manon-fiorot.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/FIOROT_MANON_L_09-12.png?itok=lxR1mJIt",
+    "sourcePage": "https://www.ufc.com/athlete/manon-fiorot",
+    "checked": "2026-09-10",
+    "alt": "Manon Fiorot",
+    "sha256": "3614ec64d246ad0bdc78251c05039f385a9db25ab5978eeb93f343d7b25f0e0e"
+  },
+  "alexa-grasso": {
+    "sitePath": "/fighters/alexa-grasso.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-03/GRASSO_ALEXA_L_03-28.png?itok=O9csNdaV",
+    "sourcePage": "https://www.ufc.com/athlete/alexa-grasso",
+    "checked": "2026-09-10",
+    "alt": "Alexa Grasso",
+    "sha256": "8a1d138fcf2b15e379e6ffa0f4622047bd82f19bda33a79b2bf1c3d455f915fb"
+  },
+  "waldo-cortes-acosta": {
+    "sitePath": "/fighters/waldo-cortes-acosta.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/CORTES_ACOSTA_WALDO_L_09-12.png?itok=PSa--Nt9",
+    "sourcePage": "https://www.ufc.com/athlete/waldo-cortes-acosta",
+    "checked": "2026-09-10",
+    "alt": "Waldo Cortes Acosta",
+    "sha256": "eee533718e1225079a65b148e9f8716645578c4fc77684b81dd122e1cdb5419a"
+  },
+  "curtis-blaydes": {
+    "sitePath": "/fighters/curtis-blaydes.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-04/BLAYDES_CURTIS_L_04-11.png?itok=Qv7hfvDn",
+    "sourcePage": "https://www.ufc.com/athlete/curtis-blaydes",
+    "checked": "2026-09-10",
+    "alt": "Curtis Blaydes",
+    "sha256": "d0d9b48c64dee698c4a9940d85cd07cd138f66beff34b3479adc1df84ea1d3de"
+  },
+  "david-martinez": {
+    "sitePath": "/fighters/david-martinez.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/MARTINEZ_DAVID_L_09-12.png?itok=12Ecb6KY",
+    "sourcePage": "https://www.ufc.com/athlete/david-martinez",
+    "checked": "2026-09-10",
+    "alt": "David Martinez",
+    "sha256": "9369d94303d4660e49af5a6bee76d6e8f6b9fa3d788a4010c7b03778b09e3e2f"
+  },
+  "dan-ige": {
+    "sitePath": "/fighters/dan-ige.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-07/IGE_DAN_L_07-19.png?itok=eje2mypv",
+    "sourcePage": "https://www.ufc.com/athlete/dan-ige",
+    "checked": "2026-09-10",
+    "alt": "Dan Ige",
+    "sha256": "b394be0c067e2ead247c7e9d62d65801564869cc1a989b1e2b2a3516544084e2"
+  },
+  "tim-elliott": {
+    "sitePath": "/fighters/tim-elliott.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/ELLIOTT_TIM_L_09-12.png?itok=ig5zg9at",
+    "sourcePage": "https://www.ufc.com/athlete/tim-elliott",
+    "checked": "2026-09-10",
+    "alt": "Tim Elliott",
+    "sha256": "f714a774dccba9e34adc5b3fa8a64938e06924c47165dc975ac9e36c065d78d4"
+  },
+  "edgar-chairez": {
+    "sitePath": "/fighters/edgar-chairez.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-02/CHAIREZ_EDGAR_L_02-28.png?itok=WL7kQO7z",
+    "sourcePage": "https://www.ufc.com/athlete/edgar-chairez",
+    "checked": "2026-09-10",
+    "alt": "Edgar Chairez",
+    "sha256": "660710440f038aec20960e62ebd44d7ce7a36d147ca3907f8cdf36d6959c9c99"
+  },
+  "ignacio-bahamondes": {
+    "sitePath": "/fighters/ignacio-bahamondes.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/BAHAMONDES_IGNACIO_L_09-12.png?itok=tEVrIOI6",
+    "sourcePage": "https://www.ufc.com/athlete/ignacio-bahamondes",
+    "checked": "2026-09-10",
+    "alt": "Ignacio Bahamondes",
+    "sha256": "07e79d8c1f63d8b3e498005d1b53c639186266bcdddffb26bb8f6bc0c17986b0"
+  },
+  "muslim-salikhov": {
+    "sitePath": "/fighters/muslim-salikhov.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-11/SALIKHOV_MUSLIM_L_11-08.png?itok=r0fWreVE",
+    "sourcePage": "https://www.ufc.com/athlete/muslim-salikhov",
+    "checked": "2026-09-10",
+    "alt": "Muslim Salikhov",
+    "sha256": "fa6faebdb3d27cd06f35be3fb39a0d0b269cbabe414a4e511461134a67f865f7"
+  },
+  "yousri-belgaroui": {
+    "sitePath": "/fighters/yousri-belgaroui.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-10/BELGAROUI_YOUSRI_R_10-18.png?itok=1K9Q4J-G",
+    "sourcePage": "https://www.ufc.com/athlete/yousri-belgaroui",
+    "checked": "2026-09-10",
+    "alt": "Yousri Belgaroui",
+    "sha256": "94bc96d4e6a822ea90e74604f196222857da849c3e56ccd8d6e7232535f62890"
+  },
+  "djorden-santos": {
+    "sitePath": "/fighters/djorden-santos.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2025-03/SANTOS_DJORDEN_L_03-08.png?itok=DpF2CDFt",
+    "sourcePage": "https://www.ufc.com/athlete/djorden-santos",
+    "checked": "2026-09-10",
+    "alt": "Djorden Santos",
+    "sha256": "cc03f30ae0dc375de85fd8938542d4f28ab9a8fb643b8d2393992718351a756a"
+  },
+  "drakkar-klose": {
+    "sitePath": "/fighters/drakkar-klose.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/KLOSE_DRAKKAR_L_09-12.png?itok=YolGlk7o",
+    "sourcePage": "https://www.ufc.com/athlete/drakkar-klose",
+    "checked": "2026-09-10",
+    "alt": "Drakkar Klose",
+    "sha256": "c31b18ba5ac6a17e4fd173b30df072fc630a7950929413dcc79d402fc33fffef"
+  },
+  "tommy-gantt": {
+    "sitePath": "/fighters/tommy-gantt.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-05/GANTT_THOMAS_L_05-16.png?itok=mXejZpYg",
+    "sourcePage": "https://www.ufc.com/athlete/thomas-gantt",
+    "checked": "2026-09-10",
+    "alt": "Tommy Gantt",
+    "sha256": "fcebbc528761884d89491331d86d694d57c07650caca46d6bc887f3156e9935c"
+  },
+  "rafa-garcia": {
+    "sitePath": "/fighters/rafa-garcia.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/GARCIA_RAFA_L_09-12.png?itok=8ov3f0WM",
+    "sourcePage": "https://www.ufc.com/athlete/rafa-garcia",
+    "checked": "2026-09-10",
+    "alt": "Rafa Garcia",
+    "sha256": "3d82be871c698c4165edc6ea818bf9d9fa63eaf8d464567986fbcba08b1e03d2"
+  },
+  "rongzhu": {
+    "sitePath": "/fighters/rongzhu.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-05/RONGZHU_L_05-28.png?itok=cqDnLlXs",
+    "sourcePage": "https://www.ufc.com/athlete/rong-zhu",
+    "checked": "2026-09-10",
+    "alt": "Rongzhu",
+    "sha256": "f3f4fac080d66b45e1fac797979e0bff8f598672b961534c3100efd318db80c7"
+  },
+  "sean-king-iii": {
+    "sitePath": "/fighters/sean-king-iii.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/KING_III_SEAN_L_09-12.png?itok=C_M3qlt7",
+    "sourcePage": "https://www.ufc.com/athlete/sean-king-iii",
+    "checked": "2026-09-10",
+    "alt": "Sean King III",
+    "sha256": "577d1778fd7741859217c6bc44244cb1e2e92e884bb89db6ef300e9c7a606a9e"
+  },
+  "jessie-rosas": {
+    "sitePath": "/fighters/jessie-rosas.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-08/ROSAS_JESSIE_R_08-08.png?itok=9lFjJtOe",
+    "sourcePage": "https://www.ufc.com/athlete/jessie-rosas",
+    "checked": "2026-09-10",
+    "alt": "Jessie Rosas",
+    "sha256": "d5acfbcd81600c836927d996487e869b1e52490fd00ff9ffc6ccb8a7f3213987"
+  },
+  "jj-aldrich": {
+    "sitePath": "/fighters/jj-aldrich.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-09/ALDRICH_JJ_L_09-12.png?itok=zI3oNEu9",
+    "sourcePage": "https://www.ufc.com/athlete/jj-aldrich",
+    "checked": "2026-09-10",
+    "alt": "JJ Aldrich",
+    "sha256": "f39a118d0039c6e898136e689c82606bdfbacb47e7c5eac5c614a4924a6cf615"
+  },
+  "regina-tarin": {
+    "sitePath": "/fighters/regina-tarin.png",
+    "imageUrl": "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-02/TARIN_REGINA_L_02-28.png?itok=LpWAerkt",
+    "sourcePage": "https://www.ufc.com/athlete/regina-malpica-rivera",
+    "checked": "2026-09-10",
+    "alt": "Regina Tarin",
+    "sha256": "42c85a85413d37e84579d246085952ce78c1007c5acbe123c66c73e1919bff7a"
+  },
+  "jonas-salsicha": {
+    "sitePath": "/fighters/jonas-salsicha.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_MfDLaMSMRn.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "ジョナス・サルシチャ / Jonas Salsicha",
+    "sha256": "985bb902058662d3aa37e23bb1865d3ee17bde81f0768a290ddd9ccbbb1d2ffd"
+  },
+  "zhora-akopyan": {
+    "sitePath": "/fighters/zhora-akopyan.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_rD4MCdTgrW.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "ゾーラ・アカピャン / Zhora Akopyan",
+    "sha256": "37d811037d7159169aa245ea548fadf1ce5b054f5975bf8be1c3e09453dfda64"
+  },
+  "darryl-verdonk": {
+    "sitePath": "/fighters/darryl-verdonk.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_JA6xP3r9Rt.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "ダリル・フェルドンク / Darryl Verdonk",
+    "sha256": "361bc2b64feefc57637a7aa55744d4c2b329ceabf16494be9ad4d55bf39ed919"
+  },
+  "lorenzo-di-vara": {
+    "sitePath": "/fighters/lorenzo-di-vara.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_vbK9rmUQvm.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "ロレンツォ・ディ・ヴァラ / Lorenzo Di Vara",
+    "sha256": "1d2d56cd4186926c49d8d948d7b9ca7fdd79a1b367af1d7fb3b2392db35a04e8"
+  },
+  "kacper-muszynski": {
+    "sitePath": "/fighters/kacper-muszynski.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_JL4u9JSPX2.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "カスペル・ムシンスキ / Kacper Muszynski",
+    "sha256": "2927ed3eb311f62bcc22eef949bfbc57b58a07ab7a5f080b672ead455fb73e1f"
+  },
+  "serhiy-adamchuk": {
+    "sitePath": "/fighters/serhiy-adamchuk.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_UtCBQaynUg.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "セルゲイ・アダムチャック / Serhiy Adamchuk",
+    "sha256": "ec4d44a7876fb1324986838618a6cced37f2d3c6f709bdc84690a0f568e1c667"
+  },
+  "stoyan-koprivlenski": {
+    "sitePath": "/fighters/stoyan-koprivlenski.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_2rncw3NkPc.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "ストーヤン・コプリヴレンスキー / Stoyan Koprivlenski",
+    "sha256": "626ead0075ddc192f23bdf3307cb6a0be77e3ab04f201ed201730b56dbbcc382"
+  },
+  "vladimir-tulaev": {
+    "sitePath": "/fighters/vladimir-tulaev.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_dXSprBGGXk.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "ウラジーミル・トゥラエフ / Vladimir Tulaev",
+    "sha256": "657a585d229923d3f50d3dff179eb172cf3361fdb4fea6d14fdf5441c4a6866c"
+  },
+  "vitor-toffanelli": {
+    "sitePath": "/fighters/vitor-toffanelli.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_qk4tP2xmC3.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "ヴィトー・トファネリ / Vitor Toffanelli",
+    "sha256": "45881db25a9e19b40175d5e0ce14f89badf971871c7b8b0cf00f1ca0a7088773"
+  },
+  "jayjay-morris": {
+    "sitePath": "/fighters/jayjay-morris.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_nGyRcVh5de.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "ジェイジェイ・モーリス / Jayjay Morris",
+    "sha256": "99fbe5016a03fdceb638c985b3377268b63b97f6656bf71b2fca03904d1b4923"
+  },
+  "lorn-panha": {
+    "sitePath": "/fighters/lorn-panha.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_zvMG9mN4Cc.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "ローン・パンハ / Lorn Panha",
+    "sha256": "8cf60b252cf3e1f5a851b7f38b329a27e2dab75af9725525816adcc01d594326"
+  },
+  "matsumoto-kazuki": {
+    "sitePath": "/fighters/matsumoto-kazuki.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_hgvyv9Ayr2.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "松本 和樹 / Matsumoto Kazuki",
+    "sha256": "5c97586a3c0abf5fd0553c3cfb3668439afb8b5f6ac25d055873c87bb9ef77f6"
+  },
+  "zack-pankhurst": {
+    "sitePath": "/fighters/zack-pankhurst.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_x4E96qBM2h.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "ザック・パンクハースト / Zack Pankhurst",
+    "sha256": "f3cc19d937cb3e0dc1b74572c4a3c4536110c8af1099999a9f6979191575d0c8"
+  },
+  "winner-pk-saenchai": {
+    "sitePath": "/fighters/winner-pk-saenchai.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_hLHZHGV95z.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "ウィナー・PK・センチャイ / Winner PK Saenchai",
+    "sha256": "8397f3c3b6f3d5429490957d882209009abe4627449dcd0856399796a4164a4b"
+  },
+  "alfousseynou-kamara": {
+    "sitePath": "/fighters/alfousseynou-kamara.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_n6QdLe7pvC.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "アルフォセヌー・カマラ / Alfousseynou Kamara",
+    "sha256": "0707ba1856443fa310fb00507c6aeffe8d07799c2a3338c763ad0d25059c0297"
+  },
+  "jones-coliseu": {
+    "sitePath": "/fighters/jones-coliseu.webp",
+    "imageUrl": "https://img.k-1.co.jp/image?image_path=lib%2Fuploads%2Ffighter%2Fex_img2_AYADFGD96y.jpg&width=284&height=284",
+    "sourcePage": "https://www.k-1.co.jp/schedule/16669",
+    "checked": "2026-09-10",
+    "alt": "ジョニス・コリセウ / Jones Coliseu",
+    "sha256": "068779ee7b9c58da272b400000230957cc16376976c3876e2be57dafe514c0c0"
+  },
+  "evgeniy-goncharov": {
+    "sitePath": "/fighters/evgeniy-goncharov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1734839277goncharov.jpeg",
+    "sourcePage": "https://www.sherdog.com/fighter/Evgeniy-Goncharov-156033",
+    "checked": "2026-09-10",
+    "alt": "Evgeniy Goncharov",
+    "sha256": "9887c89b95bf22ba3b0c6cf517bc8ad64f52474a6f86be4bbe68f8d18d1b348b"
+  },
+  "jailton-almeida": {
+    "sitePath": "/fighters/jailton-almeida.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20220929082855_Jailton_Almeida_ff.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Jailton-Almeida-114657",
+    "checked": "2026-09-10",
+    "alt": "Jailton Almeida",
+    "sha256": "327911b1493eb4e1a1791357df9016e53bdab149300383c80c19ddc9ea3611d7"
+  },
+  "kirill-kornilov": {
+    "sitePath": "/fighters/kirill-kornilov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1735149957kornilov.jpeg",
+    "sourcePage": "https://www.sherdog.com/fighter/Kirill-Kornilov-338905",
+    "checked": "2026-09-10",
+    "alt": "Kirill Kornilov",
+    "sha256": "a239b6aa2ba1ccd5c617c3670b085aac2192f1c38125b47c528ff472432887cd"
+  },
+  "khadis-ibragimov": {
+    "sitePath": "/fighters/khadis-ibragimov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1776258592khadisibragimov.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Khadis-Ibragimov-265067",
+    "checked": "2026-09-10",
+    "alt": "Khadis Ibragimov",
+    "sha256": "cc8e9edca4e904f3347f9c9bdcd3c5b28c2bab5b5c993eb0107ef5d7175e385e"
+  },
+  "andrey-koshkin": {
+    "sitePath": "/fighters/andrey-koshkin.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1738602467andreikoshkin.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Andrei-Koshkin-48950",
+    "checked": "2026-09-10",
+    "alt": "Andrei Koshkin",
+    "sha256": "ee4036ec82984131dca6b577a7c9ef260fd2a92836154b5cae5522a7365839e1"
+  },
+  "herdeson-batista": {
+    "sitePath": "/fighters/herdeson-batista.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1702256831capoeira.png",
+    "sourcePage": "https://www.sherdog.com/fighter/Herdeson-Batista-108243",
+    "checked": "2026-09-10",
+    "alt": "Herdeson Batista",
+    "sha256": "b311dc788a0b9d48ab62b50d433307d7462e26a6edc1838ee13335e5b09e476c"
+  },
+  "mukhamed-kokov": {
+    "sitePath": "/fighters/mukhamed-kokov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1754008908mukhamedkokov.jpeg",
+    "sourcePage": "https://www.sherdog.com/fighter/Mukhamed-Kokov-139283",
+    "checked": "2026-09-10",
+    "alt": "Mukhamed Kokov",
+    "sha256": "5b6569b3da1dc3e7243473e41a8a727327dc6904e583bd19f59a86b014ca5dce"
+  },
+  "alexey-polpudnikov": {
+    "sitePath": "/fighters/alexey-polpudnikov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1787777179Alexey_Polpudnikov.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Alexey-Polpudnikov-74306",
+    "checked": "2026-09-10",
+    "alt": "Alexey Polpudnikov",
+    "sha256": "53c9839526891481e072af517131bed4b084ddd330945fc1d8fd1eeb95727695"
+  },
+  "vadim-ogar": {
+    "sitePath": "/fighters/vadim-ogar.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1755978903IMG_3443.jpeg",
+    "sourcePage": "https://www.sherdog.com/fighter/Vadim-Ogar-129479",
+    "checked": "2026-09-10",
+    "alt": "Vadim Ogar",
+    "sha256": "5a800e7464cb47abb8317d761e310f1d480636caec9d694f390cc302e0893b97"
+  },
+  "brent-primus": {
+    "sitePath": "/fighters/brent-primus.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20221014020756_Brent_Primus.JPEG",
+    "sourcePage": "https://www.sherdog.com/fighter/Brent-Primus-55884",
+    "checked": "2026-09-10",
+    "alt": "Brent Primus",
+    "sha256": "fd52aa57aed99acffde767d1c67bac6a5a868f50c5178c7387beed9fe0601cee"
+  },
+  "bogdan-plutakhin": {
+    "sitePath": "/fighters/bogdan-plutakhin.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1703249720cd94596e-0e9a-462e-916e-b21f1e0356e8.jpeg",
+    "sourcePage": "https://www.sherdog.com/fighter/Bogdan-Plutakhin-291323",
+    "checked": "2026-09-10",
+    "alt": "Bogdan Plutakhin",
+    "sha256": "84b82ea9bbf794f4fa7bc6da333f5216543839038143ba45a5dc8efd18df1309"
+  },
+  "nemat-abdrashitov": {
+    "sitePath": "/fighters/nemat-abdrashitov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1706474368Nemat.png",
+    "sourcePage": "https://www.sherdog.com/fighter/Nemat-Abdrashitov-200277",
+    "checked": "2026-09-10",
+    "alt": "Nemat Abdrashitov",
+    "sha256": "443f3278985a1b40963cf56e34dc577a70dccf6f16212db6630d303b010d190c"
+  },
+  "khasan-dadalov": {
+    "sitePath": "/fighters/khasan-dadalov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1751760652khasandadalov.jpeg",
+    "sourcePage": "https://www.sherdog.com/fighter/Khasan-Dadalov-285777",
+    "checked": "2026-09-10",
+    "alt": "Khasan Dadalov",
+    "sha256": "bdb570b942105ff510a365b6ff70f74cd6e41154f08c0afb0d120894dc424645"
+  },
+  "bagama-nikabagamaev": {
+    "sitePath": "/fighters/bagama-nikabagamaev.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1722965925nikabagamaev.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Bagama-Nikabagamaev-51170",
+    "checked": "2026-09-10",
+    "alt": "Bagama Nikabagamaev",
+    "sha256": "a24e01aca373f011365c0d229fbe6bd21918382eb23a849e57e6fd66fc2c27dc"
+  },
+  "goga-shamatava": {
+    "sitePath": "/fighters/goga-shamatava.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1734190640IMG_3217.jpeg",
+    "sourcePage": "https://www.sherdog.com/fighter/Goga-Shamatava-104015",
+    "checked": "2026-09-10",
+    "alt": "Goga Shamatava",
+    "sha256": "9b4ecf358eb2b6cdd70c3dc63e83af1ec1be11803dddbd448e641b5147155ecc"
+  },
+  "dzhaddal-alibekov": {
+    "sitePath": "/fighters/dzhaddal-alibekov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1751760964dzhaddalalibekov.jpeg",
+    "sourcePage": "https://www.sherdog.com/fighter/Dzhaddal-Alibekov-314075",
+    "checked": "2026-09-10",
+    "alt": "Dzhaddal Alibekov",
+    "sha256": "ae2cc6e90b659e82c2681c810e3586d37465ab57e33de4eb391e2001db58d8a4"
+  },
+  "anton-vinnikov": {
+    "sitePath": "/fighters/anton-vinnikov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1525029122dXY1ldrBvhs.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Anton-Vinnikov-192817",
+    "checked": "2026-09-10",
+    "alt": "Anton Vinnikov",
+    "sha256": "ee6de21e0d2d7715d238664fc78ddb3f66e1733e0e4416c2ff76faecddfb51ae"
+  },
+  "arash-sadeghi": {
+    "sitePath": "/fighters/arash-sadeghi.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1711958312qQ0gESPmfWQ.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Arash-Sadeghi-408233",
+    "checked": "2026-09-10",
+    "alt": "Arash Sadeghi",
+    "sha256": "2fd85b20990f015f37d80d077e4fdb3dd30ddba1c8a1cd085c848fa9b83e4bdb"
+  },
+  "evgeniy-egemberdiev": {
+    "sitePath": "/fighters/evgeniy-egemberdiev.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1723133779egemberdiev.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Evgeniy-Egemberdiev-141633",
+    "checked": "2026-09-10",
+    "alt": "Evgeniy Egemberdiev",
+    "sha256": "5fc5e067fc003c3c2863414d4f665e8bca753bd9f64bdb7347444924b8c6c2d9"
+  },
+  "arbi-agujev": {
+    "sitePath": "/fighters/arbi-agujev.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1723305446agujev.png",
+    "sourcePage": "https://www.sherdog.com/fighter/Arbi-Agujev-45729",
+    "checked": "2026-09-10",
+    "alt": "Arbi Agujev",
+    "sha256": "f3bb9adf69dc82cc5f4e88b616be41b0a2b0cab99a92f18640f425d7d5c895a8"
+  },
+  "vazha-tsiptauri": {
+    "sitePath": "/fighters/vazha-tsiptauri.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1763219848IMG_3545.jpeg",
+    "sourcePage": "https://www.sherdog.com/fighter/Vazha-Tsiptauri-221639",
+    "checked": "2026-09-10",
+    "alt": "Vazha Tsiptauri",
+    "sha256": "f81117956042438dbcb8ed3a05d134ab96f405c086ed7acb8211d3e04fd9a7fc"
+  },
+  "astemir-nagoev": {
+    "sitePath": "/fighters/astemir-nagoev.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1702850011Snapinsta.app_336833739_1423819728357501_7764662890137222399_n_1080.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Astemir-Nagoev-250691",
+    "checked": "2026-09-10",
+    "alt": "Astemir Nagoev",
+    "sha256": "bf9be1a5ab9619dbfa5687678c506a84c3da6c5cccc139dc4536bb05f396cc41"
+  },
+  "akhmed-musakaev": {
+    "sitePath": "/fighters/akhmed-musakaev.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/170034556464c657e1d00ca3ca07b11c29d01cbadf_mTEmF_400x400.png",
+    "sourcePage": "https://www.sherdog.com/fighter/Akhmed-Musakaev-218453",
+    "checked": "2026-09-10",
+    "alt": "Akhmed Musakaev",
+    "sha256": "0293c7aedd0e7e436617ac6685e83c8fd638232f0dd2371a616c4c871b0d0b7e"
+  },
+  "chermen-gobaev": {
+    "sitePath": "/fighters/chermen-gobaev.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20221229122020_Chermen_Gobaev.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Chermen-Gobaev-379994",
+    "checked": "2026-09-10",
+    "alt": "Chermen Gobaev",
+    "sha256": "85bd6e397a70cbd7d24d39df6462ea85febb99b3cffb98b8aef8ff06e7ecaa34"
+  },
+  "shamil-ramazanov": {
+    "sitePath": "/fighters/shamil-ramazanov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1788964500Shamil_Ramazanov.png",
+    "sourcePage": "https://www.sherdog.com/fighter/Shamil-Ramazanov-236207",
+    "checked": "2026-09-10",
+    "alt": "Shamil Ramazanov",
+    "sha256": "945772808c2753112aa71bbb21f1a019013b956329cc536fc1f131e5169c7033"
+  },
+  "denis-maher": {
+    "sitePath": "/fighters/denis-maher.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1738602499denismaher.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Denis-Maher-149969",
+    "checked": "2026-09-10",
+    "alt": "Denis Maher",
+    "sha256": "e34e2c366e60b098a3358150432c5e3c22d53441adcb043842352b2abcd7a19b"
+  },
+  "ibragim-kantaev": {
+    "sitePath": "/fighters/ibragim-kantaev.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20161109114238_kantaev.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Ibragim-Kantaev-173253",
+    "checked": "2026-09-10",
+    "alt": "Ibragim Kantaev",
+    "sha256": "20cefb8bbdb16759f2e90e0a1a1e7cc3cd614fe6c02510ae35469eb08e62fed9"
+  },
+  "hacran-dias": {
+    "sitePath": "/fighters/hacran-dias.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20161001044851_1DX_2774.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Hacran-Dias-19789",
+    "checked": "2026-09-10",
+    "alt": "Hacran Dias",
+    "sha256": "70edc3a5d7f3bc054c418e5ebfdba06839bce937204cb1c81aa294c6e8007f13"
+  },
+  "murad-kalamov": {
+    "sitePath": "/fighters/murad-kalamov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1749130424kalamov.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Murad-Kalamov-165727",
+    "checked": "2026-09-10",
+    "alt": "Murad Kalamov",
+    "sha256": "fff6436395219e7a2298ec28b9b191e483bcbcf8a79ee9be50fcbfcf99d329fc"
+  },
+  "ruslan-abiltarov": {
+    "sitePath": "/fighters/ruslan-abiltarov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1713890980albitarov.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Ruslan-Abiltarov-110931",
+    "checked": "2026-09-10",
+    "alt": "Ruslan Abiltarov",
+    "sha256": "2bd27d61cdb2a0c42595307c232ae28b1416448a4875c5574a29590851d7c573"
+  },
+  "sharapudin-magomedov": {
+    "sitePath": "/fighters/sharapudin-magomedov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1767710440magomedovsharapudin.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Sharapudin-Magomedov-313819",
+    "checked": "2026-09-10",
+    "alt": "Sharapudin Magomedov",
+    "sha256": "d782a08fddceb9b7cdd5a5bb883a6286b98b2af55c570ae5ef73b3244ddbb8d5"
+  },
+  "albert-misikov": {
+    "sitePath": "/fighters/albert-misikov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1679590967314911450_173945971897247_1121463533979749725_n.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Albert-Misikov-384378",
+    "checked": "2026-09-10",
+    "alt": "Albert Misikov",
+    "sha256": "27c5738118924611a389b005fd1d86a41b88a59927616666797b3154a3a09485"
+  },
+  "yuya-wakamatsu": {
+    "sitePath": "/fighters/yuya-wakamatsu.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20250320014113_Yuya_Wakamatsuhero1200x1165600x583.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Yuya-Wakamatsu-199349",
+    "checked": "2026-09-10",
+    "alt": "Yuya Wakamatsu",
+    "sha256": "b52886ccf821c0a4bde57a98f54312939d6c9bb18a59b4dd49f394080945b668"
+  },
+  "willie-van-rooyen": {
+    "sitePath": "/fighters/willie-van-rooyen.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1762521025Willie_Van_Rooyen-hero-1200x1165-1-600x583.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Willie-van-Rooyen-405118",
+    "checked": "2026-09-10",
+    "alt": "Willie van Rooyen",
+    "sha256": "9786d39903da5472807bfab85c607e69356dd8e9f475614e58f77368fb80a93a"
+  },
+  "hiroba-minowa": {
+    "sitePath": "/fighters/hiroba-minowa.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1752713433Hiroba_Minowa-Hero-1200x1165-1-600x583.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Koha-Minowa-211597",
+    "checked": "2026-09-10",
+    "alt": "Koha Minowa",
+    "sha256": "f2eb20294212aa152ded7ff920bb265dfd89879c8a5b0c061a2ec0a25ae38dfc"
+  },
+  "yuta-miyazawa": {
+    "sitePath": "/fighters/yuta-miyazawa.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20240116034636_Yuta_Miyazawa.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Yuta-Miyazawa-259707",
+    "checked": "2026-09-10",
+    "alt": "Yuta Miyazawa",
+    "sha256": "808d980af09b86c5b6e94df79b02a4168f2688d7f0ed83242aaeef12ad559c4d"
+  },
+  "seiichiro-ito": {
+    "sitePath": "/fighters/seiichiro-ito.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20231225011347_Seiichiro_Ito.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Seiichiro-Ito-105953",
+    "checked": "2026-09-10",
+    "alt": "Seiichiro Ito",
+    "sha256": "1148caf764d36beb6beabd21756ff1e23d798d88d2eb12b7ba5136d1e4e640c0"
+  },
+  "kazusa-kurobe": {
+    "sitePath": "/fighters/kazusa-kurobe.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20250722062442_Kazusa_Kurobe.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Kazusa-Kurobe-434686",
+    "checked": "2026-09-10",
+    "alt": "Kazusa Kurobe",
+    "sha256": "c59822b494d402531064ba6eeca6576aa01fd2defd899cd59b3d55245e2c382e"
+  },
+  "jena-bishop": {
+    "sitePath": "/fighters/jena-bishop.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20220708023318_Jena_Bishop.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Jena-Bishop-392402",
+    "checked": "2026-09-10",
+    "alt": "Jena Bishop",
+    "sha256": "d697c6058851cc17a0c0ce069939aa389b2ef156f8d146f150a7ff453f1630a6"
+  },
+  "christian-eckerlin": {
+    "sitePath": "/fighters/christian-eckerlin.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1509048681Christian_Eckerlin.jpg",
+    "sourcePage": "https://www.sherdog.com/fighter/Christian-Eckerlin-51769",
+    "checked": "2026-09-10",
+    "alt": "Christian Eckerlin",
+    "sha256": "644be4b4e03b11047c23b3587b395ccfcbf3f8e14b293b238a57332137a83c90"
+  },
+  "david-kozma": {
+    "sitePath": "/fighters/david-kozma.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1559425358kozma.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/David-Kozma-74181",
+    "checked": "2026-09-10",
+    "alt": "David Kozma",
+    "sha256": "2f59584547f2dd3b95678935bb5e923e9678245eceb1b64b22b1f2aaba6ba37c"
+  },
+  "razhabali-shaydullaev": {
+    "sitePath": "/fighters/razhabali-shaydullaev.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20260910060152_Rajabali_Shaidullaev.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Rajabali-Shaidullaev-365469",
+    "checked": "2026-09-10",
+    "alt": "Rajabali Shaidullaev",
+    "sha256": "75ea565245f9b926deb9c182a5157a8073efab7caacbedc8411ff55882841cb0"
+  },
+  "a-j-mckee": {
+    "sitePath": "/fighters/a-j-mckee.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20160827024526_1DX_2243.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/AJ-McKee-194637",
+    "checked": "2026-09-10",
+    "alt": "A.J. McKee",
+    "sha256": "5847ffbc8ae9ab9060eff11e8dfe6a6c542703615e6779cde44d1cf54676195a"
+  },
+  "shinya-aoki": {
+    "sitePath": "/fighters/shinya-aoki.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20220401023824_Shinya_Aoki_ff.PNG",
+    "sourcePage": "https://www.sherdog.com/fighter/Shinya-Aoki-10774",
+    "checked": "2026-09-10",
+    "alt": "Shinya Aoki",
+    "sha256": "4641edd591dbb951ff2b9997fe37312e8f59051e075a28704be90658f9d90a44"
+  },
+  "roberto-satoshi-souza": {
+    "sitePath": "/fighters/roberto-satoshi-souza.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20240930122947_Roberto_Satoshi_de_Souza.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Roberto-Satoshi-de-Souza-148081",
+    "checked": "2026-09-10",
+    "alt": "Roberto Satoshi de Souza",
+    "sha256": "5a0086b4ac81a49988cd9a6c68f5a211485b930606bea4ad89ee9f38d44356c9"
+  },
+  "shunta-nomura": {
+    "sitePath": "/fighters/shunta-nomura.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20250728012627_Shunta_Nomura.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Shunta-Nomura-393461",
+    "checked": "2026-09-10",
+    "alt": "Shunta Nomura",
+    "sha256": "b9f96151f77b9c414c6dbe8367362e1b90eec58e75c97b4c82bed3c513189b22"
+  },
+  "yutaka-saito": {
+    "sitePath": "/fighters/yutaka-saito.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20260910013810_Yutaka_Saito.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Yutaka-Saito-87378",
+    "checked": "2026-09-10",
+    "alt": "Yutaka Saito",
+    "sha256": "f71d3564cdf2e02cc2c6aaf5359ea9748e9fff1bd4b8cbfbf62b367b6b4d00f5"
+  },
+  "ya-man": {
+    "sitePath": "/fighters/ya-man.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20240728095415_Ren_Sugiyama.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Ren-Sugiyama-397380",
+    "checked": "2026-09-10",
+    "alt": "Ren Sugiyama",
+    "sha256": "69e57e5e4afcd41b13426869f9f80eae21e880e65dc78a4963bc8d21868a5c12"
+  },
+  "vugar-karamov": {
+    "sitePath": "/fighters/vugar-karamov.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20260830095443_Vugar_Karamov.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Vugar-Karamov-115197",
+    "checked": "2026-09-10",
+    "alt": "Vugar Karamov",
+    "sha256": "1210d43605856a9ca38c25d05a23049b758bc59412c2004ed8983b3977cf429a"
+  },
+  "ryo-takagi": {
+    "sitePath": "/fighters/ryo-takagi.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20240430010331_Ryo_Takagi.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Ryo-Takagi-390300",
+    "checked": "2026-09-10",
+    "alt": "Ryo Takagi",
+    "sha256": "ee01a778f092516c3b140d5bf0c763da413fa0082ebd5ce01922700cb2b1a394"
+  },
+  "liz-carmouche": {
+    "sitePath": "/fighters/liz-carmouche.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20221208034809_Liz_Carmouche.JPEG",
+    "sourcePage": "https://www.sherdog.com/fighter/Liz-Carmouche-67007",
+    "checked": "2026-09-10",
+    "alt": "Liz Carmouche",
+    "sha256": "c1f2789ccb3e5dd5eeaa8a04a8b4aaf86482ab14b85d55d7c329b41e24a15769"
+  },
+  "mikuru-asakura": {
+    "sitePath": "/fighters/mikuru-asakura.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20250505063856_Mikuru_Asakura.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Mikuru-Asakura-113195",
+    "checked": "2026-09-10",
+    "alt": "Mikuru Asakura",
+    "sha256": "9ea3b84db4a51794b0c6c59a2ccdf2482b138532d5f8d1e23adc2b8ff5640216"
+  },
+  "karshyga-dautbek": {
+    "sitePath": "/fighters/karshyga-dautbek.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20240930021753_Karshyga_Dautbek.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Karshyga-Dautbek-199149",
+    "checked": "2026-09-10",
+    "alt": "Karshyga Dautbek",
+    "sha256": "957d257d8416c3d83df6a1241cc72a3c6e6c322bdd79da6cf39620f48ecdef47"
+  },
+  "ren-hiramoto": {
+    "sitePath": "/fighters/ren-hiramoto.jpg",
+    "imageUrl": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20240728101223_Ren_Hiramoto.JPG",
+    "sourcePage": "https://www.sherdog.com/fighter/Ren-Hiramoto-378737",
+    "checked": "2026-09-10",
+    "alt": "Ren Hiramoto",
+    "sha256": "3ed56cda70de3aa35f0561d8333d4b4cacfe71f2e70f44da088de1cda8da3bd5"
+  },
+  "yodlekpet-or-atchariya": {
+    "status": "downloaded",
+    "sitePath": "/fighters/yodlekpet-or-atchariya.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2024/06/Yodlekpet-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/yodlekpet-or-atchariya/",
+    "checked": "2026-09-11",
+    "alt": "Yodlekpet Or Atchariya",
+    "sourceAlt": "Yodlekpet Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 118388,
+    "sha256": "11687c744b28689c8f3adc5deaed030e26f49b0df5f4652525985f6146c05901",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "pompet-pongsuphan-pk": {
+    "status": "downloaded",
+    "sitePath": "/fighters/pompet-pongsuphan-pk.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2024/11/Pompet-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/pompet/",
+    "checked": "2026-09-11",
+    "alt": "Pompet Pongsuphan PK",
+    "sourceAlt": "Pompet Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 114191,
+    "sha256": "f4742e71e5a8629e0ea042e4714c5804978b912cc33db7bcb9113348a93b8bdb",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "ferrari-fairtex": {
+    "status": "downloaded",
+    "sitePath": "/fighters/ferrari-fairtex.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2022/09/Ferrari-Fairtex-Avatar-500x345-2.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/ferrari-fairtex/",
+    "checked": "2026-09-11",
+    "alt": "Ferrari Fairtex",
+    "sourceAlt": "Ferrari Fairtex Avatar 500x345 2",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 114732,
+    "sha256": "9c9c91ce4d6d0e7e12b4c78e7eb380a473eee306e2541cd54b86d91013d6490d",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "julio-lobo": {
+    "status": "downloaded",
+    "sitePath": "/fighters/julio-lobo.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2023/10/Julio_Lobo-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/julio-lobo/",
+    "checked": "2026-09-11",
+    "alt": "Julio Lobo",
+    "sourceAlt": "Julio_Lobo Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 101764,
+    "sha256": "8fa9ce14a9b1f80680ba2ba1aca517130992b7717922ea294fd6339de81390a3",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "xavier-gonzalez": {
+    "status": "downloaded",
+    "sitePath": "/fighters/xavier-gonzalez.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2024/08/Xavier_Gonzalez-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/xavier-gonzalez/",
+    "checked": "2026-09-11",
+    "alt": "Xavier Gonzalez",
+    "sourceAlt": "Xavier_Gonzalez Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 115970,
+    "sha256": "5470f202d6dd45bc92aa84625de43ca5eef7fce47377b17b60d80864aad3a94a",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "thway-lin-htet": {
+    "status": "downloaded",
+    "sitePath": "/fighters/thway-lin-htet.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2024/08/Thway_Lin_Htet-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/thway-lin-htet/",
+    "checked": "2026-09-11",
+    "alt": "Thway Lin Htet",
+    "sourceAlt": "Thway_Lin_Htet Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 123632,
+    "sha256": "92c265853fa834499b3ebc02038c18b6e7bdb1feb40f55a70f0347c68bd31b84",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "dabdam-por-tor-tor-thongtawee": {
+    "status": "downloaded",
+    "sitePath": "/fighters/dabdam-por-tor-tor-thongtawee.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2023/06/Dabdam_Por_Tor_Tor_Thongtawee-avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/dabdam-por-tor-tor-thongtawee/",
+    "checked": "2026-09-11",
+    "alt": "Dabdam Por Tor Tor Thongtawee",
+    "sourceAlt": "Dabdam_Por_Tor_Tor_Thongtawee avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 116785,
+    "sha256": "e31a41edf92de11d8ff5e5f745eab0c6081b857d0ec818ca387717e68c1c97ec",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "petsangwan-sor-samarngarment": {
+    "status": "downloaded",
+    "sitePath": "/fighters/petsangwan-sor-samarngarment.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2023/08/Petsangwan_Sor_Samarngarment-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/petsangwan-sor-samarngarment/",
+    "checked": "2026-09-11",
+    "alt": "Petsangwan Sor Samarngarment",
+    "sourceAlt": "Petsangwan_Sor_Samarngarment Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 104965,
+    "sha256": "2550b43a88594b948489d6e300f27ad68b1380d6c30aab9c947db690241d2d88",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "yonis-anane": {
+    "status": "downloaded",
+    "sitePath": "/fighters/yonis-anane.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2025/06/Yonis-Anane-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/yonis-anane/",
+    "checked": "2026-09-11",
+    "alt": "Yonis Anane",
+    "sourceAlt": "Yonis Anane Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 107720,
+    "sha256": "a3e821d443ad45a7d5359d7c4542432d4f8f52bc08aa0f7794691a4dc34bdf7c",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "ricardo-sanchez": {
+    "status": "downloaded",
+    "sitePath": "/fighters/ricardo-sanchez.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2026/04/Ricardo_Sanchez-avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/ricardo-sanchez/",
+    "checked": "2026-09-11",
+    "alt": "Ricardo Sanchez",
+    "sourceAlt": "Ricardo_Sanchez avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 111921,
+    "sha256": "d5a54fdc7eed1dcf31cd07a40648fb72a11218f440bdcd950595ebd07fe33177",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "ganchai-jitmuangnon": {
+    "status": "downloaded",
+    "sitePath": "/fighters/ganchai-jitmuangnon.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2023/12/Ganchai-Jitmuangnon-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/ganchai-jitmuangnon/",
+    "checked": "2026-09-11",
+    "alt": "Ganchai Jitmuangnon",
+    "sourceAlt": "Ganchai Jitmuangnon Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 110841,
+    "sha256": "fe4c3b9f408135179690edd19934bfbddeef84028c39fb51161161f822448116",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "tantawy-ahmed": {
+    "status": "downloaded",
+    "sitePath": "/fighters/tantawy-ahmed.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2026/08/Tantawy_Ahmed-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/tantawy-ahmed-hafez/",
+    "checked": "2026-09-11",
+    "alt": "Tantawy Ahmed",
+    "sourceAlt": "Tantawy_Ahmed Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 122629,
+    "sha256": "dbc24ae8ec850f49c1d6d73e3b77f558301a1a825c7dc293541ddf4bfd8692ca",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "maisangngern-sor-yingcharoenkarnchang": {
+    "status": "downloaded",
+    "sitePath": "/fighters/maisangngern-sor-yingcharoenkarnchang.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2024/03/Kaichon_Sor_Yingcharoenkarnchang-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/kaichon-sor-yingcharoenkarnchang/",
+    "checked": "2026-09-11",
+    "alt": "Maisangngern Sor Yingcharoenkarnchang",
+    "sourceAlt": "Kaichon_Sor_Yingcharoenkarnchang Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL. ONE event labels athlete Maisangngern but retains Kaichon in official profile URL and avatar filename.",
+    "bytes": 102147,
+    "sha256": "7f0af854f1d3f061cd74184d2cd5518423b2324e320a6a6fe96e66565f34391b",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "jurai-ishii": {
+    "status": "downloaded",
+    "sitePath": "/fighters/jurai-ishii.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2024/04/Jurai_Ishii-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/jurai-ishii/",
+    "checked": "2026-09-11",
+    "alt": "Jurai Ishii",
+    "sourceAlt": "Jurai_Ishii Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 112040,
+    "sha256": "01b34e7ed1969c1783b964961a275e9201e6b18f3a847e9b1320f3119eaafa00",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "pek-por-tor-tor-thongtawee": {
+    "status": "downloaded",
+    "sitePath": "/fighters/pek-por-tor-tor-thongtawee.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2026/09/Pek-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/pek-por-tor-tor-thongtawee/",
+    "checked": "2026-09-11",
+    "alt": "Pek Por Tor Tor Thongtawee",
+    "sourceAlt": "Pek Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 101130,
+    "sha256": "a81d79eb7b0aa78449f408159b7852bf902af97ef94655099571226edee17c11",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "shinichi-watanabe": {
+    "status": "downloaded",
+    "sitePath": "/fighters/shinichi-watanabe.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2026/07/Shinichi_Watanabe-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/shinichi-watanabe/",
+    "checked": "2026-09-11",
+    "alt": "Shinichi Watanabe",
+    "sourceAlt": "Shinichi_Watanabe Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 114524,
+    "sha256": "7526ce2339d6d8dcfc6fb0f3316fa19d3f1a986be3ac05d62922b1a81519abaf",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "rambolek-chor-ajalaboon": {
+    "status": "downloaded",
+    "sitePath": "/fighters/rambolek-chor-ajalaboon.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2023/03/Rambolek-Avatar-500x345-2.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/rambolek-chor-ajalaboon/",
+    "checked": "2026-09-11",
+    "alt": "Rambolek Chor Ajalaboon",
+    "sourceAlt": "Rambolek Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 101852,
+    "sha256": "9384c8ca2dc501327f5cfe25ce609d8f9bd3fa8aa4e7d39e08d06caaf84fee61",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "yod-iq-or-pimolsri": {
+    "status": "downloaded",
+    "sitePath": "/fighters/yod-iq-or-pimolsri.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2023/03/Yod-IQ-avatar-500x345-2.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/yod-iq/",
+    "checked": "2026-09-11",
+    "alt": "Yod-IQ Or Pimolsri",
+    "sourceAlt": "Yod IQ avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 117409,
+    "sha256": "c3e51f6df50842d73bddfb1525c29a3c51e8a3962d303b7dbdb2907c400c4244",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "seksan-or-kwanmuang": {
+    "status": "downloaded",
+    "sitePath": "/fighters/seksan-or-kwanmuang.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2024/04/Seksan_Or_Kwanmuang-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/seksan-or-kwanmuang/",
+    "checked": "2026-09-11",
+    "alt": "Seksan Or Kwanmuang",
+    "sourceAlt": "Seksan_Or_Kwanmuang Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 123258,
+    "sha256": "78ca5d27d7e03341d2ba20e92cbe9525b9d7ceba165781df883cc49b8c917a73",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "muangthai-pk-saenchai": {
+    "status": "downloaded",
+    "sitePath": "/fighters/muangthai-pk-saenchai.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2024/04/Muangthai_PK_Saenchai-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/muangthai-p-k-saenchaimuaythaigym/",
+    "checked": "2026-09-11",
+    "alt": "Muangthai PK Saenchai",
+    "sourceAlt": "Muangthai_PK_Saenchai Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 116967,
+    "sha256": "e06d5b2fbd9c32cd035beff5c49b598a085ad4fa9dc0597243794d17235e2d8d",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "kongchai-chanaidonmueang": {
+    "status": "downloaded",
+    "sitePath": "/fighters/kongchai-chanaidonmueang.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2024/04/Kongchai_Chanaidonmueang-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/kongchai-chanaidonmueang/",
+    "checked": "2026-09-11",
+    "alt": "Kongchai Chanaidonmueang",
+    "sourceAlt": "Kongchai_Chanaidonmueang Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 103847,
+    "sha256": "cb15a81091d6f6ed63507c57b93bad4b38429ead2c7d1caba094a9083f5de38f",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "sandro-bosi": {
+    "status": "downloaded",
+    "sitePath": "/fighters/sandro-bosi.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2025/09/Sandro_Bosi-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/sandro-bosi/",
+    "checked": "2026-09-11",
+    "alt": "Sandro Bosi",
+    "sourceAlt": "Sandro_Bosi 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 116811,
+    "sha256": "886bf890fd2de79415cb994a90c0d386a68f571d5ef85e2b682a322599a5906a",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "sangarthit-looksaikongdin": {
+    "status": "downloaded",
+    "sitePath": "/fighters/sangarthit-looksaikongdin.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2025/03/Sangarthit-Avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/sangarthit-looksaikongdin/",
+    "checked": "2026-09-11",
+    "alt": "Sangarthit Looksaikongdin",
+    "sourceAlt": "Sangarthit Avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 111279,
+    "sha256": "0be2e09042e897aa0bd7e6d8fef1b0062e0617a531926ea3cd2cdb649a702976",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "logan-chan": {
+    "status": "downloaded",
+    "sitePath": "/fighters/logan-chan.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2025/08/Logan_Chan-avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/logan-chan/",
+    "checked": "2026-09-11",
+    "alt": "Logan Chan",
+    "sourceAlt": "Logan_Chan avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 111661,
+    "sha256": "f823db949288634da877851530ddb4c0e9cb5bf001ba71bc0e7155f12a767e49",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "freddie-haggerty": {
+    "status": "downloaded",
+    "sitePath": "/fighters/freddie-haggerty.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2024/01/Freddie_Haggerty-avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/freddie-haggerty/",
+    "checked": "2026-09-11",
+    "alt": "Freddie Haggerty",
+    "sourceAlt": "Freddie_Haggerty avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 118806,
+    "sha256": "93646b6e80c9c3c81163d4c28669c268fada69d7a8da32ed93e21959a4a46268",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  },
+  "rungruanglek-tn-muaythai": {
+    "status": "downloaded",
+    "sitePath": "/fighters/rungruanglek-tn-muaythai.png",
+    "imageUrl": "https://cdn.onefc.com/wp-content/uploads/2025/08/Rungruanglek-avatar-500x345-1.png",
+    "sourcePage": "https://www.onefc.com/events/one-friday-fights-170/",
+    "athleteProfile": "https://www.onefc.com/athletes/rungruanglek-tn-muaythai/",
+    "checked": "2026-09-11",
+    "alt": "Rungruanglek TN Muaythai",
+    "sourceAlt": "Rungruanglek avatar 500x345",
+    "notes": "Official ONE event-card avatar; image link and named fighter link use the same athlete profile URL.",
+    "bytes": 128444,
+    "sha256": "d130bebb8834cdf941358601289c41537b9e5ba9f98f5fa4fb98dde6dd4fea56",
+    "width": 500,
+    "height": 345,
+    "format": "PNG"
+  }
+}

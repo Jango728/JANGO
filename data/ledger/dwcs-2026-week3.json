@@ -1,0 +1,113 @@
+{
+ "eventId": "dwcs-2026-week3",
+ "title": "DWCS Season 10 · Week 3",
+ "date": "2026-08-25",
+ "promotion": "DWCS",
+ "forecast": null,
+ "results": {
+  "checkedAt": "2026-09-24",
+  "sources": [
+   {
+    "label": "Sherdog event page",
+    "url": "https://www.sherdog.com/events/Dana-Whites-Contender-Series-Contender-Series-2026-Week-3"
+   },
+   {
+    "label": "UFC.com DWCS results",
+    "url": "https://www.ufc.com/news/dana-whites-contender-series-season-10-week-3-results"
+   }
+  ],
+  "bouts": [
+   {
+    "a": "Nick Galanti",
+    "b": "Carlos Petruzzella",
+    "winner": "Nick Galanti",
+    "loser": "Carlos Petruzzella",
+    "method": "KO/TKO",
+    "detail": "KO (punches)",
+    "round": 1,
+    "time": "0:35",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Huge right hook floored Petruzzella.",
+     "Ground strikes sealed it at 0:35."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Ronald Humphrey",
+    "b": "Alexis Miranda",
+    "winner": "Ronald Humphrey",
+    "loser": "Alexis Miranda",
+    "method": "Submission",
+    "detail": "Submission (rear-naked choke)",
+    "round": 1,
+    "time": "4:03",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Won exchanges and mixed in takedowns, bloodying Miranda.",
+     "Took the back and finished with a rear-naked choke."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Sean Clancy Jr.",
+    "b": "Gary Balletto Jr.",
+    "winner": "Sean Clancy Jr.",
+    "loser": "Gary Balletto Jr.",
+    "method": "KO/TKO",
+    "detail": "TKO (elbows/ground strikes)",
+    "round": 2,
+    "time": "3:54",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "Showed range on the feet before taking it down.",
+     "Advanced to mount and elbowed until the stoppage."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Guilherme Uriel",
+    "b": "Mario Piazzon",
+    "winner": "Guilherme Uriel",
+    "loser": "Mario Piazzon",
+    "method": "Submission",
+    "detail": "Submission (standing guillotine)",
+    "round": 1,
+    "time": "0:50",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Caught Piazzon's takedown attempt with an arm-in guillotine.",
+     "Choked him unconscious 50 seconds in."
+    ],
+    "contract": true
+   },
+   {
+    "a": "Alex Apodaca",
+    "b": "Bella Mir",
+    "winner": "Alex Apodaca",
+    "loser": "Bella Mir",
+    "method": "Decision",
+    "detail": "Decision (unanimous)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "Strong takedown defense and stance-switching striking.",
+     "Won as roughly a +1200 underdog, reported as the biggest upset in DWCS history."
+    ],
+    "contract": true
+   }
+  ]
+ },
+ "review": null
+}

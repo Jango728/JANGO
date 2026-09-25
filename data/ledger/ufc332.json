@@ -1,0 +1,283 @@
+{
+ "eventId": "ufc332",
+ "title": "UFC 332: Silva vs. Wang",
+ "date": "2026-10-03",
+ "promotion": "UFC",
+ "forecast": {
+  "engine": "1.0",
+  "frozenAt": "2026-09-25T01:34:08.017Z",
+  "basis": "Engine output frozen before the event. Never edited after results.",
+  "bouts": [
+   {
+    "a": "Natalia Silva",
+    "b": "Wang Cong",
+    "pick": "Natalia Silva",
+    "confidence": 64,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 2.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 5,
+    "evidence": 92,
+    "reasons": [
+     "Proven at this level: UFC record: Natalia Silva 8-0, Wang Cong 5-1.",
+     "Real finishing threat: Natalia Silva finished 4 of 10 recent wins; Wang Cong has been stopped 1 time in the last 10.",
+     "Better recent results: Last 10: Natalia Silva 10-0-0. Last 10: Wang Cong 9-1-0.",
+     "Age curve: Wang Cong is 34; Natalia Silva is 29.",
+     "On a run: Natalia Silva has won 10 straight (Wang Cong: 4)."
+    ]
+   },
+   {
+    "a": "Deiveson Figueiredo",
+    "b": "Payton Talbott",
+    "pick": "Payton Talbott",
+    "confidence": 85,
+    "tier": "Exceptional",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Better recent results: Last 10: Payton Talbott 9-1-0. Last 10: Deiveson Figueiredo 5-5-0.",
+     "Real finishing threat: Payton Talbott finished 6 of 9 recent wins; Deiveson Figueiredo has been stopped 2 times in the last 10.",
+     "Age curve: Deiveson Figueiredo is 38; Payton Talbott is 28.",
+     "Opponent is sliding: Deiveson Figueiredo has lost 2 straight; Payton Talbott has won 2 straight.",
+     "Size and range: 2″ longer reach, 5″ taller for Payton Talbott."
+    ]
+   },
+   {
+    "a": "King Green",
+    "b": "Esteban Ribovics",
+    "pick": "King Green",
+    "confidence": 53,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "On a run: King Green has won 4 straight (Esteban Ribovics: 1).",
+     "Size and range: 2″ longer reach for King Green.",
+     "Beat the better opposition: Opponents King Green beat (last 10) had a 72% win rate going in; Esteban Ribovics's had 68%.",
+     "Better when it goes long: In fights reaching round 3: King Green 3-0-0, Esteban Ribovics 3-2-0.",
+     "Better recent results: Last 10: King Green 7-3-0. Last 10: Esteban Ribovics 7-3-0."
+    ]
+   },
+   {
+    "a": "Khaos Williams",
+    "b": "Roberto Soldić",
+    "pick": "Khaos Williams",
+    "confidence": 54,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 66,
+    "reasons": [
+     "Proven at this level: UFC record: Khaos Williams 7-4, Roberto Soldić 0-0.",
+     "Size and range: 4″ longer reach, 1″ taller for Khaos Williams.",
+     "Ring rust on the other side: Roberto Soldić last fought 590 days before this card; Khaos Williams 140 days."
+    ]
+   },
+   {
+    "a": "Ateba Gautier",
+    "b": "Roman Kopylov",
+    "pick": "Ateba Gautier",
+    "confidence": 78,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Better recent results: Last 10: Ateba Gautier 10-0-0. Last 10: Roman Kopylov 7-3-0.",
+     "Size and range: 6″ longer reach, 4″ taller for Ateba Gautier.",
+     "Real finishing threat: Ateba Gautier finished 9 of 10 recent wins; Roman Kopylov has been stopped 1 time in the last 10.",
+     "On a run: Ateba Gautier has won 10 straight (Roman Kopylov: 1).",
+     "Proven at this level: UFC record: Ateba Gautier 5-0, Roman Kopylov 6-5."
+    ]
+   },
+   {
+    "a": "Imanol Rodriguez",
+    "b": "Alden Coria",
+    "pick": "Alden Coria",
+    "confidence": 61,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 85,
+    "reasons": [
+     "Size and range: 2″ longer reach, 4″ taller for Alden Coria.",
+     "On a run: Alden Coria has won 6 straight (Imanol Rodriguez: 2).",
+     "Proven at this level: UFC record: Alden Coria 2-0, Imanol Rodriguez 1-0.",
+     "Better recent results: Last 10: Alden Coria 8-1-0 (1 NC). Last 8: Imanol Rodriguez 7-1-0.",
+     "Beat the better opposition: Opponents Alden Coria beat (last 10) had a 72% win rate going in; Imanol Rodriguez's had 70%."
+    ]
+   },
+   {
+    "a": "Damian Pinas",
+    "b": "Andrey Pulyaev",
+    "pick": "Damian Pinas",
+    "confidence": 81,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Under"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Better recent results: Last 10: Damian Pinas 9-1-0. Last 10: Andrey Pulyaev 6-4-0.",
+     "Opponent is sliding: Andrey Pulyaev has lost 2 straight; Damian Pinas has won 6 straight.",
+     "Proven at this level: UFC record: Damian Pinas 2-0, Andrey Pulyaev 1-3.",
+     "Real finishing threat: Damian Pinas finished 8 of 9 recent wins; Andrey Pulyaev has been stopped 2 times in the last 10.",
+     "Cleaner losses: Andrey Pulyaev has 4 losses in the last 10, to opponents averaging a 78% win rate; Damian Pinas has 1."
+    ]
+   },
+   {
+    "a": "Marcus McGhee",
+    "b": "Bernardo Sopaj",
+    "pick": "Marcus McGhee",
+    "confidence": 59,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Size and range: 3″ longer reach, 2″ taller for Marcus McGhee.",
+     "Proven at this level: UFC record: Marcus McGhee 5-1, Bernardo Sopaj 2-1.",
+     "Better when it goes long: In fights reaching round 3: Marcus McGhee 3-1-0, Bernardo Sopaj 2-3-0.",
+     "Cleaner losses: Bernardo Sopaj has 3 losses in the last 10, to opponents averaging a 81% win rate; Marcus McGhee has 2.",
+     "Better recent results: Last 10: Marcus McGhee 8-2-0. Last 10: Bernardo Sopaj 7-3-0."
+    ]
+   },
+   {
+    "a": "Anthony Wint",
+    "b": "Lucas Armand",
+    "pick": "Anthony Wint",
+    "confidence": 57,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 66,
+    "reasons": [
+     "Proven at this level: UFC record: Anthony Wint 1-0, Lucas Armand 0-0.",
+     "Real finishing threat: Anthony Wint finished 7 of 8 recent wins; Lucas Armand has been stopped 0 times in the last 6.",
+     "Better recent results: Last 8: Anthony Wint 8-0-0. Last 6: Lucas Armand 6-0-0."
+    ]
+   },
+   {
+    "a": "Johnny Walker",
+    "b": "Mick Parkin",
+    "pick": "Mick Parkin",
+    "confidence": 66,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Better recent results: Last 10: Mick Parkin 9-1-0. Last 10: Johnny Walker 4-5-0 (1 NC).",
+     "Real finishing threat: Mick Parkin finished 6 of 9 recent wins; Johnny Walker has been stopped 3 times in the last 9.",
+     "Cleaner losses: Johnny Walker has 5 losses in the last 10, to opponents averaging a 70% win rate; Mick Parkin has 1.",
+     "Better when it goes long: In fights reaching round 3: Mick Parkin 3-1-0, Johnny Walker 1-2-0.",
+     "Age curve: Johnny Walker is 34; Mick Parkin is 30."
+    ]
+   },
+   {
+    "a": "Rafael Dos Anjos",
+    "b": "Alexander Hernandez",
+    "pick": "Alexander Hernandez",
+    "confidence": 72,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Age curve: Rafael Dos Anjos is 41; Alexander Hernandez is 33.",
+     "Better recent results: Last 10: Alexander Hernandez 5-5-0. Last 10: Rafael Dos Anjos 4-6-0.",
+     "Opponent is sliding: Rafael Dos Anjos has lost 3 straight.",
+     "Ring rust on the other side: Rafael Dos Anjos last fought 707 days before this card; Alexander Hernandez 161 days.",
+     "Size and range: 2″ longer reach, 1″ taller for Alexander Hernandez."
+    ]
+   },
+   {
+    "a": "Marvin Vettori",
+    "b": "Ismail Naurdiev",
+    "pick": "Ismail Naurdiev",
+    "confidence": 59,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 92,
+    "reasons": [
+     "Opponent is sliding: Marvin Vettori has lost 4 straight.",
+     "Better recent results: Last 10: Ismail Naurdiev 6-4-0. Last 10: Marvin Vettori 4-6-0.",
+     "Better when it goes long: In fights reaching round 3: Ismail Naurdiev 3-1-0, Marvin Vettori 4-6-0.",
+     "Age curve: Marvin Vettori is 33; Ismail Naurdiev is 30."
+    ]
+   },
+   {
+    "a": "Court McGee",
+    "b": "Eric Nolan",
+    "pick": "Eric Nolan",
+    "confidence": 61,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 76,
+    "reasons": [
+     "Age curve: Court McGee is 41; Eric Nolan is 29.",
+     "Better recent results: Last 10: Eric Nolan 6-4-0. Last 10: Court McGee 3-7-0.",
+     "Cleaner losses: Court McGee has 7 losses in the last 10, to opponents averaging a 67% win rate; Eric Nolan has 4.",
+     "Real finishing threat: Eric Nolan finished 5 of 6 recent wins; Court McGee has been stopped 2 times in the last 10.",
+     "Ring rust on the other side: Court McGee last fought 476 days before this card; Eric Nolan 98 days."
+    ]
+   }
+  ]
+ },
+ "results": null,
+ "review": null
+}

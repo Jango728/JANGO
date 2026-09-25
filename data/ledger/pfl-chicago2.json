@@ -1,0 +1,36 @@
+{
+ "eventId": "pfl-chicago2",
+ "title": "PFL Chicago 2",
+ "date": "2026-10-16",
+ "promotion": "PFL",
+ "forecast": {
+  "engine": "1.0",
+  "frozenAt": "2026-09-25T01:34:08.017Z",
+  "basis": "Engine output frozen before the event. Never edited after results.",
+  "bouts": [
+   {
+    "a": "Liz Carmouche",
+    "b": "Jena Bishop",
+    "pick": "Liz Carmouche",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 2.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 5,
+    "evidence": 76,
+    "reasons": [
+     "Won the last meeting: They've met once (Liz Carmouche 1-0). Latest: 2025, Liz Carmouche by KO.",
+     "Real finishing threat: Liz Carmouche finished 7 of 9 recent wins; Jena Bishop has been stopped 2 times in the last 10.",
+     "Proven at this level: UFC record: Liz Carmouche 5-5, Jena Bishop 0-0.",
+     "Better recent results: Last 10: Liz Carmouche 9-1-0. Last 10: Jena Bishop 7-3-0.",
+     "On a run: Liz Carmouche has won 4 straight (Jena Bishop: 2)."
+    ]
+   }
+  ]
+ },
+ "results": null,
+ "review": null
+}

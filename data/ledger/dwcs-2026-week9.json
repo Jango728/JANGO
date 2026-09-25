@@ -1,0 +1,116 @@
+{
+ "eventId": "dwcs-2026-week9",
+ "title": "DWCS Season 10 · Week 9",
+ "date": "2026-10-06",
+ "promotion": "DWCS",
+ "forecast": {
+  "engine": "1.0",
+  "frozenAt": "2026-09-25T01:34:08.017Z",
+  "basis": "Engine output frozen before the event. Never edited after results.",
+  "bouts": [
+   {
+    "a": "Roque Conceicao",
+    "b": "Alexander Chavez",
+    "pick": "Alexander Chavez",
+    "confidence": 57,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 65,
+    "reasons": [
+     "Better recent results: Last 9: Alexander Chavez 9-0-0. Last 10: Roque Conceicao 8-2-0.",
+     "On a run: Alexander Chavez has won 9 straight (Roque Conceicao: 1).",
+     "Better when it goes long: In fights reaching round 3: Alexander Chavez 5-0-0, Roque Conceicao 1-1-0.",
+     "Cleaner losses: Roque Conceicao has 2 losses in the last 10, to opponents averaging a 76% win rate; Alexander Chavez has 0."
+    ]
+   },
+   {
+    "a": "Sal Everett",
+    "b": "Ozzy Martin",
+    "pick": "Sal Everett",
+    "confidence": 59,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Submission",
+    "scheduledRounds": 3,
+    "evidence": 56,
+    "reasons": [
+     "Beat the better opposition: Opponents Sal Everett beat (last 10) had a 50% win rate going in; Ozzy Martin's had 42%.",
+     "Size and range: 3″ taller for Sal Everett.",
+     "Real finishing threat: Sal Everett finished 4 of 4 recent wins; Ozzy Martin has been stopped 0 times in the last 4."
+    ]
+   },
+   {
+    "a": "Ryuho Miyaguchi",
+    "b": "Mateus Soares",
+    "pick": "Mateus Soares",
+    "confidence": 65,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 66,
+    "reasons": [
+     "Beat the better opposition: Opponents Mateus Soares beat (last 10) had a 67% win rate going in; Ryuho Miyaguchi's had 50%.",
+     "On a run: Mateus Soares has won 4 straight.",
+     "Real finishing threat: Mateus Soares finished 7 of 8 recent wins; Ryuho Miyaguchi has been stopped 1 time in the last 8.",
+     "Better recent results: Last 10: Mateus Soares 8-2-0. Last 8: Ryuho Miyaguchi 7-1-0."
+    ]
+   },
+   {
+    "a": "Alivia Bierley",
+    "b": "Summer Onley",
+    "pick": "Summer Onley",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 69,
+    "reasons": [
+     "Beat the better opposition: Opponents Summer Onley beat (last 10) had a 66% win rate going in; Alivia Bierley's had 53%.",
+     "Real finishing threat: Summer Onley finished 5 of 6 recent wins; Alivia Bierley has been stopped 0 times in the last 6.",
+     "Cleaner losses: Alivia Bierley has 1 loss in the last 10, to opponents averaging a 43% win rate; Summer Onley has 0.",
+     "Better recent results: Last 6: Summer Onley 6-0-0. Last 6: Alivia Bierley 5-1-0.",
+     "Better when it goes long: In fights reaching round 3: Summer Onley 2-0-0, Alivia Bierley 3-1-0."
+    ]
+   },
+   {
+    "a": "Nell Ariano",
+    "b": "Preston LaGrange",
+    "pick": "Nell Ariano",
+    "confidence": 67,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 66,
+    "reasons": [
+     "Beat the better opposition: Opponents Nell Ariano beat (last 10) had a 63% win rate going in; Preston LaGrange's had 53%.",
+     "On a run: Nell Ariano has won 6 straight (Preston LaGrange: 2).",
+     "Better recent results: Last 6: Nell Ariano 6-0-0. Last 7: Preston LaGrange 6-1-0.",
+     "Real finishing threat: Nell Ariano finished 4 of 6 recent wins; Preston LaGrange has been stopped 1 time in the last 7.",
+     "Cleaner losses: Preston LaGrange has 1 loss in the last 10, to opponents averaging a 70% win rate; Nell Ariano has 0."
+    ]
+   }
+  ]
+ },
+ "results": null,
+ "review": null
+}
