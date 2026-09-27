@@ -15,6 +15,8 @@ export function pastBefore(f:Fighter,date:string,rules?:Rules){return f.history.
 export function resultRecord(h:PastFight[]){const n=(r:string)=>h.filter(x=>x.result===r).length;return `${n('W')}-${n('L')}-${n('D')}${n('NC')?` (${n('NC')} NC)`:''}`;}
 export function recordAtEvent(f:Fighter,date:string,rules:Rules='MMA'){return f.historyComplete&&rules==='MMA'?resultRecord(pastBefore(f,date,rules)):f.record||'Record pending';}
 export function ufcRecord(f:Fighter,date:string){return f.historyComplete||f.ufcHistoryComplete?resultRecord(pastBefore(f,date,'MMA').filter(x=>x.promotion==='UFC')):null;}
+/** DQ / overturned results say nothing about who was better — the model skips them. */
+export const nonCompetitive=(h:PastFight)=>/disqual|\bdq\b|overturned/i.test(h.method||'');
 const days=(a:string,b:string)=>Math.round((Date.parse(a)-Date.parse(b))/86400000);
 const outcome=(h:PastFight)=>h.result==='W'?1:h.result==='L'?0:.5;
 const normName=(value:string)=>value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
@@ -31,7 +33,7 @@ function directMatchup(history:PastFight[],opponent:string){
  if(!rows.length)return null;let score=0,weight=0;for(const {row,index} of rows){const w=Math.pow(.85,index);score+=(row.result==='W'?1:-1)*w;weight+=w;}return {score:score/weight,count:rows.length,latest:rows[0].row};
 }
 export function historySummary(f:Fighter,date:string,rules:Rules='MMA'){
- const all=pastBefore(f,date,rules),recent=all.slice(0,10),decided=recent.filter(x=>x.result!=='NC');
+ const all=pastBefore(f,date,rules),recent=all.slice(0,10),decided=recent.filter(x=>x.result!=='NC'&&!nonCompetitive(x));
  const intervals=recent.slice(0,-1).map((x,i)=>days(x.date,recent[i+1].date)).sort((a,b)=>a-b);
  const median=intervals.length?(intervals[Math.floor((intervals.length-1)/2)]+intervals[Math.floor(intervals.length/2)])/2:null;
  const knownTime=recent.filter(x=>x.minutes!==undefined),long=decided.filter(x=>(x.round||0)>=3);
