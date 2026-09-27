@@ -1,0 +1,32 @@
+/* Pick revisions: the "Updated …" line under the verdict strip (the arena is always dark) and the Track record marks. */
+.jp-pick-updates { background: #0d0f13; border-top: 1px solid #ffffff14; padding: 8px 18px 9px; color: #cfc8b8; font-size: 12.5px; line-height: 1.45; }
+.jp-pu-line { display: flex; align-items: baseline; gap: 7px; margin: 0; flex-wrap: wrap; }
+.jp-pu-line > svg { color: #d8ad52; flex: none; position: relative; top: 2px; }
+.jp-pu-line > span { flex: 1 1 260px; min-width: 0; overflow-wrap: anywhere; }
+.jp-pu-line b { color: #f2d386; font-weight: 800; }
+.jp-pu-line strong { color: #f3efe6; font-weight: 800; }
+.jp-pu-was { text-decoration: line-through; text-decoration-color: #ffffff59; color: #b8b0a0; }
+.jp-pu-toggle { flex: none; margin-left: auto; font: inherit; font-size: 11.5px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: #d8ad52; background: transparent; border: 1px solid #d8ad5259; border-radius: 6px; padding: 2px 8px; cursor: pointer; }
+.jp-pu-toggle:hover, .jp-pu-toggle:focus-visible { background: #d8ad521f; outline: none; }
+.jp-pu-history { list-style: none; margin: 8px 0 2px; padding: 0 0 0 20px; display: grid; gap: 5px; border-left: 1px solid #ffffff1f; margin-left: 6px; }
+.jp-pu-history li { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.jp-pu-history time { flex: none; min-width: 46px; color: #b8b0a0; font-variant-numeric: tabular-nums; }
+.jp-pu-kind { flex: none; font-size: 10.5px; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; color: #d8ad52; min-width: 64px; }
+.jp-pu-history li > span:last-child { flex: 1 1 240px; min-width: 0; color: #e6e0d4; }
+.jp-pu-history em { font-style: normal; color: #948c7c; font-size: 11.5px; }
+.jp-pu-old > span:last-child { color: #b8b0a0 !important; }
+.jp-pu-lock { color: #b8b0a0; font-size: 11.5px; }
+@media (max-width: 640px) {
+  .jp-pick-updates { padding: 8px 10px 9px; font-size: 12px; }
+  .jp-pu-history { padding-left: 12px; }
+}
+
+/* Track record: opening vs final line, and per-bout "changed pick" marks */
+.jp-tr-openfinal { margin: -4px 0 14px; font-size: 13px; color: var(--jp-muted); line-height: 1.5; }
+.jp-tr-openfinal strong { color: var(--jp-text); }
+.jp-tr-chg { display: inline-flex; align-items: center; gap: 3px; margin: 3px 0 0 7px; vertical-align: 1px; font-size: 10.5px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; padding: 1px 6px; border-radius: 5px; border: 1px solid color-mix(in srgb, var(--jp-blue) 45%, var(--jp-line)); color: var(--jp-blue); background: color-mix(in srgb, var(--jp-blue) 8%, transparent); white-space: nowrap; cursor: help; }
+.jp-tr-chg.flip { border-color: color-mix(in srgb, var(--jp-amber) 50%, var(--jp-line)); color: var(--jp-amber); background: color-mix(in srgb, var(--jp-amber) 9%, transparent); }
+.jp-tr-was + .jp-tr-chg { margin-left: 0; }
+.jp-tr-was { display: block; font-size: 11.5px; color: var(--jp-muted); margin-top: 2px; }
+.jp-tr-off td { opacity: .6; }
+.jp-tr-off .jp-tr-pick { text-decoration: line-through; }

@@ -14,15 +14,22 @@
   --jp-line-2: #d4c9b5;
   --jp-text: #15130f;
   --jp-muted: #6c655a;
-  --jp-gold: #9b6c19;
-  --jp-gold-2: #b98524;
+  /* gold as text: ≥4.5:1 on every light surface */
+  --jp-gold: #865c12;
+  --jp-gold-2: #7a530e;
+  /* gold as a fill behind dark text */
+  --jp-gold-fill: #d2a041;
+  --jp-gold-fill-2: #e6c16a;
+  --jp-on-gold: #15130f;
+  /* big display numbers (large text, 3:1 is enough) and the word-mark keep a brighter gold */
+  --jp-gold-display: #a87518;
   --jp-gold-soft: #9b6c1914;
-  --jp-green: #23794e;
-  --jp-amber: #a86b00;
-  --jp-red: #c23b30;
-  --jp-blue: #2f6fae;
-  --jp-corner-a: #c9463d;
-  --jp-corner-b: #3d7cc4;
+  --jp-green: #1e6c45;
+  --jp-amber: #8a5800;
+  --jp-red: #b3342a;
+  --jp-blue: #28609a;
+  --jp-corner-a: #b93d35;
+  --jp-corner-b: #326cae;
   --jp-shadow: 0 1px 2px #0000000d, 0 8px 24px #0000000a;
   --jp-radius: 14px;
   --jp-radius-sm: 10px;
@@ -35,7 +42,7 @@
   --popover: var(--jp-surface);
   --popover-foreground: var(--jp-text);
   --primary: var(--jp-gold);
-  --primary-foreground: #fff;
+  --primary-foreground: var(--jp-on-gold);
   --secondary: var(--jp-raised);
   --secondary-foreground: var(--jp-text);
   --muted: var(--jp-surface-2);
@@ -63,6 +70,10 @@
   --jp-gold: #d8ad52;
   --jp-gold-2: #f2d386;
   --jp-gold-soft: #d8ad521a;
+  --jp-gold-fill: #d8ad52;
+  --jp-gold-fill-2: #f2d386;
+  --jp-on-gold: #14100a;
+  --jp-gold-display: #f2d386;
   --jp-green: #6fcf97;
   --jp-amber: #f0b44c;
   --jp-red: #ff6b5e;
@@ -145,8 +156,8 @@ body {
 .jp-brand em {
   font-weight: 800;
   font-style: italic;
-  color: var(--jp-gold);
-  background: linear-gradient(180deg, var(--jp-gold-2), var(--jp-gold));
+  color: var(--jp-gold-display);
+  background: linear-gradient(180deg, var(--jp-gold-display), var(--jp-gold));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -171,8 +182,8 @@ body {
   color: var(--jp-text);
 }
 .jp-nav button.on {
-  color: var(--primary-foreground);
-  background: linear-gradient(180deg, var(--jp-gold-2), var(--jp-gold));
+  color: var(--jp-on-gold);
+  background: linear-gradient(180deg, var(--jp-gold-fill-2), var(--jp-gold-fill));
   box-shadow: 0 4px 14px var(--jp-gold-soft);
 }
 .jp-nav button:active,
@@ -194,9 +205,43 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
+  min-height: 40px;
+  padding: 0 6px;
+  border-radius: 10px;
   color: var(--jp-muted);
   font-size: 12px;
+  font-weight: 600;
+  background: none;
+  border: 0;
 }
+.theme-track {
+  position: relative;
+  width: 34px;
+  height: 20px;
+  border-radius: 99px;
+  background: var(--jp-raised);
+  border: 1px solid var(--jp-line-2);
+  transition: background 0.15s;
+}
+.theme-track > span {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--jp-muted);
+  transition: transform 0.18s ease, background 0.15s;
+}
+.theme-control[aria-checked="true"] .theme-track {
+  background: var(--jp-gold-fill);
+  border-color: var(--jp-gold-fill);
+}
+.theme-control[aria-checked="true"] .theme-track > span {
+  transform: translateX(14px);
+  background: #14100a;
+}
+.theme-control:hover { color: var(--jp-text); }
 
 /* ---------- shared atoms ---------- */
 .jp-card {
@@ -432,7 +477,7 @@ textarea:focus-visible {
   bottom: -1px;
   height: 3px;
   border-radius: 3px;
-  background: linear-gradient(90deg, var(--jp-gold), var(--jp-gold-2));
+  background: linear-gradient(90deg, var(--jp-gold-fill), var(--jp-gold-fill-2));
 }
 .jp-event-top {
   display: flex;
@@ -471,11 +516,54 @@ textarea:focus-visible {
   color: #fff;
   background: var(--jp-red);
 }
+.jp-status.s-live {
+  color: #fff;
+  background: var(--jp-red);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.jp-status.s-live::before,
+.jp-live-badge::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  animation: jp-live-pulse 1.4s ease-in-out infinite;
+}
+@keyframes jp-live-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.25; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .jp-status.s-live::before, .jp-live-badge::before { animation: none; }
+}
+.jp-live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 8px;
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: var(--jp-red);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.jp-live-badge small {
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+  opacity: 0.9;
+}
 .jp-status.s-results-in {
   color: var(--jp-green);
   background: color-mix(in srgb, var(--jp-green) 14%, transparent);
 }
-.jp-status.s-awaiting-results,
+.jp-status.s-results-due,
 .jp-status.s-card-tba {
   color: var(--jp-amber);
   background: color-mix(in srgb, var(--jp-amber) 14%, transparent);
@@ -590,8 +678,7 @@ textarea:focus-visible {
   align-items: center;
 }
 .jp-bout-names .avatar,
-.jp-bout-names img.avatar,
-.jp-bout-names .portrait-small {
+.jp-bout-names img.avatar {
   grid-row: span 2;
   width: 34px !important;
   height: 34px !important;
@@ -771,7 +858,7 @@ textarea:focus-visible {
   height: 52px !important;
   background: #0b0c0f !important;
   border: 1px solid var(--jp-gold) !important;
-  color: var(--jp-gold-2) !important;
+  color: #f2d386 !important; /* the arena is dark in both themes */
   box-shadow: 0 0 0 6px #0b0c0f99, 0 0 24px var(--jp-gold-soft);
   font-size: 17px !important;
 }
@@ -955,8 +1042,8 @@ textarea:focus-visible {
   color: var(--jp-gold-2);
 }
 .tier-exceptional {
-  background: linear-gradient(90deg, var(--jp-gold), var(--jp-gold-2));
-  color: #14100a;
+  background: linear-gradient(90deg, var(--jp-gold-fill), var(--jp-gold-fill-2));
+  color: var(--jp-on-gold);
 }
 .tier-pending {
   background: color-mix(in srgb, var(--jp-amber) 14%, transparent);
@@ -1255,7 +1342,7 @@ textarea:focus-visible {
 .jp-stat strong {
   font-size: 28px;
   font-weight: 900;
-  color: var(--jp-gold-2);
+  color: var(--jp-gold-display);
   letter-spacing: -0.02em;
 }
 .jp-stat small {
@@ -1285,7 +1372,7 @@ textarea:focus-visible {
   display: block;
   height: 100%;
   border-radius: 99px;
-  background: linear-gradient(90deg, var(--jp-gold), var(--jp-gold-2));
+  background: linear-gradient(90deg, var(--jp-gold-fill), var(--jp-gold-fill-2));
   transition: width 0.8s;
 }
 .jp-band small {
@@ -1321,20 +1408,6 @@ textarea:focus-visible {
   font-size: 12px;
   color: var(--jp-muted);
 }
-.jp-ledger-score {
-  display: grid;
-  grid-template-columns: auto auto;
-  column-gap: 6px;
-  align-items: baseline;
-}
-.jp-ledger-score b {
-  font-size: 18px;
-  color: var(--jp-gold-2);
-}
-.jp-ledger-score small {
-  font-size: 11px;
-  color: var(--jp-muted);
-}
 .jp-chev {
   transition: transform 0.2s;
   color: var(--jp-muted);
@@ -1365,16 +1438,6 @@ textarea:focus-visible {
   padding: 10px 6px;
   border-bottom: 1px solid var(--jp-line);
   vertical-align: top;
-}
-.mk.hit {
-  color: var(--jp-green);
-}
-.mk.miss {
-  color: var(--jp-red);
-}
-.mk.none {
-  color: var(--jp-muted);
-  opacity: 0.5;
 }
 .jp-notes summary {
   cursor: pointer;
@@ -1674,19 +1737,6 @@ textarea:focus-visible {
   margin: 0;
   text-align: center;
 }
-.jp-edge-name {
-  font-size: 12px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-.jp-edge-name.a {
-  color: var(--jp-corner-a);
-}
-.jp-edge-name.b {
-  color: var(--jp-corner-b);
-  text-align: right;
-}
 .jp-edge-rows {
   display: flex;
   flex-direction: column;
@@ -1768,8 +1818,7 @@ textarea:focus-visible {
 .jp-detail .stage-title h2,
 .jp-stat strong,
 .jp-ring > span,
-.jp-detail .arena-vs,
-.jp-ledger-score b {
+.jp-detail .arena-vs {
   font-family: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
 }
 .jp-event-head h1,
@@ -1806,11 +1855,10 @@ textarea:focus-visible {
 .jp-ff-replay {
   position: absolute; right: 10px; bottom: 10px; display: inline-flex; align-items: center; gap: 5px;
   min-height: 30px; padding: 5px 10px; border: 0; border-radius: 999px; cursor: pointer;
-  background: var(--jp-gold, #d8ad52); color: #15130f; font: 700 12px/1 "Barlow", sans-serif;
+  background: var(--jp-gold-fill, #d8ad52); color: var(--jp-on-gold, #15130f); font: 700 12px/1 "Barlow", sans-serif;
   box-shadow: 0 2px 10px #0008; animation: jp-ff-in .4s ease both;
 }
 .jp-ff-replay:hover { filter: brightness(1.08); }
-.jp-ff-fail { position: absolute; inset: 0; display: grid; place-items: center; color: #bfc4cc; font-size: 13px; padding: 20px; text-align: center; }
 @keyframes jp-ff-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .jp-ff-result, .jp-ff-replay { animation: none; } }
 
@@ -1824,7 +1872,7 @@ textarea:focus-visible {
 @media (max-width: 640px) {
   .jp-brand span { font-size: 22px; }
   .jp-brand img { width: 32px; height: 32px; }
-  .jp-top-tools .theme-control span, .jp-top-tools label span { display: none; }
+  .jp-top-tools .theme-control .theme-label { display: none; }
   .jp-nav { overflow-x: auto; justify-content: flex-start; scrollbar-width: none; max-width: 100%; }
   .jp-nav::-webkit-scrollbar { display: none; }
   .jp-nav button { white-space: nowrap; padding: 7px 11px; font-size: 12.5px; flex: 0 0 auto; }
@@ -1844,14 +1892,14 @@ textarea:focus-visible {
 .jp-lab .jp-changelog { grid-column: 1 / -1; }
 .jp-lab .jp-changelog .jp-change { max-width: 900px; }
 @media (max-width: 640px) {
-  .jp-filters { display: grid !important; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 5px; }
+  .jp-filters { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; }
   .jp-filters .jp-promo { min-width: 0; padding: 7px 4px; height: 40px; }
   .jp-filters .jp-promo img, .jp-filters .jp-promo svg { max-width: 100%; max-height: 18px; }
   .jp-filters .jp-promo-all { font-size: 11px; white-space: nowrap; }
 }
 
 /* Faceoff names: wrap between words only (balance + overflow-wrap:anywhere split "MAHAMMADALI") */
-.jp-detail .stage-title h2, .jp-detail .pick-name h3, .stage-title h2, .pick-name h3 { overflow-wrap: break-word !important; word-break: normal !important; }
+.jp-detail .stage-title h2, .stage-title h2 { overflow-wrap: break-word !important; word-break: normal !important; }
 
 /* Faceoff portraits sit on the stage floor at every width.
    (The img.portrait rule above out-ranked the smaller-screen heights, so on phones the
@@ -1884,12 +1932,11 @@ html:not(.dark) .jp-detail .arena img[src*="promotions/pfl"] { filter: none; opa
 @media (max-width: 640px) {
   .jp-edges header { grid-template-columns: 1fr 1fr; row-gap: 4px; }
   .jp-edges header .jp-h3 { grid-column: 1 / -1; grid-row: 1; }
-  .jp-edges header .jp-edge-name.b { text-align: right; }
   /* Track record cards: logo + status on top, full-width title underneath */
   .jp-ledger-head { display: grid; grid-template-columns: 1fr auto auto; grid-template-areas: "logo tag chev" "title title title"; row-gap: 8px; column-gap: 10px; padding: 12px 14px; }
   .jp-ledger-head > .promotion-logo { grid-area: logo; justify-self: start; }
   .jp-ledger-head > div:nth-child(2) { grid-area: title; }
-  .jp-ledger-head > .jp-tag, .jp-ledger-head > .jp-ledger-score { grid-area: tag; }
+  .jp-ledger-head > .jp-tag { grid-area: tag; }
   .jp-ledger-head > .jp-chev { grid-area: chev; }
 }
 button.jp-edge { width: 100%; background: none; border: 0; padding: 3px 4px; margin: 0; color: inherit; font: inherit; border-radius: 7px; cursor: pointer; transition: background .15s; }
@@ -1914,3 +1961,141 @@ button.jp-edge.sel > span { color: var(--jp-gold-2); }
 .jp-spread-bar i.tier-strong { background: var(--jp-gold); }
 @keyframes jp-spread-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 @media (prefers-reduced-motion: reduce) { .jp-spread-bar i { animation: none; } }
+/* OKTAGON word-mark (one-off event) */
+.okt-mark { font: 900 13px/1 "Barlow Condensed", "Arial Narrow", sans-serif; letter-spacing: .12em; color: var(--jp-text, #fff); white-space: nowrap; font-style: normal; }
+.jp-detail .arena-promotion .promotion-logo-oktagon { width: auto !important; padding: 4px 9px !important; flex-shrink: 0; }
+.jp-detail .arena .okt-mark { color: #fff; }
+
+/* =====================================================================
+   UI audit · Sep 27 2026 — prediction-first additions and consistency
+   ===================================================================== */
+
+/* Skip link: hidden until focused from the keyboard */
+.jp-skip { position: absolute; left: 12px; top: -80px; z-index: 100; padding: 10px 14px; border-radius: 10px; background: var(--jp-gold-fill); color: var(--jp-on-gold); font-weight: 800; font-size: 14px; }
+.jp-skip:focus { top: 10px; }
+
+/* Verdict strip: winner · rounds · method, under the faceoff on every tab (the arena is always dark) */
+.jp-verdict-strip { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr) minmax(0, 1fr); gap: 1px; background: #ffffff14; border-top: 1px solid #ffffff14; }
+.jp-vs-cell { display: grid; align-content: start; gap: 3px; padding: 12px 18px 13px; background: #0d0f13; min-width: 0; }
+.jp-vs-label { display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: #b8b0a0; }
+.jp-vs-label svg { color: #d8ad52; }
+.jp-vs-cell strong { font: 800 23px/1.08 "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif; text-transform: uppercase; letter-spacing: .01em; color: #f3efe6; overflow-wrap: break-word; }
+.jp-vs-cell.win strong { color: #f2d386; }
+.jp-vs-cell small { font-size: 12.5px; line-height: 1.35; color: #cfc8b8; }
+.jp-vs-cell.win.red { box-shadow: inset 3px 0 0 var(--jp-corner-a); }
+.jp-vs-cell.win.blue { box-shadow: inset 3px 0 0 var(--jp-corner-b); }
+@media (max-width: 640px) {
+  .jp-verdict-strip { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) minmax(0, 1fr); }
+  .jp-vs-cell { padding: 10px 10px 11px; gap: 2px; }
+  .jp-vs-label { font-size: 10px; letter-spacing: .06em; gap: 4px; }
+  .jp-vs-label svg { width: 11px; height: 11px; }
+  .jp-vs-cell strong { font-size: 16px; }
+  .jp-vs-cell small { font-size: 11px; }
+}
+
+/* Loading and toast */
+.jp-loading { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; min-height: 160px; color: var(--jp-muted); font-size: 14px; font-weight: 600; }
+.jp-loading.tall { min-height: 55vh; }
+.jp-loading-bar { width: 160px; height: 4px; border-radius: 99px; background: linear-gradient(90deg, transparent 0 30%, var(--jp-gold) 50%, transparent 70% 100%) var(--jp-raised); background-size: 250% 100%; animation: jp-shimmer 1.2s linear infinite; }
+@keyframes jp-shimmer { from { background-position: 100% 0; } to { background-position: -150% 0; } }
+.jp-toaster { position: fixed; right: 16px; bottom: 16px; z-index: 200; pointer-events: none; display: flex; justify-content: flex-end; }
+.jp-toast { display: flex; align-items: center; gap: 8px; padding: 11px 15px; border-radius: 12px; background: var(--jp-surface); color: var(--jp-text); border: 1px solid var(--jp-line-2); box-shadow: var(--jp-shadow); font-size: 14px; font-weight: 650; animation: jp-in .2s ease-out; }
+.jp-toast.success svg { color: var(--jp-green); }
+.jp-toast.error svg { color: var(--jp-red); }
+@media (max-width: 640px) { .jp-toaster { left: 16px; justify-content: center; } }
+@media (prefers-reduced-motion: reduce) { .jp-loading-bar, .jp-toast { animation: none; } }
+
+/* Bout list heading when a card has only one section */
+.jp-bouts-title { margin: 2px 4px 8px; display: flex; align-items: baseline; gap: 8px; font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--jp-text); }
+.jp-bouts-title small { font-size: 12px; font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--jp-muted); }
+
+/* Event rail: status pill never wraps into the logo */
+.jp-event-top { gap: 8px; min-width: 0; }
+.jp-status { white-space: nowrap; flex-shrink: 0; }
+
+/* Card pulse: 2 × 2 on phones instead of ragged wrapping */
+@media (max-width: 640px) {
+  .jp-pulse { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .jp-pulse > div { min-width: 0; padding: 9px 11px; }
+  .jp-pulse > div strong { font-size: 13px; overflow-wrap: break-word; }
+}
+
+/* Lists that lost their markers to the CSS reset */
+.rounds-summary ul, .rounds-pick ul, .jp-list, .jp-gaps ul, .finish-feature .scene-options ul { list-style: disc; }
+.rounds-summary li::marker, .rounds-pick li::marker, .jp-list li::marker, .jp-gaps li::marker { color: var(--jp-gold); }
+.jp-list li + li { margin-top: 3px; }
+
+/* Track record: one-sentence headline and a coin-flip marker on each band */
+.jp-tr-headline { margin: 0 0 14px; max-width: 980px; font-size: 16px; line-height: 1.55; color: var(--jp-text); }
+.jp-tr-headline strong { font-weight: 800; }
+.jp-tr-headline .jp-fine { font-size: 13px; }
+.jp-bar { position: relative; }
+.jp-bar-even { position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; margin-left: -1px; background: var(--jp-text); opacity: .4; }
+
+/* Tale of the tape now sits in the side column */
+.jp-side-col .quick-tape { padding: 6px 16px; }
+.jp-side-col .quick-tape > div { min-height: 32px; font-size: 14px; }
+/* Visually hidden tab labels must stay inside their (scrolling) tab row */
+.jp-tr-tab { position: relative; }
+
+/* The arena is dark in both themes: keep the DWCS word-mark light there */
+.jp-detail .arena .dwcs-mark em { color: #f3efe6; }
+
+/* Header: nav drops to its own row before it gets squeezed (tablets, small laptops) */
+@media (max-width: 1100px) {
+  .jp-top { grid-template-columns: 1fr auto; row-gap: 8px; }
+  .jp-nav { grid-column: 1 / -1; grid-row: 2; justify-self: center; }
+}
+@media (min-width: 641px) and (max-width: 1100px) {
+  .jp-nav button { white-space: nowrap; }
+}
+
+/* Matchup tabs: 3 × 2 once six in a row would wrap their labels */
+@media (max-width: 1180px) {
+  .jp-tabs { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* Card pulse: 2 × 2 on tablets too */
+@media (max-width: 900px) {
+  .jp-pulse { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .jp-pulse > div { min-width: 0; }
+}
+
+/* Legacy panels (Compare stats, Rounds, History) share the card heading and tag styles */
+.jp-panel .section-head h3, .jp-panel .surface > h3 { font-size: 16px; font-weight: 750; letter-spacing: -0.01em; margin: 0; }
+.jp-panel .section-head .tag, .jp-panel .market-odds-head .tag { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 6px; background: var(--jp-raised); color: var(--jp-muted); border: 1px solid var(--jp-line); text-transform: uppercase; letter-spacing: 0.04em; line-height: 1.4; }
+.jp-panel .surface { border-radius: var(--jp-radius); border-color: var(--jp-line); background: var(--jp-surface); }
+
+/* Fight history rows on phones: result badge | opponent + meta, method underneath (no 3-word columns) */
+@media (max-width: 640px) {
+  .history-row summary { display: grid; grid-template-columns: auto minmax(0, 1fr) 16px; column-gap: 10px; row-gap: 4px; align-items: start; padding: 12px 0; }
+  .history-row summary > .jp-rb { grid-row: 1 / span 2; align-self: center; }
+  .history-row summary > svg { grid-column: 3; grid-row: 1 / span 2; align-self: center; }
+  .history-row summary > .history-method { grid-column: 2; grid-row: 2; margin: 0; max-width: none !important; text-align: left; display: flex; flex-wrap: wrap; gap: 0 8px; align-items: baseline; }
+}
+
+/* Tap targets ≥ 40px on phones */
+@media (max-width: 640px) {
+  .jp-nav button, .jp-btn, .jp-search-btn, .jp-ch-tabs button, .jp-clips-tabs button, .jp-hero-yt,
+  .history-controls .segmented button, .history-controls .text-button, .jp-hero-reveal, .jp-shelf-all,
+  .jp-panel [data-slot="tabs-trigger"], .jp-seg button { min-height: 40px; }
+  .jp-search-btn { min-width: 40px; justify-content: center; }
+  .jp-ch-nav { width: 40px !important; height: 40px !important; }
+  .scene-options > summary, .duration-evidence > summary, .technical-read summary, .jp-notes > summary { min-height: 40px; display: flex; align-items: center; }
+}
+@media (max-width: 640px) {
+  .jp-band { grid-template-columns: 128px minmax(0, 1fr) 40px; }
+  .jp-band > span:first-child { white-space: nowrap; font-size: 12.5px; }
+}
+
+/* Track record: model vs market */
+.jp-vsmarket { margin-bottom: 14px; }
+.jp-vsmarket-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+.jp-vsmarket-head .jp-h3 { margin: 0; }
+.jp-vsmarket-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.jp-vsmarket-grid > div { display: grid; gap: 2px; padding: 10px 12px; border-radius: var(--jp-radius-sm); background: var(--jp-surface-2); border: 1px solid var(--jp-line); min-width: 0; }
+.jp-vsmarket-grid span { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--jp-muted); }
+.jp-vsmarket-grid strong { font-size: 22px; font-weight: 800; color: var(--jp-text); font-variant-numeric: tabular-nums; }
+.jp-vsmarket-grid strong em { font-style: normal; font-size: 14px; font-weight: 600; color: var(--jp-muted); }
+.jp-vsmarket-grid small { font-size: 12px; color: var(--jp-muted); }
+@media (max-width: 900px) { .jp-vsmarket-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

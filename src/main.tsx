@@ -4,6 +4,7 @@ import "./globals.css";
 import "./jango.css";
 import "./headshot.css";
 import "./champions.css";
+import "./profile.css";
 import App from "./App";
 
 // Black & gold is the house look: dark unless this viewer switched to light before.

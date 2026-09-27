@@ -1,0 +1,64 @@
+/* ================= Track record: per-card summary =================
+   Plain numerals ("4 of 12") with a clear label underneath and the hit
+   rate beside it. No pill or highlighter behind the text. */
+.jp-ledger-tally {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 0;
+}
+.jp-tally-item {
+  min-width: 0;
+  padding: 2px 18px;
+  border-left: 1px solid var(--jp-line);
+}
+.jp-tally-num {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.jp-tally-num strong {
+  font: 800 30px/1 "Barlow Condensed", "Arial Narrow", sans-serif;
+  color: var(--jp-text);
+  letter-spacing: 0;
+}
+.jp-tally-num .of {
+  font: 700 17px/1 "Barlow Condensed", "Arial Narrow", sans-serif;
+  color: var(--jp-text);
+}
+.jp-tally-num .pct {
+  margin-left: 6px;
+  font: 700 14px/1 "Barlow", sans-serif;
+  color: var(--jp-muted);
+}
+.jp-tally-label {
+  margin-top: 4px;
+  font: 600 13px/1.2 "Barlow", sans-serif;
+  color: var(--jp-muted);
+  white-space: nowrap;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.jp-ledger-tally .jp-status { margin-left: 14px; }
+
+@media (max-width: 640px) {
+  /* Card header: logo + chevron on top, title, then the summary on its own full-width row */
+  .jp-ledger-head.has-tally {
+    grid-template-areas: "logo tag chev" "title title title" "tally tally tally";
+  }
+  .jp-ledger-head > .jp-ledger-tally {
+    grid-area: tally;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    padding-top: 10px;
+    border-top: 1px solid var(--jp-line);
+  }
+  .jp-tally-item { padding: 0 0 0 14px; }
+  .jp-tally-item:first-child { padding-left: 0; border-left: 0; }
+  .jp-tally-num strong { font-size: 28px; }
+  .jp-tally-label { white-space: normal; }
+  .jp-ledger-tally .jp-status { grid-column: 1 / -1; justify-self: start; margin: 8px 0 0; }
+}

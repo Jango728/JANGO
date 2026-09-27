@@ -78,19 +78,8 @@
 @keyframes jp-hs2-spin { to { transform: rotate(180deg); } }
 
 /* bullet hole + cracks */
-.jp-hs2-card .crack { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
-.jp-hs2-card .crack path { fill: none; stroke: #ffffff9a; stroke-width: .7; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; filter: drop-shadow(0 0 1px #000); }
-.jp-hs2-card .crack circle { fill: #140405; stroke: var(--blood-hi); stroke-width: 1.2; opacity: 0; transform-origin: 50px 50px; }
-.jp-hs2.rest .jp-hs2-card .crack path, .jp-hs2-card.hit .crack path { stroke-dashoffset: 0; transition: stroke-dashoffset .35s ease-out; }
-.jp-hs2.rest .jp-hs2-card .crack circle, .jp-hs2-card.hit .crack circle { opacity: 1; animation: jp-hs2-hole .3s ease-out; }
-@keyframes jp-hs2-hole { from { transform: scale(2.2); } }
 
 /* blood spatter */
-.jp-hs2-card .spatter { position: absolute; inset: -18%; width: 136%; height: 136%; pointer-events: none; overflow: visible; }
-.jp-hs2-card .spatter circle { fill: var(--blood); opacity: 0; transform-box: view-box; transform-origin: 50px 50px; }
-.jp-hs2.rest .jp-hs2-card .spatter circle { opacity: .85; }
-.jp-hs2-card.hit .spatter circle { animation: jp-hs2-spat .45s cubic-bezier(.1, .7, .3, 1) calc(var(--k) * 12ms) both; }
-@keyframes jp-hs2-spat { from { opacity: 1; transform: scale(.15); } to { opacity: .85; transform: scale(1); } }
 
 /* impact flash */
 .jp-hs2-card .flashhit { position: absolute; inset: -10%; border-radius: 50%; background: radial-gradient(circle, #fff 0%, #ffe2a8 25%, #ff5a1f55 50%, transparent 70%); opacity: 0; pointer-events: none; mix-blend-mode: screen; }

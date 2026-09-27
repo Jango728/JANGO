@@ -211,7 +211,7 @@ export class Rig {
           // thumb folds across the fingers in a fist
           a = shape === "fist" || shape === "bird" ? [0.5, 0.7, 0.8][seg] : shape === "relaxed" ? 0.2 : 0;
         } else if (shape === "bird") {
-          a = f === 2 ? [0, 0.02, 0][seg] : curl.fist[seg];
+          a = f === 2 ? [-0.12, -0.08, -0.05][seg] : curl.fist[seg];
         } else a = curl[shape][seg];
         const rest = this.restLocal.get(b)!;
         _q.setFromAxisAngle(new T.Vector3(0, 0, 1), a * amount * sign);
