@@ -9,9 +9,10 @@ const fmt = (d: string) => new Date(d + "T12:00:00Z").toLocaleDateString("en-CA"
 export const shortTitle = (t: string) => t.replace(/^Dana White's Contender Series:\s*/i, "DWCS ").replace(/^UFC Fight Night:\s*/i, "Fight Night · ");
 
 export function status(e: Event, today: string) {
+  if (ledgerFor(e.id)?.results?.live) return "Live";
   if (e.date > today) return e.fights.length ? "Upcoming" : "Card TBA";
   if (e.date === today) return "Fight day";
-  return ledgerFor(e.id)?.results ? "Results in" : "Awaiting results";
+  return ledgerFor(e.id)?.results ? "Results in" : "Results due";
 }
 
 export function EventRail({ events, selected, today, onSelect }: { events: Event[]; selected: string; today: string; onSelect: (e: Event) => void }) {
@@ -24,14 +25,14 @@ export function EventRail({ events, selected, today, onSelect }: { events: Event
   return (
     <div className="jp-rail-wrap">
       <button className="jp-rail-arrow" aria-label="Earlier cards" onClick={() => nudge(-1)}>
-        <ChevronLeft size={18} />
+        <ChevronLeft size={18} aria-hidden="true" />
       </button>
-      <div className="jp-rail" ref={rail} role="listbox" aria-label="Fight cards">
+      <div className="jp-rail" ref={rail} role="group" aria-label="Fight cards">
         {events.map((e) => {
           const s = status(e, today);
           const main = e.fights[0];
           return (
-            <button key={e.id} data-id={e.id} role="option" aria-selected={e.id === selected} className={"jp-event " + (e.id === selected ? "on" : "")} onClick={() => onSelect(e)}>
+            <button key={e.id} data-id={e.id} aria-current={e.id === selected ? "true" : undefined} className={"jp-event " + (e.id === selected ? "on" : "")} onClick={() => onSelect(e)}>
               <span className="jp-event-top">
                 <PromotionLogo promotion={e.promotion} />
                 <span className={"jp-status s-" + s.toLowerCase().replace(/\s+/g, "-")}>{s}</span>
@@ -46,7 +47,7 @@ export function EventRail({ events, selected, today, onSelect }: { events: Event
         })}
       </div>
       <button className="jp-rail-arrow" aria-label="Later cards" onClick={() => nudge(1)}>
-        <ChevronRight size={18} />
+        <ChevronRight size={18} aria-hidden="true" />
       </button>
     </div>
   );

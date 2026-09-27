@@ -2,6 +2,7 @@
  "eventId": "dwcs-2026-week10",
  "title": "DWCS Season 10 · Week 10",
  "date": "2026-10-13",
+ "lockAt": "2026-10-13T23:00:00.000Z",
  "promotion": "DWCS",
  "forecast": {
   "engine": "1.0",
@@ -25,6 +26,41 @@
      "Beat the better opposition: Opponents Douglas da Lapa beat (last 10) had a 60% win rate going in; Davi Cabral's had 45%.",
      "Size and range: 6″ taller for Douglas da Lapa.",
      "Real finishing threat: Douglas da Lapa finished 4 of 6 recent wins; Davi Cabral has been stopped 0 times in the last 7."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Douglas da Lapa",
+      "confidence": 53,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "rounds"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Middleweight",
+       "records": [
+        "7-0-0",
+        "6-0-0"
+       ],
+       "lastFights": [
+        "2026-07-18",
+        "2026-05-29"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -44,6 +80,40 @@
      "Beat the better opposition: Opponents Luis Francischinelli beat (last 10) had a 62% win rate going in; Will Rentz's had 46%.",
      "Real finishing threat: Luis Francischinelli finished 6 of 6 recent wins; Will Rentz has been stopped 1 time in the last 10.",
      "Cleaner losses: Will Rentz has 2 losses in the last 10, to opponents averaging a 54% win rate; Luis Francischinelli has 1."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Luis Francischinelli",
+      "confidence": 51,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Welterweight",
+       "records": [
+        "6-1-0",
+        "8-2-0"
+       ],
+       "lastFights": [
+        "2026-05-15",
+        "2026-06-20"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {

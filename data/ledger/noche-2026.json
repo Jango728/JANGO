@@ -413,5 +413,68 @@
    }
   ]
  },
- "review": null
+ "review": {
+  "status": "final",
+  "reviewedAt": "2026-09-26",
+  "followUpUntil": "2026-09-15",
+  "lessons": [
+   "Archived GPT-era picks (engine 0.4) went 7/12 on winners with one abstention (Martinez–Ige), 9/13 on rounds, and 5 of 7 correct winners also had the right method.",
+   "Four of the five winner misses went the distance or deep into R3 (Grasso UD, Tarin UD, Rongzhu UD, Gantt R3 sub). The old model over-trusted established names over younger opponents with rising form (Tarin 21, Rongzhu).",
+   "All four rounds misses were finish-timing errors in both directions: two early KOs (Belgaroui R1, King R1 in 33–36s) where we had Over, and two fights we expected to end early that went long (Silva sub R3, McMillen UD).",
+   "Review written after the follow-up window; recaps available (Yahoo/MMA Junkie, UFC.com) gave round detail for Grasso–Fiorot and Tarin–Aldrich only. Other miss notes are result-level."
+  ],
+  "bouts": [
+   {
+    "a": "Jean Silva",
+    "b": "Jose Miguel Delgado",
+    "cause": "model",
+    "note": "Picked Delgado by KO under 2.5; Silva won by R3 rear-naked choke. The old model underrated a ranked top-10 featherweight with a deep UFC schedule. Rounds (Under) also missed."
+   },
+   {
+    "a": "Tommy McMillen",
+    "b": "Marwan Rahiki",
+    "note": "Winner right, but we called a KO under 1.5; it went a full unanimous decision between two unbeaten prospects."
+   },
+   {
+    "a": "Alexa Grasso",
+    "b": "Manon Fiorot",
+    "cause": "style-read",
+    "note": "Picked Fiorot on output and size; Grasso's boxing won R1 with a knockdown and she held off Fiorot's R3 push for 29-28 x3. Boxing accuracy vs kick volume was misread."
+   },
+   {
+    "a": "Drakkar Klose",
+    "b": "Tommy Gantt",
+    "cause": "style-read",
+    "note": "Picked Klose by decision; Gantt finished with a reverse/inverted triangle in R3. Gantt's submission threat from bottom positions was not weighted."
+   },
+   {
+    "a": "Rafa Garcia",
+    "b": "Rongzhu",
+    "cause": "model",
+    "note": "Picked Garcia by decision; Rongzhu won a unanimous decision. Old model leaned on Garcia's UFC tenure over Rongzhu's recent form."
+   },
+   {
+    "a": "Regina Tarin",
+    "b": "JJ Aldrich",
+    "cause": "model",
+    "note": "Picked the veteran Aldrich; the unbeaten 21-year-old Tarin won 29-28 x3 with length and R2 pressure. Youth and unbeaten momentum were underweighted — now covered by the v1.0 form model."
+   },
+   {
+    "a": "Yousri Belgaroui",
+    "b": "Djorden Santos",
+    "note": "Winner and method right; rounds missed (Over 1.5) — TKO at 4:25 of R1."
+   },
+   {
+    "a": "Sean King III",
+    "b": "Jessie Rosas",
+    "note": "Winner and method right; rounds missed (Over 1.5) — slam KO in R1 on nine days' notice."
+   },
+   {
+    "a": "David Martinez",
+    "b": "Dan Ige",
+    "note": "No winner pick (abstained). Martinez won a unanimous decision; Over 1.5 was correct."
+   }
+  ],
+  "modelChanges": []
+ }
 }

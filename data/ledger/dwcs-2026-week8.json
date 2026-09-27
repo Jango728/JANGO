@@ -2,6 +2,7 @@
  "eventId": "dwcs-2026-week8",
  "title": "DWCS Season 10 · Week 8",
  "date": "2026-09-29",
+ "lockAt": "2026-09-29T23:00:00.000Z",
  "promotion": "DWCS",
  "forecast": {
   "engine": "1.0",
@@ -26,6 +27,42 @@
      "Better recent results: Last 10: George Staines 10-0-0. Last 8: Loai Abushaar 7-1-0.",
      "Cleaner losses: Loai Abushaar has 1 loss in the last 10, to opponents averaging a 56% win rate; George Staines has 0.",
      "On a run: George Staines has won 10 straight (Loai Abushaar: 4)."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "George Staines",
+      "confidence": 56,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "rounds",
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Lightweight",
+       "records": [
+        "7-1-0",
+        "10-0-0"
+       ],
+       "lastFights": [
+        "2026-04-18",
+        "2026-06-20"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -46,6 +83,41 @@
      "Real finishing threat: Zaurbek Sabanov finished 3 of 4 recent wins; Adama Diop has been stopped 1 time in the last 7.",
      "Size and range: 3″ taller for Zaurbek Sabanov.",
      "Better recent results: Last 4: Zaurbek Sabanov 4-0-0. Last 7: Adama Diop 6-1-0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Zaurbek Sabanov",
+      "confidence": 53,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "rounds"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Heavyweight",
+       "records": [
+        "6-1-0",
+        "4-0-0"
+       ],
+       "lastFights": [
+        "2026-04-09",
+        "2026-06-06"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -65,6 +137,41 @@
      "Real finishing threat: Ian Escuza finished 7 of 7 recent wins; Luca Borando has been stopped 1 time in the last 10.",
      "Cleaner losses: Luca Borando has 1 loss in the last 10; Ian Escuza has 0.",
      "Better recent results: Last 7: Ian Escuza 7-0-0. Last 10: Luca Borando 9-1-0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Ian Escuza",
+      "confidence": 50,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "rounds"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Featherweight",
+       "records": [
+        "7-0-0",
+        "9-1-0"
+       ],
+       "lastFights": [
+        "2026-06-24",
+        "2026-07-04"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -86,6 +193,40 @@
      "Better recent results: Last 7: Aieza Bertolso 7-0-0. Last 10: Camila Reynoso 9-1-0.",
      "Cleaner losses: Camila Reynoso has 1 loss in the last 10; Aieza Bertolso has 0.",
      "Size and range: 2″ taller for Aieza Bertolso."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Aieza Bertolso",
+      "confidence": 53,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Women's Strawweight",
+       "records": [
+        "7-0-0",
+        "9-1-0"
+       ],
+       "lastFights": [
+        "2025-09-05",
+        "2025-12-30"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -107,6 +248,40 @@
      "Better recent results: Last 10: Ilias Bulaid 9-0-0 (1 NC). Last 10: Erick Visconde 9-1-0.",
      "Cleaner losses: Erick Visconde has 1 loss in the last 10; Ilias Bulaid has 0.",
      "On a run: Ilias Bulaid has won 9 straight (Erick Visconde: 4)."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Ilias Bulaid",
+      "confidence": 53,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Featherweight",
+       "records": [
+        "9-0-0",
+        "17-3-0"
+       ],
+       "lastFights": [
+        "2026-04-11",
+        "2026-05-15"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    }
   ]

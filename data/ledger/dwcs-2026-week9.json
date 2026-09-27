@@ -2,6 +2,7 @@
  "eventId": "dwcs-2026-week9",
  "title": "DWCS Season 10 · Week 9",
  "date": "2026-10-06",
+ "lockAt": "2026-10-06T23:00:00.000Z",
  "promotion": "DWCS",
  "forecast": {
   "engine": "1.0",
@@ -45,6 +46,42 @@
      "Beat the better opposition: Opponents Sal Everett beat (last 10) had a 50% win rate going in; Ozzy Martin's had 42%.",
      "Size and range: 3″ taller for Sal Everett.",
      "Real finishing threat: Sal Everett finished 4 of 4 recent wins; Ozzy Martin has been stopped 0 times in the last 4."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Sal Everett",
+      "confidence": 53,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "rounds",
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Welterweight",
+       "records": [
+        "4-0-0",
+        "4-0-0"
+       ],
+       "lastFights": [
+        "2026-07-08",
+        "2026-07-18"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -65,6 +102,40 @@
      "On a run: Mateus Soares has won 4 straight.",
      "Real finishing threat: Mateus Soares finished 7 of 8 recent wins; Ryuho Miyaguchi has been stopped 1 time in the last 8.",
      "Better recent results: Last 10: Mateus Soares 8-2-0. Last 8: Ryuho Miyaguchi 7-1-0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Mateus Soares",
+      "confidence": 53,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Bantamweight",
+       "records": [
+        "7-1-0",
+        "11-2-0"
+       ],
+       "lastFights": [
+        "2026-05-28",
+        "2026-05-29"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -86,6 +157,40 @@
      "Cleaner losses: Alivia Bierley has 1 loss in the last 10, to opponents averaging a 43% win rate; Summer Onley has 0.",
      "Better recent results: Last 6: Summer Onley 6-0-0. Last 6: Alivia Bierley 5-1-0.",
      "Better when it goes long: In fights reaching round 3: Summer Onley 2-0-0, Alivia Bierley 3-1-0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Summer Onley",
+      "confidence": 58,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Women's Bantamweight",
+       "records": [
+        "5-1-0",
+        "6-0-0"
+       ],
+       "lastFights": [
+        "2026-07-19",
+        "2026-03-07"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -107,6 +212,41 @@
      "Better recent results: Last 6: Nell Ariano 6-0-0. Last 7: Preston LaGrange 6-1-0.",
      "Real finishing threat: Nell Ariano finished 4 of 6 recent wins; Preston LaGrange has been stopped 1 time in the last 7.",
      "Cleaner losses: Preston LaGrange has 1 loss in the last 10, to opponents averaging a 70% win rate; Nell Ariano has 0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Nell Ariano",
+      "confidence": 53,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "rounds"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Light Heavyweight",
+       "records": [
+        "6-0-0",
+        "6-1-0"
+       ],
+       "lastFights": [
+        "2026-07-04",
+        "2026-07-24"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    }
   ]

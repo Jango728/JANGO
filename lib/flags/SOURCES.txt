@@ -1,0 +1,3 @@
+Country flag SVG assets: https://flagcdn.com/ — Flagpedia.net, based on Wikimedia Commons. Retrieved 2026-09-10. Country labels come from cited fighter profiles. Flags do not affect the model.
+sk.svg, ng.svg: flag-icons (MIT, https://github.com/lipis/flag-icons), added 2026-09-25.
+Smaller files replaced with flag-icons (MIT) versions where available; flags are now bundled into the JS (lib/flags) instead of served one file each.

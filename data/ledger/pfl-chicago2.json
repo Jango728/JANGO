@@ -1,7 +1,8 @@
 {
  "eventId": "pfl-chicago2",
- "title": "PFL Chicago 2",
+ "title": "PFL Chicago: Carmouche vs. Bishop 2",
  "date": "2026-10-16",
+ "lockAt": "2026-10-16T22:00:00.000Z",
  "promotion": "PFL",
  "forecast": {
   "engine": "1.0",
@@ -27,7 +28,588 @@
      "Proven at this level: UFC record: Liz Carmouche 5-5, Jena Bishop 0-0.",
      "Better recent results: Last 10: Liz Carmouche 9-1-0. Last 10: Jena Bishop 7-3-0.",
      "On a run: Liz Carmouche has won 4 straight (Jena Bishop: 2)."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Liz Carmouche",
+      "confidence": 57,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 2.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 5,
+       "division": "Women's Flyweight",
+       "records": [
+        "26-8",
+        "11-3"
+       ],
+       "lastFights": [
+        "2026-06-27",
+        "2026-06-27"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
+   },
+   {
+    "a": "Timur Khizriev",
+    "b": "Gabriel Braga",
+    "pick": "Timur Khizriev",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 71,
+    "reasons": [
+     "Won the last meeting: They've met once (Timur Khizriev 1-0). Latest: 2024, Timur Khizriev by Decision.",
+     "Better recent results: Last 10: Timur Khizriev 10-0-0. Last 10: Gabriel Braga 7-3-0.",
+     "On a run: Timur Khizriev has won 10 straight (Gabriel Braga: 1).",
+     "Real finishing threat: Timur Khizriev finished 2 of 10 recent wins; Gabriel Braga has been stopped 2 times in the last 10.",
+     "Better when it goes long: In fights reaching round 3: Timur Khizriev 8-0-0, Gabriel Braga 3-2-0."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z",
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Timur Khizriev",
+      "confidence": 51,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Featherweight",
+       "records": [
+        "18-0-0",
+        "17-3-0"
+       ],
+       "lastFights": [
+        "2024-11-29",
+        "2026-04-11"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Sarvarjon Khamidov",
+    "b": "Rafael do Nascimento",
+    "pick": "Rafael do Nascimento",
+    "confidence": 57,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 69,
+    "reasons": [
+     "On a run: Rafael do Nascimento has won 5 straight (Sarvarjon Khamidov: 1).",
+     "Real finishing threat: Rafael do Nascimento finished 5 of 8 recent wins; Sarvarjon Khamidov has been stopped 0 times in the last 10.",
+     "Size and range: 2″ longer reach for Rafael do Nascimento.",
+     "Better recent results: Last 10: Rafael do Nascimento 8-1-0 (1 NC). Last 10: Sarvarjon Khamidov 9-1-0."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z",
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Sarvarjon Khamidov",
+      "confidence": 52,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "pick"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Bantamweight",
+       "records": [
+        "17-1-0",
+        "13-2-0"
+       ],
+       "lastFights": [
+        "2026-06-27",
+        "2026-07-18"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Oualy Tandia",
+    "b": "JP Saint Louis",
+    "pick": "Oualy Tandia",
+    "confidence": 65,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 64,
+    "reasons": [
+     "Size and range: 6″ longer reach, 5″ taller for Oualy Tandia.",
+     "Real finishing threat: Oualy Tandia finished 3 of 5 recent wins; JP Saint Louis has been stopped 1 time in the last 10.",
+     "Cleaner losses: JP Saint Louis has 2 losses in the last 10, to opponents averaging a 63% win rate; Oualy Tandia has 0.",
+     "Better recent results: Last 5: Oualy Tandia 5-0-0. Last 10: JP Saint Louis 8-2-0.",
+     "Better when it goes long: In fights reaching round 3: Oualy Tandia 3-0-0, JP Saint Louis 2-1-0."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z",
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Oualy Tandia",
+      "confidence": 66,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Welterweight",
+       "records": [
+        "5-0-0",
+        "12-5-0"
+       ],
+       "lastFights": [
+        "2026-05-29",
+        "2025-08-21"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Emiliano Sordi",
+    "b": "Abraham Bably",
+    "pick": "Abraham Bably",
+    "confidence": 59,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Under"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 69,
+    "reasons": [
+     "Real finishing threat: Abraham Bably finished 5 of 7 recent wins; Emiliano Sordi has been stopped 5 times in the last 10.",
+     "Better recent results: Last 10: Abraham Bably 7-3-0. Last 10: Emiliano Sordi 3-6-1.",
+     "Cleaner losses: Emiliano Sordi has 6 losses in the last 10, to opponents averaging a 72% win rate; Abraham Bably has 3.",
+     "Better when it goes long: In fights reaching round 3: Abraham Bably 2-2-0, Emiliano Sordi 0-2-1."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z"
+   },
+   {
+    "a": "Gamid Khizriev",
+    "b": "Michael Boylan",
+    "pick": "Gamid Khizriev",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Submission",
+    "scheduledRounds": 3,
+    "evidence": 61,
+    "reasons": [
+     "Beat the better opposition: Opponents Gamid Khizriev beat (last 10) had a 60% win rate going in; Michael Boylan's had 43%.",
+     "On a run: Gamid Khizriev has won 5 straight.",
+     "Better recent results: Last 5: Gamid Khizriev 5-0-0. Last 7: Michael Boylan 6-1-0.",
+     "Cleaner losses: Michael Boylan has 1 loss in the last 10, to opponents averaging a 71% win rate; Gamid Khizriev has 0.",
+     "Real finishing threat: Gamid Khizriev finished 4 of 5 recent wins; Michael Boylan has been stopped 0 times in the last 7."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z",
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Gamid Khizriev",
+      "confidence": 58,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Lightweight",
+       "records": [
+        "5-0-0",
+        "6-1-0"
+       ],
+       "lastFights": [
+        "2026-07-18",
+        "2026-08-07"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Shannon Clark",
+    "b": "Lucero Acosta",
+    "pick": "Shannon Clark",
+    "confidence": 67,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 69,
+    "reasons": [
+     "Beat the better opposition: Opponents Shannon Clark beat (last 10) had a 64% win rate going in; Lucero Acosta's had 53%.",
+     "Cleaner losses: Lucero Acosta has 2 losses in the last 10, to opponents averaging a 45% win rate; Shannon Clark has 1.",
+     "Real finishing threat: Shannon Clark finished 5 of 8 recent wins; Lucero Acosta has been stopped 1 time in the last 8.",
+     "Better recent results: Last 9: Shannon Clark 8-1-0. Last 8: Lucero Acosta 6-2-0.",
+     "Ring rust on the other side: Lucero Acosta last fought 554 days before this card; Shannon Clark 111 days."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z",
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Shannon Clark",
+      "confidence": 55,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Women's Flyweight",
+       "records": [
+        "8-1-0",
+        "6-2-0"
+       ],
+       "lastFights": [
+        "2026-06-27",
+        "2025-04-10"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Cassio Barao",
+    "b": "Kevin Pease",
+    "pick": "Kevin Pease",
+    "confidence": 57,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 69,
+    "reasons": [
+     "Better recent results: Last 9: Kevin Pease 8-0-0 (1 NC). Last 10: Cassio Barao 8-1-1.",
+     "On a run: Kevin Pease has won 8 straight (Cassio Barao: 2).",
+     "Size and range: 1″ longer reach for Kevin Pease.",
+     "Better when it goes long: In fights reaching round 3: Kevin Pease 3-0-0, Cassio Barao 1-0-1.",
+     "Cleaner losses: Cassio Barao has 1 loss in the last 10, to opponents averaging a 81% win rate; Kevin Pease has 0."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z"
+   },
+   {
+    "a": "Eliezer Kubanza",
+    "b": "Trey Waters",
+    "pick": "Eliezer Kubanza",
+    "confidence": 53,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 80,
+    "reasons": [
+     "Real finishing threat: Eliezer Kubanza finished 8 of 9 recent wins; Trey Waters has been stopped 2 times in the last 10.",
+     "Better recent results: Last 10: Eliezer Kubanza 9-1-0. Last 10: Trey Waters 8-2-0.",
+     "Cleaner losses: Trey Waters has 2 losses in the last 10, to opponents averaging a 88% win rate; Eliezer Kubanza has 1.",
+     "On a run: Eliezer Kubanza has won 2 straight (Trey Waters: 1)."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z"
+   },
+   {
+    "a": "Cobey Fehr",
+    "b": "Rosario Romero",
+    "pick": "Cobey Fehr",
+    "confidence": 55,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Submission",
+    "scheduledRounds": 3,
+    "evidence": 56,
+    "reasons": [
+     "Real finishing threat: Cobey Fehr finished 3 of 4 recent wins; Rosario Romero has been stopped 0 times in the last 4.",
+     "Beat the better opposition: Opponents Cobey Fehr beat (last 10) had a 51% win rate going in; Rosario Romero's had 47%."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z",
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Cobey Fehr",
+      "confidence": 53,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Bantamweight",
+       "records": [
+        "4-0-0",
+        "4-0-0"
+       ],
+       "lastFights": [
+        "2026-06-27",
+        "2026-05-09"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Paulina Wisniewska",
+    "b": "Chelsea Hackett",
+    "pick": "Paulina Wisniewska",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 69,
+    "reasons": [
+     "Real finishing threat: Paulina Wisniewska finished 4 of 7 recent wins; Chelsea Hackett has been stopped 3 times in the last 9.",
+     "Better recent results: Last 8: Paulina Wisniewska 7-1-0. Last 9: Chelsea Hackett 5-3-1.",
+     "Cleaner losses: Chelsea Hackett has 3 losses in the last 10, to opponents averaging a 79% win rate; Paulina Wisniewska has 1.",
+     "Size and range: 2″ taller for Paulina Wisniewska."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z",
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Paulina Wisniewska",
+      "confidence": 59,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Women's Flyweight",
+       "records": [
+        "7-1-0",
+        "5-3-1"
+       ],
+       "lastFights": [
+        "2026-04-11",
+        "2026-04-16"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Noah Hermosillo",
+    "b": "Caden Cox",
+    "pick": null,
+    "confidence": null,
+    "tier": null,
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": null,
+    "scheduledRounds": 3,
+    "evidence": 11,
+    "reasons": [
+     "Size and range: 4″ taller for Caden Cox."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z"
+   },
+   {
+    "a": "Benita van Rooij",
+    "b": "Giulliany Perea",
+    "pick": "Benita van Rooij",
+    "confidence": 58,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 69,
+    "reasons": [
+     "Beat the better opposition: Opponents Benita van Rooij beat (last 10) had a 54% win rate going in; Giulliany Perea's had 48%.",
+     "Size and range: 6″ longer reach, 3″ taller for Benita van Rooij."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z",
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Benita van Rooij",
+      "confidence": 50,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Women's Strawweight",
+       "records": [
+        "7-2-0",
+        "5-1-0"
+       ],
+       "lastFights": [
+        "2026-03-20",
+        "2026-06-20"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Levan Khabalaev",
+    "b": "Morquez Forest",
+    "pick": "Levan Khabalaev",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 61,
+    "reasons": [
+     "On a run: Levan Khabalaev has won 5 straight.",
+     "Real finishing threat: Levan Khabalaev finished 4 of 5 recent wins; Morquez Forest has been stopped 1 time in the last 10.",
+     "Better recent results: Last 5: Levan Khabalaev 5-0-0. Last 10: Morquez Forest 8-2-0.",
+     "Cleaner losses: Morquez Forest has 2 losses in the last 10, to opponents averaging a 76% win rate; Levan Khabalaev has 0.",
+     "Size and range: 5″ taller for Levan Khabalaev."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z"
    }
   ]
  },

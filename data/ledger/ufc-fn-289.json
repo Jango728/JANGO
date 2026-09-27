@@ -256,6 +256,520 @@
    }
   ]
  },
- "results": null,
- "review": null
+ "results": {
+  "checkedAt": "2026-09-27",
+  "sources": [
+   {
+    "label": "Live result source",
+    "url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-prelim-results"
+   },
+   {
+    "label": "FightMag live results",
+    "url": "https://www.fightmag.com/ufc-vegas-121-rosas-jr-vs-barcelos-live-results/"
+   },
+   {
+    "label": "Live result source",
+    "url": "https://sports.yahoo.com/articles/ufc-vegas-121-results-raul-024948453.html"
+   },
+   {
+    "label": "Cageside Press recap",
+    "url": "https://cagesidepress.com/2026/09/26/two-days-notice-no-problem-luis-hernandez-submits-dumas/"
+   },
+   {
+    "label": "Cageside Press recap",
+    "url": "https://cagesidepress.com/2026/09/26/tina-black-captures-tuf-34-crown-valesca-machado-puts-away-melissa-amaya-at-ufc-vegas-121/"
+   },
+   {
+    "label": "Sherdog play-by-play",
+    "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+   },
+   {
+    "label": "UFC.com main card results",
+    "url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-results"
+   },
+   {
+    "label": "UFC.com official scorecards (lists the main event as TKO (slam))",
+    "url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards"
+   },
+   {
+    "label": "MMADecisions: Perez vs. Dumont (judges + media)",
+    "url": "https://mmadecisions.com/decision/16372/Ailin-Perez-vs-Norma-Dumont"
+   },
+   {
+    "label": "MMADecisions: Alatengheili vs. Castaneda (judges + media)",
+    "url": "https://mmadecisions.com/decision/16363/Heili-Alateng-vs-John-Castaneda"
+   },
+   {
+    "label": "MMADecisions: Vieira vs. Bryczek (judges + media)",
+    "url": "https://mmadecisions.com/decision/16367/Rodolfo-Vieira-vs-Robert-Bryczek"
+   },
+   {
+    "label": "Real Combat Media recap (scorecards entering R5, bonuses)",
+    "url": "https://realcombatmedia.com/2026/09/ufc-vegas-121-results-rosas-jr-barcelos/"
+   },
+   {
+    "label": "Yahoo Sports: results and bonuses",
+    "url": "https://sports.yahoo.com/articles/ufc-vegas-121-results-bonus-040426816.html"
+   }
+  ],
+  "bouts": [
+   {
+    "a": "Raul Rosas Jr.",
+    "b": "Raoni Barcelos",
+    "winner": "Raul Rosas Jr.",
+    "loser": "Raoni Barcelos",
+    "method": "KO/TKO",
+    "detail": "TKO (referee stoppage)",
+    "round": 5,
+    "time": "1:38",
+    "scheduledRounds": 5,
+    "line": 2.5,
+    "ou": "Over",
+    "notes": [
+     "Five-round war; Barcelos was stopped at 1:38 of R5 after a takedown exchange by the fence and left on a stretcher."
+    ],
+    "section": "Main Card",
+    "bonuses": [
+     {
+      "type": "FOTN"
+     }
+    ]
+   },
+   {
+    "a": "Norma Dumont",
+    "b": "Ailin Perez",
+    "winner": "Ailin Perez",
+    "loser": "Norma Dumont",
+    "method": "Decision",
+    "detail": "Unanimous decision (29-28 x3)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "Main Card",
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Michael Bell",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "judge": "Eric Colón",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "judge": "Sal D'Amato",
+       "a": 28,
+       "b": 29
+      }
+     ],
+     "media": [
+      {
+       "outlet": "CombatPress.com",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "MMA Junkie (Danny Segura)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "Sherdog (Brian Knapp)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Tudor Leonte)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "The MMA Vivisection (Zane Simon)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Dayne Fox)",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16372/Ailin-Perez-vs-Norma-Dumont"
+    }
+   },
+   {
+    "a": "Luis Hernandez",
+    "b": "Sedriques Dumas",
+    "winner": "Luis Hernandez",
+    "loser": "Sedriques Dumas",
+    "method": "Submission",
+    "detail": "Submission (standing guillotine choke)",
+    "round": 1,
+    "time": "0:57",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Two days' notice replacement (for Mickey Gall per Cageside Press); standing guillotine at 0:57."
+    ],
+    "section": "Main Card",
+    "bonuses": [
+     {
+      "type": "POTN",
+      "fighter": "Luis Hernandez"
+     }
+    ]
+   },
+   {
+    "a": "Mahammadali Osmanli",
+    "b": "Ilimbek Akylbek",
+    "winner": "Ilimbek Akylbek",
+    "loser": "Mahammadali Osmanli",
+    "method": "DQ",
+    "detail": "Disqualification (illegal knee by Osmanli)",
+    "round": 1,
+    "time": "2:19",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "TUF 34 final. Osmanli was disqualified for an illegal knee at 2:19 of R1; Akylbek Uulu wins the TUF title."
+    ],
+    "section": "Main Card"
+   },
+   {
+    "a": "Melissa Amaya",
+    "b": "Tina Black",
+    "winner": "Tina Black",
+    "loser": "Melissa Amaya",
+    "method": "KO/TKO",
+    "detail": "TKO (punches)",
+    "round": 2,
+    "time": "3:19",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "TUF 34 strawweight final. Tina Black (Valesca Machado) dropped Amaya late in R1 and finished her with punches in R2."
+    ],
+    "section": "Main Card"
+   },
+   {
+    "a": "Brady Hiestand",
+    "b": "Rinya Nakamura",
+    "winner": "Brady Hiestand",
+    "loser": "Rinya Nakamura",
+    "method": "Submission",
+    "detail": "Submission (rear-naked choke)",
+    "round": 2,
+    "time": "4:07",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "Prelims"
+   },
+   {
+    "a": "Rodolfo Vieira",
+    "b": "Robert Bryczek",
+    "winner": "Rodolfo Vieira",
+    "loser": "Robert Bryczek",
+    "method": "Decision",
+    "detail": "Unanimous decision (30-27 x3)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "Prelims",
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Adalaide Byrd",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "judge": "Sal D'Amato",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "judge": "Chris Lee",
+       "a": 30,
+       "b": 27
+      }
+     ],
+     "media": [
+      {
+       "outlet": "Wrestling Observer (Ryan Frederick)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "MMA Junkie (Danny Segura)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Brian Knapp)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Tudor Leonte)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Dayne Fox)",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16367/Rodolfo-Vieira-vs-Robert-Bryczek"
+    }
+   },
+   {
+    "a": "Rodolfo Bellato",
+    "b": "Christian Edwards",
+    "winner": "Christian Edwards",
+    "loser": "Rodolfo Bellato",
+    "method": "KO/TKO",
+    "detail": "TKO (punches)",
+    "round": 3,
+    "time": "1:47",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "Prelims"
+   },
+   {
+    "a": "Elves Brener",
+    "b": "Josiah Harrell",
+    "winner": "Elves Brener",
+    "loser": "Josiah Harrell",
+    "method": "KO/TKO",
+    "detail": "TKO (punches)",
+    "round": 1,
+    "time": "4:14",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [],
+    "section": "Prelims"
+   },
+   {
+    "a": "Montel Jackson",
+    "b": "Ricky Simon",
+    "winner": "Montel Jackson",
+    "loser": "Ricky Simon",
+    "method": "KO/TKO",
+    "detail": "TKO (punches)",
+    "round": 2,
+    "time": "2:39",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [],
+    "section": "Prelims"
+   },
+   {
+    "a": "John Castaneda",
+    "b": "Alatengheili",
+    "winner": "Alatengheili",
+    "loser": "John Castaneda",
+    "method": "Decision",
+    "detail": "Split decision (29-28, 28-29, 29-28)",
+    "round": 3,
+    "time": "5:00",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Over",
+    "notes": [
+     "Split decision; Sherdog's play-by-play had Castaneda controlling R1–R2 before Alatengheili's R3 takedowns."
+    ],
+    "section": "Prelims",
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Michael Bell",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "judge": "Sal D'Amato",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "judge": "Chris Lee",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "media": [
+      {
+       "outlet": "CombatPress.com",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Keith Shillan)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "WrestlingObserver.com",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "MMA Junkie",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Brian Knapp)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Tudor Leonte)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Dayne Fox)",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16363/Heili-Alateng-vs-John-Castaneda"
+    }
+   },
+   {
+    "a": "Vanessa Demopoulos",
+    "b": "Yazmin Jauregui",
+    "winner": "Yazmin Jauregui",
+    "loser": "Vanessa Demopoulos",
+    "method": "KO/TKO",
+    "detail": "TKO (strikes)",
+    "round": 1,
+    "time": "1:02",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [],
+    "section": "Prelims",
+    "bonuses": [
+     {
+      "type": "POTN",
+      "fighter": "Yazmin Jauregui"
+     }
+    ]
+   }
+  ],
+  "updatedAt": "2026-09-27T03:56:10+00:00",
+  "live": false
+ },
+ "review": {
+  "status": "follow-up",
+  "reviewedAt": "2026-09-27",
+  "followUpUntil": "2026-09-29",
+  "lessons": [
+   "Rough card: 4/12 winners, 9/12 rounds O/U, 4/12 method. Three of our four highest-confidence misses (Bellato 75, Amaya 68, Harrell 64) were stopped; Osmanli (68) lost on a DQ.",
+   "'Opponent is sliding' overfired: Vieira (2-fight skid), Brener (3) and Montel Jackson (2) all won, two of them by stoppage. Same lesson as UFC 331's Vera — a skid against good opposition isn't decline.",
+   "Long layoffs for TUF cast members were read as ring rust (Black 651 days, Hiestand 833 days). Both had fought in the TUF house; both won. The engine's inactivity signal is wrong for TUF fighters.",
+   "Rounds held up (9/12). All three O/U misses were first-round endings we had Over (Jauregui, Brener, the Osmanli DQ).",
+   "Two misses are low-information: a DQ (Osmanli) and a split decision (Castaneda). Initial review — scorecards and recaps re-checked through Sep 29.",
+   "Follow-up (Sep 27): the Rosas hit was lucky. Barcelos was ahead on all three judges' cards going into R5 (Yahoo Sports, Real Combat Media, Yardbarker; Real Combat Media reports one judge had R4 10-8 for Barcelos). Our script (Rosas by decision) would have lost. The fight ended on an R5 clinch takedown (UFC.com: TKO (slam)) that left Barcelos limp; replays showed no clean strike, he was stretchered out and later reported stable, alert and responsive, with no diagnosis published.",
+   "Follow-up: Perez was a fortunate hit too. All three judges gave her R1 and R3 on control (3:41 to 0:40), but Dumont out-landed her 46-37 in significant strikes, and 4 of 6 media scores on MMADecisions had Dumont 29-28. Dumont publicly rejected the result.",
+   "Follow-up: Castaneda is confirmed as judging variance. All 7 media scores on MMADecisions had Castaneda 29-28, and one judge (Chris Lee) agreed.",
+   "Net read: the luck cuts both ways (Castaneda robbed; Rosas and Perez fortunate), so 4/12 doesn't understate the engine. If anything, it overstates it by one.",
+   "Osmanli accused Akylbek of exaggerating the illegal knee (Instagram Live, via MiddleEasy). No appeal or commission action has been reported, so the DQ stands and stays logged as variance."
+  ],
+  "bouts": [
+   {
+    "a": "Mahammadali Osmanli",
+    "b": "Ilimbek Akylbek",
+    "cause": "variance",
+    "note": "Ended on a DQ for an illegal knee at 2:19 of R1 — no read on who was winning. Winner, method and Under all lost to the foul."
+   },
+   {
+    "a": "Melissa Amaya",
+    "b": "Tina Black",
+    "cause": "data",
+    "note": "Picked unbeaten Amaya at 68% partly on Tina Black's 651-day 'ring rust'. That gap was the TUF 34 house, which our history doesn't count. Black dropped Amaya in R1 and finished her in R2."
+   },
+   {
+    "a": "Brady Hiestand",
+    "b": "Rinya Nakamura",
+    "cause": "data",
+    "note": "Leaned Nakamura mainly on Hiestand's 833-day layoff — again a TUF season our data didn't see. Hiestand took him down, took the back and finished a RNC at 4:07 of R2."
+   },
+   {
+    "a": "Rodolfo Vieira",
+    "b": "Robert Bryczek",
+    "cause": "style-read",
+    "note": "Picked Bryczek by KO on Vieira's 2-fight skid and Bryczek's 6-for-6 finishing rate. Vieira's takedowns and control won every round 30-27; the engine has no grappler-vs-striker matchup read."
+   },
+   {
+    "a": "Rodolfo Bellato",
+    "b": "Christian Edwards",
+    "cause": "model",
+    "note": "Our strongest pick (75%), driven by Edwards' 5 losses in his last 10. Edwards floored Bellato with a left hook in R3. Loss-quality signals pushed confidence too high for a light heavyweight fight."
+   },
+   {
+    "a": "Elves Brener",
+    "b": "Josiah Harrell",
+    "cause": "model",
+    "note": "Leaned Harrell by decision on Brener's 3-fight skid. Brener's jab and right hook dropped Harrell for a R1 TKO (4:14), which also cost the Over."
+   },
+   {
+    "a": "Montel Jackson",
+    "b": "Ricky Simon",
+    "cause": "model",
+    "note": "55% lean on Simon built on a 2018 head-to-head and Jackson's 2-fight skid. Jackson dropped Simon with one-twos for a R2 TKO. An 8-year-old meeting shouldn't carry weight."
+   },
+   {
+    "a": "John Castaneda",
+    "b": "Alatengheili",
+    "cause": "variance",
+    "note": "Split decision (29-28, 28-29, 29-28). Castaneda took R1–R2 on Sherdog's account before Alatengheili's R3 takedowns swung it. Follow-up: all 7 media scores on MMADecisions had Castaneda 29-28."
+   },
+   {
+    "a": "Vanessa Demopoulos",
+    "b": "Yazmin Jauregui",
+    "note": "Winner hit; rounds missed — Jauregui's 1:02 R1 KO beat the Over."
+   },
+   {
+    "a": "Raul Rosas Jr.",
+    "b": "Raoni Barcelos",
+    "note": "Winner and Over hit, method (Decision) missed. Follow-up: Barcelos led on all three cards entering R5, so this was a lucky hit. Rosas got the finish on a fence takedown/slam after which Barcelos went limp (UFC.com: TKO (slam)). Rosas' late-round output was real, but the 65% pick on a decision script was wrong about the fight's run."
+   },
+   {
+    "a": "Norma Dumont",
+    "b": "Ailin Perez",
+    "note": "Winner hit (56%), decision and Over hit. Follow-up: 29-28 x3 on control, but 4 of 6 media had Dumont (she out-landed Perez 46-37). This is close to a coin flip, not a confirmation of the read."
+   }
+  ],
+  "modelChanges": [
+   "Proposal (for Suleman's approval, not applied): damp the 'Opponent is sliding' signal when the skid came against opponents averaging 65%+ win rates.",
+   "Proposal: ignore head-to-head meetings older than 5 years.",
+   "Proposal: don't apply the ring-rust penalty to fighters coming off a TUF season (treat the gap as unknown).",
+   "Proposal: alongside winner accuracy, log a 'process' check per decided bout: who was ahead on the official cards through the last full round (for finishes) and the media majority (for decisions). Calibration can then separate lucky hits (Rosas, Perez) from robbed misses (Castaneda)."
+  ],
+  "scouting": {
+   "checkedAt": "2026-09-27",
+   "noNote": []
+  }
+ }
 }

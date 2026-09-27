@@ -12,6 +12,7 @@ export function CardPulse({ event, fighters }: { event: Event; fighters: Record<
   const strongest = rows.filter((r) => r.p.confidence).sort((x, y) => (y.p.confidence ?? 0) - (x.p.confidence ?? 0))[0];
   const winner = strongest ? (strongest.p.pick === strongest.a.id ? strongest.a : strongest.b) : null;
   const under = rows.filter((r) => r.r?.side === "Under").length;
+  const over = rows.filter((r) => r.r?.side === "Over").length;
   const pending = rows.filter((r) => r.p.status === "pending" || r.p.evidenceLabel === "Limited" || r.p.evidenceLabel === "Pending").length;
   // Days until fight night, in Toronto time (the site's home time zone)
   const todayTo = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Toronto" }).format(new Date());
@@ -24,21 +25,21 @@ export function CardPulse({ event, fighters }: { event: Event; fighters: Record<
       </div>
       <div>
         <Trophy size={15} />
-        <span>Best bet on the model</span>
-        <strong>{winner ? `${winner.name} · ${strongest.p.confidence}%` : "Pending"}</strong>
+        <span>Most confident pick</span>
+        <strong title={strongest?.p.tier ?? undefined}>{winner ? `${winner.name} · ${strongest.p.confidence}%` : "Pending"}</strong>
       </div>
       <div>
         <Clock3 size={15} />
-        <span>Rounds leans</span>
+        <span>Rounds calls</span>
         <strong>
-          {rows.length - under} over · {under} under
+          {over} Over · {under} Under
         </strong>
       </div>
       <div>
         <ShieldAlert size={15} />
-        <span>Thin data</span>
-        <strong>
-          {pending} of {rows.length}
+        <span>Limited data</span>
+        <strong title="Bouts where a fighter's verified history is thin or still pending. Their picks carry less weight.">
+          {pending} of {rows.length} bouts
         </strong>
       </div>
       {when && (

@@ -2,6 +2,7 @@
  "eventId": "ufc332",
  "title": "UFC 332: Silva vs. Wang",
  "date": "2026-10-03",
+ "lockAt": "2026-10-04T00:00:00.000Z",
  "promotion": "UFC",
  "forecast": {
   "engine": "1.0",
@@ -27,6 +28,40 @@
      "Better recent results: Last 10: Natalia Silva 10-0-0. Last 10: Wang Cong 9-1-0.",
      "Age curve: Wang Cong is 34; Natalia Silva is 29.",
      "On a run: Natalia Silva has won 10 straight (Wang Cong: 4)."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Natalia Silva",
+      "confidence": 57,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 2.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 5,
+       "division": "Women's Flyweight",
+       "records": [
+        "20-5-1",
+        "10-1-0"
+       ],
+       "lastFights": [
+        "2026-01-24",
+        "2026-07-11"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -88,6 +123,40 @@
      "Proven at this level: UFC record: Khaos Williams 7-4, Roberto Soldić 0-0.",
      "Size and range: 4″ longer reach, 1″ taller for Khaos Williams.",
      "Ring rust on the other side: Roberto Soldić last fought 590 days before this card; Khaos Williams 140 days."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Khaos Williams",
+      "confidence": 57,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Welterweight",
+       "records": [
+        "16-5-0",
+        "21-4-0"
+       ],
+       "lastFights": [
+        "2026-05-16",
+        "2025-02-20"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -109,6 +178,40 @@
      "Real finishing threat: Ateba Gautier finished 9 of 10 recent wins; Roman Kopylov has been stopped 1 time in the last 10.",
      "On a run: Ateba Gautier has won 10 straight (Roman Kopylov: 1).",
      "Proven at this level: UFC record: Ateba Gautier 5-0, Roman Kopylov 6-5."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T19:35:36.230Z",
+      "engine": "1.3",
+      "pick": "Ateba Gautier",
+      "confidence": 75,
+      "tier": "Strong pick",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.3 update (round-by-round tape: late-round output, takedown defence, early finish threat)",
+      "changed": [
+       "rounds"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Middleweight",
+       "records": [
+        "11-1-0",
+        "15-5-0"
+       ],
+       "lastFights": [
+        "2026-05-09",
+        "2026-05-09"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -130,6 +233,40 @@
      "Proven at this level: UFC record: Alden Coria 2-0, Imanol Rodriguez 1-0.",
      "Better recent results: Last 10: Alden Coria 8-1-0 (1 NC). Last 8: Imanol Rodriguez 7-1-0.",
      "Beat the better opposition: Opponents Alden Coria beat (last 10) had a 72% win rate going in; Imanol Rodriguez's had 70%."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Alden Coria",
+      "confidence": 53,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Flyweight",
+       "records": [
+        "7-0-0",
+        "13-3-0"
+       ],
+       "lastFights": [
+        "2026-02-28",
+        "2026-07-18"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -151,6 +288,40 @@
      "Proven at this level: UFC record: Damian Pinas 2-0, Andrey Pulyaev 1-3.",
      "Real finishing threat: Damian Pinas finished 8 of 9 recent wins; Andrey Pulyaev has been stopped 2 times in the last 10.",
      "Cleaner losses: Andrey Pulyaev has 4 losses in the last 10, to opponents averaging a 78% win rate; Damian Pinas has 1."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Damian Pinas",
+      "confidence": 77,
+      "tier": "Strong pick",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "rounds"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Middleweight",
+       "records": [
+        "10-1-0",
+        "10-5-0"
+       ],
+       "lastFights": [
+        "2026-07-11",
+        "2026-06-27"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -172,6 +343,40 @@
      "Better when it goes long: In fights reaching round 3: Marcus McGhee 3-1-0, Bernardo Sopaj 2-3-0.",
      "Cleaner losses: Bernardo Sopaj has 3 losses in the last 10, to opponents averaging a 81% win rate; Marcus McGhee has 2.",
      "Better recent results: Last 10: Marcus McGhee 8-2-0. Last 10: Bernardo Sopaj 7-3-0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Benardo Sopaj",
+      "confidence": 58,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "pick"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Bantamweight",
+       "records": [
+        "11-2-0",
+        "13-3-0"
+       ],
+       "lastFights": [
+        "2026-06-06",
+        "2026-05-16"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -191,6 +396,40 @@
      "Proven at this level: UFC record: Anthony Wint 1-0, Lucas Armand 0-0.",
      "Real finishing threat: Anthony Wint finished 7 of 8 recent wins; Lucas Armand has been stopped 0 times in the last 6.",
      "Better recent results: Last 8: Anthony Wint 8-0-0. Last 6: Lucas Armand 6-0-0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Anthony Wint",
+      "confidence": 52,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Heavyweight",
+       "records": [
+        "8-0-0",
+        "6-0-0"
+       ],
+       "lastFights": [
+        "2026-08-22",
+        "2026-03-07"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -212,6 +451,40 @@
      "Cleaner losses: Johnny Walker has 5 losses in the last 10, to opponents averaging a 70% win rate; Mick Parkin has 1.",
      "Better when it goes long: In fights reaching round 3: Mick Parkin 3-1-0, Johnny Walker 1-2-0.",
      "Age curve: Johnny Walker is 34; Mick Parkin is 30."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Mick Parkin",
+      "confidence": 71,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Heavyweight",
+       "records": [
+        "22-10-0",
+        "10-1-0"
+       ],
+       "lastFights": [
+        "2026-04-11",
+        "2025-03-22"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -233,6 +506,40 @@
      "Opponent is sliding: Rafael Dos Anjos has lost 3 straight.",
      "Ring rust on the other side: Rafael Dos Anjos last fought 707 days before this card; Alexander Hernandez 161 days.",
      "Size and range: 2″ longer reach, 1″ taller for Alexander Hernandez."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T19:35:36.230Z",
+      "engine": "1.3",
+      "pick": "Alexander Hernandez",
+      "confidence": 77,
+      "tier": "Strong pick",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.3 update (round-by-round tape: late-round output, takedown defence, early finish threat)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Lightweight",
+       "records": [
+        "32-17-0",
+        "18-9-0"
+       ],
+       "lastFights": [
+        "2024-10-26",
+        "2026-04-25"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -253,6 +560,40 @@
      "Better recent results: Last 10: Ismail Naurdiev 6-4-0. Last 10: Marvin Vettori 4-6-0.",
      "Better when it goes long: In fights reaching round 3: Ismail Naurdiev 3-1-0, Marvin Vettori 4-6-0.",
      "Age curve: Marvin Vettori is 33; Ismail Naurdiev is 30."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Ismail Naurdiev",
+      "confidence": 67,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Middleweight",
+       "records": [
+        "19-10-1",
+        "25-8-0"
+       ],
+       "lastFights": [
+        "2025-12-06",
+        "2025-11-22"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -274,7 +615,63 @@
      "Cleaner losses: Court McGee has 7 losses in the last 10, to opponents averaging a 67% win rate; Eric Nolan has 4.",
      "Real finishing threat: Eric Nolan finished 5 of 6 recent wins; Court McGee has been stopped 2 times in the last 10.",
      "Ring rust on the other side: Court McGee last fought 476 days before this card; Eric Nolan 98 days."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Eric Nolan",
+      "confidence": 54,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Welterweight",
+       "records": [
+        "23-14-0",
+        "8-5-0"
+       ],
+       "lastFights": [
+        "2025-06-14",
+        "2026-06-27"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
+   },
+   {
+    "a": "Jacobe Smith",
+    "b": "Bruce Whitehead",
+    "pick": "Jacobe Smith",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 75,
+    "reasons": [
+     "Proven at this level: UFC record: Jacobe Smith 3-0, Bruce Whitehead 0-0.",
+     "Real finishing threat: Jacobe Smith finished 8 of 10 recent wins; Bruce Whitehead has been stopped 2 times in the last 10.",
+     "Better recent results: Last 10: Jacobe Smith 10-0-0. Last 10: Bruce Whitehead 8-2-0.",
+     "Beat the better opposition: Opponents Jacobe Smith beat (last 10) had a 59% win rate going in; Bruce Whitehead's had 58%.",
+     "On a run: Jacobe Smith has won 10 straight (Bruce Whitehead: 2)."
+    ],
+    "frozenAt": "2026-09-26T07:04:34.000Z"
    }
   ]
  },

@@ -1,0 +1,2358 @@
+{
+  "checkedAt": "2026-09-25",
+  "fighters": [
+    {
+      "name": "Christian Eckerlin",
+      "nickname": null,
+      "record": "18-8-0",
+      "birthDate": "1986-11-16",
+      "height_in": 71,
+      "reach_in": 71,
+      "stance": null,
+      "country": "Germany",
+      "source": "https://www.tapology.com/fightcenter/fighters/13589-Christian-Eckerlin",
+      "sherdog": "https://www.sherdog.com/fighter/Christian-Eckerlin-51769",
+      "note": "Record excludes 1 no contest(s) (Tapology: 18-8-0, 1 NC); Stance not listed on Tapology or Sherdog; Bouts with 'sherdogFilled' had no detail on Tapology; listed fields come from Sherdog",
+      "history": [
+        {
+          "opponent": "Matouš Kohout",
+          "date": "2026-03-07",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 85: Severino vs. Kakhorov",
+          "opponentRecord": "12-9-0"
+        },
+        {
+          "opponent": "Ivica Trušček",
+          "date": "2025-10-18",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Punches & Elbows to Ground Oponent)",
+          "round": 1,
+          "time": "3:34",
+          "event": "OKTAGON 78: Eckerlin vs. Trušček",
+          "opponentRecord": "44-39-0"
+        },
+        {
+          "opponent": "Robert Pukač",
+          "date": "2025-06-28",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Overhand Right & Punches)",
+          "round": 3,
+          "time": "1:05",
+          "event": "OKTAGON 73: Eckerlin vs. Pukač",
+          "opponentRecord": "19-13-1"
+        },
+        {
+          "opponent": "Christian Jungwirth",
+          "date": "2024-10-12",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "OKTAGON 62: Bigger Than Ever",
+          "opponentRecord": "15-8-0"
+        },
+        {
+          "opponent": "Miroslav Brož",
+          "date": "2024-05-04",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Elbows to Grounded Opponent)",
+          "round": 2,
+          "time": "4:49",
+          "event": "OKTAGON 57: Eckerlin vs. Brož",
+          "opponentRecord": "17-3-1"
+        },
+        {
+          "opponent": "Leandro Silva",
+          "date": "2023-11-18",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 49: Moeil vs Todev",
+          "opponentRecord": "27-11-1"
+        },
+        {
+          "opponent": "Denilson Neves",
+          "date": "2022-10-15",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 4,
+          "time": "4:37",
+          "event": "OKTAGON 36: Eckerlin vs. Neves 2",
+          "opponentRecord": "16-8-0"
+        },
+        {
+          "opponent": "Denilson Neves",
+          "date": "2022-06-04",
+          "result": "NC",
+          "promotion": "OKTAGON",
+          "method": "No Contest (Overturned)",
+          "round": 2,
+          "time": "0:38",
+          "event": "OKTAGON 33",
+          "opponentRecord": "16-8-0",
+          "sherdogFilled": [
+            "round",
+            "time"
+          ]
+        },
+        {
+          "opponent": "John Palaiologos",
+          "date": "2021-12-04",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 1,
+          "time": "2:55",
+          "event": "OKTAGON 29",
+          "opponentRecord": "18-10-1"
+        },
+        {
+          "opponent": "Albert Odzimkowski",
+          "date": "2020-12-19",
+          "result": "W",
+          "promotion": "KSW",
+          "method": "Decision (Split)",
+          "round": 3,
+          "time": "5:00",
+          "event": "KSW 57: De Fries vs. Kita",
+          "opponentRecord": "11-4-0"
+        },
+        {
+          "opponent": "Dejan Dragosavac",
+          "date": "2020-10-03",
+          "result": "W",
+          "promotion": "FFC",
+          "method": "Submission (Armbar)",
+          "round": 1,
+          "time": "0:54",
+          "event": "Fair FC 10",
+          "opponentRecord": "0-0-0"
+        },
+        {
+          "opponent": "Nihad Nasufovic",
+          "date": "2019-03-23",
+          "result": "W",
+          "promotion": "GMC",
+          "method": "Decision",
+          "round": 5,
+          "time": "5:00",
+          "event": "GMC 19",
+          "opponentRecord": "9-3-0"
+        },
+        {
+          "opponent": "Daniel Dörrer",
+          "date": "2019-02-02",
+          "result": "W",
+          "promotion": "GMC",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "0:15",
+          "event": "GMC 18",
+          "opponentRecord": "7-7-0"
+        },
+        {
+          "opponent": "Julian Pennant",
+          "date": "2018-10-13",
+          "result": "W",
+          "promotion": "GMC",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "1:29",
+          "event": "GMC 17",
+          "opponentRecord": "3-0-0"
+        },
+        {
+          "opponent": "Viktor Dell",
+          "date": "2017-09-16",
+          "result": "W",
+          "promotion": "SFC",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 1,
+          "time": "0:49",
+          "event": "Superior FC 18",
+          "opponentRecord": "1-6-0"
+        },
+        {
+          "opponent": "Gianni Melillo",
+          "date": "2017-03-11",
+          "result": "L",
+          "promotion": "SFC",
+          "method": "KO/TKO (Punches)",
+          "round": 2,
+          "time": "2:49",
+          "event": "Superior FC 16",
+          "opponentRecord": "7-1-0"
+        },
+        {
+          "opponent": "Rasul Abdulaev",
+          "date": "2013-04-09",
+          "result": "L",
+          "promotion": "M-1",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "M-1 Challenge 38",
+          "opponentRecord": "0-0-0"
+        },
+        {
+          "opponent": "David Rosmon",
+          "date": "2012-10-13",
+          "result": "L",
+          "promotion": "EUMMA",
+          "method": "KO/TKO (Hand Injury)",
+          "round": 1,
+          "time": "5:00",
+          "event": "EMMA 2 - Fight Night in Aarhus",
+          "opponentRecord": "7-7-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Ioan Cojocaru",
+          "date": "2012-03-24",
+          "result": "W",
+          "promotion": "EMS",
+          "method": "Submission (Triangle Choke)",
+          "round": 1,
+          "time": null,
+          "event": "EMS - Middleweight Tournament Opening Round",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Arsen Temirkhanov",
+          "date": "2011-11-19",
+          "result": "L",
+          "promotion": "M-1",
+          "method": "Submission (Armbar)",
+          "round": 1,
+          "time": "2:31",
+          "event": "M-1 Challenge 29",
+          "opponentRecord": "6-1-0"
+        },
+        {
+          "opponent": "Alexander Yakovlev",
+          "date": "2011-04-28",
+          "result": "L",
+          "promotion": "M-1",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 2,
+          "time": "3:14",
+          "event": "M-1 Challenge 25",
+          "opponentRecord": "17-4-0"
+        },
+        {
+          "opponent": "Piotr Hallmann",
+          "date": "2010-10-08",
+          "result": "W",
+          "promotion": "GMC",
+          "method": "KO/TKO (Retirement)",
+          "round": 4,
+          "time": "0:51",
+          "event": "GMC 2 - Continued",
+          "opponentRecord": "4-0-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ],
+          "note": "Sherdog dates this bout 2010-10-09"
+        },
+        {
+          "opponent": "Sebastian Baron",
+          "date": "2010-09-10",
+          "result": "W",
+          "promotion": "RFC",
+          "method": "KO/TKO (Punch)",
+          "round": 1,
+          "time": "0:57",
+          "event": "RFC - Respect Fighting Championship 4",
+          "opponentRecord": "6-7-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ],
+          "note": "Sherdog dates this bout 2010-09-11"
+        },
+        {
+          "opponent": "Tobias Pokutta",
+          "date": "2010-05-29",
+          "result": "W",
+          "promotion": "GMC",
+          "method": "Submission (Rear-Naked Choke)",
+          "round": 2,
+          "time": "3:33",
+          "event": "GMC 1 - The Beginning",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Willi Frank",
+          "date": "2010-05-01",
+          "result": "W",
+          "promotion": "FSG",
+          "method": "Submission (Rear-Naked Choke)",
+          "round": 2,
+          "time": "2:35",
+          "event": "FSG - Cologne Fight Night",
+          "opponentRecord": "0-1-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Damian Baziak",
+          "date": "2009-12-05",
+          "result": "W",
+          "promotion": "MFC",
+          "method": "Submission (Rear-Naked Choke)",
+          "round": 2,
+          "time": null,
+          "event": "TFS - Mix Fight Gala IX",
+          "opponentRecord": "1-3-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Stephan Berg",
+          "date": "2009-09-11",
+          "result": "W",
+          "promotion": "NOP",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "3:59",
+          "event": "NOP - Night of Pain 2nd",
+          "opponentRecord": "0-1-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ],
+          "note": "Sherdog dates this bout 2009-09-12"
+        }
+      ]
+    },
+    {
+      "name": "David Kozma",
+      "nickname": "Pink Panther",
+      "record": "34-15-0",
+      "birthDate": "1992-08-13",
+      "height_in": 72,
+      "reach_in": null,
+      "stance": null,
+      "country": "Czech Republic",
+      "source": "https://www.tapology.com/fightcenter/fighters/18860-david-kozma-nestling",
+      "sherdog": "https://www.sherdog.com/fighter/David-Kozma-74181",
+      "note": "2020-07-04 exhibition (Modified MMA) bout vs Milan Kratochvíla excluded; Stance not listed on Tapology or Sherdog; reach not listed; Bouts with 'sherdogFilled' had no detail on Tapology; listed fields come from Sherdog",
+      "history": [
+        {
+          "opponent": "David Zawada",
+          "date": "2026-08-01",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 92: Szabová vs. Pudilová",
+          "opponentRecord": "20-12-0"
+        },
+        {
+          "opponent": "Jozef Wittner",
+          "date": "2026-02-14",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 84: Paradeiser vs. Brito",
+          "opponentRecord": "16-5-0"
+        },
+        {
+          "opponent": "Robert Pukač",
+          "date": "2025-02-22",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "2:15",
+          "event": "OKTAGON 67: Creasey vs. Adamia",
+          "opponentRecord": "18-13-1"
+        },
+        {
+          "opponent": "Ion Surdu",
+          "date": "2024-06-08",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Right Cross)",
+          "round": 1,
+          "time": "2:27",
+          "event": "OKTAGON 58: Vémola vs Végh 2",
+          "opponentRecord": "14-6-0"
+        },
+        {
+          "opponent": "Bojan Veličković",
+          "date": "2023-09-16",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Ground & Pound)",
+          "round": 1,
+          "time": "3:43",
+          "event": "OKTAGON 46: Dalisda vs. Austin",
+          "opponentRecord": "23-12-2"
+        },
+        {
+          "opponent": "Alex Lohoré",
+          "date": "2023-05-20",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 43: Kincl vs Vemola 2",
+          "opponentRecord": "23-8-0"
+        },
+        {
+          "opponent": "Łukasz Siwiec",
+          "date": "2023-03-04",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Split)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 40",
+          "opponentRecord": "8-1-0"
+        },
+        {
+          "opponent": "Kaik Brito",
+          "date": "2022-12-03",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Punches)",
+          "round": 3,
+          "time": "4:12",
+          "event": "OKTAGON 37: Kozma vs. Brito",
+          "opponentRecord": "15-4-0"
+        },
+        {
+          "opponent": "Petr Kníže",
+          "date": "2022-04-09",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "OKTAGON 32",
+          "opponentRecord": "13-1-0"
+        },
+        {
+          "opponent": "Bojan Veličković",
+          "date": "2021-12-04",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO",
+          "round": 4,
+          "time": "3:16",
+          "event": "OKTAGON 29",
+          "opponentRecord": "20-10-2"
+        },
+        {
+          "opponent": "Leandro Silva",
+          "date": "2021-05-29",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "OKTAGON 24",
+          "opponentRecord": "25-8-1"
+        },
+        {
+          "opponent": "Máté Kertész",
+          "date": "2020-10-17",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "Oktagon 17",
+          "opponentRecord": "8-3-0"
+        },
+        {
+          "opponent": "Roman Mukhamedshin",
+          "date": "2019-12-14",
+          "result": "L",
+          "promotion": "RCCM",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 3,
+          "time": "2:09",
+          "event": "RCC MMA 7: Shlemenko vs. Branch",
+          "opponentRecord": "7-2-0"
+        },
+        {
+          "opponent": "Alexey Shurkevich",
+          "date": "2019-05-04",
+          "result": "W",
+          "promotion": "RCCM",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "RCC MMA 6: Shlemenko vs. Andrade",
+          "opponentRecord": "7-2-0"
+        },
+        {
+          "opponent": "Samuel Krištofič",
+          "date": "2019-03-16",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "Oktagon 11",
+          "opponentRecord": "10-2-0"
+        },
+        {
+          "opponent": "Gábor Boráros",
+          "date": "2018-11-17",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Knee Injury)",
+          "round": 2,
+          "time": "0:22",
+          "event": "Oktagon 10",
+          "opponentRecord": "16-5-1"
+        },
+        {
+          "opponent": "Máté Kertész",
+          "date": "2018-09-15",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "Oktagon 9",
+          "opponentRecord": "6-1-0"
+        },
+        {
+          "opponent": "Michał Wiencek",
+          "date": "2018-07-28",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Knee)",
+          "round": 1,
+          "time": "4:50",
+          "event": "Oktagon 7",
+          "opponentRecord": "9-5-0"
+        },
+        {
+          "opponent": "Alexey Valivakhin",
+          "date": "2018-05-26",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "2:17",
+          "event": "Oktagon 6: The Rematch",
+          "opponentRecord": "16-12-0"
+        },
+        {
+          "opponent": "Rafał Lewoń",
+          "date": "2018-03-17",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Elbows)",
+          "round": 1,
+          "time": "4:50",
+          "event": "Oktagon 5",
+          "opponentRecord": "14-7-0"
+        },
+        {
+          "opponent": "Petr Kníže",
+          "date": "2017-12-07",
+          "result": "L",
+          "promotion": "XFN",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "XFN 6: Ondruš vs. Vémola",
+          "opponentRecord": "8-1-0"
+        },
+        {
+          "opponent": "Adam Horváth",
+          "date": "2017-09-29",
+          "result": "W",
+          "promotion": "FFL",
+          "method": "KO/TKO",
+          "round": 3,
+          "time": null,
+          "event": "Fusion FN 16",
+          "opponentRecord": "5-1-0"
+        },
+        {
+          "opponent": "Zoran Đođ",
+          "date": "2017-04-28",
+          "result": "W",
+          "promotion": "EPF",
+          "method": "KO/TKO (Punches)",
+          "round": 3,
+          "time": "3:07",
+          "event": "East PRO Fight 9",
+          "opponentRecord": "9-6-0"
+        },
+        {
+          "opponent": "Lovro Vrkič",
+          "date": "2017-02-24",
+          "result": "W",
+          "promotion": "HG",
+          "method": "KO/TKO",
+          "round": 1,
+          "time": "4:55",
+          "event": "Heroes Gate 18",
+          "opponentRecord": "5-2-0"
+        },
+        {
+          "opponent": "Johannes Michalik",
+          "date": "2016-12-18",
+          "result": "W",
+          "promotion": "XFN",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 1,
+          "time": "4:39",
+          "event": "XFN 2: World Cup of MMA",
+          "opponentRecord": "5-5-0"
+        },
+        {
+          "opponent": "Michal Vostry",
+          "date": "2016-10-27",
+          "result": "W",
+          "promotion": "HG",
+          "method": "Submission (Calf Slicer)",
+          "round": 2,
+          "time": "3:40",
+          "event": "HG - Heroes Gate 17",
+          "opponentRecord": "8-8-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Emin Sefa",
+          "date": "2016-06-04",
+          "result": "W",
+          "promotion": "FNG",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "Fight Nights Global 49",
+          "opponentRecord": "4-3-0"
+        },
+        {
+          "opponent": "Marek Bartl",
+          "date": "2015-11-28",
+          "result": "W",
+          "promotion": "GCF",
+          "method": "Submission (Armbar)",
+          "round": 2,
+          "time": "4:09",
+          "event": "GCF 32: WMMAA Finals",
+          "opponentRecord": "4-6-0"
+        },
+        {
+          "opponent": "Saulius Bucius",
+          "date": "2015-05-22",
+          "result": "L",
+          "promotion": "GCF",
+          "method": "Submission (Triangle Choke)",
+          "round": 1,
+          "time": "3:56",
+          "event": "GCF 31: Cage Fight Brno 6",
+          "opponentRecord": "11-10-1"
+        },
+        {
+          "opponent": "Jaroslav Poborský",
+          "date": "2015-02-25",
+          "result": "L",
+          "promotion": "GCF",
+          "method": "Decision (Split)",
+          "round": 3,
+          "time": "5:00",
+          "event": "GCF 30: Fight Night Prague 2",
+          "opponentRecord": "23-36-0"
+        },
+        {
+          "opponent": "Miroslav Štrbák",
+          "date": "2014-03-21",
+          "result": "L",
+          "promotion": "GCF",
+          "method": "Submission",
+          "round": 3,
+          "time": null,
+          "event": "GCF 27 - Road to the Cage",
+          "opponentRecord": "8-3-1",
+          "sherdogFilled": [
+            "round",
+            "event"
+          ],
+          "note": "Tapology classifies as Submission; Sherdog lists 'TKO (Submission to Punches)'"
+        },
+        {
+          "opponent": "Shimon Gosh",
+          "date": "2013-11-22",
+          "result": "L",
+          "promotion": "HG",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "2:49",
+          "event": "HG - Heroes Gate 11",
+          "opponentRecord": "4-2-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Jaroslav Pokorný",
+          "date": "2013-10-06",
+          "result": "W",
+          "promotion": "GCF",
+          "method": "Submission (Armbar)",
+          "round": 3,
+          "time": null,
+          "event": "GCF 25 - Over the Top",
+          "opponentRecord": "6-2-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Roman Vanicky",
+          "date": "2013-06-01",
+          "result": "W",
+          "promotion": "CMTA",
+          "method": "Decision (Unanimous)",
+          "round": null,
+          "time": null,
+          "event": "CMTA - Pardal Gladidators Night Cage 2",
+          "opponentRecord": "15-11-1",
+          "sherdogFilled": [
+            "method",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Václav Přibyl",
+          "date": "2013-04-26",
+          "result": "W",
+          "promotion": "GCF",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "GCF 21 - Big Cage 3",
+          "opponentRecord": "14-11-2",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Josef Král",
+          "date": "2012-12-02",
+          "result": "L",
+          "promotion": "GCF",
+          "method": "Submission (Guillotine Choke)",
+          "round": 1,
+          "time": "1:40",
+          "event": "GCF 18: Destiny",
+          "opponentRecord": "5-4-0"
+        },
+        {
+          "opponent": "Mamour Fall",
+          "date": "2012-10-12",
+          "result": "L",
+          "promotion": "HG",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "HG - Heroes Gate 8",
+          "opponentRecord": "11-7-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Jaroslav Poborský",
+          "date": "2012-05-20",
+          "result": "W",
+          "promotion": "GCF",
+          "method": "Submission (Armbar)",
+          "round": 3,
+          "time": "3:36",
+          "event": "GCF 13 - Pain and Glory",
+          "opponentRecord": "20-28-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Petr Zelina",
+          "date": "2012-04-01",
+          "result": "W",
+          "promotion": "Den Bojovnikov",
+          "method": "Technical Submission (Rear-Naked Choke)",
+          "round": 1,
+          "time": "0:29",
+          "event": "Den Bojovnikov 5 - New Challenge",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Marat Gafurov",
+          "date": "2012-03-16",
+          "result": "L",
+          "promotion": "M-1",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 2,
+          "time": "2:10",
+          "event": "M-1 Challenge 31",
+          "opponentRecord": "3-0-0"
+        },
+        {
+          "opponent": "Marek Mucka",
+          "date": "2011-12-30",
+          "result": "W",
+          "promotion": "Arena",
+          "method": "Submission (Armbar)",
+          "round": 1,
+          "time": "0:41",
+          "event": "Arena 25 - Attack Eagle",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Norbert Pozarek",
+          "date": "2011-12-03",
+          "result": "W",
+          "promotion": "GCF",
+          "method": "Submission (Triangle Choke)",
+          "round": 1,
+          "time": null,
+          "event": "GCF 7: Redemption",
+          "opponentRecord": "3-0-0"
+        },
+        {
+          "opponent": "Václav Přibyl",
+          "date": "2011-06-17",
+          "result": "W",
+          "promotion": "GCF",
+          "method": "Submission (Armbar)",
+          "round": 3,
+          "time": "1:47",
+          "event": "GCF 4 - New Talents",
+          "opponentRecord": "13-9-2",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Michal Boldy",
+          "date": "2011-04-30",
+          "result": "W",
+          "promotion": "Arena",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "1:17",
+          "event": "Arena 22 - Hutnicky Den",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Martin Kufel",
+          "date": "2011-04-23",
+          "result": "W",
+          "promotion": "Hamr Gym",
+          "method": "Submission (Armbar)",
+          "round": 1,
+          "time": "4:48",
+          "event": "Hamr Gym - Hamr Night 2011",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Viktor Polasek",
+          "date": "2011-03-12",
+          "result": "W",
+          "promotion": "Den Bojovnikov",
+          "method": "Submission (Rear-Naked Choke)",
+          "round": 1,
+          "time": "0:39",
+          "event": "DB 1 - Den Bojovnikov",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Adam Golonkiewicz",
+          "date": "2011-02-13",
+          "result": "L",
+          "promotion": "MMAC",
+          "method": "Submission (Punches)",
+          "round": 2,
+          "time": "3:53",
+          "event": "MMAC - MMA Challengers 6",
+          "opponentRecord": "1-2-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Tomáš Kudry",
+          "date": "2010-12-30",
+          "result": "W",
+          "promotion": "Arena",
+          "method": "Submission (Armbar)",
+          "round": 1,
+          "time": "0:41",
+          "event": "Arena 20 - Power Legion",
+          "opponentRecord": "0-0-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Richard Andrs",
+          "date": "2010-12-04",
+          "result": "L",
+          "promotion": "GCF",
+          "method": "Submission (Rear-Naked Choke)",
+          "round": 2,
+          "time": "1:56",
+          "event": "GCF 1 - Judgement Day",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ],
+          "note": "Sherdog dates this bout 2010-12-05"
+        }
+      ]
+    },
+    {
+      "name": "Max Coga",
+      "nickname": "Mad",
+      "record": "27-8-1",
+      "birthDate": "1989-06-24",
+      "height_in": 68,
+      "reach_in": 72,
+      "stance": null,
+      "country": "Germany",
+      "source": "https://www.tapology.com/fightcenter/fighters/43040-max-coga",
+      "sherdog": "https://www.sherdog.com/fighter/Max-Coga-79236",
+      "note": "Stance not listed on Tapology or Sherdog; Bouts with 'sherdogFilled' had no detail on Tapology; listed fields come from Sherdog",
+      "history": [
+        {
+          "opponent": "Antun Račić",
+          "date": "2024-10-12",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Knee & Punches)",
+          "round": 2,
+          "time": "1:40",
+          "event": "OKTAGON 62: Bigger Than Ever",
+          "opponentRecord": "27-11-1"
+        },
+        {
+          "opponent": "Pantelei Taran",
+          "date": "2024-03-30",
+          "result": "W",
+          "promotion": "NFC",
+          "method": "KO/TKO (Punches)",
+          "round": 2,
+          "time": "1:28",
+          "event": "NFC 18: Coga vs. Taran",
+          "opponentRecord": "7-4-0"
+        },
+        {
+          "opponent": "Mert Özyildirim",
+          "date": "2023-03-25",
+          "result": "W",
+          "promotion": "NFC",
+          "method": "Submission (Triangle Choke)",
+          "round": 2,
+          "time": "4:46",
+          "event": "NFC 13",
+          "opponentRecord": "10-4-0"
+        },
+        {
+          "opponent": "Zafar Mohsen",
+          "date": "2022-08-06",
+          "result": "W",
+          "promotion": "BCF",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "BRAVE CF 61",
+          "opponentRecord": "10-3-0"
+        },
+        {
+          "opponent": "Jarno Errens",
+          "date": "2021-12-18",
+          "result": "L",
+          "promotion": "NFC",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "1:07",
+          "event": "National Fighting Championship 7",
+          "opponentRecord": "11-2-1"
+        },
+        {
+          "opponent": "Mohammed Sadok Trabelsi",
+          "date": "2021-09-18",
+          "result": "W",
+          "promotion": "NFC",
+          "method": "KO/TKO (Punches)",
+          "round": 2,
+          "time": "4:09",
+          "event": "NFC Series Playoffs + NFC 5",
+          "opponentRecord": "11-5-0"
+        },
+        {
+          "opponent": "Daniel Torres",
+          "date": "2020-11-14",
+          "result": "L",
+          "promotion": "KSW",
+          "method": "Decision (Split)",
+          "round": 3,
+          "time": "5:00",
+          "event": "KSW 56: Polska vs. Chorwacja",
+          "opponentRecord": "10-4-0"
+        },
+        {
+          "opponent": "Roman Avdalyan",
+          "date": "2019-11-09",
+          "result": "W",
+          "promotion": "GMC",
+          "method": "Submission (Von Flue Choke)",
+          "round": 2,
+          "time": "1:47",
+          "event": "GMC 23",
+          "opponentRecord": "14-7-0"
+        },
+        {
+          "opponent": "Athinodoros Michailidis",
+          "date": "2019-09-07",
+          "result": "W",
+          "promotion": "GMC",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 1,
+          "time": "4:50",
+          "event": "GMC 21",
+          "opponentRecord": "8-8-0"
+        },
+        {
+          "opponent": "Damien Lapilus",
+          "date": "2019-06-29",
+          "result": "D",
+          "promotion": "GMC",
+          "method": "Decision (Draw)",
+          "round": 3,
+          "time": "5:00",
+          "event": "GMC 20",
+          "opponentRecord": "16-12-1"
+        },
+        {
+          "opponent": "Lance Palmer",
+          "date": "2018-10-05",
+          "result": "L",
+          "promotion": "PFL",
+          "method": "Decision (Unanimous)",
+          "round": 2,
+          "time": "5:00",
+          "event": "PFL 2018 #8",
+          "opponentRecord": "14-3-0"
+        },
+        {
+          "opponent": "Marcos Galvão",
+          "date": "2018-07-19",
+          "result": "W",
+          "promotion": "PFL",
+          "method": "KO/TKO (Punches)",
+          "round": 3,
+          "time": "2:19",
+          "event": "PFL 2018 #4",
+          "opponentRecord": "18-10-1"
+        },
+        {
+          "opponent": "Timur Valiev",
+          "date": "2018-06-07",
+          "result": "L",
+          "promotion": "PFL",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "PFL 2018 #1",
+          "opponentRecord": "12-2-0"
+        },
+        {
+          "opponent": "Rafael Barbosa",
+          "date": "2017-12-09",
+          "result": "W",
+          "promotion": "WiTo Sport Events",
+          "method": "Submission (Triangle Choke)",
+          "round": 2,
+          "time": "3:34",
+          "event": "WiTo Sport Events - MMA Spirit vs. The World",
+          "opponentRecord": "5-0-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Daniel Requeijo",
+          "date": "2017-09-16",
+          "result": "W",
+          "promotion": "SFC",
+          "method": "KO/TKO (Corner Retirement)",
+          "round": 3,
+          "time": "5:00",
+          "event": "Superior FC 18",
+          "opponentRecord": "12-4-0"
+        },
+        {
+          "opponent": "Nilson Pereira",
+          "date": "2017-03-11",
+          "result": "W",
+          "promotion": "SFC",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "Superior FC 16",
+          "opponentRecord": "13-8-0"
+        },
+        {
+          "opponent": "Edgars Skrīvers",
+          "date": "2016-10-29",
+          "result": "W",
+          "promotion": "SFC",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 4,
+          "time": "2:24",
+          "event": "Superior FC 15",
+          "opponentRecord": "13-1-0"
+        },
+        {
+          "opponent": "Joey Kuiten",
+          "date": "2016-09-10",
+          "result": "W",
+          "promotion": "EFC",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 2,
+          "time": "1:53",
+          "event": "EFC No. 1 Fighting Championship 1",
+          "opponentRecord": "6-0-0"
+        },
+        {
+          "opponent": "Paata Robakidze",
+          "date": "2016-05-21",
+          "result": "W",
+          "promotion": "SFC",
+          "method": "KO/TKO",
+          "round": 1,
+          "time": "1:32",
+          "event": "Superior FC 14",
+          "opponentRecord": "27-10-0"
+        },
+        {
+          "opponent": "Hyram Rodriguez",
+          "date": "2016-03-12",
+          "result": "W",
+          "promotion": "FFC",
+          "method": "KO/TKO (Retirement)",
+          "round": 1,
+          "time": "5:00",
+          "event": "Top Ten Champions",
+          "opponentRecord": "15-15-0"
+        },
+        {
+          "opponent": "Benjamin Brander",
+          "date": "2015-11-28",
+          "result": "W",
+          "promotion": "FFC",
+          "method": "KO/TKO",
+          "round": 1,
+          "time": "2:40",
+          "event": "Fair FC 4",
+          "opponentRecord": "7-2-0"
+        },
+        {
+          "opponent": "Magomed Idrisov",
+          "date": "2015-05-02",
+          "result": "L",
+          "promotion": "M-1",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "M-1 Challenge 57",
+          "opponentRecord": "4-1-0"
+        },
+        {
+          "opponent": "Pavel Vitruk",
+          "date": "2015-02-21",
+          "result": "W",
+          "promotion": "M-1",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 3,
+          "time": "2:36",
+          "event": "M-1 Challenge 55",
+          "opponentRecord": "9-0-0"
+        },
+        {
+          "opponent": "Gabriel Sabo",
+          "date": "2014-11-01",
+          "result": "W",
+          "promotion": "FFC",
+          "method": "KO/TKO",
+          "round": 3,
+          "time": "3:11",
+          "event": "Fair FC 2",
+          "opponentRecord": "5-0-0"
+        },
+        {
+          "opponent": "Maxim Divnich",
+          "date": "2014-05-24",
+          "result": "L",
+          "promotion": "M-1",
+          "method": "KO/TKO (Head Kick)",
+          "round": 1,
+          "time": "0:21",
+          "event": "M-1 Challenge 48",
+          "opponentRecord": "4-0-0"
+        },
+        {
+          "opponent": "Niklas Bäckström",
+          "date": "2014-03-22",
+          "result": "L",
+          "promotion": "EMMA",
+          "method": "KO/TKO (Front Kick & Strikes)",
+          "round": 1,
+          "time": "0:15",
+          "event": "Europa MMA 1",
+          "opponentRecord": "6-0-0"
+        },
+        {
+          "opponent": "Lom-Ali Eskiev",
+          "date": "2014-02-08",
+          "result": "W",
+          "promotion": "FFC",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 2,
+          "time": "4:55",
+          "event": "Fair FC 1",
+          "opponentRecord": "6-2-0"
+        },
+        {
+          "opponent": "Antun Račić",
+          "date": "2013-09-28",
+          "result": "W",
+          "promotion": "RFC",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 2,
+          "time": "4:57",
+          "event": "Respect FC 10",
+          "opponentRecord": "13-4-0"
+        },
+        {
+          "opponent": "Duane van Helvoirt",
+          "date": "2013-04-13",
+          "result": "W",
+          "promotion": "RFC",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "Respect FC 9",
+          "opponentRecord": "11-5-0"
+        },
+        {
+          "opponent": "Enrik Berisha",
+          "date": "2013-02-02",
+          "result": "W",
+          "promotion": "KK",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "1:34",
+          "event": "KK 8 - Kombat Komplett",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ],
+          "note": "Sherdog lists the opponent as 'Hendrick Bershka'"
+        },
+        {
+          "opponent": "Lom-Ali Eskiev",
+          "date": "2012-11-17",
+          "result": "W",
+          "promotion": "KK",
+          "method": "Submission (Armbar)",
+          "round": 2,
+          "time": "4:20",
+          "event": "KK 7 - Cage Fight",
+          "opponentRecord": "3-1-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Cazim Halimi",
+          "date": "2012-09-15",
+          "result": "W",
+          "promotion": "EUMMA",
+          "method": "Submission (Guillotine Choke)",
+          "round": 1,
+          "time": null,
+          "event": "EMMA 1 - Casino Fight Night 2",
+          "opponentRecord": "1-0-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Turpal-Ali Sadulajev",
+          "date": "2012-03-18",
+          "result": "W",
+          "promotion": "VFN",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "4:00",
+          "event": "VFN 3 - Vendetta 3",
+          "opponentRecord": "0-0-1",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Jean Marc Howell",
+          "date": "2011-11-12",
+          "result": "L",
+          "promotion": "OG2F",
+          "method": "Decision (Unanimous)",
+          "round": 2,
+          "time": "5:00",
+          "event": "OG2F - One Gate 2 Far",
+          "opponentRecord": "1-0-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Marian Ziółkowski",
+          "date": "2011-09-17",
+          "result": "W",
+          "promotion": "RFC",
+          "method": "Decision (Majority)",
+          "round": 3,
+          "time": "4:00",
+          "event": "RFC - Respect Fighting Championship 6",
+          "opponentRecord": "0-0-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Kristian Hansen",
+          "date": "2011-04-09",
+          "result": "W",
+          "promotion": "CFL",
+          "method": "Submission (Armbar)",
+          "round": 3,
+          "time": "2:46",
+          "event": "Cage Fight Live 1",
+          "opponentRecord": "0-0-0"
+        }
+      ]
+    },
+    {
+      "name": "Christian Jungwirth",
+      "nickname": "The Kelt",
+      "record": "16-9-0",
+      "birthDate": "1987-02-25",
+      "height_in": 71,
+      "reach_in": null,
+      "stance": null,
+      "country": "Germany",
+      "source": "https://www.tapology.com/fightcenter/fighters/136496-christian-jungwirth",
+      "sherdog": "https://www.sherdog.com/fighter/Christian-Jungwirth-265995",
+      "note": "2 amateur bouts on Tapology (vs Ricardo Dias 2017-02-05, vs Mateusz Sobul 2016-07-17 NC) and a 2026-04-11 Modified Muay Thai bout vs Michał Materla excluded; Stance not listed on Tapology or Sherdog; reach not listed; Bouts with 'sherdogFilled' had no detail on Tapology; listed fields come from Sherdog",
+      "history": [
+        {
+          "opponent": "Niklas Stolze",
+          "date": "2025-11-22",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Punches)",
+          "round": 4,
+          "time": "4:19",
+          "event": "OKTAGON 80: Legierski vs. Korkmaz",
+          "opponentRecord": "14-8-0"
+        },
+        {
+          "opponent": "Christian Eckerlin",
+          "date": "2024-10-12",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "OKTAGON 62: Bigger Than Ever",
+          "opponentRecord": "16-6-0"
+        },
+        {
+          "opponent": "Robert Pukač",
+          "date": "2024-03-23",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "OKTAGON 55: Jungwirth vs. Pukač",
+          "opponentRecord": "16-12-1"
+        },
+        {
+          "opponent": "John Palaiologos",
+          "date": "2023-09-16",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "Submission (Kimura)",
+          "round": 1,
+          "time": "3:46",
+          "event": "OKTAGON 46: Dalisda vs. Austin",
+          "opponentRecord": "19-12-1"
+        },
+        {
+          "opponent": "Bojan Veličković",
+          "date": "2023-06-17",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 44: Langer vs. Poppeck",
+          "opponentRecord": "22-12-2"
+        },
+        {
+          "opponent": "Tato Primera",
+          "date": "2023-03-04",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 40",
+          "opponentRecord": "18-12-0"
+        },
+        {
+          "opponent": "Denilson Neves",
+          "date": "2023-02-11",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Split)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 39: Jungwirth vs. Neves",
+          "opponentRecord": "16-9-0"
+        },
+        {
+          "opponent": "Máté Kertész",
+          "date": "2022-10-15",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 36: Eckerlin vs. Neves 2",
+          "opponentRecord": "12-5-0"
+        },
+        {
+          "opponent": "Ivica Trušček",
+          "date": "2022-06-04",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Ground & Pound)",
+          "round": 2,
+          "time": "4:09",
+          "event": "OKTAGON 33",
+          "opponentRecord": "41-35-0"
+        },
+        {
+          "opponent": "Mateusz Strzelczyk",
+          "date": "2022-04-09",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "3:56",
+          "event": "OKTAGON 32",
+          "opponentRecord": "10-11-1"
+        },
+        {
+          "opponent": "Robert Pukač",
+          "date": "2022-03-26",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Corner Stoppage)",
+          "round": 2,
+          "time": "5:00",
+          "event": "OKTAGON Prime 5",
+          "opponentRecord": "15-9-1"
+        },
+        {
+          "opponent": "Andrej Kalašnik",
+          "date": "2021-09-25",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 1,
+          "time": "1:03",
+          "event": "OKTAGON 28",
+          "opponentRecord": "8-2-0"
+        },
+        {
+          "opponent": "Miroslav Brož",
+          "date": "2021-05-29",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 24",
+          "opponentRecord": "10-3-0"
+        },
+        {
+          "opponent": "Máté Kertész",
+          "date": "2021-01-30",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "Decision (Split)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 21",
+          "opponentRecord": "8-4-0"
+        },
+        {
+          "opponent": "Václav Holota",
+          "date": "2020-12-30",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "Oktagon 20",
+          "opponentRecord": "5-0-0"
+        },
+        {
+          "opponent": "Vladimir Tyurin",
+          "date": "2019-12-21",
+          "result": "W",
+          "promotion": "DHE",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "Two Headed Eagle Cup",
+          "opponentRecord": "7-4-1"
+        },
+        {
+          "opponent": "Erhan Kartal",
+          "date": "2019-11-09",
+          "result": "W",
+          "promotion": "GMC",
+          "method": "KO/TKO (Knee Injury)",
+          "round": 1,
+          "time": "3:07",
+          "event": "GMC 23",
+          "opponentRecord": "9-0-0"
+        },
+        {
+          "opponent": "Andreas Stahl",
+          "date": "2019-08-03",
+          "result": "L",
+          "promotion": "M-1",
+          "method": "Decision (Split)",
+          "round": 3,
+          "time": "5:00",
+          "event": "M-1 Challenge 103",
+          "opponentRecord": "11-4-0"
+        },
+        {
+          "opponent": "Filip Zadruzynski",
+          "date": "2019-03-23",
+          "result": "W",
+          "promotion": "GMC",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "1:13",
+          "event": "GMC 19",
+          "opponentRecord": "4-4-0"
+        },
+        {
+          "opponent": "Ebrahim Hosseinpour",
+          "date": "2018-12-08",
+          "result": "W",
+          "promotion": "WLMMA",
+          "method": "Decision",
+          "round": 2,
+          "time": "5:00",
+          "event": "We Love MMA 44",
+          "opponentRecord": "3-4-0"
+        },
+        {
+          "opponent": "David Depannemaecker",
+          "date": "2018-06-30",
+          "result": "W",
+          "promotion": "GMC",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "GMC 15",
+          "opponentRecord": "4-6-0"
+        },
+        {
+          "opponent": "Mubariz Sabiullah",
+          "date": "2018-04-07",
+          "result": "W",
+          "promotion": "WLMMA",
+          "method": "Decision (Split)",
+          "round": 2,
+          "time": "5:00",
+          "event": "We Love MMA 39",
+          "opponentRecord": "0-0-0"
+        },
+        {
+          "opponent": "Abhishek Rana",
+          "date": "2018-03-17",
+          "result": "W",
+          "promotion": "SFL",
+          "method": "Submission",
+          "round": 1,
+          "time": "5:00",
+          "event": "SFL 2018 Grand Finale",
+          "opponentRecord": "2-0-0"
+        },
+        {
+          "opponent": "Christian Lochner",
+          "date": "2017-11-04",
+          "result": "L",
+          "promotion": "AG",
+          "method": "KO/TKO (Head Kick)",
+          "round": 3,
+          "time": "4:21",
+          "event": "Aggrelin 21",
+          "opponentRecord": "3-4-0"
+        },
+        {
+          "opponent": "Chris Kalb",
+          "date": "2017-07-30",
+          "result": "W",
+          "promotion": "AOC",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "Age of Cage 11",
+          "opponentRecord": "4-2-0"
+        }
+      ]
+    },
+    {
+      "name": "Karlos Vémola",
+      "nickname": "The Terminator",
+      "record": "38-9-0",
+      "birthDate": "1985-07-01",
+      "height_in": 72,
+      "reach_in": 75,
+      "stance": null,
+      "country": "Czech Republic",
+      "source": "https://www.tapology.com/fightcenter/fighters/karlos-vemola-the-terminator",
+      "sherdog": "https://www.sherdog.com/fighter/Karlos-Vemola-40238",
+      "note": "2022-05-21 exhibition boxing bout vs Otakar Petřina excluded; Stance not listed on Tapology or Sherdog; Bouts with 'sherdogFilled' had no detail on Tapology; listed fields come from Sherdog",
+      "history": [
+        {
+          "opponent": "Attila Végh",
+          "date": "2025-06-14",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "OKTAGON 72: Vémola vs. Végh 3",
+          "opponentRecord": "33-10-2"
+        },
+        {
+          "opponent": "Will Fleury",
+          "date": "2024-12-29",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "OKTAGON 65: Paradeiser vs. Keita 2",
+          "opponentRecord": "13-3-0"
+        },
+        {
+          "opponent": "Attila Végh",
+          "date": "2024-06-08",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Submission (Arm Triangle Choke)",
+          "round": 2,
+          "time": "0:45",
+          "event": "OKTAGON 58: Vémola vs Végh 2",
+          "opponentRecord": "33-9-2"
+        },
+        {
+          "opponent": "Samuel Krištofič",
+          "date": "2023-12-29",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Right Hook)",
+          "round": 1,
+          "time": "1:48",
+          "event": "OKTAGON 51",
+          "opponentRecord": "16-6-0"
+        },
+        {
+          "opponent": "Pavol Langer",
+          "date": "2023-10-07",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Left Hook to Ground Punches)",
+          "round": 1,
+          "time": "0:07",
+          "event": "OKTAGON 47: Česko vs Slovensko",
+          "opponentRecord": "12-9-0"
+        },
+        {
+          "opponent": "Lucas Alsina",
+          "date": "2023-07-29",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "OKTAGON 45: Sanikidze vs Keita",
+          "opponentRecord": "11-4-0"
+        },
+        {
+          "opponent": "Patrik Kincl",
+          "date": "2023-05-20",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "OKTAGON 43: Kincl vs Vemola 2",
+          "opponentRecord": "26-10-0"
+        },
+        {
+          "opponent": "Al Matavao",
+          "date": "2023-04-15",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 1,
+          "time": "3:18",
+          "event": "OKTAGON 41: Mågård vs. Lopez",
+          "opponentRecord": "10-5-0"
+        },
+        {
+          "opponent": "Aleksandar Ilić",
+          "date": "2022-07-23",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Submission (Arm Triangle Choke)",
+          "round": 1,
+          "time": "3:52",
+          "event": "OKTAGON 34",
+          "opponentRecord": "13-4-0"
+        },
+        {
+          "opponent": "Michał Pasternak",
+          "date": "2022-06-04",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Submission",
+          "round": 1,
+          "time": "3:56",
+          "event": "OKTAGON 33",
+          "opponentRecord": "16-7-0"
+        },
+        {
+          "opponent": "Milan Ďatelinka",
+          "date": "2021-03-27",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 1,
+          "time": "2:12",
+          "event": "OKTAGON 22",
+          "opponentRecord": "8-4-0"
+        },
+        {
+          "opponent": "Alex Lohoré",
+          "date": "2020-12-30",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 5,
+          "time": "5:00",
+          "event": "Oktagon 20",
+          "opponentRecord": "19-5-0"
+        },
+        {
+          "opponent": "Václav Mikulášek",
+          "date": "2020-12-05",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 1,
+          "time": "2:05",
+          "event": "Oktagon 19",
+          "opponentRecord": "7-6-0"
+        },
+        {
+          "opponent": "Thomas Robertsen",
+          "date": "2020-10-17",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Submission",
+          "round": 3,
+          "time": "1:02",
+          "event": "Oktagon 17",
+          "opponentRecord": "8-3-0"
+        },
+        {
+          "opponent": "Attila Végh",
+          "date": "2019-11-09",
+          "result": "L",
+          "promotion": "OKTAGON",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "2:07",
+          "event": "Oktagon 15: Végh vs. Vémola",
+          "opponentRecord": "32-9-2"
+        },
+        {
+          "opponent": "Luis Henrique da Silva",
+          "date": "2019-07-27",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "Oktagon 13",
+          "opponentRecord": "15-6-0"
+        },
+        {
+          "opponent": "Prince Aounallah",
+          "date": "2019-04-06",
+          "result": "W",
+          "promotion": "NOW",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "Night of Warriors 15",
+          "opponentRecord": "14-9-0"
+        },
+        {
+          "opponent": "Paweł Brandys",
+          "date": "2019-03-16",
+          "result": "W",
+          "promotion": "OKTAGON",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 1,
+          "time": "4:25",
+          "event": "Oktagon 11",
+          "opponentRecord": "8-5-2"
+        },
+        {
+          "opponent": "Flavio Magon",
+          "date": "2018-12-27",
+          "result": "W",
+          "promotion": "XFN",
+          "method": "KO/TKO (Ground & Pound)",
+          "round": 1,
+          "time": "1:57",
+          "event": "XFN 15: Marpo vs Rytmus",
+          "opponentRecord": "17-10-0"
+        },
+        {
+          "opponent": "Moise Rimbon",
+          "date": "2018-11-18",
+          "result": "W",
+          "promotion": "XFN",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "XFN 14",
+          "opponentRecord": "25-11-3"
+        },
+        {
+          "opponent": "Mateusz Ostrowski",
+          "date": "2018-10-06",
+          "result": "W",
+          "promotion": "XFN",
+          "method": "KO/TKO (Ground & Pound + Elbows)",
+          "round": 2,
+          "time": "1:06",
+          "event": "XFN 12",
+          "opponentRecord": "8-6-1"
+        },
+        {
+          "opponent": "Patrik Kincl",
+          "date": "2018-06-28",
+          "result": "W",
+          "promotion": "XFN",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "XFN 11: Back to the O2 Arena",
+          "opponentRecord": "19-8-0"
+        },
+        {
+          "opponent": "Jamie Sloane",
+          "date": "2018-03-03",
+          "result": "W",
+          "promotion": "XFN",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 1,
+          "time": "2:06",
+          "event": "XFN 8: Vémola vs. Sloane",
+          "opponentRecord": "8-3-0"
+        },
+        {
+          "opponent": "Petr Ondruš",
+          "date": "2017-12-07",
+          "result": "W",
+          "promotion": "XFN",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 1,
+          "time": "4:46",
+          "event": "XFN 6: Ondruš vs. Vémola",
+          "opponentRecord": "7-6-0"
+        },
+        {
+          "opponent": "Maximilian Bajlitz",
+          "date": "2017-11-11",
+          "result": "W",
+          "promotion": "NOW",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "1:02",
+          "event": "Night of Warriors 12",
+          "opponentRecord": "0-0-0"
+        },
+        {
+          "opponent": "Dritan Barjamaj",
+          "date": "2016-11-05",
+          "result": "W",
+          "promotion": "NOW",
+          "method": "KO/TKO (Elbows)",
+          "round": 1,
+          "time": "1:43",
+          "event": "Night of Warriors 10",
+          "opponentRecord": "12-8-0"
+        },
+        {
+          "opponent": "Jack Hermansson",
+          "date": "2015-08-01",
+          "result": "L",
+          "promotion": "WFS",
+          "method": "Submission (Armbar)",
+          "round": 1,
+          "time": "2:08",
+          "event": "Warrior Fight Series 4",
+          "opponentRecord": "9-2-0"
+        },
+        {
+          "opponent": "David Marcina",
+          "date": "2015-05-16",
+          "result": "W",
+          "promotion": "FFL",
+          "method": "Submission (North South Choke)",
+          "round": 1,
+          "time": "2:38",
+          "event": "Fusion FN 1",
+          "opponentRecord": "13-14-0"
+        },
+        {
+          "opponent": "Carl Kinslow",
+          "date": "2015-05-02",
+          "result": "W",
+          "promotion": "UCMMA",
+          "method": "Submission (North South Choke)",
+          "round": 1,
+          "time": "1:16",
+          "event": "UCMMA 43",
+          "opponentRecord": "4-6-1"
+        },
+        {
+          "opponent": "Piotr Strus",
+          "date": "2014-03-07",
+          "result": "W",
+          "promotion": "MMAA",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "MMAA Arena 3",
+          "opponentRecord": "9-2-0"
+        },
+        {
+          "opponent": "Marvin Campbell",
+          "date": "2014-02-01",
+          "result": "W",
+          "promotion": "UCMMA",
+          "method": "Submission (Kimura)",
+          "round": 1,
+          "time": null,
+          "event": "UCMMA 38",
+          "opponentRecord": "0-1-0"
+        },
+        {
+          "opponent": "Petr Kníže",
+          "date": "2013-12-10",
+          "result": "W",
+          "promotion": "MMAA",
+          "method": "Technical Submission (North-South Choke)",
+          "round": 3,
+          "time": "3:25",
+          "event": "MMAA 2 - Vemola vs. Knize",
+          "opponentRecord": "3-0-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ],
+          "note": "Sherdog dates this bout 2013-11-10"
+        },
+        {
+          "opponent": "Tomáš Kužela",
+          "date": "2013-12-07",
+          "result": "W",
+          "promotion": "GCF",
+          "method": "Submission (Rear-Naked Choke)",
+          "round": 1,
+          "time": null,
+          "event": "GCF 26 - Fight Night",
+          "opponentRecord": "21-18-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Denniston Sutherland",
+          "date": "2013-08-03",
+          "result": "W",
+          "promotion": "UCMMA",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "UCMMA 35",
+          "opponentRecord": "20-10-0"
+        },
+        {
+          "opponent": "Caio Magalhães",
+          "date": "2013-06-08",
+          "result": "L",
+          "promotion": "UFC",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 2,
+          "time": "2:49",
+          "event": "UFC on FUEL TV 10",
+          "opponentRecord": "5-1-0"
+        },
+        {
+          "opponent": "Francis Carmont",
+          "date": "2012-07-11",
+          "result": "L",
+          "promotion": "UFC",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 2,
+          "time": "1:39",
+          "event": "UFC on FUEL TV 4",
+          "opponentRecord": "18-7-0"
+        },
+        {
+          "opponent": "Mike Massenzio",
+          "date": "2012-05-05",
+          "result": "W",
+          "promotion": "UFC",
+          "method": "Submission (Rear Naked Choke)",
+          "round": 2,
+          "time": "1:07",
+          "event": "UFC on FOX 3",
+          "opponentRecord": "13-6-0"
+        },
+        {
+          "opponent": "Ronny Markes",
+          "date": "2011-08-14",
+          "result": "L",
+          "promotion": "UFC",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "UFC on Versus 5",
+          "opponentRecord": "11-1-0"
+        },
+        {
+          "opponent": "Seth Petruzelli",
+          "date": "2010-11-13",
+          "result": "W",
+          "promotion": "UFC",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "3:46",
+          "event": "UFC 122: Marquardt vs. Okami",
+          "opponentRecord": "12-5-0"
+        },
+        {
+          "opponent": "Jon Madsen",
+          "date": "2010-07-03",
+          "result": "L",
+          "promotion": "UFC",
+          "method": "Decision (Unanimous)",
+          "round": 3,
+          "time": "5:00",
+          "event": "UFC 116: Lesnar vs Carwin",
+          "opponentRecord": "5-0-0"
+        },
+        {
+          "opponent": "Peter Yendall",
+          "date": "2010-02-06",
+          "result": "W",
+          "promotion": "UCMMA",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "0:49",
+          "event": "UCMMA 10 - Resurrection",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event"
+          ]
+        },
+        {
+          "opponent": "Stav Economou",
+          "date": "2009-07-04",
+          "result": "W",
+          "promotion": "CFC",
+          "method": "Submission (Rear-Naked Choke)",
+          "round": 1,
+          "time": "1:57",
+          "event": "CFC 7 - Cage Fighters Championship 7",
+          "opponentRecord": "8-0-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Ashley Pollard",
+          "date": "2009-04-25",
+          "result": "W",
+          "promotion": "CFC",
+          "method": "Submission (Rear-Naked Choke)",
+          "round": 1,
+          "time": "0:36",
+          "event": "CFC 6 - Cage Fighters Championship 6",
+          "opponentRecord": "2-2-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Markus Hipp",
+          "date": "2009-03-07",
+          "result": "W",
+          "promotion": "CFC",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "0:15",
+          "event": "CFC 5 - Cage Fighters Championships 5",
+          "opponentRecord": "0-2-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Szilvester Silbont",
+          "date": "2008-10-25",
+          "result": "W",
+          "promotion": "CFC",
+          "method": "Submission (Rear-Naked Choke)",
+          "round": 1,
+          "time": "3:14",
+          "event": "CFC 4 - No Way Out",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Bill Georgitsis",
+          "date": "2008-05-18",
+          "result": "W",
+          "promotion": "CFC",
+          "method": "KO/TKO (Punches)",
+          "round": 1,
+          "time": "0:05",
+          "event": "CFC 3 - Cage Fighters Championship 3",
+          "opponentRecord": "0-0-0",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        },
+        {
+          "opponent": "Patric Carroll",
+          "date": "2008-02-24",
+          "result": "W",
+          "promotion": "CFC",
+          "method": "Submission (Rear-Naked Choke)",
+          "round": 1,
+          "time": "0:44",
+          "event": "CFC 2 - Cage Fighters Championships 2",
+          "sherdogFilled": [
+            "method",
+            "round",
+            "time",
+            "event",
+            "promotion"
+          ]
+        }
+      ]
+    }
+  ]
+}

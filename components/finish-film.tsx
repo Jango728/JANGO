@@ -114,8 +114,8 @@ export function FinishFilm({ method, winner, opponent, winnerCorner, isPreview, 
           onEnded={() => setEnded(true)}
           aria-label={`Projected finish animation: ${winner} beats ${opponent}`}
         >
-          <source src={`${base}.mp4`} type="video/mp4" />
-          <source src={`${base}.webm`} type="video/webm" onError={() => (useFemale ? setUseFemale(false) : (setFailed(true), setEnded(true)))} />
+          {/* Only MP4s ship; if the women's clip is missing fall back to the men's, else show the end card. */}
+          <source src={`${base}.mp4`} type="video/mp4" onError={() => (useFemale ? setUseFemale(false) : (setFailed(true), setEnded(true)))} />
         </video>
         <span ref={wTag} className="jp-ff-tag w">
           {winner}

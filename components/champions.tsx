@@ -1,7 +1,8 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
 import { ChevronLeft, ChevronRight, Crown, Flame, TrendingDown, TrendingUp } from "lucide-react";
-import { DIVISIONS, P4P, RANKINGS_AS_OF, type Contender, type Division } from "@/lib/rankings";
+import { DIVISIONS, P4P, RANKINGS_AS_OF, type Contender, type Division, type NextInLine } from "@/lib/rankings";
+import { FighterName } from "./site-nav";
 
 type View = "men" | "women" | "p4p";
 
@@ -12,7 +13,20 @@ function MoveTag({ c }: { c: Contender }) {
   return null;
 }
 
-function Contenders({ list, title, champ }: { list: Contender[]; title: string; champ?: string }) {
+const norm = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+const STATUS_LABEL: Record<NextInLine["status"], string> = { booked: "Booked", expected: "Expected", ranking: "By ranking" };
+const host = (u: string) => {
+  try {
+    return new URL(u).hostname.replace(/^www\./, "");
+  } catch {
+    return "source";
+  }
+};
+
+function Contenders({ list, title, champ, next }: { list: Contender[]; title: string; champ?: string; next?: NextInLine }) {
+  // Badge the reported/booked challenger; fall back to #1 only when a division has no next-in-line call.
+  const nextIdx = !champ ? -1 : next ? list.findIndex((c) => norm(c.name) === norm(next.name)) : 0;
+  const unranked = champ && next && nextIdx === -1 ? next.name : null;
   return (
     <div className="jp-ch-list">
       <div className="jp-ch-list-head">
@@ -20,15 +34,45 @@ function Contenders({ list, title, champ }: { list: Contender[]; title: string; 
         {champ && <em>Chasing {champ.split(" ").slice(-1)[0]}</em>}
       </div>
       <ol>
+        {unranked && (
+          <li className="next unranked" style={{ animationDelay: "40ms" }}>
+            <b>–</b>
+            <FighterName name={unranked} className="nm" />
+            <span className="jp-ch-next">Next in line</span>
+            <span className="jp-ch-move unr">UNRANKED</span>
+          </li>
+        )}
         {list.map((c, i) => (
-          <li key={c.name} style={{ animationDelay: `${60 + i * 45}ms` }} className={i === 0 ? "next" : ""}>
+          <li key={c.name} style={{ animationDelay: `${60 + i * 45}ms` }} className={i === nextIdx ? "next" : ""}>
             <b>{i + 1}</b>
-            <span className="nm">{c.name}</span>
-            {i === 0 && champ && <span className="jp-ch-next">Next in line</span>}
+            <FighterName name={c.name} className="nm" />
+            {i === nextIdx && <span className="jp-ch-next">Next in line</span>}
             <MoveTag c={c} />
           </li>
         ))}
       </ol>
+      {champ && next && (
+        <div className="jp-ch-nextnote">
+          <div className="jp-ch-nextnote-top">
+            <span className={`jp-ch-status ${next.status}`}>{STATUS_LABEL[next.status]}</span>
+            <strong>
+              Next: <FighterName name={next.name} />
+            </strong>
+          </div>
+          <p>{next.note}</p>
+          <small>
+            As of {next.asOf}
+            {next.source && (
+              <>
+                {" · "}
+                <a href={next.source} target="_blank" rel="noopener noreferrer">
+                  {host(next.source)}
+                </a>
+              </>
+            )}
+          </small>
+        </div>
+      )}
     </div>
   );
 }
@@ -37,7 +81,7 @@ function ChampionHero({ d, onPrev, onNext }: { d: Division; onPrev: () => void; 
   const ch = d.champion;
   const [first, ...rest] = ch.name.split(" ");
   return (
-    <div className="jp-ch-hero" key={d.id}>
+    <div className={"jp-ch-hero" + (ch.vacated ? " vacated" : "")} key={d.id}>
       <div className="jp-ch-rays" aria-hidden="true" />
       <div className="jp-ch-photo">
         <img src={ch.img} alt={ch.name} loading="lazy" />
@@ -48,20 +92,23 @@ function ChampionHero({ d, onPrev, onNext }: { d: Division; onPrev: () => void; 
           <Crown size={14} /> {d.name} · {d.limit} lbs
         </span>
         <h2>
-          <small>{first}</small>
-          {rest.join(" ")}
+          <FighterName name={ch.name} className="jp-ch-hname">
+            <small>{first}</small>
+            {rest.join(" ")}
+          </FighterName>
         </h2>
         {ch.nickname && <span className="jp-ch-nick">“{ch.nickname}”</span>}
         <div className="jp-ch-badges">
-          <span className="gold">{ch.interim ? "Interim champion" : "Champion"}</span>
+          {ch.vacated ? <span className="vacant">Title vacant · former champ</span> : <span className="gold">{ch.interim ? "Interim champion" : "Champion"}</span>}
           {ch.p4p && <span>P4P #{ch.p4p}</span>}
         </div>
         <dl className="jp-ch-facts">
           <div><dt>Record</dt><dd>{ch.record}</dd></div>
           <div><dt>Age</dt><dd>{ch.age}</dd></div>
-          <div><dt>Height</dt><dd>{ch.height}</dd></div>
+          <div><dt>Height</dt><dd>{ch.height.replace("'", "′ ").replace('"', "″")}</dd></div>
           <div><dt>Reach</dt><dd>{ch.reach}″</dd></div>
         </dl>
+        {ch.vacated && <p className="jp-ch-vacant-note">Vacated {ch.vacated}. {d.nextInLine?.note ?? ""}</p>}
         <p className="jp-ch-note">{ch.note}{ch.style ? ` · ${ch.style}` : ""} · {ch.from}</p>
       </div>
       <button className="jp-ch-nav prev" onClick={onPrev} aria-label="Previous division"><ChevronLeft size={18} /></button>
@@ -85,13 +132,13 @@ function Threats({ d }: { d: Division }) {
           <article key={p.name} className={`jp-ch-threat t${p.threat}`} style={{ animationDelay: `${120 + i * 80}ms` }}>
             <div className="top">
               <span className="tag">{p.tag}</span>
-              <span className="meter" aria-label={`Threat level ${p.threat} of 3`}>
+              <span className="meter" role="img" aria-label={`Threat level ${p.threat} of 3`}>
                 {[1, 2, 3].map((k) => (
                   <Flame key={k} size={13} className={k <= p.threat ? "on" : ""} />
                 ))}
               </span>
             </div>
-            <h4>{p.name}</h4>
+            <h4><FighterName name={p.name} /></h4>
             <div className="stats">
               <span>{p.record}</span>
               <span>Age {p.age}</span>
@@ -154,7 +201,7 @@ export function Champions() {
                 <span className="img"><img src={x.champion.img} alt="" loading="lazy" /></span>
                 <span className="lbl">
                   <b>{x.short}</b>
-                  <span>{x.champion.name.split(" ").slice(-1)[0]}</span>
+                  <span>{x.champion.vacated ? "Vacant" : x.champion.name.split(" ").slice(-1)[0]}</span>
                 </span>
               </button>
             ))}
@@ -162,7 +209,7 @@ export function Champions() {
 
           <div className="jp-ch-stage">
             <ChampionHero d={d} onPrev={() => go(-1)} onNext={() => go(1)} />
-            <Contenders key={d.id} list={d.top10} title={`${d.name} top 10`} champ={d.champion.name} />
+            <Contenders key={d.id} list={d.top10} title={`${d.name} top 10`} champ={d.champion.name} next={d.nextInLine} />
           </div>
           <Threats key={"t" + d.id} d={d} />
         </>
@@ -177,8 +224,8 @@ export function Champions() {
                   <img src={top.champion.img} alt={top.champion.name} />
                   <div>
                     <span className="jp-eyebrow">{g === "men" ? "Men's" : "Women's"} pound-for-pound #1</span>
-                    <strong>{top.champion.name}</strong>
-                    <em>{top.name} champion · {top.champion.record}</em>
+                    <strong><FighterName name={top.champion.name} /></strong>
+                    <em>{top.name} {top.champion.vacated ? "former champion" : "champion"} · {top.champion.record}</em>
                   </div>
                 </div>
                 <Contenders list={P4P[g]} title={`${g === "men" ? "Men's" : "Women's"} pound for pound`} />

@@ -1,0 +1,688 @@
+{
+ "eventId": "ufc-fn-291",
+ "title": "UFC Fight Night: Buckley vs. Malott",
+ "date": "2026-10-17",
+ "lockAt": "2026-10-17T21:00:00.000Z",
+ "promotion": "UFC",
+ "forecast": {
+  "engine": "1.0",
+  "frozenAt": "2026-09-26T07:04:34.000Z",
+  "basis": "Engine output frozen before the event. Never edited after results.",
+  "bouts": [
+   {
+    "a": "Joaquin Buckley",
+    "b": "Mike Malott",
+    "pick": "Mike Malott",
+    "confidence": 70,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 2.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 5,
+    "evidence": 90,
+    "reasons": [
+     "Better recent results: Last 10: Mike Malott 9-1-0. Last 10: Joaquin Buckley 6-4-0.",
+     "Opponent is sliding: Joaquin Buckley has lost 2 straight; Mike Malott has won 4 straight.",
+     "Real finishing threat: Mike Malott finished 7 of 9 recent wins; Joaquin Buckley has been stopped 1 time in the last 10.",
+     "Proven at this level: UFC record: Mike Malott 7-1, Joaquin Buckley 11-6.",
+     "Cleaner losses: Joaquin Buckley has 4 losses in the last 10, to opponents averaging a 77% win rate; Mike Malott has 1."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Mike Malott",
+      "confidence": 61,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 2.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 5,
+       "division": "Welterweight",
+       "records": [
+        "21-8-0",
+        "14-2-1"
+       ],
+       "lastFights": [
+        "2026-05-09",
+        "2026-04-18"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Erin Blanchfield",
+    "b": "Jasmine Jasudavicius",
+    "pick": "Erin Blanchfield",
+    "confidence": 60,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Real finishing threat: Erin Blanchfield finished 4 of 9 recent wins; Jasmine Jasudavicius has been stopped 1 time in the last 10.",
+     "Better recent results: Last 10: Erin Blanchfield 9-1-0. Last 10: Jasmine Jasudavicius 8-2-0.",
+     "Proven at this level: UFC record: Erin Blanchfield 8-1, Jasmine Jasudavicius 9-3.",
+     "On a run: Erin Blanchfield has won 2 straight (Jasmine Jasudavicius: 1).",
+     "Beat the better opposition: Opponents Erin Blanchfield beat (last 10) had a 71% win rate going in; Jasmine Jasudavicius's had 70%."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Erin Blanchfield",
+      "confidence": 71,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Women's Flyweight",
+       "records": [
+        "14-2-0",
+        "15-4-0"
+       ],
+       "lastFights": [
+        "2025-11-15",
+        "2026-04-18"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Kyle Nelson",
+    "b": "Cristian Perez Gonzalez",
+    "pick": "Cristian Perez Gonzalez",
+    "confidence": 59,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 85,
+    "reasons": [
+     "Real finishing threat: Cristian Perez Gonzalez finished 6 of 8 recent wins; Kyle Nelson has been stopped 3 times in the last 10.",
+     "Better recent results: Last 10: Cristian Perez Gonzalez 8-2-0. Last 10: Kyle Nelson 5-4-1.",
+     "On a run: Cristian Perez Gonzalez has won 2 straight.",
+     "Cleaner losses: Kyle Nelson has 4 losses in the last 10, to opponents averaging a 71% win rate; Cristian Perez Gonzalez has 2.",
+     "Size and range: 1″ longer reach for Cristian Perez Gonzalez."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Cristian Perez Gonzalez",
+      "confidence": 70,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Lightweight",
+       "records": [
+        "17-7-1",
+        "15-2-0"
+       ],
+       "lastFights": [
+        "2026-03-28",
+        "2026-08-18"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Marc-Andre Barriault",
+    "b": "Kyle Daukaus",
+    "pick": "Kyle Daukaus",
+    "confidence": 71,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Better recent results: Last 10: Kyle Daukaus 7-3-0. Last 10: Marc-Andre Barriault 4-6-0.",
+     "Size and range: 2″ longer reach, 1″ taller for Kyle Daukaus.",
+     "Real finishing threat: Kyle Daukaus finished 6 of 7 recent wins; Marc-Andre Barriault has been stopped 3 times in the last 10.",
+     "Better when it goes long: In fights reaching round 3: Kyle Daukaus 2-0-0, Marc-Andre Barriault 1-4-0.",
+     "Cleaner losses: Marc-Andre Barriault has 6 losses in the last 10, to opponents averaging a 73% win rate; Kyle Daukaus has 3."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Kyle Daukaus",
+      "confidence": 72,
+      "tier": "Strong pick",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Submission",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Middleweight",
+       "records": [
+        "17-11-0",
+        "17-5-0"
+       ],
+       "lastFights": [
+        "2026-02-07",
+        "2026-06-14"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     },
+     {
+      "at": "2026-09-27T19:35:36.230Z",
+      "engine": "1.3",
+      "pick": "Kyle Daukaus",
+      "confidence": 72,
+      "tier": "Strong pick",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "Submission",
+      "reason": "Engine 1.3 update (round-by-round tape: late-round output, takedown defence, early finish threat)",
+      "changed": [
+       "rounds"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Middleweight",
+       "records": [
+        "17-11-0",
+        "17-5-0"
+       ],
+       "lastFights": [
+        "2026-02-07",
+        "2026-06-14"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Louis Jourdain",
+    "b": "Timmy Cuamba",
+    "pick": "Timmy Cuamba",
+    "confidence": 51,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 80,
+    "reasons": [
+     "Beat the better opposition: Opponents Timmy Cuamba beat (last 10) had a 64% win rate going in; Louis Jourdain's had 62%.",
+     "Size and range: 2″ longer reach for Timmy Cuamba.",
+     "Cleaner losses: Louis Jourdain has 3 losses in the last 10, to opponents averaging a 63% win rate; Timmy Cuamba has 3.",
+     "Proven at this level: UFC record: Timmy Cuamba 2-3, Louis Jourdain 0-0.",
+     "Real finishing threat: Timmy Cuamba finished 4 of 7 recent wins; Louis Jourdain has been stopped 2 times in the last 10."
+    ]
+   },
+   {
+    "a": "Mandel Nallo",
+    "b": "Nate Landwehr",
+    "pick": "Mandel Nallo",
+    "confidence": 63,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 82,
+    "reasons": [
+     "Real finishing threat: Mandel Nallo finished 7 of 7 recent wins; Nate Landwehr has been stopped 4 times in the last 10.",
+     "Better recent results: Last 10: Mandel Nallo 7-3-0. Last 10: Nate Landwehr 5-5-0.",
+     "Size and range: 3″ longer reach, 3″ taller for Mandel Nallo.",
+     "Opponent is sliding: Nate Landwehr has lost 3 straight.",
+     "Cleaner losses: Nate Landwehr has 5 losses in the last 10, to opponents averaging a 69% win rate; Mandel Nallo has 3."
+    ]
+   },
+   {
+    "a": "Tanner Boser",
+    "b": "Jhonata Diniz",
+    "pick": "Jhonata Diniz",
+    "confidence": 71,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Better recent results: Last 10: Jhonata Diniz 8-2-0. Last 10: Tanner Boser 5-5-0.",
+     "Size and range: 4″ longer reach, 2″ taller for Jhonata Diniz.",
+     "Cleaner losses: Tanner Boser has 5 losses in the last 10, to opponents averaging a 67% win rate; Jhonata Diniz has 2.",
+     "Real finishing threat: Jhonata Diniz finished 5 of 8 recent wins; Tanner Boser has been stopped 2 times in the last 10.",
+     "Better when it goes long: In fights reaching round 3: Jhonata Diniz 2-0-0, Tanner Boser 2-3-0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Jhonata Diniz",
+      "confidence": 61,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Heavyweight",
+       "records": [
+        "22-11-1",
+        "9-2-0"
+       ],
+       "lastFights": [
+        "2026-04-18",
+        "2025-10-11"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Julien Leblanc",
+    "b": "Gilbert Urbina",
+    "pick": "Gilbert Urbina",
+    "confidence": 57,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Under"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 80,
+    "reasons": [
+     "Beat the better opposition: Opponents Gilbert Urbina beat (last 10) had a 67% win rate going in; Julien Leblanc's had 56%.",
+     "Proven at this level: UFC record: Gilbert Urbina 2-3, Julien Leblanc 0-1.",
+     "On a run: Gilbert Urbina has won 1 straight.",
+     "Size and range: 1″ longer reach for Gilbert Urbina.",
+     "Cleaner losses: Julien Leblanc has 3 losses in the last 10, to opponents averaging a 60% win rate; Gilbert Urbina has 4."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Gilbert Urbina",
+      "confidence": 56,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "rounds"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Middleweight",
+       "records": [
+        "10-3-0",
+        "8-4-0"
+       ],
+       "lastFights": [
+        "2026-04-18",
+        "2026-08-01"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Javad Mahjoub",
+    "b": "Joel Faglier",
+    "pick": "Joel Faglier",
+    "confidence": 53,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Under"
+    },
+    "method": "Submission",
+    "scheduledRounds": 3,
+    "evidence": 61,
+    "reasons": [
+     "Beat the better opposition: Opponents Joel Faglier beat (last 10) had a 54% win rate going in; Javad Mahjoub's had 56%.",
+     "Size and range: 1″ taller for Joel Faglier."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Joel Faglier",
+      "confidence": 59,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "Submission",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Heavyweight",
+       "records": [
+        "5-0-0",
+        "6-0-0"
+       ],
+       "lastFights": [
+        "2026-02-28",
+        "2026-02-20"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Jamey-Lyn Horth",
+    "b": "Katlyn Cerminara",
+    "pick": "Jamey-Lyn Horth",
+    "confidence": 53,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Real finishing threat: Jamey-Lyn Horth finished 4 of 7 recent wins; Katlyn Cerminara has been stopped 2 times in the last 10.",
+     "Ring rust on the other side: Katlyn Cerminara last fought 952 days before this card; Jamey-Lyn Horth 182 days.",
+     "Opponent is sliding: Katlyn Cerminara has lost 2 straight.",
+     "Better recent results: Last 10: Jamey-Lyn Horth 7-3-0. Last 10: Katlyn Cerminara 6-4-0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Jamey-Lyn Horth",
+      "confidence": 72,
+      "tier": "Strong pick",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Women's Flyweight",
+       "records": [
+        "9-3-0",
+        "18-6-0"
+       ],
+       "lastFights": [
+        "2026-04-18",
+        "2024-03-09"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Chad Anheliger",
+    "b": "Steven Koslow",
+    "pick": "Chad Anheliger",
+    "confidence": 54,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 77,
+    "reasons": [
+     "Beat the better opposition: Opponents Chad Anheliger beat (last 10) had a 66% win rate going in; Steven Koslow's had 43%.",
+     "Proven at this level: UFC record: Chad Anheliger 2-3, Steven Koslow 0-1.",
+     "Ring rust on the other side: Steven Koslow last fought 1407 days before this card; Chad Anheliger 714 days."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Steven Koslow",
+      "confidence": 66,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "pick",
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Bantamweight",
+       "records": [
+        "13-8-0",
+        "6-1-0"
+       ],
+       "lastFights": [
+        "2024-11-02",
+        "2022-12-10"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Melissa Croden",
+    "b": "Chelsea Chandler",
+    "pick": "Melissa Croden",
+    "confidence": 51,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Real finishing threat: Melissa Croden finished 6 of 7 recent wins; Chelsea Chandler has been stopped 1 time in the last 10.",
+     "Better recent results: Last 10: Melissa Croden 7-3-0. Last 10: Chelsea Chandler 7-3-0.",
+     "Size and range: 1″ longer reach, 0″ taller for Melissa Croden."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Melissa Croden",
+      "confidence": 65,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Women's Bantamweight",
+       "records": [
+        "8-3-0",
+        "7-4-0"
+       ],
+       "lastFights": [
+        "2026-04-18",
+        "2026-06-06"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Cody Chovancek",
+    "b": "SuYoung You",
+    "pick": "Cody Chovancek",
+    "confidence": 65,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 80,
+    "reasons": [
+     "Real finishing threat: Cody Chovancek finished 6 of 9 recent wins; SuYoung You has been stopped 2 times in the last 8.",
+     "Better recent results: Last 9: Cody Chovancek 9-0-0. Last 10: SuYoung You 6-2-0 (2 NC).",
+     "On a run: Cody Chovancek has won 9 straight.",
+     "Size and range: 2″ longer reach, 3″ taller for Cody Chovancek.",
+     "Cleaner losses: SuYoung You has 2 losses in the last 10, to opponents averaging a 76% win rate; Cody Chovancek has 0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Cody Chovancek",
+      "confidence": 66,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Bantamweight",
+       "records": [
+        "9-0-0",
+        "16-4-0"
+       ],
+       "lastFights": [
+        "2025-09-16",
+        "2026-03-14"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "results": null,
+ "review": null
+}

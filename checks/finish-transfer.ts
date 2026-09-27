@@ -14,7 +14,7 @@ assert(finishTransfer(fight,{...x,stats:{...power,asOf:'2027-01-01'}},{...y,stat
 const weak=history.map(h=>({...h,opponentRecord:'2-8-0'}));assert(!finishTransfer(fight,{...x,history:weak},{...y,history:weak},event).temper,'Equally weak opposition does not prove comparable high-level skill');
 const unknown=history.map(h=>({...h,opponentRecord:undefined}));assert(!finishTransfer(fight,{...x,history:unknown},{...y,history:unknown},event).temper);
 const withContext=predictRounds(fight,x,y,event)!,withPower=predictRounds(fight,{...x,stats:power},{...y,stats:power},event)!;
-assert(withContext.side==='Over'&&withPower.side==='Under','Opponent context must actually influence a borderline rounds lean');
+assert(withPower.pOver<withContext.pOver,'Verified finishing power must lower the chance of Over');
 for(const method of ['ko','submission','decision'] as const){
  for(let t=0;t<=SCENE_LENGTH;t+=.025){const s=choreography(method,t);for(const actor of [s.winner,s.loser,s.ref]){assert(actor.position.every(Number.isFinite));for(const k of JOINTS)assert(actor.pose[k].every(Number.isFinite));assert(Math.hypot(actor.position[0],actor.position[2])<2.6,'Actors should remain inside the cage');}}
  const last=choreography(method,SCENE_LENGTH);

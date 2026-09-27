@@ -111,5 +111,14 @@
    }
   ]
  },
- "review": null
+ "review": {
+  "status": "final",
+  "reviewedAt": "2026-09-26",
+  "followUpUntil": "2026-09-25",
+  "lessons": [
+   "No pre-event forecast was frozen for this card, so there are no picks to score. Results are logged for the record only."
+  ],
+  "bouts": [],
+  "modelChanges": []
+ }
 }

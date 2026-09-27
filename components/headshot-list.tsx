@@ -124,19 +124,22 @@ export function HeadshotList() {
       ([e]) => {
         if (e.isIntersecting) {
           io.disconnect();
-          play();
+          play().catch(() => {}); // the sequence can outlive the page (e.g. switching tabs mid-shot)
         }
       },
       { threshold: 0.5 },
     );
     io.observe(node);
-    return () => io.disconnect();
+    return () => {
+      io.disconnect();
+      run.current++; // stop an in-flight sequence when the collection unmounts
+    };
   }, [play]);
 
   const replay = () => {
     cards.current.forEach((c) => c?.classList.remove("hit", "cry", "aim"));
     [mag.current, count.current, gun.current].forEach((el) => el?.getAnimations().forEach((a) => a.cancel()));
-    play();
+    play().catch(() => {});
   };
 
   const cls = "jp-hs2 " + (phase === "rest" ? "rest" : phase === "done" ? "done" : "live");

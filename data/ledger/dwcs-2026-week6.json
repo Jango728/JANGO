@@ -180,5 +180,39 @@
    }
   ]
  },
- "review": null
+ "review": {
+  "status": "final",
+  "reviewedAt": "2026-09-26",
+  "followUpUntil": "2026-09-18",
+  "lessons": [
+   "Archived GPT-era picks went 2/5 on winners and 4/5 on rounds. Both correct winners also had the correct method (Abdullaev KO, Hernandez sub).",
+   "Two misses were first-round knockouts by the fighter we picked against (Perea over Hunt at 0:45, Cavalcanti over Ravello at 1:38): small regional samples gave little signal on power and chin. Contender Series bouts carry high variance."
+  ],
+  "bouts": [
+   {
+    "a": "Zevan Hunt",
+    "b": "Mayton Perea",
+    "cause": "variance",
+    "note": "Picked Hunt by submission; Perea's straight shots dropped him for a 45-second KO. Rounds (Under) correct."
+   },
+   {
+    "a": "Oscar Ravello",
+    "b": "Igor Cavalcanti",
+    "cause": "data",
+    "note": "Picked Ravello by KO; Cavalcanti landed first — a big right hand and a finish at 1:38 of R1. Both records were built on thin regional opposition. Rounds (Under) correct."
+   },
+   {
+    "a": "Akbar Abdullaev",
+    "b": "Ednilson Santos",
+    "note": "Winner and KO correct; rounds missed (Over 1.5) — 19-second knockout."
+   },
+   {
+    "a": "Tyshawn Williams",
+    "b": "Antonio Monteiro",
+    "cause": "style-read",
+    "note": "Picked Monteiro by submission; Williams controlled with wrestling and ground strikes for a unanimous decision. Over 1.5 was correct."
+   }
+  ],
+  "modelChanges": []
+ }
 }

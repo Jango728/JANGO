@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { Portrait } from "./fight-experience";
-import { Flag, UFCRecord } from "./research";
+import { Flag, UFCRecord } from "./fighter-meta";
 import { recordAtEvent } from "@/lib/model";
 import { predict, shortName } from "@/lib/engine";
 import { resultFor } from "@/lib/ledger";
@@ -28,13 +28,19 @@ export function CardBouts({ event, fighters, selected, onSelect }: { event: Even
   }
   return (
     <aside className="jp-card jp-bouts" aria-label="Fights on this card">
-      <div className="jp-seg" role="tablist" aria-label="Card section">
-        {(["main", "prelims"] as const).map((g) => (
-          <button key={g} role="tab" aria-selected={group === g} className={group === g ? "on" : ""} disabled={!counts[g]} onClick={() => choose(g)}>
-            {g === "main" ? "Main card" : "Prelims"} <small>{counts[g]}</small>
-          </button>
-        ))}
-      </div>
+      {counts.prelims > 0 && counts.main > 0 ? (
+        <div className="jp-seg" role="tablist" aria-label="Card section">
+          {(["main", "prelims"] as const).map((g) => (
+            <button key={g} role="tab" aria-selected={group === g} className={group === g ? "on" : ""} onClick={() => choose(g)}>
+              {g === "main" ? "Main card" : "Prelims"} <small>{counts[g]}</small>
+            </button>
+          ))}
+        </div>
+      ) : (
+        <p className="jp-bouts-title">
+          {counts.main ? "Main card" : "Prelims"} <small>{event.fights.length} bouts</small>
+        </p>
+      )}
       <div className="jp-bout-list">
         {bouts.map((f) => {
           const a = fighters[f.a], b = fighters[f.b];
@@ -52,7 +58,7 @@ export function CardBouts({ event, fighters, selected, onSelect }: { event: Even
                         <Flag country={x.country} /> {x.name}
                       </b>
                       <small>
-                        {recordAtEvent(x, event.date, f.rules)} <UFCRecord f={x} date={event.date} />
+                        {recordAtEvent(x, event.date, f.rules)} <UFCRecord f={x} date={event.date} promotion={event.promotion} />
                       </small>
                     </span>
                   );
@@ -60,18 +66,20 @@ export function CardBouts({ event, fighters, selected, onSelect }: { event: Even
               </div>
               <div className="jp-bout-meta">
                 <span>
-                  {f.division} · {f.rounds} rds{/title/i.test(f.notes.join(" ")) ? " · Title" : ""}
+                  {f.division} · {f.rounds} rds{/(?<!non-)\btitle\b/i.test(f.notes.join(" ")) ? " · Title" : ""}
                 </span>
                 {res ? (
                   <span className={"jp-result-chip " + (res.winner === null ? "" : res.winner ? "hit" : "miss")}>
                     {res.bout.winner?.split(" ").slice(-1)[0]} · {res.bout.method} R{res.bout.round}
                   </span>
                 ) : p.pick ? (
-                  <span className="jp-pick-chip">
+                  <span className="jp-pick-chip" title={`Model pick: ${fighters[p.pick].name} · ${p.confidence}% · ${p.tier}`}>
                     {shortName(fighters[p.pick].name)} · {p.confidence}%
                   </span>
                 ) : (
-                  <span className="jp-pick-chip pending">N/A · pending</span>
+                  <span className="jp-pick-chip pending" title={p.pendingReason ?? "Not enough verified data yet — filled in on the nightly refresh"}>
+                    N/A · data pending
+                  </span>
                 )}
                 <span className="jp-odds" title="Display-only odds — never used by the model">
                   {f.odds ? `${price(f.odds.a)} / ${price(f.odds.b)}` : ""}

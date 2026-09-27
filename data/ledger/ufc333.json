@@ -2,6 +2,7 @@
  "eventId": "ufc333",
  "title": "UFC 333: Volkanovski vs. Evloev",
  "date": "2026-10-24",
+ "lockAt": "2026-10-24T14:00:00.000Z",
  "promotion": "UFC",
  "forecast": {
   "engine": "1.0",
@@ -27,6 +28,40 @@
      "On a run: Movsar Evloev has won 10 straight (Alexander Volkanovski: 2).",
      "Proven at this level: UFC record: Movsar Evloev 10-0, Alexander Volkanovski 15-3.",
      "Size and range: 1″ longer reach, 1″ taller for Movsar Evloev."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Movsar Evloev",
+      "confidence": 66,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 2.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 5,
+       "division": "Featherweight",
+       "records": [
+        "28-4-0",
+        "20-0-0"
+       ],
+       "lastFights": [
+        "2026-01-31",
+        "2026-03-21"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -48,6 +83,40 @@
      "Better over 5 rounds: In fights reaching round 3: Merab Dvalishvili 8-1-0, Petr Yan 6-4-0.",
      "Proven at this level: UFC record: Merab Dvalishvili 14-3, Petr Yan 12-4.",
      "Real finishing threat: Merab Dvalishvili finished 2 of 9 recent wins; Petr Yan has been stopped 0 times in the last 10."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Petr Yan",
+      "confidence": 52,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 2.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "pick"
+      ],
+      "inputs": {
+       "scheduledRounds": 5,
+       "division": "Bantamweight",
+       "records": [
+        "20-5-0",
+        "21-5-0"
+       ],
+       "lastFights": [
+        "2025-12-06",
+        "2025-12-06"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -69,6 +138,40 @@
      "On a run: Ramazan Temirov has won 10 straight.",
      "Proven at this level: UFC record: Ramazan Temirov 3-0, Lone'er Kavanagh 3-2.",
      "Cleaner losses: Lone'er Kavanagh has 2 losses in the last 10, to opponents averaging a 64% win rate; Ramazan Temirov has 0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Ramazan Temirov",
+      "confidence": 65,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Flyweight",
+       "records": [
+        "10-2-0",
+        "20-3-0"
+       ],
+       "lastFights": [
+        "2026-07-11",
+        "2026-07-25"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -109,6 +212,41 @@
      "Real finishing threat: Losene Keita finished 5 of 8 recent wins; Aaron Pico has been stopped 1 time in the last 10.",
      "Size and range: 2″ longer reach for Losene Keita.",
      "Cleaner losses: Aaron Pico has 2 losses in the last 10, to opponents averaging a 84% win rate; Losene Keita has 2."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Losene Keita",
+      "confidence": 51,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Featherweight",
+       "records": [
+        "14-5-0",
+        "17-2-0"
+       ],
+       "lastFights": [
+        "2026-04-11",
+        "2026-09-05"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -130,6 +268,41 @@
      "Cleaner losses: Dominick Reyes has 5 losses in the last 10, to opponents averaging a 77% win rate; Azamat Murzakanov has 1.",
      "Better when it goes long: In fights reaching round 3: Azamat Murzakanov 4-1-0, Dominick Reyes 1-1-0.",
      "Proven at this level: UFC record: Azamat Murzakanov 6-1, Dominick Reyes 10-5."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Azamat Murzakanov",
+      "confidence": 55,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "rounds"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Light Heavyweight",
+       "records": [
+        "16-5-0",
+        "16-1-0"
+       ],
+       "lastFights": [
+        "2026-04-11",
+        "2026-04-11"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -151,6 +324,40 @@
      "On a run: Abdul-Rakhman Yakhyaev has won 10 straight.",
      "Cleaner losses: Nikita Krylov has 5 losses in the last 10, to opponents averaging a 72% win rate; Abdul-Rakhman Yakhyaev has 0.",
      "Age curve: Nikita Krylov is 34; Abdul-Rakhman Yakhyaev is 25."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Abdul-Rakhman Yakhyaev",
+      "confidence": 65,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Light Heavyweight",
+       "records": [
+        "31-12-0",
+        "10-0-0"
+       ],
+       "lastFights": [
+        "2026-07-11",
+        "2026-06-27"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -172,6 +379,40 @@
      "On a run: Cam Rowston has won 7 straight (Abus Magomedov: 1).",
      "Age curve: Abus Magomedov is 36; Cam Rowston is 31.",
      "Cleaner losses: Abus Magomedov has 3 losses in the last 10, to opponents averaging a 79% win rate; Cam Rowston has 1."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Cam Rowston",
+      "confidence": 75,
+      "tier": "Strong pick",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Middleweight",
+       "records": [
+        "29-7-1",
+        "15-3-0"
+       ],
+       "lastFights": [
+        "2026-06-27",
+        "2026-05-02"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -192,6 +433,40 @@
      "On a run: Nurullo Aliev has won 10 straight (Grant Dawson: 1).",
      "Cleaner losses: Grant Dawson has 2 losses in the last 10, to opponents averaging a 70% win rate; Nurullo Aliev has 0.",
      "Better when it goes long: In fights reaching round 3: Nurullo Aliev 8-0-0, Grant Dawson 6-0-1."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T19:35:36.230Z",
+      "engine": "1.3",
+      "pick": "Nurullo Aliev",
+      "confidence": 60,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.3 update (round-by-round tape: late-round output, takedown defence, early finish threat)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Lightweight",
+       "records": [
+        "24-3-1",
+        "12-0-0"
+       ],
+       "lastFights": [
+        "2026-05-09",
+        "2026-07-25"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -213,6 +488,40 @@
      "Cleaner losses: Jacob Malkoun has 3 losses in the last 10, to opponents averaging a 68% win rate; Abubakar Vagaev has 1.",
      "On a run: Abubakar Vagaev has won 4 straight (Jacob Malkoun: 3).",
      "Size and range: 2″ taller for Abubakar Vagaev."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Jacob Malkoun",
+      "confidence": 64,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "pick"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Middleweight",
+       "records": [
+        "10-3-0",
+        "25-4-0"
+       ],
+       "lastFights": [
+        "2026-05-02",
+        "2026-07-25"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    },
    {
@@ -234,6 +543,41 @@
      "On a run: Asaf Chopurov has won 10 straight (Colby Thicknesse: 2).",
      "Better recent results: Last 10: Asaf Chopurov 10-0-0. Last 10: Colby Thicknesse 9-1-0.",
      "Cleaner losses: Colby Thicknesse has 1 loss in the last 10, to opponents averaging a 70% win rate; Asaf Chopurov has 0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Asaf Chopurov",
+      "confidence": 57,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Bantamweight",
+       "records": [
+        "9-1-0",
+        "11-0-0"
+       ],
+       "lastFights": [
+        "2026-05-02",
+        "2026-07-23"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
     ]
    }
   ]

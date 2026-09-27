@@ -1,0 +1,737 @@
+{
+ "eventId": "ufc-fn-290",
+ "title": "UFC Fight Night: Allen vs. Duncan",
+ "date": "2026-10-10",
+ "lockAt": "2026-10-10T21:00:00.000Z",
+ "promotion": "UFC",
+ "forecast": {
+  "engine": "1.0",
+  "frozenAt": "2026-09-26T07:04:34.000Z",
+  "basis": "Engine output frozen before the event. Never edited after results.",
+  "bouts": [
+   {
+    "a": "Brendan Allen",
+    "b": "Christian Leroy Duncan",
+    "pick": "Christian Leroy Duncan",
+    "confidence": 51,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 2.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 5,
+    "evidence": 90,
+    "reasons": [
+     "Size and range: 4″ longer reach for Christian Leroy Duncan.",
+     "On a run: Christian Leroy Duncan has won 5 straight (Brendan Allen: 3).",
+     "Better recent results: Last 10: Christian Leroy Duncan 8-2-0. Last 10: Brendan Allen 8-2-0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T19:35:36.230Z",
+      "engine": "1.3",
+      "pick": "Christian Leroy Duncan",
+      "confidence": 56,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 2.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.3 update (round-by-round tape: late-round output, takedown defence, early finish threat)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 5,
+       "division": "Middleweight",
+       "records": [
+        "27-7-0",
+        "15-2-0"
+       ],
+       "lastFights": [
+        "2026-06-06",
+        "2026-07-18"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Matheus Camilo",
+    "b": "Jai Herbert",
+    "pick": "Matheus Camilo",
+    "confidence": 58,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Better recent results: Last 10: Matheus Camilo 8-2-0. Last 10: Jai Herbert 4-5-1.",
+     "Real finishing threat: Matheus Camilo finished 5 of 8 recent wins; Jai Herbert has been stopped 3 times in the last 10.",
+     "Better when it goes long: In fights reaching round 3: Matheus Camilo 4-0-0, Jai Herbert 2-3-1.",
+     "Cleaner losses: Jai Herbert has 5 losses in the last 10, to opponents averaging a 75% win rate; Matheus Camilo has 2.",
+     "On a run: Matheus Camilo has won 2 straight (Jai Herbert: 1)."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Matheus Camilo",
+      "confidence": 80,
+      "tier": "Strong pick",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Lightweight",
+       "records": [
+        "11-3-0",
+        "14-6-1"
+       ],
+       "lastFights": [
+        "2026-06-27",
+        "2026-04-18"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     },
+     {
+      "at": "2026-09-27T19:35:36.230Z",
+      "engine": "1.3",
+      "pick": "Matheus Camilo",
+      "confidence": 79,
+      "tier": "Strong pick",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.3 update (round-by-round tape: late-round output, takedown defence, early finish threat)",
+      "changed": [
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Lightweight",
+       "records": [
+        "11-3-0",
+        "14-6-1"
+       ],
+       "lastFights": [
+        "2026-06-27",
+        "2026-04-18"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Julius Walker",
+    "b": "Gerald Meerschaert",
+    "pick": "Julius Walker",
+    "confidence": 63,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Better recent results: Last 10: Julius Walker 7-3-0. Last 10: Gerald Meerschaert 3-7-0.",
+     "Opponent is sliding: Gerald Meerschaert has lost 5 straight.",
+     "Real finishing threat: Julius Walker finished 6 of 7 recent wins; Gerald Meerschaert has been stopped 4 times in the last 10.",
+     "Cleaner losses: Gerald Meerschaert has 7 losses in the last 10, to opponents averaging a 73% win rate; Julius Walker has 3.",
+     "Size and range: 1″ longer reach, 3″ taller for Julius Walker."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Julius Walker",
+      "confidence": 66,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Light Heavyweight",
+       "records": [
+        "7-3-0",
+        "37-22-0"
+       ],
+       "lastFights": [
+        "2026-06-27",
+        "2026-05-02"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Loopy Godinez",
+    "b": "Ketlen Souza",
+    "pick": "Ketlen Souza",
+    "confidence": 57,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Size and range: 2″ longer reach, 1″ taller for Ketlen Souza.",
+     "Better recent results: Last 10: Ketlen Souza 7-3-0. Last 10: Loopy Godinez 6-4-0.",
+     "On a run: Ketlen Souza has won 2 straight.",
+     "Real finishing threat: Ketlen Souza finished 2 of 7 recent wins; Loopy Godinez has been stopped 1 time in the last 10.",
+     "Cleaner losses: Loopy Godinez has 4 losses in the last 10, to opponents averaging a 70% win rate; Ketlen Souza has 3."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Loopy Godinez",
+      "confidence": 51,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "pick"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Women's Strawweight",
+       "records": [
+        "14-6-0",
+        "17-6-0"
+       ],
+       "lastFights": [
+        "2026-04-11",
+        "2026-06-06"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Malcolm Wellmaker",
+    "b": "Otari Tanzilovi",
+    "pick": "Malcolm Wellmaker",
+    "confidence": 54,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 85,
+    "reasons": [
+     "Proven at this level: UFC record: Malcolm Wellmaker 2-2, Otari Tanzilovi 0-1.",
+     "Size and range: 2″ longer reach, 1″ taller for Malcolm Wellmaker.",
+     "Beat the better opposition: Opponents Malcolm Wellmaker beat (last 10) had a 61% win rate going in; Otari Tanzilovi's had 62%."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Otari Tanzilovi",
+      "confidence": 58,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "pick"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Bantamweight",
+       "records": [
+        "10-2-0",
+        "10-2-0"
+       ],
+       "lastFights": [
+        "2026-05-16",
+        "2026-06-20"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Daria Zhelezniakova",
+    "b": "Alice Pereira",
+    "pick": "Alice Pereira",
+    "confidence": 53,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 85,
+    "reasons": [
+     "Real finishing threat: Alice Pereira finished 5 of 6 recent wins; Daria Zhelezniakova has been stopped 2 times in the last 10.",
+     "Better recent results: Last 7: Alice Pereira 6-1-0. Last 10: Daria Zhelezniakova 7-3-0.",
+     "Size and range: 3″ longer reach for Alice Pereira.",
+     "Cleaner losses: Daria Zhelezniakova has 3 losses in the last 10, to opponents averaging a 71% win rate; Alice Pereira has 1.",
+     "On a run: Alice Pereira has won 1 straight."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Alice Pereira",
+      "confidence": 59,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Women's Bantamweight",
+       "records": [
+        "10-3-0",
+        "6-1-0"
+       ],
+       "lastFights": [
+        "2026-04-18",
+        "2026-04-04"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Ernesta Kareckaite",
+    "b": "Melissa Gatto",
+    "pick": "Melissa Gatto",
+    "confidence": 53,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Beat the better opposition: Opponents Melissa Gatto beat (last 10) had a 64% win rate going in; Ernesta Kareckaite's had 59%.",
+     "Real finishing threat: Melissa Gatto finished 5 of 6 recent wins; Ernesta Kareckaite has been stopped 0 times in the last 9.",
+     "Proven at this level: UFC record: Melissa Gatto 3-3, Ernesta Kareckaite 1-2."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T19:35:36.230Z",
+      "engine": "1.3",
+      "pick": "Ernesta Kareckaite",
+      "confidence": 50,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.3 update (round-by-round tape: late-round output, takedown defence, early finish threat)",
+      "changed": [
+       "pick"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Women's Flyweight",
+       "records": [
+        "6-2-1",
+        "9-3-2"
+       ],
+       "lastFights": [
+        "2026-02-28",
+        "2026-04-04"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "RJ Harris",
+    "b": "Allen Frye Jr.",
+    "pick": "RJ Harris",
+    "confidence": 64,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Submission",
+    "scheduledRounds": 3,
+    "evidence": 77,
+    "reasons": [
+     "On a run: RJ Harris has won 6 straight.",
+     "Proven at this level: UFC record: RJ Harris 1-0, Allen Frye Jr. 0-1.",
+     "Better recent results: Last 6: RJ Harris 6-0-0. Last 7: Allen Frye Jr. 6-1-0.",
+     "Beat the better opposition: Opponents RJ Harris beat (last 10) had a 61% win rate going in; Allen Frye Jr.'s had 53%.",
+     "Cleaner losses: Allen Frye Jr. has 1 loss in the last 10, to opponents averaging a 78% win rate; RJ Harris has 0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "RJ Harris",
+      "confidence": 55,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence",
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Heavyweight",
+       "records": [
+        "6-0-0",
+        "6-1-0"
+       ],
+       "lastFights": [
+        "2026-07-18",
+        "2025-12-13"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Andre Fili",
+    "b": "Kai Kamaka III",
+    "pick": "Kai Kamaka III",
+    "confidence": 59,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Better recent results: Last 10: Kai Kamaka III 7-3-0. Last 10: Andre Fili 4-6-0.",
+     "More durable: Kai Kamaka III finished 2 of 7 recent wins; Andre Fili has been stopped 4 times in the last 10.",
+     "Cleaner losses: Andre Fili has 6 losses in the last 10, to opponents averaging a 74% win rate; Kai Kamaka III has 3.",
+     "Opponent is sliding: Andre Fili has lost 2 straight.",
+     "Better when it goes long: In fights reaching round 3: Kai Kamaka III 6-2-0, Andre Fili 3-2-0."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Kai Kamaka III",
+      "confidence": 74,
+      "tier": "Strong pick",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Featherweight",
+       "records": [
+        "25-14-0",
+        "18-8-1"
+       ],
+       "lastFights": [
+        "2026-06-20",
+        "2026-07-11"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Francisco Prado",
+    "b": "Ismael Bonfim",
+    "pick": "Ismael Bonfim",
+    "confidence": 58,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Better when it goes long: In fights reaching round 3: Ismael Bonfim 4-0-0, Francisco Prado 1-5-0.",
+     "Proven at this level: UFC record: Ismael Bonfim 2-4, Francisco Prado 1-5.",
+     "Size and range: 3″ longer reach for Ismael Bonfim.",
+     "Better recent results: Last 10: Ismael Bonfim 6-4-0. Last 10: Francisco Prado 5-5-0.",
+     "Opponent is sliding: Francisco Prado has lost 4 straight."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Ismael Bonfim",
+      "confidence": 53,
+      "tier": "Coin flip",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Decision",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Lightweight",
+       "records": [
+        "12-5-0",
+        "20-7-0"
+       ],
+       "lastFights": [
+        "2026-04-11",
+        "2026-07-25"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     },
+     {
+      "at": "2026-09-27T19:35:36.230Z",
+      "engine": "1.3",
+      "pick": "Ismael Bonfim",
+      "confidence": 58,
+      "tier": "Slight lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.3 update (round-by-round tape: late-round output, takedown defence, early finish threat)",
+      "changed": [
+       "confidence",
+       "method"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Lightweight",
+       "records": [
+        "12-5-0",
+        "20-7-0"
+       ],
+       "lastFights": [
+        "2026-04-11",
+        "2026-07-25"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Niko Price",
+    "b": "Leon Shahbazyan",
+    "pick": "Leon Shahbazyan",
+    "confidence": 66,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Submission",
+    "scheduledRounds": 3,
+    "evidence": 82,
+    "reasons": [
+     "Better recent results: Last 10: Leon Shahbazyan 6-4-0. Last 10: Niko Price 2-7-0 (1 NC).",
+     "Real finishing threat: Leon Shahbazyan finished 6 of 6 recent wins; Niko Price has been stopped 5 times in the last 9.",
+     "Opponent is sliding: Niko Price has lost 4 straight.",
+     "Cleaner losses: Niko Price has 7 losses in the last 10, to opponents averaging a 70% win rate; Leon Shahbazyan has 4.",
+     "Size and range: 1″ longer reach, 4″ taller for Leon Shahbazyan."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Leon Shahbazyan",
+      "confidence": 76,
+      "tier": "Strong pick",
+      "rounds": {
+       "line": 1.5,
+       "side": "Over"
+      },
+      "method": "Submission",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Welterweight",
+       "records": [
+        "16-11-0",
+        "12-5-0"
+       ],
+       "lastFights": [
+        "2026-03-28",
+        "2026-06-20"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "a": "Felipe Franco",
+    "b": "Brendson Ribeiro",
+    "pick": "Felipe Franco",
+    "confidence": 56,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Under"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 90,
+    "reasons": [
+     "Better recent results: Last 10: Felipe Franco 8-2-0. Last 10: Brendson Ribeiro 4-6-0.",
+     "Opponent is sliding: Brendson Ribeiro has lost 4 straight.",
+     "Real finishing threat: Felipe Franco finished 7 of 8 recent wins; Brendson Ribeiro has been stopped 4 times in the last 10.",
+     "Cleaner losses: Brendson Ribeiro has 6 losses in the last 10, to opponents averaging a 81% win rate; Felipe Franco has 2.",
+     "Proven at this level: UFC record: Felipe Franco 1-1, Brendson Ribeiro 2-6."
+    ],
+    "revisions": [
+     {
+      "at": "2026-09-27T18:56:50.929Z",
+      "engine": "1.2",
+      "pick": "Felipe Franco",
+      "confidence": 63,
+      "tier": "Solid lean",
+      "rounds": {
+       "line": 1.5,
+       "side": "Under"
+      },
+      "method": "KO/TKO",
+      "reason": "Engine 1.2 update (calibrated confidence, as-of-date stats)",
+      "changed": [
+       "confidence"
+      ],
+      "inputs": {
+       "scheduledRounds": 3,
+       "division": "Light Heavyweight",
+       "records": [
+        "11-2-0",
+        "17-11-0"
+       ],
+       "lastFights": [
+        "2026-07-18",
+        "2026-07-25"
+       ],
+       "scouting": [
+        0,
+        0
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "results": null,
+ "review": null
+}

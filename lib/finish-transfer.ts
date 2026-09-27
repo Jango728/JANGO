@@ -1,4 +1,5 @@
 import {pastBefore,strengthOfSchedule,usableStats} from './model';
+import {statsAsOf} from './fight-stats';
 import type {Fight,Fighter,Event,PastFight} from './types';
 const stoppage=(h:PastFight)=>/\bko\b|\btko\b|submission/i.test(h.method)&&!/doctor|injury|cut|retire|disqual/i.test(h.method);
 function recordQuality(record?:string){if(!record||!/^\d+-\d+(?:-\d+)?$/.test(record))return null;const [w,l,d=0]=record.split('-').map(Number);return (w+.5*d+2)/(w+l+d+4)}
@@ -9,11 +10,13 @@ export function finishTransfer(fight:Fight,a:Fighter,b:Fighter,event:Event){
   const stopWins=history.filter(h=>h.result==='W'&&stoppage(h)),stopLosses=history.filter(h=>h.result==='L'&&stoppage(h)),decisions=history.filter(h=>/decision/i.test(h.method)&&!/technical/i.test(h.method));
   const known=stopWins.map(h=>recordQuality(h.opponentRecord)).filter((q):q is number=>q!==null);
   const stats=usableStats(f,event.date,fight.rules);
-  return {name:f.name,history,schedule,stopWins,stopLosses,decisions,known,stats};
+  // Knockdown rate: official aggregate when published before the card, else as-of UFC stat lines (fights before the card only).
+  const kdPer15=stats?.kdPer15??(fight.rules==='MMA'?statsAsOf(f,event.date)?.kdPer15:undefined);
+  return {name:f.name,history,schedule,stopWins,stopLosses,decisions,known,stats,kdPer15};
  });
  const [x,y]=rows,comparable=!!x.schedule&&!!y.schedule&&x.schedule.count>=3&&y.schedule.count>=3&&Math.min(x.schedule.score,y.schedule.score)>=.6&&Math.abs(x.schedule.score-y.schedule.score)<.1;
  const durable=rows.every(r=>r.history.length>=5&&r.stopLosses.length<=1&&r.decisions.length>=2);
- const provenPower=rows.every(r=>r.stats?.kdPer15!==undefined&&r.stats.kdPer15>=.8&&r.stopWins.filter(h=>/\b(?:tko|ko)\b/i.test(h.method)&&(recordQuality(h.opponentRecord)??0)>=.6).length>=2);
+ const provenPower=rows.every(r=>r.kdPer15!==undefined&&r.kdPer15>=.8&&r.stopWins.filter(h=>/\b(?:tko|ko)\b/i.test(h.method)&&(recordQuality(h.opponentRecord)??0)>=.6).length>=2);
  const temper=comparable&&durable&&!provenPower;
  const notes:string[]=[];
  if(temper)notes.push('Similar verified opposition and few recent stoppage losses: their finish rates may not carry over against each other. A longer fight gets more consideration.');
