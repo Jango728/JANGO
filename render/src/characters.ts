@@ -4,6 +4,7 @@ import { clone as cloneSkinned } from "three/addons/utils/SkeletonUtils.js";
 import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.js";
 import { loadCharacter, Rig, tex, texReady } from "./rig";
 import { shortsTexture } from "./art";
+import { sculptBody, addSkinnedGloves } from "./body";
 
 export type Actor = { root: T.Group; rig: Rig; kind: "fighter" | "ref" };
 
@@ -20,9 +21,12 @@ export async function makeFighter(opts: { corner: "red" | "blue"; female?: boole
   const root = new T.Group();
   root.add(g);
   const rig = new Rig(g);
+  const qp = new URLSearchParams(location.search);
+  if (!qp.get("nosculpt")) sculptBody(g, female, +(qp.get("muscle") ?? 1));
   addShorts(g, opts.corner === "red" ? "#b3121c" : "#1d4fb8", female ? 0.93 : 1);
   if (female) addTop(g, opts.corner === "red" ? "#b3121c" : "#1d4fb8");
-  addGloves(rig, opts.corner === "red" ? "#8e0d15" : "#0e0f12");
+  if (qp.get("oldgloves")) addGloves(rig, opts.corner === "red" ? "#8e0d15" : "#0e0f12");
+  else addSkinnedGloves(g, opts.corner === "red" ? "#a3101a" : "#16181c", female);
   return { root, rig, kind: "fighter" } as Actor;
 }
 

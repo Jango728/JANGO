@@ -1,0 +1,9 @@
+{
+  "name": "jango-film-render",
+  "private": true,
+  "type": "module",
+  "description": "Offline renderer for the Jango Playz finish films (uses three/vite from the parent project)",
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.14.0"
+  }
+}
