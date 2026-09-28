@@ -41,6 +41,7 @@
     "scripts",
     "dist",
     "components/cage-player.tsx",
+    "components/matchmaker/breakdown.tsx",
     "components/fighter-dossier.tsx",
     "components/ui/accordion.tsx",
     "components/ui/alert-dialog.tsx",
