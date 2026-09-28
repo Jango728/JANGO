@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
-import { ArrowRight, Crown, Flame, Shield, Swords, Timer, TrendingDown, TrendingUp, Trophy, UserRound } from "lucide-react";
+import { ArrowRight, ChevronDown, Crown, Flame, Shield, Swords, Timer, TrendingDown, TrendingUp, Trophy, UserRound } from "lucide-react";
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
 import { Portrait } from "./fight-experience";
 import { Flag } from "./fighter-meta";
@@ -14,6 +14,8 @@ import { COMBAT_METRICS } from "@/lib/matchup";
 import { predict } from "@/lib/engine";
 import { resultFor } from "@/lib/ledger";
 import { withLoggedResults } from "@/lib/logged-history";
+import { followUpFor, recapForHistoryRow } from "@/lib/round-recaps";
+import { RoundTimeline } from "./round-timeline";
 import { scoutNotes, SCOUT_TAG_LABEL } from "@/lib/scouting";
 import type { Fighter, PastFight } from "@/lib/types";
 import { clipsForFighter } from "@/lib/clips";
@@ -281,7 +283,7 @@ function MethodBar({ label, counts, total, tone }: { label: string; counts: Reco
   );
 }
 
-function HistoryList({ rows, owner, source }: { rows: Row[]; owner: string; source?: string }) {
+function HistoryList({ rows, owner, ownerName, source }: { rows: Row[]; owner: string; ownerName: string; source?: string }) {
   const [filter, setFilter] = useState<"all" | "W" | "L" | "fin" | "UFC" | "title">("all");
   const hasUfc = rows.some((r) => r.promotion === "UFC") && rows.some((r) => r.promotion !== "UFC");
   const hasTitle = rows.some((r) => r.title);
@@ -296,6 +298,17 @@ function HistoryList({ rows, owner, source }: { rows: Row[]; owner: string; sour
             ? r.title
             : r.result === filter,
   );
+  // Round-by-round recaps we logged for these fights (ledger bouts with `rounds`), keyed by row.
+  const rowKey = (r: Row) => `${r.date}|${r.opponent}`;
+  const recaps = useMemo(() => {
+    const m = new Map<string, NonNullable<ReturnType<typeof recapForHistoryRow>>>();
+    for (const r of rows) {
+      const x = recapForHistoryRow(ownerName, r.date, r.opponent);
+      if (x && (x.rounds.length || x.recap)) m.set(rowKey(r), x);
+    }
+    return m;
+  }, [rows, ownerName]);
+  const [openRR, setOpenRR] = useState<string | null>(null);
   const chips: [typeof filter, string][] = [
     ["all", `All ${rows.length}`],
     ["W", "Wins"],
@@ -314,7 +327,12 @@ function HistoryList({ rows, owner, source }: { rows: Row[]; owner: string; sour
         ))}
       </div>
       <ol className="jp-pf-rows">
-        {shown.map((r, i) => (
+        {shown.map((r, i) => {
+          const rc = recaps.get(rowKey(r));
+          const hasRounds = !!rc?.rounds.length;
+          const isOpen = hasRounds && openRR === rowKey(r);
+          const slotId = `rr-${i}-${r.date}`;
+          return (
           <li key={`${r.date}-${r.opponent}-${i}`} className={"res-" + r.result.toLowerCase() + (r.title ? " title" : "")} style={{ animationDelay: `${Math.min(i, 12) * 25}ms` }}>
             <ResultBadge row={r} />
             <div className="who">
@@ -337,9 +355,22 @@ function HistoryList({ rows, owner, source }: { rows: Row[]; owner: string; sour
                 {r.time ? ` · ${r.time}` : ""}
                 {r.opponentRecord ? ` · opp. ${r.opponentRecord}` : ""}
               </span>
+              {hasRounds ? (
+                <button type="button" className="rr-toggle" aria-expanded={isOpen} aria-controls={isOpen ? slotId : undefined} onClick={() => setOpenRR(isOpen ? null : rowKey(r))}>
+                  Round by round <ChevronDown size={12} aria-hidden="true" />
+                </button>
+              ) : rc?.recap?.status === "pending" || rc?.recap?.status === "partial" ? (
+                <span className="rr-pending-tag">Round-by-round recap pending</span>
+              ) : null}
             </div>
+            {isOpen && rc && (
+              <div className="rr-slot" id={slotId}>
+                <RoundTimeline bout={rc.bout} followUpUntil={followUpFor(rc.ledger)} compact />
+              </div>
+            )}
           </li>
-        ))}
+          );
+        })}
         {!shown.length && <li className="empty">No fights match this filter.</li>}
       </ol>
       {source && /^https?:/.test(source) && (
@@ -576,7 +607,7 @@ function FullProfile({ m }: { m: Model }) {
             {m.scope && <p className="jp-pf-empty">{m.scope}</p>}
           </>
         )}
-        {tab === "history" && <HistoryList rows={m.rows} owner={owner} source={m.historySource} />}
+        {tab === "history" && <HistoryList rows={m.rows} owner={owner} ownerName={m.name} source={m.historySource} />}
         {tab === "scouting" && (
           <div className="jp-pf-scout">
             {notes.length ? (

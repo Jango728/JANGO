@@ -22,6 +22,8 @@ import { PromotionLogo } from "./promotion-logo";
 import { FighterName } from "./site-nav";
 import { classifyMethod } from "@/lib/fightinfo";
 import { marketBenchmark } from "@/lib/benchmark";
+import { followUpFor } from "@/lib/round-recaps";
+import { RoundTimeline, hasRoundRecap } from "./round-timeline";
 import "@/src/record.css";
 import "@/src/revisions.css";
 
@@ -428,14 +430,23 @@ export function TrackRecord() {
                                 </em>
                                 {r.bout.contract ? <small>UFC contract</small> : null}
                               </div>
-                              {r.bout.notes.length > 0 && (
+                              {(r.bout.notes.length > 0 || hasRoundRecap(r.bout)) && (
                                 <details className="jp-notes">
-                                  <summary>How it went</summary>
-                                  <ul>
-                                    {r.bout.notes.map((n, j) => (
-                                      <li key={j}>{n}</li>
-                                    ))}
-                                  </ul>
+                                  <summary>
+                                    How it went
+                                    {r.bout.rounds?.length ? ` · round by round (${r.bout.rounds.length})` : r.bout.recap?.status === "pending" ? " · recap pending" : ""}
+                                  </summary>
+                                  <RoundTimeline bout={r.bout} followUpUntil={followUpFor(l)} />
+                                  {r.bout.notes.length > 0 && (
+                                    <>
+                                      {r.bout.rounds?.length ? <p className="rr-notes-h">Notes</p> : null}
+                                      <ul>
+                                        {r.bout.notes.map((n, j) => (
+                                          <li key={j}>{n}</li>
+                                        ))}
+                                      </ul>
+                                    </>
+                                  )}
                                   {r.bout.context && <p className="jp-fine">{r.bout.context}</p>}
                                 </details>
                               )}
