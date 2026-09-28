@@ -19,6 +19,7 @@ import { predictRounds } from "../lib/rounds";
 import { ledgers, sameBout, sameFighter, scoredBouts, ledgerLockAt, lockAtFor, materialChanges } from "../lib/ledger";
 import { DIVISIONS, RANKINGS_AS_OF, NEXT_IN_LINE_AS_OF } from "../lib/rankings";
 import { DWCS_WEEK7_EVENT, DWCS_WEEK7_FIGHTERS } from "../lib/dwcs-week7";
+import { endedByFinish, followUpFor } from "../lib/round-recaps";
 import type { Fighter } from "../lib/types";
 import type { FrozenPick, Ledger } from "../lib/ledger-types";
 
@@ -44,6 +45,10 @@ const yesterday = addDays(today, -1);
 
 /** Fields and passes introduced on this date are only expected for events on/after it (older cards are grandfathered). */
 const POSTFIGHT_SINCE = "2026-09-26";
+/** Round-by-round recaps (rounds + recap) are expected on finished UFC / DWCS cards from this date (warnings). Move it earlier to widen the backfill. */
+const ROUNDS_SINCE = "2026-09-12";
+/** From this card date on, a review can't be "final" while a main-card bout lacks rounds (ERROR). Earlier finals only warn. */
+const ROUNDS_FINAL_GATE_SINCE = "2026-09-26";
 
 // ---------- published assets (live runs skip the image restore) ----------
 const published = new Set<string>(existsSync(".published.json") ? (JSON.parse(readFileSync(".published.json", "utf8")) as string[]) : []);
@@ -327,6 +332,87 @@ for (const l of ledgers) {
     if (missing.length) warn("scouting", `${L}: ${missing.length} fighter(s) with no scouting note or no-note decision: ${missing.join(", ")}`);
   }
 }
+// ---------- round-by-round recaps (LedgerBout.rounds / recap; docs/NIGHTLY.md step 2.4a) ----------
+// Shape: checked on every ledger. Completeness: finished UFC and DWCS cards from ROUNDS_SINCE on.
+{
+  const EDGES = ["a", "b", "even"];
+  const STATUSES = ["complete", "partial", "pending", "unavailable"];
+  const HTTP = /^https?:\/\/[^\s/$.?#].[^\s]*$/i;
+  for (const l of ledgers) {
+    for (const b of l.results?.bouts ?? []) {
+      const B = `ledger ${l.eventId}: ${b.a} vs ${b.b}`;
+      const rs = b.rounds as unknown;
+      const rc = b.recap as unknown;
+      if (rs !== undefined) {
+        if (!Array.isArray(rs) || !rs.length) err("recaps", `${B}: rounds must be a non-empty array (leave it out until there is a write-up)`);
+        else {
+          const rows = rs as { n?: unknown; summary?: unknown; edge?: unknown; score?: unknown; keyMoments?: unknown }[];
+          rows.forEach((r, i) => {
+            const R = `${B} rounds[${i}]`;
+            if (r?.n !== i + 1) err("recaps", `${R}: n is ${JSON.stringify(r?.n)} — rounds must be numbered 1, 2, 3… in order with no gaps`);
+            if (typeof r?.summary !== "string" || !r.summary.trim()) err("recaps", `${R}: summary is empty`);
+            else if (r.summary.length > 700) warn("recaps", `${R}: summary is ${r.summary.length} characters (keep it to 2–3 sentences)`);
+            if (r?.edge !== undefined && !EDGES.includes(r.edge as string)) err("recaps", `${R}: edge ${JSON.stringify(r.edge)} (must be "a", "b" or "even")`);
+            if (r?.edge === undefined) warn("recaps", `${R}: no edge (who won the round per the write-ups: "a", "b" or "even")`);
+            if (r?.score !== undefined && (typeof r.score !== "string" || !/^\d{1,2}-\d{1,2}(\s+(a|b))?$/.test(r.score.trim()))) warn("recaps", `${R}: score ${JSON.stringify(r.score)} (expected e.g. "10-9 a", "10-8 b", "10-10")`);
+            if (r?.keyMoments !== undefined && (!Array.isArray(r.keyMoments) || r.keyMoments.some((k) => typeof k !== "string" || !k.trim()))) err("recaps", `${R}: keyMoments must be a list of short strings`);
+          });
+          const k = rows.length;
+          if (k > b.scheduledRounds) err("recaps", `${B}: ${k} rounds recorded but only ${b.scheduledRounds} scheduled`);
+          else if (k > b.round) err("recaps", `${B}: ${k} rounds recorded but the fight ended in R${b.round}`);
+          else if (endedByFinish(b) && k !== b.round) err("recaps", `${B}: finished in R${b.round} but the last recorded round is R${k} (the finish round must be the last entry)`);
+          else if (k < b.round && (rc as { status?: string } | undefined)?.status !== "partial") warn("recaps", `${B}: ${k} of ${b.round} rounds recorded — add the rest or set recap.status "partial"`);
+          if (rc === undefined) warn("recaps", `${B}: rounds but no recap (status, checkedAt and source links)`);
+        }
+      }
+      if (rc !== undefined) {
+        const r = rc as { status?: unknown; checkedAt?: unknown; sources?: unknown; note?: unknown };
+        if (!STATUSES.includes(r?.status as string)) err("recaps", `${B}: recap.status ${JSON.stringify(r?.status)} (must be complete, partial, pending or unavailable)`);
+        if (typeof r?.checkedAt !== "string" || !ISO.test(r.checkedAt.slice(0, 10))) warn("recaps", `${B}: recap.checkedAt missing or not a date`);
+        if (!Array.isArray(r?.sources)) err("recaps", `${B}: recap.sources must be a list of { label, url }`);
+        else
+          for (const s of r.sources as { label?: unknown; url?: unknown }[]) {
+            if (typeof s?.url !== "string" || !HTTP.test(s.url)) err("recaps", `${B}: recap source ${JSON.stringify(s?.url)} is not an http(s) URL`);
+            if (typeof s?.label !== "string" || !s.label.trim()) warn("recaps", `${B}: recap source without a label`);
+          }
+        const hasRounds = Array.isArray(rs) && rs.length > 0;
+        if ((r?.status === "complete" || r?.status === "partial") && !hasRounds) err("recaps", `${B}: recap.status "${r.status}" but no rounds recorded`);
+        if ((r?.status === "complete" || r?.status === "partial") && Array.isArray(r?.sources) && !r.sources.length) err("recaps", `${B}: recap.status "${r.status}" with no source links`);
+        if (r?.status === "pending" && hasRounds) warn("recaps", `${B}: recap is "pending" but rounds are recorded — set "partial" or "complete"`);
+        if (r?.status === "unavailable" && (typeof r.note !== "string" || !r.note.trim())) warn("recaps", `${B}: recap "unavailable" needs a note saying what was searched`);
+      }
+    }
+  }
+
+  // Completeness. "Main card" = section matching /main/i; a bout with no section counts as main card (DWCS cards are one card).
+  const isMain = (b: { section?: string }) => !b.section || /main/i.test(b.section);
+  const covered = (b: { rounds?: unknown[]; recap?: { status?: string; note?: string } }) => !!(b.rounds && b.rounds.length) || b.recap?.status === "unavailable";
+  const label = (b: { a: string; b: string }) => `${b.a} vs ${b.b}`;
+  for (const l of ledgers) {
+    if (!["UFC", "DWCS"].includes(l.promotion) || !l.results || l.results.live || l.date < ROUNDS_SINCE || l.date > yesterday) continue;
+    const L = `ledger ${l.eventId}`;
+    const bouts = l.results.bouts;
+    const missMain = bouts.filter((b) => isMain(b) && !covered(b));
+    const missPre = bouts.filter((b) => !isMain(b) && !covered(b));
+    const until = followUpFor(l);
+    const windowOver = until < today;
+    // A review can only be final once every main-card bout has rounds or an explained "unavailable".
+    const blocking = l.review?.status === "final" ? bouts.filter((b) => isMain(b) && !(b.rounds && b.rounds.length) && !(b.recap?.status === "unavailable" && b.recap.note?.trim())) : [];
+    const gated = l.date >= ROUNDS_FINAL_GATE_SINCE;
+    if (blocking.length && gated)
+      err("recaps-final", `${L}: review is "final" but ${blocking.length} main-card bout(s) have no rounds and no recap.status "unavailable" with a note: ${blocking.map(label).join("; ")} — fill the round-by-round, or set the review back to "follow-up"`);
+    if (missMain.length || missPre.length) {
+      const parts = [missMain.length ? `main card ${missMain.length}: ${missMain.map(label).join("; ")}` : "", missPre.length ? `prelims ${missPre.length}: ${missPre.map(label).join("; ")}` : ""].filter(Boolean).join(" · ");
+      const finalNote = blocking.length && !gated ? ` The review was set "final" before this rule — backfill, then keep it final.` : "";
+      if (windowOver && missMain.length)
+        warn("recaps-overdue", `${L}: OVERDUE — review window ended ${until} and ${missMain.length} main-card bout(s) still have no round-by-round (${parts}). Search Sherdog / UFC.com / MMA Junkie / MMA Fighting / Cageside Press / MMADecisions again; fill rounds + recap, or set recap.status "unavailable" with a note of what was searched.${finalNote}`);
+      else warn("recaps", `${L}: ${missMain.length + missPre.length}/${bouts.length} finished bouts have no round-by-round yet (${parts}) — keep checking until ${until} (docs/NIGHTLY.md step 2.4a)`);
+    } else if (blocking.length && !gated) warn("recaps-overdue", `${L}: review is "final" but main-card bout(s) have an "unavailable" recap with no note: ${blocking.map(label).join("; ")}`);
+    const stillPartial = bouts.filter((b) => (b.recap?.status === "partial" || b.recap?.status === "pending") && !missMain.includes(b));
+    if (windowOver && stillPartial.length) warn("recaps-overdue", `${L}: review window ended ${until} but ${stillPartial.length} recap(s) are still pending/partial: ${stillPartial.map(label).join("; ")} — complete them or mark "unavailable" with a note`);
+  }
+}
+
 // Every upcoming seed card with bouts should have a ledger file (freeze.ts writes it).
 for (const e of SEED_EVENTS) if (e.date >= today && e.fights.length && !ledgerById.has(e.id)) (daysBetween(today, e.date) <= 1 ? err : warn)("freeze", `${e.id}: no ledger file yet — run npx tsx scripts/freeze.ts`);
 
