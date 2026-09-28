@@ -5,6 +5,7 @@ import { Flag, UFCRecord } from "./fighter-meta";
 import { recordAtEvent } from "@/lib/model";
 import { predict, shortName } from "@/lib/engine";
 import { resultFor } from "@/lib/ledger";
+import { shownPrediction } from "@/lib/displayed-pick";
 import type { Event, Fighter } from "@/lib/types";
 
 export const cardGroup = (section: string) => (/prelim/i.test(section) ? "prelims" : "main");
@@ -44,7 +45,9 @@ export function CardBouts({ event, fighters, selected, onSelect }: { event: Even
       <div className="jp-bout-list">
         {bouts.map((f) => {
           const a = fighters[f.a], b = fighters[f.b];
-          const p = predict(f, a, b, event);
+          // Same pick as the bout page: live engine before lock, the frozen final pick once locked or finished.
+          const shown = shownPrediction(event, f, a, b, predict(f, a, b, event));
+          const p = shown.p;
           const res = resultFor(event.id, a.name, b.name);
           return (
             <button type="button" key={f.id} className={"jp-bout " + (selected === f.id ? "active" : "")} aria-pressed={selected === f.id} onClick={() => onSelect(f.id)}>
@@ -69,11 +72,11 @@ export function CardBouts({ event, fighters, selected, onSelect }: { event: Even
                   {f.division} · {f.rounds} rds{/(?<!non-)\btitle\b/i.test(f.notes.join(" ")) ? " · Title" : ""}
                 </span>
                 {res ? (
-                  <span className={"jp-result-chip " + (res.winner === null ? "" : res.winner ? "hit" : "miss")}>
+                  <span className={"jp-result-chip " + (res.winner === null ? "" : res.winner ? "hit" : "miss")} title={p.pick ? `Our locked pick: ${fighters[p.pick].name} · ${p.confidence}%${res.winner === null ? "" : res.winner ? " ✓" : " ✗"}` : "No frozen pick"}>
                     {res.bout.winner?.split(" ").slice(-1)[0]} · {res.bout.method} R{res.bout.round}
                   </span>
                 ) : p.pick ? (
-                  <span className="jp-pick-chip" title={`Model pick: ${fighters[p.pick].name} · ${p.confidence}% · ${p.tier}`}>
+                  <span className={"jp-pick-chip" + (shown.lock ? " locked" : "")} title={`${shown.lock ? "Locked pick" : "Model pick"}: ${fighters[p.pick].name} · ${p.confidence}% · ${p.tier}`}>
                     {shortName(fighters[p.pick].name)} · {p.confidence}%
                   </span>
                 ) : (

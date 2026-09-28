@@ -5,6 +5,7 @@ import type { RoundsPrediction } from "@/lib/rounds";
 import type { FinishPrediction } from "@/lib/finish";
 import type { Fighter } from "@/lib/types";
 import type { PickCall, PickRevision } from "@/lib/ledger-types";
+import { sameCall, type LockInfo } from "@/lib/displayed-pick";
 import { pickHistory, sameFighter } from "@/lib/ledger";
 import "@/src/revisions.css";
 
@@ -15,7 +16,7 @@ export const confidenceLine = (pct: number | null | undefined) => (pct == null ?
  * The three calls for a bout in one line, directly under the faceoff so they stay visible on every tab:
  * winner (with confidence tier), rounds over/under, and method.
  */
-export function VerdictStrip({ p, rounds, finish, a, b }: { p: EnginePrediction; rounds: RoundsPrediction | null; finish: FinishPrediction | null; a: Fighter; b: Fighter }) {
+export function VerdictStrip({ p, rounds, finish, a, b, lock = null }: { p: EnginePrediction; rounds: RoundsPrediction | null; finish: FinishPrediction | null; a: Fighter; b: Fighter; lock?: LockInfo | null }) {
   const winner = p.pick === a.id ? a : p.pick === b.id ? b : null;
   const corner = winner === a ? "red" : winner === b ? "blue" : "";
   return (
@@ -23,23 +24,24 @@ export function VerdictStrip({ p, rounds, finish, a, b }: { p: EnginePrediction;
       <div className={"jp-vs-cell win " + corner}>
         <span className="jp-vs-label">
           <Target size={13} aria-hidden="true" /> Winner
+          {lock && <em className="jp-vs-lock" title="The frozen final pick from before the card locked: what the Track record grades">Locked</em>}
         </span>
         <strong>{winner ? winner.name : "N/A"}</strong>
-        <small title={winner ? undefined : p.pendingReason}>{winner ? `${p.confidence}% · ${p.tier}` : "Not enough verified data yet"}</small>
+        <small title={winner ? undefined : p.pendingReason}>{winner ? `${p.confidence}% · ${p.tier}` : lock ? "No pick was frozen" : "Not enough verified data yet"}</small>
       </div>
       <div className="jp-vs-cell">
         <span className="jp-vs-label">
           <Timer size={13} aria-hidden="true" /> Rounds
         </span>
         <strong>{rounds ? `${rounds.side} ${rounds.line}` : "—"}</strong>
-        <small>{rounds ? (rounds.limited ? `${confidenceLine(rounds.confidence)} · thin data` : confidenceLine(rounds.confidence)) : "No standard line for this format"}</small>
+        <small>{lock ? (rounds ? "Frozen before the fight" : "No rounds call frozen") : rounds ? (rounds.limited ? `${confidenceLine(rounds.confidence)} · thin data` : confidenceLine(rounds.confidence)) : "No standard line for this format"}</small>
       </div>
       <div className="jp-vs-cell">
         <span className="jp-vs-label">
           <Zap size={13} aria-hidden="true" /> Method
         </span>
         <strong>{finish ? finish.label : "—"}</strong>
-        <small>{finish ? (finish.limited ? "Low evidence" : "Most likely finish") : "Needs a winner pick"}</small>
+        <small>{lock ? (finish ? "Frozen before the fight" : "No method call frozen") : finish ? (finish.limited ? "Low evidence" : "Most likely finish") : "Needs a winner pick"}</small>
       </div>
     </div>
   );
@@ -62,7 +64,7 @@ const partsText = (c: PickCall, changed: PickRevision["changed"]) =>
  * The recorded pick's story for one bout: shown under the verdict strip only when the pick was revised
  * before lock, or when the bout is a replacement. The opening pick always stays on record.
  */
-export function PickUpdates({ eventId, a, b }: { eventId: string; a: Fighter; b: Fighter }) {
+export function PickUpdates({ eventId, a, b, live = null }: { eventId: string; a: Fighter; b: Fighter; live?: PickCall | null }) {
   const h = useMemo(() => pickHistory(eventId, a.name, b.name), [eventId, a.name, b.name]);
   const [open, setOpen] = useState(false);
   if (!h) return null;
@@ -72,11 +74,18 @@ export function PickUpdates({ eventId, a, b }: { eventId: string; a: Fighter; b:
   const prev: PickCall = h.revisions.length > 1 ? h.revisions[h.revisions.length - 2] : h.opening;
   const oldOpponent = rep ? [rep.frozen.a, rep.frozen.b].find((n) => !sameFighter(n, a.name) && !sameFighter(n, b.name)) : null;
   const steps = h.revisions.length + 1 + (rep ? 1 : 0);
+  const stale = !!live && !sameCall(live, h.final, { a: a.name, b: b.name });
   return (
     <div className="jp-pick-updates" aria-label="Pick history">
       <p className="jp-pu-line">
         <History size={13} aria-hidden="true" />
-        {last ? (
+        {last && stale ? (
+          // Before lock the page shows the live engine; when it has moved since the last logged revision (by less
+          // than the revision threshold, or since last night), this line is history, not the current pick.
+          <span>
+            <b>Last recorded {fmtDay(last.at)}:</b> {fullText(last)} · {last.reason} — updates are logged nightly when the change is material
+          </span>
+        ) : last ? (
           <span>
             <b>Updated {fmtDay(last.at)}:</b> was <span className="jp-pu-was">{partsText(prev, last.changed)}</span> → now <strong>{partsText(last, last.changed)}</strong> · {last.reason}
           </span>

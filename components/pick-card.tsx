@@ -46,6 +46,9 @@ export function PickCard({
   review,
   onReview,
   onMyTake,
+  actions = true,
+  note = null,
+  locked = false,
 }: {
   p: EnginePrediction;
   a: Fighter;
@@ -53,6 +56,12 @@ export function PickCard({
   review: Review;
   onReview: (r: Partial<Review>) => void;
   onMyTake: () => void;
+  /** Agree / My take buttons (hidden for custom Matchmaker bouts, which have no notes). */
+  actions?: boolean;
+  /** Muted line where reasons go when a locked pick's own reasons can't be shown (lib/displayed-pick.ts). */
+  note?: string | null;
+  /** The frozen final pick is shown (card locked or finished). */
+  locked?: boolean;
 }) {
   const winner = p.pick === a.id ? a : p.pick === b.id ? b : null;
   const yours = review.pick === a.id ? a : review.pick === b.id ? b : null;
@@ -61,7 +70,7 @@ export function PickCard({
       <header className="jp-pick-head">
         <div>
           <p className="jp-eyebrow">
-            <Target size={13} /> Model pick
+            <Target size={13} /> {locked ? "Locked pick" : "Model pick"}
           </p>
           <h3>{winner ? winner.name : "Analysis pending"}</h3>
           {p.tier ? <span className={"jp-tier " + TIER_CLASS[p.tier]}>{p.tier}</span> : <span className="jp-tier tier-pending">N/A</span>}
@@ -73,7 +82,7 @@ export function PickCard({
         </div>
         <div className="jp-pick-ring">
           <ConfidenceRing value={p.confidence} />
-          <small>Model confidence</small>
+          <small>{locked ? "Frozen confidence" : "Model confidence"}</small>
         </div>
       </header>
 
@@ -85,6 +94,7 @@ export function PickCard({
         <>
           <div className="jp-block">
             <p className="jp-eyebrow">Why {winner ? shortName(winner.name) : "this pick"}</p>
+            {note && <p className="jp-locked-note">{note}</p>}
             <ul className="jp-reasons">
               {p.reasons.map((r, i) => (
                 <li key={i}>
@@ -104,7 +114,7 @@ export function PickCard({
               <p>{p.counter.text}</p>
             </div>
           )}
-          <div className="jp-consensus" aria-label="Model consensus">
+          {p.models.length > 0 && <div className="jp-consensus" aria-label="Model consensus">
             <span className="jp-eyebrow">
               <Scale size={13} /> Consensus
             </span>
@@ -116,7 +126,7 @@ export function PickCard({
                 </span>
               ))}
             </div>
-          </div>
+          </div>}
         </>
       )}
 
@@ -125,7 +135,7 @@ export function PickCard({
           Data: {p.evidenceLabel}
         </span>
         <span className="jp-fine">No odds · no outside picks</span>
-        <div className="jp-actions">
+        {actions && <div className="jp-actions">
           <button type="button" className={"jp-btn ghost " + (review.agreement === "agree" ? "on" : "")} disabled={!winner} aria-pressed={review.agreement === "agree"} onClick={() => onReview({ agreement: review.agreement === "agree" ? undefined : "agree" })}>
             <ThumbsUp size={14} /> Agree
           </button>
@@ -139,7 +149,7 @@ export function PickCard({
           >
             <ThumbsDown size={14} /> My take
           </button>
-        </div>
+        </div>}
       </footer>
     </section>
   );

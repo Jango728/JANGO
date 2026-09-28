@@ -2,12 +2,14 @@ import { Activity, CalendarClock, Clock3, ShieldAlert, Trophy } from "lucide-rea
 import { predict } from "@/lib/engine";
 import { predictRounds } from "@/lib/rounds";
 import type { Event, Fighter } from "@/lib/types";
+import { shownPrediction } from "@/lib/displayed-pick";
 
 export function CardPulse({ event, fighters }: { event: Event; fighters: Record<string, Fighter> }) {
   const rows = event.fights.flatMap((f) => {
     const a = fighters[f.a], b = fighters[f.b];
     if (!a || !b) return [];
-    return [{ p: predict(f, a, b, event), r: predictRounds(f, a, b, event), a, b }];
+    const s = shownPrediction(event, f, a, b, predict(f, a, b, event), predictRounds(f, a, b, event));
+    return [{ p: s.p, r: s.rounds, a, b }];
   });
   const strongest = rows.filter((r) => r.p.confidence).sort((x, y) => (y.p.confidence ?? 0) - (x.p.confidence ?? 0))[0];
   const winner = strongest ? (strongest.p.pick === strongest.a.id ? strongest.a : strongest.b) : null;

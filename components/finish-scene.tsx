@@ -1,10 +1,12 @@
 import { FinishFilm } from "./finish-film";
-import { FINISH_LABELS, predictFinish } from "@/lib/finish";
+import { FINISH_LABELS, predictFinish, type FinishMethod } from "@/lib/finish";
 import type { Fighter, Fight, Event } from "@/lib/types";
 
-export function FinishScene({ a, b, event, fight, winnerId }: { a: Fighter; b: Fighter; event: Event; fight: Fight; winnerId: string | null }) {
+/** `method` overrides the model's ending (a locked bout shows its frozen method call). */
+export function FinishScene({ a, b, event, fight, winnerId, method: forced }: { a: Fighter; b: Fighter; event: Event; fight: Fight; winnerId: string | null; method?: FinishMethod }) {
   const prediction = predictFinish(fight, a, b, event, winnerId);
-  const method = prediction?.method ?? "decision", selected = prediction?.winnerId ?? a.id, winner = selected === a.id ? a : b, opponent = selected === a.id ? b : a;
+  const overridden = !!forced && !!prediction && forced !== prediction.method;
+  const method = forced ?? prediction?.method ?? "decision", selected = prediction?.winnerId ?? a.id, winner = selected === a.id ? a : b, opponent = selected === a.id ? b : a;
   return (
     <section className="finish-feature">
       <div className="finish-heading">
@@ -14,7 +16,9 @@ export function FinishScene({ a, b, event, fight, winnerId }: { a: Fighter; b: F
       <FinishFilm key={fight.id + method + selected} method={method} winner={winner.name} opponent={opponent.name} winnerCorner={selected === a.id ? "red" : "blue"} isPreview={!prediction} female={/^w\b|women/i.test(fight.division)} />
       <details className="scene-options">
         <summary>Why this ending</summary>
-        {prediction && (
+        {overridden ? (
+          <p className="fine">The locked method call from before the fight. Today's model's most likely ending for this winner is {FINISH_LABELS[prediction!.method]}.</p>
+        ) : prediction && (
           <ul>
             {prediction.reasons.map((r, i) => (
               <li key={i}>{r}</li>

@@ -35,6 +35,7 @@ import {
   type StatKey,
 } from "@/lib/roster";
 import { ClipStrip } from "./clip-strip";
+import { mergeRosterRows, rosterDisplayRow } from "@/lib/roster-profile";
 
 type Tab = "overview" | "history" | "scouting" | "clips" | "stats";
 const ORGS = ["UFC", "PFL", "OKTAGON", "Bellator", "ACA", "DWCS", "ONE", "LFA", "Cage Warriors"];
@@ -112,38 +113,8 @@ function rosterStats(r: RosterFighter, roster: Roster, weightClass: string | und
   };
 }
 
-function rosterRow(b: RosterBout): Row {
-  return {
-    opponent: b.opponent,
-    date: b.date,
-    result: b.result,
-    promotion: "UFC",
-    method: b.method,
-    round: b.round,
-    time: b.time,
-    minutes: boutMinutes(b),
-    rules: "MMA",
-    division: b.weightClass,
-    eventName: b.event,
-    source: "UFCStats",
-    opponentSlug: b.opponentSlug,
-    title: !!b.title,
-  };
-}
-
-/** Seed rows + roster UFC bouts the seed is missing (dedupe: same date ±2 days and the same opponent or result). */
-function mergeRows(seedRows: PastFight[], ros: RosterBout[] | undefined): Row[] {
-  if (!ros?.length) return seedRows;
-  const used = new Set<RosterBout>();
-  const out: Row[] = seedRows.map((h) => {
-    const m = ros.find((r) => !used.has(r) && nearDate(r.date, h.date) && (looseSameName(r.opponent, h.opponent) || r.result === h.result));
-    if (!m) return h;
-    used.add(m);
-    return { ...h, opponentSlug: m.opponentSlug, title: !!m.title };
-  });
-  for (const r of ros) if (!used.has(r)) out.push(rosterRow(r));
-  return out.sort((a, b) => b.date.localeCompare(a.date));
-}
+const rosterRow = (b: RosterBout): Row => rosterDisplayRow(b);
+const mergeRows = (seedRows: PastFight[], ros: RosterBout[] | undefined): Row[] => mergeRosterRows(seedRows, ros);
 
 const isMMA = (x: PastFight) => (x.rules ?? "MMA") === "MMA";
 const cleanFact = (x: unknown) => x && !/^\s*(--?|n\/a|unknown)\s*$/i.test(String(x));
