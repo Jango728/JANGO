@@ -4,7 +4,7 @@ This runs every night at 2:30 a.m. Toronto time, as a scheduled task. Each run s
 
 The live site is the Claude artifact **https://claude.ai/artifact/CB3f7jVHeYrvitrxxTkT1A**. The artifact also stores the project's source, so a run can restore the source, update the data, and republish to the same link.
 
-**What the run is for:** feed the prediction engine verified, fresh facts that actually predict fights, and close the learning loop (results → reviews → scouting notes → proposed model changes), without ever breaking the live site. The shorter passes at the end (fight-week, post-fight) follow this same runbook with a narrower scope.
+**What the run is for:** feed the prediction engine verified, fresh facts that actually predict fights, and close the learning loop (results → round-by-round recaps → reviews → scouting notes → proposed model changes), without ever breaking the live site. The shorter passes at the end (fight-week, post-fight) follow this same runbook with a narrower scope.
 
 ## Hard rules
 
@@ -27,7 +27,7 @@ Collect facts that predict fights or keep the record honest:
 - records and full fight histories, with opponents
 - scheduled rounds, and 5-round / title-fight history
 - results, official scorecards, result changes
-- round-by-round detail for scouting notes
+- round-by-round recaps of every finished bout (`rounds` + `recap`, step 2.4a): how each round went, who won it, knockdowns, rocked-and-recovered, cardio fades, takedowns, cuts. They are the record we read the next time those fighters fight, and the source of the scouting notes
 - display odds and closing odds, for the benchmark only
 
 Skip noise:
@@ -158,12 +158,35 @@ node scripts/run-log.mjs source webfetch        # or firecrawl / mixed
      - `bonuses`
      - `closingOdds`: the last display line before the bout, e.g. BestFightOdds. Benchmark only.
    - **Result changes:** if a result was overturned (NC after a failed test, an appeal), rewrite the row to the official result and keep the original in `change` (date, from, reason, source).
+   - Then do the round-by-round recap for every bout (step 4a). It is not optional and it is not a one-line note: the owner needs every round of every bout on record.
 4. **Reviews.**
    - When results first land, write a `review` with status `initial`. Set `followUpUntil` to 3 days after the event.
    - For each missed pick, name the cause (`data`, `style-read`, `variance`, or `model`) and add a one-line note. A split decision, or a 29-28 loss on the cards, points to `variance`.
-   - When the 3-day follow-up date has passed, re-check the reviews (scorecards, injury news, missed context) and set the status to `final`.
+   - When the 3-day follow-up date has passed, re-check the reviews (scorecards, injury news, missed context) and set the status to `final` — **but only once every main-card bout has `rounds`, or `recap.status: "unavailable"` with a note of what was searched** (step 4a). Until then leave it `follow-up`. From Sep 26, 2026 on, the check **errors** on a `final` review that breaks this rule.
    - Proposed model changes go in `modelChanges`. They're for Suleman to approve; don't change `lib/engine.ts` on your own.
-4b. **Scouting notes (the model's permanent memory, `data/scouting.json`).** For every finished bout, read the round-by-round (Sherdog play-by-play, MMA Junkie / ESPN round-by-round, official scorecards) and append one note per fighter where something useful showed up. Shape:
+4a. **Round-by-round recap (every bout of every card finished in the last 3 days).** Post-fight write-ups come out over several days, so this runs on **every** nightly and post-fight pass while a card is inside its review window (event date → `review.followUpUntil`, 3 days after the event), not just the night after. Do it in this order:
+   1. **List the work.** Every `results.bouts[]` row on cards dated in the last 3 days (UFC and DWCS always — the check enforces those; PFL / OKTAGON too when the write-ups exist), plus any bout on an older card whose `recap.status` is `pending` or `partial` and whose card's `followUpUntil` is today or later. Main card first (`section` matching "main"; DWCS bouts all count as main card), then prelims. Skip bouts already `complete` unless a new source adds something.
+   2. **Search the named sources, in this order**, for each bout (`<A>`/`<B>` = the fighters, `<event>` = the card name as the source writes it, e.g. "UFC Fight Night Rosas Jr. vs Barcelos"):
+      - **Sherdog play-by-play (primary):** `"<A> vs <B>" play-by-play sherdog`, `sherdog "<event>" play-by-play`. Sherdog posts one play-by-play per bout on fight night, with round scores from its staff; the event page on sherdog.com links them.
+      - **UFC.com:** `site:ufc.com "<event>" results`, then the event page's fight card — each bout's "Scorecards" image has the official round-by-round judges' scores (decisions).
+      - **MMA Junkie:** `"<event>" results round by round mmajunkie`, `mmajunkie "<A>" "<B>"`.
+      - **MMA Fighting:** `mmafighting "<event>" results`, `"<A> vs. <B>" mmafighting`.
+      - **Cageside Press:** `cagesidepress "<event>" live results`, `cagesidepress "<A>" "<B>"`.
+      - **MMADecisions (media scores, decisions only):** `mmadecisions <A> <B>`, or the event on mmadecisions.com. Usually posted 1–3 days after the card.
+      - Also allowed as a cross-check: ESPN's live results / round-by-round (`espn "<event>" live results round by round`).
+      Use Firecrawl scrape; if it fails, `WebFetch` + `WebSearch` (sherdog.com, ufc.com, mmajunkie.usatoday.com, mmafighting.com, cagesidepress.com, mmadecisions.com, espn.com). Log what you searched: `node scripts/run-log.mjs checked "round-by-round <event>"`.
+   3. **Fill `rounds` and `recap`** on the bout (shape in `docs/SCHEMA.md` and `lib/ledger-types.ts`):
+      - one entry per round actually fought, `n` = 1, 2, 3… in order; a finish's last entry is the finish round
+      - `summary`: 2–3 plain sentences on what happened in that round, from the play-by-play, cross-checked with at least one other source where it exists
+      - `edge`: who won the round per the write-ups (`"a"`, `"b"`, or `"even"` when the sources split or call it even) — never our own opinion
+      - `score`: only when a source scores the round (Sherdog's staff score, an official judge's round card, MMADecisions media), e.g. `"10-9 a"`, `"10-8 b"`
+      - `keyMoments`: short tags for what predicts future fights — `knockdown (<name>)`, `rocked, recovered (<name>)`, `cardio fade (<name>)`, `takedowns at will (<name>)`, `stuffed takedowns (<name>)`, `cut (<name>)`, `sub attempt (<name>)`, `point deducted (<name>)`
+      - `recap`: `status` (`complete` = every round covered from at least one play-by-play; `partial` = some rounds still thin; `pending` = nothing published yet), `checkedAt` = today, `sources` = every page you used (`{ label, url }`, http(s) only), optional `note`
+   4. **Update the bout's `notes`** (2–4 lines: how the fight was won, the rounds that decided it) and **`scorecards`** (official judges from UFC.com / the commission, media from MMADecisions) from what you just read.
+   5. **Derive the scouting notes from it** (step 4b): the rounds are the evidence for tags like `cardio-fade`, `td-vulnerable`, `td-offense`, `chin-concern`, `durable`, `slow-starter`, `five-round-proven`.
+   6. **Re-check every night** bouts still `pending` or `partial` until the card's `followUpUntil`. On the first run after the window closes, do one last search for any main-card bout still without `rounds`; if there is truly nothing, set `recap.status: "unavailable"` with a `note` listing what was searched and where (e.g. "No play-by-play: Sherdog, MMA Junkie, MMA Fighting, Cageside Press, UFC.com searched Sep 29"). Only then can the review become `final` (step 4).
+   The check warns about any finished UFC / DWCS bout with no round-by-round from 1 day after the event, warns **OVERDUE** (`recaps-overdue`) once the window has passed with main-card bouts still missing, and errors (`recaps-final`) on a `final` review that skipped this. It also errors on a malformed `rounds` block (numbering, more rounds than scheduled or fought, a finish not on the last entry, a bad `edge`, a non-http source).
+4b. **Scouting notes (the model's permanent memory, `data/scouting.json`).** For every finished bout, read the round-by-round recap from step 4a (the bout's `rounds`, built from Sherdog play-by-play, MMA Junkie / MMA Fighting / Cageside Press / ESPN round-by-round and official scorecards) and append one note per fighter where something useful showed up. Shape:
    ```json
    { "fighter": "<fighter id>", "date": "<event date YYYY-MM-DD>", "event": "<event name>", "tags": ["td-vulnerable"], "kind": "weakness|strength|context", "note": "<one or two plain sentences on what happened>", "source": "<URL(s)>" }
    ```
@@ -215,8 +238,8 @@ node scripts/run-log.mjs source webfetch        # or firecrawl / mixed
    node scripts/run-log.mjs check
    ```
    It rebuilds the ledger index, runs the typecheck, and runs `checks/validate-data.ts`.
-   - **Errors block the publish.** Each one is something this run can fix: a bad results row, O/U inconsistent with round and time, a fight-day bout with no frozen pick, a missing portrait file, an implausible height or reach. Fix it and re-run.
-   - **Warnings never block.** They are staleness and completeness gaps: missing reach, stale rankings, no scorecards or closing odds, reviews past follow-up, scouting gaps, roster lag. Fix what you can tonight and list the rest in the report.
+   - **Errors block the publish.** Each one is something this run can fix: a bad results row, O/U inconsistent with round and time, a fight-day bout with no frozen pick, a missing portrait file, an implausible height or reach, a malformed `rounds` block, a `final` review with main-card bouts missing their round-by-round. Fix it and re-run.
+   - **Warnings never block.** They are staleness and completeness gaps: missing reach, stale rankings, no scorecards or closing odds, reviews past follow-up, scouting gaps, round-by-round recaps still missing (`recaps`, `recaps-overdue`), roster lag. Fix what you can tonight and list the rest in the report. `recaps-overdue` is the loud one: work it before anything cosmetic.
 9. **UFC roster (all fighter profiles).** Run `python3 scripts/build-roster.py`, then `npx tsx scripts/build-stats-timeline.ts`. The first downloads UFCStats CSVs from GitHub, which the workspace can reach, and refreshes `public/roster/roster.json`, `names.json` and `rounds.json` (round-by-round lines) with the latest UFC results. The second rebuilds the engine's as-of timelines for seed fighters (`lib/stats-timeline.json`, `lib/round-timeline.json`) and the machine-generated `data/scouting-auto.json`.
    ```bash
    python3 scripts/build-roster.py && npx tsx scripts/build-stats-timeline.ts
@@ -302,6 +325,7 @@ End with a short summary covering:
 - lineup changes applied (including weigh-in misses and short-notice bookings)
 - new fighters added
 - results logged and how the picks did (winner, O/U, method), plus vs-market where closing odds exist
+- round-by-round recaps: bouts completed tonight, still `partial` / `pending` (and until when), any marked `unavailable`
 - reviews written or finalized, and scouting notes added or no-note decisions
 - check result (errors / warnings by category, from the `VALIDATE` line) and what you left as warnings
 - source path used (Firecrawl / WebFetch), and failures from the run log
@@ -322,6 +346,7 @@ Each pass is its own scheduled session. It does step 1 (restore, baseline, `run-
 - A missed weight doesn't move the engine by itself yet (see "Engine hooks" in `docs/SCHEMA.md`); log it anyway so a revision caused by it — or by anything else that night — carries the right reason, and the review can read it.
 
 ### Post-fight pass (`kind` = `sunday`), Sunday early afternoon
-- Exit right away unless a card finished in the last 2 days.
-- Do: step 2.3 in full (results verification, official scorecards, media scores, bonuses, closing odds, result changes, `live=false`), step 2.4 (initial review), step 2.4b (scouting notes plus the `review.scouting` decision), step 2.9 (roster, if the mirror has updated).
-- Recaps and official scorecards are usually posted by Sunday midday. At 2:30 a.m. they often aren't.
+- Exit right away unless a card finished in the last 3 days, or a card still in its review window has bouts with `recap.status` `pending` / `partial`.
+- Do, in this order: step 2.3 in full (results verification, official scorecards, media scores, bonuses, closing odds, result changes, `live=false`), step 2.4 (initial review), **step 2.4a (round-by-round recap for every bout, main card first — run the searches listed there, fill `rounds` + `recap`, update `notes` / `scorecards`)**, step 2.4b (scouting notes derived from the rounds, plus the `review.scouting` decision), step 2.9 (roster, if the mirror has updated).
+- Recaps and official scorecards are usually posted by Sunday midday. At 2:30 a.m. they often aren't — so bouts the pass can't cover yet get `recap.status: "pending"`, and the nightly keeps re-checking them until `followUpUntil`.
+- The three-line report says how many bouts got a complete round-by-round, how many are partial / pending, and which main-card bouts are still missing.

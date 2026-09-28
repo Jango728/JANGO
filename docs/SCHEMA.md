@@ -13,6 +13,7 @@ Collect only facts that predict fights or keep the record honest:
 - venue altitude, cage size, time zone
 - 5-round and title-fight history
 - official scorecards, result changes
+- round-by-round recaps of every finished bout (`rounds` + `recap`)
 - fight-time display odds (as a benchmark only)
 
 Skip noise:
@@ -79,6 +80,31 @@ The training base, used for travel and time-zone context. Fill it only from a st
 - `change`: when a result is overturned, rewrite the bout row to the official result (e.g. `method: "No contest"`, `winner`/`loser` null) and keep the original in `change.from`. Never touch the frozen forecast.
 - `closingOdds`: the last line before the bout. It is **display and benchmark only, never a model input.**
 
+### `results.bouts[].rounds` and `results.bouts[].recap`: round-by-round recaps
+How the fight actually went, round by round, from the post-fight write-ups. Filled for **every** bout during the card's review window (docs/NIGHTLY.md step 2.4a) and read the next time either fighter fights (fighter profile → Fight history → "Round by round"; Fight center "data behind this call").
+```json
+"rounds": [
+  { "n": 1, "edge": "b", "score": "10-9 b", "summary": "Pantoja landed a body-lock takedown inside ten seconds, took mount and worked elbows for most of the round.", "keyMoments": ["takedowns at will (Pantoja)"] },
+  { "n": 2, "edge": "a", "score": "10-9 a", "summary": "Van's jab and right hand took over on the feet and he stuffed two takedowns. Pantoja complained of a head butt.", "keyMoments": ["stuffed takedowns (Van)", "cut (Pantoja)"] },
+  { "n": 5, "edge": "a", "score": "10-9 a", "summary": "Van dropped Pantoja with a one-two and finished the round on top, clearly the fresher man.", "keyMoments": ["knockdown (Van)", "cardio fade (Pantoja)"] }
+],
+"recap": { "status": "complete", "checkedAt": "2026-09-21",
+           "sources": [{ "label": "Sherdog play-by-play", "url": "https://www.sherdog.com/news/news/..." }, { "label": "MMA Junkie", "url": "https://mmajunkie.usatoday.com/..." }],
+           "note": "Sherdog and MMA Junkie agree on every round." }
+```
+(The example skips R3–R4 for brevity; real data has one entry per round fought.)
+- `rounds[]`: one entry per round **actually fought**, `n` = 1, 2, 3… with no gaps. Never more than `scheduledRounds`, never past the result `round`; for a finish (KO/TKO, submission, DQ, stoppage NC) the last entry is the finish round.
+  - `summary` (required): 2–3 plain sentences from the play-by-play, cross-checked where a second source exists.
+  - `edge`: who won the round **per the write-ups** — `"a"`, `"b"` (the bout's corners) or `"even"` when the sources split or score it even. Not our opinion.
+  - `score` (optional): only when a source scores the round — Sherdog's staff, an official judge's round card, MMADecisions media — as `"10-9 a"`, `"10-8 b"`, `"10-10"`.
+  - `keyMoments` (optional): short tags that predict future fights, each naming the fighter: `knockdown (X)`, `rocked, recovered (X)`, `cardio fade (X)`, `takedowns at will (X)`, `stuffed takedowns (X)`, `cut (X)`, `sub attempt (X)`, `point deducted (X)`. The site colours knockdown / rocked / cardio / takedown / cut / submission chips by these words.
+- `recap`: the status of the write-up search.
+  - `status`: `complete` (every round covered from at least one play-by-play), `partial` (some rounds still thin — keep checking), `pending` (nothing published yet — keep checking until the review's `followUpUntil`), `unavailable` (the window has passed and nothing exists; `note` must say what was searched).
+  - `checkedAt`: the last date the sources were searched. `sources`: every page used, `{ label, url }`, http(s) only. `note`: optional; required for `unavailable`.
+- Sources, in order: Sherdog play-by-play first, then UFC.com (results + official scorecards), MMA Junkie, MMA Fighting, Cageside Press round-by-round, MMADecisions for media scores; ESPN as a cross-check.
+- **Display and scouting only.** The engine does not read `rounds` directly: their lessons reach it through the dated scouting notes derived from them (`data/scouting.json`, notes count only for fights after their date). `lib/round-recaps.ts` `recapsBefore(name, date)` returns a fighter's recaps from cards strictly before a date, so nothing leaks into a pre-fight view. A direct engine signal would need a backtest first.
+- **Checks** (`checks/validate-data.ts`): errors (`recaps`) on bad numbering, too many rounds, a finish not on the last entry, an invalid `edge`, an empty summary, a non-http source, `complete`/`partial` with no rounds or no sources. On finished UFC / DWCS cards from Sep 12, 2026: a warning (`recaps`) for any bout without rounds from 1 day after the event (main card listed first); a louder warning (`recaps-overdue`) once `followUpUntil` has passed with main-card bouts still missing (not `unavailable`) or recaps still `pending` / `partial`; an **error** (`recaps-final`, cards from Sep 26, 2026) when the review is `final` while a main-card bout has no rounds and no `unavailable` recap with a note. "Main card" = `section` matching "main"; a bout with no `section` (every DWCS bout) counts as main card.
+
 ### `review.scouting`
 ```json
 "scouting": { "checkedAt": "2026-09-29", "noNote": [{ "fighter": "tina-black", "reason": "Quick first-round finish; nothing new learned" }] }
@@ -141,6 +167,7 @@ Each hook should go through the backtest and be calibrated before it gets any we
 | 5-round experience | `history[].scheduledRounds`, `round ≥ 4`, `five-round-proven` tag | In 5-round bouts: an edge for proven championship-round cardio vs none. Also feeds Over/Under 2.5. |
 | Travel | `fighter.base.tz` vs `venue.tz` | ≥ 6 h shift (e.g. Americas → Abu Dhabi): small shrink. Low priority. |
 | Market benchmark | `results.bouts[].closingOdds` | `lib/benchmark`: de-vig the closing odds and compare Brier and log-loss with our frozen confidence on the same bouts. Show "vs market" on the Track record. Never an input. |
+| Round-by-round | `results.bouts[].rounds` | Today: display + the evidence for scouting notes only. Possible later: round-share and late-round trend features (e.g. rounds won in R3+ as a cardio signal) — backtest first, as-of dated. |
 | Scorecards | `results.bouts[].scorecards` | Reviews: auto-suggest `variance` for split or 29-28 losses. Rounds model: decision margins. |
 | Result changes | `results.bouts[].change` | Scoring already treats `No contest` as ungraded; the row just has to be rewritten to the official result. |
 | N/A picks | `forecast.bouts[].naReason` | `scripts/freeze.ts` writes the engine's `pendingReason` here when `pick` is null. |
