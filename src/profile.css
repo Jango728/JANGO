@@ -274,9 +274,9 @@ html:not(.dark) .jp-pf-dialog { background: #f6f3ec !important; }
   .jp-tr-tab .promotion-logo img { max-width: 52px !important; height: 17px !important; }
 }
 
-/* Five nav tabs on phones */
+/* Six nav tabs on phones */
 @media (max-width: 640px) {
-  .jp-nav { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
+  .jp-nav { grid-template-columns: repeat(6, minmax(0, 1fr)) !important; }
   .jp-nav button { font-size: 10.8px !important; padding: 8px 1px !important; }
 }
 

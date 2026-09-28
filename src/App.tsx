@@ -1,12 +1,13 @@
 "use client";
 import { lazy, Suspense, useEffect, useMemo, useState, type ReactNode } from "react";
-import { Activity, ArrowUpRight, BarChart3, ChevronLeft, ChevronRight, Eye, FileText, History as HistoryIcon, Link2, RotateCcw, Search, Timer, Trophy } from "lucide-react";
+import { Activity, ArrowUpRight, BarChart3, ChevronLeft, ChevronRight, Eye, FileText, History as HistoryIcon, LayoutGrid, Link2, RotateCcw, Search, Timer, Trophy } from "lucide-react";
 import { Toaster, toast } from "@/components/toast";
 import { CHECKED_AT, PROMOTIONS, SEED_EVENTS, SEED_FIGHTERS, SITE_URL, loadAllFighters, useEventFighters } from "@/lib/site-data";
 import { predictRounds } from "@/lib/rounds";
 import { predictFinish } from "@/lib/finish";
 import { predict } from "@/lib/engine";
 import { resultFor, ledgerFor } from "@/lib/ledger";
+import { liveCall, shownPrediction } from "@/lib/displayed-pick";
 import { loadReviews, saveReviews } from "@/lib/local-store";
 import type { Event, Fight, Fighter, Review } from "@/lib/types";
 import { CardBouts, cardGroup } from "@/components/card-bouts";
@@ -32,6 +33,7 @@ const withAll = <T,>(load: () => Promise<T>) => () => loadAllFighters().then(loa
 const TrackRecord = lazy(() => named(withAll(() => import("@/components/track-record"))(), (m) => m.TrackRecord));
 const ModelLab = lazy(() => named(import("@/components/model-lab"), (m) => m.ModelLab));
 const Champions = lazy(() => named(import("@/components/champions"), (m) => m.Champions));
+const MatchmakerPage = lazy(() => named(withAll(() => import("@/components/matchmaker/matchmaker-page"))(), (m) => m.MatchmakerPage));
 const HeadshotList = lazy(() => named(import("@/components/headshot-list"), (m) => m.HeadshotList));
 const ClipsPage = lazy(() => named(withAll(() => import("@/components/clips"))(), (m) => m.ClipsPage));
 const FighterProfileDialog = lazy(() => named(withAll(() => import("@/components/fighter-profile"))(), (m) => m.FighterProfileDialog));
@@ -41,17 +43,23 @@ const detailTabs = () => import("@/components/detail-tabs");
 const StatsTab = lazy(() => named(detailTabs(), (m) => m.StatsTab));
 const HistoryTab = lazy(() => named(detailTabs(), (m) => m.HistoryTab));
 const NotesTab = lazy(() => named(detailTabs(), (m) => m.NotesTab));
+// The Breakdown infographic (shared with the Matchmaker) is its own chunk; it needs only this card's fighters.
+const BoutBreakdown = lazy(() => named(import("@/components/breakdown/bout-breakdown"), (m) => m.BoutBreakdown));
 
-type Page = "cards" | "record" | "model" | "champions" | "clips";
-type Detail = "pick" | "stats" | "rounds" | "history" | "film" | "notes";
+type Page = "cards" | "record" | "model" | "champions" | "clips" | "matchmaker";
+type Detail = "breakdown" | "pick" | "stats" | "rounds" | "history" | "film" | "notes";
+/** The tab a bout opens on (and the one a link without ?t= means). Switching bouts keeps the current tab. */
+const DEFAULT_DETAIL: Detail = "breakdown";
 const PAGES: [Page, string, string][] = [
   ["cards", "Fight center", "Fights"],
   ["champions", "Champions", "Champs"],
+  ["matchmaker", "Matchmaker", "Build"],
   ["record", "Track record", "Record"],
   ["clips", "Clips", "Clips"],
   ["model", "Model lab", "Lab"],
 ];
 const DETAIL_TABS: { id: Detail; label: string; icon: ReactNode }[] = [
+  { id: "breakdown", label: "Breakdown", icon: <LayoutGrid size={15} aria-hidden="true" /> },
   { id: "pick", label: "Prediction", icon: <Activity size={15} aria-hidden="true" /> },
   { id: "stats", label: "Compare stats", icon: <BarChart3 size={15} aria-hidden="true" /> },
   { id: "rounds", label: "Rounds", icon: <Timer size={15} aria-hidden="true" /> },
@@ -62,6 +70,9 @@ const DETAIL_TABS: { id: Detail; label: string; icon: ReactNode }[] = [
 
 const fighters: Record<string, Fighter> = SEED_FIGHTERS;
 const EVENTS: Event[] = SEED_EVENTS.filter((e) => (PROMOTIONS as readonly string[]).includes(e.promotion)).sort((a, b) => a.date.localeCompare(b.date));
+// The Matchmaker's deep link is a plain #anchor (the published artifact keeps only that part of a link).
+// Captured before the URL sync below rewrites the address.
+const BOOT_HASH = typeof window === "undefined" ? "" : window.location.hash;
 const fmtDate = (d: string) => new Date(d + "T12:00:00Z").toLocaleDateString("en-CA", { weekday: "short", month: "long", day: "numeric", timeZone: "UTC" });
 
 function readLink() {
@@ -77,13 +88,24 @@ const Loading = ({ label = "Loading…", tall = false }: { label?: string; tall?
   </div>
 );
 
+/** Placeholder cards in the Breakdown's layout while its chunk loads. */
+const BreakdownSkeleton = () => (
+  <div className="bd-skeleton" role="status" aria-live="polite" aria-label="Loading the breakdown">
+    <span className="w2 tall" />
+    <span className="tall" />
+    <span />
+    <span />
+    <span />
+  </div>
+);
+
 export default function Home() {
   const [page, setPage] = useState<Page>("cards");
   const [today, setToday] = useState(CHECKED_AT);
   const [promo, setPromo] = useState<string>("All");
   const [eventId, setEventId] = useState<string>(() => EVENTS.find((e) => ledgerFor(e.id)?.results?.live)?.id ?? EVENTS.find((e) => e.date >= CHECKED_AT && e.fights.length)?.id ?? EVENTS[0].id);
   const [fightId, setFightId] = useState<string>("");
-  const [detail, setDetail] = useState<Detail>("pick");
+  const [detail, setDetail] = useState<Detail>(DEFAULT_DETAIL);
   const [reviews, setReviews] = useState<Record<string, Review>>({});
   const [profile, setProfile] = useState<string | null>(null);
   const [profileMounted, setProfileMounted] = useState(false);
@@ -101,6 +123,7 @@ export default function Home() {
     setFightId(ev.fights.find((f) => f.id === l.f)?.id ?? ev.fights[0]?.id ?? "");
     if (l.t && DETAIL_TABS.some((d) => d.id === l.t)) setDetail(l.t);
     if (l.p && PAGES.some(([id]) => id === l.p)) setPage(l.p);
+    if (BOOT_HASH.startsWith("#mm~")) setPage("matchmaker");
   }, []);
 
   // Once the first card is on screen, fetch the remaining profiles in the background so search and
@@ -135,9 +158,13 @@ export default function Home() {
   const fight: Fight | undefined = current.fights.find((f) => f.id === fightId) ?? current.fights[0];
   const a = fight && card.ready ? fighters[fight.a] : undefined,
     b = fight && card.ready ? fighters[fight.b] : undefined;
-  const prediction = useMemo(() => (fight && a && b ? predict(fight, a, b, current) : null), [fight, a, b, current]);
-  const rounds = useMemo(() => (fight && a && b ? predictRounds(fight, a, b, current) : null), [fight, a, b, current]);
-  const finish = useMemo(() => (fight && a && b && prediction ? predictFinish(fight, a, b, current, prediction.pick) : null), [fight, a, b, current, prediction]);
+  // Live engine (as of the event date)…
+  const livePrediction = useMemo(() => (fight && a && b ? predict(fight, a, b, current) : null), [fight, a, b, current]);
+  const liveRounds = useMemo(() => (fight && a && b ? predictRounds(fight, a, b, current) : null), [fight, a, b, current]);
+  const liveFinish = useMemo(() => (fight && a && b && livePrediction ? predictFinish(fight, a, b, current, livePrediction.pick) : null), [fight, a, b, current, livePrediction]);
+  // …and what every surface shows: the live engine before lock, the frozen final pick once locked or finished.
+  const shown = useMemo(() => (fight && a && b && livePrediction ? shownPrediction(current, fight, a, b, livePrediction, liveRounds, liveFinish) : null), [current, fight, a, b, livePrediction, liveRounds, liveFinish]);
+  const prediction = shown?.p ?? null, rounds = shown?.rounds ?? null, finish = shown?.finish ?? null, lock = shown?.lock ?? null;
   const review: Review = fight ? (reviews[fight.id] ?? {}) : {};
   const result = a && b ? resultFor(current.id, a.name, b.name) : null;
 
@@ -147,11 +174,12 @@ export default function Home() {
     if (page !== "cards") q.set("p", page);
     q.set("e", current.id);
     if (fight) q.set("f", fight.id);
-    if (detail !== "pick") q.set("t", detail);
+    if (detail !== DEFAULT_DETAIL) q.set("t", detail);
     // Keep page-specific params other components own (e.g. the Track record promotion tab).
     const keep = new URLSearchParams(window.location.search).get("tr");
     if (page === "record" && keep) q.set("tr", keep);
-    window.history.replaceState(null, "", "?" + q.toString());
+    // The Matchmaker keeps its matchup in the #anchor; every other page drops it.
+    window.history.replaceState(null, "", "?" + q.toString() + (page === "matchmaker" && window.location.hash.startsWith("#mm~") ? window.location.hash : ""));
   }, [page, current.id, fight, detail]);
 
   function openSearch() {
@@ -165,7 +193,7 @@ export default function Home() {
   function chooseEvent(e: Event) {
     setEventId(e.id);
     setFightId(e.fights[0]?.id ?? "");
-    setDetail("pick");
+    setDetail(DEFAULT_DETAIL);
   }
   function choosePromo(p: string) {
     setPromo(p);
@@ -190,7 +218,7 @@ export default function Home() {
     const winner = prediction.pick === a.id ? a : prediction.pick === b.id ? b : null;
     const text = [
       `${current.title} — ${a.name} vs ${b.name}`,
-      winner ? `Jango pick: ${winner.name} (${prediction.confidence}%, ${prediction.tier})` : "Jango pick: pending",
+      winner ? `Jango pick${lock ? " (locked)" : ""}: ${winner.name} (${prediction.confidence}%, ${prediction.tier})` : "Jango pick: pending",
       rounds ? `Rounds: ${rounds.side} ${rounds.line}` : "",
       finish ? `Method: ${finish.label}` : "",
       ...prediction.reasons.slice(0, 3).map((r) => `• ${r.title}: ${r.text}`),
@@ -220,7 +248,7 @@ export default function Home() {
       if (promo !== "All" && ev.promotion !== promo) setPromo("All");
       setEventId(ev.id);
       setFightId(fId ?? ev.fights[0]?.id ?? "");
-      setDetail("pick");
+      setDetail(DEFAULT_DETAIL);
       setTimeout(() => document.querySelector(fId ? ".jp-detail" : ".jp-event-head")?.scrollIntoView({ behavior: "smooth", block: "start" }), 80);
     },
   };
@@ -236,6 +264,7 @@ export default function Home() {
     document.getElementById("tab-" + DETAIL_TABS[j].id)?.focus();
   }
   const index = fight ? current.fights.indexOf(fight) : -1;
+  const lockedRounds = lock && rounds ? { side: rounds.side, line: rounds.line, agrees: lock.roundsAgree } : lock ? null : undefined;
   const tabProps = a && b && fight ? { a, b, event: current, fight } : null;
 
   return (
@@ -389,9 +418,9 @@ export default function Home() {
                     )}
 
                     <Faceoff key={fight.id} a={a} b={b} event={current} fight={fight}>
-                      <VerdictStrip p={prediction} rounds={rounds} finish={finish} a={a} b={b} />
-                      <PickUpdates eventId={current.id} a={a} b={b} />
-                      <div className="jp-tabs" role="tablist" aria-label="Matchup sections" onKeyDown={tabKeys}>
+                      <VerdictStrip p={prediction} rounds={rounds} finish={finish} a={a} b={b} lock={lock} />
+                      <PickUpdates eventId={current.id} a={a} b={b} live={lock || !livePrediction ? null : liveCall(livePrediction, liveRounds, liveFinish, a, b)} />
+                      <div className="jp-tabs n7" role="tablist" aria-label="Matchup sections" onKeyDown={tabKeys}>
                         {DETAIL_TABS.map((t) => (
                           <button key={t.id} id={"tab-" + t.id} role="tab" aria-selected={detail === t.id} aria-controls="jp-panel" tabIndex={detail === t.id ? 0 : -1} className={detail === t.id ? "on" : ""} onClick={() => setDetail(t.id)}>
                             {t.icon}
@@ -402,18 +431,19 @@ export default function Home() {
                     </Faceoff>
 
                     <div className="jp-panel" id="jp-panel" role="tabpanel" aria-labelledby={"tab-" + detail}>
-                      <Suspense fallback={<Loading />}>
+                      <Suspense fallback={detail === "breakdown" ? <BreakdownSkeleton /> : <Loading />}>
+                        {detail === "breakdown" && <BoutBreakdown a={a} b={b} event={current} fight={fight} prediction={prediction} rounds={rounds} finish={finish} lock={lock} />}
                         {detail === "pick" && (
                           <>
                             <div className="jp-pick-grid">
                               <div className="jp-pick-col">
-                                <PickCard p={prediction} a={a} b={b} review={review} onReview={updateReview} onMyTake={() => setDetail("notes")} />
+                                <PickCard p={prediction} a={a} b={b} review={review} onReview={updateReview} onMyTake={() => setDetail("notes")} note={lock?.note} locked={!!lock} />
                                 <EdgeMap p={prediction} a={a} b={b} />
                               </div>
                               <div className="jp-side-col">
-                                <RoundsPick fight={fight} a={a} b={b} event={current} compact />
+                                <RoundsPick fight={fight} a={a} b={b} event={current} compact lock={lockedRounds} />
                                 <TaleOfTape a={a} b={b} />
-                                <FinishScene key={fight.id + String(prediction.pick)} a={a} b={b} event={current} fight={fight} winnerId={prediction.pick} />
+                                <FinishScene key={fight.id + String(prediction.pick) + (finish?.method ?? "")} a={a} b={b} event={current} fight={fight} winnerId={prediction.pick} method={lock ? finish?.method : undefined} />
                                 <MarketOdds fight={fight} a={a} b={b} />
                               </div>
                             </div>
@@ -421,7 +451,7 @@ export default function Home() {
                           </>
                         )}
                         {detail === "stats" && <StatsTab {...tabProps} prediction={prediction} review={review} onNotes={() => setDetail("notes")} />}
-                        {detail === "rounds" && <RoundsPick fight={fight} a={a} b={b} event={current} />}
+                        {detail === "rounds" && <RoundsPick fight={fight} a={a} b={b} event={current} lock={lockedRounds} />}
                         {detail === "history" && <HistoryTab {...tabProps} />}
                         {detail === "film" && <FilmRoom {...tabProps} />}
                         {detail === "notes" && <NotesTab {...tabProps} review={review} onSave={updateReview} />}
@@ -451,6 +481,7 @@ export default function Home() {
             {page === "model" && <ModelLab />}
             {page === "champions" && <Champions />}
             {page === "clips" && <ClipsPage />}
+            {page === "matchmaker" && <MatchmakerPage bootHash={BOOT_HASH} />}
           </Suspense>
         </main>
         <footer className="jp-foot">
