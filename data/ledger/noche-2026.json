@@ -228,8 +228,58 @@
     "scheduledRounds": 5,
     "line": 2.5,
     "ou": "Over",
-    "notes": [],
-    "section": "main"
+    "notes": [
+     "Delgado dropped Silva in R1 and won the round on all Sherdog cards; Silva's pressure took over in R2 and he dropped and submitted Delgado in R3."
+    ],
+    "section": "main",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Silva barely threw for two minutes while Delgado switched stances and chopped with low kicks; then a Delgado punch burst (MMA Sucka: a clean right hand) dropped Silva, who got straight up. Delgado finished the round with leg kicks, a partly blocked head kick and uppercuts. Sherdog 3/3 Delgado.",
+      "edge": "b",
+      "keyMoments": [
+       "Knockdown: Delgado (right hand)",
+       "Silva slow start",
+       "Silva recovered immediately"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Delgado kept using his reach with jabs, high kicks and body kicks, but Silva began pressuring, landed power punches from both hands and scored a takedown, though Delgado got up. Wild exchange at the bell. Sherdog 3/3 Silva.",
+      "edge": "a",
+      "keyMoments": [
+       "Silva takedown",
+       "Silva pressure took over"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Silva stalked with body hooks and fence pressure, then an overhand right and a straight right dropped Delgado; Silva scrambled to the back and finished a one-armed rear-naked choke at 2:57.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Silva (straight right)",
+       "RNC 2:57"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "MMA Sucka recap",
+       "url": "https://mmasucka.com/news/jean-silva-overcomes-early-trouble-to-submit-jose-delgado-in-ufc-noche-headliner/"
+      },
+      {
+       "label": "UFC.com results",
+       "url": "https://www.ufc.com/news/noche-ufc-results-silva-vs-delgado"
+      }
+     ]
+    }
    },
    {
     "a": "Brandon Moreno",
@@ -243,8 +293,127 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
-    "section": "main"
+    "notes": [
+     "Two judges gave Moreno every round (30-27), but Sherdog's three scorers had Morales winning R1-R2 (29-28 Morales) and media split 6-3 for Morales on MMADecisions. A generous win; Moreno's clear round was R3 on top control."
+    ],
+    "section": "main",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Moreno landed a hard left hook to the body and wobbled Morales with a punch burst, but Morales landed right hands and uppercuts, took Moreno down briefly and stopped a charge with a front headlock. Sherdog 3/3 Morales and judge Topps agreed; judges Bell and Col\u00f3n gave it to Moreno.",
+      "edge": "b",
+      "keyMoments": [
+       "Morales wobbled by punch burst",
+       "Morales takedown, Moreno up fast",
+       "Judges 2-1 Moreno vs Sherdog 3-0 Morales"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Moreno worked the body and tripped Morales off a caught kick, but Morales landed front kicks, combinations and knees up the middle; a low blow from Morales paused it. Sherdog 3/3 Morales and Topps agreed; Bell and Col\u00f3n had Moreno. Cageside called it competitive.",
+      "edge": "b",
+      "keyMoments": [
+       "Moreno trip takedown",
+       "Low blow by Morales",
+       "Judges 2-1 Moreno vs Sherdog 3-0 Morales"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Moreno stuffed an early takedown, then hit a double-underhook trip with about 90 seconds left and controlled from top with elbows, hammerfists and punches to the bell. Sherdog 3/3 Moreno and all three judges agreed.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Moreno trip takedown, top control"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "Cageside Press recap",
+       "url": "https://cagesidepress.com/2026/09/12/noche-ufc-brandon-moreno-back-in-win-column-care-of-decision-over-joseph-morales/"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16345/Brandon-Moreno-vs-Joseph-Morales"
+      }
+     ],
+     "note": "Disputed: two judges scored it 30-27 Moreno, but all three Sherdog scorers had 29-28 Morales and media split 6-3 for Morales on MMADecisions."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Michael Bell",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "judge": "Eric Col\u00f3n",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "judge": "Andrew Topps",
+       "a": 28,
+       "b": 29
+      }
+     ],
+     "media": [
+      {
+       "outlet": "WrestlingObserver.com (Ryan Frederick)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "The MMA Vivisection (Zane Simon)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "CombatPress.com",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Dayne Fox)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "MMAMania.com",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "Sherdog (Brian Knapp)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "Sherdog (Tudor Leonte)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "Sherdog (Mike Sloan)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "MMAJunkie.com (Danny Segura)",
+       "a": 28,
+       "b": 29
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16345/Brandon-Moreno-vs-Joseph-Morales"
+    }
    },
    {
     "a": "Tommy McMillen",
@@ -258,8 +427,79 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
-    "section": "main"
+    "notes": [
+     "McMillen won R1, was dropped and badly hurt by a Rahiki left hook in R2, then dropped and dominated a tired Rahiki in R3 (one judge 10-8)."
+    ],
+    "section": "main",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "McMillen slammed home an overhand right into a takedown and flirted with an arm-triangle, then out-landed Rahiki on the feet with overhand rights, jabs, oblique kicks and body hooks; Rahiki answered with a right hook and a slapping high kick. Sherdog 3/3 and all three judges for McMillen.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "McMillen takedown",
+       "McMillen overhand rights"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Rahiki landed a hard spinning back kick to the body, then sat McMillen down with a left hook and swarmed with power punches and a knee; McMillen was in trouble for a stretch. Tiring, Rahiki kept landing body knees; McMillen came back with an elbow, a takedown and brabo/choke attempts late. Sherdog 3/3 and all three judges for Rahiki.",
+      "edge": "b",
+      "score": "10-9 b",
+      "keyMoments": [
+       "Knockdown: Rahiki (left hook)",
+       "McMillen hurt, recovered",
+       "McMillen late takedown and choke threats",
+       "Rahiki fatigued"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Rahiki hit a throw, but McMillen took his back and side control with ground and pound, then floored him with an overhand right and dominated from north-south with choke attempts, knees and punches while an exhausted Rahiki survived. Sherdog 3/3 McMillen (Treese 10-8); judge Bell scored it 10-8, the others 10-9.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: McMillen (overhand right)",
+       "McMillen top control, choke attempts",
+       "Rahiki exhausted"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16344/Tommy-McMillen-vs-Marwan-Rahiki"
+      }
+     ],
+     "note": "All nine media scores on MMADecisions had McMillen."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Michael Bell",
+       "a": 29,
+       "b": 27
+      },
+      {
+       "judge": "Eric Col\u00f3n",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Chris Flores",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16344/Tommy-McMillen-vs-Marwan-Rahiki"
+    }
    },
    {
     "a": "Alexa Grasso",
@@ -273,8 +513,78 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
-    "section": "main"
+    "notes": [
+     "Grasso wobbled Fiorot early and dropped her late in R1, out-landed her in R2, and Fiorot rallied to take R3. 9 of 10 media scores had Grasso."
+    ],
+    "section": "main",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "No glove touch. Grasso backed Fiorot to the fence and wobbled her with a left, kept firing combinations, then dropped her late with a counter right hook and finished the round with ground and pound. Sherdog: Knapp and Leonte 10-9, Sloan 10-8 Grasso.",
+      "edge": "a",
+      "keyMoments": [
+       "Fiorot wobbled by left hand",
+       "Knockdown: Grasso (counter right hook)"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Grasso kept landing multi-punch volleys, a sweeping right hook counter and leg kicks while Fiorot came up short on most punches, landing mainly side kicks, a one-two and a jump knee. Grasso finished the round bleeding from a cut near her eye. Sherdog 3/3 Grasso.",
+      "edge": "a",
+      "keyMoments": [
+       "Grasso volume",
+       "Grasso cut near eye"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Grasso kept pressing with blood streaming down her face, but Fiorot landed more: one-twos, a left over the top, a head kick and repeated side kicks to the body. Sherdog 3/3 Fiorot; MMADecisions' round consensus also gives Fiorot R3.",
+      "edge": "b",
+      "keyMoments": [
+       "Fiorot's best round",
+       "Grasso bleeding"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "Cageside Press recap",
+       "url": "https://cagesidepress.com/2026/09/12/noche-ufc-fun-fight-sees-alexa-grasso-get-the-better-of-manon-fiorot/"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16343/Alexa-Grasso-vs-Manon-Fiorot"
+      }
+     ],
+     "note": "9 of 10 media scores on MMADecisions had Grasso."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Sal D'Amato",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Ron McCarthy",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Felicia Oh",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16343/Alexa-Grasso-vs-Manon-Fiorot"
+    }
    },
    {
     "a": "Curtis Blaydes",
@@ -288,8 +598,73 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
-    "section": "main"
+    "notes": [
+     "A low-output fight won on Blaydes' takedowns in R1 and R3; Cortes Acosta took R2 on Sherdog's cards. Each judge gave Cortes Acosta a different round."
+    ],
+    "section": "main",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "A slow round of jabs and leg kicks until Blaydes timed a takedown with about a minute left and held side control and half guard with a few elbows. Sherdog 3/3 Blaydes; judges 2-1 Blaydes (Topps had Cortes Acosta).",
+      "edge": "a",
+      "keyMoments": [
+       "Blaydes takedown late"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Blaydes took Cortes Acosta down twice early but couldn't keep him there; the rest was a slow jab battle that Cortes Acosta edged late with one-twos and an overhand right. Sherdog 3/3 Cortes Acosta; judges 2-1 Blaydes (only Bell had Cortes Acosta).",
+      "edge": "b",
+      "keyMoments": [
+       "2 brief Blaydes takedowns",
+       "Judges 2-1 Blaydes vs Sherdog 3-0 Cortes Acosta"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Cortes Acosta was busier early with jabs and leg kicks; Blaydes landed a trip takedown midway and held him on the fence for about a minute, then both threw single shots to boos. Sherdog 3/3 Blaydes; judges 2-1 Blaydes (Col\u00f3n had Cortes Acosta).",
+      "edge": "a",
+      "keyMoments": [
+       "Blaydes trip takedown",
+       "Crowd booed the pace"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16342/Curtis-Blaydes-vs-Waldo-Cortes-Acosta"
+      }
+     ],
+     "note": "All three judges scored it 29-28 Blaydes but each gave a different round to Cortes Acosta. All nine media scores on MMADecisions had Blaydes."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Michael Bell",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Eric Col\u00f3n",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Andrew Topps",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16342/Curtis-Blaydes-vs-Waldo-Cortes-Acosta"
+    }
    },
    {
     "a": "David Martinez",
@@ -303,8 +678,76 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
-    "section": "main"
+    "notes": [
+     "Martinez won every round on Sherdog's cards: leg kicks compromised Ige's lead leg and an overhand right dropped him in R3."
+    ],
+    "section": "main",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "A tactical round. Martinez landed body hooks, sweeping leg kicks and an overhand left that made Ige stumble, and closed with a jumping knee to the body. Sherdog 3/3 and all three judges for Martinez.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Ige stumbled by overhand left",
+       "Martinez leg kicks"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Martinez countered Ige at every turn with body shots, one-one-twos and punishing leg kicks that left Ige unsteady on his lead leg; Ige's takedown went nowhere. Sherdog 3/3 Martinez; judges 2-1 Martinez (Col\u00f3n had Ige).",
+      "edge": "a",
+      "keyMoments": [
+       "Ige compromised lead leg",
+       "Ige takedown stuffed"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Martinez dropped an off-balance Ige with an overhand right, kept piling up leg damage, then caught a kick, dumped him and fought through a triangle to land ground and pound. Sherdog 3/3 and all three judges for Martinez.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Knockdown: Martinez (overhand right)",
+       "Martinez takedown off caught kick"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16341/David-Martinez-vs-Dan-Ige"
+      }
+     ],
+     "note": "All 11 media scores on MMADecisions were 30-27 Martinez."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Eric Col\u00f3n",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Sal D'Amato",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "judge": "Chris Flores",
+       "a": 30,
+       "b": 27
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16341/David-Martinez-vs-Dan-Ige"
+    }
    },
    {
     "a": "Tim Elliott",
@@ -318,8 +761,78 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
-    "section": "prelims"
+    "notes": [
+     "Elliott survived an early daze in R1 and won R1-R2 with takedowns and ground and pound; Chairez's leg kicks and a tiring Elliott gave him R3."
+    ],
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Chairez dazed Elliott early with a left hook and a right over the top and landed one-twos, but Elliott fired back, staggered him with a left, and took him down late for elbows and hammerfists from half guard. Sherdog 3/3 and all three judges for Elliott.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Elliott dazed early, recovered",
+       "Chairez staggered by left",
+       "Elliott takedown, ground and pound"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Elliott took Chairez down twice and battered him from full guard with hammerfists and elbows, fighting through an armbar attempt; Chairez bled heavily from the nose. An unseen eye poke by Chairez bothered Elliott. Sherdog 3/3 Elliott; judges 2-1 Elliott (Bell had Chairez).",
+      "edge": "a",
+      "keyMoments": [
+       "2 takedowns Elliott",
+       "Chairez bloodied",
+       "Unseen eye poke by Chairez"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Chairez hammered Elliott's back leg with a stepping front kick that left him hobbling, landed hooks and a spinning backfist to the body, and stopped a takedown with a guillotine. Elliott looked tired but got two takedowns, the last with 30 seconds left. Sherdog 3/3 Chairez; judges 2-1 Chairez (Bell had Elliott).",
+      "edge": "b",
+      "keyMoments": [
+       "Elliott hobbled by kick to back leg",
+       "Elliott tired",
+       "2 Elliott takedowns"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16340/Tim-Elliott-vs-Edgar-Chairez"
+      }
+     ],
+     "note": "All eight media scores on MMADecisions had Elliott (four 30-27, four 29-28)."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Michael Bell",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Ron McCarthy",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Felicia Oh",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16340/Tim-Elliott-vs-Edgar-Chairez"
+    }
    },
    {
     "a": "Ignacio Bahamondes",
@@ -333,8 +846,76 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
-    "section": "prelims"
+    "notes": [
+     "Salikhov kept catching kicks for takedowns (six in all per Sherdog) but did little with them; Bahamondes' kicking volume and a late R2 stagger won the rounds."
+    ],
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Close. Bahamondes switched stances and landed side kicks, a one-two, a right over the top and a head kick; Salikhov caught two kicks for trip takedowns and landed a left hook. Sherdog split 2-1 Salikhov; judges Bell and D'Amato gave it to Bahamondes, Oh to Salikhov.",
+      "edge": "a",
+      "keyMoments": [
+       "2 Salikhov trips off caught kicks",
+       "Split round"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Bahamondes commanded the center with kicks to legs, body and head; Salikhov caught a high kick and a head kick for two takedowns but didn't stay on top. Bahamondes staggered him with a right hand at the bell and chased with punches and a knee. Sherdog 3/3 and all three judges for Bahamondes.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Salikhov staggered late",
+       "2 Salikhov takedowns off caught kicks"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Bahamondes landed another head kick, an elbow and a jumping knee-right hand; Salikhov caught a kick for a takedown, landed a spinning back kick to the body, and finished with a takedown and ground and pound to the bell. Sherdog 3/3 and all three judges for Bahamondes.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Salikhov takedowns late",
+       "Bahamondes head kicks"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16339/Ignacio-Bahamondes-vs-Muslim-Salikhov"
+      }
+     ],
+     "note": "8 of 10 media scores on MMADecisions were 30-27 Bahamondes, 2 were 29-28."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Michael Bell",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "judge": "Sal D'Amato",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "judge": "Felicia Oh",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16339/Ignacio-Bahamondes-vs-Muslim-Salikhov"
+    }
    },
    {
     "a": "Yousri Belgaroui",
@@ -349,7 +930,33 @@
     "line": 1.5,
     "ou": "Under",
     "notes": [],
-    "section": "prelims"
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "The 6-foot-6 Belgaroui used his size and reach, pawing with the lead hand and landing a powerful leg kick; two clubbing overhand rights drove Santos to his knees for the stoppage at 4:25.",
+      "edge": "a",
+      "keyMoments": [
+       "Belgaroui leg kicks",
+       "TKO (overhand rights) 4:25"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "UFC.com results",
+       "url": "https://www.ufc.com/news/noche-ufc-results-silva-vs-delgado"
+      }
+     ],
+     "note": "Only Sherdog gives round detail; UFC.com confirms the finish."
+    }
    },
    {
     "a": "Tommy Gantt",
@@ -363,8 +970,54 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
-    "section": "prelims"
+    "notes": [
+     "Gantt controlled Klose with takedowns and clinch work for two rounds (Sherdog 3/3 both) before the R3 inverted triangle."
+    ],
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Gantt closed in for a powerful takedown and controlled from half guard with a front headlock, landing knees to the body and shoulder strikes while Klose struggled to escape. Sherdog 3/3 Gantt.",
+      "edge": "a",
+      "keyMoments": [
+       "Gantt takedown",
+       "Gantt top control"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Gantt landed his jab and an oblique kick, closed the distance with a single-leg and controlled the clinch with body knees. Sherdog 3/3 Gantt.",
+      "edge": "a",
+      "keyMoments": [
+       "Gantt single-leg",
+       "Clinch control"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Gantt moved to full mount and then the back, threatening the neck, and caught Klose in an inverted triangle for the tap at 2:46.",
+      "edge": "a",
+      "keyMoments": [
+       "Gantt mount and back",
+       "Inverted triangle 2:46"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "UFC.com results",
+       "url": "https://www.ufc.com/news/noche-ufc-results-silva-vs-delgado"
+      }
+     ],
+     "note": "Only Sherdog gives round detail; UFC.com confirms the finish."
+    }
    },
    {
     "a": "Rongzhu",
@@ -378,8 +1031,78 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
-    "section": "prelims"
+    "notes": [
+     "Everyone had Rong 29-28, but the judges and Sherdog split R1 and R2 in opposite directions. Garcia's pace dropped in R3."
+    ],
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Rong landed inside leg kicks, a check left hook and a jarring right over the top and cut Garcia near the right eye; Garcia crashed in, took him down late and climbed to mount before the bell. Sherdog 3/3 Rong, but all three judges gave it to Garcia.",
+      "edge": "b",
+      "score": "10-9 b",
+      "keyMoments": [
+       "Garcia cut near right eye",
+       "Garcia takedown to mount late",
+       "Judges 3-0 Garcia vs Sherdog 3-0 Rong"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Rong landed a left hook-looping right and an uppercut with inside leg kicks; Garcia pressed forward and landed a strong knee to the body in the clinch. Sherdog 3/3 Garcia, but all three judges gave it to Rong.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Garcia clinch knee",
+       "Judges 3-0 Rong vs Sherdog 3-0 Garcia"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Rong's jabs and body kicks controlled the round as Garcia slowed noticeably; Garcia's single-leg went nowhere. Sherdog 3/3 and all three judges for Rong.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Garcia slowed",
+       "Garcia takedown stuffed"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16336/Rong-Zhu-vs-Rafa-Garcia"
+      }
+     ],
+     "note": "Edges for R1-R2 follow the official judges, who scored both rounds the opposite way to Sherdog; both sides still had Rong 29-28. 8 of 9 media scores on MMADecisions had Rong."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Eric Col\u00f3n",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Ron McCarthy",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Andrew Topps",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16336/Rong-Zhu-vs-Rafa-Garcia"
+    }
    },
    {
     "a": "Sean King III",
@@ -394,7 +1117,31 @@
     "line": 1.5,
     "ou": "Under",
     "notes": [],
-    "section": "prelims"
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "King landed a body kick and inside leg kicks, locked a body lock (trapping an arm, per Yahoo) and slammed Rosas, who was knocked out by the impact; follow-up punches ended it at 0:36.",
+      "edge": "a",
+      "keyMoments": [
+       "Slam KO 0:36"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "Yahoo Sports live results",
+       "url": "https://ca.sports.yahoo.com/news/noche-ufc-live-results-jean-silva-vs-jose-delgado-updates-round-by-round-scoring-for-todays-fights-063000680.html"
+      }
+     ]
+    }
    },
    {
     "a": "Regina Tarin",
@@ -409,7 +1156,73 @@
     "line": 1.5,
     "ou": "Over",
     "notes": [],
-    "section": "prelims"
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Even early. Aldrich landed inside leg kicks and a takedown on the fence before they separated; Tarin landed a three-punch volley and the round ended with both trading elbows in the pocket. Sherdog 3/3 Tarin; judges 2-1 Tarin (McCarthy had Aldrich).",
+      "edge": "a",
+      "keyMoments": [
+       "Aldrich takedown",
+       "Elbow exchange at the bell"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Aldrich stung Tarin with right hands early, but Tarin turned up the pressure with body volleys, a left over the top and one-twos, and stopped a takedown. Sherdog 3/3 and all three judges for Tarin.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Tarin pressure",
+       "Aldrich takedown stuffed"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Tarin split the guard with a straight right and landed combinations ending in left hooks; she bled from the nose and Aldrich landed late, but Tarin stopped a final takedown. Sherdog 3/3 Tarin; judges 2-1 Aldrich (Bell and Flores).",
+      "edge": "a",
+      "keyMoments": [
+       "Tarin straight right",
+       "Tarin bloodied nose",
+       "Judges 2-1 Aldrich vs Sherdog 3-0 Tarin"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Noche-4-Silva-vs-Delgado-playbyplay-results-round-scoring-202770"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16334/Regina-Tarin-vs-JJ-Aldrich"
+      }
+     ],
+     "note": "Nine of ten media scores on MMADecisions were 30-27 Tarin."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Michael Bell",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Chris Flores",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Ron McCarthy",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16334/Regina-Tarin-vs-JJ-Aldrich"
+    }
    }
   ]
  },
@@ -418,10 +1231,10 @@
   "reviewedAt": "2026-09-26",
   "followUpUntil": "2026-09-15",
   "lessons": [
-   "Archived GPT-era picks (engine 0.4) went 7/12 on winners with one abstention (Martinez–Ige), 9/13 on rounds, and 5 of 7 correct winners also had the right method.",
+   "Archived GPT-era picks (engine 0.4) went 7/12 on winners with one abstention (Martinez\u2013Ige), 9/13 on rounds, and 5 of 7 correct winners also had the right method.",
    "Four of the five winner misses went the distance or deep into R3 (Grasso UD, Tarin UD, Rongzhu UD, Gantt R3 sub). The old model over-trusted established names over younger opponents with rising form (Tarin 21, Rongzhu).",
-   "All four rounds misses were finish-timing errors in both directions: two early KOs (Belgaroui R1, King R1 in 33–36s) where we had Over, and two fights we expected to end early that went long (Silva sub R3, McMillen UD).",
-   "Review written after the follow-up window; recaps available (Yahoo/MMA Junkie, UFC.com) gave round detail for Grasso–Fiorot and Tarin–Aldrich only. Other miss notes are result-level."
+   "All four rounds misses were finish-timing errors in both directions: two early KOs (Belgaroui R1, King R1 in 33\u201336s) where we had Over, and two fights we expected to end early that went long (Silva sub R3, McMillen UD).",
+   "Review written after the follow-up window; recaps available (Yahoo/MMA Junkie, UFC.com) gave round detail for Grasso\u2013Fiorot and Tarin\u2013Aldrich only. Other miss notes are result-level."
   ],
   "bouts": [
    {
@@ -457,17 +1270,17 @@
     "a": "Regina Tarin",
     "b": "JJ Aldrich",
     "cause": "model",
-    "note": "Picked the veteran Aldrich; the unbeaten 21-year-old Tarin won 29-28 x3 with length and R2 pressure. Youth and unbeaten momentum were underweighted — now covered by the v1.0 form model."
+    "note": "Picked the veteran Aldrich; the unbeaten 21-year-old Tarin won 29-28 x3 with length and R2 pressure. Youth and unbeaten momentum were underweighted \u2014 now covered by the v1.0 form model."
    },
    {
     "a": "Yousri Belgaroui",
     "b": "Djorden Santos",
-    "note": "Winner and method right; rounds missed (Over 1.5) — TKO at 4:25 of R1."
+    "note": "Winner and method right; rounds missed (Over 1.5) \u2014 TKO at 4:25 of R1."
    },
    {
     "a": "Sean King III",
     "b": "Jessie Rosas",
-    "note": "Winner and method right; rounds missed (Over 1.5) — slam KO in R1 on nine days' notice."
+    "note": "Winner and method right; rounds missed (Over 1.5) \u2014 slam KO in R1 on nine days' notice."
    },
    {
     "a": "David Martinez",

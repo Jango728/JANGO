@@ -1,6 +1,6 @@
 {
  "eventId": "dwcs-2026-week7",
- "title": "DWCS Season 10 · Week 7",
+ "title": "DWCS Season 10 \u00b7 Week 7",
  "date": "2026-09-22",
  "promotion": "DWCS",
  "forecast": null,
@@ -33,7 +33,37 @@
      "Slow start, then a right hand dropped Quissua late in R1.",
      "Follow-up strikes ended it five seconds before the bell."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Jab exchanges first; Quissua landed shots and a head kick, but the bigger Piwowarczyk countered with heavy blows, dropped him twice (MMA News) and got the stoppage at 4:55.",
+      "edge": "a",
+      "keyMoments": [
+       "Quissua head kick",
+       "2 knockdowns Piwowarczyk",
+       "TKO 4:55"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/22/dana-whites-contender-series-season-10-week-7-live-results-round-by-round-updates-highlights-and-winner-september-22-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-7-highlights"
+      },
+      {
+       "label": "SI week 7 results",
+       "url": "https://www.si.com/fannation/mma/news/dana-white-s-contender-series-2026-week-7-live-stream-results-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Piero Guaylupo",
@@ -52,7 +82,50 @@
      "Nearly 400 combined significant strikes; Connor also got a contract."
     ],
     "contract": true,
-    "context": "Callum Connor also earned a UFC contract."
+    "context": "Callum Connor also earned a UFC contract.",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Connor landed leg kicks and punches early, but Guaylupo badly hurt him and knocked him down late (MMA News: overhand). DK Network 10-9 Guaylupo.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Guaylupo (overhand)",
+       "Connor badly hurt"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Connor came back well and both traded huge punches, but Guaylupo kept punishing him. DK Network 10-9 Guaylupo.",
+      "edge": "a",
+      "keyMoments": [
+       "Big exchanges"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Guaylupo's power and accuracy made the difference; Connor finished covered in blood but landed a spinning elbow in the closing seconds. DK Network 10-9 Guaylupo.",
+      "edge": "a",
+      "keyMoments": [
+       "Connor bloodied",
+       "Connor spinning elbow late"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/22/dana-whites-contender-series-season-10-week-7-live-results-round-by-round-updates-highlights-and-winner-september-22-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-7-highlights"
+      }
+     ],
+     "note": "Judges 30-27 x3."
+    }
    },
    {
     "a": "Marcos Degli",
@@ -70,7 +143,47 @@
      "Struggled early before taking control in R2.",
      "Finished with a one-armed choke late in the round."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Degli took Moran down a minute in, held him on the fence and hunted the back. DK Network: Degli dominated, 10-9.",
+      "edge": "a",
+      "keyMoments": [
+       "Degli takedown",
+       "Back-take attempts"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Moran briefly got on top, but Degli took him down again, took the back and finished a one-armed rear-naked choke at 4:46 (SI: standing).",
+      "edge": "a",
+      "keyMoments": [
+       "Moran briefly on top",
+       "Degli takedown, back",
+       "One-armed RNC 4:46"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/22/dana-whites-contender-series-season-10-week-7-live-results-round-by-round-updates-highlights-and-winner-september-22-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-7-highlights"
+      },
+      {
+       "label": "SI week 7 results",
+       "url": "https://www.si.com/fannation/mma/news/dana-white-s-contender-series-2026-week-7-live-stream-results-highlights"
+      }
+     ],
+     "note": "The existing note says Degli struggled early; both round-by-round sources have him dominating R1."
+    }
    },
    {
     "a": "Alvi Dasuyev",
@@ -89,7 +202,51 @@
      "Recovered in R3; Ortega also got a contract."
     ],
     "contract": true,
-    "context": "Jaden Ortega also earned a UFC contract."
+    "context": "Jaden Ortega also earned a UFC contract.",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Dasuyev showed sharp punches and kicks and scored a knockdown about 90 seconds in; Ortega was inactive. DK Network 10-9 Dasuyev.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Dasuyev"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Dasuyev hurt Ortega again early; Ortega kept getting up and both landed big shots. DK Network scored it 10-9 Ortega, but MMA News describes Dasuyev dropping him repeatedly across R1-R2, and two judges gave Dasuyev every round.",
+      "edge": "a",
+      "keyMoments": [
+       "Ortega hurt/dropped again",
+       "Ortega recovered",
+       "Sources split on the round"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Both tired and output fell, with Ortega trying flying knees and spinning attacks, but Dasuyev still landed a lot of significant punches. DK Network 10-9 Dasuyev.",
+      "edge": "a",
+      "keyMoments": [
+       "Dasuyev fatigued",
+       "Ortega spinning attacks"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/22/dana-whites-contender-series-season-10-week-7-live-results-round-by-round-updates-highlights-and-winner-september-22-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-7-highlights"
+      }
+     ],
+     "note": "Judges 30-27, 30-27, 29-28. R2 is the disputed round (DK Network: Ortega)."
+    }
    },
    {
     "a": "Norbert Novenyi Jr.",
@@ -107,7 +264,51 @@
      "Nearly finished Haig early.",
      "Haig's grappling slowed it down; no contract, asked to return."
     ],
-    "contract": false
+    "contract": false,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Novenyi dropped Haig with a right hand and went for a choke from the back, but Haig recovered, took him down and landed punches from top. DK Network 10-9 Haig on the takedowns.",
+      "edge": "b",
+      "keyMoments": [
+       "Knockdown: Novenyi (right hand)",
+       "Haig takedowns and top control"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Novenyi wobbled Haig with a right hand and landed more power punches; he tried a kneebar, and both looked extremely tired. DK Network 10-9 Novenyi.",
+      "edge": "a",
+      "keyMoments": [
+       "Haig wobbled",
+       "Both exhausted"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Low-energy round; Novenyi took Haig down in the first two minutes and edged it. DK Network 10-9 Novenyi.",
+      "edge": "a",
+      "keyMoments": [
+       "Novenyi takedown",
+       "Both tired"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/22/dana-whites-contender-series-season-10-week-7-live-results-round-by-round-updates-highlights-and-winner-september-22-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-7-highlights"
+      }
+     ],
+     "note": "Judges 29-28 x3."
+    }
    }
   ]
  },

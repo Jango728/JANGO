@@ -1,6 +1,6 @@
 {
  "eventId": "dwcs-2026-week5",
- "title": "DWCS Season 10 · Week 5",
+ "title": "DWCS Season 10 \u00b7 Week 5",
  "date": "2026-09-08",
  "promotion": "DWCS",
  "forecast": null,
@@ -33,7 +33,31 @@
      "Answered a body kick with a left hook to the liver.",
      "Loud folded; stoppage at 1:10."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Loud had the height; Natividad landed first and caught a Loud body-kick attempt with a liver hook that folded him at 1:10.",
+      "edge": "a",
+      "keyMoments": [
+       "KO/TKO: Natividad (liver hook) 1:10"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/08/dana-whites-contender-series-season-10-week-5-live-results-round-by-round-updates-highlights-and-winner-september-8-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-5-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Apollo Gomes",
@@ -51,7 +75,50 @@
      "Survived two knockdowns in R1.",
      "Took over R2 and R3 with wrestling and striking."
     ],
-    "contract": false
+    "contract": false,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Gomes' early takedown didn't hold; Kwon landed big punches and knocked him down late (MMA News: knockdowns, plural). DK Network 10-9 Kwon.",
+      "edge": "b",
+      "keyMoments": [
+       "Knockdown: Kwon (late R1)",
+       "Gomes hurt, recovered"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Gomes recovered and took Kwon down; two low-blow stoppages interrupted the round. DK Network 10-9 Gomes.",
+      "edge": "a",
+      "keyMoments": [
+       "Gomes takedown",
+       "Two low-blow pauses"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Kwon reversed an early takedown attempt; close exchanges, but Gomes' leg kicks, takedowns and strong finish gave him the edge (DK Network 10-9 Gomes).",
+      "edge": "a",
+      "keyMoments": [
+       "Gomes strong finish"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/08/dana-whites-contender-series-season-10-week-5-live-results-round-by-round-updates-highlights-and-winner-september-8-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-5-highlights"
+      }
+     ],
+     "note": "Judges 29-28 x3."
+    }
    },
    {
     "a": "Martin Kozak",
@@ -69,7 +136,40 @@
      "Used his 6'4\" reach to outstrike Echols.",
      "Finished him against the fence in R2."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Echols pressed forward and shot early, but Kozak's takedown defence held, his size and pressure took over and he dropped Echols late (MMA News: head kick). DK Network 10-9 Kozak.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Kozak (head kick)",
+       "Low-blow pause"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Kozak came out throwing volume, badly hurt Echols against the fence and got the stoppage at 1:32.",
+      "edge": "a",
+      "keyMoments": [
+       "TKO 1:32"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/08/dana-whites-contender-series-season-10-week-5-live-results-round-by-round-updates-highlights-and-winner-september-8-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-5-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Isaac Moreno",
@@ -85,9 +185,54 @@
     "ou": "Over",
     "notes": [
      "Clear striking edge in the first two rounds.",
-     "Held off late grappling and submission attempts."
+     "Held off late grappling and submission attempts.",
+     "DK Network's round-by-round had Geraldo winning 29-28 on takedowns and control (R1, R3); judges gave Moreno all three cards 29-28."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Moreno hurt Geraldo early with a punch, but Geraldo answered with a takedown and (per DK Network) a knockdown. DK Network 10-9 Geraldo.",
+      "edge": "b",
+      "keyMoments": [
+       "Geraldo hurt early",
+       "Geraldo takedown",
+       "Knockdown: Geraldo (DK Network only)"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Moreno was the aggressor on the feet; Geraldo got ground control, and both landed heavy punches late. DK Network 10-9 Moreno.",
+      "edge": "a",
+      "keyMoments": [
+       "Geraldo ground control"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Moreno won the standing exchanges until Geraldo took him down several times with sustained control. DK Network scored it for Geraldo (29-28 Geraldo overall), while MMA News says Moreno's striking carried all three rounds; the judges gave Moreno 29-28 x3.",
+      "edge": "even",
+      "keyMoments": [
+       "Multiple Geraldo takedowns",
+       "Sources split on the round"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/08/dana-whites-contender-series-season-10-week-5-live-results-round-by-round-updates-highlights-and-winner-september-8-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-5-highlights"
+      }
+     ],
+     "note": "DK Network had Geraldo 29-28; judges 29-28 x3 Moreno; MMA News credits Moreno's striking throughout. Knockdown in R1 is DK-only."
+    }
    },
    {
     "a": "Quentin Pasley",
@@ -105,7 +250,32 @@
      "Moved from a submission attempt into strikes.",
      "Two heavy elbows ended it, keeping his all-first-round-finish record."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Pasley hunted a D'Arce on the ground, then switched to ground and pound and two elbows knocked Berisha out at 4:41.",
+      "edge": "a",
+      "keyMoments": [
+       "D'Arce attempt",
+       "KO (elbows) 4:41"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/08/dana-whites-contender-series-season-10-week-5-live-results-round-by-round-updates-highlights-and-winner-september-8-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-5-highlights"
+      }
+     ]
+    }
    }
   ]
  },

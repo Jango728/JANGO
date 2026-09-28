@@ -1,6 +1,6 @@
 {
  "eventId": "dwcs-2026-week4",
- "title": "DWCS Season 10 · Week 4",
+ "title": "DWCS Season 10 \u00b7 Week 4",
  "date": "2026-09-01",
  "promotion": "DWCS",
  "forecast": null,
@@ -31,9 +31,49 @@
     "ou": "Over",
     "notes": [
      "Range striking and head kicks early; Smith pressured in R2.",
-     "Flashier kicks and footwork in R3 swung the split nod."
+     "Flashier kicks and footwork in R3 swung the split nod.",
+     "DK Network scored it 29-28 Smith (Smith took R2-R3 with pressure; significant strikes 79-76 Smith). A thin split win."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Livingston's size told early: a spinning backfist and a body kick hurt Smith. Smith was more aggressive in the second half. DK Network 10-9 Livingston.",
+      "edge": "a",
+      "keyMoments": [
+       "Smith hurt by spinning backfist/body kick"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Livingston struck first, but Smith landed the more powerful shots and grew more aggressive late. DK Network 10-9 Smith.",
+      "edge": "b"
+     },
+     {
+      "n": 3,
+      "summary": "Livingston moved backward while Smith pressured with significant strikes; Livingston's spinning backfists missed. DK Network 10-9 Smith (29-28 Smith).",
+      "edge": "b",
+      "keyMoments": [
+       "Smith pressure",
+       "Smith bloodied"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/01/dana-whites-contender-series-season-10-week-4-live-results-round-by-round-updates-highlights-and-winner-september-1-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-4-highlights"
+      }
+     ],
+     "note": "DK Network had Smith 29-28; judges gave Livingston a split (29-28, 28-29, 29-28). Significant strikes 79-76 Smith."
+    }
    },
    {
     "a": "Gabriel Lourenco",
@@ -51,7 +91,32 @@
      "Right hand dropped Cleveland, who got up briefly.",
      "A follow-up elbow put him down again and ground-and-pound finished it."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Both came out swinging; Cleveland over-committed and a Lourenco right hand dropped him, with ground and pound ending it at 2:02.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Lourenco (right hand)",
+       "KO 2:02"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/01/dana-whites-contender-series-season-10-week-4-live-results-round-by-round-updates-highlights-and-winner-september-1-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-4-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Silvestre Sanchez",
@@ -69,7 +134,49 @@
      "Landed repeated takedowns in a back-and-forth fight.",
      "Left hook in R3 set up the finish."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Sanchez opened with leg kicks; both landed big punches before Sanchez got McCracken down after failed attempts. DK Network 10-9 Sanchez.",
+      "edge": "a",
+      "keyMoments": [
+       "Sanchez takedown"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "McCracken's nose bled from the start; both landed takedowns and McCracken landed big punches, but Sanchez pinned him on the fence. DK Network 10-9 Sanchez.",
+      "edge": "a",
+      "keyMoments": [
+       "McCracken bloodied nose",
+       "Takedowns both ways"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "A counter left hook in a center exchange knocked McCracken out at 2:44.",
+      "edge": "a",
+      "keyMoments": [
+       "KO: Sanchez (counter left hook)"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/01/dana-whites-contender-series-season-10-week-4-live-results-round-by-round-updates-highlights-and-winner-september-1-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-4-highlights"
+      }
+     ],
+     "note": "DK stats: Sanchez 4 takedowns, 5:30 control."
+    }
    },
    {
     "a": "Modestino Rodrigues",
@@ -87,7 +194,31 @@
      "Charged forward with a rapid volley of straight punches.",
      "Referee stepped in after 15 seconds."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Rodrigues came forward and one right hand put Holmes down; follow-ups ended it at 0:15.",
+      "edge": "a",
+      "keyMoments": [
+       "KO 0:15"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/01/dana-whites-contender-series-season-10-week-4-live-results-round-by-round-updates-highlights-and-winner-september-1-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-4-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Adam Darby",
@@ -105,7 +236,50 @@
      "Used his reach: jab, calf kicks and teeps for three rounds.",
      "Rivera's cuts and damage led to a doctor stoppage in R3."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Early trades, then Darby's leg kicks and jabs hurt Rivera, who was bleeding by the bell. DK Network 10-9 Darby.",
+      "edge": "a",
+      "keyMoments": [
+       "Rivera hurt by leg kicks",
+       "Rivera cut"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Darby kept up very high output while Rivera stayed passive and took damage; Rivera landed one good punch late. MMA News: Darby controlled every round. DK's text describes Darby dominating although its score line reads 10-9 Rivera.",
+      "edge": "a",
+      "keyMoments": [
+       "Darby volume",
+       "Rivera badly cut"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "The doctor stopped it at 2:42 with Rivera badly hurt and cut up. DK stats: significant strikes 147-47.",
+      "edge": "a",
+      "keyMoments": [
+       "Doctor stoppage 2:42"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/01/dana-whites-contender-series-season-10-week-4-live-results-round-by-round-updates-highlights-and-winner-september-1-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-4-highlights"
+      }
+     ],
+     "note": "DK Network's R2 score line (10-9 Rivera) contradicts its own description and MMA News; treated as a typo."
+    }
    }
   ]
  },

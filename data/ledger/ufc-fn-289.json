@@ -26,7 +26,7 @@
      "Real finishing threat: Raul Rosas Jr. finished 5 of 9 recent wins; Raoni Barcelos has been stopped 1 time in the last 10.",
      "Better recent results: Last 10: Raul Rosas Jr. 9-1-0. Last 10: Raoni Barcelos 6-4-0.",
      "Cleaner losses: Raoni Barcelos has 4 losses in the last 10, to opponents averaging a 75% win rate; Raul Rosas Jr. has 1.",
-     "Size and range: 2″ taller for Raul Rosas Jr.."
+     "Size and range: 2\u2033 taller for Raul Rosas Jr.."
     ]
    },
    {
@@ -87,7 +87,7 @@
      "Real finishing threat: Mahammadali Osmanli finished 7 of 9 recent wins; Ilimbek Akylbek has been stopped 3 times in the last 10.",
      "On a run: Mahammadali Osmanli has won 9 straight (Ilimbek Akylbek: 2).",
      "Cleaner losses: Ilimbek Akylbek has 3 losses in the last 10; Mahammadali Osmanli has 1.",
-     "Size and range: 2″ taller for Mahammadali Osmanli."
+     "Size and range: 2\u2033 taller for Mahammadali Osmanli."
     ]
    },
    {
@@ -148,7 +148,7 @@
     "reasons": [
      "Beat the better opposition: Opponents Robert Bryczek beat (last 10) had a 62% win rate going in; Rodolfo Vieira's had 66%.",
      "Better recent results: Last 10: Robert Bryczek 6-4-0. Last 10: Rodolfo Vieira 5-5-0.",
-     "Size and range: 2″ longer reach for Robert Bryczek.",
+     "Size and range: 2\u2033 longer reach for Robert Bryczek.",
      "Opponent is sliding: Rodolfo Vieira has lost 2 straight.",
      "Real finishing threat: Robert Bryczek finished 6 of 6 recent wins; Rodolfo Vieira has been stopped 2 times in the last 10."
     ]
@@ -229,7 +229,7 @@
     "evidence": 92,
     "reasons": [
      "Beat the better opposition: Opponents John Castaneda beat (last 10) had a 68% win rate going in; Alatengheili's had 63%.",
-     "Size and range: 5″ longer reach, 1″ taller for John Castaneda.",
+     "Size and range: 5\u2033 longer reach, 1\u2033 taller for John Castaneda.",
      "Ring rust on the other side: Alatengheili last fought 518 days before this card; John Castaneda 161 days."
     ]
    },
@@ -250,7 +250,7 @@
      "Better recent results: Last 10: Yazmin Jauregui 8-2-0. Last 10: Vanessa Demopoulos 5-5-0.",
      "Age curve: Vanessa Demopoulos is 38; Yazmin Jauregui is 27.",
      "Opponent is sliding: Vanessa Demopoulos has lost 3 straight.",
-     "Size and range: 5″ longer reach, 1″ taller for Yazmin Jauregui.",
+     "Size and range: 5\u2033 longer reach, 1\u2033 taller for Yazmin Jauregui.",
      "Cleaner losses: Vanessa Demopoulos has 5 losses in the last 10, to opponents averaging a 67% win rate; Yazmin Jauregui has 2."
     ]
    }
@@ -326,14 +326,104 @@
     "line": 2.5,
     "ou": "Over",
     "notes": [
-     "Five-round war; Barcelos was stopped at 1:38 of R5 after a takedown exchange by the fence and left on a stretcher."
+     "Five-round war; Barcelos was stopped at 1:38 of R5 after a takedown exchange by the fence and left on a stretcher.",
+     "Rosas won R1 on pace and power (cut Barcelos); Barcelos took R2-R4 with body work, repeated takedowns and back control. Sherdog had him up 39-37 after four, and all three judges had him ahead.",
+     "Rosas faded in the middle rounds (tired on his stool before R3 per Cageside, survived RNC and neck-crank threats in R4), then found a second wind in R5.",
+     "The finish was an inside-trip takedown, not a strike: Barcelos landed awkwardly and went limp (UFC.com: TKO (slam))."
     ],
     "section": "Main Card",
     "bonuses": [
      {
       "type": "FOTN"
      }
-    ]
+    ],
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "a",
+      "summary": "A frenetic start. Rosas landed one-twos, uppercuts and leg kicks and cut Barcelos; Barcelos answered with body shots and a trip takedown, but Rosas scrambled straight back up. All three Sherdog scorers had it 10-9 Rosas, and Cageside Press and MMA News both had Rosas landing the bigger shots (Cageside says Barcelos' takedown tries didn't stick; Sherdog logs one trip).",
+      "keyMoments": [
+       "Barcelos cut early",
+       "Barcelos trip takedown, Rosas up fast",
+       "Rosas missed a flying knee at the bell"
+      ]
+     },
+     {
+      "n": 2,
+      "edge": "b",
+      "summary": "Barcelos raised his volume (55-30 significant strikes per MMA News), worked the body with punches and kicks and scored a takedown with right hands on top. Rosas answered with straight lefts and jabs. Sherdog 10-9 Barcelos on all three cards; MMA News says Barcelos rocked Rosas with combinations (Sherdog doesn't mention it).",
+      "keyMoments": [
+       "Barcelos takedown",
+       "Barcelos out-landed Rosas 55-30 (MMA News)",
+       "Rosas hurt by combinations (MMA News only)",
+       "Both bloodied"
+      ]
+     },
+     {
+      "n": 3,
+      "edge": "b",
+      "summary": "Barcelos swept Rosas to the mat and took the back with a body triangle; Rosas turned into top position and landed ground and pound before Barcelos stood. Barcelos won the standing exchanges with body shots and hooks and swept him to the back again late. Sherdog 10-9 Barcelos x3; MMA News called it the closest of the first three rounds. Cageside says Rosas looked exhausted on his stool before the round.",
+      "keyMoments": [
+       "Barcelos takedown and back take (body triangle)",
+       "Rosas reversal, ground and pound",
+       "Rosas tired between rounds (Cageside)",
+       "Second Barcelos sweep late"
+      ]
+     },
+     {
+      "n": 4,
+      "edge": "b",
+      "summary": "Barcelos' most dominant round. He caught a kick for a trip takedown, took Rosas down again, then jumped to the back when Rosas rolled for a leg lock and hunted a rear-naked choke and neck crank with a body triangle. Rosas defended and survived. Sherdog 10-9 Barcelos x3; Real Combat Media reports one official judge scored it 10-8 Barcelos.",
+      "keyMoments": [
+       "2 takedowns Barcelos",
+       "Barcelos back control, RNC and neck-crank threats",
+       "Rosas fatigued (MMA News)",
+       "Cut across Rosas' nose; Barcelos' left eye swelling"
+      ]
+     },
+     {
+      "n": 5,
+      "edge": "a",
+      "summary": "Rosas opened with jabs; Barcelos landed an overhand right and took him down about 30 seconds in, but Rosas scrambled up and both emptied the tank. From a clinch at the fence Rosas hit an inside trip; Barcelos landed awkwardly (head near the fence per Cageside) and went limp. Stopped at 1:38, officially TKO (slam) per UFC.com. Real Combat Media: no clean strike was visible on replay. Barcelos was stretchered out to UMC Trauma; his coach said he was alert.",
+      "keyMoments": [
+       "Barcelos takedown early",
+       "Rosas inside-trip slam finish",
+       "No clean strike on replay (Real Combat Media)",
+       "Barcelos stretchered out"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+      },
+      {
+       "label": "Sherdog main-event recap",
+       "url": "https://www.sherdog.com/news/news/Raul-Rosas-Jr-scores-bizarre-finish-in-UFC-Vegas-121-main-event-202962"
+      },
+      {
+       "label": "Cageside Press recap",
+       "url": "https://cagesidepress.com/2026/09/26/ufc-vegas-121-sheer-carnage-scary-finish-as-raul-rosas-jr-defeats-raoni-barcelos/"
+      },
+      {
+       "label": "MMA News recap",
+       "url": "https://www.mmanews.com/article/rosas-scores-ko-barcelos-stretchered-out"
+      },
+      {
+       "label": "Real Combat Media (cards entering R5)",
+       "url": "https://realcombatmedia.com/2026/09/ufc-vegas-121-results-rosas-jr-barcelos/"
+      },
+      {
+       "label": "UFC.com official scorecards (TKO (slam))",
+       "url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards"
+      }
+     ],
+     "note": "Sherdog had Barcelos up 39-37 after four; all three judges also had him ahead entering R5 (Real Combat Media). Official per-round cards aren't published as text. Sources differ only on whether Barcelos' R1 takedown stuck."
+    }
    },
    {
     "a": "Norma Dumont",
@@ -347,7 +437,10 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
+    "notes": [
+     "Perez won R1 on a takedown and top control; Dumont won R2 on the feet. R3 decided it: Perez's late single-leg and fence work won all three judges, while all three Sherdog scorers had Dumont.",
+     "4 of 6 media scores (MMADecisions) had Dumont 29-28."
+    ],
     "section": "Main Card",
     "scorecards": {
      "judges": [
@@ -357,7 +450,7 @@
        "b": 29
       },
       {
-       "judge": "Eric Colón",
+       "judge": "Eric Col\u00f3n",
        "a": 28,
        "b": 29
       },
@@ -400,6 +493,52 @@
       }
      ],
      "source": "https://mmadecisions.com/decision/16372/Ailin-Perez-vs-Norma-Dumont"
+    },
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "b",
+      "score": "10-9 b",
+      "summary": "A slow three minutes with Dumont jabbing and landing inside leg kicks. Perez caught a kick with about two minutes left, drove through to a takedown and held half guard with short punches and shoulder strikes to the bell. Sherdog 3/3 and all three judges gave it to Perez.",
+      "keyMoments": [
+       "Perez takedown off a caught kick",
+       "About 2 min of Perez top control"
+      ]
+     },
+     {
+      "n": 2,
+      "edge": "a",
+      "score": "10-9 a",
+      "summary": "Dumont threw Perez from the clinch, then out-struck her in open space with jabs, inside leg kicks and a left hook counter. Perez threw spinning backfists and landed a spinning back kick to the body at the bell. Sherdog 3/3 and all three judges scored it for Dumont.",
+      "keyMoments": [
+       "Dumont clinch throw",
+       "Dumont inside leg kicks and jab"
+      ]
+     },
+     {
+      "n": 3,
+      "edge": "a",
+      "summary": "Dumont picked up the pace with low kicks, a left hook and body jabs; Perez landed an overhand right early, then shot a single-leg with 90 seconds left and pinned Dumont to the fence with knees to the body. All three Sherdog scorers had it for Dumont (29-28 Dumont), but all three judges gave the round, and the fight, to Perez.",
+      "keyMoments": [
+       "Perez late single-leg and fence control",
+       "Judges and media split on the round"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16372/Ailin-Perez-vs-Norma-Dumont"
+      }
+     ],
+     "note": "R3 is the disputed round: judges 3-0 Perez, Sherdog 3-0 Dumont."
     }
    },
    {
@@ -423,7 +562,32 @@
       "type": "POTN",
       "fighter": "Luis Hernandez"
      }
-    ]
+    ],
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "a",
+      "summary": "Hernandez landed an overhand left, crashed into the clinch and powered into top position, then grabbed a guillotine, stood with it and cranked until Dumas tapped.",
+      "keyMoments": [
+       "Standing guillotine, tap at 0:57"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+      },
+      {
+       "label": "Cageside Press recap",
+       "url": "https://cagesidepress.com/2026/09/26/two-days-notice-no-problem-luis-hernandez-submits-dumas/"
+      }
+     ],
+     "note": "UFC.com's scorecards page lists the time as 0:50; Sherdog and the ledger have 0:57."
+    }
    },
    {
     "a": "Mahammadali Osmanli",
@@ -438,9 +602,37 @@
     "line": 1.5,
     "ou": "Under",
     "notes": [
-     "TUF 34 final. Osmanli was disqualified for an illegal knee at 2:19 of R1; Akylbek Uulu wins the TUF title."
+     "TUF 34 final. Osmanli was disqualified for an illegal knee at 2:19 of R1; Akylbek Uulu wins the TUF title.",
+     "Per Sherdog, Osmanli had just dropped Akylbek with a left when he threw the illegal knee; Akylbek had taken him down earlier in the round."
     ],
-    "section": "Main Card"
+    "section": "Main Card",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Akylbek bounded in with overhands and completed a single-leg takedown; Osmanli boxed the ears from the bottom and got up. Per Sherdog, Osmanli then dropped an off-balance Akylbek with a left and followed with an illegal knee to the downed fighter that knocked him out, drawing the DQ at 2:19.",
+      "edge": "even",
+      "keyMoments": [
+       "Akylbek takedown",
+       "Knockdown: Osmanli (left hand), per Sherdog",
+       "Illegal knee to a grounded opponent, DQ"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+      },
+      {
+       "label": "Cageside Press recap",
+       "url": "https://cagesidepress.com/2026/09/26/tina-black-captures-tuf-34-crown-valesca-machado-puts-away-melissa-amaya-at-ufc-vegas-121/"
+      }
+     ],
+     "note": "Only Sherdog describes the knockdown before the knee; Cageside gives no detail. Edge set to even: nobody scored an unfinished round that ended on a foul (Osmanli had the last knockdown, Akylbek the earlier takedown)."
+    }
    },
    {
     "a": "Melissa Amaya",
@@ -457,7 +649,43 @@
     "notes": [
      "TUF 34 strawweight final. Tina Black (Valesca Machado) dropped Amaya late in R1 and finished her with punches in R2."
     ],
-    "section": "Main Card"
+    "section": "Main Card",
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "b",
+      "summary": "A slow, jab-heavy start. In the final minute Black slipped a punch and floored Amaya with two right hands, then chased a wobbly Amaya to the fence; Amaya stunned her with a right hand at the bell. Sherdog 10-9 Black x3; Cageside also has the knockdown.",
+      "keyMoments": [
+       "Knockdown: Black (right hands)",
+       "Amaya bloodied, recovered",
+       "Amaya stunned Black at the bell"
+      ]
+     },
+     {
+      "n": 2,
+      "edge": "b",
+      "summary": "Amaya looked recovered and pressed, but Black landed hooks and a right over the top, reversed Amaya's clinch into the fence, then hurt her with a right hook off the break. A multi-punch burst and a sweeping right dropped Amaya again and hammerfists ended it at 3:19.",
+      "keyMoments": [
+       "Amaya rocked by right hook off the break",
+       "Knockdown: Black (right hand)",
+       "TKO 3:19"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+      },
+      {
+       "label": "Cageside Press recap",
+       "url": "https://cagesidepress.com/2026/09/26/tina-black-captures-tuf-34-crown-valesca-machado-puts-away-melissa-amaya-at-ufc-vegas-121/"
+      }
+     ]
+    }
    },
    {
     "a": "Brady Hiestand",
@@ -471,8 +699,46 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
-    "section": "Prelims"
+    "notes": [
+     "Hiestand won R1 on pressure (Sherdog 3/3) despite Nakamura's kicks, then took the back after a scramble and choked him out in R2."
+    ],
+    "section": "Prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "a",
+      "summary": "Nakamura landed hard inside leg kicks, a loud body kick and straight rights, but Hiestand kept constant forward pressure, took the back briefly after a sprawl and flurried with punches. All three Sherdog scorers gave it to Hiestand.",
+      "keyMoments": [
+       "Hiestand pressure",
+       "Nakamura body and leg kicks"
+      ]
+     },
+     {
+      "n": 2,
+      "edge": "a",
+      "summary": "Hiestand sprawled on a Nakamura single-leg and worked an anaconda choke; Nakamura rolled out and pressed him to the fence in a wild clinch exchange. Hiestand then scored a takedown, and when Nakamura rolled, took the back, set a body triangle and finished a rear-naked choke at 4:07.",
+      "keyMoments": [
+       "Hiestand anaconda attempt",
+       "Hiestand takedown",
+       "RNC from a body triangle, 4:07"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+      },
+      {
+       "label": "UFC.com results",
+       "url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-prelim-results"
+      }
+     ],
+     "note": "Only Sherdog gives round detail; UFC.com confirms the finish."
+    }
    },
    {
     "a": "Rodolfo Vieira",
@@ -486,7 +752,10 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
+    "notes": [
+     "Vieira won R1-R2 on takedowns, mount and back control; Bryczek landed his best punches in R2's closing barrage and R3.",
+     "Officially 30-27 x3, but every media scorer on MMADecisions gave Bryczek R3 (29-28)."
+    ],
     "section": "Prelims",
     "scorecards": {
      "judges": [
@@ -534,6 +803,55 @@
       }
      ],
      "source": "https://mmadecisions.com/decision/16367/Rodolfo-Vieira-vs-Robert-Bryczek"
+    },
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "a",
+      "score": "10-9 a",
+      "summary": "Vieira hit a single-leg, passed to full mount, took the back when Bryczek scrambled and landed right hands, but couldn't set up a choke. Sherdog 3/3 and all three judges for Vieira.",
+      "keyMoments": [
+       "Vieira takedown to mount",
+       "Vieira back control"
+      ]
+     },
+     {
+      "n": 2,
+      "edge": "a",
+      "score": "10-9 a",
+      "summary": "Vieira jabbed into a double-leg and held body locks and clinches against the fence; a knee to the cup caused a nearly three-minute pause. After the restart Bryczek pinned Vieira to the fence with a hook barrage, but Vieira clinched out of trouble. Sherdog 3/3 and all three judges for Vieira.",
+      "keyMoments": [
+       "Vieira double-leg and clinch control",
+       "Low blow by Vieira, long pause",
+       "Bryczek late hook barrage"
+      ]
+     },
+     {
+      "n": 3,
+      "edge": "b",
+      "summary": "Bryczek landed overhand rights and hooks in open space and had Vieira in some danger; Vieira answered with hard low kicks, then spent the last two minutes on a body lock at the fence. Bryczek looked out of gas late. All three Sherdog scorers gave it to Bryczek (29-28 Vieira); all three judges gave it to Vieira (30-27).",
+      "keyMoments": [
+       "Bryczek overhand rights landed",
+       "Vieira body-lock control, last 2 min",
+       "Bryczek tired late",
+       "Judges and media split on the round"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+      },
+      {
+       "label": "MMADecisions (judges + media)",
+       "url": "https://mmadecisions.com/decision/16367/Rodolfo-Vieira-vs-Robert-Bryczek"
+      }
+     ],
+     "note": "Every media score on MMADecisions was 29-28 Vieira (Bryczek's R3), vs 30-27 x3 officially."
     }
    },
    {
@@ -548,8 +866,55 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
-    "section": "Prelims"
+    "notes": [
+     "Bellato dropped Edwards with a left hook in R1 and hunted an RNC; Edwards survived, took R2 (2 of 3 Sherdog cards) with kicks and clinch work, and floored Bellato with a left hook in R3."
+    ],
+    "section": "Prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "a",
+      "summary": "Mostly clinch work on the fence, with Edwards landing elbows and knees. With about a minute left Bellato dropped him with a left hook, followed with ground and pound, took the back and hunted a rear-naked choke; Edwards survived. Sherdog 3/3 Bellato; MMA News also has the knockdown.",
+      "keyMoments": [
+       "Knockdown: Bellato (left hook)",
+       "Bellato RNC attempt",
+       "Edwards survived"
+      ]
+     },
+     {
+      "n": 2,
+      "edge": "b",
+      "summary": "Edwards recovered, chopped at the lead leg with oblique kicks and landed a head kick, jabs and close-range knees and elbows; one leg kick nearly took Bellato down. Bellato clipped him with a left hook midway. Sherdog scored it 2-1 Edwards; MMA News has Edwards taking over.",
+      "keyMoments": [
+       "Edwards recovered from R1 knockdown",
+       "Heavy Edwards leg kick nearly dropped Bellato",
+       "Bellato right eye swelling"
+      ]
+     },
+     {
+      "n": 3,
+      "edge": "b",
+      "summary": "Edwards pressed with punches to Bellato's swollen right eye in the clinch, then followed a jab with a left hook that floored him, and finished with punches and hammerfists at 1:47.",
+      "keyMoments": [
+       "Knockdown: Edwards (left hook)",
+       "TKO 1:47"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+      },
+      {
+       "label": "MMA News recap",
+       "url": "https://www.mmanews.com/article/edwards-goes-dropped-dropping-bellato"
+      }
+     ]
+    }
    },
    {
     "a": "Elves Brener",
@@ -563,8 +928,38 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Under",
-    "notes": [],
-    "section": "Prelims"
+    "notes": [
+     "Harrell got two early takedowns; Brener got up, hurt him with jabs, stuffed a shot and knocked him face-first with a right hook."
+    ],
+    "section": "Prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "a",
+      "summary": "Harrell scored two early takedowns but couldn't hold Brener down. Back on the feet Brener's jab nearly sat him down; Brener then stuffed a takedown and flattened Harrell with a right hook, finishing with punches at 4:14.",
+      "keyMoments": [
+       "2 takedowns Harrell (early)",
+       "Harrell hurt by jabs",
+       "Knockdown: Brener (right hook)",
+       "TKO 4:14"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+      },
+      {
+       "label": "UFC.com results",
+       "url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-prelim-results"
+      }
+     ],
+     "note": "Only Sherdog gives round detail; UFC.com confirms the finish."
+    }
    },
    {
     "a": "Montel Jackson",
@@ -578,8 +973,46 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Over",
-    "notes": [],
-    "section": "Prelims"
+    "notes": [
+     "Simon won the grappling in R1 (slam takedown, back take), but Jackson's straight left dropped him in R1 and one-twos finished him in R2."
+    ],
+    "section": "Prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "a",
+      "summary": "Simon lifted Jackson for a big takedown, worked a guillotine and took the back, but Jackson stood up. Jackson rocked Simon early with a straight left and later dropped him with a left counter; Simon clinched and survived. Sherdog 3/3 Jackson; Cageside also had Jackson landing the more damaging shots.",
+      "keyMoments": [
+       "Simon slam takedown and back take",
+       "Knockdown: Jackson (left counter)",
+       "Simon rocked early"
+      ]
+     },
+     {
+      "n": 2,
+      "edge": "a",
+      "summary": "Simon landed inside leg kicks and body shots, but Jackson found a home for one-twos down the middle and a final one-two sent a dazed Simon tumbling; two more punches on the ground and Herzog stopped it at 2:39.",
+      "keyMoments": [
+       "Knockdown: Jackson (one-two)",
+       "TKO 2:39"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+      },
+      {
+       "label": "Cageside Press recap",
+       "url": "https://cagesidepress.com/2026/09/26/ufc-vegas-121-montel-jackson-floors-ricky-simon/"
+      }
+     ],
+     "note": "Sherdog says the R1 left 'dropped' Simon; Cageside says it 'sat Simon against the fence'. Same moment."
+    }
    },
    {
     "a": "John Castaneda",
@@ -594,7 +1027,8 @@
     "line": 1.5,
     "ou": "Over",
     "notes": [
-     "Split decision; Sherdog's play-by-play had Castaneda controlling R1–R2 before Alatengheili's R3 takedowns."
+     "Split decision; Sherdog's play-by-play had Castaneda controlling R1\u2013R2 before Alatengheili's R3 takedowns.",
+     "The decision turned on R2: judges Bell and D'Amato gave it to Alatengheili, while Lee, all three Sherdog scorers and every media score had Castaneda."
     ],
     "section": "Prelims",
     "scorecards": {
@@ -653,6 +1087,51 @@
       }
      ],
      "source": "https://mmadecisions.com/decision/16363/Heili-Alateng-vs-John-Castaneda"
+    },
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "a",
+      "score": "10-9 a",
+      "summary": "Castaneda controlled the range with stance switches, leg kicks and hooks; Alatengheili missed a spinning elbow late. Sherdog 3/3 and all three judges for Castaneda.",
+      "keyMoments": [
+       "Castaneda leg kicks"
+      ]
+     },
+     {
+      "n": 2,
+      "edge": "a",
+      "summary": "Alatengheili took the center with overhand rights and flirted with a single-leg; Castaneda countered with inside leg kicks and sharper punches, including a right hook, while Alatengheili whiffed on a Superman punch and spinning backfist. An eye poke by Alatengheili paused it. Sherdog 3/3 Castaneda, but judges Bell and D'Amato gave it to Alatengheili (Lee had Castaneda).",
+      "keyMoments": [
+       "Eye poke by Alatengheili",
+       "Judges 2-1 Alatengheili vs Sherdog 3-0 Castaneda"
+      ]
+     },
+     {
+      "n": 3,
+      "edge": "b",
+      "score": "10-9 b",
+      "summary": "Alatengheili drove forward, took Castaneda down against the fence and worked knees to the thighs; Castaneda threatened a guillotine and got up, then gave up a second takedown and went for the guillotine again. Sherdog 3/3 and all three judges for Alatengheili.",
+      "keyMoments": [
+       "2 takedowns Alatengheili",
+       "Castaneda guillotine attempts"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16363/Heili-Alateng-vs-John-Castaneda"
+      }
+     ],
+     "note": "R2 swung it: two judges gave it to Alatengheili; all 7 media scores had Castaneda 29-28."
     }
    },
    {
@@ -667,14 +1146,42 @@
     "scheduledRounds": 3,
     "line": 1.5,
     "ou": "Under",
-    "notes": [],
+    "notes": [
+     "Demopoulos landed first, but Jauregui pinned her to the fence and finished her with hooks in 62 seconds."
+    ],
     "section": "Prelims",
     "bonuses": [
      {
       "type": "POTN",
       "fighter": "Yazmin Jauregui"
      }
-    ]
+    ],
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "b",
+      "summary": "No glove touch. Demopoulos landed a sharp one-two to open, but Jauregui answered with an inside leg kick, flurried with both hands and pinned her to the fence; vicious hooks buckled her legs and the fight was stopped at 1:02.",
+      "keyMoments": [
+       "Jauregui hooks at the fence",
+       "KO 1:02"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-Vegas-121-Rosas-Jr-vs-Barcelos-playbyplay-results-round-scoring-202961"
+      },
+      {
+       "label": "UFC.com official scorecards / results",
+       "url": "https://www.ufc.com/news/ufc-fight-night-rosas-jr-vs-barcelos-official-scorecards"
+      }
+     ],
+     "note": "Only Sherdog gives round detail; UFC.com confirms the finish."
+    }
    }
   ],
   "updatedAt": "2026-09-27T03:56:10+00:00",
@@ -682,26 +1189,28 @@
  },
  "review": {
   "status": "follow-up",
-  "reviewedAt": "2026-09-27",
+  "reviewedAt": "2026-09-28",
   "followUpUntil": "2026-09-29",
   "lessons": [
    "Rough card: 4/12 winners, 9/12 rounds O/U, 4/12 method. Three of our four highest-confidence misses (Bellato 75, Amaya 68, Harrell 64) were stopped; Osmanli (68) lost on a DQ.",
-   "'Opponent is sliding' overfired: Vieira (2-fight skid), Brener (3) and Montel Jackson (2) all won, two of them by stoppage. Same lesson as UFC 331's Vera — a skid against good opposition isn't decline.",
+   "'Opponent is sliding' overfired: Vieira (2-fight skid), Brener (3) and Montel Jackson (2) all won, two of them by stoppage. Same lesson as UFC 331's Vera \u2014 a skid against good opposition isn't decline.",
    "Long layoffs for TUF cast members were read as ring rust (Black 651 days, Hiestand 833 days). Both had fought in the TUF house; both won. The engine's inactivity signal is wrong for TUF fighters.",
    "Rounds held up (9/12). All three O/U misses were first-round endings we had Over (Jauregui, Brener, the Osmanli DQ).",
-   "Two misses are low-information: a DQ (Osmanli) and a split decision (Castaneda). Initial review — scorecards and recaps re-checked through Sep 29.",
+   "Two misses are low-information: a DQ (Osmanli) and a split decision (Castaneda). Initial review \u2014 scorecards and recaps re-checked through Sep 29.",
    "Follow-up (Sep 27): the Rosas hit was lucky. Barcelos was ahead on all three judges' cards going into R5 (Yahoo Sports, Real Combat Media, Yardbarker; Real Combat Media reports one judge had R4 10-8 for Barcelos). Our script (Rosas by decision) would have lost. The fight ended on an R5 clinch takedown (UFC.com: TKO (slam)) that left Barcelos limp; replays showed no clean strike, he was stretchered out and later reported stable, alert and responsive, with no diagnosis published.",
    "Follow-up: Perez was a fortunate hit too. All three judges gave her R1 and R3 on control (3:41 to 0:40), but Dumont out-landed her 46-37 in significant strikes, and 4 of 6 media scores on MMADecisions had Dumont 29-28. Dumont publicly rejected the result.",
    "Follow-up: Castaneda is confirmed as judging variance. All 7 media scores on MMADecisions had Castaneda 29-28, and one judge (Chris Lee) agreed.",
    "Net read: the luck cuts both ways (Castaneda robbed; Rosas and Perez fortunate), so 4/12 doesn't understate the engine. If anything, it overstates it by one.",
-   "Osmanli accused Akylbek of exaggerating the illegal knee (Instagram Live, via MiddleEasy). No appeal or commission action has been reported, so the DQ stands and stays logged as variance."
+   "Osmanli accused Akylbek of exaggerating the illegal knee (Instagram Live, via MiddleEasy). No appeal or commission action has been reported, so the DQ stands and stays logged as variance.",
+   "Round-by-round follow-up (Sep 28, Sherdog play-by-play with Cageside Press, MMA News and MMADecisions): Rosas won only R1. Barcelos took R2-R4 on all three Sherdog cards (39-37 after four) with body work, about five takedowns and two back takes. Rosas looked spent before R3 and was controlled in R4, then won on an R5 inside trip. The Rosas pick was lucky: his edge was pace and power early, not a late surge.",
+   "Round-by-round also sharpens two misses. Osmanli had just dropped Akylbek with a left when he threw the illegal knee (Sherdog), so the DQ came while our pick had the upper hand: variance, as logged. Castaneda-Alatengheili turned on R2, where two judges went against Sherdog's 3-0 and every media score."
   ],
   "bouts": [
    {
     "a": "Mahammadali Osmanli",
     "b": "Ilimbek Akylbek",
     "cause": "variance",
-    "note": "Ended on a DQ for an illegal knee at 2:19 of R1 — no read on who was winning. Winner, method and Under all lost to the foul."
+    "note": "Ended on a DQ for an illegal knee at 2:19 of R1. Winner, method and Under all lost to the foul. Follow-up: per Sherdog, Osmanli had just dropped Akylbek with a left when the illegal knee landed, so he had the upper hand when he fouled."
    },
    {
     "a": "Melissa Amaya",
@@ -713,7 +1222,7 @@
     "a": "Brady Hiestand",
     "b": "Rinya Nakamura",
     "cause": "data",
-    "note": "Leaned Nakamura mainly on Hiestand's 833-day layoff — again a TUF season our data didn't see. Hiestand took him down, took the back and finished a RNC at 4:07 of R2."
+    "note": "Leaned Nakamura mainly on Hiestand's 833-day layoff \u2014 again a TUF season our data didn't see. Hiestand took him down, took the back and finished a RNC at 4:07 of R2."
    },
    {
     "a": "Rodolfo Vieira",
@@ -743,17 +1252,17 @@
     "a": "John Castaneda",
     "b": "Alatengheili",
     "cause": "variance",
-    "note": "Split decision (29-28, 28-29, 29-28). Castaneda took R1–R2 on Sherdog's account before Alatengheili's R3 takedowns swung it. Follow-up: all 7 media scores on MMADecisions had Castaneda 29-28."
+    "note": "Split decision (29-28, 28-29, 29-28). Castaneda took R1\u2013R2 on Sherdog's account before Alatengheili's R3 takedowns swung it. Follow-up: all 7 media scores on MMADecisions had Castaneda 29-28."
    },
    {
     "a": "Vanessa Demopoulos",
     "b": "Yazmin Jauregui",
-    "note": "Winner hit; rounds missed — Jauregui's 1:02 R1 KO beat the Over."
+    "note": "Winner hit; rounds missed \u2014 Jauregui's 1:02 R1 KO beat the Over."
    },
    {
     "a": "Raul Rosas Jr.",
     "b": "Raoni Barcelos",
-    "note": "Winner and Over hit, method (Decision) missed. Follow-up: Barcelos led on all three cards entering R5, so this was a lucky hit. Rosas got the finish on a fence takedown/slam after which Barcelos went limp (UFC.com: TKO (slam)). Rosas' late-round output was real, but the 65% pick on a decision script was wrong about the fight's run."
+    "note": "Winner and Over hit, method (Decision) missed. Follow-up: Barcelos led on all three cards entering R5, so this was a lucky hit. Rosas got the finish on a fence takedown/slam after which Barcelos went limp (UFC.com: TKO (slam)). Rosas' late-round output was real, but the 65% pick on a decision script was wrong about the fight's run. Round by round (Sherdog x3): R1 Rosas, R2-R4 Barcelos (takedowns, back control, RNC threats in R4), R5 Rosas by slam finish."
    },
    {
     "a": "Norma Dumont",

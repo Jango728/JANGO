@@ -206,7 +206,202 @@
      "Pantoja complained of head butts in R2 and R3 and was cut over the left eye, but no point was taken."
     ],
     "context": "Van's title defense and a rematch of UFC 323 (Dec 2025), which ended in 26 seconds with a Pantoja arm injury. Controversial scorecard: judge Ron McCarthy's 50-45 (giving Van R4) was publicly called 'not possible' by CSAC's Andy Foster, though the result itself isn't in dispute. Fight of the Night. Both made weight at 125.",
-    "section": "main"
+    "section": "main",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Pantoja hit a body-lock takedown inside 10 seconds and landed an elbow from mount; Van got up and briefly reversed, the two traded knees, jabs and one-twos, and Pantoja took him down again to mount/half guard before Van escaped. Sherdog 3/3 Pantoja, but two of three judges (D'Amato, McCarthy) gave the round to Van.",
+      "edge": "b",
+      "keyMoments": [
+       "2 takedowns Pantoja",
+       "Pantoja mount",
+       "Judges 2-1 Van vs Sherdog 3-0 Pantoja"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "An accidental head clash cut Pantoja over the left eye; his request for a point deduction was denied. Van stuffed takedowns, reversed one to top position and hurt Pantoja on the feet (Cageside) with right hands, hooks and body punches. Pantoja pulled him down and took the back in the last 30 seconds.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Pantoja cut (head clash), no point taken",
+       "Van stuffed takedowns",
+       "Pantoja hurt on the feet (Cageside)",
+       "Late Pantoja back take"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Van out-landed Pantoja in the open with multi-punch volleys, right hands over the top and body shots, and stuffed several takedowns, once taking the back briefly. Pantoja complained of another head butt and got a takedown with just over a minute left but did little with it.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Van stuffed several takedowns",
+       "Late Pantoja takedown, no damage"
+      ]
+     },
+     {
+      "n": 4,
+      "summary": "Pantoja nearly landed a high kick (Cageside), then took Van down into side control and kept him there for most of the round with punches and elbows; Van tried a heel hook but couldn't get up. Sherdog 3/3 Pantoja; judges 2-1 Pantoja (McCarthy had Van).",
+      "edge": "b",
+      "keyMoments": [
+       "Pantoja takedown, long top control",
+       "Near-miss Pantoja high kick"
+      ]
+     },
+     {
+      "n": 5,
+      "summary": "Van took over on the feet with jabs and a five-punch combination while Pantoja's output dropped, then dropped him with a one-two with under two minutes left, went to top position and a kimura/scarf-hold look, and sprawled on a desperation takedown. Pantoja looked battered. Sherdog had 48-47 Van; all three judges gave Van the round.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Knockdown: Van (one-two)",
+       "Van stuffed late takedowns",
+       "Pantoja faded"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+      },
+      {
+       "label": "Cageside Press recap",
+       "url": "https://cagesidepress.com/2026/09/20/ufc-331-flyweight-title-fight-joshua-van-alexandre-pantoja/"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16358/Josh-Van-vs-Alexandre-Pantoja"
+      }
+     ],
+     "note": "Official cards per MMADecisions: D'Amato 49-46, Cleary 48-47, McCarthy 50-45 (matches the ledger). Sherdog's and Cageside's result lines say 49-46, 49-47, 50-45; UFC.com's scorecard image is the tiebreaker if anyone re-checks. R1 is the disputed round: judges 2-1 Van, Sherdog 3-0 Pantoja."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Sal D'Amato",
+       "a": 49,
+       "b": 46
+      },
+      {
+       "judge": "Derek Cleary",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "judge": "Ron McCarthy",
+       "a": 50,
+       "b": 45
+      }
+     ],
+     "media": [
+      {
+       "outlet": "SevereMMA.com (Se\u00e1n Sheehan)",
+       "a": 49,
+       "b": 46
+      },
+      {
+       "outlet": "MMAFighting.com (Alexander K. Lee)",
+       "a": 49,
+       "b": 46
+      },
+      {
+       "outlet": "MMAJunkie.com (Matthew Wells)",
+       "a": 49,
+       "b": 46
+      },
+      {
+       "outlet": "NY Post (Erich Richter)",
+       "a": 49,
+       "b": 46
+      },
+      {
+       "outlet": "MMAFighting.com (Jed Meshew)",
+       "a": 48,
+       "b": 46
+      },
+      {
+       "outlet": "The Sporting News (Daniel Yanofsky)",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "Sherdog (Mike Sloan)",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "Sherdog (Tudor Leonte)",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "Sherdog (Brian Knapp)",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "MMAJunkie.com (Nolan King)",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "MMAMania.com",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "The MMA Vivisection (Zane Simon)",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "CombatPress.com",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "mma.uno (Steve Duncan)",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "Sherdog (Keith Shillan)",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "WrestlingObserver.com (Paul Fontaine)",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "MMA Island (Chris De Santiago)",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "WrestlingObserver.com (Ryan Frederick)",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "Sherdog (Dayne Fox)",
+       "a": 48,
+       "b": 47
+      },
+      {
+       "outlet": "Home of Fight (Jake Noecker)",
+       "a": 47,
+       "b": 48
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16358/Josh-Van-vs-Alexandre-Pantoja"
+    }
    },
    {
     "a": "Arman Tsarukyan",
@@ -226,7 +421,34 @@
      "With seconds left in R1, Tsarukyan closed the distance and knocked Ruffy out with an elbow, landing two more as Ruffy fell."
     ],
     "context": "Co-main event. Ruffy replaced Charles Oliveira (announced Aug 5, about 6 weeks out, so not really short notice). Tsarukyan fought through a badly swollen left eye (CBS). Performance of the Night. Both made weight.",
-    "section": "main"
+    "section": "main",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Ruffy won the early range work with low kicks, body jabs and a clean right hand. Tsarukyan's single-leg failed, and he spent most of the round clinching on the fence hunting elbows. With seconds left he closed the distance and knocked Ruffy out with an elbow, landing two more as he fell (4:56).",
+      "edge": "a",
+      "keyMoments": [
+       "Ruffy landed a clean right",
+       "Tsarukyan single-leg stuffed",
+       "KO: Tsarukyan (elbow) at 4:56"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+      },
+      {
+       "label": "UFC.com results",
+       "url": "https://www.ufc.com/event/ufc-331"
+      }
+     ],
+     "note": "Only Sherdog gives round detail; UFC.com confirms the finish."
+    }
    },
    {
     "a": "Patricio \"Pitbull\" Freire",
@@ -246,7 +468,34 @@
      "Freire froze Choi with an overhand right, pushed him to the mat with follow-up shots and finished with ground punches and elbows."
     ],
     "context": "Freire's best UFC win, taking him to 2-2 in the promotion. Both made weight.",
-    "section": "main"
+    "section": "main",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Choi jabbed to the body and head and landed an overhand right and left hook in a competitive start. Freire's body hooks, two-handed combinations and kicks opened a cut over Choi's right eye midway; an overhand right froze Choi and Freire pushed him down and finished with punches and elbows at 3:28.",
+      "edge": "a",
+      "keyMoments": [
+       "Choi cut over right eye",
+       "Choi hurt by overhand right",
+       "TKO 3:28"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+      },
+      {
+       "label": "UFC.com results",
+       "url": "https://www.ufc.com/event/ufc-331"
+      }
+     ],
+     "note": "Only Sherdog gives round detail; UFC.com confirms the finish."
+    }
    },
    {
     "a": "Sean Sharaf",
@@ -266,7 +515,33 @@
      "No grappling happened. Steveson's wrestling never came into play."
     ],
     "context": "Huge upset: Steveson (Olympic wrestling gold medalist, undefeated) was around -2400 per Sherdog, and Sharaf came in 0-2 in the UFC. The bout was moved up to the main card after Ortega vs. Moicano was cancelled days before the event. Third-fastest heavyweight finish in UFC history (theScore). Sharaf received a $100K bonus.",
-    "section": "main"
+    "section": "main",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "No glove touch. Steveson opened with a hard low kick; Sharaf answered with a left hook that knocked him out on his feet and added hammerfists before the referee arrived (0:12).",
+      "edge": "a",
+      "keyMoments": [
+       "KO: Sharaf (left hook) at 0:12",
+       "No grappling exchange"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+      },
+      {
+       "label": "UFC.com results",
+       "url": "https://www.ufc.com/event/ufc-331"
+      }
+     ],
+     "note": "Only Sherdog gives round detail; UFC.com confirms the finish."
+    }
    },
    {
     "a": "Alonzo Menifield",
@@ -284,10 +559,151 @@
      "Baraniewski (unbeaten coming in) won R1 clearly: clubbing right hands hurt Menifield several times, then a takedown to full mount and back control.",
      "Baraniewski faded badly from R2 (fatigue, damaged nose). Menifield took over with jabs, power punches and dirty boxing to win the round.",
      "R3 was mostly clinch work on the fence. Baraniewski got an early takedown and landed knees from double underhooks, while Menifield finished stronger with punches, elbows and low kicks.",
-     "Sherdog's scorers had it 2-1 for Menifield, matching the official split."
+     "Sherdog's scorers had it 2-1 for Menifield, matching the official split.",
+     "Menifield fought from R1 with a broken, dislocated thumb (Cageside, Joe Rogan). Media split 7-6 for him on MMADecisions."
     ],
     "context": "Opened the main card. Menifield fought with a visibly damaged thumb from R1. Baraniewski's first pro loss. Both made weight.",
-    "section": "main"
+    "section": "main",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Baraniewski's clubbing right hands staggered Menifield more than once; he then took him down, climbed to full mount and took the back while Menifield turtled. Menifield broke his thumb in this round (Cageside). Sherdog 3/3 and all three judges for Baraniewski.",
+      "edge": "b",
+      "score": "10-9 b",
+      "keyMoments": [
+       "Menifield staggered by right hands",
+       "Baraniewski takedown, mount, back",
+       "Menifield broke his thumb"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Menifield pressed with two-handed punches; Baraniewski clinched and kneed the body but was visibly tired and his nose was broken. Menifield took over with dirty boxing and a strong finish at the fence. Sherdog 3/3 and all three judges for Menifield.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Baraniewski fatigued",
+       "Baraniewski broken nose",
+       "Menifield dirty boxing"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Mostly clinch work. Baraniewski got an early takedown, but Menifield stood; Baraniewski held double underhooks and kneed the body until the referee restarted them, and Menifield finished stronger with punches, elbows, a right hand and low kicks. Sherdog 2-1 Menifield; judges 2-1 Menifield (McCarthy had Baraniewski); Cageside leaned Menifield.",
+      "edge": "a",
+      "keyMoments": [
+       "Baraniewski early takedown",
+       "Both exhausted",
+       "Split round"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+      },
+      {
+       "label": "Cageside Press recap",
+       "url": "https://cagesidepress.com/2026/09/19/ufc-331-alonzo-menifield-battles-to-decision-win-over-iwo-baraniewski-with-thumb-broken-dangling/"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16354/Alonzo-Menifield-vs-Iwo-Baraniewski"
+      }
+     ],
+     "note": "Media split 7-6 for Menifield on MMADecisions."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Chris Leben",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Ron McCarthy",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "judge": "Jovany Varela",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "media": [
+      {
+       "outlet": "The MMA Vivisection (Zane Simon)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Uncrowned (Drake Riggs)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "MMAJunkie.com (Matthew Wells)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "mma.uno (Steve Duncan)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Brian Knapp)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Mike Sloan)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "MMAFighting.com (Alexander K. Lee)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "NY Post (Erich Richter)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "WrestlingObserver.com (Ryan Frederick)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "Sherdog (Dayne Fox)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "Home of Fight (Jake Noecker)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "MMAJunkie.com (Nolan King)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "Sherdog (Tudor Leonte)",
+       "a": 28,
+       "b": 29
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16354/Alonzo-Menifield-vs-Iwo-Baraniewski"
+    }
    },
    {
     "a": "Marlon Vera",
@@ -308,7 +724,52 @@
      "Vera wore Jourdain down steadily and was ahead on every card before the finish."
     ],
     "context": "Bout moved from UFC Fight Night: du Plessis vs. Usman (July). Vera snapped a four-fight losing streak (theScore). Both made weight.",
-    "section": "prelims"
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Jourdain worked southpaw low kicks and body punches, but Vera caught kicks and tripped him to the mat twice, landing punches and a body knee, and finished with left hooks to body and head. Sherdog 10-9 Vera x3.",
+      "edge": "a",
+      "keyMoments": [
+       "2 trip takedowns Vera (caught kicks)",
+       "Jourdain flying knee glanced"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Jourdain started with jabs, kicks and a spinning back elbow, then Vera dropped him with a left uppercut, tripped him again for ground strikes, and scored a second knockdown with a clinch knee up the middle in the closing seconds. Sherdog 10-9 Vera x3.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Vera (left uppercut)",
+       "Vera trip takedown",
+       "Knockdown: Vera (knee)"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Vera jabbed to the body, kicked and kneed the body in the clinch; after a Jourdain left hook, Vera answered with a left hook to the body and one to the head and Jourdain collapsed and waved it off (2:02).",
+      "edge": "a",
+      "keyMoments": [
+       "Jourdain wore down",
+       "TKO (submission to punch) 2:02"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+      },
+      {
+       "label": "UFC.com results",
+       "url": "https://www.ufc.com/event/ufc-331"
+      }
+     ],
+     "note": "Only Sherdog gives round detail; UFC.com confirms the finish."
+    }
    },
    {
     "a": "Robelis Despaigne",
@@ -326,10 +787,148 @@
      "R1 was a wild brawl. Despaigne dropped Tuivasa early, took him down, got to mount and landed hammerfists, then Tuivasa got his own takedown and punched from the top.",
      "Despaigne was badly fatigued from R2 on. Tuivasa won R2 through clinch work and knees, although Despaigne landed a throw to side control.",
      "R3: Tuivasa dropped Despaigne with a leg kick, but Despaigne landed another throw and punched from half guard for much of the round, with both men exhausted.",
-     "Sherdog's scorers had it 2-1 for Tuivasa (29-28). The official judges went 2-1 for Despaigne."
+     "Sherdog's scorers had it 2-1 for Tuivasa (29-28). The official judges went 2-1 for Despaigne.",
+     "Wider media leaned Despaigne: 9 of 13 scores on MMADecisions had him winning (Sherdog's five staff scorers split 3-2 for him)."
     ],
     "context": "Close, disputable split decision. Tuivasa's eighth straight UFC loss, tying the promotion record for a losing streak (theScore). Both made weight.",
-    "section": "prelims"
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "A wild brawl. Despaigne dropped Tuivasa with a counter left hook early, both were hurt in the exchanges, and Despaigne took him down to mount and the back with hammerfists and right hands. Tuivasa got up, took Despaigne down and punched from half guard over the last minute as Despaigne wilted. Sherdog 2-1 Tuivasa; all three judges gave it to Despaigne.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Despaigne (left hook)",
+       "Tuivasa wobbled several times",
+       "Despaigne mount and back take",
+       "Tuivasa late takedown",
+       "Despaigne fatigued late",
+       "Judges 3-0 Despaigne vs Sherdog 2-1 Tuivasa"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Despaigne was exhausted. Tuivasa landed overhands, clinched and kneed the inner thigh; Despaigne landed a knee and a throw to side control with punches, but Tuivasa won most of the minutes. Sherdog 3/3 and all three judges for Tuivasa.",
+      "edge": "b",
+      "score": "10-9 b",
+      "keyMoments": [
+       "Despaigne exhausted",
+       "Despaigne throw to side control"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Tuivasa dropped Despaigne with a leg kick early and landed an uppercut, but Despaigne landed another throw to half guard and punched to the side of the head for much of the round, with both men spent. Sherdog 3/3 Despaigne; judges 2-1 Despaigne (Varela had Tuivasa).",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Tuivasa (leg kick)",
+       "Despaigne throw to half guard",
+       "Both exhausted"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16352/Robelis-Despaigne-vs-Tai-Tuivasa"
+      }
+     ],
+     "note": "Only Sherdog gives round detail. Wider media on MMADecisions favoured Despaigne 9-4 (three had it 30-27), so the Sherdog play-by-play's 29-28 Tuivasa (Knapp, Sloan) was the minority view."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Sal D'Amato",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Felicia Oh",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Jovany Varela",
+       "a": 28,
+       "b": 29
+      }
+     ],
+     "media": [
+      {
+       "outlet": "MMAJunkie.com (Nolan King)",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "The MMA Vivisection (Zane Simon)",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "WrestlingObserver.com (Ryan Frederick)",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "Uncrowned (Drake Riggs)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "CombatPress.com",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "mma.uno (Steve Duncan)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Tudor Leonte)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Keith Shillan)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Dayne Fox)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Home of Fight (Jake Noecker)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "Sherdog (Brian Knapp)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "Sherdog (Mike Sloan)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "NY Post (Erich Richter)",
+       "a": 28,
+       "b": 29
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16352/Robelis-Despaigne-vs-Tai-Tuivasa"
+    }
    },
    {
     "a": "Michael Aswell Jr.",
@@ -347,10 +946,139 @@
      "R1 was a high-impact striking exchange. Aswell's leg kicks and overhand rights carried the round, and he stopped a takedown with a front headlock and knee.",
      "In R2, Aswell held double underhooks in the clinch and kneed the body, while Yoo landed the cleaner combinations and a left hook. The round split Sherdog's scorers 2-1 for Yoo.",
      "Yoo raised his pace in R3, took Aswell down midway and passed to side control before Aswell scrambled up late.",
-     "Sherdog's scorers had it 2-1 for Yoo (29-28), but the official judges went 2-1 for Aswell, making it a close, disputable decision."
+     "Sherdog's scorers had it 2-1 for Yoo (29-28), but the official judges went 2-1 for Aswell, making it a close, disputable decision.",
+     "Wider media backed the result: 10 of 12 scores on MMADecisions had Aswell 29-28, so this was closer to a fair split than a robbery."
     ],
     "context": "theScore called Aswell's win an upset (Yoo was the favorite). Split decision that went against two of Sherdog's three scorers. Both made weight.",
-    "section": "prelims"
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "A high-impact striking round. Aswell's leg kicks and overhand rights carried it, and he stopped a takedown with a front headlock and knee; Yoo answered with jabs, low kicks and a spinning back kick. Sherdog 3/3 Aswell, but two of three judges (McCarthy, Mobley) gave it to Yoo.",
+      "edge": "a",
+      "keyMoments": [
+       "Aswell leg kicks and overhand rights",
+       "Aswell front-headlock takedown defence",
+       "Judges 2-1 Yoo vs Sherdog 3-0 Aswell"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Aswell kicked the lead leg and held double underhooks against the fence with body knees and shoulder strikes; Yoo landed the cleaner combinations and a left hook. Sherdog split 2-1 Yoo, but all three judges gave it to Aswell.",
+      "edge": "a",
+      "keyMoments": [
+       "Aswell clinch control, body knees",
+       "Yoo cleaner combinations",
+       "Judges 3-0 Aswell vs Sherdog 2-1 Yoo"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Aswell landed leg kicks and a left hook-right hand early, then Yoo raised his output, took Aswell down midway, passed to side control and flirted with an arm-triangle before Aswell scrambled up late. Sherdog 3/3 Yoo; judges 2-1 Yoo (Mobley had Aswell).",
+      "edge": "b",
+      "keyMoments": [
+       "Yoo takedown to side control",
+       "Yoo arm-triangle threat"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16351/Michael-Aswell-vs-Joo-Sang-Yoo"
+      }
+     ],
+     "note": "Only Sherdog gives round detail. Wider media on MMADecisions had Aswell 29-28 on 10 of 12 cards; only two of Sherdog's PBP scorers had Yoo."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Derek Cleary",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Ron McCarthy",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "judge": "Daniel Mobley",
+       "a": 29,
+       "b": 28
+      }
+     ],
+     "media": [
+      {
+       "outlet": "CombatPress.com",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "mma.uno (Steve Duncan)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Home of Fight (Jake Noecker)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Keith Shillan)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "MMAJunkie.com (Nolan King)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Mike Sloan)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "WrestlingObserver.com (Ryan Frederick)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "MMA Island (Chris De Santiago)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Dayne Fox)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "The MMA Vivisection (Zane Simon)",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "outlet": "Sherdog (Brian Knapp)",
+       "a": 28,
+       "b": 29
+      },
+      {
+       "outlet": "Sherdog (Tudor Leonte)",
+       "a": 28,
+       "b": 29
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16351/Michael-Aswell-vs-Joo-Sang-Yoo"
+    }
    },
    {
     "a": "Ryan Gandra",
@@ -370,7 +1098,33 @@
      "An overhand right dropped Diaz, and Gandra followed up with unanswered punches for the stoppage."
     ],
     "context": "Opened the prelims. Gandra's third straight first-round finish (theScore). Both made weight.",
-    "section": "prelims"
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Gandra landed low kicks and body jabs while Diaz answered with jabs, an elbow and leg kicks. A long combination backed Diaz onto the fence covering up; an overhand right dropped him and Gandra finished with unanswered punches (2:04).",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Gandra (overhand right)",
+       "TKO 2:04"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+      },
+      {
+       "label": "UFC.com results",
+       "url": "https://www.ufc.com/event/ufc-331"
+      }
+     ],
+     "note": "Only Sherdog gives round detail; UFC.com confirms the finish."
+    }
    },
    {
     "a": "Edmen Shahbazyan",
@@ -391,7 +1145,130 @@
      "Sherdog's three scorers had it 30-27 Shahbazyan, sweeping all rounds."
     ],
     "context": "Early prelims. A clear decision with no controversy. Both made weight.",
-    "section": "prelims"
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Shahbazyan took the center and chopped both legs with low kicks behind a double jab; Ferreira threw almost nothing until a late left hook. Sherdog 3/3 and all three judges for Shahbazyan.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Shahbazyan low kicks",
+       "Ferreira very low output"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "More low kicks, one-twos and three body kicks from Shahbazyan; Ferreira landed a few big right hands and a hard leg kick but whiffed on wild overhands and was warned for an eye poke. Sherdog 3/3 Shahbazyan, but two judges (Leben, Mobley) gave it to Ferreira.",
+      "edge": "a",
+      "keyMoments": [
+       "Ferreira warned for eye poke",
+       "Judges 2-1 Ferreira vs Sherdog 3-0 Shahbazyan"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Ferreira came out aggressive with rights and body knees, but Shahbazyan kept kicking, hit a left hook to the liver, clinched for a takedown, then rocked Ferreira with a jab-left hook and dropped him with a right hand near the bell. Sherdog 3/3 and all three judges for Shahbazyan.",
+      "edge": "a",
+      "score": "10-9 a",
+      "keyMoments": [
+       "Shahbazyan takedown",
+       "Knockdown: Shahbazyan (right hand) late"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+      },
+      {
+       "label": "MMADecisions (judges per round + media)",
+       "url": "https://mmadecisions.com/decision/16349/Edmen-Shahbazyan-vs-Brunno-Ferreira"
+      }
+     ],
+     "note": "All 11 media scores on MMADecisions were 30-27 Shahbazyan."
+    },
+    "scorecards": {
+     "judges": [
+      {
+       "judge": "Chris Leben",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Daniel Mobley",
+       "a": 29,
+       "b": 28
+      },
+      {
+       "judge": "Felicia Oh",
+       "a": 30,
+       "b": 27
+      }
+     ],
+     "media": [
+      {
+       "outlet": "CombatPress.com",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "Home of Fight (Jake Noecker)",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "mma.uno (Steve Duncan)",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "MMAJunkie.com (Nolan King)",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "Sherdog (Brian Knapp)",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "Sherdog (Tudor Leonte)",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "Sherdog (Mike Sloan)",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "WrestlingObserver.com (Ryan Frederick)",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "Sherdog (Dayne Fox)",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "MMA Island (Chris De Santiago)",
+       "a": 30,
+       "b": 27
+      },
+      {
+       "outlet": "The MMA Vivisection (Zane Simon)",
+       "a": 30,
+       "b": 27
+      }
+     ],
+     "source": "https://mmadecisions.com/decision/16349/Edmen-Shahbazyan-vs-Brunno-Ferreira"
+    }
    },
    {
     "a": "Casey O'Neill",
@@ -412,7 +1289,34 @@
      "Sherdog called it a Submission of the Year contender, and it earned a Performance of the Night bonus."
     ],
     "context": "Early prelims. Won from a losing position. Performance of the Night. Both made weight.",
-    "section": "prelims"
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Moura controlled most of the round: she knocked O'Neill off balance, caught a kick for a takedown and landed elbows and short punches from half guard, then lost an anaconda choke attempt. O'Neill elevated her, rotated her hips and rolled into a belly-down armbar for the tap at 3:22.",
+      "edge": "a",
+      "keyMoments": [
+       "Moura takedown and top control",
+       "Moura anaconda attempt",
+       "Armbar from bottom, 3:22"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+      },
+      {
+       "label": "UFC.com results",
+       "url": "https://www.ufc.com/event/ufc-331"
+      }
+     ],
+     "note": "Only Sherdog gives round detail; UFC.com confirms the finish."
+    }
    },
    {
     "a": "Joanderson Brito",
@@ -432,7 +1336,33 @@
      "Brito's ground strikes got heavier and turned into repeated hammerfists on a dazed Chikadze until the stoppage."
     ],
     "context": "Opened the card (early prelims). Both fighters made weight.",
-    "section": "prelims"
+    "section": "prelims",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Chikadze started well at range with front kicks, straight lefts and body kicks while Brito walked forward. Chikadze slipped throwing a high kick, Brito jumped on top and his ground strikes grew heavier until the stoppage at 1:57.",
+      "edge": "a",
+      "keyMoments": [
+       "Chikadze slipped on a high kick",
+       "Brito ground and pound, KO 1:57"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Sherdog play-by-play",
+       "url": "https://www.sherdog.com/news/news/UFC-331-Van-vs-Pantoja-2-playbyplay-results-round-scoring-202850"
+      },
+      {
+       "label": "UFC.com results",
+       "url": "https://www.ufc.com/event/ufc-331"
+      }
+     ],
+     "note": "Only Sherdog gives round detail; UFC.com confirms the finish."
+    }
    }
   ]
  },

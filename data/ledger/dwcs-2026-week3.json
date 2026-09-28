@@ -1,6 +1,6 @@
 {
  "eventId": "dwcs-2026-week3",
- "title": "DWCS Season 10 · Week 3",
+ "title": "DWCS Season 10 \u00b7 Week 3",
  "date": "2026-08-25",
  "promotion": "DWCS",
  "forecast": null,
@@ -33,7 +33,36 @@
      "Huge right hook floored Petruzzella.",
      "Ground strikes sealed it at 0:35."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Galanti's early takedown try was stuffed; he pressured to the fence and a right hand in the clinch floored Petruzzella, with follow-ups ending it at 0:35.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Galanti (right hand)",
+       "KO 0:35"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Yahoo Sports week 3 recap",
+       "url": "https://sports.yahoo.com/articles/dwcs-season-10-week-3-011731129.html"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-3-highlights"
+      },
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/08/25/dana-whites-contender-series-season-10-week-3-live-results-round-by-round-updates-highlights-and-winner-august-25-2026-2/"
+      }
+     ]
+    }
    },
    {
     "a": "Ronald Humphrey",
@@ -51,7 +80,35 @@
      "Won exchanges and mixed in takedowns, bloodying Miranda.",
      "Took the back and finished with a rear-naked choke."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Humphrey came out shooting takedowns and landed ground and pound; Miranda got up and traded, but Humphrey dropped him with a jab (Yahoo), opened a big cut, battered him on the ground and finished with a rear-naked choke.",
+      "edge": "a",
+      "keyMoments": [
+       "Humphrey takedowns",
+       "Knockdown: Humphrey (jab)",
+       "Miranda cut",
+       "RNC"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Yahoo Sports week 3 recap",
+       "url": "https://sports.yahoo.com/articles/dwcs-season-10-week-3-011731129.html"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-3-highlights"
+      }
+     ],
+     "note": "Finish time 4:03 in the ledger and Yahoo; MMA News has 4:10."
+    }
    },
    {
     "a": "Sean Clancy Jr.",
@@ -69,7 +126,41 @@
      "Showed range on the feet before taking it down.",
      "Advanced to mount and elbowed until the stoppage."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Sharp single shots. Yahoo says Clancy picked Balletto apart at range with kicks; MMA News describes Balletto pressuring early and regaining momentum late after Clancy's power shots and body kicks. Sources disagree on the round.",
+      "edge": "even",
+      "keyMoments": [
+       "Clancy body kicks",
+       "Sources split on the round"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Clancy took it down immediately, moved to mount and elbowed Balletto until the stoppage at 3:54.",
+      "edge": "a",
+      "keyMoments": [
+       "Clancy takedown to mount",
+       "TKO (elbows) 3:54"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Yahoo Sports week 3 recap",
+       "url": "https://sports.yahoo.com/articles/dwcs-season-10-week-3-011731129.html"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-3-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Guilherme Uriel",
@@ -87,7 +178,31 @@
      "Caught Piazzon's takedown attempt with an arm-in guillotine.",
      "Choked him unconscious 50 seconds in."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Piazzon shot a single-leg and drove Uriel to the fence; Uriel locked a standing arm-in guillotine and got the tap at 0:50.",
+      "edge": "a",
+      "keyMoments": [
+       "Standing guillotine 0:50"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Yahoo Sports week 3 recap",
+       "url": "https://sports.yahoo.com/articles/dwcs-season-10-week-3-011731129.html"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-3-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Alex Apodaca",
@@ -105,7 +220,51 @@
      "Strong takedown defense and stance-switching striking.",
      "Won as roughly a +1200 underdog, reported as the biggest upset in DWCS history."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Mir started strong with power punches and knees, caught a kick for a takedown and took the back hunting a choke; Apodaca stuffed other attempts, pressed her to the fence with kicks and reversed late with strong strikes.",
+      "edge": "b",
+      "keyMoments": [
+       "Mir takedown and back take",
+       "Apodaca late reversal"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Apodaca took the center with combinations and long shots, stuffed takedowns and bloodied Mir's nose; Mir had largely given up on wrestling.",
+      "edge": "a",
+      "keyMoments": [
+       "Apodaca stuffed takedowns",
+       "Mir bloodied nose"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Apodaca stuffed another takedown and landed heavy body shots; Mir found the back with about 2:30 left but did no damage.",
+      "edge": "a",
+      "keyMoments": [
+       "Mir back take, no damage",
+       "Apodaca body shots"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "Yahoo Sports week 3 recap",
+       "url": "https://sports.yahoo.com/articles/dwcs-season-10-week-3-011731129.html"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-3-highlights"
+      }
+     ],
+     "note": "Both recaps agree; judges 29-28 x3."
+    }
    }
   ]
  },

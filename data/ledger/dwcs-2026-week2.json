@@ -1,6 +1,6 @@
 {
  "eventId": "dwcs-2026-week2",
- "title": "DWCS Season 10 · Week 2",
+ "title": "DWCS Season 10 \u00b7 Week 2",
  "date": "2026-08-18",
  "promotion": "DWCS",
  "forecast": null,
@@ -34,7 +34,45 @@
      "Trembley rallied in R3 and also earned a contract in defeat."
     ],
     "contract": true,
-    "context": "Taner Trembley also earned a UFC contract."
+    "context": "Taner Trembley also earned a UFC contract.",
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Puga's jab and straight right dominated and he knocked Trembley down; Trembley recovered and countered to stay competitive.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Puga"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Puga kept landing the same combinations.",
+      "edge": "a"
+     },
+     {
+      "n": 3,
+      "summary": "Trembley changed approach and landed powerful, damaging shots on Puga; after brief ground exchanges they traded in the final minute.",
+      "edge": "b",
+      "keyMoments": [
+       "Trembley rally"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "partial",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-2-highlights"
+      },
+      {
+       "label": "Cageside Press week 2 results",
+       "url": "https://cagesidepress.com/2026/08/18/dana-whites-contender-series-season-10-week-2-results/"
+      }
+     ],
+     "note": "Only MMA News gives round detail; judges 29-28 x3 fit Puga R1-R2, Trembley R3."
+    }
    },
    {
     "a": "Alik Lorenz",
@@ -52,7 +90,32 @@
      "Upset the favored Aly with a well-timed right hand.",
      "Ground strikes finished it."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Aly kicked the legs while Lorenz worked at range; a Lorenz right hand dropped Aly and ground and pound finished it at 2:23.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Lorenz (right hand)",
+       "KO 2:23"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-2-highlights"
+      },
+      {
+       "label": "Cageside Press week 2 results",
+       "url": "https://cagesidepress.com/2026/08/18/dana-whites-contender-series-season-10-week-2-results/"
+      }
+     ]
+    }
    },
    {
     "a": "Cristian Perez",
@@ -70,7 +133,39 @@
      "Counter right dropped Paxton in R2, left hook dropped him again.",
      "Ground strikes ended Paxton's nine-fight win streak."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Paxton pressed forward and they traded, with Perez managing distance. No source names a round winner.",
+      "edge": "even"
+     },
+     {
+      "n": 2,
+      "summary": "A counter right dropped Paxton; he got up quickly, but a left hand floored him again and Perez finished with ground and pound at 1:06.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Perez (counter right)",
+       "Knockdown: Perez (left hand)",
+       "TKO 1:06"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "partial",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-2-highlights"
+      },
+      {
+       "label": "Cageside Press week 2 results",
+       "url": "https://cagesidepress.com/2026/08/18/dana-whites-contender-series-season-10-week-2-results/"
+      }
+     ],
+     "note": "Only MMA News gives round detail."
+    }
    },
    {
     "a": "Trent Miller",
@@ -88,7 +183,43 @@
      "Survived early trouble and a groin strike.",
      "Turned a guillotine attempt into a rare Von Flue choke."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Rodrigues landed heavy kicks and combinations, but Miller survived, rocked him with a left hand, took him down and controlled from top. No source names a round winner.",
+      "edge": "even",
+      "keyMoments": [
+       "Miller in early trouble",
+       "Rodrigues rocked by left hand",
+       "Miller takedown, top control"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Miller took him down again and finished with a Von Flue choke at 1:04, the second in DWCS history.",
+      "edge": "a",
+      "keyMoments": [
+       "Miller takedown",
+       "Von Flue choke 1:04"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "partial",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-2-highlights"
+      },
+      {
+       "label": "Cageside Press week 2 results",
+       "url": "https://cagesidepress.com/2026/08/18/dana-whites-contender-series-season-10-week-2-results/"
+      }
+     ],
+     "note": "Only MMA News gives round detail."
+    }
    },
    {
     "a": "Kaik Brito",
@@ -106,7 +237,49 @@
      "Faster hands through a back-and-forth first two rounds.",
      "Right hand knocked Fazil out seconds into R3."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Brito kept range with right hands and elbows while Fazil pressed; Fazil landed a late spinning backfist and Brito answered with a takedown and spinning back elbow. No source names a round winner.",
+      "edge": "even",
+      "keyMoments": [
+       "Fazil spinning backfist",
+       "Brito takedown"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Fazil's pressure and striking picked up and Brito appeared to slow when trapped. No source names a round winner.",
+      "edge": "even",
+      "keyMoments": [
+       "Brito slowed under pressure"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Fazil kept pressing, and Brito landed an overhand right for a walk-off KO at 0:12.",
+      "edge": "a",
+      "keyMoments": [
+       "KO: Brito (overhand right) 0:12"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "partial",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-2-highlights"
+      },
+      {
+       "label": "Cageside Press week 2 results",
+       "url": "https://cagesidepress.com/2026/08/18/dana-whites-contender-series-season-10-week-2-results/"
+      }
+     ],
+     "note": "Only MMA News gives round detail."
+    }
    }
   ]
  },

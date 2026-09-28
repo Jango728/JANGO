@@ -1,6 +1,6 @@
 {
  "eventId": "dwcs-2026-week1",
- "title": "DWCS Season 10 · Week 1",
+ "title": "DWCS Season 10 \u00b7 Week 1",
  "date": "2026-08-11",
  "promotion": "DWCS",
  "forecast": null,
@@ -33,7 +33,32 @@
      "Leg kicks and an overhand right set up a power takedown.",
      "Finished with ground strikes 34 seconds in."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Wint landed leg kicks, Adams clinched and tried a trip, and Wint reversed it and finished with ground and pound at 0:34.",
+      "edge": "a",
+      "keyMoments": [
+       "Wint reversal",
+       "TKO (ground strikes) 0:34"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/08/11/dana-whites-contender-series-season-10-week-1-live-results-round-by-round-updates-highlights-and-winner-august-11-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-1-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Abe Alsaghir",
@@ -49,9 +74,54 @@
     "ou": "Over",
     "notes": [
      "Constant forward pressure and takedown attempts won two judges.",
-     "Escarrega defended most takedowns; one judge had it a 30-27 shutout for him."
+     "Escarrega defended most takedowns; one judge had it a 30-27 shutout for him.",
+     "Round-by-round (DK Network, MMA News): Escarrega won all three rounds, dropping Alsaghir and stuffing 15 takedowns. The split for Alsaghir looks like a robbery; treat it as a weak win."
     ],
-    "contract": false
+    "contract": false,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Alsaghir pressed wildly; Escarrega clinched, landed the harder punches and (per MMA News) dropped Alsaghir with a punch to the head. DK Network scored it 10-9 Escarrega.",
+      "edge": "b",
+      "keyMoments": [
+       "Knockdown: Escarrega (MMA News only)",
+       "Alsaghir takedowns stuffed"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Alsaghir kept shooting and kept failing (MMA News: 14 straight stuffed across two rounds); Escarrega landed a knee first thought to be illegal. DK Network 10-9 Escarrega.",
+      "edge": "b",
+      "keyMoments": [
+       "Alsaghir takedowns stuffed",
+       "Escarrega knee (ruled legal)"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Escarrega controlled Alsaghir on the ground for most of the round and threatened a D'Arce; Alsaghir's desperation submissions went nowhere. DK Network 10-9 Escarrega (30-27).",
+      "edge": "b",
+      "keyMoments": [
+       "Escarrega top control",
+       "D'Arce threat"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/08/11/dana-whites-contender-series-season-10-week-1-live-results-round-by-round-updates-highlights-and-winner-august-11-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-1-highlights"
+      }
+     ],
+     "note": "Both round-by-round sources had Escarrega winning every round; the judges gave Alsaghir a split (29-28, 29-28, 27-30). DK stats: Alsaghir 0 of 15 takedowns, Escarrega 82-48 significant strikes, 3 takedowns, 5:02 control."
+    }
    },
    {
     "a": "Bilal Hasan",
@@ -69,7 +139,32 @@
      "Caught a leg kick and dropped Saikia with an overhand right.",
      "Quick follow-up strikes on the ground ended it."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Hasan opened with leg kicks, dropped Saikia with a right hand within seconds and finished with a barrage of punches at 0:45.",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Hasan (right hand)",
+       "TKO 0:45"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/08/11/dana-whites-contender-series-season-10-week-1-live-results-round-by-round-updates-highlights-and-winner-august-11-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-1-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Tom Pagliarulo",
@@ -85,9 +180,54 @@
     "ou": "Over",
     "notes": [
      "Blended striking and wrestling, building momentum each round.",
-     "Late R3 takedown, then elbows from side control for the stoppage."
+     "Late R3 takedown, then elbows from side control for the stoppage.",
+     "Pagliarulo was hurt twice and lost R1 (DK Network), then came back with takedowns and ground strikes to finish in R3."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Both were dropped early (MMA News); Mulumba then hurt Pagliarulo again with a left hand. Pagliarulo got a takedown with under two minutes left but couldn't keep him down. DK Network 10-9 Mulumba.",
+      "edge": "b",
+      "keyMoments": [
+       "Knockdowns traded early (MMA News)",
+       "Pagliarulo hurt twice",
+       "Pagliarulo late takedown"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Pagliarulo raised his output with punches, leg kicks, knees and elbows while Mulumba became stationary. DK Network: likely Pagliarulo's round.",
+      "edge": "a",
+      "keyMoments": [
+       "Mulumba output dropped"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Mulumba landed a big punch, but Pagliarulo took him down again and finished with ground and pound (elbows from side control) at 4:24.",
+      "edge": "a",
+      "keyMoments": [
+       "Pagliarulo takedown",
+       "TKO (punches/elbows) 4:24"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/08/11/dana-whites-contender-series-season-10-week-1-live-results-round-by-round-updates-highlights-and-winner-august-11-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-1-highlights"
+      }
+     ],
+     "note": "DK stats: Pagliarulo 3 takedowns, 4:16 control."
+    }
    },
    {
     "a": "Joe Kropschot",
@@ -105,7 +245,50 @@
      "Controlled range with jab, straight shots and teeps.",
      "Nearly finished an armbar late in R3."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Kunneman opened with aggressive punching but lower output; Kropschot answered with leg kicks, clinches and sharp counters. DK Network 10-9 Kropschot.",
+      "edge": "a",
+      "keyMoments": [
+       "Kropschot counters"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Kropschot got an early takedown but Kunneman escaped, and Kunneman appeared to hurt Kropschot late. DK Network 10-9 Kunneman.",
+      "edge": "b",
+      "keyMoments": [
+       "Kropschot takedown",
+       "Kropschot hurt late (DK Network)"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "Competitive early; Kunneman took him down, Kropschot reversed to top and threatened an armbar late. DK Network 10-9 Kropschot; MMA News had Kropschot in control throughout.",
+      "edge": "a",
+      "keyMoments": [
+       "Kunneman takedown reversed",
+       "Kropschot armbar threat"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/08/11/dana-whites-contender-series-season-10-week-1-live-results-round-by-round-updates-highlights-and-winner-august-11-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-1-highlights"
+      }
+     ],
+     "note": "Judges 30-27, 30-27, 29-28. DK stats: significant strikes 119-59 Kropschot."
+    }
    }
   ]
  },

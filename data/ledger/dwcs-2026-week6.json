@@ -1,6 +1,6 @@
 {
  "eventId": "dwcs-2026-week6",
- "title": "DWCS Season 10 · Week 6",
+ "title": "DWCS Season 10 \u00b7 Week 6",
  "date": "2026-09-15",
  "promotion": "DWCS",
  "forecast": {
@@ -104,7 +104,32 @@
      "Straight shots dropped Hunt early.",
      "Heavy follow-ups finished it after Hunt briefly recovered."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Perea's second right hand dropped Hunt badly; after a brief scramble he dropped him again with a flurry and finished at 0:45.",
+      "edge": "a",
+      "keyMoments": [
+       "2 knockdowns Perea",
+       "KO 0:45"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/15/dana-whites-contender-series-season-10-week-6-live-results-round-by-round-updates-highlights-and-winner-september-15-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-6-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Igor Cavalcanti",
@@ -122,7 +147,33 @@
      "Big right hand dropped Ravello.",
      "Relentless ground strikes forced the stoppage."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Cavalcanti pressed Ravello to the cage and dropped him with a right hand, then slammed him when he got up and finished with ground strikes at 1:38 (DK: 52 strikes, 2 takedowns).",
+      "edge": "a",
+      "keyMoments": [
+       "Knockdown: Cavalcanti (right hand)",
+       "Slam",
+       "TKO 1:38"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/15/dana-whites-contender-series-season-10-week-6-live-results-round-by-round-updates-highlights-and-winner-september-15-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-6-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Akbar Abdullaev",
@@ -140,7 +191,31 @@
      "Overhand right knocked Santos out cold in 19 seconds.",
      "Dana White called him among the best talents in series history."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "One of the first punches, an overhand right, knocked Santos out face-first at 0:19.",
+      "edge": "a",
+      "keyMoments": [
+       "KO (overhand right) 0:19"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/15/dana-whites-contender-series-season-10-week-6-live-results-round-by-round-updates-highlights-and-winner-september-15-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-6-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Luis Hernandez",
@@ -158,7 +233,42 @@
      "Traded strikes and scrambles in R1.",
      "Took the back in R2 and got the tap."
     ],
-    "contract": true
+    "contract": true,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Hernandez got an early takedown that Guillon escaped, then set a very fast pace with heavy strikes; Guillon landed significant punches in the final minute. DK Network 10-9 Hernandez.",
+      "edge": "a",
+      "keyMoments": [
+       "Hernandez takedown",
+       "Fast pace"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Guillon hurt Hernandez with a hook and went for a D'Arce (MMA News); Hernandez escaped, reversed and took the back for a rear-naked choke at 1:01.",
+      "edge": "a",
+      "keyMoments": [
+       "Hernandez hurt by hook (MMA News)",
+       "Guillon D'Arce attempt",
+       "RNC 1:01"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/15/dana-whites-contender-series-season-10-week-6-live-results-round-by-round-updates-highlights-and-winner-september-15-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-6-highlights"
+      }
+     ]
+    }
    },
    {
     "a": "Tyshawn Williams",
@@ -174,9 +284,52 @@
     "ou": "Over",
     "notes": [
      "Controlled with wrestling and ground strikes, fading late in R3.",
-     "No contract; offered a return DWCS fight this season."
+     "No contract; offered a return DWCS fight this season.",
+     "Round-by-round (DK Network, MMA News): Williams tired in R2 and lost it, then recovered to take R3 with a takedown and control."
     ],
-    "contract": false
+    "contract": false,
+    "rounds": [
+     {
+      "n": 1,
+      "summary": "Williams scored three takedowns inside the round, controlled on the ground and landed a clinch knee. DK Network: completely one-sided, 10-9 Williams.",
+      "edge": "a",
+      "keyMoments": [
+       "3 takedowns Williams"
+      ]
+     },
+     {
+      "n": 2,
+      "summary": "Williams' takedowns stopped working as he tired; Monteiro defended better, tried a choke when Williams slipped at the cage, and finished the round stronger. DK Network 10-9 Monteiro.",
+      "edge": "b",
+      "keyMoments": [
+       "Williams fatigued",
+       "Monteiro choke attempt"
+      ]
+     },
+     {
+      "n": 3,
+      "summary": "After early exchanges Williams landed another takedown and held long control. DK Network 10-9 Williams.",
+      "edge": "a",
+      "keyMoments": [
+       "Williams takedown, long control"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-09-28",
+     "sources": [
+      {
+       "label": "DraftKings Network round-by-round",
+       "url": "https://dknetwork.draftkings.com/2026/09/15/dana-whites-contender-series-season-10-week-6-live-results-round-by-round-updates-highlights-and-winner-september-15-2026/"
+      },
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-6-highlights"
+      }
+     ],
+     "note": "Judges 29-28, 29-27, 29-27. DK stats: Williams 6 takedowns, 8:51 control. MMA News places Williams' fatigue in R2, not late R3 as the existing note says."
+    }
    }
   ]
  },
@@ -199,12 +352,12 @@
     "a": "Oscar Ravello",
     "b": "Igor Cavalcanti",
     "cause": "data",
-    "note": "Picked Ravello by KO; Cavalcanti landed first — a big right hand and a finish at 1:38 of R1. Both records were built on thin regional opposition. Rounds (Under) correct."
+    "note": "Picked Ravello by KO; Cavalcanti landed first \u2014 a big right hand and a finish at 1:38 of R1. Both records were built on thin regional opposition. Rounds (Under) correct."
    },
    {
     "a": "Akbar Abdullaev",
     "b": "Ednilson Santos",
-    "note": "Winner and KO correct; rounds missed (Over 1.5) — 19-second knockout."
+    "note": "Winner and KO correct; rounds missed (Over 1.5) \u2014 19-second knockout."
    },
    {
     "a": "Tyshawn Williams",
