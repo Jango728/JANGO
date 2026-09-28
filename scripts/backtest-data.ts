@@ -10,9 +10,11 @@ import { readFileSync } from "node:fs";
 import { SEED_EVENTS, SEED_FIGHTERS } from "../lib/data";
 import { ledgers, sameBout, sameFighter, scoredBouts } from "../lib/ledger";
 import type { LedgerBout, FrozenPick } from "../lib/ledger-types";
-import type { Event, Fight, Fighter, PastFight } from "../lib/types";
-import type { StatRow, WithTimeline } from "../lib/fight-stats";
-import { roundRowsFromRoster, type RoundsDoc, type WithRounds } from "../lib/round-features";
+import type { Event, Fight, Fighter } from "../lib/types";
+import type { WithTimeline } from "../lib/fight-stats";
+import type { RoundsDoc, WithRounds } from "../lib/round-features";
+import type { RosterBout } from "../lib/roster";
+import { rosterProfile, type RosterLike } from "../lib/roster-profile";
 
 export type Case = {
   set: "ledger" | "historical";
@@ -93,46 +95,20 @@ export function ledgerSet(): Case[] {
   return out;
 }
 
-type RRow = { date: string; event: string; opponent: string; opponentSlug: string | null; result: "W" | "L" | "D" | "NC"; method: string; round: number; time: string; weightClass: string; title: boolean; fightId: string; s?: Record<string, number> };
-type RFighter = { slug: string; name: string; dob: string | null; heightIn: number | null; reachIn: number | null; stance: string | null; weightClass: string; history: RRow[] };
+type RRow = { date: string; event: string; opponent: string; opponentSlug: string | null; result: "W" | "L" | "D" | "NC"; method: string; round: number; time: string; weightClass: string; title: boolean; fightId: string; s?: RosterBout["s"] };
+type RFighter = RosterLike & { history: RRow[] };
 
 const DIVS = ["Heavyweight", "Light Heavyweight", "Middleweight", "Welterweight", "Lightweight", "Featherweight", "Bantamweight", "Flyweight", "Women's Featherweight", "Women's Bantamweight", "Women's Flyweight", "Women's Strawweight"];
-const ageAt = (dob: string | null, date: string) => (dob ? Math.floor((Date.parse(date) - Date.parse(dob)) / (365.25 * 86400000)) : undefined);
 
 export function historicalSet(from = "2023-01-01", to = "2026-09-20", minPrior = 3): Case[] {
   const roster = JSON.parse(readFileSync("public/roster/roster.json", "utf8")) as { asOf: string; fighters: RFighter[] };
   let rounds: RoundsDoc | null = null;
   try { rounds = JSON.parse(readFileSync("public/roster/rounds.json", "utf8")) as RoundsDoc; } catch { /* no per-round file: round features stay null */ }
   const bySlug = new Map(roster.fighters.map((f) => [f.slug, f]));
-  const ufcRecordBefore = (slug: string | null, date: string) => {
-    const r = slug ? bySlug.get(slug) : undefined;
-    if (!r) return { rec: undefined as string | undefined, n: undefined as number | undefined };
-    const rows = r.history.filter((h) => h.date < date && h.result !== "NC");
-    const n = (x: string) => rows.filter((h) => h.result === x).length;
-    return { rec: `${n("W")}-${n("L")}-${n("D")}`, n: rows.length };
-  };
+  // Fighters rebuilt from the roster (lib/roster-profile.ts, shared with the Matchmaker): UFC-only histories with
+  // reconstructed opponent records, per-bout stat rows and round rows. `age` is the age on the data date.
   const fighters = new Map<string, WithTimeline & WithRounds>();
-  for (const r of roster.fighters) {
-    const history: PastFight[] = r.history.map((h) => {
-      const [m, s] = h.time.split(":").map(Number);
-      const o = ufcRecordBefore(h.opponentSlug, h.date);
-      return {
-        opponent: h.opponent, date: h.date, result: h.result, promotion: "UFC", method: h.method, round: h.round, time: h.time,
-        minutes: (h.round - 1) * 5 + m + (s || 0) / 60, rules: "MMA", division: h.weightClass, eventName: h.event,
-        opponentRecord: o.rec, opponentRecordBasis: "reconstructed", opponentPromotionBouts: o.n, source: "roster",
-      };
-    });
-    const rows: StatRow[] = r.history.filter((h) => h.s && h.s.sec > 0).map((h) => { const s = h.s!; return [h.date, s.sec, s.sl, s.osl, s.tdl, s.tda, s.otdl, s.otda, s.kd, s.okd, s.ctrl, s.octrl, s.sub, s.sa, s.osa]; });
-    fighters.set(r.slug, {
-      id: r.slug, name: r.name, history, sources: [], historyComplete: false, ufcHistoryComplete: true,
-      height: r.heightIn ? Math.round(r.heightIn * 2.54 * 10) / 10 : undefined,
-      reach: r.reachIn ? Math.round(r.reachIn * 2.54 * 10) / 10 : undefined,
-      stance: r.stance ?? undefined, birthDate: r.dob ?? undefined,
-      // Production semantics: `age` is the age on the data date, not at the bout (engine v1.1 used it as-is).
-      age: ageAt(r.dob, roster.asOf), ufcTimeline: rows,
-      roundTimeline: rounds ? roundRowsFromRoster(r.slug, r.history, rounds) : undefined,
-    });
-  }
+  for (const r of roster.fighters) fighters.set(r.slug, rosterProfile(r, bySlug, rounds, roster.asOf));
   const seen = new Set<string>();
   const out: Case[] = [];
   for (const r of roster.fighters) {
