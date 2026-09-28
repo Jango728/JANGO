@@ -31,7 +31,7 @@ export type Division = {
 };
 
 /** Date the next-in-line calls were researched (UFC.com, ESPN, Sherdog, Yahoo/MMA Junkie, CBS, etc.). */
-export const NEXT_IN_LINE_AS_OF = "Sep 27, 2026";
+export const NEXT_IN_LINE_AS_OF = "Sep 28, 2026";
 const ASOF = NEXT_IN_LINE_AS_OF;
 
 const c = (name: string, move: Move = null, by?: number): Contender => ({ name, move, by });
@@ -94,7 +94,7 @@ export const DIVISIONS: Division[] = [
     id: "mw", name: "Middleweight", short: "MW", limit: 185,
     champion: { name: "Sean Strickland", record: "31-7-0", age: 35, height: "6'1\"", reach: 76, from: "USA", style: "MMA", img: "champions/sean-strickland.webp", p4p: 7, note: "12 KO wins · 9 first-round finishes" },
     top10: [c("Khamzat Chimaev"), c("Dricus Du Plessis"), c("Nassourdine Imavov"), c("Brendan Allen"), c("Caio Borralho"), c("Joe Pyfer"), c("Gregory Rodrigues"), c("Anthony Hernandez"), c("Israel Adesanya"), c("Christian Leroy Duncan")],
-    nextInLine: { name: "Nassourdine Imavov", status: "expected", note: "Reported for UFC 335 on Dec 12 (a rematch of Strickland's 2023 win). Not yet officially announced by the UFC.", source: "https://agentmma.com/news/89478-sean-strickland-vs-nassourdine-imavov-in-the-works-for-ufc-335-in-december", asOf: ASOF },
+    nextInLine: { name: "Nassourdine Imavov", status: "expected", note: "Strickland confirmed (Sep 27) that Imavov is his first defense later this year, reported for UFC 335 on Dec 12 (a rematch of Strickland's 2023 win). Not yet officially announced by the UFC.", source: "https://bloodyelbow.com/2026/09/27/sean-strickland-confirms-he-will-fight-nassourdine-imavov-later-this-year-in-first-title-defence/", asOf: ASOF },
     prospects: [
       { name: "Ateba Gautier", record: "11-1", age: 24, tag: "81\" reach", why: "24 years old with a huge frame and a knockout finisher's record. Faces Kopylov at UFC 332.", threat: 3 },
       { name: "Modestino Rodrigues", record: "8-1", age: 22, tag: "15-second KO", why: "22 years old, 6'3\". Won his contract with a 15-second knockout on DWCS week 4.", threat: 3 },

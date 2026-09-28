@@ -11,6 +11,15 @@ export type LedgerBout = {
   change?: { date: string; from: string; reason: string; source: string };
   /** Display-only market snapshot at fight time (American odds for a/b). Benchmark only; never a model input. */
   closingOdds?: { a: number; b: number; asOf: string; source: string };
+  /**
+   * How the fight actually went, round by round, from post-fight write-ups (Sherdog play-by-play first,
+   * then UFC.com, MMA Junkie / MMA Fighting / Cageside Press round-by-round, MMADecisions for media scores).
+   * One entry per round fought. edge = who won the round per the write-ups ("a" | "b" | "even"); score = e.g. "10-9 a", "10-8 b".
+   * keyMoments flags the things that predict future fights: knockdowns, rocked-and-recovered, cardio fade, takedowns at will, cuts.
+   */
+  rounds?: { n: number; summary: string; edge?: "a" | "b" | "even"; score?: string; keyMoments?: string[] }[];
+  /** Status of the round-by-round write-up. pending = not published yet, keep checking through the review window. */
+  recap?: { status: "complete" | "partial" | "pending" | "unavailable"; checkedAt: string; sources: { label: string; url: string }[]; note?: string };
 };
 /**
  * A compact fingerprint of what the engine saw when it made a call. Stored with every revision (and with

@@ -8,7 +8,7 @@ export const SEED_FIGHTERS: Record<string, Fighter> = {
 };
 export const SEED_EVENTS: Event[] = [...(seed.events as Event[]), DWCS_WEEK7_EVENT];
 /** Date of the last data refresh. The nightly job updates this. */
-export const CHECKED_AT = "2026-09-26";
+export const CHECKED_AT = "2026-09-28";
 export const PROMOTIONS = ["UFC", "DWCS", "PFL", "ACA", "OKTAGON"] as const;
 /** Public link to the hosted site (set after publishing). */
 export const SITE_URL = "https://claude.ai/artifact/CB3f7jVHeYrvitrxxTkT1A";
