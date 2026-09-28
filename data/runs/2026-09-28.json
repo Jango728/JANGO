@@ -1,0 +1,39 @@
+{
+ "date": "2026-09-28",
+ "runs": [
+  {
+   "kind": "nightly",
+   "startedAt": "2026-09-28T06:42:37.896Z",
+   "status": "running",
+   "checked": [
+    "ufc.com rankings: still Sep 22 (weekly update due Tue Sep 29)",
+    "lineups: ufc332, dwcs wk8-10, ufc-fn-290, pfl-chicago2, ufc-fn-291 (no confirmed changes)",
+    "roster: build-roster + stats timeline (no change; mirror lag)"
+   ],
+   "changed": [
+    "oktagon-94: closing odds (BetWay via BestFightOdds) for 10/10 bouts + market-benchmark follow-up lesson",
+    "rankings: next-in-line re-researched (11 divisions, no new bookings); MW Imavov note/source updated to Strickland's Sep 27 confirmation",
+    "venue info added for 7 cards (ufc332 1,288 m altitude; APEX 25 ft cards; Edmonton; Chicago)",
+    "freeze: 0 opened, 0 revised, 0 replaced/cancelled"
+   ],
+   "failed": [
+    {
+     "step": "firecrawl",
+     "error": "Firecrawl tool not available in session"
+    },
+    {
+     "step": "portraits",
+     "error": "Whitehead, Mahjoub, Faglier, Armand: UFC.com shows silhouette/none; no transparent photo"
+    }
+   ],
+   "notes": [],
+   "sourcePath": "webfetch",
+   "errors": 0,
+   "warnings": 38,
+   "published": {
+    "at": "2026-09-28T06:47:34.368Z",
+    "files": 31
+   }
+  }
+ ]
+}
