@@ -570,7 +570,16 @@ export function predict(fight: Fight, a: Fighter, b: Fighter, event: Event): Eng
 
   // Calibrated log-odds: every known signal adds weight × score; a missing signal adds nothing,
   // so gaps pull the probability toward 50% instead of being papered over.
-  const z = known.reduce((s, x) => s + x.score! * x.weight, 0) * divisionTemperature(fight);
+  let z = known.reduce((s, x) => s + x.score! * x.weight, 0) * divisionTemperature(fight);
+  // Matchmaker cross-division bouts only (real bouts never carry weightGap). A one-division move
+  // is free (movers-up held their own in the backtest); each pound beyond the first ~15 lb of
+  // extra size shifts the odds toward the naturally bigger fighter. Rule of thumb, not backtested:
+  // real cross-division fights are too rare to fit it.
+  if (fight.weightGap) {
+    const g = fight.weightGap.a - fight.weightGap.b;
+    const excess = Math.sign(g) * Math.max(0, Math.abs(g) - 15);
+    z -= 0.018 * excess;
+  }
   const probabilityA = sigmoid(z);
   // Every bout gets a pick when the data exists; a near-zero edge is shown as a coin flip.
   const pick = z === 0 ? null : z > 0 ? a.id : b.id;

@@ -12,7 +12,7 @@ export type Fighter = { id: string; name: string; nickname?: string; record?: st
   /** Where the fighter trains (optional, for travel / time-zone context). tz = IANA zone, e.g. "America/Denver". */
   base?: { location: string; tz?: string; source?: string; checked?: string } };
 export type Assessment = { score: number; note: string; source?: string; asOf: string };
-export type Fight = { id: string; a: string; b: string; division: string; rules: Rules; rounds: number; section: string; assessments: Partial<Record<Factor, Assessment>>; notes: string[]; unknowns: string[]; odds?: { a: number; b: number; asOf: string; source: string };
+export type Fight = { id: string; a: string; b: string; division: string; /** Matchmaker only: pounds each fighter is moving up from their own division limit to the bout's limit. */ weightGap?: { a: number; b: number }; rules: Rules; rounds: number; section: string; assessments: Partial<Record<Factor, Assessment>>; notes: string[]; unknowns: string[]; odds?: { a: number; b: number; asOf: string; source: string };
   /** Fight-week facts for this bout (weigh-in, short notice, division change). Optional; see docs/SCHEMA.md. Never odds. */
   fightWeek?: FightWeek };
 /** One fighter's official weigh-in. lbs = scale weight; missedBy = pounds over the allowance. */
