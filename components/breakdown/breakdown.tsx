@@ -13,7 +13,7 @@
  * a skeleton and everything else renders. `roster.request` is called when either card nears the viewport.
  */
 import { useEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode, type Ref } from "react";
-import { AlertTriangle, BarChart3, Check, Gauge, RotateCcw, Ruler, Scale, Shield, Swords, Target, Timer, TrendingUp, Trophy, Users, Zap } from "lucide-react";
+import { AlertTriangle, BarChart3, Check, ListOrdered, Gauge, RotateCcw, Ruler, Scale, Shield, Swords, Target, Timer, TrendingUp, Trophy, Users, Zap } from "lucide-react";
 import { Portrait } from "@/components/fight-experience";
 import { FinishScene } from "@/components/finish-scene";
 import { FighterName } from "@/components/site-nav";
@@ -25,6 +25,9 @@ import { divisionAverages, type Roster, type StatKey } from "@/lib/roster-load";
 import type { Event, Fight, Fighter } from "@/lib/types";
 import { RADAR_AXES, commonOpponents, displayStats, divisionByName, fmtLongDate, methodLetter, radarPercentiles, recentRows, type DisplayStats } from "@/lib/breakdown";
 import type { LockInfo } from "@/lib/displayed-pick";
+import type { LedgerBout } from "@/lib/ledger-types";
+import { RoundTimeline } from "@/components/round-timeline";
+import { roundTally, surname } from "@/lib/round-recaps";
 import "@/src/breakdown.css";
 
 export type BreakdownRoster = {
@@ -51,6 +54,8 @@ export type BreakdownResult = {
     method: string | null;
     methodHit: boolean | null;
   } | null;
+  /** The logged bout (for its round-by-round recap) and the last day of the card's review window. */
+  recap?: { bout: LedgerBout; followUpUntil: string } | null;
 };
 
 export type BreakdownProps = {
@@ -198,6 +203,49 @@ function ResultLine({ r }: { r: BreakdownResult }) {
   );
 }
 
+/** Under the result line: a pointer to the round-by-round card, or the recap status when there are no rounds yet. */
+function ResultRounds({ bout, followUpUntil }: { bout: LedgerBout; followUpUntil: string }) {
+  const n = bout.rounds?.length ?? 0;
+  if (!n) {
+    if (!bout.recap) return null;
+    return (
+      <div className="mm-rr-status">
+        <RoundTimeline bout={bout} followUpUntil={followUpUntil} />
+      </div>
+    );
+  }
+  return (
+    <button type="button" className="mm-rr-jump" aria-controls="bd-rounds-recap" onClick={() => document.getElementById("bd-rounds-recap")?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" })}>
+      How it went, round by round ({n === 1 ? "1 round" : `${n} rounds`}) ↓
+    </button>
+  );
+}
+
+/** Finished bout: how it went, round by round (from the post-fight write-ups). Full width, right after the result. */
+function RoundsRecapCard({ result }: Shared) {
+  const rc = result?.recap;
+  const bout = rc?.bout;
+  if (!bout?.rounds?.length) return null;
+  const n = bout.rounds.length;
+  const t = roundTally(bout.rounds);
+  const won = [t.a ? `${surname(bout.a)} ${t.a}` : "", t.b ? `${surname(bout.b)} ${t.b}` : "", t.even ? `even ${t.even}` : ""].filter(Boolean).join(", ");
+  return (
+    <section className="mm-card span3 mm-rrcard" id="bd-rounds-recap" aria-label="How it went, round by round">
+      <header className="mm-card-head">
+        <h3>
+          <ListOrdered size={15} aria-hidden="true" />
+          How it went, round by round
+        </h3>
+        <span>
+          {n === 1 ? "1 round" : `${n} rounds`}
+          {won ? ` · ${won}` : ""} · per post-fight write-ups{bout.recap?.status === "partial" ? " · partial" : ""}
+        </span>
+      </header>
+      <RoundTimeline bout={bout} followUpUntil={rc!.followUpUntil} heading={null} />
+    </section>
+  );
+}
+
 function WinCard({ a, b, prediction: p, mode, result, lock }: Shared) {
   const winA = p.pick === a.id, winB = p.pick === b.id;
   const pa = p.confidence === null ? null : winA ? p.confidence : 100 - p.confidence;
@@ -257,6 +305,7 @@ function WinCard({ a, b, prediction: p, mode, result, lock }: Shared) {
         </>
       )}
       {result && <ResultLine r={result} />}
+      {result?.recap && <ResultRounds bout={result.recap.bout} followUpUntil={result.recap.followUpUntil} />}
       {top.length > 0 && (
         <div className="mm-keyedges" aria-label="Biggest edges">
           <p className="mm-sub-h">Biggest edges</p>
@@ -896,6 +945,7 @@ export function Breakdown(props: BreakdownProps) {
       <div className="mm-grid">
         <WinCard {...s} />
         <MethodCard {...s} />
+        <RoundsRecapCard {...s} />
         <RoundsCard {...s} />
         <CaseCard {...s} />
         <FilmCard {...s} />

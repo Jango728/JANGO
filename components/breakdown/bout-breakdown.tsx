@@ -17,6 +17,7 @@ import type { RoundsPrediction } from "@/lib/rounds";
 import { loadRoster, peekRoster, type Roster } from "@/lib/roster-load";
 import { resultFor } from "@/lib/ledger";
 import { displayStats, fmtLongDate } from "@/lib/breakdown";
+import { followUpFor, recapsBefore, surname } from "@/lib/round-recaps";
 import type { Event, Fight, Fighter } from "@/lib/types";
 import type { LockInfo } from "@/lib/displayed-pick";
 import { Breakdown, type BreakdownResult, type BreakdownRoster } from "./breakdown";
@@ -66,6 +67,7 @@ export function BoutBreakdown({ a, b, event, fight, prediction, rounds, finish, 
       ou: bout.ou,
       line: bout.line,
       graded: fc ? { pick: fc.pick, confidence: fc.confidence, winner: s.winner, rounds: fc.rounds, roundsHit: s.rounds, method: fc.method, methodHit: s.method } : null,
+      recap: bout.rounds?.length || bout.recap ? { bout, followUpUntil: followUpFor(s.ledger) } : null,
     };
   }, [event.id, a, b]);
 
@@ -76,6 +78,12 @@ export function BoutBreakdown({ a, b, event, fight, prediction, rounds, finish, 
       finished
         ? `Pre-fight data only: every number here reads bouts before ${fmtLongDate(event.date)}, so the result itself never feeds the breakdown.`
         : `As of fight night (${fmtLongDate(event.date)}): only bouts before the event count; the nightly refresh adds new results and scouting notes.`,
+    );
+    // Previous round-by-round recaps (cards strictly before this one, so no leakage). Shown for context;
+    // they reach the engine only through the dated scouting notes derived from them — no separate weight.
+    const ra = recapsBefore(a.name, event.date).length, rb = recapsBefore(b.name, event.date).length;
+    out.push(
+      `Round-by-round recaps on file: ${ra + rb} ${ra + rb === 1 ? "fight" : "fights"}${ra + rb ? ` (${surname(a.name)} ${ra}, ${surname(b.name)} ${rb})` : ""} — earlier bouts only, open in each fighter's Fight history. The engine reads them through dated scouting notes, not as a separate signal.`,
     );
     for (const f of [a, b])
       // Skip when the engine already lists the same gap (it's shown right below).
