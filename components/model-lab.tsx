@@ -4,6 +4,15 @@ import { ledgers, performance, activeBouts, withFinal, ledgerLockAt } from "@/li
 
 const CHANGELOG = [
   {
+    version: "1.3 · Oct 1, 2026 (engine 1.3)",
+    items: [
+      "ACA 208: Shaikhaev vs. Tumenov (Grozny, Oct 4) added: all 22 bouts, 44 fighters with full pro histories, official ACA cut-out photos, display odds where a line exists, and frozen picks for winner and rounds (2.5 for the five-round title fight, 1.5 for the rest).",
+      "Every ACA fighter's history comes from Tapology, with each opponent's record going into the fight, and was checked bout by bout against Sherdog (978 fights). Where the two disagree, the fighter's profile says so. Amateur, exhibition and grappling bouts are left out.",
+      "On ACA cards, fights inside ACA (and ACB, the league it grew out of) count as top-level experience, the same way OKTAGON fights do on the OKTAGON card. The model itself is unchanged: it was fitted on UFC fights and there are no striking or grappling stats for ACA, so these picks lean on résumé, form, age, size and finishing record. Treat them as lower-evidence than UFC picks.",
+      "Not published for most ACA fighters, so left blank rather than guessed: reach, stance, and a few birth dates.",
+    ],
+  },
+  {
     version: "1.3 · Sep 27, 2026 (engine 1.3)",
     items: [
       "Breakdown tab on every bout: the Matchmaker's infographic overview (win bar with the biggest edges and model votes, how it ends, rounds gauge, the case and the counter-argument, finish film, striking and grappling vs the division, skill radar, recent form, tale of the tape, common opponents) is now the first tab on every Fight center bout. Its numbers are exactly the ones in the verdict strip and Prediction tab, it only uses fights before the card, finished bouts show the result and whether our frozen pick was right, and fighters without UFC stats (Contender Series, OKTAGON, debutants) get a clear 'no UFC data yet' note instead of zeros.",
