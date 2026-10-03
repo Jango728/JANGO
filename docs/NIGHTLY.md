@@ -79,6 +79,13 @@ node scripts/run-log.mjs source webfetch        # or firecrawl / mixed
 
 ## 2. Refresh the data
 
+**ACA cards** (first one: `aca-208`, Oct 4, 2026, added by `scripts/add-aca208.py`):
+- **Histories:** Firecrawl-scrape each fighter's Tapology page with `formats: ["markdown", "rawHtml"]` (the raw HTML carries pro/amateur and sport flags per bout), then `python3 scripts/parse-tapology-fighter.py --out <dir> <saved result files>`. Every line must print `OK` or only "no opponent record" problems (opponents with no Tapology page). Cross-check against Sherdog (WebFetch works; add `?r=2` to the URL if the page looks stale).
+- **Card and weigh-ins:** ACA's event page (`aca-mma.com/en/tournamentnext/…`, PPV mirror `aca-mma.tv/aca<number>/en/`), Sherdog's event page, and ACA's Telegram (`t.me/acamma_russia`). Tapology can lag or drop a bout.
+- **Portraits:** ACA's own profile cut-outs, `…/Upload/Pictures/Fighters/<hash>_495x495.png`, already transparent. Fetch them with Firecrawl `interact` on the event page (`language: "node"`, `page.evaluate` → same-origin `fetch` of each profile and image → canvas → WebP data URL). `/en/api_v1/fighters_for_filter` lists profile links; `/en/fighters/x_<id>` works for any id.
+- **Results and round-by-round:** Sherdog play-by-play, ACA's site news and Russian outlets (metaratings, sports.ru, championat). Log, score and review ACA cards like any other card.
+- ACA and ACB bouts count as top-level experience on ACA cards (`lib/engine.ts`, `profile()`).
+
 **One-off exception:** OKTAGON 94 (`oktagon-94`, Sep 26, 2026) was added on request. Keep it. After the event, log its results, score it and review it like any other card. Don't add any other OKTAGON events.
 
 "Today" means the date in Toronto. Use the Firecrawl scrape tool to read pages. Tapology blocks direct fetches but works through Firecrawl. ESPN and UFC.com work as cross-checks.

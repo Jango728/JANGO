@@ -110,3 +110,17 @@ A scheduled task, "Jango Playz nightly refresh", runs in the cloud with no notif
 - Barcelos UFC record history gap; Davi Cabral and Lucas Armand have no real photo; Chopurov nationality unverified.
 
 **Stack:** Vite + React 19 + TypeScript + Tailwind 4, static. Build: `npm run check && npx vite build && node scripts/bundle-source.mjs && python3 scripts/prepare-publish.py && python3 scripts/publish-plan.py`. Publish: read the artifact first, upload only changed files, null only stale assets/index-*.js, never null films/. Source lives in the artifact at source/bundle.json.
+
+## STATUS — updated Oct 1, 2026 (artifact version 32, engine 1.3)
+**Since Sep 27:** engine 1.3 (round-by-round UFCStats tape; winners 65.5%, rounds 68.9% on 2025–26 fights it never saw), pick revisions until each card locks (opening pick kept, final pick graded), Matchmaker tab, Breakdown tab on every bout, clips library (373 official videos), round-by-round "How it went" recaps on every finished bout (runbook step 2.4a), GitHub copy at Jango728/JANGO updated by Suleman's own GitHub Claude from zips.
+
+**ACA 208: Shaikhaev vs. Tumenov (Sun Oct 4, Grozny) added Oct 1** — event id `aca-208`, 22 bouts, 44 fighters, first bout 6am ET (picks lock then).
+- Card confirmed against ACA's event page, Sherdog and Russian media. Tapology drops one bout (Sulumov vs Moraes) and lists Kerimov vs Podlesniy at 145; ACA says bantamweight. Israpilov vs Gadzhiev is loaded as flyweight (ACA's event page says 61.7 kg) pending the Oct 3 weigh-in.
+- Histories: Tapology (opponent record going into each fight) parsed by `scripts/parse-tapology-fighter.py` from Firecrawl scrapes with `formats: ["markdown","rawHtml"]`, cross-checked bout by bout with Sherdog (978 fights). Differences are written into each fighter's record note. Builder: `scripts/add-aca208.py` (inputs in `data/research/aca208/`).
+- Portraits: ACA's own transparent profile cut-outs for all 44, fetched with Firecrawl `interact` (same-origin fetch inside the page).
+- Not published for most ACA fighters, left blank: reach, stance, a few birth dates. Display odds on 13 of 22 bouts (BestFightOdds; Winline for two).
+- Engine: unchanged, but ACA and ACB fights count as top-level experience on ACA cards (same idea as OKTAGON). No striking/grappling stats exist for ACA, so these picks are lower-evidence than UFC picks.
+- Opening picks frozen Oct 1: Tumenov 61% (Over 2.5), Abdulvakhabov 75%, Dudaev 56%, Selimkhanov 58%, Starodub 52%, Podlesniy 61%, Dolgov 52%, Matsola 62%, Sulumov 59%, Abdurakov 62%, Boraev 71%, Figueiredo 69%, Hulme 73%, Israpilov 68%, Vitakhanov 55%, Kushagov 56%, A. Suleymanov 55%, Malsagov 60%, Oliveira 50%, R. Suleymanov 69%, Fakov 52%, Geroev 68%. All non-title bouts Over 1.5.
+- To do on fight week: weigh-in results (Oct 3), any late changes, closing odds; after the card: results, scoring, round-by-round recaps.
+
+**Publishing note:** when the nightly has published since the last manual publish, merge its `source/bundle.json` first, build the files map against the live file list, and expect one "newer version" refusal (read the saved page, publish again).
