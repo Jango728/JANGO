@@ -58,3 +58,7 @@ render/node_modules/
 /.published.json
 /.restore-manifest.json
 /.restored-bundle.json
+
+# ACA 208 research scratch (raw 500 KB page dumps and photo working files)
+/data/research/aca208/raw/
+/data/research/aca208/photos/
