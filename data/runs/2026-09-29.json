@@ -1,0 +1,44 @@
+{
+ "date": "2026-09-29",
+ "runs": [
+  {
+   "kind": "nightly",
+   "startedAt": "2026-09-29T06:42:55.051Z",
+   "status": "running",
+   "checked": [
+    "lineups: ufc332, dwcs wk8-10, ufc-fn-290/291, ufc333, pfl-chicago2 (UFC.com, Sherdog, PFL, Cageside, MMASucka)",
+    "round-by-round oktagon-94 Duric vs Diakiese R3 (still no detail; partial, window closes Sep 29)",
+    "ufc.com rankings: still the Sep 22 update (Tuesday update not posted at run time)",
+    "roster: build-roster + stats timeline (no change; mirror lag)"
+   ],
+   "changed": [
+    "ufc-fn-291: Horth withdrew (Sep 28, not medically cleared); Horth vs Cerminara removed pending replacement",
+    "ufc332: Smith vs Whitehead moved to early prelims per UFC.com",
+    "rankings: next-in-line re-researched (11 divisions, no new bookings); LW/MW/WW notes+sources updated",
+    "freeze: 0 opened, 0 revised, 1 cancelled (Horth vs Cerminara)"
+   ],
+   "failed": [
+    {
+     "step": "firecrawl",
+     "error": "Firecrawl tool not available in session"
+    },
+    {
+     "step": "closing odds ufc-fn-289",
+     "error": "BestFightOdds event table doesn't render per-book lines; only cross-book closing ranges on fighter pages — not logged"
+    },
+    {
+     "step": "live-update task",
+     "error": "Scheduled task 'Jango Playz live update' (trig_01LYQkLyy5QBqVWyh3AfBj7v) no longer exists; DWCS wk8 live updates not scheduled"
+    }
+   ],
+   "notes": [],
+   "errors": 0,
+   "warnings": 39,
+   "sourcePath": "webfetch",
+   "published": {
+    "at": "2026-09-29T18:00:35.080Z",
+    "files": 32
+   }
+  }
+ ]
+}

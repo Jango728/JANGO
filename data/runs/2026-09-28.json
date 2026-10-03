@@ -4,7 +4,7 @@
   {
    "kind": "nightly",
    "startedAt": "2026-09-28T06:42:37.896Z",
-   "status": "running",
+   "status": "failed",
    "checked": [
     "ufc.com rankings: still Sep 22 (weekly update due Tue Sep 29)",
     "lineups: ufc332, dwcs wk8-10, ufc-fn-290, pfl-chicago2, ufc-fn-291 (no confirmed changes)",
@@ -24,6 +24,10 @@
     {
      "step": "portraits",
      "error": "Whitehead, Mahjoub, Faglier, Armand: UFC.com shows silhouette/none; no transparent photo"
+    },
+    {
+     "step": "run",
+     "error": "did not finish (superseded by a new run)"
     }
    ],
    "notes": [],
@@ -33,6 +37,35 @@
    "published": {
     "at": "2026-09-28T06:47:34.368Z",
     "files": 31
+   },
+   "finishedAt": "2026-09-28T21:14:04.857Z"
+  },
+  {
+   "kind": "weigh-in",
+   "startedAt": "2026-09-28T21:14:04.858Z",
+   "status": "running",
+   "checked": [
+    "dwcs-2026-week8 weigh-ins",
+    "dwcs-2026-week8 lineup + bout order (UFC.com preview Sep 27): no changes"
+   ],
+   "changed": [
+    "dwcs-2026-week8: all 10 fighters made weight (Sep 28); Staines 155 per Cageside/MMASucka, 155.5 per Sherdog",
+    "dwcs-2026-week8: display odds for 5 bouts (BestFightOdds, Sep 28)",
+    "freeze: 0 opened, 0 revised, 0 replaced/cancelled"
+   ],
+   "failed": [
+    {
+     "step": "firecrawl",
+     "error": "402 insufficient credits"
+    }
+   ],
+   "notes": [],
+   "sourcePath": "webfetch",
+   "errors": 0,
+   "warnings": 40,
+   "published": {
+    "at": "2026-09-28T21:17:02.898Z",
+    "files": 32
    }
   }
  ]

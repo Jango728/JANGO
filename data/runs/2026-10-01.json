@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-01",
+ "runs": [
+  {
+   "kind": "nightly",
+   "startedAt": "2026-10-01T06:43:27.400Z",
+   "status": "running",
+   "checked": [
+    "rankings (UFC.com updated Sep 26)",
+    "next-in-line all divisions (no changes; Kape, Imavov, Prates still unbooked)",
+    "ufc332 lineup (UFC.com, updates page)",
+    "ufc-fn-290 lineup",
+    "ufc-fn-291 lineup (Horth out/Sutherland out already reflected)",
+    "ufc333 lineup",
+    "dwcs-w9 lineup",
+    "dwcs-w10 lineup",
+    "pfl-chicago2 lineup",
+    "round-by-round dwcs-2026-week8 (Sherdog, Cageside, MMA Mania)"
+   ],
+   "changed": [
+    "rankings: W135 Edwards #2, Perez #3 (after FN 289 win over Dumont), Pennington #4, Dumont #5; RANKINGS_AS_OF Sep 26; P4P arrows reset (no movement)",
+    "ufc332: Anthony Romero replaces Benardo Sopaj vs Marcus McGhee (3 days notice, featherweight)",
+    "ufc-fn-290: six-bout main card per UFC.com (Fili-Kamaka, Wellmaker-Tanzilovi moved up)",
+    "new fighter: Anthony Romero (Sherdog history, no portrait yet)",
+    "dwcs-w8: closing odds added (fight-day DK lines), review follow-up",
+    "ufc332: display odds refreshed for bouts 2-5 (CBS Sep 30)",
+    "freeze: 1 opened (McGhee vs Romero), 0 revised, 1 replaced (McGhee vs Sopaj)"
+   ],
+   "failed": [
+    {
+     "step": "sources",
+     "error": "Firecrawl not available in this session"
+    }
+   ],
+   "notes": [],
+   "sourcePath": "webfetch",
+   "errors": 0,
+   "warnings": 31,
+   "published": {
+    "at": "2026-10-01T06:51:05.686Z",
+    "files": 32
+   }
+  }
+ ]
+}

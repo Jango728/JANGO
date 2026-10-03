@@ -1,0 +1,41 @@
+{
+ "date": "2026-09-30",
+ "runs": [
+  {
+   "kind": "nightly",
+   "startedAt": "2026-09-30T06:42:27.429Z",
+   "status": "running",
+   "checked": [
+    "ufc332 lineup",
+    "ufc-fn-290 lineup",
+    "ufc-fn-291 lineup",
+    "ufc333 lineup",
+    "dwcs-w9 lineup",
+    "dwcs-w10 lineup",
+    "dwcs-w8 results",
+    "rankings (UFC.com unchanged vs Sep 22 file)",
+    "next-in-line all divisions (no changes)"
+   ],
+   "changed": [
+    "dwcs-w9: LaGrange replaces Gnizditskiy vs Ariano confirmed (10 days notice, LHW)",
+    "dwcs-w8: Bulaid vs Visconde moved to week 10 (Bulaid illness)",
+    "ufc332: display odds refreshed (9 bouts); start times 4pm/6pm/8pm ET",
+    "freeze: 1 opened (Bulaid vs Visconde, week 10), 0 revised, 0 replaced/cancelled; ufc332 lock moved to 4pm ET"
+   ],
+   "failed": [
+    {
+     "step": "sources",
+     "error": "Firecrawl not available in this session"
+    }
+   ],
+   "notes": [],
+   "errors": 0,
+   "warnings": 35,
+   "sourcePath": "webfetch",
+   "published": {
+    "at": "2026-09-30T06:51:28.739Z",
+    "files": 32
+   }
+  }
+ ]
+}
