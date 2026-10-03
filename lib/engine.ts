@@ -209,9 +209,10 @@ function profile(f: Fighter, event: Event, fight: Fight) {
   const stopped = losses.filter(isStoppage);
   const koLosses = losses.filter(isKo);
   const level = levelRecord(all);
-  // On a non-UFC card (e.g. the one-off OKTAGON 94), bouts in that promotion count as top level too,
-  // so the thin-résumé cap doesn't treat a 49-fight OKTAGON veteran like a debutant.
-  const top = event.promotion === "OKTAGON" ? [...TOP_LEVEL, "OKTAGON"] : TOP_LEVEL;
+  // On a non-UFC card (OKTAGON 94, ACA cards), bouts in that promotion count as top level too,
+  // so the thin-résumé cap doesn't treat a 40-fight ACA or OKTAGON veteran like a debutant.
+  // ACB is the league ACA was formed from (2018), so it counts on ACA cards as well.
+  const top = event.promotion === "OKTAGON" ? [...TOP_LEVEL, "OKTAGON"] : event.promotion === "ACA" ? [...TOP_LEVEL, "ACA", "ACB"] : TOP_LEVEL;
   const topLevel = all.filter((x) => top.includes(x.promotion)).length;
   // As-of UFC rates from per-fight stat lines (only bouts strictly before this card); official
   // career aggregates are the fallback when they were published before the card.
