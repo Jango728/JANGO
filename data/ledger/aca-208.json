@@ -1,0 +1,836 @@
+{
+ "eventId": "aca-208",
+ "title": "ACA 208: Shaikhaev vs. Tumenov",
+ "date": "2026-10-04",
+ "lockAt": "2026-10-04T10:00:00.000Z",
+ "promotion": "ACA",
+ "forecast": {
+  "engine": "1.3",
+  "frozenAt": "2026-10-01T23:02:46.735Z",
+  "basis": "Engine output frozen before the event. Opening picks are never edited; later material changes before lock are appended as revisions.",
+  "bouts": [
+   {
+    "a": "Daud Shaikhaev",
+    "b": "Bibert Tumenov",
+    "pick": "Bibert Tumenov",
+    "confidence": 61,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 2.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 5,
+    "evidence": 74,
+    "reasons": [
+     "Real finishing threat: Bibert Tumenov finished 7 of 9 recent wins; Daud Shaikhaev has been stopped 0 times in the last 10.",
+     "Age & prime: Daud Shaikhaev will be 33 on fight night; Bibert Tumenov 29.",
+     "Better results against real opposition: Opponents Bibert Tumenov beat (last 10) had a 72% win rate going in; Daud Shaikhaev's had 72%. Losses to weaker opponents count against.",
+     "On a run: Bibert Tumenov has won 6 straight (Daud Shaikhaev: 2).",
+     "Cleaner losses: Daud Shaikhaev has 1 loss in the last 10, to opponents averaging a 73% win rate; Bibert Tumenov has 1."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 5,
+     "division": "Lightweight",
+     "records": [
+      "19-5-1",
+      "16-2-0"
+     ],
+     "lastFights": [
+      "2026-01-09",
+      "2026-02-06"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Abdul-Aziz Abdulvakhabov",
+    "b": "Gleison Tibau",
+    "pick": "Abdul-Aziz Abdulvakhabov",
+    "confidence": 75,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 78,
+    "reasons": [
+     "Age & prime: Gleison Tibau will be 43 on fight night; Abdul-Aziz Abdulvakhabov 37.",
+     "Better results against real opposition: Opponents Abdul-Aziz Abdulvakhabov beat (last 10) had a 75% win rate going in; Gleison Tibau's had 56%. Losses to weaker opponents count against.",
+     "Real finishing threat: Abdul-Aziz Abdulvakhabov finished 4 of 9 recent wins; Gleison Tibau has been stopped 1 time in the last 10.",
+     "Cleaner losses: Gleison Tibau has 5 losses in the last 10, to opponents averaging a 78% win rate; Abdul-Aziz Abdulvakhabov has 1.",
+     "Better recent results: Last 10: Abdul-Aziz Abdulvakhabov 9-1-0. Last 10: Gleison Tibau 5-5-0."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Welterweight",
+     "records": [
+      "22-2-0",
+      "40-19-0"
+     ],
+     "lastFights": [
+      "2025-07-11",
+      "2025-10-18"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Abdul-Rakhman Dudaev",
+    "b": "Vicente Vargas",
+    "pick": "Abdul-Rakhman Dudaev",
+    "confidence": 56,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 62,
+    "reasons": [
+     "Real finishing threat: Abdul-Rakhman Dudaev finished 5 of 7 recent wins; Vicente Vargas has been stopped 1 time in the last 9.",
+     "Better results against real opposition: Opponents Abdul-Rakhman Dudaev beat (last 10) had a 70% win rate going in; Vicente Vargas's had 68%. Losses to weaker opponents count against.",
+     "Cleaner losses: Vicente Vargas has 3 losses in the last 10, to opponents averaging a 56% win rate; Abdul-Rakhman Dudaev has 3.",
+     "On a run: Abdul-Rakhman Dudaev has won 1 straight.",
+     "Better recent results: Last 10: Abdul-Rakhman Dudaev 7-3-0. Last 10: Vicente Vargas 7-3-0."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Featherweight",
+     "records": [
+      "34-10-0",
+      "24-8-0"
+     ],
+     "lastFights": [
+      "2025-10-23",
+      "2026-06-19"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Kurban Taygibov",
+    "b": "Dzhambulat Selimkhanov",
+    "pick": "Dzhambulat Selimkhanov",
+    "confidence": 58,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 74,
+    "reasons": [
+     "Real finishing threat: Dzhambulat Selimkhanov finished 5 of 8 recent wins; Kurban Taygibov has been stopped 2 times in the last 10.",
+     "Age & prime: Kurban Taygibov will be 31 on fight night; Dzhambulat Selimkhanov 28.",
+     "Cleaner losses: Kurban Taygibov has 3 losses in the last 10, to opponents averaging a 80% win rate; Dzhambulat Selimkhanov has 2."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Featherweight",
+     "records": [
+      "16-4-0",
+      "16-4-0"
+     ],
+     "lastFights": [
+      "2026-02-06",
+      "2026-05-08"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Adlan Ibragimov",
+    "b": "Sergey Starodub",
+    "pick": "Sergey Starodub",
+    "confidence": 52,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 67,
+    "reasons": [
+     "Real finishing threat: Sergey Starodub finished 6 of 7 recent wins; Adlan Ibragimov has been stopped 2 times in the last 10.",
+     "Size and range: 2″ taller for Sergey Starodub.",
+     "On a run: Sergey Starodub has won 3 straight.",
+     "Better recent results: Last 9: Sergey Starodub 7-2-0. Last 10: Adlan Ibragimov 7-3-0."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Light Heavyweight",
+     "records": [
+      "9-3-0",
+      "7-2-0"
+     ],
+     "lastFights": [
+      "2025-12-05",
+      "2026-03-27"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Rustam Kerimov",
+    "b": "Aleksandr Podlesniy",
+    "pick": "Aleksandr Podlesniy",
+    "confidence": 61,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 74,
+    "reasons": [
+     "Age & prime: Rustam Kerimov will be 34 on fight night; Aleksandr Podlesniy 29.",
+     "Better results against real opposition: Opponents Aleksandr Podlesniy beat (last 10) had a 70% win rate going in; Rustam Kerimov's had 76%. Losses to weaker opponents count against.",
+     "On a run: Aleksandr Podlesniy has won 5 straight (Rustam Kerimov: 1).",
+     "Size and range: 2″ taller for Aleksandr Podlesniy.",
+     "Cleaner losses: Rustam Kerimov has 2 losses in the last 10, to opponents averaging a 77% win rate; Aleksandr Podlesniy has 1."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Bantamweight",
+     "records": [
+      "22-2-0",
+      "22-8-2"
+     ],
+     "lastFights": [
+      "2026-03-27",
+      "2026-03-27"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Abdul-Rakhman Dzhanaev",
+    "b": "Mikhail Dolgov",
+    "pick": "Mikhail Dolgov",
+    "confidence": 52,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 75,
+    "reasons": [
+     "Age & prime: Abdul-Rakhman Dzhanaev will be 36 on fight night; Mikhail Dolgov 30.",
+     "More durable: Mikhail Dolgov finished 1 of 4 recent wins; Abdul-Rakhman Dzhanaev has been stopped 2 times in the last 10.",
+     "Size and range: 1″ taller for Mikhail Dolgov."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Middleweight",
+     "records": [
+      "20-6-0",
+      "12-9-0"
+     ],
+     "lastFights": [
+      "2026-07-17",
+      "2026-03-27"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Daniil Matsola",
+    "b": "Kirill Grishenko",
+    "pick": "Daniil Matsola",
+    "confidence": 62,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 63,
+    "reasons": [
+     "Age & prime: Kirill Grishenko will be 35 on fight night; Daniil Matsola 29.",
+     "Real finishing threat: Daniil Matsola finished 7 of 7 recent wins; Kirill Grishenko has been stopped 2 times in the last 10."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Heavyweight",
+     "records": [
+      "7-1-0",
+      "9-2-0"
+     ],
+     "lastFights": [
+      "2026-04-12",
+      "2026-03-27"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Magomed Sulumov",
+    "b": "Sheymon Moraes",
+    "pick": "Magomed Sulumov",
+    "confidence": 59,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 78,
+    "reasons": [
+     "Age & prime: Sheymon Moraes will be 35 on fight night; Magomed Sulumov 29.",
+     "Real finishing threat: Magomed Sulumov finished 2 of 6 recent wins; Sheymon Moraes has been stopped 2 times in the last 10.",
+     "Cleaner losses: Sheymon Moraes has 4 losses in the last 10, to opponents averaging a 75% win rate; Magomed Sulumov has 3."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Lightweight",
+     "records": [
+      "13-5-0",
+      "17-7-0"
+     ],
+     "lastFights": [
+      "2026-06-19",
+      "2025-10-24"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Herbert Batista",
+    "b": "Uzair Abdurakov",
+    "pick": "Uzair Abdurakov",
+    "confidence": 62,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 74,
+    "reasons": [
+     "Age & prime: Herbert Batista will be 35 on fight night; Uzair Abdurakov 31.",
+     "Real finishing threat: Uzair Abdurakov finished 6 of 7 recent wins; Herbert Batista has been stopped 1 time in the last 10.",
+     "Better results against real opposition: Opponents Uzair Abdurakov beat (last 10) had a 65% win rate going in; Herbert Batista's had 68%. Losses to weaker opponents count against.",
+     "Cleaner losses: Herbert Batista has 5 losses in the last 10, to opponents averaging a 78% win rate; Uzair Abdurakov has 3.",
+     "Better recent results: Last 10: Uzair Abdurakov 7-3-0. Last 10: Herbert Batista 5-5-0."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Welterweight",
+     "records": [
+      "20-8-1",
+      "20-3-1"
+     ],
+     "lastFights": [
+      "2026-01-16",
+      "2026-04-12"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Shamil Boraev",
+    "b": "Timur Valiev",
+    "pick": "Shamil Boraev",
+    "confidence": 71,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 78,
+    "reasons": [
+     "Age & prime: Timur Valiev will be 36 on fight night; Shamil Boraev 23.",
+     "Better results against real opposition: Opponents Shamil Boraev beat (last 10) had a 61% win rate going in; Timur Valiev's had 75%. Losses to weaker opponents count against.",
+     "Size and range: 3″ longer reach, 3″ taller for Shamil Boraev.",
+     "On a run: Shamil Boraev has won 4 straight.",
+     "Cleaner losses: Timur Valiev has 3 losses in the last 10, to opponents averaging a 80% win rate; Shamil Boraev has 1."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Featherweight",
+     "records": [
+      "7-1-0",
+      "19-5-0"
+     ],
+     "lastFights": [
+      "2026-05-08",
+      "2025-08-15"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Yunus Evloev",
+    "b": "Francisco Figueiredo",
+    "pick": "Francisco Figueiredo",
+    "confidence": 69,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 78,
+    "reasons": [
+     "Age & prime: Yunus Evloev will be 41 on fight night; Francisco Figueiredo 36.",
+     "Ring rust on the other side: Yunus Evloev last fought 1150 days before this card; Francisco Figueiredo 526 days.",
+     "Real finishing threat: Francisco Figueiredo finished 4 of 5 recent wins; Yunus Evloev has been stopped 1 time in the last 10.",
+     "Size and range: 2″ longer reach for Francisco Figueiredo.",
+     "Proven at this level: UFC record: Francisco Figueiredo 2-2, Yunus Evloev 0-0."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Bantamweight",
+     "records": [
+      "28-9-0",
+      "13-6-1"
+     ],
+     "lastFights": [
+      "2023-08-11",
+      "2025-04-26"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Murad Abdulaev",
+    "b": "Mark Hulme",
+    "pick": "Mark Hulme",
+    "confidence": 73,
+    "tier": "Strong pick",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 74,
+    "reasons": [
+     "Age & prime: Murad Abdulaev will be 37 on fight night; Mark Hulme 31.",
+     "Real finishing threat: Mark Hulme finished 4 of 7 recent wins; Murad Abdulaev has been stopped 2 times in the last 10.",
+     "Size and range: 5″ longer reach, 5″ taller for Mark Hulme.",
+     "Better results against real opposition: Opponents Mark Hulme beat (last 10) had a 69% win rate going in; Murad Abdulaev's had 66%. Losses to weaker opponents count against.",
+     "Cleaner losses: Murad Abdulaev has 5 losses in the last 10, to opponents averaging a 73% win rate; Mark Hulme has 3."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Middleweight",
+     "records": [
+      "25-12-0",
+      "13-5-0"
+     ],
+     "lastFights": [
+      "2026-01-16",
+      "2026-06-19"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Umalat Israpilov",
+    "b": "Kurban Gadzhiev",
+    "pick": "Umalat Israpilov",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 74,
+    "reasons": [
+     "Age & prime: Kurban Gadzhiev will be 33 on fight night; Umalat Israpilov 27.",
+     "Better results against real opposition: Opponents Umalat Israpilov beat (last 10) had a 66% win rate going in; Kurban Gadzhiev's had 76%. Losses to weaker opponents count against.",
+     "Real finishing threat: Umalat Israpilov finished 2 of 9 recent wins; Kurban Gadzhiev has been stopped 1 time in the last 10.",
+     "Cleaner losses: Kurban Gadzhiev has 4 losses in the last 10, to opponents averaging a 80% win rate; Umalat Israpilov has 1.",
+     "Size and range: 4″ taller for Umalat Israpilov."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Flyweight",
+     "records": [
+      "18-5-0",
+      "20-5-0"
+     ],
+     "lastFights": [
+      "2025-10-23",
+      "2025-11-23"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Imam Vitakhanov",
+    "b": "Magnus Conrado",
+    "pick": "Imam Vitakhanov",
+    "confidence": 55,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 69,
+    "reasons": [
+     "Age & prime: Magnus Conrado will be 31 on fight night; Imam Vitakhanov 28.",
+     "Real finishing threat: Imam Vitakhanov finished 7 of 7 recent wins; Magnus Conrado has been stopped 1 time in the last 10.",
+     "Cleaner losses: Magnus Conrado has 4 losses in the last 10, to opponents averaging a 72% win rate; Imam Vitakhanov has 3.",
+     "Better recent results: Last 10: Imam Vitakhanov 7-3-0. Last 10: Magnus Conrado 6-4-0."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Lightweight",
+     "records": [
+      "11-5-0",
+      "20-7-0"
+     ],
+     "lastFights": [
+      "2026-01-09",
+      "2025-11-23"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Husein Kushagov",
+    "b": "Evgeny Erokhin",
+    "pick": "Husein Kushagov",
+    "confidence": 56,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 74,
+    "reasons": [
+     "Age & prime: Evgeny Erokhin will be 40 on fight night; Husein Kushagov 35.",
+     "Real finishing threat: Husein Kushagov finished 2 of 4 recent wins; Evgeny Erokhin has been stopped 2 times in the last 10."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Light Heavyweight",
+     "records": [
+      "17-11-0",
+      "26-13-0"
+     ],
+     "lastFights": [
+      "2025-11-23",
+      "2026-03-27"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Ali Suleymanov",
+    "b": "Murad Khasaev",
+    "pick": "Ali Suleymanov",
+    "confidence": 55,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 57,
+    "reasons": [
+     "Better results against real opposition: Opponents Ali Suleymanov beat (last 10) had a 64% win rate going in; Murad Khasaev's had 62%. Losses to weaker opponents count against.",
+     "Ring rust on the other side: Murad Khasaev last fought 472 days before this card; Ali Suleymanov 261 days.",
+     "Cleaner losses: Murad Khasaev has 2 losses in the last 10, to opponents averaging a 64% win rate; Ali Suleymanov has 0.",
+     "Better when it goes long: In fights reaching round 3: Ali Suleymanov 8-0-0, Murad Khasaev 2-2-0.",
+     "Better recent results: Last 10: Ali Suleymanov 10-0-0. Last 8: Murad Khasaev 6-2-0."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Lightweight",
+     "records": [
+      "15-1-0",
+      "6-2-0"
+     ],
+     "lastFights": [
+      "2026-01-16",
+      "2025-06-19"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Magomed Malsagov",
+    "b": "Artur Astakhov",
+    "pick": "Magomed Malsagov",
+    "confidence": 60,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 53,
+    "reasons": [
+     "Age & prime: Artur Astakhov will be 38 on fight night; Magomed Malsagov 26.",
+     "Real finishing threat: Magomed Malsagov finished 4 of 4 recent wins; Artur Astakhov has been stopped 1 time in the last 10.",
+     "Better results against real opposition: Opponents Magomed Malsagov beat (last 10) had a 46% win rate going in; Artur Astakhov's had 73%. Losses to weaker opponents count against.",
+     "Cleaner losses: Artur Astakhov has 6 losses in the last 10, to opponents averaging a 73% win rate; Magomed Malsagov has 1.",
+     "Better recent results: Last 5: Magomed Malsagov 4-1-0. Last 10: Artur Astakhov 4-6-0."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Light Heavyweight",
+     "records": [
+      "4-1-0",
+      "22-12-0"
+     ],
+     "lastFights": [
+      "2026-06-06",
+      "2025-10-04"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Tamerlan Ashakhanov",
+    "b": "Renan Oliveira",
+    "pick": "Renan Oliveira",
+    "confidence": 50,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 59,
+    "reasons": [
+     "Better results against real opposition: Opponents Renan Oliveira beat (last 10) had a 70% win rate going in; Tamerlan Ashakhanov's had 57%. Losses to weaker opponents count against.",
+     "Cleaner losses: Tamerlan Ashakhanov has 5 losses in the last 10, to opponents averaging a 69% win rate; Renan Oliveira has 2.",
+     "Better recent results: Last 10: Renan Oliveira 8-2-0. Last 10: Tamerlan Ashakhanov 5-5-0.",
+     "Better when it goes long: In fights reaching round 3: Renan Oliveira 7-0-0, Tamerlan Ashakhanov 4-4-0.",
+     "On a run: Renan Oliveira has won 3 straight (Tamerlan Ashakhanov: 2)."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Lightweight",
+     "records": [
+      "11-6-0",
+      "14-2-0"
+     ],
+     "lastFights": [
+      "2025-12-20",
+      "2026-06-27"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Ramzan Suleymanov",
+    "b": "Vazha Tsiptauri",
+    "pick": "Ramzan Suleymanov",
+    "confidence": 69,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 67,
+    "reasons": [
+     "Better results against real opposition: Opponents Ramzan Suleymanov beat (last 10) had a 59% win rate going in; Vazha Tsiptauri's had 72%. Losses to weaker opponents count against.",
+     "Real finishing threat: Ramzan Suleymanov finished 8 of 9 recent wins; Vazha Tsiptauri has been stopped 0 times in the last 10.",
+     "Cleaner losses: Vazha Tsiptauri has 6 losses in the last 10, to opponents averaging a 70% win rate; Ramzan Suleymanov has 1.",
+     "Better recent results: Last 10: Ramzan Suleymanov 9-1-0. Last 10: Vazha Tsiptauri 4-6-0.",
+     "Opponent is sliding: Vazha Tsiptauri has lost 2 straight."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Flyweight",
+     "records": [
+      "9-1-0",
+      "14-8-1"
+     ],
+     "lastFights": [
+      "2026-01-09",
+      "2026-03-27"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Murat Fakov",
+    "b": "Asvad Akhmadov",
+    "pick": "Murat Fakov",
+    "confidence": 52,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 59,
+    "reasons": [
+     "Real finishing threat: Murat Fakov finished 4 of 6 recent wins; Asvad Akhmadov has been stopped 1 time in the last 10.",
+     "Size and range: 3″ taller for Murat Fakov.",
+     "On a run: Murat Fakov has won 2 straight."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Bantamweight",
+     "records": [
+      "7-4-0",
+      "11-7-0"
+     ],
+     "lastFights": [
+      "2026-07-09",
+      "2025-10-04"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "a": "Islam Geroev",
+    "b": "Alan Gomes",
+    "pick": "Islam Geroev",
+    "confidence": 68,
+    "tier": "Solid lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 59,
+    "reasons": [
+     "Real finishing threat: Islam Geroev finished 4 of 7 recent wins; Alan Gomes has been stopped 3 times in the last 10.",
+     "Age & prime: Alan Gomes will be 32 on fight night; Islam Geroev 24.",
+     "Better results against real opposition: Opponents Islam Geroev beat (last 10) had a 61% win rate going in; Alan Gomes's had 67%. Losses to weaker opponents count against.",
+     "Cleaner losses: Alan Gomes has 6 losses in the last 10, to opponents averaging a 73% win rate; Islam Geroev has 1.",
+     "Better recent results: Last 8: Islam Geroev 7-1-0. Last 10: Alan Gomes 4-6-0."
+    ],
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Bantamweight",
+     "records": [
+      "7-1-0",
+      "16-7-1"
+     ],
+     "lastFights": [
+      "2025-11-13",
+      "2025-11-23"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
+   }
+  ]
+ },
+ "results": null,
+ "review": null
+}

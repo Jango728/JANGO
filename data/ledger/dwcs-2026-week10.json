@@ -133,6 +133,45 @@
      "Beat the better opposition: Opponents Aline Pereira beat (last 10) had a 53% win rate going in; Smilla Sundell's had 48%.",
      "Size and range: 1″ longer reach for Aline Pereira."
     ]
+   },
+   {
+    "a": "Ilias Bulaid",
+    "b": "Erick Visconde",
+    "pick": "Ilias Bulaid",
+    "confidence": 53,
+    "tier": "Coin flip",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "KO/TKO",
+    "scheduledRounds": 3,
+    "evidence": 55,
+    "reasons": [
+     "Size and range: 5″ longer reach, 3″ taller for Ilias Bulaid.",
+     "Real finishing threat: Ilias Bulaid finished 5 of 9 recent wins; Erick Visconde has been stopped 1 time in the last 10.",
+     "Cleaner losses: Erick Visconde has 1 loss in the last 10; Ilias Bulaid has 0.",
+     "Better recent results: Last 10: Ilias Bulaid 9-0-0 (1 NC). Last 10: Erick Visconde 9-1-0.",
+     "On a run: Ilias Bulaid has won 9 straight (Erick Visconde: 4)."
+    ],
+    "frozenAt": "2026-09-30T06:50:38.361Z",
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Featherweight",
+     "records": [
+      "9-0-0",
+      "17-3-0"
+     ],
+     "lastFights": [
+      "2026-04-11",
+      "2026-05-15"
+     ],
+     "scouting": [
+      0,
+      0
+     ]
+    }
    }
   ]
  },

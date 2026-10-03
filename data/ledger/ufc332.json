@@ -2,7 +2,7 @@
  "eventId": "ufc332",
  "title": "UFC 332: Silva vs. Wang",
  "date": "2026-10-03",
- "lockAt": "2026-10-04T00:00:00.000Z",
+ "lockAt": "2026-10-03T20:00:00.000Z",
  "promotion": "UFC",
  "forecast": {
   "engine": "1.0",
@@ -377,7 +377,14 @@
        ]
       }
      }
-    ]
+    ],
+    "statusAt": "2026-10-01T06:50:06.880Z",
+    "status": "replaced",
+    "replacedBy": {
+     "a": "Marcus McGhee",
+     "b": "Anthony Romero"
+    },
+    "statusNote": "Bernardo Sopaj out; Anthony Romero steps in against Marcus McGhee"
    },
    {
     "a": "Anthony Wint",
@@ -672,6 +679,55 @@
      "On a run: Jacobe Smith has won 10 straight (Bruce Whitehead: 2)."
     ],
     "frozenAt": "2026-09-26T07:04:34.000Z"
+   },
+   {
+    "a": "Marcus McGhee",
+    "b": "Anthony Romero",
+    "pick": "Anthony Romero",
+    "confidence": 57,
+    "tier": "Slight lean",
+    "rounds": {
+     "line": 1.5,
+     "side": "Over"
+    },
+    "method": "Decision",
+    "scheduledRounds": 3,
+    "evidence": 59,
+    "reasons": [
+     "Age & prime: Marcus McGhee will be 36 on fight night; Anthony Romero 26.",
+     "On a run: Anthony Romero has won 2 straight (Marcus McGhee: 1)."
+    ],
+    "frozenAt": "2026-10-01T06:50:06.880Z",
+    "engine": "1.3",
+    "inputs": {
+     "scheduledRounds": 3,
+     "division": "Featherweight",
+     "records": [
+      "11-2-0",
+      "7-2-0"
+     ],
+     "lastFights": [
+      "2026-06-06",
+      "2026-05-09"
+     ],
+     "scouting": [
+      0,
+      0
+     ],
+     "shortNotice": {
+      "fighter": "b",
+      "days": 3
+     },
+     "divisionChange": [
+      "a",
+      "b"
+     ]
+    },
+    "replaces": {
+     "a": "Marcus McGhee",
+     "b": "Bernardo Sopaj"
+    },
+    "note": "Replacement opponent (short notice, 3 days)"
    }
   ]
  },

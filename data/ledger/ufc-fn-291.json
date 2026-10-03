@@ -517,7 +517,10 @@
        ]
       }
      }
-    ]
+    ],
+    "statusAt": "2026-09-29T17:59:41.659Z",
+    "status": "cancelled",
+    "statusNote": "No longer on the card"
    },
    {
     "a": "Chad Anheliger",

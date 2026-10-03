@@ -577,7 +577,7 @@
     ],
     "recap": {
      "status": "partial",
-     "checkedAt": "2026-09-28",
+     "checkedAt": "2026-09-30",
      "sources": [
       {
        "label": "Spox live ticker",
@@ -590,9 +590,17 @@
       {
        "label": "Cageside Press full results",
        "url": "https://cagesidepress.com/2026/09/26/oktagon-94-full-results/"
+      },
+      {
+       "label": "Phantom Athletics main-card results",
+       "url": "https://www.phantom-athletics.com/blogs/news/oktagon-94-die-ergebnisse-der-main-card-in-frankfurt"
+      },
+      {
+       "label": "Combat Press results",
+       "url": "https://combatpress.com/2026/09/oktagon-94-kozma-submits-eckerlin-vemola-tkos-vosgrone/"
       }
      ],
-     "note": "R3 has no published play-by-play; its edge comes only from the 30-27 cards. Wetterauer Zeitung mentions Duric 'overcoming an early choke', which may conflict with Spox (Duric's near-RNC)."
+     "note": "R3 has no published play-by-play; its edge comes only from the 30-27 cards. Re-searched Sep 29: Spox, Ippen-network results (Wetterauer Zeitung/Kreis-Anzeiger), Phantom Athletics, Combat Press, Cageside Press, RDX, combatsports.club, Sherdog, ran.de, Sport1, Bild, groundandpound.de, oktagon.tv \u2014 none describes R3; Tapology blocked (403). Early-choke conflict unresolved: Ippen says Duric 'survived an early choke' and Phantom Athletics says he 'survived a dangerous situation on the ground', while Spox has Duric nearly finishing an RNC in R1; both may be true but no source confirms the sequence. Final search Sep 30 after the window closed (web search for R3 in German and English, oktagonmma.com event page): still nothing on R3, so its edge rests on the 30-27 x3 official cards only. Left 'partial'."
     }
    },
    {
@@ -969,8 +977,8 @@
   ]
  },
  "review": {
-  "status": "initial",
-  "reviewedAt": "2026-09-27",
+  "status": "final",
+  "reviewedAt": "2026-09-30",
   "followUpUntil": "2026-09-29",
   "lessons": [
    "Winners 6/8 (two abstentions), rounds 5/10, method 2/8. Picking Over every time would have gone 4/10 on rounds, so the rounds model barely beat the naive baseline on a card where 6 of 10 fights ended in R1. We picked Over in 8 of 10.",
@@ -979,7 +987,8 @@
    "Method calls ignored the winner's own finishing mix. Dulatov was called KO/TKO (Jankovi\u0107's two losses were KOs), but 3 of Dulatov's 5 wins were submissions, and he won with a triangle. Cordero was called Decision despite four straight R1-R2 finishes, because Puka\u010d's recent losses all went the distance.",
    "Right for the right reasons: Coga (finishing power showed in two knockdowns; winner, decision and Over all hit), Lemberanskij (unbeaten and better late; clean 30-27 sweep, all three calls hit) and Duric (form edge over a sliding Diakiese; dominated, and only the submission call missed, after a near-RNC in R1). Kozma was right on the winner, but the script was wrong by two seconds (RNC at 4:58 of R1), so the Under and method misses there are close to variance.",
    "The two abstentions were fair calls on the evidence (an influencer with no MMA bouts under striking-only rules; a 1-0 debutant), but both rounds picks (Over) missed on R1 stoppages. Initial review; recaps re-checked through Sep 29.",
-   "Follow-up (Sep 28): closing lines added from BestFightOdds (BetWay). The market's favourite won 9 of 10 (only miss: Vach -333 vs Ilbay). On the eight bouts we picked, the market went 7/8 to our 6/8; the extra miss is Vosgr\u00f6ne, who we favoured at 61% while the market had V\u00e9mola as a slight favourite (-125 vs -105). Benchmark only, not a model input."
+   "Follow-up (Sep 28): closing lines added from BestFightOdds (BetWay). The market's favourite won 9 of 10 (only miss: Vach -333 vs Ilbay). On the eight bouts we picked, the market went 7/8 to our 6/8; the extra miss is Vosgr\u00f6ne, who we favoured at 61% while the market had V\u00e9mola as a slight favourite (-125 vs -105). Benchmark only, not a model input.",
+   "Final (Sep 30): follow-up window closed. Every main-card bout has round-by-round; only Duric-Diakiese R3 lacks a play-by-play (judges 30-27 x3 cover it). No result changes reported. The card's grades stand: winners 6/8, rounds 5/10, method 2/8; the market went 7/8 on the same bouts."
   ],
   "bouts": [
    {

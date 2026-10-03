@@ -282,10 +282,312 @@
        ]
       }
      }
-    ]
+    ],
+    "status": "cancelled",
+    "statusAt": "2026-09-29T22:00:00.000Z",
+    "statusNote": "Pulled on fight day (Bulaid illness); rebooked for DWCS week 10 (Oct 13). Ungraded."
    }
   ]
  },
- "results": null,
- "review": null
+ "results": {
+  "checkedAt": "2026-09-30",
+  "live": false,
+  "sources": [
+   {
+    "label": "Yahoo Sports week 8 results",
+    "url": "https://sports.yahoo.com/articles/dwcs-season-10-week-8-004945395.html"
+   },
+   {
+    "label": "MMA News episode recap",
+    "url": "https://www.mmanews.com/article/contender-series-season-10-episode-8-highlights"
+   },
+   {
+    "label": "Yahoo Sports / MMA Mania live results",
+    "url": "https://sports.yahoo.com/articles/ufc-contender-series-results-live-223000016.html"
+   },
+   {
+    "label": "BJJ TV week 8 results",
+    "url": "https://bjj.tv/four-ufc-contracts-from-contender-series-week-8-as-staines-scores-first-contender-series-slam-ko/"
+   },
+   {
+    "label": "DraftKings Network round-by-round",
+    "url": "https://dknetwork.draftkings.com/2026/09/29/dana-whites-contender-series-season-10-week-8-live-results-round-by-round-updates-highlights-and-winner-september-29-2026/"
+   },
+   {
+    "label": "Cageside Press week 8 results",
+    "url": "https://cagesidepress.com/2026/09/29/dana-whites-contender-series-season-10-week-8-results/"
+   }
+  ],
+  "bouts": [
+   {
+    "a": "Loai Abushaar",
+    "b": "George Staines",
+    "winner": "George Staines",
+    "loser": "Loai Abushaar",
+    "method": "KO/TKO",
+    "detail": "TKO (slam)",
+    "round": 1,
+    "time": "1:01",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Staines got a body lock early and returned Abushaar to the mat twice; the second slam drove him onto his head and shoulder and knocked him out.",
+     "First slam knockout in Contender Series history. Contract awarded."
+    ],
+    "contract": true,
+    "section": "Main Card",
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "b",
+      "summary": "Staines closed distance, secured a body-lock takedown and brought Abushaar back down each time he tried to rise. The second mat return landed Abushaar on his head and shoulder, knocking him out; follow-up strikes ended it at 1:01.",
+      "keyMoments": [
+       "takedowns at will (Staines)",
+       "KO by slam (Staines)"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-10-01",
+     "sources": [
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-8-highlights"
+      },
+      {
+       "label": "Yahoo Sports week 8 results",
+       "url": "https://sports.yahoo.com/articles/dwcs-season-10-week-8-004945395.html"
+      },
+      {
+       "label": "BJJ TV week 8 results",
+       "url": "https://bjj.tv/four-ufc-contracts-from-contender-series-week-8-as-staines-scores-first-contender-series-slam-ko/"
+      }
+     ],
+     "note": "One-minute fight; MMA News, Yahoo and BJJ TV agree on the sequence. No Sherdog play-by-play found for DWCS week 8."
+    },
+    "closingOdds": {
+     "a": 300,
+     "b": -380,
+     "asOf": "2026-09-29T18:30:00Z",
+     "source": "https://dknetwork.draftkings.com/2026/09/29/dwcs-season-10-week-8-full-card-odds-start-time-how-to-watch/"
+    }
+   },
+   {
+    "a": "Adama Diop",
+    "b": "Zaurbek Sabanov",
+    "winner": "Adama Diop",
+    "loser": "Zaurbek Sabanov",
+    "method": "KO/TKO",
+    "detail": "TKO (punches)",
+    "round": 2,
+    "time": "2:13",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Sabanov cracked Diop with a hook in R1, but Diop answered with a takedown at the fence and ground strikes.",
+     "Diop's pressure and clinch work broke Sabanov in R2 for a standing TKO at 2:13. Contract awarded."
+    ],
+    "contract": true,
+    "section": "Main Card",
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "a",
+      "summary": "Exchanges on the inside after a caught kick; Sabanov landed a hook that cracked Diop. Diop then took Sabanov down at the fence and landed shots before Sabanov got up, and the round ended in exchanges.",
+      "keyMoments": [
+       "rocked, recovered (Diop)",
+       "takedown (Diop)"
+      ]
+     },
+     {
+      "n": 2,
+      "edge": "a",
+      "summary": "Diop landed a combination just over a minute in and kept Sabanov pinned under pressure, landing in the clinch and at close range until the referee stopped it standing at 2:13.",
+      "keyMoments": [
+       "TKO standing (Diop)"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-10-01",
+     "sources": [
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-8-highlights"
+      },
+      {
+       "label": "Yahoo Sports week 8 results",
+       "url": "https://sports.yahoo.com/articles/dwcs-season-10-week-8-004945395.html"
+      },
+      {
+       "label": "BJJ TV week 8 results",
+       "url": "https://bjj.tv/four-ufc-contracts-from-contender-series-week-8-as-staines-scores-first-contender-series-slam-ko/"
+      }
+     ],
+     "note": "R1 edge to Diop per MMA News/Yahoo (takedown, 'wore down Sabanov through Round 1'); no staff round score published."
+    },
+    "closingOdds": {
+     "a": 275,
+     "b": -345,
+     "asOf": "2026-09-29T18:30:00Z",
+     "source": "https://dknetwork.draftkings.com/2026/09/29/dwcs-season-10-week-8-full-card-odds-start-time-how-to-watch/"
+    }
+   },
+   {
+    "a": "Ian Escuza",
+    "b": "Luca Borando",
+    "winner": "Ian Escuza",
+    "loser": "Luca Borando",
+    "method": "KO/TKO",
+    "detail": "TKO (knees)",
+    "round": 1,
+    "time": "0:32",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Escuza landed early, threw Borando and finished with knees from back control/clinch at 0:32.",
+     "The final knee was ruled legal despite Borando being grounded. Contract awarded."
+    ],
+    "contract": true,
+    "section": "Main Card",
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "a",
+      "summary": "Escuza landed solid strikes, threw Borando and took his back, landing knees to the body and head. The stoppage came at 0:32; the last knee was ruled legal though Borando was grounded.",
+      "keyMoments": [
+       "TKO knees (Escuza)"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-10-01",
+     "sources": [
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-8-highlights"
+      },
+      {
+       "label": "Yahoo Sports week 8 results",
+       "url": "https://sports.yahoo.com/articles/dwcs-season-10-week-8-004945395.html"
+      },
+      {
+       "label": "BJJ TV week 8 results",
+       "url": "https://bjj.tv/four-ufc-contracts-from-contender-series-week-8-as-staines-scores-first-contender-series-slam-ko/"
+      }
+     ]
+    },
+    "closingOdds": {
+     "a": -122,
+     "b": 102,
+     "asOf": "2026-09-29T18:30:00Z",
+     "source": "https://dknetwork.draftkings.com/2026/09/29/dwcs-season-10-week-8-full-card-odds-start-time-how-to-watch/"
+    }
+   },
+   {
+    "a": "Aieza Bertolso",
+    "b": "Camila Reynoso",
+    "winner": "Aieza Bertolso",
+    "loser": "Camila Reynoso",
+    "method": "Submission",
+    "detail": "Submission (inverted D'Arce choke)",
+    "round": 1,
+    "time": "3:02",
+    "scheduledRounds": 3,
+    "line": 1.5,
+    "ou": "Under",
+    "notes": [
+     "Bertolso took Reynoso down early, controlled from top and locked an inverted D'Arce with a body triangle for the tap at 3:02.",
+     "Contract awarded."
+    ],
+    "contract": true,
+    "section": "Main Card",
+    "rounds": [
+     {
+      "n": 1,
+      "edge": "a",
+      "summary": "Bertolso scored a quick takedown and controlled from a stack position, transitioned through a D'Arce grip, locked a body triangle and forced the tap at 3:02.",
+      "keyMoments": [
+       "takedowns at will (Bertolso)",
+       "sub (Bertolso)"
+      ]
+     }
+    ],
+    "recap": {
+     "status": "complete",
+     "checkedAt": "2026-10-01",
+     "sources": [
+      {
+       "label": "MMA News episode recap",
+       "url": "https://www.mmanews.com/article/contender-series-season-10-episode-8-highlights"
+      },
+      {
+       "label": "Yahoo Sports week 8 results",
+       "url": "https://sports.yahoo.com/articles/dwcs-season-10-week-8-004945395.html"
+      },
+      {
+       "label": "Yahoo Sports / MMA Mania live results",
+       "url": "https://sports.yahoo.com/articles/ufc-contender-series-results-live-223000016.html"
+      }
+     ]
+    },
+    "closingOdds": {
+     "a": -575,
+     "b": 425,
+     "asOf": "2026-09-29T18:30:00Z",
+     "source": "https://dknetwork.draftkings.com/2026/09/29/dwcs-season-10-week-8-full-card-odds-start-time-how-to-watch/"
+    }
+   }
+  ]
+ },
+ "review": {
+  "status": "follow-up",
+  "reviewedAt": "2026-09-30",
+  "followUpUntil": "2026-10-02",
+  "lessons": [
+   "Final picks (last revision before lock): winners 3/4, rounds 3/4, method 3/4. Opening picks: winners 3/4, rounds 0/4, method 2/4. The Bulaid-Visconde bout was pulled on fight day (Bulaid illness) and moved to week 10, so it is ungraded here.",
+   "All four fights ended inside 2:15 of R2 (three in R1). The opening picks had Over on all four; the pre-lock revisions switched three to Under and all three hit. The one we left on Over (Bertolso, a 7-0 fighter with 5 finishes in 7) ended by R1 submission.",
+   "Only winner miss: Sabanov (53% final, 58% opening) over Diop. The call rested on Sabanov's 4-0 short record, a 3-inch height edge and Diop having one loss. Diop answered an R1 hook with a takedown, then broke Sabanov with pressure and clinch work in R2. A 4-fight record against an unknown level is thin evidence for a heavyweight pick.",
+   "Staines was right for the right reasons (unbeaten, better opposition), and the revised KO/TKO + Under matched a 61-second slam KO. Escuza's revised call (50%, Under, KO/TKO) hit on all three, but at 50% it was a coin flip on the winner.",
+   "Initial review. Round-by-round is from MMA News, Yahoo Sports and BJJ TV (no Sherdog play-by-play found for this card). Re-check through Oct 2. Closing odds added Oct 1 from DraftKings Network's fight-day lines (2:30 p.m. ET, the last pre-fight line found); the market had Sabanov -345, so the Diop miss was shared with the market.",
+   "Oct 1 follow-up: Sherdog, Cageside Press and MMA Mania re-searched; still no Sherdog play-by-play for this card and Cageside lists results only. Recaps stay complete from MMA News / Yahoo / BJJ TV."
+  ],
+  "bouts": [
+   {
+    "a": "Adama Diop",
+    "b": "Zaurbek Sabanov",
+    "cause": "style-read",
+    "note": "Picked Sabanov on a 4-0 record, height and 'cleaner losses'. Diop's wrestling and pressure decided it: a takedown after being cracked in R1, then a standing TKO at 2:13 of R2. The engine has no read on a heavyweight's takedown game, and Sabanov's sample was 4 fights. The Under (revised) hit."
+   },
+   {
+    "a": "Aieza Bertolso",
+    "b": "Camila Reynoso",
+    "cause": "model",
+    "note": "Winner right, but the rounds (Over) and method (Decision) missed on an R1 inverted D'Arce at 3:02. Bertolso had finished 5 of her last 7; the method call again ignored the favourite's own finishing rate (same lesson as OKTAGON 94's Dulatov and Cordero)."
+   }
+  ],
+  "modelChanges": [
+   "Proposal (for Suleman): on DWCS cards, when the picked side has finished at least 5 of their last 7 wins, lean Under 1.5 and a finish, unless the opponent has never been stopped. DWCS weeks 7-8 have mostly ended by R2. Backtest over DWCS weeks 1-8 before adopting.",
+   "Proposal (repeat): the method call should weight the picked winner's own finishing mix, not only the opponent's loss history."
+  ],
+  "scouting": {
+   "checkedAt": "2026-09-30",
+   "noNote": [
+    {
+     "fighter": "loai-abushaar",
+     "reason": "Slammed unconscious 61 seconds in; one takedown sequence says little new about his game."
+    },
+    {
+     "fighter": "luca-borando",
+     "reason": "Stopped by knees after 32 seconds; too short to learn anything reliable."
+    }
+   ]
+  }
+ }
 }
