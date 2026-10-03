@@ -1,0 +1,973 @@
+{
+ "checkedAt": "2026-10-01",
+ "event": {
+  "title": "ACA 208: Shaikhaev vs. Tumenov",
+  "date": "2026-10-04",
+  "venue": "Sport Hall Colosseum (Sporthall \"Kolizey\")",
+  "city": "Grozny, Chechnya, Russia",
+  "elevationM": 130,
+  "elevationSource": "https://en.wikipedia.org/wiki/Grozny",
+  "cage": null,
+  "startLocal": "13:00 MSK (UTC+3) Sunday 4 October 2026 - start of the card/stream on ACA's own PPV page. Main-card start not officially published.",
+  "startET": {
+   "firstBout": "6:00am ET",
+   "mainCard": null,
+   "mainCardReported": "11:00am ET (18:00 MSK) - gidstats.ru only, unattributed; not confirmed by ACA",
+   "otherReportedTimes": [
+    "Match! Boets TV/matchtv.ru stream from 14:30 MSK = 7:30am ET",
+    "Match TV (free-to-air) from 21:00 MSK = 2:00pm ET",
+    "Tapology lists a single time of 8:00am ET (= 15:00 MSK), which matches no Russian source",
+    "metaratings' prediction piece expects the main event around 23:00 MSK = 4:00pm ET"
+   ]
+  },
+  "timeSources": [
+   "https://aca-mma.tv/aca208/en/",
+   "https://mma.metaratings.ru/news/aca-208-gde-smotret-pryamuyu-translyaciyu-turnira-v-groznom-4-oktyabrya-657745/",
+   "https://gidstats.ru/news/gde_smotret_aca_208.html",
+   "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/",
+   "https://matchtv.ru/edinoborstva/matchtvvideo_NI2368308_translation_ACA_208_Aleksandr_Podlesnyj_protiv_Rustama_Kerimova_Mihail_Dolgov_protiv_Abdul_Rahmana_Dzhanajeva_Daud_Shajkhajev_protiv_Biberta_Tumenova_Abdul_Aziz_Abdulvahabov_protiv_Glejsona_Tibau",
+   "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+  ],
+  "broadcast": "ACA PPV stream (ppv.aca-mma.com / aca-mma.tv) from 13:00 MSK; Russia TV: Match! Boets from 14:30 MSK and Match TV from 21:00 MSK; Winline stream (per gidstats). US: internet stream only (Tapology).",
+  "venueSources": [
+   "https://www.aca-mma.com/news/turnir-aca-208-v-groznom-priurocat-k-yubileyu-ramzana-kady-rova-fintwxH5_1468",
+   "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200"
+  ],
+  "notes": "Free admission; the event marks Ramzan Kadyrov's 50th birthday and Grozny City Day. 22 bouts: 5 main card + 12 prelims (on ACA's page) + 5 early prelims (Sherdog/Tapology/metaratings). Official weigh-in results were not yet published on 2026-10-01."
+ },
+ "cardChanges": [
+  {
+   "bout": null,
+   "what": "No cancellation, replacement, added bout or order change found as of 2026-10-01. The 22-bout card and order on Sherdog match metaratings' full card (2026-09-30 and 2026-10-01); ACA's own page shows the same top 17 in the same order.",
+   "source": "https://mma.metaratings.ru/news/polnyi-kard-turnira-aca-208-daud-shaikhaev-bibert-tumenov-658150/",
+   "date": "2026-09-30"
+  },
+  {
+   "bout": 22,
+   "what": "Main event intact: ACA posted the headliners' first face-off in Grozny on 2026-10-01.",
+   "source": "https://t.me/acamma_russia/9485",
+   "date": "2026-10-01"
+  },
+  {
+   "bout": 22,
+   "what": "Title fight moved here from ACA 206 (2026-08-15) after both fighters were injured (Tumenov first, then Shaikhaev).",
+   "source": "https://www.sports.ru/boxing/blogs/3437643.html",
+   "date": "2026-10-01"
+  },
+  {
+   "bout": null,
+   "what": "ACA posted the fight card one week out and said the 'originally planned number of bouts' and 'cancellations' are discussed in its 'Matchmakers ACA #3' video (chapter 'Who dropped off the Grozny card?!' at 02:14). Which fighters/bouts dropped off BEFORE the current 22-bout card was set is NOT verified - the video page could not be read.",
+   "source": "https://t.me/acamma_russia/9478",
+   "date": "2026-09-27"
+  },
+  {
+   "bout": 13,
+   "what": "ACA says Uzair Abdurakov had a change of opponent during camp (now Herbert Batista); original opponent not stated.",
+   "source": "https://t.me/acamma_russia/9467",
+   "date": "2026-09-22"
+  },
+  {
+   "bout": 14,
+   "what": "Sulumov vs Moraes is on ACA's page, Sherdog and metaratings but missing from Tapology (Tapology omission, not a cancellation).",
+   "source": "https://aca-mma.tv/aca208/en/",
+   "date": "2026-10-01"
+  },
+  {
+   "bout": 17,
+   "what": "Weight class is bantamweight per ACA (announcement + event page + rankings) and Sherdog; Tapology's 145 lb is wrong/stale.",
+   "source": "https://t.me/acamma_russia/9366",
+   "date": "2026-08-17"
+  },
+  {
+   "bout": 9,
+   "what": "Weight class: ACA's announcement, both ACA fighter profiles, Sherdog and Tapology say flyweight; only ACA's event page says bantamweight 61.7 kg. Treated as flyweight pending the weigh-in.",
+   "source": "https://t.me/acamma_russia/9392",
+   "date": "2026-09-05"
+  },
+  {
+   "bout": 20,
+   "what": "Tapology shows a duplicate 'cancelled' Dudaev-Vargas entry next to the confirmed bout; the bout is still on everywhere else.",
+   "source": "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy",
+   "date": "2026-10-01"
+  },
+  {
+   "bout": 19,
+   "what": "Taygibov vs Selimkhanov is a rebooking of a bout cancelled from ACA 200 (2026-02-06).",
+   "source": "https://www.tapology.com/fightcenter/fighters/78736-kurban-taygibov",
+   "date": "2026-10-01"
+  }
+ ],
+ "bouts": [
+  {
+   "bout": 22,
+   "a": "Daud Shaikhaev",
+   "b": "Bibert Tumenov",
+   "division": "Lightweight (70.8 kg)",
+   "rounds": 5,
+   "title": true,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": {
+    "a": 3.07,
+    "b": 1.36,
+    "format": "decimal",
+    "source": "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/",
+    "asOf": "2026-10-01",
+    "bookmaker": "Winline (as quoted by metaratings.ru)"
+   },
+   "oddsAlt": [
+    {
+     "a": 170,
+     "b": -250,
+     "format": "american",
+     "source": "https://www.bestfightodds.com/fighters/bibert-tumenov-10956",
+     "asOf": "2026-10-01",
+     "bookmaker": "BestFightOdds current line (bookmaker not identified on page)",
+     "open": {
+      "a": 185,
+      "b": -280
+     }
+    },
+    {
+     "a": 3.4,
+     "b": null,
+     "format": "decimal",
+     "source": "https://mma.metaratings.ru/prognozy/aca/daud-shaikhaev-bibert-tumenov-prognoz-i-stavka-na-aca-208/",
+     "asOf": "2026-09-22",
+     "bookmaker": "Marathonbet (Shaikhaev side only quoted)"
+    }
+   ],
+   "notes": [
+    {
+     "text": "ACA lightweight title fight, 5 x 5. Shaikhaev is the champion making his FIRST defence. He won the interim belt on 2026-01-09 (ACA 198, UD over Herdeson Batista, 5 rounds) and was promoted to undisputed champion on 2026-04-11 when Abdul-Aziz Abdulvakhabov vacated to move to welterweight.",
+     "source": "https://en.wikipedia.org/wiki/Absolute_Championship_Akhmat",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "ACA's own news item calls it the first defence of Shaikhaev's lightweight title; Tumenov says he is going for a finish.",
+     "source": "https://www.aca-mma.com/news/bibert-tumenov-v-boyu-s-daudom-ya-idu-za-dosrocnoi-pobedoi-dfhnvBDJ_1476",
+     "date": "2026-09-28"
+    },
+    {
+     "text": "This fight was first booked for ACA 206 (Moscow, 2026-08-15) and was pulled after BOTH fighters were injured - Tumenov first, then Shaikhaev - and rebooked for ACA 208. (Source is the ACA 206 viewing guide; its exact publication day in August 2026 was not captured.)",
+     "source": "https://www.sports.ru/boxing/blogs/3437643.html",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Postponement from ACA 206 also reported here (no reason given).",
+     "source": "https://mixfight.by/novosti/2026-august/daud-shaihaev-bibert-tumenov-vozglavyat-turnir.html",
+     "date": "2026-08-31"
+    },
+    {
+     "text": "Layoffs on fight night: Shaikhaev 268 days (last fought 2026-01-09); Tumenov 240 days (last fought 2026-02-06, TKO R1 over Aleksandr Grozin). Tumenov is on a 6-fight win streak, last four by stoppage.",
+     "source": "https://www.tapology.com/fightcenter/fighters/157574-bibert-tumenov",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Shaikhaev missed weight (159.1 lb) at ACA 188 on 2025-06-28 (Wikipedia footnote gives the surname only; Tapology shows Daud Shaikhaev fought Artem Reznikov on that card). He made 155.6 lb for the interim title fight in January 2026.",
+     "source": "https://en.wikipedia.org/wiki/2025_in_Absolute_Championship_Akhmat",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "ACA ranks Tumenov #3 at lightweight (Abdulvakhabov is still listed #1, Ali Bagov #2). ACA says Abdulvakhabov vacated rather than fight his teammate Shaikhaev (both Berkut FC).",
+     "source": "https://www.aca-mma.com/news/abdul-aziz-abdulvaxabov-debyutiruet-v-polusrednem-vese-na-aca-208-gsuHLR67_1466",
+     "date": "2026-09-01"
+    },
+    {
+     "text": "No previous meeting between the two (the '#3' in ACA's promo is Tumenov's ranking, not a trilogy).",
+     "source": "https://t.me/acamma_russia/9481",
+     "date": "2026-09-28"
+    },
+    {
+     "text": "Both headliners were face to face in Grozny on 2026-10-01 (ACA posted the first stare-down, 'title fight at lightweight') - the main event is intact as of that day.",
+     "source": "https://t.me/acamma_russia/9485",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 21,
+   "a": "Abdul-Aziz Abdulvakhabov",
+   "b": "Gleison Tibau",
+   "division": "Welterweight (77.6 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": {
+    "a": 1.02,
+    "b": 10.25,
+    "format": "decimal",
+    "source": "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/",
+    "asOf": "2026-10-01",
+    "bookmaker": "Winline (as quoted by metaratings.ru)"
+   },
+   "oddsAlt": [
+    {
+     "a": -2000,
+     "b": 700,
+     "format": "american",
+     "source": "https://www.bestfightodds.com/fighters/abdul-aziz-abdulvakhabov-7829",
+     "asOf": "2026-10-01",
+     "bookmaker": "BestFightOdds current line (bookmaker not identified on page)",
+     "open": {
+      "a": -3000,
+      "b": 900
+     }
+    }
+   ],
+   "notes": [
+    {
+     "text": "Co-main is 3 x 5 (Tapology lists '170, 3 x 5'); no ACA source states a round count.",
+     "source": "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Abdulvakhabov's welterweight debut. He vacated the ACA lightweight title in April 2026; ACA says he chose not to fight teammate Daud Shaikhaev. Last fight 2025-07-11 (KO of Ali Bagov, ACA 189) - a 450-day layoff. Age 37.",
+     "source": "https://www.aca-mma.com/news/abdul-aziz-abdulvaxabov-debyutiruet-v-polusrednem-vese-na-aca-208-gsuHLR67_1466",
+     "date": "2026-09-01"
+    },
+    {
+     "text": "Abdulvakhabov says this is his first fight at welterweight and he only needs to cut 3-5 kg, while (his claim) Tibau cuts from about 95 kg.",
+     "source": "https://www.aca-mma.com/news/abdul-aziz-abdulvaxabov-boi-s-tibau-stanet-tyazely-m-ispy-taniem-dlya-menya-bhkwXZ45_1474",
+     "date": "2026-09-21"
+    },
+    {
+     "text": "Tibau is 43 (born 1983-07-10). Last MMA fight 2025-10-18 (submission win, WNC 3) - about 351 days ago; he is on a 3-fight win streak, with a middleweight bout in September 2024. No retirement statement found.",
+     "source": "https://en.wikipedia.org/wiki/Gleison_Tibau",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Tapology shows two Tibau MMA bookings cancelled in 2026 (vs Andrey Koreshkov 2026-06-06, vs Fanil Rafikov 2026-08-08) and two grappling matches (2026-07-05, 2026-08-08). Reasons for the cancellations not verified.",
+     "source": "https://www.tapology.com/fightcenter/fighters/gleison-tibau",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 20,
+   "a": "Abdul-Rakhman Dudaev",
+   "b": "Vicente Vargas",
+   "division": "Featherweight (66.2 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": {
+    "a": 1.09,
+    "b": 6.74,
+    "format": "decimal",
+    "source": "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/",
+    "asOf": "2026-10-01",
+    "bookmaker": "Winline (as quoted by metaratings.ru)"
+   },
+   "oddsAlt": [
+    {
+     "a": -800,
+     "b": 425,
+     "format": "american",
+     "source": "https://www.bestfightodds.com/fighters/rakhman-dudaev-10719",
+     "asOf": "2026-10-01",
+     "bookmaker": "BestFightOdds current line (bookmaker not identified on page)",
+     "open": {
+      "a": -145,
+      "b": 105
+     }
+    }
+   ],
+   "notes": [
+    {
+     "text": "Vargas was stopped in round 1 (TKO) by Nashkho Galaev on 2026-06-19 at ACA 204 - 107 days before this fight.",
+     "source": "https://www.tapology.com/fightcenter/fighters/76067-vicente-vargas",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Dudaev last fought 2025-10-23 (decision win over Pavel Vitruk, ACA 194) - 346 days ago. Tapology lists that bout at 135 lb and this one at 145 lb, i.e. a move back up; ACA's own pages list him at featherweight. Treat the weight-class change as Tapology-only.",
+     "source": "https://www.tapology.com/fightcenter/fighters/71860-rakhman-dudaev",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Tapology's 'Cancelled & Fizzled Bouts' box shows a duplicate Dudaev-Vargas entry while the same bout is also listed as confirmed (#20). ACA's page, Sherdog and metaratings all still list the bout.",
+     "source": "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 19,
+   "a": "Kurban Taygibov",
+   "b": "Dzhambulat Selimkhanov",
+   "division": "Featherweight (66.2 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": {
+    "a": 1.59,
+    "b": 2.33,
+    "format": "decimal",
+    "source": "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/",
+    "asOf": "2026-10-01",
+    "bookmaker": "Winline (as quoted by metaratings.ru)"
+   },
+   "notes": [
+    {
+     "text": "This matchup was previously booked for ACA 200 (2026-02-06) and cancelled (reason not verified). Not a rematch - they have not fought.",
+     "source": "https://www.tapology.com/fightcenter/fighters/78736-kurban-taygibov",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "ACA bills it as #2 vs #6 in the featherweight rankings.",
+     "source": "https://t.me/acamma_russia/9382",
+     "date": "2026-08-28"
+    },
+    {
+     "text": "Selimkhanov lost a decision to Alimardan Abdykaarov on 2026-05-08 (ACA 203); before that he stopped Rustam Kerimov in round 5 (2025-10-04). Taygibov has won two straight (TKO R2 on 2026-02-06).",
+     "source": "https://www.tapology.com/fightcenter/fighters/175082-dzhambulat-selimkhanov-boets",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 18,
+   "a": "Adlan Ibragimov",
+   "b": "Sergey Starodub",
+   "division": "Light Heavyweight (93.4 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": {
+    "a": 1.37,
+    "b": 3.02,
+    "format": "decimal",
+    "source": "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/",
+    "asOf": "2026-10-01",
+    "bookmaker": "Winline (as quoted by metaratings.ru)"
+   },
+   "notes": [
+    {
+     "text": "Ibragimov is the former ACA light heavyweight champion; he lost the belt by TKO R2 to Muslim Magomedov on 2025-12-05 (ACA 197) and has not fought since (303 days). His last three fights were all 5-rounders; this is 3 x 5.",
+     "source": "https://www.tapology.com/fightcenter/fighters/185627-adlan-ibragimov",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Starodub has won three straight, including Evgeny Erokhin (submission R2, 2026-03-27, Fight of the Night) and Husein Kushagov (decision, 2025-11-23) - both of whom are also on this card.",
+     "source": "https://www.tapology.com/fightcenter/fighters/316885-sergey-starodub",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 17,
+   "a": "Rustam Kerimov",
+   "b": "Aleksandr Podlesniy",
+   "division": "Bantamweight (61.7 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://t.me/acamma_russia/9366",
+    "https://www.aca-mma.com/en/fighters/rustam-kerimov-7356_923"
+   ],
+   "odds": null,
+   "notes": [
+    {
+     "text": "WEIGHT CLASS RESOLVED: bantamweight. ACA's announcement calls it a clash of 'two TOPs of bantamweight' (legchayshego vesa); the ACA event page lists 61.7 kg; Sherdog says bantamweight; ACA ranks Podlesniy #3 and Kerimov #4 at bantamweight. Tapology's '145' is the outlier.",
+     "source": "https://t.me/acamma_russia/9366",
+     "date": "2026-08-17"
+    },
+    {
+     "text": "Kerimov is DROPPING BACK to bantamweight: his last three fights were at featherweight (TKO win 2025-04-11; TKO loss R5 to Dzhambulat Selimkhanov 2025-10-04; decision win over David Dzhibilov 2026-03-27, weighing in at 146.9 lb).",
+     "source": "https://www.tapology.com/fightcenter/fighters/133998-rustam-kerimov",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Podlesniy's last fight was the ACA bantamweight title fight vs Josiel Silva on 2026-03-27 (ACA 201), ruled a No Contest after an accidental eye poke in round 2. He has not fought since (191 days).",
+     "source": "https://en.wikipedia.org/wiki/2026_in_Absolute_Championship_Akhmat",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "No odds found for this bout.",
+     "source": "https://www.bestfightodds.com/events/aca-208-4390",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 16,
+   "a": "Abdul-Rakhman Dzhanaev",
+   "b": "Mikhail Dolgov",
+   "division": "Middleweight (84.4 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": null,
+   "notes": [
+    {
+     "text": "REMATCH: Dzhanaev beat Dolgov by unanimous decision at ACA 148 on 2022-11-18.",
+     "source": "https://www.tapology.com/fightcenter/fighters/84039-rahman-dzhanaev",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Dzhanaev was stopped (TKO R1) by Edil Esengulov on 2026-07-17 at ACA 205 - only 79 days before this fight.",
+     "source": "https://www.tapology.com/fightcenter/fighters/84039-rahman-dzhanaev",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Dolgov is on a three-fight losing streak (decision 2024-12-15, TKO R1 2025-05-10, decision 2026-03-27).",
+     "source": "https://www.tapology.com/fightcenter/fighters/151074-mikhail-dolgov",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 15,
+   "a": "Daniil Matsola",
+   "b": "Kirill Grishenko",
+   "division": "Heavyweight (120 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": null,
+   "notes": [
+    {
+     "text": "Grishenko's ACA 206 bout vs Mohammed Usman (2026-08-15) was cancelled (reason not verified); his last fight was 2026-03-27 (decision over Klidson Abreu).",
+     "source": "https://www.tapology.com/fightcenter/fighters/275111-kirill-grishenko",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Matsola was stopped (TKO R1) by Khadis Ibragimov on 2026-04-12 (ACA 202), his only pro loss; 175 days ago.",
+     "source": "https://www.tapology.com/fightcenter/fighters/463684-daniil-matsola",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 14,
+   "a": "Magomed Sulumov",
+   "b": "Sheymon Moraes",
+   "division": "Lightweight (70.8 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://mma.metaratings.ru/news/polnyi-kard-turnira-aca-208-daud-shaikhaev-bibert-tumenov-658150/"
+   ],
+   "odds": null,
+   "notes": [
+    {
+     "text": "DISCREPANCY RESOLVED: the bout is ON. It is on ACA's own event page (checked 2026-10-01), on Sherdog, and in metaratings' full-card lists of 2026-09-30 and 2026-10-01. Tapology simply omits it (lists 21 bouts, numbering skips #14). Round count (3) assumed from ACA's non-title standard - Tapology has no entry for this bout.",
+     "source": "https://aca-mma.tv/aca208/en/",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Sulumov withdrew injured from his ACA 200 bout vs Artem Reznikov (reported 2026-01-30); he then lost a decision to Alexander Matmuratov on 2026-06-19 (ACA 204).",
+     "source": "https://meta-ratings.kz/news/bibulatov-prokommentiroval-otmenu-boya-reznikov-sulumov-na-aca-200-576246/",
+     "date": "2026-01-30"
+    },
+    {
+     "text": "Moraes (ex-UFC/PFL) last fought 2025-10-24 (split-decision win for a lightweight title) - about 345 days ago; his fight before that (2025-08-15) was a decision loss at featherweight.",
+     "source": "https://en.wikipedia.org/wiki/Sheymon_Moraes",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 13,
+   "a": "Herbert Batista",
+   "b": "Uzair Abdurakov",
+   "division": "Welterweight (77.6 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": null,
+   "notes": [
+    {
+     "text": "ACA's fight-week episode on Abdurakov says he is 'returning after surgery', trained at a mountain camp, and had a 'change of opponent'. Neither the type of surgery nor the original opponent is stated in the post (video not viewed).",
+     "source": "https://t.me/acamma_russia/9467",
+     "date": "2026-09-22"
+    },
+    {
+     "text": "Abdurakov has lost two straight, both by submission: R1 to Zhakshylyk Myrzabekov (interim welterweight title, 2025-12-05) and R3 to Eduard Vartanyan (2026-04-12, ACA 202).",
+     "source": "https://www.tapology.com/fightcenter/fighters/162768-uzair-abdurakov",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Local report: Abdurakov is holding his camp in Dagestan (publication date not captured).",
+     "source": "https://ysia.ru/boets-iz-yakutii-uzair-abdurakov-srazitsya-v-turnire-asa-po-smeshannym-edinoborstvam/",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 12,
+   "a": "Shamil Boraev",
+   "b": "Timur Valiev",
+   "division": "Featherweight (66.2 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": null,
+   "notes": [
+    {
+     "text": "Boraev has a recent weight problem: he missed weight at ACA 198 on 2026-01-09 (149.2 lb), and Tapology records a 151.8 lb weigh-in for his featherweight bout at ACA 203 on 2026-05-08 (about 2.7 kg over the 66.2 kg limit). Sherdog lists him at 152 lb.",
+     "source": "https://en.wikipedia.org/wiki/2026_in_Absolute_Championship_Akhmat",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Valiev withdrew from his ACA 206 bout (2026-08-15, vs Hafiz Sakibekov) with an injury and was replaced. (Source is the ACA 206 viewing guide; ACA's Telegram also announced the withdrawal.)",
+     "source": "https://www.sports.ru/boxing/blogs/3437643.html",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Valiev (36, ex-UFC bantamweight) last fought 2025-08-15, a split-decision loss to David Dzhibilov - 415 days ago. He has lost 2 of his last 3.",
+     "source": "https://www.sherdog.com/fighter/Timur-Valiev-70605",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Boraev is 23 and 4-0 in his last four; a VFL bout scheduled for 2026-09-12 was cancelled (reason not verified).",
+     "source": "https://www.tapology.com/fightcenter/fighters/395422-shamil-boraev",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 11,
+   "a": "Yunus Evloev",
+   "b": "Francisco Figueiredo",
+   "division": "Bantamweight (61.7 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": null,
+   "notes": [
+    {
+     "text": "Evloev has not fought since 2023-08-11 (decision win, ACA 161) - a layoff of about 3 years 2 months (1,150 days). Reason not verified. He is 41-42 (ACA: 41; Sherdog birth date 1984-06-29; Tapology 1984-10-31).",
+     "source": "https://www.sherdog.com/fighter/Yunus-Evloev-14787",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Both are moving up: Evloev's recent fights were at flyweight, and Figueiredo is an ex-UFC flyweight whose only bout since 2022 was at bantamweight.",
+     "source": "https://www.tapology.com/fightcenter/fighters/18691-yunus-evloev",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Figueiredo's last fight was a TKO R1 loss on 2025-04-26 (Core FC 1), about 17 months ago; before that he lost by submission R1 at UFC 278 (2022-08-20). Two straight first-round losses.",
+     "source": "https://www.sherdog.com/fighter/Francisco-Figueiredo-69484",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 10,
+   "a": "Murad Abdulaev",
+   "b": "Mark Hulme",
+   "division": "Middleweight (84.4 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": null,
+   "notes": [
+    {
+     "text": "Hulme has been stopped in his last two fights: TKO R2 by Dominik Humburger (2025-08-09) and TKO R2 by Artem Frolov (2026-06-19, ACA 204 - 107 days ago).",
+     "source": "https://www.tapology.com/fightcenter/fighters/63903-mark-hulme",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Abdulaev was stopped (TKO R3) by Edil Esengulov on 2026-01-16 (ACA 199); 261 days ago.",
+     "source": "https://www.tapology.com/fightcenter/fighters/34730-murad-abdulaev-hunter",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 9,
+   "a": "Umalat Israpilov",
+   "b": "Kurban Gadzhiev",
+   "division": "Flyweight (57.2 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://t.me/acamma_russia/9392",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy",
+    "https://www.aca-mma.com/fighters/kurban-gadzhiev-3120_852",
+    "https://www.aca-mma.com/fighters/umalat-israpilov-dlzAJR34_2038"
+   ],
+   "odds": {
+    "a": -120,
+    "b": -120,
+    "format": "american",
+    "source": "https://www.bestfightodds.com/fighters/umalat-israpilov-20193",
+    "asOf": "2026-10-01",
+    "bookmaker": "BestFightOdds current line (bookmaker not identified on page)"
+   },
+   "notes": [
+    {
+     "text": "WEIGHT CLASS: flyweight on the balance of evidence. ACA's own announcement says 'a battle in the flyweight division' (nailegchayshem divizione) and that ex-champion Gadzhiev 'returns to the division'; both ACA fighter profiles list 57 kg; Sherdog and Tapology say flyweight (125). Only ACA's event/PPV page shows 'Bantamweight 61.7 kg' - most likely a page error. Final confirmation will be the weigh-in on Oct 3.",
+     "source": "https://t.me/acamma_russia/9392",
+     "date": "2026-09-05"
+    },
+    {
+     "text": "Gadzhiev is on a two-fight losing streak: he lost the ACA flyweight title to Azamat Pshukov by submission R3 (2025-06-28), then lost a decision to Renat Ondar at BANTAMWEIGHT (2025-11-23). He is coming back down to flyweight; 315 days since his last fight.",
+     "source": "https://www.tapology.com/fightcenter/fighters/67687-kurban-gadzhiev-python",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "ACA's episode says Gadzhiev did a four-week camp in the Kislovodsk mountains with Petr Yan's team.",
+     "source": "https://t.me/acamma_russia/9483",
+     "date": "2026-09-30"
+    },
+    {
+     "text": "Israpilov is on a 6-fight win streak and is ACA's #9 flyweight; last fought 2025-10-23 (346 days). His ACA 200 bout (2026-02-06) was cancelled.",
+     "source": "https://www.tapology.com/fightcenter/fighters/193862-umalat-israpilov",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 8,
+   "a": "Imam Vitakhanov",
+   "b": "Magnus Conrado",
+   "division": "Lightweight (70.8 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": {
+    "a": -225,
+    "b": 160,
+    "format": "american",
+    "source": "https://www.bestfightodds.com/fighters/imam-vitakhanov-20803",
+    "asOf": "2026-10-01",
+    "bookmaker": "BestFightOdds current line (bookmaker not identified on page)"
+   },
+   "notes": [
+    {
+     "text": "Conrado's ACA 206 bout vs Shadid Abdurazakov (2026-08-15) was cancelled after he had weighed in (156.4 lb) per Tapology; reason not verified. He has lost two straight decisions and last fought 2025-11-23.",
+     "source": "https://www.tapology.com/fightcenter/fighters/129136-magnus-kelly",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Vitakhanov has lost two straight (submission R1 2025-09-14; decision 2026-01-09).",
+     "source": "https://www.tapology.com/fightcenter/fighters/35289-imam-vita",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 7,
+   "a": "Husein Kushagov",
+   "b": "Evgeny Erokhin",
+   "division": "Light Heavyweight (93.4 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": {
+    "a": -140,
+    "b": 100,
+    "format": "american",
+    "source": "https://www.bestfightodds.com/fighters/husein-kushagov-7559",
+    "asOf": "2026-10-01",
+    "bookmaker": "BestFightOdds current line (bookmaker not identified on page)"
+   },
+   "notes": [
+    {
+     "text": "Kushagov is on a five-fight losing streak (Tapology); his last bout (2025-11-23) was at light heavyweight after earlier fights at middleweight.",
+     "source": "https://www.tapology.com/fightcenter/fighters/71909-husein-kushagov",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Erokhin (40) has lost three straight, most recently by submission R2 to Sergey Starodub on 2026-03-27.",
+     "source": "https://www.tapology.com/fightcenter/fighters/13157-evgeny-erohin",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 6,
+   "a": "Ali Suleymanov",
+   "b": "Murad Khasaev",
+   "division": "Lightweight (70.8 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://aca-mma.tv/aca208/en/",
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": {
+    "a": -500,
+    "b": 300,
+    "format": "american",
+    "source": "https://www.bestfightodds.com/fighters/murad-khasaev-22932",
+    "asOf": "2026-10-01",
+    "bookmaker": "BestFightOdds current line (bookmaker not identified on page)"
+   },
+   "notes": [
+    {
+     "text": "Khasaev has not fought since 2025-06-19 (472 days). Tapology shows two cancelled bookings in 2026 (2026-07-25, and ACA Young Eagles 68 on 2026-09-17 - 17 days before this card). Whether he is a late addition to ACA 208 is not verified.",
+     "source": "https://www.tapology.com/fightcenter/fighters/347246-murad-khasaev",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 5,
+   "a": "Magomed Malsagov",
+   "b": "Artur Astakhov",
+   "division": "Light Heavyweight (93.4 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy",
+    "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/"
+   ],
+   "odds": {
+    "a": -400,
+    "b": 250,
+    "format": "american",
+    "source": "https://www.bestfightodds.com/fighters/magomed-malsagov-22931",
+    "asOf": "2026-10-01",
+    "bookmaker": "BestFightOdds current line (bookmaker not identified on page)"
+   },
+   "notes": [
+    {
+     "text": "Early prelim: not shown on ACA's event page (which lists only 17 bouts) but listed by Sherdog, Tapology and metaratings (2026-10-01).",
+     "source": "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Astakhov (38) has lost two straight and last fought 2025-10-04 (365 days). Malsagov is 4-0, all first-round TKOs (Tapology).",
+     "source": "https://www.tapology.com/fightcenter/fighters/43148-artur-astakhov",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 4,
+   "a": "Tamerlan Ashakhanov",
+   "b": "Renan Oliveira",
+   "division": "Lightweight (70.8 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy",
+    "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/"
+   ],
+   "odds": {
+    "a": -105,
+    "b": -135,
+    "format": "american",
+    "source": "https://www.bestfightodds.com/fighters/tamerlan-ashakhanov-22930",
+    "asOf": "2026-10-01",
+    "bookmaker": "BestFightOdds current line (bookmaker not identified on page)",
+    "open": {
+     "a": -130,
+     "b": -110
+    }
+   },
+   "notes": [
+    {
+     "text": "Early prelim (not on ACA's 17-bout page; listed by Sherdog, Tapology, metaratings).",
+     "source": "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Oliveira fought as recently as 2026-06-27 (decision win at lightweight); his 2025 fights were at featherweight.",
+     "source": "https://www.tapology.com/fightcenter/fighters/236317-renan-oliveira",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 3,
+   "a": "Ramzan Suleymanov",
+   "b": "Vazha Tsiptauri",
+   "division": "Flyweight (57.2 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": {
+    "a": -800,
+    "b": 425,
+    "format": "american",
+    "source": "https://www.bestfightodds.com/fighters/ramzan-suleymanov-20808",
+    "asOf": "2026-10-01",
+    "bookmaker": "BestFightOdds current line (bookmaker not identified on page)"
+   },
+   "notes": [
+    {
+     "text": "Early prelim (not on ACA's 17-bout page; listed by Sherdog, Tapology, metaratings).",
+     "source": "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Tsiptauri was booked to fight Astemir Nagoev at ACA 207 on 2026-09-12 and that bout was cancelled (reason not verified) - three weeks before this one. He has lost two straight decisions.",
+     "source": "https://www.tapology.com/fightcenter/fighters/130662-bazha-tsiptauri",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Suleymanov's last fight (2026-01-09, submission win) was at bantamweight; he is back down at flyweight here.",
+     "source": "https://www.tapology.com/fightcenter/fighters/306196-ramzan-suleymanov",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 2,
+   "a": "Murat Fakov",
+   "b": "Asvad Akhmadov",
+   "division": "Bantamweight (61.7 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": {
+    "a": -120,
+    "b": -120,
+    "format": "american",
+    "source": "https://www.bestfightodds.com/fighters/murat-fakov-20849",
+    "asOf": "2026-10-01",
+    "bookmaker": "BestFightOdds current line (bookmaker not identified on page)"
+   },
+   "notes": [
+    {
+     "text": "Early prelim (not on ACA's 17-bout page; listed by Sherdog, Tapology, metaratings).",
+     "source": "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Fakov fought 2026-07-09 (87 days ago, decision win); Akhmadov last fought 2025-10-04 (decision loss, 365 days).",
+     "source": "https://www.tapology.com/fightcenter/fighters/291315-murat-fakov",
+     "date": "2026-10-01"
+    }
+   ]
+  },
+  {
+   "bout": 1,
+   "a": "Islam Geroev",
+   "b": "Alan Gomes",
+   "division": "Bantamweight (61.7 kg)",
+   "rounds": 3,
+   "title": false,
+   "status": "confirmed",
+   "divisionSources": [
+    "https://www.sherdog.com/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+    "https://www.tapology.com/fightcenter/events/147538-aca-208-kerimov-vs-podlesniy"
+   ],
+   "odds": null,
+   "notes": [
+    {
+     "text": "Early prelim (not on ACA's 17-bout page; listed by Sherdog, Tapology, metaratings). No odds found.",
+     "source": "https://mma.metaratings.ru/articles/gde-smotret-asa-208-4-oktyabrya-daud-shaikhaev-bibert-tumenov-abdul-aziz-abdulvakhabov-gleison-tibau/",
+     "date": "2026-10-01"
+    },
+    {
+     "text": "Gomes's ACA 201 bout (2026-03-27) was cancelled; he last fought 2025-11-23 (decision win at bantamweight after two losses at flyweight). Geroev lost a 5-round decision in an ACA Young Eagles title fight on 2025-11-13.",
+     "source": "https://www.tapology.com/fightcenter/fighters/56378-alan-gomes",
+     "date": "2026-10-01"
+    }
+   ]
+  }
+ ],
+ "stances": {
+  "Gleison Tibau": {
+   "stance": "Southpaw",
+   "source": "https://en.wikipedia.org/wiki/Gleison_Tibau"
+  }
+ },
+ "unverified": [
+  "Official main-card start time: ACA publishes only 13:00 MSK (6:00am ET) for the start of the card. 18:00 MSK (11:00am ET) for the main card comes from one unattributed third-party page (gidstats.ru).",
+  "What Tapology's '8:00 AM ET' refers to: it equals 15:00 MSK, which matches neither ACA's 13:00 MSK start nor any Russian broadcast time.",
+  "Who 'dropped off' the Grozny card before the final 22 were set (ACA 'Matchmakers ACA #3' video, https://youtu.be/Y2OHeI-ydOU) - the YouTube page was rate-limited and could not be read.",
+  "Cage type and size: nothing published by ACA for this event (an ACA site article only describes a generic ~9 m octagon used by 'major leagues').",
+  "Round counts for non-title bouts come only from Tapology (all 3 x 5); ACA has not published round counts. Bout 14 is not on Tapology, so its 3 rounds is the ACA non-title standard, not a listed value.",
+  "Final weight class of bout 9 (Israpilov vs Gadzhiev) until the Oct 3 weigh-in: ACA's event page says 61.7 kg, everything else says flyweight.",
+  "Uzair Abdurakov's surgery (what, when) and his original opponent.",
+  "Reasons for these cancellations: Taygibov-Selimkhanov (ACA 200), Grishenko-Usman (ACA 206), Conrado-Abdurazakov (ACA 206), Tsiptauri-Nagoev (ACA 207), Khasaev's two 2026 bookings, Tibau's two 2026 bookings.",
+  "Reason for Yunus Evloev's 3-year layoff; his exact birth date (sources conflict).",
+  "Whether Dudaev's October 2025 fight was at bantamweight (Tapology) - ACA's pages list him as a featherweight.",
+  "Odds for bouts 17, 16, 15, 14, 13, 12, 11, 10 and 1: none published anywhere checked. BestFightOdds lines for the other bouts come from its fighter pages; the event table shows no named bookmaker, so the book behind those lines is not identified.",
+  "Stances for all fighters except Tibau (UFCStats blocked; ACA, Sherdog and Tapology profiles do not list stance).",
+  "Official weigh-in results (not out as of 2026-10-01).",
+  "Pages that could not be read: www.aca-mma.com event page (timed out - its PPV mirror aca-mma.tv was used instead), vk.com/acamma (blocked), fighttime.ru (timed out), chechnyatoday.com (empty), oddsportal and Russian bookmaker sites (not reachable; Winline prices are as quoted by metaratings)."
+ ]
+}

@@ -1,0 +1,5341 @@
+[
+ {
+  "id": "daud-shaikhaev",
+  "name": "Daud Shaikhaev",
+  "sherdog": "https://www.sherdog.com/fighter/Daud-Shaikhaev-161979",
+  "sherdogName": "Daud Shaikhaev",
+  "nickname": null,
+  "birthDate": "1993-05-05",
+  "heightCm": 177.8,
+  "heightText": "5'10\"",
+  "weightLb": 156,
+  "nationality": "Russia",
+  "association": "Fight Club Berkut",
+  "weightClass": "Lightweight",
+  "record": "19-5-1",
+  "nc": 0,
+  "winsBy": {
+   "ko": 6,
+   "sub": 4,
+   "dec": 9,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 1,
+   "sub": 1,
+   "dec": 3,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-01-09",
+    "result": "W",
+    "opponent": "Herdeson Batista",
+    "event": "ACA 198 - Omarov vs. Suleymanov 2",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-06-28",
+    "result": "W",
+    "opponent": "Artem Reznikov",
+    "event": "ACA 188 - Gadzhiev vs. Pshukov",
+    "method": "Submission (Neck Crank)",
+    "round": 1,
+    "time": "4:17"
+   },
+   {
+    "date": "2025-02-08",
+    "result": "D",
+    "opponent": "Ramazan Kishev",
+    "event": "ACA 183 - Tumenov vs. Vagaev",
+    "method": "Draw (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-06-28",
+    "result": "L",
+    "opponent": "Ali Bagov",
+    "event": "ACA 177 - Bagov vs. Shaikhaev 2",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-02-09",
+    "result": "W",
+    "opponent": "Mukhamed Kokov",
+    "event": "ACA 170 - Goncharov vs. Vyazigin 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-10-04",
+    "result": "W",
+    "opponent": "Hacran Dias",
+    "event": "ACA 164 - Abdulvakhabov vs. Kokov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-03-17",
+    "result": "W",
+    "opponent": "Ali Bagov",
+    "event": "ACA 154 - Vakhaev vs. Goncharov",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-08-27",
+    "result": "W",
+    "opponent": "Herdeson Batista",
+    "event": "ACA 143 - Gasanov vs. Frolov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-03-26",
+    "result": "W",
+    "opponent": "Aurel Pirtea",
+    "event": "ACA 138 - Vagaev vs. Gadzhidaudov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-11-05",
+    "result": "W",
+    "opponent": "Samvel Vardanyan",
+    "event": "ACA 131 - Abdulvakhabov vs. Dias",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-02-12",
+    "result": "W",
+    "opponent": "Bayzet Khatkhokhu",
+    "event": "ACA 117 - Bagov vs. Silverio",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "3:33"
+   },
+   {
+    "date": "2020-09-05",
+    "result": "W",
+    "opponent": "Erlan Ulukbekov",
+    "event": "ACA 110 - Bagov vs. Abdulaev",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "1:32"
+   },
+   {
+    "date": "2019-10-20",
+    "result": "W",
+    "opponent": "Zalimkhan Yusupov",
+    "event": "BYE 10 - Berkut Young Eagles: Rasulov vs. Kilaev",
+    "method": "TKO (Punches)",
+    "round": 3,
+    "time": "2:29"
+   },
+   {
+    "date": "2019-01-26",
+    "result": "L",
+    "opponent": "Imanali Gamzathanov",
+    "event": "ACA 91 - Grozny",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-04-21",
+    "result": "W",
+    "opponent": "Jason Fischer",
+    "event": "ACB 85 - Rimini",
+    "method": "Decision (Majority)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-11-25",
+    "result": "L",
+    "opponent": "Aurel Pirtea",
+    "event": "ACB 75 - Stuttgart",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "4:29"
+   },
+   {
+    "date": "2017-08-05",
+    "result": "L",
+    "opponent": "Herdeson Batista",
+    "event": "ACB 66 - Grozny: Young Eagles 20",
+    "method": "KO (Knee)",
+    "round": 1,
+    "time": "3:09"
+   },
+   {
+    "date": "2017-05-25",
+    "result": "W",
+    "opponent": "Michael Bobner",
+    "event": "ACB 59 - Grozny: Young Eagles 18",
+    "method": "Submission (Guillotine Choke)",
+    "round": 2,
+    "time": "0:38"
+   },
+   {
+    "date": "2016-12-03",
+    "result": "W",
+    "opponent": "Unknown Fighter",
+    "event": "MixFace / Tech-Krep FC - MixFace 1",
+    "method": "Decision (Unanimous)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-09-24",
+    "result": "W",
+    "opponent": "Pawel Golebiewski",
+    "event": "ACB 46 - Young Eagles 13",
+    "method": "TKO (Retirement)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-04-29",
+    "result": "W",
+    "opponent": "Ivan Volodichev",
+    "event": "ACB 34 - Young Eagles 7",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 2,
+    "time": "4:22"
+   },
+   {
+    "date": "2015-11-21",
+    "result": "W",
+    "opponent": "Mirlan Oktyabrov",
+    "event": "FFC - Formula Fight Championship",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "1:10"
+   },
+   {
+    "date": "2015-09-11",
+    "result": "W",
+    "opponent": "Abdulmedzhid Magomedov",
+    "event": "LF - Legion Fight Night",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:39"
+   },
+   {
+    "date": "2014-09-19",
+    "result": "W",
+    "opponent": "Akhmed Magomedov",
+    "event": "LF - Legion Fight Night",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "2:48"
+   },
+   {
+    "date": "2014-03-09",
+    "result": "L",
+    "opponent": "Daniyar Babakulov",
+    "event": "Absolute Championship Berkut - Grand Prix Berkut 2",
+    "method": "Decision (Split)",
+    "round": 2,
+    "time": "5:00"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Sherdog locality: Grozny, Chechnya. Sherdog also lists 3 amateur bouts (not counted in pro record): L Shamil Magomedov TKO (Punches) R1 2:24 and L Rasul Abasov Submission (Arm-Triangle Choke) R3 2:23, both Russian MMA Union - Moscow Open Cup 2014 Day 1, 2014-11-28; W Arsen Baimurzaev Submission (Armbar) R1 1:50, M-1 Challenge 51 - Fightspirit, 2014-09-07. Opponent of the 2016-12-03 MixFace 1 win is literally listed as 'Unknown Fighter'. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Bibert Tumenov (16-2-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "bibert-tumenov",
+  "name": "Bibert Tumenov",
+  "sherdog": "https://www.sherdog.com/fighter/Bibert-Tumenov-254961",
+  "sherdogName": "Bibert Tumenov",
+  "nickname": "Headhunter",
+  "birthDate": "1997-04-15",
+  "heightCm": 172.72,
+  "heightText": "5'8\"",
+  "weightLb": 157,
+  "nationality": "Russia",
+  "association": "Bastion",
+  "weightClass": "Welterweight",
+  "record": "16-2-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 12,
+   "sub": 0,
+   "dec": 4,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 0,
+   "sub": 0,
+   "dec": 2,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-02-06",
+    "result": "W",
+    "opponent": "Alexander Grozin",
+    "event": "ACA 200 - Gasanov vs. Tumenov",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:31"
+   },
+   {
+    "date": "2025-08-15",
+    "result": "W",
+    "opponent": "Pavel Gordeev",
+    "event": "ACA 190 - Gasanov vs. Aryshev",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "0:31"
+   },
+   {
+    "date": "2024-12-15",
+    "result": "W",
+    "opponent": "Raush Manfio",
+    "event": "ACA 182 - Odilov vs. Ibragimov",
+    "method": "KO (Punch)",
+    "round": 1,
+    "time": "3:20"
+   },
+   {
+    "date": "2023-09-02",
+    "result": "W",
+    "opponent": "Lance Palmer",
+    "event": "ACA 162 - Tumenov vs. Palmer",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": "4:53"
+   },
+   {
+    "date": "2022-11-04",
+    "result": "W",
+    "opponent": "Andrey Goncharov",
+    "event": "ACA 147 - Vartanyan vs. Raisov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-02-26",
+    "result": "W",
+    "opponent": "Diego Brandao",
+    "event": "ACA 136 - Bukuev vs. Akopyan",
+    "method": "KO (Punch to the Body)",
+    "round": 2,
+    "time": "4:56"
+   },
+   {
+    "date": "2021-03-26",
+    "result": "L",
+    "opponent": "Islam Omarov",
+    "event": "ACA 120 - Jubileu vs. Bibulatov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2020-12-13",
+    "result": "W",
+    "opponent": "Alexey Polpudnikov",
+    "event": "ACA 115 - Ismailov vs. Shtyrkov",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:49"
+   },
+   {
+    "date": "2020-07-13",
+    "result": "W",
+    "opponent": "Alexander Matmuratov",
+    "event": "ACA 106 - St. Petersburg",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2020-02-21",
+    "result": "W",
+    "opponent": "Kyle Reyes",
+    "event": "ACA 104 - Krasnodar",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:36"
+   },
+   {
+    "date": "2019-08-24",
+    "result": "W",
+    "opponent": "Amirbek Kushtarbek",
+    "event": "BYE 9 - Berkut Young Eagles: Yasaev vs. Yarogiev",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "1:09"
+   },
+   {
+    "date": "2019-03-23",
+    "result": "L",
+    "opponent": "Timur Khizriev",
+    "event": "BYE 8 - Berkut Young Eagles: Grand-Prix Berkut Finals",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-12-22",
+    "result": "W",
+    "opponent": "Bakbergen Usonov",
+    "event": "BYE 7 - 2018 Berkut Young Eagles Grand Prix Semifinals",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-10-13",
+    "result": "W",
+    "opponent": "Zygimantas Ramaska",
+    "event": "BYE 5 - 2018 Berkut Young Eagles Grand Prix: Quarterfinals 1",
+    "method": "TKO (Punch to the Body)",
+    "round": 1,
+    "time": "2:04"
+   },
+   {
+    "date": "2018-04-15",
+    "result": "W",
+    "opponent": "Andranik Hovsepian",
+    "event": "BYE 2 - 2018 Berkut Young Eagles Grand Prix: Opening Round 2",
+    "method": "KO (Punch)",
+    "round": 1,
+    "time": "2:16"
+   },
+   {
+    "date": "2017-08-24",
+    "result": "W",
+    "opponent": "Muratbek Kasimbay",
+    "event": "FNG - Fight Nights Global 72",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-05-20",
+    "result": "W",
+    "opponent": "Sergey Saschenko",
+    "event": "Plazza FC 4 - Avdal vs. Shaov",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": "0:12"
+   },
+   {
+    "date": "2017-01-28",
+    "result": "W",
+    "opponent": "Artur Mamiev",
+    "event": "Plazza FC - In Memory of Aslan Hatuhov",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "4:58"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Sherdog locality: Babugent, Kabardino-Balkaria. Sherdog weight class reads Welterweight although listed weight is 157 lb. No amateur/exhibition bouts listed. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Daud Shaikhaev. History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "abdul-aziz-abdulvakhabov",
+  "name": "Abdul-Aziz Abdulvakhabov",
+  "sherdog": "https://www.sherdog.com/fighter/AbdulAziz-Abdulvakhabov-85495",
+  "sherdogName": "Abdul-Aziz Abdulvakhabov",
+  "nickname": "Lion",
+  "birthDate": "1989-01-16",
+  "heightCm": 175.26,
+  "heightText": "5'9\"",
+  "weightLb": 155,
+  "nationality": "Russia",
+  "association": "Fight Club Akhmat",
+  "weightClass": "Lightweight",
+  "record": "22-2-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 9,
+   "sub": 6,
+   "dec": 7,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 0,
+   "sub": 0,
+   "dec": 2,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2025-07-11",
+    "result": "W",
+    "opponent": "Ali Bagov",
+    "event": "ACA 189 - Abdulvakhabov vs. Bagov 4",
+    "method": "KO (Punch)",
+    "round": 2,
+    "time": "1:11"
+   },
+   {
+    "date": "2024-12-15",
+    "result": "W",
+    "opponent": "Ali Abdulkhalikov",
+    "event": "ACA 182 - Odilov vs. Ibragimov",
+    "method": "Decision (Split)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-10-04",
+    "result": "W",
+    "opponent": "Mukhamed Kokov",
+    "event": "ACA 164 - Abdulvakhabov vs. Kokov",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "1:55"
+   },
+   {
+    "date": "2021-11-05",
+    "result": "W",
+    "opponent": "Hacran Dias",
+    "event": "ACA 131 - Abdulvakhabov vs. Dias",
+    "method": "Decision (Split)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2020-09-19",
+    "result": "W",
+    "opponent": "Alexander Sarnavskiy",
+    "event": "ACA 111 - Balaev vs. Khasbulaev",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-09-27",
+    "result": "W",
+    "opponent": "Imanali Gamzathanov",
+    "event": "ACA 99 - Bagov vs. Khaliev",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 2,
+    "time": "4:21"
+   },
+   {
+    "date": "2019-02-16",
+    "result": "W",
+    "opponent": "Brian Foster",
+    "event": "ACA 92 - Warsaw",
+    "method": "Submission (Arm-Triangle Choke)",
+    "round": 1,
+    "time": "1:36"
+   },
+   {
+    "date": "2018-09-08",
+    "result": "L",
+    "opponent": "Ali Bagov",
+    "event": "ACB 89 - Krasnodar",
+    "method": "Decision (Majority)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-12-23",
+    "result": "W",
+    "opponent": "Eduard Vartanyan",
+    "event": "ACB 77 - Moscow",
+    "method": "Decision (Split)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-10-22",
+    "result": "W",
+    "opponent": "Ali Bagov",
+    "event": "ACB 48 - Revenge",
+    "method": "TKO (Retirement)",
+    "round": 1,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-03-26",
+    "result": "W",
+    "opponent": "Eduard Vartanyan",
+    "event": "ACB 32 - Battle of Lions",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:53"
+   },
+   {
+    "date": "2015-12-20",
+    "result": "W",
+    "opponent": "Julio Cesar de Almeida",
+    "event": "ACB 27 - Dushanbe",
+    "method": "TKO (Punches)",
+    "round": 3,
+    "time": "1:37"
+   },
+   {
+    "date": "2015-09-12",
+    "result": "W",
+    "opponent": "Zulfikar Usmanov",
+    "event": "ACB 22 - St. Petersburg",
+    "method": "TKO (Doctor Stoppage)",
+    "round": 1,
+    "time": "4:47"
+   },
+   {
+    "date": "2015-05-23",
+    "result": "W",
+    "opponent": "Vadim Russul",
+    "event": "ACB 18 - Grand Prix Berkut 2015 Stage 5",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "4:59"
+   },
+   {
+    "date": "2014-06-22",
+    "result": "W",
+    "opponent": "Ali Bagov",
+    "event": "Absolute Championship Berkut - Grand Prix Berkut 9",
+    "method": "KO (Spinning Back Kick)",
+    "round": 3,
+    "time": "3:36"
+   },
+   {
+    "date": "2014-05-18",
+    "result": "W",
+    "opponent": "Rasul Ediev",
+    "event": "Absolute Championship Berkut - Grand Prix Berkut 7",
+    "method": "Submission (Guillotine Choke)",
+    "round": 2,
+    "time": "0:45"
+   },
+   {
+    "date": "2014-04-06",
+    "result": "W",
+    "opponent": "Islam Makoev",
+    "event": "Absolute Championship Berkut - Grand Prix Berkut 5",
+    "method": "Decision (Unanimous)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2013-12-19",
+    "result": "W",
+    "opponent": "Aktilek Jumabek",
+    "event": "Alash Pride - Great Battle 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2013-10-04",
+    "result": "W",
+    "opponent": "Garik Aivazyan",
+    "event": "Fight Nights - Battle on Terek",
+    "method": "Submission (Anaconda Choke)",
+    "round": 1,
+    "time": "4:24"
+   },
+   {
+    "date": "2012-04-27",
+    "result": "W",
+    "opponent": "Sergei Bal",
+    "event": "MB - Mortal Bet",
+    "method": "Submission (Arm-Triangle Choke)",
+    "round": 2,
+    "time": "3:20"
+   },
+   {
+    "date": "2012-04-06",
+    "result": "W",
+    "opponent": "Andrey Markovich",
+    "event": "League S-70 - Russian Championship Third Round",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2012-03-02",
+    "result": "W",
+    "opponent": "Ilya Gomelyuk",
+    "event": "MMACC - MMA Corona Cup 22",
+    "method": "TKO (Punches)",
+    "round": 3,
+    "time": null
+   },
+   {
+    "date": "2011-09-26",
+    "result": "L",
+    "opponent": "Magomed Alhasov",
+    "event": "ProFC Grand Prix Global - Caucasus",
+    "method": "Decision (Unanimous)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2011-09-26",
+    "result": "W",
+    "opponent": "Salim Kaskulov",
+    "event": "ProFC Grand Prix Global - Caucasus",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "4:24"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "RECORD MISMATCH: Sherdog profile shows 22-2-0 but acaListedRecord in fighters.json is 20-2-0. Sherdog locality: Grozny, Chechnya. No amateur/exhibition bouts listed. Two bouts on 2011-09-26 (same ProFC event); order kept as on Sherdog. Rows with no real fight time on Sherdog (time set to null): 2012-03-02 vs Ilya Gomelyuk (page shows 0:00). Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Gleison Tibau (40-19-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "gleison-tibau",
+  "name": "Gleison Tibau",
+  "sherdog": "https://www.sherdog.com/fighter/Gleison-Tibau-5993",
+  "sherdogName": "Gleison Tibau",
+  "nickname": null,
+  "birthDate": "1983-07-10",
+  "heightCm": 177.8,
+  "heightText": "5'10\"",
+  "weightLb": 170,
+  "nationality": "Brazil",
+  "association": "American Top Team",
+  "weightClass": "Welterweight",
+  "record": "40-19-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 4,
+   "sub": 16,
+   "dec": 20,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 5,
+   "sub": 2,
+   "dec": 11,
+   "other": 1
+  },
+  "history": [
+   {
+    "date": "2025-10-18",
+    "result": "W",
+    "opponent": "Matias Juarez",
+    "event": "WNC 3 - Warriors Night Championship 3",
+    "method": "Submission (Arm-Triangle Choke)",
+    "round": 1,
+    "time": "2:20"
+   },
+   {
+    "date": "2024-09-14",
+    "result": "W",
+    "opponent": "Joel Kouadja",
+    "event": "Warriors Night MMA - Warriors Night MMA 1",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-01-21",
+    "result": "W",
+    "opponent": "Burenzorig Batmunkh",
+    "event": "TB 1 - Top Brights 1",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-07-28",
+    "result": "L",
+    "opponent": "Boris Medvedev",
+    "event": "RCC 16 - Russian Cagefighting Championship 16",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "4:54"
+   },
+   {
+    "date": "2023-02-11",
+    "result": "L",
+    "opponent": "Alexey Kunchenko",
+    "event": "RCC 14 - Russian Cagefighting Championship 14",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-11-25",
+    "result": "L",
+    "opponent": "Magomed Magomedkerimov",
+    "event": "Professional Fighters League - 2022 Season PFL Championships",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-05-06",
+    "result": "L",
+    "opponent": "Jarrah Al-Silawi",
+    "event": "Professional Fighters League - PFL 3: 2022 Regular Season",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-08-13",
+    "result": "W",
+    "opponent": "Micah Terrill",
+    "event": "Professional Fighters League - PFL 7: 2021 Playoffs",
+    "method": "Technical Submission (Arm-Triangle Choke)",
+    "round": 1,
+    "time": "2:17"
+   },
+   {
+    "date": "2021-06-17",
+    "result": "W",
+    "opponent": "Rory MacDonald",
+    "event": "Professional Fighters League - PFL 5: 2021 Regular Season",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-04-29",
+    "result": "L",
+    "opponent": "Joao Zeferino",
+    "event": "Professional Fighters League - PFL 2: 2021 Regular Season",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-07-27",
+    "result": "W",
+    "opponent": "Will Brooks",
+    "event": "Battlefield FC 2 - Battlefield Fighting Championship 2",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "3:34"
+   },
+   {
+    "date": "2018-11-24",
+    "result": "W",
+    "opponent": "Efrain Escudero",
+    "event": "Golden Boy MMA - Liddell vs. Ortiz 3: War's End",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-06-01",
+    "result": "L",
+    "opponent": "Desmond Green",
+    "event": "UFC Fight Night 131 - Rivera vs. Moraes",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-01-20",
+    "result": "L",
+    "opponent": "Islam Makhachev",
+    "event": "UFC 220 - Miocic vs. Ngannou",
+    "method": "KO (Punch)",
+    "round": 1,
+    "time": "0:57"
+   },
+   {
+    "date": "2015-11-07",
+    "result": "L",
+    "opponent": "Abel Trujillo",
+    "event": "UFC Fight Night 77 - Belfort vs. Henderson 3",
+    "method": "Disqualification (Failed Drug Test)",
+    "round": 1,
+    "time": "1:45"
+   },
+   {
+    "date": "2015-02-28",
+    "result": "L",
+    "opponent": "Tony Ferguson",
+    "event": "UFC 184 - Rousey vs. Zingano",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "2:37"
+   },
+   {
+    "date": "2015-01-18",
+    "result": "W",
+    "opponent": "Norman Parke",
+    "event": "UFC Fight Night 59 - McGregor vs. Siver",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2014-09-13",
+    "result": "W",
+    "opponent": "Piotr Hallmann",
+    "event": "UFC Fight Night 51 - Bigfoot vs. Arlovski 2",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2014-07-16",
+    "result": "W",
+    "opponent": "Pat Healy",
+    "event": "UFC Fight Night 45 - Cerrone vs. Miller",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2013-12-28",
+    "result": "L",
+    "opponent": "Michael Johnson",
+    "event": "UFC 168 - Weidman vs. Silva 2",
+    "method": "KO (Punches)",
+    "round": 2,
+    "time": "1:32"
+   },
+   {
+    "date": "2013-08-31",
+    "result": "W",
+    "opponent": "Jamie Varner",
+    "event": "UFC 164 - Henderson vs. Pettis 2",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2013-05-18",
+    "result": "W",
+    "opponent": "John Cholish",
+    "event": "UFC on FX 8 - Belfort vs. Rockhold",
+    "method": "Submission (Guillotine Choke)",
+    "round": 2,
+    "time": "2:34"
+   },
+   {
+    "date": "2013-02-02",
+    "result": "L",
+    "opponent": "Evan Dunham",
+    "event": "UFC 156 - Aldo vs. Edgar",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2012-10-13",
+    "result": "W",
+    "opponent": "Francisco Trinaldo",
+    "event": "UFC 153 - Silva vs. Bonnar",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2012-07-07",
+    "result": "L",
+    "opponent": "Khabib Nurmagomedov",
+    "event": "UFC 148 - Silva vs. Sonnen 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2011-11-19",
+    "result": "W",
+    "opponent": "Rafael dos Anjos",
+    "event": "UFC 139 - Shogun vs. Henderson",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2011-05-28",
+    "result": "W",
+    "opponent": "Rafaello Oliveira",
+    "event": "UFC 130 - Rampage vs. Hamill",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 2,
+    "time": "3:28"
+   },
+   {
+    "date": "2011-03-19",
+    "result": "W",
+    "opponent": "Kurt Pellegrino",
+    "event": "UFC 128 - Shogun vs. Jones",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2010-09-15",
+    "result": "L",
+    "opponent": "Jim Miller",
+    "event": "UFC Fight Night 22 - Marquardt vs. Palhares",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2010-03-31",
+    "result": "W",
+    "opponent": "Caol Uno",
+    "event": "UFC Fight Night 21 - Florian vs. Gomi",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "4:13"
+   },
+   {
+    "date": "2009-10-24",
+    "result": "W",
+    "opponent": "Josh Neer",
+    "event": "UFC 104 - Machida vs. Shogun",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2009-06-20",
+    "result": "L",
+    "opponent": "Melvin Guillard",
+    "event": "UFC - The Ultimate Fighter 9 Finale",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2009-04-01",
+    "result": "W",
+    "opponent": "Jeremy Stephens",
+    "event": "UFC Fight Night 18 - Condit vs. Kampmann",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2009-02-07",
+    "result": "W",
+    "opponent": "Rich Clementi",
+    "event": "UFC Fight Night 17 - Lauzon vs. Stephens",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "4:35"
+   },
+   {
+    "date": "2008-07-05",
+    "result": "L",
+    "opponent": "Joe Stevenson",
+    "event": "UFC 86 - Jackson vs. Griffin",
+    "method": "Submission (Guillotine Choke)",
+    "round": 2,
+    "time": "2:57"
+   },
+   {
+    "date": "2008-02-02",
+    "result": "L",
+    "opponent": "Tyson Griffin",
+    "event": "UFC 81 - Breaking Point",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2007-09-08",
+    "result": "W",
+    "opponent": "Terry Etim",
+    "event": "UFC 75 - Champion vs. Champion",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2007-06-12",
+    "result": "W",
+    "opponent": "Jeff Cox",
+    "event": "UFC Fight Night 10 - Stout vs. Fisher 2",
+    "method": "Submission (Arm-Triangle Choke)",
+    "round": 1,
+    "time": "1:52"
+   },
+   {
+    "date": "2007-05-09",
+    "result": "W",
+    "opponent": "Antonio Moreno",
+    "event": "NCC - Nordeste Combat Championship",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "0:55"
+   },
+   {
+    "date": "2007-03-03",
+    "result": "W",
+    "opponent": "Jason Dent",
+    "event": "UFC 68 - Uprising",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2006-11-18",
+    "result": "L",
+    "opponent": "Nick Diaz",
+    "event": "UFC 65 - Bad Intentions",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "2:27"
+   },
+   {
+    "date": "2006-03-11",
+    "result": "W",
+    "opponent": "Jedrzej Kubski",
+    "event": "KO - Arena 4",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "1:03"
+   },
+   {
+    "date": "2005-12-02",
+    "result": "W",
+    "opponent": "Edilson Florencio",
+    "event": "MCM - Mega Combate Mossoro",
+    "method": "Submission (Triangle Choke)",
+    "round": 1,
+    "time": "3:26"
+   },
+   {
+    "date": "2005-07-09",
+    "result": "W",
+    "opponent": "Fabricio Camoes",
+    "event": "Meca 12 - Meca World Vale Tudo 12",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "2:15"
+   },
+   {
+    "date": "2005-06-11",
+    "result": "L",
+    "opponent": "Marcelo Brito",
+    "event": "SS 7 - Storm Samurai 7",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2005-03-10",
+    "result": "W",
+    "opponent": "Josenildo Rodrigues de Oliveira",
+    "event": "COVT - Ceara Open Vale Tudo 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2005-02-24",
+    "result": "W",
+    "opponent": "Anderson Cruz",
+    "event": "OF - Octagon Fight",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": null
+   },
+   {
+    "date": "2004-10-21",
+    "result": "W",
+    "opponent": "Josenildo Ramalho",
+    "event": "BC 2 - Brazilian Challenger 2",
+    "method": "Submission (Armbar)",
+    "round": 1,
+    "time": null
+   },
+   {
+    "date": "2004-10-07",
+    "result": "W",
+    "opponent": "Carlos Alexandre Pereira",
+    "event": "CN 11 - Champions Night 11",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "1:16"
+   },
+   {
+    "date": "2004-06-20",
+    "result": "W",
+    "opponent": "Adriano Martins",
+    "event": "AF - Amazonia Fight 1",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2004-05-21",
+    "result": "W",
+    "opponent": "Daniel Maia",
+    "event": "CN 10 - Champions Night 10",
+    "method": "Submission (Armbar)",
+    "round": 1,
+    "time": null
+   },
+   {
+    "date": "2004-03-09",
+    "result": "W",
+    "opponent": "Romario Manoel da Silva",
+    "event": "Desafio - Natal vs. Nordeste",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "2:30"
+   },
+   {
+    "date": "2003-07-13",
+    "result": "L",
+    "opponent": "Eiji Mitsuoka",
+    "event": "Deep - 11th Impact",
+    "method": "TKO (Corner Stoppage)",
+    "round": 2,
+    "time": "3:41"
+   },
+   {
+    "date": "2003-03-20",
+    "result": "W",
+    "opponent": "Fernando Terere",
+    "event": "BC - Bitetti Combat Nordeste 2",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2003-01-11",
+    "result": "W",
+    "opponent": "Unknown Fighter",
+    "event": "TF - Tibau Fight",
+    "method": "Submission (Keylock)",
+    "round": 1,
+    "time": null
+   },
+   {
+    "date": "2002-11-28",
+    "result": "W",
+    "opponent": "Paulo Roberto Nogueira da Silva Junior",
+    "event": "BC - Bitetti Combat Nordeste 1",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2001-06-30",
+    "result": "W",
+    "opponent": "Thiago Alves",
+    "event": "CN - Champions Night 2",
+    "method": "Submission (Armbar)",
+    "round": 2,
+    "time": "3:31"
+   },
+   {
+    "date": "2000-05-18",
+    "result": "W",
+    "opponent": "Rivanio Regis",
+    "event": "CNVTO - Currais Novos Vale Tudo Open",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "1999-12-24",
+    "result": "W",
+    "opponent": "Ricardo Ricardo",
+    "event": "MOVT 3 - Mossoro Open de Vale Tudo 3",
+    "method": "TKO (Retirement)",
+    "round": 1,
+    "time": null
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Loss 'other' = Disqualification (Failed Drug Test) vs Abel Trujillo 2015-11-07. Opponent of the 2003-01-11 Tibau Fight win is literally listed as 'Unknown Fighter'. No amateur/exhibition bouts listed. Rows with no real fight time on Sherdog (time set to null): 2005-02-24 vs Anderson Cruz (page shows N/A); 2004-10-21 vs Josenildo Ramalho (page shows 0:00); 2004-05-21 vs Daniel Maia (page shows 0:00); 2003-01-11 vs Unknown Fighter (page shows 0:00); 1999-12-24 vs Ricardo Ricardo (page shows 0:00). Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Abdul-Aziz Abdulvakhabov (22-2-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "abdul-rakhman-dudaev",
+  "name": "Abdul-Rakhman Dudaev",
+  "sherdog": "https://www.sherdog.com/fighter/AbdulRakhman-Dudaev-161789",
+  "sherdogName": "Abdul-Rakhman Dudaev",
+  "nickname": "The Warrior",
+  "birthDate": null,
+  "heightCm": 165.1,
+  "heightText": "5'5\"",
+  "weightLb": 139,
+  "nationality": "Russia",
+  "association": "Fight Club Akhmat",
+  "weightClass": "Featherweight",
+  "record": "34-10-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 10,
+   "sub": 11,
+   "dec": 13,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 2,
+   "sub": 0,
+   "dec": 7,
+   "other": 1
+  },
+  "history": [
+   {
+    "date": "2025-10-23",
+    "result": "W",
+    "opponent": "Pavel Vitruk",
+    "event": "ACA 194 - Johnson vs. Aliakbari",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-02-28",
+    "result": "L",
+    "opponent": "Maharbek Karginov",
+    "event": "ACA 184 - Vitruk vs. Silva",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-10-04",
+    "result": "W",
+    "opponent": "Daniel Oliveira",
+    "event": "ACA 180 - Gadzhiev vs. Gaforov",
+    "method": "KO (Punch)",
+    "round": 2,
+    "time": "2:44"
+   },
+   {
+    "date": "2024-01-26",
+    "result": "L",
+    "opponent": "Josiel Silva",
+    "event": "ACA 169 - Bibulatov vs. Deak",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-10-04",
+    "result": "W",
+    "opponent": "Cleverson Silva",
+    "event": "ACA 164 - Abdulvakhabov vs. Kokov",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:39"
+   },
+   {
+    "date": "2023-07-21",
+    "result": "W",
+    "opponent": "Francisco de Lima Maciel",
+    "event": "ACA 160 - Slipenko vs. Gadzhidaudov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-03-17",
+    "result": "L",
+    "opponent": "Alexey Polpudnikov",
+    "event": "ACA 154 - Vakhaev vs. Goncharov",
+    "method": "TKO (Punches to the Body)",
+    "round": 5,
+    "time": "4:25"
+   },
+   {
+    "date": "2022-10-04",
+    "result": "W",
+    "opponent": "Elismar Lima",
+    "event": "ACA 146 - Tumenov vs. Khiramagomedov",
+    "method": "TKO (Spinning Wheel Kick and Punches)",
+    "round": 1,
+    "time": "0:28"
+   },
+   {
+    "date": "2022-07-22",
+    "result": "W",
+    "opponent": "John Teixeira",
+    "event": "ACA 141 - Froes vs. Suleymanov",
+    "method": "KO (Spinning Backfist)",
+    "round": 1,
+    "time": "0:44"
+   },
+   {
+    "date": "2022-03-26",
+    "result": "W",
+    "opponent": "Rasul Mirzaev",
+    "event": "ACA 138 - Vagaev vs. Gadzhidaudov",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "4:06"
+   },
+   {
+    "date": "2022-01-28",
+    "result": "L",
+    "opponent": "Rustam Kerimov",
+    "event": "ACA 135 - Gasanov vs. Dzhanaev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-10-04",
+    "result": "W",
+    "opponent": "Rodrigo Praia",
+    "event": "ACA 130 - Vagasev vs. Gadzhidaudov",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "4:04"
+   },
+   {
+    "date": "2021-06-29",
+    "result": "W",
+    "opponent": "Francisco de Lima Maciel",
+    "event": "ACA 125 - Dudaev vs. De Lima",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "3:24"
+   },
+   {
+    "date": "2021-02-26",
+    "result": "W",
+    "opponent": "Pavel Vitruk",
+    "event": "ACA 118 - Abdulaev vs. Vagaev 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2020-10-04",
+    "result": "L",
+    "opponent": "Daniel Oliveira",
+    "event": "ACA 112 - Jubileu vs. Dudaev",
+    "method": "KO (Knee)",
+    "round": 3,
+    "time": "3:03"
+   },
+   {
+    "date": "2020-02-21",
+    "result": "W",
+    "opponent": "Islam Meshev",
+    "event": "ACA 104 - Krasnodar",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-09-27",
+    "result": "W",
+    "opponent": "Oleg Borisov",
+    "event": "ACA 99 - Bagov vs. Khaliev",
+    "method": "Submission (Guillotine Choke)",
+    "round": 2,
+    "time": "0:50"
+   },
+   {
+    "date": "2019-03-16",
+    "result": "L",
+    "opponent": "Rustam Kerimov",
+    "event": "ACA 93 - St. Petersburg",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-11-16",
+    "result": "W",
+    "opponent": "Joe Taimanglo",
+    "event": "WFCA 54 - Dudaev vs. Taimanglo",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-04-01",
+    "result": "W",
+    "opponent": "Mikhail Malyutin",
+    "event": "WFCA 47 - International Tournament",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-12-17",
+    "result": "W",
+    "opponent": "Alexey Naumov",
+    "event": "WFCA 44 - Grozny Battle",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "1:11"
+   },
+   {
+    "date": "2017-08-20",
+    "result": "W",
+    "opponent": "Paata Robakidze",
+    "event": "WFCA 39 - Tsentaroy Battle",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "0:35"
+   },
+   {
+    "date": "2017-04-01",
+    "result": "W",
+    "opponent": "Irmeson Cavalcante de Oliveira",
+    "event": "WFCA 35 - Battle in Astana",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-02-04",
+    "result": "W",
+    "opponent": "Daniel Virginio",
+    "event": "WFCA 33 - Grozny Battle",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-10-04",
+    "result": "L",
+    "opponent": "Said Nurmagomedov",
+    "event": "WFCA 30 - 2016 WFC Akhmat Grand Prix Final",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-05-22",
+    "result": "W",
+    "opponent": "Mateus Martins Vasco",
+    "event": "WFCA 22 - Grand Prix Akhmat",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "3:42"
+   },
+   {
+    "date": "2016-03-12",
+    "result": "W",
+    "opponent": "Diego Davella",
+    "event": "WFCA 16 - Grand Prix Akhmat",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2015-12-26",
+    "result": "W",
+    "opponent": "Vaughan Lee",
+    "event": "WFCA 13 - Grozny Battle",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2015-10-04",
+    "result": "W",
+    "opponent": "Jean Carlos Pereira dos Santos Souza",
+    "event": "WFCA 9 - Grozny Battle",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "3:33"
+   },
+   {
+    "date": "2015-08-22",
+    "result": "W",
+    "opponent": "Sidney Lessa de Oliveira",
+    "event": "WFCA 6 - Grozny Battle",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "0:51"
+   },
+   {
+    "date": "2015-06-13",
+    "result": "W",
+    "opponent": "Denis Mutsnek",
+    "event": "WFCA 3 - Grozny Battle",
+    "method": "Submission (Guillotine Choke)",
+    "round": 2,
+    "time": "3:15"
+   },
+   {
+    "date": "2015-03-14",
+    "result": "L",
+    "opponent": "Isaac Pimentel",
+    "event": "WFCA 1 - Grozny Battle",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2014-07-11",
+    "result": "L",
+    "opponent": "Movlid Khaybulaev",
+    "event": "Fight Nights - Battle of Moscow 16",
+    "method": "Decision (Unanimous)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2014-06-22",
+    "result": "W",
+    "opponent": "Musa Aziev",
+    "event": "Absolute Championship Berkut - Grand Prix Berkut 9",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2014-05-18",
+    "result": "W",
+    "opponent": "Magomed Alhasov",
+    "event": "Absolute Championship Berkut - Grand Prix Berkut 7",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "2:13"
+   },
+   {
+    "date": "2014-04-06",
+    "result": "W",
+    "opponent": "Aziz Khaydarov",
+    "event": "Absolute Championship Berkut - Grand Prix Berkut 5",
+    "method": "Decision (Unanimous)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2014-03-02",
+    "result": "W",
+    "opponent": "Ekhtiram Darishov",
+    "event": "Absolute Championship Berkut - Grand Prix Berkut 1",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2013-06-27",
+    "result": "W",
+    "opponent": "Nazar Ahtabaev",
+    "event": "RadMer 4 - 2 Round",
+    "method": "Submission (Guillotine Choke)",
+    "round": 2,
+    "time": "1:12"
+   },
+   {
+    "date": "2013-05-22",
+    "result": "W",
+    "opponent": "Alikhan Suleymanov",
+    "event": "Berkut Cup 2013 - 6 Final Round",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "4:50"
+   },
+   {
+    "date": "2013-04-10",
+    "result": "W",
+    "opponent": "Suleyman Dinaev",
+    "event": "Berkut Cup 2013 - 4 Round",
+    "method": "TKO (Retirement)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2013-03-20",
+    "result": "W",
+    "opponent": "Aydamir Magomedov",
+    "event": "Berkut Cup 2013 - 1 Round",
+    "method": "KO (Head Kick)",
+    "round": 1,
+    "time": "3:30"
+   },
+   {
+    "date": "2012-10-23",
+    "result": "W",
+    "opponent": "Aslan Shaov",
+    "event": "RadMer 3 - 2 Round",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "0:48"
+   },
+   {
+    "date": "2012-06-30",
+    "result": "W",
+    "opponent": "Yegor Stanislavski",
+    "event": "RadMer 2 - 2 Round",
+    "method": "Submission (Armbar)",
+    "round": 2,
+    "time": "1:50"
+   },
+   {
+    "date": "2012-03-18",
+    "result": "L",
+    "opponent": "Yerzhan Estanov",
+    "event": "AP - Nowruz Cup 2012",
+    "method": null,
+    "round": null,
+    "time": null
+   }
+  ],
+  "historyComplete": true,
+  "notes": "RECORD MISMATCH: Sherdog profile shows 34-10-0 but acaListedRecord in fighters.json is 33-10-0. Sherdog locality: Grozny, Chechnya. Birth date/age not shown on Sherdog. Loss 'other' = oldest bout (2012-03-18 vs Yerzhan Estanov, AP - Nowruz Cup 2012) which has no method, round or time on the page. Sherdog spells the ACA 130 event 'Vagasev vs. Gadzhidaudov' (same spelling appears on Rustam Kerimov's page). No amateur/exhibition bouts listed. Rows with no real fight time on Sherdog (time set to null): 2012-03-18 vs Yerzhan Estanov (page shows 0:00). Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Vicente Vargas (24-8-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "vicente-vargas",
+  "name": "Vicente Vargas",
+  "sherdog": "https://www.sherdog.com/fighter/Vicente-Vargas-182031",
+  "sherdogName": "Vicente Vargas",
+  "nickname": "Cemento",
+  "birthDate": "1991-03-16",
+  "heightCm": 172.72,
+  "heightText": "5'8\"",
+  "weightLb": 147,
+  "nationality": "Peru",
+  "association": "Team Ludus",
+  "weightClass": "Lightweight",
+  "record": "24-8-0",
+  "nc": 1,
+  "winsBy": {
+   "ko": 2,
+   "sub": 5,
+   "dec": 16,
+   "other": 1
+  },
+  "lossesBy": {
+   "ko": 2,
+   "sub": 1,
+   "dec": 5,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-06-19",
+    "result": "L",
+    "opponent": "Nashkho Galaev",
+    "event": "ACA 204 - Shlemenko vs. Dipchikov",
+    "method": "KO (Flying Knee)",
+    "round": 1,
+    "time": "1:59"
+   },
+   {
+    "date": "2025-12-05",
+    "result": "W",
+    "opponent": "Khafiz Sakibekov",
+    "event": "ACA 197 - Ibragimov vs. Magomedov",
+    "method": "Disqualification (Illegal Knee)",
+    "round": 2,
+    "time": "4:10"
+   },
+   {
+    "date": "2025-08-15",
+    "result": "W",
+    "opponent": "Said-Magomed Batukaev",
+    "event": "ACA 190 - Gasanov vs. Aryshev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-01-17",
+    "result": "L",
+    "opponent": "Ali AlQaisi",
+    "event": "UAE Warriors 57 - AlQaisi vs. Vargas",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-07-27",
+    "result": "W",
+    "opponent": "Walter Cogliandro",
+    "event": "UAE Warriors 51 - Magomedov vs. Kabdulla",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-03-03",
+    "result": "W",
+    "opponent": "Rafael Silva",
+    "event": "UAE Warriors 48 - Silva vs. Vargas",
+    "method": "TKO (Punches)",
+    "round": 3,
+    "time": "2:14"
+   },
+   {
+    "date": "2023-12-14",
+    "result": "W",
+    "opponent": "Rony Henrique",
+    "event": "FFC 70 - Vera vs. Vargas",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-09-28",
+    "result": "W",
+    "opponent": "Alex Cunuhay",
+    "event": "FFC 66 - Mollinedo vs. Pereyra",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-07-02",
+    "result": "L",
+    "opponent": "Mahatma Garcia",
+    "event": "UWC Mexico 45 - Chavez vs. Gordillo 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-12-15",
+    "result": "W",
+    "opponent": "Lionel Abojer",
+    "event": "FFC 56 - Basurto vs. Sosa 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-10-22",
+    "result": "W",
+    "opponent": "Oscar Guerrero",
+    "event": "Ushu Fight - Vargas vs. Guerrero",
+    "method": "Submission (Arm-Triangle Choke)",
+    "round": 2,
+    "time": "0:55"
+   },
+   {
+    "date": "2022-07-07",
+    "result": "W",
+    "opponent": "Maximiliano Perez",
+    "event": "Reto de Campeones 1 - Vargas vs. Perez",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-04-10",
+    "result": "W",
+    "opponent": "Guilherme Gomes",
+    "event": "ICC 8 - Vargas vs. Gomes",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-10-23",
+    "result": "W",
+    "opponent": "Alejandro Chavez",
+    "event": "FFC 47 - Vera vs. Diaz",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-12-14",
+    "result": "W",
+    "opponent": "Cristian Jose Herrera",
+    "event": "ICC 7 - Cordoba vs. Andrade",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-10-19",
+    "result": "L",
+    "opponent": "Sebastiao da Silva Calixto",
+    "event": "Iquitos Combat Championship - ICC 6",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-05-31",
+    "result": "W",
+    "opponent": "Zury Valenzuela",
+    "event": "Combate Americas 38 - Peru",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-05-04",
+    "result": "W",
+    "opponent": "Andy Rios",
+    "event": "Iquitos Combat Championship - ICC 4",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "3:00"
+   },
+   {
+    "date": "2018-11-07",
+    "result": "W",
+    "opponent": "Jorge Icomena",
+    "event": "FFC 35 - Tubarao vs. Zarauz",
+    "method": "TKO (Doctor's Stoppage)",
+    "round": 1,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-09-19",
+    "result": "W",
+    "opponent": "Cerapio Garcia",
+    "event": "FFC 34 - Mora vs. Diaz",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-07-18",
+    "result": "L",
+    "opponent": "Jose Zarauz",
+    "event": "FFC 33 - Iwasaki vs. Tubarao",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-02-21",
+    "result": "W",
+    "opponent": "Alonso Santos Verona Ganoza",
+    "event": "FFC 31 - Gonzales vs. Cordoba",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-11-22",
+    "result": "NC",
+    "opponent": "Fernando Noriega",
+    "event": "FFC 30 - Mora vs. Navarrete",
+    "method": "NC (Scorekeeper Error)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-05-24",
+    "result": "L",
+    "opponent": "Rudy Gavidia",
+    "event": "FFC 27 - Gavidia vs. Vargas",
+    "method": "KO (Slam)",
+    "round": 1,
+    "time": "3:00"
+   },
+   {
+    "date": "2017-02-22",
+    "result": "L",
+    "opponent": "Humberto Bandenay",
+    "event": "FFC 25 - Mora vs. Sordi 2",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 3,
+    "time": "2:40"
+   },
+   {
+    "date": "2016-09-30",
+    "result": "W",
+    "opponent": "Nilton Nunes da Silva",
+    "event": "300 Sparta 13 - Cordoba vs. Cyborg",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-06-30",
+    "result": "W",
+    "opponent": "Ivan Molnar",
+    "event": "300 Sparta 11 - Giglio vs. China",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "2:13"
+   },
+   {
+    "date": "2016-03-22",
+    "result": "W",
+    "opponent": "Roy Quispe",
+    "event": "300 Sparta 10 - Quispe vs. Vargas",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-02-18",
+    "result": "W",
+    "opponent": "Clever Cordova",
+    "event": "300 Sparta 9 - Cordoba vs. Torres",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "1:26"
+   },
+   {
+    "date": "2015-12-16",
+    "result": "W",
+    "opponent": "Rolly Acurio",
+    "event": "Inka - Inka Warriors 5",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "3:57"
+   },
+   {
+    "date": "2015-09-11",
+    "result": "L",
+    "opponent": "Roy Quispe",
+    "event": "300 Sparta 8 - MMA",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2015-04-18",
+    "result": "W",
+    "opponent": "Francesco Valentini",
+    "event": "300 Sparta 6 - MMA",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2014-12-03",
+    "result": "W",
+    "opponent": "Jahir Mollinedo",
+    "event": "Peru FC - Peru Fighting Championship 19",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "3:12"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Record 24-8-0 plus 1 NC. Sherdog locality: Lima. Win 'other' = Disqualification (Illegal Knee) vs Khafiz Sakibekov 2025-12-05. 1 NC (Scorekeeper Error, 2017-11-22). Sherdog weight class reads Lightweight although listed weight is 147 lb. Sherdog also lists 1 amateur bout: W Guillermo Leon, Submission (Guillotine Choke) R3 0:29, ACC 26 - Amateur Combat Club, 2014-07-26. Two rows show round times of 3:00 at end of round (Andy Rios dec R3 3:00; Rudy Gavidia KO R1 3:00) exactly as on page. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Abdul-Rakhman Dudaev (34-10-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "kurban-taygibov",
+  "name": "Kurban Taygibov",
+  "sherdog": "https://www.sherdog.com/fighter/Kurban-Taygibov-152563",
+  "sherdogName": "Kurban Taygibov",
+  "nickname": null,
+  "birthDate": "1995-07-12",
+  "heightCm": 177.8,
+  "heightText": "5'10\"",
+  "weightLb": 147,
+  "nationality": "Russia",
+  "association": "Abdulmanap Nurmagomedov School",
+  "weightClass": "Lightweight",
+  "record": "16-4-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 7,
+   "sub": 0,
+   "dec": 9,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 1,
+   "sub": 3,
+   "dec": 0,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-02-06",
+    "result": "W",
+    "opponent": "Said Khatiev",
+    "event": "ACA 200 - Gasanov vs. Tumenov",
+    "method": "TKO (Ankle Injury)",
+    "round": 2,
+    "time": "4:13"
+   },
+   {
+    "date": "2025-10-04",
+    "result": "W",
+    "opponent": "Yusup-Khadzhi Zubariev",
+    "event": "ACA 193 - Kerimov vs. Selimkhanov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-09-08",
+    "result": "L",
+    "opponent": "Islam Omarov",
+    "event": "ACA 179 - Omarov vs. Taygibov",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "1:40"
+   },
+   {
+    "date": "2023-07-21",
+    "result": "W",
+    "opponent": "Luis Rafael Laurentino",
+    "event": "ACA 160 - Slipenko vs. Gadzhidaudov",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": "3:19"
+   },
+   {
+    "date": "2022-12-16",
+    "result": "W",
+    "opponent": "Levan Makashvili",
+    "event": "ACA 149 - Vagaev vs. Slipenko",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-09-23",
+    "result": "W",
+    "opponent": "Cleverson Silva",
+    "event": "ACA 145 - Abdulaev vs. Slipenko",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "1:57"
+   },
+   {
+    "date": "2022-03-26",
+    "result": "W",
+    "opponent": "Bakytbek Duishobaev",
+    "event": "ACA 138 - Vagaev vs. Gadzhidaudov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-04-09",
+    "result": "L",
+    "opponent": "Alikhan Suleymanov",
+    "event": "ACA 121 - Kerefov vs. Albaskhanov",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "1:55"
+   },
+   {
+    "date": "2020-09-05",
+    "result": "L",
+    "opponent": "Ramazan Kishev",
+    "event": "ACA 110 - Bagov vs. Abdulaev",
+    "method": "TKO (Arm Injury)",
+    "round": 1,
+    "time": "4:31"
+   },
+   {
+    "date": "2019-12-14",
+    "result": "W",
+    "opponent": "Abdul-Rakhman Temirov",
+    "event": "ACA 103 - Butorin vs. Yagshimuradov",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-10-04",
+    "result": "W",
+    "opponent": "Jose Vagno Soares",
+    "event": "ACA 100 - Fight Day: Grozny",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-08-18",
+    "result": "W",
+    "opponent": "Felipe Froes",
+    "event": "WFCA 50 - Emelianenko vs. Johnson",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-03-30",
+    "result": "W",
+    "opponent": "Lom-Ali Nalgiev",
+    "event": "M-1 Challenge 90 - Kunchenko vs. Butenko",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-08-24",
+    "result": "W",
+    "opponent": "Igor Zhirkov",
+    "event": "FNG - Fight Nights Global 72",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "4:57"
+   },
+   {
+    "date": "2017-05-19",
+    "result": "W",
+    "opponent": "Konstantin Nazarov",
+    "event": "Samara MMA Federation - Battle on the Volga",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": "1:43"
+   },
+   {
+    "date": "2016-02-21",
+    "result": "W",
+    "opponent": "Akhmat Ismailov",
+    "event": "FightPro - Star Wars",
+    "method": "KO (Punch)",
+    "round": 2,
+    "time": "3:15"
+   },
+   {
+    "date": "2015-03-26",
+    "result": "W",
+    "opponent": "Zalim Kudaev",
+    "event": "Fight Nights - Fight Club 4",
+    "method": "Decision (Unanimous)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2014-02-27",
+    "result": "W",
+    "opponent": "Radzh Khizriev",
+    "event": "ID MMA Promotion - ID MMA 8",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "0:36"
+   },
+   {
+    "date": "2013-09-21",
+    "result": "W",
+    "opponent": "Zalimbek Omarov",
+    "event": "ID MMA Promotion - ID MMA 6",
+    "method": "Decision (Unanimous)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2013-03-23",
+    "result": "L",
+    "opponent": "Gusein Esenbaev",
+    "event": "ID MMA Promotion - ID MMA 3",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "1:21"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "RECORD MISMATCH: Sherdog profile shows 16-4-0 but acaListedRecord in fighters.json is 15-4-0. Sherdog locality: Makhachkala, Dagestan. Sherdog weight class reads Lightweight although listed weight is 147 lb. Sherdog also lists an amateur record of 4 wins (2016 World MMA Championships), not counted in pro record. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Dzhambulat Selimkhanov. History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "dzhambulat-selimkhanov",
+  "name": "Dzhambulat Selimkhanov",
+  "sherdog": "https://www.sherdog.com/fighter/Dzhambulat-Selimkhanov-250071",
+  "sherdogName": "Dzhambulat Selimkhanov",
+  "nickname": "Braveheart",
+  "birthDate": "1997-11-11",
+  "heightCm": 172.72,
+  "heightText": "5'8\"",
+  "weightLb": 147,
+  "nationality": "Russia",
+  "association": "Fight Club Akhmat",
+  "weightClass": "Lightweight",
+  "record": "16-4-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 8,
+   "sub": 3,
+   "dec": 5,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 1,
+   "sub": 2,
+   "dec": 1,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-05-08",
+    "result": "L",
+    "opponent": "Alimardan Abdykarov",
+    "event": "ACA 203 - Gaforov vs. Akopyan",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-10-04",
+    "result": "W",
+    "opponent": "Rustam Kerimov",
+    "event": "ACA 193 - Kerimov vs. Selimkhanov",
+    "method": "KO (Punch to the Body)",
+    "round": 5,
+    "time": "0:22"
+   },
+   {
+    "date": "2025-07-11",
+    "result": "W",
+    "opponent": "Murad Magomedov",
+    "event": "ACA 189 - Abdulvakhabov vs. Bagov 4",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-09-08",
+    "result": "L",
+    "opponent": "Bagama Nikabagamaev",
+    "event": "ACA 179 - Omarov vs. Taygibov",
+    "method": "Submission (Kimura)",
+    "round": 2,
+    "time": "4:35"
+   },
+   {
+    "date": "2024-01-26",
+    "result": "W",
+    "opponent": "Ronaldo Oliveira",
+    "event": "ACA 169 - Bibulatov vs. Deak",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:16"
+   },
+   {
+    "date": "2023-08-11",
+    "result": "W",
+    "opponent": "Bakhodir Tillabaev",
+    "event": "ACA 161 - Gasanov vs. Abdurakhmanov",
+    "method": "Submission (Anaconda Choke)",
+    "round": 1,
+    "time": "1:29"
+   },
+   {
+    "date": "2023-02-25",
+    "result": "W",
+    "opponent": "Irmeson Cavalcante de Oliveira",
+    "event": "ACA 152 - Bukuev vs. Gadzhiev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-11-04",
+    "result": "W",
+    "opponent": "Walter Pereira Jr.",
+    "event": "ACA 147 - Vartanyan vs. Raisov",
+    "method": "KO (Punch)",
+    "round": 1,
+    "time": "4:19"
+   },
+   {
+    "date": "2022-06-25",
+    "result": "W",
+    "opponent": "Basir Saraliev",
+    "event": "ACA YE 27 - ACA Young Eagles 27",
+    "method": "Decision (Split)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-02-19",
+    "result": "W",
+    "opponent": "Magomed Kadiev",
+    "event": "ACA YE 24 - ACA Young Eagles 24",
+    "method": "KO (Elbow)",
+    "round": 1,
+    "time": "2:02"
+   },
+   {
+    "date": "2021-08-16",
+    "result": "W",
+    "opponent": "Artem Nuzhnov",
+    "event": "ACA YE 20 - ACA Young Eagles 20",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "4:41"
+   },
+   {
+    "date": "2021-04-12",
+    "result": "W",
+    "opponent": "Khasan Dadalov",
+    "event": "ACA YE 18 - ACA Young Eagles 18: Grand Prix 1/4 Finals",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-02-20",
+    "result": "W",
+    "opponent": "Aleksandr Stovburenko",
+    "event": "ACA YE 17 - ACA Young Eagles 17: Grand Prix 2021 Opening Round 2",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:23"
+   },
+   {
+    "date": "2020-12-19",
+    "result": "L",
+    "opponent": "Arkadiy Osipyan",
+    "event": "ACA YE 15 - ACA Young Eagles",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 3,
+    "time": "3:57"
+   },
+   {
+    "date": "2020-03-07",
+    "result": "W",
+    "opponent": "Azamat Abazov",
+    "event": "ACA YE 12 - ACA Young Eagles",
+    "method": "TKO (Doctor Stoppage)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-03-31",
+    "result": "W",
+    "opponent": "Bashir Magomedov",
+    "event": "WFCA 46 - International Tournament",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": "2:17"
+   },
+   {
+    "date": "2017-04-22",
+    "result": "W",
+    "opponent": "Rauan Zholdas",
+    "event": "NFC 9 - Naiza Fighter Championship 9",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-08-17",
+    "result": "W",
+    "opponent": "Musa Khamkhoev",
+    "event": "Terek Battle - Terek Battle 1",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "2:44"
+   },
+   {
+    "date": "2016-07-23",
+    "result": "L",
+    "opponent": "Rakhim Gekhov",
+    "event": "Gladiator MMA Nalchik / Edinstvo Sport Club - Battle of Champions",
+    "method": "TKO (Retirement)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2015-10-15",
+    "result": "W",
+    "opponent": "Anzor Kibishev",
+    "event": "RFC - Bashlam Battle 2",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "1:52"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Sherdog locality: Grozny, Chechnya. Sherdog weight class reads Lightweight although listed weight is 147 lb. No amateur/exhibition bouts reported on the page. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Kurban Taygibov. History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "adlan-ibragimov",
+  "name": "Adlan Ibragimov",
+  "sherdog": "https://www.sherdog.com/fighter/Adlan-Ibragimov-282085",
+  "sherdogName": "Adlan Ibragimov",
+  "nickname": null,
+  "birthDate": "1989-02-02",
+  "heightCm": 182.88,
+  "heightText": "6'0\"",
+  "weightLb": 206,
+  "nationality": "Russia",
+  "association": "Fight Club Akhmat",
+  "weightClass": "Light Heavyweight",
+  "record": "9-3-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 2,
+   "sub": 3,
+   "dec": 4,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 2,
+   "sub": 0,
+   "dec": 1,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2025-12-05",
+    "result": "L",
+    "opponent": "Muslim Magomedov",
+    "event": "ACA 197 - Ibragimov vs. Magomedov",
+    "method": "KO (Punch)",
+    "round": 2,
+    "time": "3:08"
+   },
+   {
+    "date": "2024-12-15",
+    "result": "W",
+    "opponent": "Faridun Odilov",
+    "event": "ACA 182 - Odilov vs. Ibragimov",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 4,
+    "time": "2:28"
+   },
+   {
+    "date": "2024-03-09",
+    "result": "W",
+    "opponent": "Leonardo Silva",
+    "event": "ACA 172 - Esengulov vs. Vagaev",
+    "method": "Decision (Split)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-02-25",
+    "result": "W",
+    "opponent": "Evgeny Erokhin",
+    "event": "ACA 152 - Bukuev vs. Gadzhiev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-09-09",
+    "result": "L",
+    "opponent": "Leonardo Silva",
+    "event": "ACA 144 - Nemchinov vs. Dipchikov",
+    "method": "TKO (Elbows)",
+    "round": 2,
+    "time": "1:07"
+   },
+   {
+    "date": "2022-01-28",
+    "result": "W",
+    "opponent": "Carlos Eduardo",
+    "event": "ACA 135 - Gasanov vs. Dzhanaev",
+    "method": "TKO (Doctor Stoppage)",
+    "round": 1,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-03-12",
+    "result": "W",
+    "opponent": "Vladimir Fedin",
+    "event": "ACA 119 - Froes vs. Da Silva",
+    "method": "Submission (Arm-Triangle Choke)",
+    "round": 1,
+    "time": "2:31"
+   },
+   {
+    "date": "2020-09-05",
+    "result": "L",
+    "opponent": "Ilya Shcheglov",
+    "event": "ACA 110 - Bagov vs. Abdulaev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-03-23",
+    "result": "W",
+    "opponent": "Murat Gugov",
+    "event": "BYE 8 - Berkut Young Eagles: Grand-Prix Berkut Finals",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-12-22",
+    "result": "W",
+    "opponent": "Ismail Sagov",
+    "event": "BYE 7 - 2018 Berkut Young Eagles Grand Prix Semifinals",
+    "method": "Submission (Ezekiel Choke)",
+    "round": 3,
+    "time": "1:52"
+   },
+   {
+    "date": "2018-10-27",
+    "result": "W",
+    "opponent": "Amin Ergashev",
+    "event": "BYE 6 - 2018 Berkut Young Eagles Grand Prix: Quarterfinals 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-04-29",
+    "result": "W",
+    "opponent": "Edis Besic",
+    "event": "BYE 4 - 2018 Berkut Young Eagles Grand Prix: Opening Round 4",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "4:33"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "RECORD MISMATCH: Sherdog profile shows 9-3-0 but acaListedRecord in fighters.json is 9-2-0. Sherdog locality: Grozny, Chechnya. No amateur/exhibition bouts listed. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Sergey Starodub (7-2-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "sergey-starodub",
+  "name": "Sergey Starodub",
+  "sherdog": "https://www.sherdog.com/fighter/Sergey-Starodub-394567",
+  "sherdogName": "Sergey Starodub",
+  "nickname": null,
+  "birthDate": null,
+  "heightCm": 187.96,
+  "heightText": "6'2\"",
+  "weightLb": 206,
+  "nationality": "Belarus",
+  "association": null,
+  "weightClass": "Light Heavyweight",
+  "record": "7-2-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 2,
+   "sub": 4,
+   "dec": 1,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 1,
+   "sub": 0,
+   "dec": 1,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-03-27",
+    "result": "W",
+    "opponent": "Evgeny Erokhin",
+    "event": "ACA 201 - Silva vs. Podlesniy",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 2,
+    "time": "3:57"
+   },
+   {
+    "date": "2025-11-23",
+    "result": "W",
+    "opponent": "Husein Kushagov",
+    "event": "ACA 196 - Silva vs. Borisov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-04-11",
+    "result": "W",
+    "opponent": "Artem Dushenko",
+    "event": "ACA 185 - Maher vs. Koshkin",
+    "method": "Technical Submission (North-South Choke)",
+    "round": 1,
+    "time": "4:36"
+   },
+   {
+    "date": "2024-10-04",
+    "result": "L",
+    "opponent": "Caio Bittencourt",
+    "event": "ACA 180 - Gadzhiev vs. Gaforov",
+    "method": "TKO (Knee and Punches)",
+    "round": 2,
+    "time": "0:33"
+   },
+   {
+    "date": "2024-03-29",
+    "result": "L",
+    "opponent": "Ruslan Gabaraev",
+    "event": "ACA 173 - Frolov vs. Yankovsky",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-09-22",
+    "result": "W",
+    "opponent": "Batraz Agnaev",
+    "event": "ACA 163 - Kolodko vs. Mamashov",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "0:38"
+   },
+   {
+    "date": "2023-02-11",
+    "result": "W",
+    "opponent": "Deni Rasaev",
+    "event": "RCC 14 - Russian Cagefighting Championship 14",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "3:45"
+   },
+   {
+    "date": "2021-11-14",
+    "result": "W",
+    "opponent": "Artem Vitkovskiy",
+    "event": "BFC: Contender Series 8 - Belarusian Fighting Championship",
+    "method": "Submission",
+    "round": 1,
+    "time": "0:44"
+   },
+   {
+    "date": "2021-10-16",
+    "result": "W",
+    "opponent": "Aziz Amanov",
+    "event": "OC - Oplot Challenge 117",
+    "method": "Submission (Choke)",
+    "round": 1,
+    "time": "0:15"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Sherdog locality: Minsk. Birth date/age and association not shown on Sherdog (N/A). No amateur/exhibition bouts listed. 2021-11-14 win method is just 'Submission' with no detail on the page. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Adlan Ibragimov (9-3-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "rustam-kerimov",
+  "name": "Rustam Kerimov",
+  "sherdog": "https://www.sherdog.com/fighter/Rustam-Kerimov-127209",
+  "sherdogName": "Rustam Kerimov",
+  "nickname": null,
+  "birthDate": "1993-01-06",
+  "heightCm": 165.1,
+  "heightText": "5'5\"",
+  "weightLb": 147,
+  "nationality": "Russia",
+  "association": "Fight Club Akhmat",
+  "weightClass": "Lightweight",
+  "record": "22-2-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 9,
+   "sub": 2,
+   "dec": 11,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 1,
+   "sub": 0,
+   "dec": 1,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-03-27",
+    "result": "W",
+    "opponent": "David Dzhibilov",
+    "event": "ACA 201 - Silva vs. Podlesniy",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-10-04",
+    "result": "L",
+    "opponent": "Dzhambulat Selimkhanov",
+    "event": "ACA 193 - Kerimov vs. Selimkhanov",
+    "method": "KO (Punch to the Body)",
+    "round": 5,
+    "time": "0:22"
+   },
+   {
+    "date": "2025-04-11",
+    "result": "W",
+    "opponent": "Luis Rafael Laurentino",
+    "event": "ACA 185 - Maher vs. Koshkin",
+    "method": "KO (Punches)",
+    "round": 2,
+    "time": "1:59"
+   },
+   {
+    "date": "2024-06-28",
+    "result": "W",
+    "opponent": "Cleverson Silva",
+    "event": "ACA 177 - Bagov vs. Shaikhaev 2",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "1:47"
+   },
+   {
+    "date": "2023-12-24",
+    "result": "W",
+    "opponent": "Charles Henrique",
+    "event": "ACA 168 - Gadzhidaudov vs. Tumenov",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "4:06"
+   },
+   {
+    "date": "2023-08-11",
+    "result": "W",
+    "opponent": "Josiel Silva",
+    "event": "ACA 161 - Gasanov vs. Abdurakhmanov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-03-17",
+    "result": "L",
+    "opponent": "Oleg Borisov",
+    "event": "ACA 154 - Vakhaev vs. Goncharov",
+    "method": "Decision (Split)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-10-04",
+    "result": "W",
+    "opponent": "Carlos Augusto",
+    "event": "ACA 146 - Tumenov vs. Khiramagomedov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-01-28",
+    "result": "W",
+    "opponent": "Abdul-Rakhman Dudaev",
+    "event": "ACA 135 - Gasanov vs. Dzhanaev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-10-04",
+    "result": "W",
+    "opponent": "Daniel Oliveira",
+    "event": "ACA 130 - Vagasev vs. Gadzhidaudov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-12-14",
+    "result": "W",
+    "opponent": "Francisco de Lima Maciel",
+    "event": "ACA 103 - Butorin vs. Yagshimuradov",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": "3:16"
+   },
+   {
+    "date": "2019-03-16",
+    "result": "W",
+    "opponent": "Abdul-Rakhman Dudaev",
+    "event": "ACA 93 - St. Petersburg",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-03-24",
+    "result": "W",
+    "opponent": "Oleg Borisov",
+    "event": "ACB 83 - Baku",
+    "method": "Decision (Split)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-09-30",
+    "result": "W",
+    "opponent": "Takeya Mizugaki",
+    "event": "ACB 71 - Moscow",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "3:20"
+   },
+   {
+    "date": "2017-05-20",
+    "result": "W",
+    "opponent": "Tural Ragimov",
+    "event": "ACB 61 - St. Petersburg",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": "0:20"
+   },
+   {
+    "date": "2016-12-03",
+    "result": "W",
+    "opponent": "Beslan Afashagov",
+    "event": "MixFace / Tech-Krep FC - MixFace 1",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:46"
+   },
+   {
+    "date": "2016-08-05",
+    "result": "W",
+    "opponent": "Andrey Goncharov",
+    "event": "Tech-Krep FC - Prime Selection 10",
+    "method": "Decision (Unanimous)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-06-18",
+    "result": "W",
+    "opponent": "Georgii Eivas",
+    "event": "Tech-Krep FC - Prime Selection 8",
+    "method": "Decision (Unanimous)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-06-03",
+    "result": "W",
+    "opponent": "Alexander Peduson",
+    "event": "ACB 40 - Battleground",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2013-04-27",
+    "result": "W",
+    "opponent": "Anatoly Kormilkin",
+    "event": "VKF - Russia vs. Bulgaria",
+    "method": "TKO (Doctor Stoppage)",
+    "round": 2,
+    "time": "2:34"
+   },
+   {
+    "date": "2012-12-15",
+    "result": "W",
+    "opponent": "Konstantin Fillipov",
+    "event": "Veliky Novgorod MMA Federation - Battle on the Ice",
+    "method": "Decision (Unanimous)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2012-08-13",
+    "result": "W",
+    "opponent": "Murad Magomedov",
+    "event": "LF - Legion Fight Night",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "2:59"
+   },
+   {
+    "date": "2012-06-08",
+    "result": "W",
+    "opponent": "Oleg Golovin",
+    "event": "WMMAF - World MMA Championship 2012",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:31"
+   },
+   {
+    "date": "2012-04-26",
+    "result": "W",
+    "opponent": "Konstantin Fillipov",
+    "event": "Fight Star - European MMA Cup",
+    "method": "Submission (Leg lock)",
+    "round": 1,
+    "time": "1:10"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Sherdog locality: Dagestan. The plain Sherdog URL was served as a stale snapshot through WebFetch (21-2, no upcoming fight, missing the 2026-03-27 win over David Dzhibilov); a cache-busted fetch returned the current page (22-2, ACA 208 upcoming). No amateur/exhibition bouts listed. Sherdog spells the ACA 130 event 'Vagasev vs. Gadzhidaudov'. Current page bio: 147 lb / Lightweight (the stale snapshot showed 145 lb / Featherweight). Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Alexander Podlesniy (23-8-2). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "aleksandr-podlesniy",
+  "name": "Aleksandr Podlesniy",
+  "sherdog": "https://www.sherdog.com/fighter/Alexander-Podlesniy-192355",
+  "sherdogName": "Alexander Podlesniy",
+  "nickname": null,
+  "birthDate": null,
+  "heightCm": 170.18,
+  "heightText": "5'7\"",
+  "weightLb": 136,
+  "nationality": "Ukraine",
+  "association": "Oplot",
+  "weightClass": "Bantamweight",
+  "record": "23-8-2",
+  "nc": 1,
+  "winsBy": {
+   "ko": 5,
+   "sub": 8,
+   "dec": 10,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 2,
+   "sub": 2,
+   "dec": 4,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-03-27",
+    "result": "NC",
+    "opponent": "Josiel Silva",
+    "event": "ACA 201 - Silva vs. Podlesniy",
+    "method": "No Contest (Accidental Eye Poke)",
+    "round": 2,
+    "time": "2:53"
+   },
+   {
+    "date": "2025-06-28",
+    "result": "W",
+    "opponent": "Pavel Vitruk",
+    "event": "ACA 188 - Gadzhiev vs. Pshukov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-03-09",
+    "result": "W",
+    "opponent": "Timur Valiev",
+    "event": "ACA 172 - Esengulov vs. Vagaev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-09-22",
+    "result": "W",
+    "opponent": "Alimardan Abdykarov",
+    "event": "ACA 163 - Kolodko vs. Mamashov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-04-28",
+    "result": "W",
+    "opponent": "Vazha Tsiptauri",
+    "event": "ACA 156 - Koshkin vs. Boyko",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-01-27",
+    "result": "W",
+    "opponent": "Kirill Fomenkov",
+    "event": "ACA 151 - Abiltarov vs. Gomes",
+    "method": "TKO (Elbows and Punches)",
+    "round": 3,
+    "time": "2:02"
+   },
+   {
+    "date": "2022-09-23",
+    "result": "L",
+    "opponent": "Charles Henrique",
+    "event": "ACA 145 - Abdulaev vs. Slipenko",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-05-21",
+    "result": "W",
+    "opponent": "Francisco de Lima Maciel",
+    "event": "ACA 139 - Vartanyan vs. Ilunga",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-12-18",
+    "result": "D",
+    "opponent": "Mustafa Sharifov",
+    "event": "ProFC 69 - Professional Fighting Championship 69",
+    "method": "Draw (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-11-26",
+    "result": "W",
+    "opponent": "Elnar Ibragimov",
+    "event": "NFC 35 - Naiza Fighter Championship 35",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "2:23"
+   },
+   {
+    "date": "2020-12-19",
+    "result": "W",
+    "opponent": "Maxim Usoyan",
+    "event": "RCC 8 - Russian Cagefighting Championship 8",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-12-22",
+    "result": "W",
+    "opponent": "Charmigula Serazhutdinov",
+    "event": "ProFC 66 - Professional Fighting Championship 66",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "1:58"
+   },
+   {
+    "date": "2019-08-11",
+    "result": "D",
+    "opponent": "Alimardan Abdykarov",
+    "event": "VFC 2 - Veles Fighting Championship 2",
+    "method": "Draw",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-05-03",
+    "result": "L",
+    "opponent": "Tagir Ulanbekov",
+    "event": "GFC - GFC 11",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-10-16",
+    "result": "W",
+    "opponent": "Igor Chudnetsov",
+    "event": "FIGHT MASTERS PRODUCTIONS - \"REVIVAL\"",
+    "method": "Submission (Guillotine Choke)",
+    "round": 2,
+    "time": "2:15"
+   },
+   {
+    "date": "2018-07-14",
+    "result": "L",
+    "opponent": "Fatkhidin Sobirov",
+    "event": "WFCA 49 - Grozny Battle",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-02-17",
+    "result": "W",
+    "opponent": "Khasan Galaev",
+    "event": "VHTHFF - Stalingrad Cup 12",
+    "method": "Submission (Triangle Choke)",
+    "round": 3,
+    "time": "4:00"
+   },
+   {
+    "date": "2017-08-26",
+    "result": "W",
+    "opponent": "Artem Lobanov",
+    "event": "Donbass Association of Combat Sports - United Donbass",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-07-21",
+    "result": "W",
+    "opponent": "Nikita Mikhailov",
+    "event": "Champion No. 1 Fight Club - International MMA Tournament",
+    "method": "Submission (Triangle Choke)",
+    "round": 1,
+    "time": "2:13"
+   },
+   {
+    "date": "2017-05-27",
+    "result": "W",
+    "opponent": "Sergey Kryuchin",
+    "event": "Oplot Fight Club - Donetsk People's Republic Day 2017 International MMA Tournament",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "1:20"
+   },
+   {
+    "date": "2017-02-25",
+    "result": "L",
+    "opponent": "Azam Gaforov",
+    "event": "WFCA 34 - Battle in Moscow",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-10-23",
+    "result": "W",
+    "opponent": "Vitaliy Shkilny",
+    "event": "World Cossack Fight Federation - 2016 Ukrainian Selection",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:34"
+   },
+   {
+    "date": "2016-09-03",
+    "result": "L",
+    "opponent": "Nashkho Galaev",
+    "event": "ACB 44 - Young Eagles 12",
+    "method": "TKO (Retirement)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-06-05",
+    "result": "W",
+    "opponent": "Vyacheslav Batiuk",
+    "event": "World Cossack Fight Federation - MMA Cup 6",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "0:25"
+   },
+   {
+    "date": "2016-04-16",
+    "result": "W",
+    "opponent": "Vagif Askerov",
+    "event": "World Cossack Fight Federation - MMA Cup 5",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-03-30",
+    "result": "W",
+    "opponent": "Gil Don Kim",
+    "event": "World Cossack Fight Federation - MMA Cup 4",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "2:36"
+   },
+   {
+    "date": "2016-03-30",
+    "result": "W",
+    "opponent": "Ramin Islamov",
+    "event": "World Cossack Fight Federation - MMA Cup 4",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2015-12-27",
+    "result": "L",
+    "opponent": "Temryuk Berkhamov",
+    "event": "ACB 28 - Young Eagles 4",
+    "method": "Submission (Arm-Triangle Choke)",
+    "round": 2,
+    "time": "2:28"
+   },
+   {
+    "date": "2015-11-08",
+    "result": "L",
+    "opponent": "Nikolay Kondratyuk",
+    "event": "RFP 37 - West Fight 17",
+    "method": "Submission (Triangle Choke)",
+    "round": 2,
+    "time": "2:00"
+   },
+   {
+    "date": "2015-08-28",
+    "result": "W",
+    "opponent": "Yuriy Flis",
+    "event": "RFP 33 - West Fight 15",
+    "method": "Submission (Heel Hook)",
+    "round": 1,
+    "time": "3:40"
+   },
+   {
+    "date": "2015-07-31",
+    "result": "L",
+    "opponent": "Grachik Engibaryan",
+    "event": "Fight Nights - Sochi",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "1:46"
+   },
+   {
+    "date": "2015-07-05",
+    "result": "W",
+    "opponent": "Vagif Askerov",
+    "event": "RFP 31 - West Fight 14",
+    "method": "Submission (Guillotine Choke)",
+    "round": 2,
+    "time": "0:35"
+   },
+   {
+    "date": "2015-06-13",
+    "result": "W",
+    "opponent": "Vasiliy Voynilenko",
+    "event": "RFP 30 - Wolf Fighting Club 7",
+    "method": "KO (Knee)",
+    "round": 1,
+    "time": "2:43"
+   },
+   {
+    "date": "2015-03-05",
+    "result": "W",
+    "opponent": "Mamuka Ovakimyan",
+    "event": "ECSF - Steel Warriors",
+    "method": "Decision (Unanimous)",
+    "round": 2,
+    "time": "5:00"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Record 23-8-2 plus 1 NC. Sherdog locality: Horlivka, Donetsk. Sherdog spells the name 'Alexander Podlesniy' (fighters.json: Aleksandr). Birth date/age not shown on Sherdog. 1 NC (Accidental Eye Poke, 2026-03-27 vs Josiel Silva). Two bouts on 2016-03-30 (same event); order kept as on Sherdog. Sherdog also lists 1 amateur bout: W Bogdan Pashkov TKO (Punches) R1 2:12, RFP 28 - West Fight 12, 2015-05-24. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Rustam Kerimov (22-2-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "abdul-rakhman-dzhanaev",
+  "name": "Abdul-Rakhman Dzhanaev",
+  "sherdog": "https://www.sherdog.com/fighter/AbdulRahman-Dzhanaev-181539",
+  "sherdogName": "Abdul-Rahman Dzhanaev",
+  "nickname": null,
+  "birthDate": "1990-01-10",
+  "heightCm": 182.88,
+  "heightText": "6'0\"",
+  "weightLb": 187,
+  "nationality": "Russia",
+  "association": "Fight Club Akhmat",
+  "weightClass": "Light Heavyweight",
+  "record": "20-6-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 7,
+   "sub": 1,
+   "dec": 12,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 3,
+   "sub": 0,
+   "dec": 3,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-07-17",
+    "result": "L",
+    "opponent": "Edil Esengulov",
+    "event": "ACA 205 - Magomedov vs. Gasanov",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:04"
+   },
+   {
+    "date": "2025-06-28",
+    "result": "W",
+    "opponent": "Anderson Goncalves",
+    "event": "ACA 188 - Gadzhiev vs. Pshukov",
+    "method": "TKO (Spinning Wheel Kick)",
+    "round": 1,
+    "time": "4:54"
+   },
+   {
+    "date": "2025-02-08",
+    "result": "L",
+    "opponent": "Ramazan Emeev",
+    "event": "ACA 183 - Tumenov vs. Vagaev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-08-16",
+    "result": "W",
+    "opponent": "Ibragim Magomedov",
+    "event": "ACA 178 - Goncharov vs. Bogatyrev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-02-09",
+    "result": "L",
+    "opponent": "Shamil Abdulaev",
+    "event": "ACA 170 - Goncharov vs. Vyazigin 2",
+    "method": "TKO (Punches)",
+    "round": 3,
+    "time": "4:15"
+   },
+   {
+    "date": "2023-08-11",
+    "result": "W",
+    "opponent": "Chris Honeycutt",
+    "event": "ACA 161 - Gasanov vs. Abdurakhmanov",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:04"
+   },
+   {
+    "date": "2022-11-18",
+    "result": "W",
+    "opponent": "Mikhail Dolgov",
+    "event": "ACA 148 - Magomedov vs. Olenichev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-06-17",
+    "result": "W",
+    "opponent": "Nikola Dipchikov",
+    "event": "ACA 140 - Reznikov vs. Ramos",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-01-28",
+    "result": "L",
+    "opponent": "Magomedrasul Gasanov",
+    "event": "ACA 135 - Gasanov vs. Dzhanaev",
+    "method": "TKO (Doctor Stoppage)",
+    "round": 4,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-08-28",
+    "result": "W",
+    "opponent": "Artem Frolov",
+    "event": "ACA 127 - Kerefov vs. Albaskhanov",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-02-26",
+    "result": "W",
+    "opponent": "Cleber Sousa Silva",
+    "event": "ACA 118 - Abdulaev vs. Vagaev 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2020-11-06",
+    "result": "W",
+    "opponent": "Nodar Kudukhashvili",
+    "event": "ACA 113 - Kerefov vs. Gadzhiev 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2020-03-06",
+    "result": "W",
+    "opponent": "Alex Garcia",
+    "event": "ACA 105 - Almaty",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "0:44"
+   },
+   {
+    "date": "2019-10-04",
+    "result": "L",
+    "opponent": "Ibragim Magomedov",
+    "event": "ACA 100 - Grozny",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-02-16",
+    "result": "W",
+    "opponent": "Wendres Carlos da Silva",
+    "event": "ACA 92 - Warsaw",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-02-23",
+    "result": "W",
+    "opponent": "Leandro Silva",
+    "event": "ACB 81 - Dubai",
+    "method": "Submission (Armbar)",
+    "round": 3,
+    "time": "4:52"
+   },
+   {
+    "date": "2017-11-18",
+    "result": "W",
+    "opponent": "Clifford Starks",
+    "event": "ACB 74 - Vienna",
+    "method": "Decision (Majority)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-08-19",
+    "result": "W",
+    "opponent": "Isac Almeida",
+    "event": "ACB 67 - Grozny: Cooper vs. Berkhamov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-03-11",
+    "result": "W",
+    "opponent": "Adam Zajac",
+    "event": "ACB 54 - Manchester: Supersonic",
+    "method": "TKO (Doctor Stoppage)",
+    "round": 2,
+    "time": "2:50"
+   },
+   {
+    "date": "2016-10-22",
+    "result": "W",
+    "opponent": "Vasily Novikov",
+    "event": "ACB 48 - Revenge",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-06-03",
+    "result": "L",
+    "opponent": "Shamil Abdulkhalikov",
+    "event": "ACB 40 - Battleground",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-03-09",
+    "result": "W",
+    "opponent": "Charles Allgood",
+    "event": "ACB 31 - Magomedsharipov vs. Arapkhanov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2015-12-20",
+    "result": "W",
+    "opponent": "Abdisamat Uulu Durusbek",
+    "event": "ACB 27 - Dushanbe",
+    "method": "KO (Punch)",
+    "round": 1,
+    "time": "1:49"
+   },
+   {
+    "date": "2015-03-21",
+    "result": "W",
+    "opponent": "Alexey Efremov",
+    "event": "ACB 15 - Grand Prix Berkut 2015 Stage 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2014-12-06",
+    "result": "W",
+    "opponent": "Andreas Birgels",
+    "event": "BOS - Battle of Stars 3",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "2:55"
+   },
+   {
+    "date": "2014-11-15",
+    "result": "W",
+    "opponent": "Denis Denisov",
+    "event": "ACB 11 - Vol. 2",
+    "method": "TKO (Knee to the Body and Punches)",
+    "round": 1,
+    "time": "0:42"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Sherdog locality: Grozny, Chechnya. Sherdog spells the name 'Abdul-Rahman Dzhanaev' (fighters.json: Abdul-Rakhman). The plain Sherdog URL was served as a stale snapshot through WebFetch (20-5, upcoming ACA 205 on 2026-07-17 vs Edil Esengulov); a cache-busted fetch returned the current page (20-6, includes the 2026-07-17 TKO loss, ACA 208 upcoming). Current page bio: 187 lb / Light Heavyweight (the stale snapshot showed 185 lb / Middleweight); all values here are from the current page. No amateur/exhibition bouts listed. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Mikhail Dolgov (11-9-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "mikhail-dolgov",
+  "name": "Mikhail Dolgov",
+  "sherdog": "https://www.sherdog.com/fighter/Mikhail-Dolgov-246783",
+  "sherdogName": "Mikhail Dolgov",
+  "nickname": "Misha",
+  "birthDate": "1996-09-20",
+  "heightCm": 185.42,
+  "heightText": "6'1\"",
+  "weightLb": 187,
+  "nationality": "Russia",
+  "association": "Evolve Gym",
+  "weightClass": "Light Heavyweight",
+  "record": "11-9-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 3,
+   "sub": 2,
+   "dec": 6,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 2,
+   "sub": 0,
+   "dec": 7,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-03-27",
+    "result": "L",
+    "opponent": "Ewerton Polaquini",
+    "event": "ACA 201 - Silva vs. Podlesniy",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-05-10",
+    "result": "L",
+    "opponent": "Rene Pessoa",
+    "event": "ACA 186 - Bogatyrev vs. Kornilov II",
+    "method": "KO (Punch)",
+    "round": 1,
+    "time": "1:59"
+   },
+   {
+    "date": "2024-12-15",
+    "result": "L",
+    "opponent": "Sergey Kalinin",
+    "event": "ACA 182 - Odilov vs. Ibragimov",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-06-28",
+    "result": "W",
+    "opponent": "Husein Kushagov",
+    "event": "ACA 177 - Bagov vs. Shaikhaev 2",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-04-19",
+    "result": "W",
+    "opponent": "Chris Honeycutt",
+    "event": "ACA 174 - Borisov vs. Vitruk",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-11-24",
+    "result": "L",
+    "opponent": "Ibragim Magomedov",
+    "event": "ACA 166 - Magomedov vs. Dolgov",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-04-08",
+    "result": "W",
+    "opponent": "Nikola Dipchikov",
+    "event": "ACA 155 - Karginov vs. Silva",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "2:55"
+   },
+   {
+    "date": "2022-11-18",
+    "result": "L",
+    "opponent": "Abdul-Rahman Dzhanaev",
+    "event": "ACA 148 - Magomedov vs. Olenichev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-08-13",
+    "result": "W",
+    "opponent": "Irwing Romero Machado",
+    "event": "ACA 142 - Gadzhidaudov vs. Amagov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-05-21",
+    "result": "L",
+    "opponent": "Vladislav Yankovsky",
+    "event": "ACA 139 - Vartanyan vs. Ilunga",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-11-05",
+    "result": "W",
+    "opponent": "Jovan Zdelar",
+    "event": "ACA 131 - Abdulvakhabov vs. Dias",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 3,
+    "time": "2:43"
+   },
+   {
+    "date": "2021-05-28",
+    "result": "W",
+    "opponent": "Cleber Sousa Silva",
+    "event": "ACA 123 - Koshkin vs. Butenko",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-02-12",
+    "result": "L",
+    "opponent": "Husein Kushagov",
+    "event": "ACA 117 - Bagov vs. Silverio",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-10-20",
+    "result": "W",
+    "opponent": "Artem Kuzmin",
+    "event": "BYE 10 - Berkut Young Eagles: Rasulov vs. Kilaev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-02-23",
+    "result": "L",
+    "opponent": "Ramazan Amirov",
+    "event": "LFC - Ledokol FC 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-09-01",
+    "result": "L",
+    "opponent": "Aleksander Podmarev",
+    "event": "RCC - Intro 1",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "3:50"
+   },
+   {
+    "date": "2018-04-22",
+    "result": "W",
+    "opponent": "Ilyar Iminov",
+    "event": "BYE 3 - 2018 Berkut Young Eagles Grand Prix: Opening Round 3",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "2:41"
+   },
+   {
+    "date": "2018-02-10",
+    "result": "W",
+    "opponent": "Denis Ogbolu",
+    "event": "SLMMA 13 - Vartanov vs. Prismakov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-09-03",
+    "result": "W",
+    "opponent": "Aleksandr Markosyan",
+    "event": "Barbershow Russia 2017 - Barbershow",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "2:05"
+   },
+   {
+    "date": "2017-02-25",
+    "result": "W",
+    "opponent": "Sergey Ivanov",
+    "event": "Student League MMA - Denisov vs. Zharkov",
+    "method": "TKO",
+    "round": 1,
+    "time": "3:08"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Sherdog locality: Moscow. Sherdog weight class reads Light Heavyweight although listed weight is 187 lb. Oldest win (2017-02-25) method is just 'TKO' with no detail. Sherdog also lists 1 amateur bout: W Artem Gruzdov TKO (Punches) R2 3:50, Stalingrad Fight Club - Steel Warriors, 2017-02-05. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Abdul-Rahman Dzhanaev (20-6-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "daniil-matsola",
+  "name": "Daniil Matsola",
+  "sherdog": "https://www.sherdog.com/fighter/Daniil-Matsola-460328",
+  "sherdogName": "Daniil Matsola",
+  "nickname": "Palach / Executioner",
+  "birthDate": null,
+  "heightCm": 190.5,
+  "heightText": "6'3\"",
+  "weightLb": 240,
+  "nationality": "Russia",
+  "association": "Sech Pro",
+  "weightClass": "Heavyweight",
+  "record": "7-1-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 6,
+   "sub": 1,
+   "dec": 0,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 1,
+   "sub": 0,
+   "dec": 0,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-04-12",
+    "result": "L",
+    "opponent": "Khadis Ibragimov",
+    "event": "ACA 202 - Johnson vs. Kornilov",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": "1:00"
+   },
+   {
+    "date": "2026-02-06",
+    "result": "W",
+    "opponent": "Denis Smoldarev",
+    "event": "ACA 200 - Gasanov vs. Tumenov",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "1:07"
+   },
+   {
+    "date": "2025-11-07",
+    "result": "W",
+    "opponent": "Dmitry Vezhenko",
+    "event": "ACA 195 - Kornilov vs. Vakhaev",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "1:36"
+   },
+   {
+    "date": "2025-10-04",
+    "result": "W",
+    "opponent": "Flavio Rodrigo Magon",
+    "event": "North-West Power Alliance - NWPA: 10",
+    "method": "KO (Punch)",
+    "round": 1,
+    "time": "0:49"
+   },
+   {
+    "date": "2025-05-07",
+    "result": "W",
+    "opponent": "Andrey Zhukovsky",
+    "event": "North-West Power Alliance - NWPA: World Peace",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 2,
+    "time": "4:59"
+   },
+   {
+    "date": "2025-02-02",
+    "result": "W",
+    "opponent": "Sergey Sengeim",
+    "event": "North-West Power Alliance - NWPA: Defense of Leningrad",
+    "method": "TKO",
+    "round": 2,
+    "time": "4:00"
+   },
+   {
+    "date": "2024-12-07",
+    "result": "W",
+    "opponent": "Alexey Bukarev",
+    "event": "OFC 49 - Open Fighting Championship 49",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": "4:19"
+   },
+   {
+    "date": "2024-10-18",
+    "result": "W",
+    "opponent": "Roman Anusevich",
+    "event": "OFC 47 - Open Fighting Championship 47",
+    "method": "TKO",
+    "round": 1,
+    "time": "0:28"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Sherdog locality: St. Petersburg. Birth date/age not shown on Sherdog. Two wins (2025-02-02, 2024-10-18) have method just 'TKO' with no detail. No amateur/exhibition bouts listed. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Kirill Grishenko (9-2-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "kirill-grishenko",
+  "name": "Kirill Grishenko",
+  "sherdog": "https://www.sherdog.com/fighter/Kirill-Grishenko-377619",
+  "sherdogName": "Kirill Grishenko",
+  "nickname": null,
+  "birthDate": "1991-07-12",
+  "heightCm": 193.04,
+  "heightText": "6'4\"",
+  "weightLb": 247,
+  "nationality": "Belarus",
+  "association": "M2G Sports Club",
+  "weightClass": "Heavyweight",
+  "record": "9-2-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 4,
+   "sub": 1,
+   "dec": 4,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 1,
+   "sub": 1,
+   "dec": 0,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-03-27",
+    "result": "W",
+    "opponent": "Klidson Abreu",
+    "event": "ACA 201 - Silva vs. Podlesniy",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-08-01",
+    "result": "W",
+    "opponent": "Ben Tynan",
+    "event": "One Championship - One on Prime Video 34",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-02-20",
+    "result": "W",
+    "opponent": "Mauro Cerilli",
+    "event": "One Championship - ONE 171: Qatar",
+    "method": "TKO (Leg Kick)",
+    "round": 1,
+    "time": "3:28"
+   },
+   {
+    "date": "2024-07-05",
+    "result": "W",
+    "opponent": "Ji Won Kang",
+    "event": "One Championship - One on Prime Video 23",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-08-26",
+    "result": "L",
+    "opponent": "Marcus Almeida",
+    "event": "One Championship - One on Prime Video 1 - Moraes vs. Johnson 2",
+    "method": "Submission (Heel Hook)",
+    "round": 1,
+    "time": "1:04"
+   },
+   {
+    "date": "2022-02-11",
+    "result": "L",
+    "opponent": "Anatoly Malykhin",
+    "event": "One Championship - Bad Blood",
+    "method": "KO (Punch)",
+    "round": 2,
+    "time": "3:42"
+   },
+   {
+    "date": "2021-10-29",
+    "result": "W",
+    "opponent": "Dustin Joynson",
+    "event": "One Championship - NextGen",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-04-28",
+    "result": "W",
+    "opponent": "Oumar Kane",
+    "event": "One Championship - One on TNT 4",
+    "method": "TKO (Retirement)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2020-11-28",
+    "result": "W",
+    "opponent": "Ahmed Al-Rubaye",
+    "event": "NFG 16 - Mortal Combat",
+    "method": "TKO",
+    "round": 1,
+    "time": "2:24"
+   },
+   {
+    "date": "2020-11-28",
+    "result": "W",
+    "opponent": "Vladimir Davidovich",
+    "event": "NFG 16 - Mortal Combat",
+    "method": "Submission",
+    "round": 1,
+    "time": "1:18"
+   },
+   {
+    "date": "2020-10-24",
+    "result": "W",
+    "opponent": "Gennadiy Matveenko",
+    "event": "BFC 63 - Belarusian Fighting Championship",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "1:26"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Two bouts on 2020-11-28 (same NFG 16 event); order kept as on Sherdog; their methods are just 'TKO' and 'Submission' with no detail. No amateur/exhibition bouts listed. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Daniil Matsola (7-1-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "magomed-sulumov",
+  "name": "Magomed Sulumov",
+  "sherdog": "https://www.sherdog.com/fighter/Magomed-Sulumov-205859",
+  "sherdogName": "Magomed Sulumov",
+  "nickname": "The Steel",
+  "birthDate": "1997-02-18",
+  "heightCm": 172.72,
+  "heightText": "5'8\"",
+  "weightLb": 157,
+  "nationality": "Russia",
+  "association": "Fight Club Akhmat",
+  "weightClass": "Welterweight",
+  "record": "12-5-0",
+  "nc": 1,
+  "winsBy": {
+   "ko": 3,
+   "sub": 2,
+   "dec": 7,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 1,
+   "sub": 1,
+   "dec": 3,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-06-19",
+    "result": "L",
+    "opponent": "Alexander Matmuratov",
+    "event": "ACA 204 - Shlemenko vs. Dipchikov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-10-04",
+    "result": "W",
+    "opponent": "Mikhail Odintsov",
+    "event": "ACA 193 - Kerimov vs. Selimkhanov",
+    "method": "Decision (Majority)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-12-06",
+    "result": "L",
+    "opponent": "Alexander Grozin",
+    "event": "Nashe Delo - Nemkov vs. Ibragimov",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-08-23",
+    "result": "W",
+    "opponent": "Bruno Roverso",
+    "event": "Nashe Delo - Vartanyan vs. Grozin",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-02-23",
+    "result": "L",
+    "opponent": "Alexander Sarnavskiy",
+    "event": "AMC Fight Nights 123 - Sulumov vs. Sarnavskiy",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 3,
+    "time": "4:32"
+   },
+   {
+    "date": "2023-07-14",
+    "result": "W",
+    "opponent": "Akhmed Aliev",
+    "event": "AMC Fight Nights 121 - Makhno vs. Bikrev",
+    "method": "Submission (Heel Hook)",
+    "round": 1,
+    "time": "0:44"
+   },
+   {
+    "date": "2023-02-23",
+    "result": "NC",
+    "opponent": "Akhmed Aliev",
+    "event": "AMC - Fight Nights 118",
+    "method": "No Contest (Accidental Eye Poke)",
+    "round": 3,
+    "time": null
+   },
+   {
+    "date": "2021-10-16",
+    "result": "W",
+    "opponent": "Shamil Michilov",
+    "event": "AMC Fight Nights 105 - Mineev vs. Ismailov 2",
+    "method": "KO (Punch)",
+    "round": 2,
+    "time": "1:30"
+   },
+   {
+    "date": "2021-07-15",
+    "result": "W",
+    "opponent": "Syymyk Kultaev",
+    "event": "AMC Fight Nights 103 - Raisov vs. Makhno",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2020-10-13",
+    "result": "W",
+    "opponent": "Omurbek Toktoali Uulu",
+    "event": "ACA YE 13 - ACA Young Eagles",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-09-08",
+    "result": "W",
+    "opponent": "Akop Stepanyan",
+    "event": "ACB 89 - Krasnodar",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-01-13",
+    "result": "W",
+    "opponent": "Bruno Roverso",
+    "event": "ACB 78 - Grozny: Young Eagles 24",
+    "method": "TKO (Punches and Elbows)",
+    "round": 2,
+    "time": "2:28"
+   },
+   {
+    "date": "2017-08-26",
+    "result": "L",
+    "opponent": "Oberdan Vieira Tenorio",
+    "event": "ACB 68 - Dushanbe: Young Eagles 21",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-04-01",
+    "result": "W",
+    "opponent": "Sergei Semizhon",
+    "event": "ACB 56 - Minsk: Young Eagles 16",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-09-03",
+    "result": "L",
+    "opponent": "Andrey Krasnikov",
+    "event": "ACB 44 - Young Eagles 12",
+    "method": "TKO (Punches)",
+    "round": 3,
+    "time": "1:59"
+   },
+   {
+    "date": "2016-04-16",
+    "result": "W",
+    "opponent": "Grigory Maltsev",
+    "event": "ACB 33 - Young Eagles 6",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2015-12-27",
+    "result": "W",
+    "opponent": "Rauf Kazibekov",
+    "event": "ACB 28 - Young Eagles 4",
+    "method": "Submission (Armbar)",
+    "round": 1,
+    "time": "4:59"
+   },
+   {
+    "date": "2015-09-26",
+    "result": "W",
+    "opponent": "Islam Balov",
+    "event": "PFC - Professional Fighting Championship 2",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "3:14"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "RECORD MISMATCH: Sherdog profile shows 12-5-0 (1 NC) but acaListedRecord in fighters.json is 13-5-0. Sherdog locality: Grozny, Chechnya. 1 NC (Accidental Eye Poke, 2023-02-23 vs Akhmed Aliev; round 3, time shown as N/A). Sherdog lists 1 EXHIBITION bout separately, not counted in the pro record: W Roman Avdal, Decision (Unanimous) R3 5:00, AMC - Fight Nights 112: Abbasov vs Piraev, 2022-06-10 - this likely explains ACA listing 13-5 vs Sherdog 12-5. Sherdog weight class reads Welterweight although listed weight is 157 lb. Rows with no real fight time on Sherdog (time set to null): 2023-02-23 vs Akhmed Aliev (page shows N/A). Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Sheymon Moraes (17-7-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "sheymon-moraes",
+  "name": "Sheymon Moraes",
+  "sherdog": "https://www.sherdog.com/fighter/Sheymon-Moraes-93951",
+  "sherdogName": "Sheymon Moraes",
+  "nickname": null,
+  "birthDate": "1990-10-11",
+  "heightCm": 172.72,
+  "heightText": "5'8\"",
+  "weightLb": 145,
+  "nationality": "Brazil",
+  "association": "Black House",
+  "weightClass": "Featherweight",
+  "record": "17-7-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 7,
+   "sub": 1,
+   "dec": 9,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 2,
+   "sub": 2,
+   "dec": 3,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2025-10-24",
+    "result": "W",
+    "opponent": "Andre Harrison",
+    "event": "Victory Fighting League - Clash of the Champions",
+    "method": "Decision (Split)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-08-15",
+    "result": "L",
+    "opponent": "Julio Arce",
+    "event": "Victory Fighting League - Battle of the Burroughs",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-08-30",
+    "result": "W",
+    "opponent": "T.J. Brown",
+    "event": "United Fight League - UFL 5: Phoenix vs. Las Vegas",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-11-25",
+    "result": "W",
+    "opponent": "Marlon Moraes",
+    "event": "Professional Fighters League - 2022 Season PFL Championships",
+    "method": "TKO (Punches)",
+    "round": 3,
+    "time": "0:58"
+   },
+   {
+    "date": "2022-06-24",
+    "result": "L",
+    "opponent": "Lance Palmer",
+    "event": "Professional Fighters League - PFL 5: 2022 Regular Season",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-04-28",
+    "result": "W",
+    "opponent": "Boston Salmon",
+    "event": "Professional Fighters League - PFL 2: 2022 Regular Season",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-08-27",
+    "result": "W",
+    "opponent": "Lazar Stojadinovic",
+    "event": "Professional Fighters League - PFL 9: 2021 Playoffs",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "4:45"
+   },
+   {
+    "date": "2021-06-10",
+    "result": "W",
+    "opponent": "Jesse Stirn",
+    "event": "Professional Fighters League - PFL 4: 2021 Regular Season",
+    "method": "Submission (Kimura)",
+    "round": 2,
+    "time": "4:59"
+   },
+   {
+    "date": "2021-04-23",
+    "result": "L",
+    "opponent": "Brendan Loughnane",
+    "event": "Professional Fighters League - PFL 1: 2021 Regular Season",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": "2:55"
+   },
+   {
+    "date": "2019-07-13",
+    "result": "L",
+    "opponent": "Andre Fili",
+    "event": "UFC Fight Night 155 - De Randamie vs. Ladd",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": "3:07"
+   },
+   {
+    "date": "2019-03-30",
+    "result": "L",
+    "opponent": "Sodiq Yusuff",
+    "event": "UFC on ESPN 2 - Barboza vs. Gaethje",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-11-03",
+    "result": "W",
+    "opponent": "Julio Arce",
+    "event": "UFC 230 - Cormier vs. Lewis",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-08-04",
+    "result": "W",
+    "opponent": "Matt Sayles",
+    "event": "UFC 227 - Dillashaw vs. Garbrandt 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-11-25",
+    "result": "L",
+    "opponent": "Zabit Magomedsharipov",
+    "event": "UFC Fight Night 122 - Bisping vs. Gastelum",
+    "method": "Submission (Anaconda Choke)",
+    "round": 3,
+    "time": "4:30"
+   },
+   {
+    "date": "2016-06-17",
+    "result": "W",
+    "opponent": "Luis Palomino",
+    "event": "WSOF 31 - Ivanov vs. Copeland",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2015-12-18",
+    "result": "W",
+    "opponent": "Robbie Peralta",
+    "event": "WSOF 26 - Palmer vs. Almeida",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "3:21"
+   },
+   {
+    "date": "2015-08-01",
+    "result": "L",
+    "opponent": "Marlon Moraes",
+    "event": "WSOF 22 - Palhares vs. Shields",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 3,
+    "time": "3:46"
+   },
+   {
+    "date": "2014-12-13",
+    "result": "W",
+    "opponent": "Gabriel Solorio",
+    "event": "WSOF 16 - Palhares vs. Fitch",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2014-04-12",
+    "result": "W",
+    "opponent": "Felipe Alves",
+    "event": "NCF - Nitrix Champion Fight 20",
+    "method": "KO (Elbow)",
+    "round": 1,
+    "time": "0:20"
+   },
+   {
+    "date": "2012-12-22",
+    "result": "W",
+    "opponent": "Eliel dos Santos e Santos",
+    "event": "Team Nogueira - MMA Circuit 1",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2012-09-08",
+    "result": "W",
+    "opponent": "Pedro Nobre",
+    "event": "Bitetti Combat 12 - Oswaldo Paqueta",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "4:16"
+   },
+   {
+    "date": "2012-09-08",
+    "result": "W",
+    "opponent": "Pedro Arruda",
+    "event": "Bitetti Combat 12 - Oswaldo Paqueta",
+    "method": "TKO (Punch & Knees to the Body)",
+    "round": 1,
+    "time": "2:33"
+   },
+   {
+    "date": "2012-04-20",
+    "result": "W",
+    "opponent": "Jefferson Silva dos Santos",
+    "event": "MKC - Mortal Kombat Championship 1",
+    "method": "TKO (Elbows)",
+    "round": 2,
+    "time": "2:48"
+   },
+   {
+    "date": "2012-03-17",
+    "result": "W",
+    "opponent": "Richard Medeiros",
+    "event": "MF - Max Fight 11",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Sherdog locality: Sao Goncalo, Rio de Janeiro. Two bouts on 2012-09-08 (same Bitetti Combat 12 event); order kept as on Sherdog. No amateur/exhibition bouts listed. The plain URL first returned a snapshot without the upcoming-fight block; a cache-busted fetch showed ACA 208 upcoming with identical record and history. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Magomed Sulumov (12-5-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "herbert-batista",
+  "name": "Herbert Batista",
+  "sherdog": "https://www.sherdog.com/fighter/Herbert-Batista-150687",
+  "sherdogName": "Herbert Batista",
+  "nickname": "Matagal",
+  "birthDate": "1991-03-03",
+  "heightCm": 177.8,
+  "heightText": "5'10\"",
+  "weightLb": 171,
+  "nationality": "Brazil",
+  "association": "Renovacao Coari Team",
+  "weightClass": "Welterweight",
+  "record": "20-8-1",
+  "nc": 0,
+  "winsBy": {
+   "ko": 6,
+   "sub": 7,
+   "dec": 6,
+   "other": 1
+  },
+  "lossesBy": {
+   "ko": 2,
+   "sub": 1,
+   "dec": 5,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-01-16",
+    "result": "W",
+    "opponent": "Oganes Voskanyan",
+    "event": "ACA 199 - Frolov vs. Emeev",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-09-05",
+    "result": "W",
+    "opponent": "Amazasp Martirosyan",
+    "event": "ACA 191 - Tumenov vs. Cruz",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-05-10",
+    "result": "L",
+    "opponent": "Mikhail Odintsov",
+    "event": "ACA 186 - Bogatyrev vs. Kornilov II",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-09-08",
+    "result": "L",
+    "opponent": "Albert Gukov",
+    "event": "ACA 179 - Omarov vs. Taygibov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-04-19",
+    "result": "L",
+    "opponent": "Alexander Matmuratov",
+    "event": "ACA 174 - Borisov vs. Vitruk",
+    "method": "TKO (Front Kick to the Body and Punches)",
+    "round": 1,
+    "time": "3:06"
+   },
+   {
+    "date": "2023-11-03",
+    "result": "W",
+    "opponent": "Beslan Isaev",
+    "event": "ACA 165 - Dakaev vs. Batista",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-07-21",
+    "result": "L",
+    "opponent": "Amirkhan Adaev",
+    "event": "ACA 160 - Slipenko vs. Gadzhidaudov",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-04-28",
+    "result": "W",
+    "opponent": "Vladimir Palchenkov",
+    "event": "ACA 156 - Koshkin vs. Boyko",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-11-04",
+    "result": "W",
+    "opponent": "Zhurabek Teshaboev",
+    "event": "ACA 147 - Vartanyan vs. Raisov",
+    "method": "KO (Punch)",
+    "round": 1,
+    "time": "2:51"
+   },
+   {
+    "date": "2022-03-06",
+    "result": "L",
+    "opponent": "Khalid Satuev",
+    "event": "ACA 137 - Magomedov vs. Matevosyan",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-11-19",
+    "result": "L",
+    "opponent": "Raul Tutarauli",
+    "event": "ACA 132 - Johnson vs. Vakhaev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-11-24",
+    "result": "W",
+    "opponent": "Lucio Abreu",
+    "event": "TAURA MMA - 8",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-08-14",
+    "result": "W",
+    "opponent": "Georgy Eloyan",
+    "event": "League S-70 - Plotforma Cup 2019",
+    "method": "Submission (Triangle Choke)",
+    "round": 3,
+    "time": "3:14"
+   },
+   {
+    "date": "2019-04-13",
+    "result": "W",
+    "opponent": "Rodrigo Lidio",
+    "event": "CSYSL - Coari Champions 2",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "3:30"
+   },
+   {
+    "date": "2018-06-29",
+    "result": "W",
+    "opponent": "Ary Santos",
+    "event": "Shooto Brazil 85 - Estevam vs. Da Cunha",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 2,
+    "time": "4:14"
+   },
+   {
+    "date": "2018-06-09",
+    "result": "W",
+    "opponent": "Carlos Carvalho",
+    "event": "PFC 3 - Porto Fight Club 3",
+    "method": "Submission (Guillotine Choke)",
+    "round": 1,
+    "time": "0:25"
+   },
+   {
+    "date": "2017-10-21",
+    "result": "W",
+    "opponent": "Viskhan Magomadov",
+    "event": "ACB 73 - Rio de Janeiro",
+    "method": "TKO (Retirement)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-09-16",
+    "result": "W",
+    "opponent": "Alessandro Gomes",
+    "event": "Mr. Cage Championship - Mr. Cage 30",
+    "method": "TKO (Doctor Stoppage)",
+    "round": 2,
+    "time": "3:39"
+   },
+   {
+    "date": "2017-07-29",
+    "result": "W",
+    "opponent": "Wellington Silva Lopes",
+    "event": "AFC - Arena Fight Championship 3",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-05-27",
+    "result": "W",
+    "opponent": "Joao Batista Aquino de Oliveira",
+    "event": "Mr. Cage Championship - Mr. Cage 27",
+    "method": "Submission (Triangle Choke)",
+    "round": 1,
+    "time": "4:04"
+   },
+   {
+    "date": "2016-12-10",
+    "result": "W",
+    "opponent": "Joaquim Polonia",
+    "event": "AFC - Arena Fight Championship 2",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "4:29"
+   },
+   {
+    "date": "2016-07-16",
+    "result": "L",
+    "opponent": "Helderson Leal Martins",
+    "event": "AFC - Arena Fight Championship",
+    "method": "Submission (Armbar)",
+    "round": 2,
+    "time": "2:49"
+   },
+   {
+    "date": "2015-10-03",
+    "result": "W",
+    "opponent": "Jordan Rocha",
+    "event": "De Assis Gold Team - DGT Fight",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "3:48"
+   },
+   {
+    "date": "2015-03-07",
+    "result": "W",
+    "opponent": "Wellython Fernandes",
+    "event": "SD Productions - Coari Talent",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": null
+   },
+   {
+    "date": "2014-11-08",
+    "result": "W",
+    "opponent": "Keven Santos",
+    "event": "GFC - Garanhuns Fighting Championship 29",
+    "method": "K.O (Punch)",
+    "round": 1,
+    "time": "3:22"
+   },
+   {
+    "date": "2014-10-02",
+    "result": "D",
+    "opponent": "Rafael Moreira",
+    "event": "Mr. Cage Championship - Mr. Cage 13",
+    "method": "Draw",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2013-10-25",
+    "result": "L",
+    "opponent": "Jeferson Santos",
+    "event": "AK - Amazon Kombat 3.0",
+    "method": "TKO",
+    "round": 3,
+    "time": null
+   },
+   {
+    "date": "2013-10-25",
+    "result": "W",
+    "opponent": "Alex Santos",
+    "event": "AK - Amazon Kombat 3.0",
+    "method": "Submission",
+    "round": 1,
+    "time": null
+   },
+   {
+    "date": "2012-12-16",
+    "result": "W",
+    "opponent": "Everton Vasconcelos",
+    "event": "Zone FC - Zone Fight 3",
+    "method": "Submission (Armbar)",
+    "round": 1,
+    "time": "2:20"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "winsBy is the breakdown printed by Sherdog (KO/TKO 6, Sub 7, Dec 6, Others 1). Tallying the rows gives 7 KO/TKO: the 2014-11-08 win is written 'K.O (Punch)', which Sherdog's own summary evidently counts under Others. Two bouts on 2013-10-25 (same Amazon Kombat 3.0 event), both with time shown as 0:00 and methods without detail ('TKO', 'Submission'). 2015-03-07 win has time N/A. No amateur/exhibition bouts listed. Rows with no real fight time on Sherdog (time set to null): 2015-03-07 vs Wellython Fernandes (page shows N/A); 2013-10-25 vs Jeferson Santos (page shows 0:00); 2013-10-25 vs Alex Santos (page shows 0:00). Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Uzair Abdurakov (20-3-1). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "uzair-abdurakov",
+  "name": "Uzair Abdurakov",
+  "sherdog": "https://www.sherdog.com/fighter/Uzair-Abdurakov-272013",
+  "sherdogName": "Uzair Abdurakov",
+  "nickname": null,
+  "birthDate": "1995-05-26",
+  "heightCm": 175.26,
+  "heightText": "5'9\"",
+  "weightLb": 172,
+  "nationality": "Russia",
+  "association": "Universal Fighters",
+  "weightClass": "Middleweight",
+  "record": "20-3-1",
+  "nc": 0,
+  "winsBy": {
+   "ko": 8,
+   "sub": 8,
+   "dec": 4,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 0,
+   "sub": 2,
+   "dec": 1,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-04-12",
+    "result": "L",
+    "opponent": "Eduard Vartanyan",
+    "event": "ACA 202 - Johnson vs. Kornilov",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 3,
+    "time": "2:04"
+   },
+   {
+    "date": "2025-12-05",
+    "result": "L",
+    "opponent": "Zhakshylyk Myrzabekov",
+    "event": "ACA 197 - Ibragimov vs. Magomedov",
+    "method": "Technical Submission (Rear-Naked Choke)",
+    "round": 1,
+    "time": "0:33"
+   },
+   {
+    "date": "2025-06-28",
+    "result": "W",
+    "opponent": "Ustarmagomed Gadzhidaudov",
+    "event": "ACA 188 - Gadzhiev vs. Pshukov",
+    "method": "KO (Punches)",
+    "round": 2,
+    "time": "1:25"
+   },
+   {
+    "date": "2024-08-16",
+    "result": "W",
+    "opponent": "Anatoliy Boyko",
+    "event": "ACA 178 - Goncharov vs. Bogatyrev",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "1:37"
+   },
+   {
+    "date": "2024-03-09",
+    "result": "W",
+    "opponent": "Andrei Koshkin",
+    "event": "ACA 172 - Esengulov vs. Vagaev",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2023-08-18",
+    "result": "W",
+    "opponent": "Sergey Yaskovets",
+    "event": "Eagle FC 53 - Yaskovets vs. Abdurakov",
+    "method": "KO (Punch)",
+    "round": 3,
+    "time": "2:41"
+   },
+   {
+    "date": "2022-08-21",
+    "result": "W",
+    "opponent": "Maxim Konovalov",
+    "event": "Eagle FC 50 - Nurgozhay vs. Andreitsev",
+    "method": "Submission (Ninja Choke)",
+    "round": 1,
+    "time": "4:53"
+   },
+   {
+    "date": "2022-02-18",
+    "result": "W",
+    "opponent": "Khayal Iskenderov",
+    "event": "EFC 45 - Eagle FC 45: Magomedov vs. Gitinovasov",
+    "method": "Submission (Keylock)",
+    "round": 1,
+    "time": "4:25"
+   },
+   {
+    "date": "2021-09-04",
+    "result": "W",
+    "opponent": "Luiz Victor Romero",
+    "event": "EFC 40 - Eagle Fighting Championship 40",
+    "method": "TKO",
+    "round": 1,
+    "time": "1:33"
+   },
+   {
+    "date": "2021-04-06",
+    "result": "L",
+    "opponent": "Mehdi Dakaev",
+    "event": "EFC 35 - Eagle Fighting Championship 35: Dakaev vs. Abdurakov",
+    "method": "Decision (Unanimous)",
+    "round": 5,
+    "time": "5:00"
+   },
+   {
+    "date": "2020-12-04",
+    "result": "W",
+    "opponent": "Vladimir Osipov",
+    "event": "EFC 30 - Eagle Fighting Championship 30",
+    "method": "TKO (Corner Stoppage)",
+    "round": 2,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-10-19",
+    "result": "W",
+    "opponent": "Ilya Gadzhey",
+    "event": "MFP 230 - Battle on Amur 4",
+    "method": "Submission (Kimura)",
+    "round": 1,
+    "time": null
+   },
+   {
+    "date": "2019-07-20",
+    "result": "W",
+    "opponent": "Dmitriy Egorov",
+    "event": "MFP - Iron League 13",
+    "method": "Submission (Kimura)",
+    "round": 1,
+    "time": null
+   },
+   {
+    "date": "2019-04-25",
+    "result": "W",
+    "opponent": "Maxim Panshin",
+    "event": "FNG 93 - Fight Nights Global 93",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-04-13",
+    "result": "W",
+    "opponent": "Andrey Chupin",
+    "event": "MFP - Iron League 12",
+    "method": "KO (Punches)",
+    "round": 1,
+    "time": "1:00"
+   },
+   {
+    "date": "2019-03-12",
+    "result": "W",
+    "opponent": "Zubair Zakhirjonov",
+    "event": "MFP - Iron League 11",
+    "method": "KO",
+    "round": 1,
+    "time": null
+   },
+   {
+    "date": "2019-03-03",
+    "result": "D",
+    "opponent": "Bagautdin Abasov",
+    "event": "Battle Promotion - Battle 1",
+    "method": "Draw",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-12-27",
+    "result": "W",
+    "opponent": "Ruslan Annatdaev",
+    "event": "FNG / Golden Team Championship - Fight Nights Global 91",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 2,
+    "time": "1:41"
+   },
+   {
+    "date": "2018-07-28",
+    "result": "W",
+    "opponent": "Vladimir Dmitriev",
+    "event": "MFP - Iron League 8: Aldan Challenge",
+    "method": "TKO (Broken Nose)",
+    "round": 1,
+    "time": "1:45"
+   },
+   {
+    "date": "2018-04-29",
+    "result": "W",
+    "opponent": "Magomed Gadzhimuradov",
+    "event": "Eagles MMA Moscow - Race of Fighters",
+    "method": "Submission (Kimura)",
+    "round": 1,
+    "time": "4:24"
+   },
+   {
+    "date": "2018-04-12",
+    "result": "W",
+    "opponent": "Igor Dobrov",
+    "event": "MFP - Iron League 5",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-12-23",
+    "result": "W",
+    "opponent": "Yeremy Sokorutov",
+    "event": "MFP Sakha - Battle Boturov",
+    "method": "Submission (Elbow Lever)",
+    "round": 1,
+    "time": "2:59"
+   },
+   {
+    "date": "2017-12-23",
+    "result": "W",
+    "opponent": "Grigory Barashkov",
+    "event": "MFP Sakha - Battle Boturov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-08-02",
+    "result": "W",
+    "opponent": "Yevgeny Krasnov",
+    "event": "COA - Challenge Of Aldan",
+    "method": "Submission (Armbar)",
+    "round": 1,
+    "time": "2:24"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Sherdog locality: Aldan, Sakha. Sherdog weight class reads Middleweight although listed weight is 172 lb. Two bouts on 2017-12-23 (same event); order kept as on Sherdog. Three wins have time shown as 0:00 (2019-10-19, 2019-07-20, 2019-03-12). Sherdog also lists 1 amateur bout: L Arsen Daudgadzhiev, Russian MMA Union - 2018 Russian Amateur MMA Championships Day 1, 2018-05-12. Rows with no real fight time on Sherdog (time set to null): 2019-10-19 vs Ilya Gadzhey (page shows 0:00); 2019-07-20 vs Dmitriy Egorov (page shows 0:00); 2019-03-12 vs Zubair Zakhirjonov (page shows 0:00). Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Herbert Batista (20-8-1). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "shamil-boraev",
+  "name": "Shamil Boraev",
+  "sherdog": "https://www.sherdog.com/fighter/Shamil-Boraev-430087",
+  "sherdogName": "Shamil Boraev",
+  "nickname": "Storm",
+  "birthDate": "2002-11-27",
+  "heightCm": 175.26,
+  "heightText": "5'9\"",
+  "weightLb": 152,
+  "nationality": "Russia",
+  "association": "Fight Club Akhmat",
+  "weightClass": "Lightweight",
+  "record": "7-1-0",
+  "nc": 0,
+  "winsBy": {
+   "ko": 3,
+   "sub": 1,
+   "dec": 3,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 0,
+   "sub": 1,
+   "dec": 0,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2026-05-08",
+    "result": "W",
+    "opponent": "Shergazy Kenjebaev",
+    "event": "ACA 203 - Gaforov vs. Akopyan",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2026-01-09",
+    "result": "W",
+    "opponent": "Kamal Mamedov",
+    "event": "ACA 198 - Omarov vs. Suleymanov 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-10-23",
+    "result": "W",
+    "opponent": "Yehia Gheitta",
+    "event": "ACA 194 - Johnson vs. Aliakbari",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2025-06-20",
+    "result": "W",
+    "opponent": "Aleksandr Zhulin",
+    "event": "Fight Nights Global - Cup of Petr Mineev",
+    "method": "TKO (Injury)",
+    "round": 1,
+    "time": "2:52"
+   },
+   {
+    "date": "2024-09-28",
+    "result": "L",
+    "opponent": "Mehemmedali Osmanli",
+    "event": "UAE Warriors 54 - Jumaev vs. Sadygov",
+    "method": "Submission (Anaconda Choke)",
+    "round": 2,
+    "time": "3:28"
+   },
+   {
+    "date": "2024-05-28",
+    "result": "W",
+    "opponent": "Abdurakhman Khandov",
+    "event": "ACA YE 47 - ACA Young Eagles 47",
+    "method": "TKO (Punches)",
+    "round": 2,
+    "time": "2:51"
+   },
+   {
+    "date": "2023-12-15",
+    "result": "W",
+    "opponent": "Abakar Abdulkerimov",
+    "event": "ACA YE 43 - ACA Young Eagles 43",
+    "method": "Technical Submission (Brabo Choke)",
+    "round": 1,
+    "time": "2:21"
+   },
+   {
+    "date": "2023-07-14",
+    "result": "W",
+    "opponent": "Shokhrukh Uralov",
+    "event": "ACA YE 38 - ACA Young Eagles 38",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "1:57"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Sherdog locality: Grozny, Chechnya. No amateur/exhibition bouts listed. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Timur Valiev. History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ },
+ {
+  "id": "timur-valiev",
+  "name": "Timur Valiev",
+  "sherdog": "https://www.sherdog.com/fighter/Timur-Valiev-70605",
+  "sherdogName": "Timur Valiev",
+  "nickname": "Lucky",
+  "birthDate": "1990-01-19",
+  "heightCm": 167.64,
+  "heightText": "5'6\"",
+  "weightLb": 145,
+  "nationality": "Russia",
+  "association": "DagFighter / Jackson-Wink MMA",
+  "weightClass": "Featherweight",
+  "record": "19-5-0",
+  "nc": 1,
+  "winsBy": {
+   "ko": 5,
+   "sub": 2,
+   "dec": 12,
+   "other": 0
+  },
+  "lossesBy": {
+   "ko": 0,
+   "sub": 0,
+   "dec": 5,
+   "other": 0
+  },
+  "history": [
+   {
+    "date": "2025-08-15",
+    "result": "L",
+    "opponent": "David Dzhibilov",
+    "event": "ACA 190 - Gasanov vs. Aryshev",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-09-08",
+    "result": "W",
+    "opponent": "Maharbek Karginov",
+    "event": "ACA 179 - Omarov vs. Taygibov",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2024-03-09",
+    "result": "L",
+    "opponent": "Alexander Podlesniy",
+    "event": "ACA 172 - Esengulov vs. Vagaev",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2022-03-19",
+    "result": "L",
+    "opponent": "Jack Shore",
+    "event": "UFC Fight Night 204 - Volkov vs. Aspinall",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-06-26",
+    "result": "W",
+    "opponent": "Raoni Barcelos",
+    "event": "UFC Fight Night 190 - Gane vs. Volkov",
+    "method": "Decision (Majority)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2021-02-06",
+    "result": "W",
+    "opponent": "Martin Day",
+    "event": "UFC Fight Night 184 - Overeem vs. Volkov",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2020-08-22",
+    "result": "NC",
+    "opponent": "Trevin Jones",
+    "event": "UFC on ESPN 15 - Munhoz vs. Edgar",
+    "method": "No Contest (Overturned by NSAC)",
+    "round": 2,
+    "time": "1:59"
+   },
+   {
+    "date": "2019-12-13",
+    "result": "W",
+    "opponent": "Taigro Costa",
+    "event": "GFC 22 - Gorilla Fighting 22",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2019-07-13",
+    "result": "W",
+    "opponent": "Giovanni da Silva Santos Jr.",
+    "event": "GFC 14 - Gorilla Fighting 14: Dagestan",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "3:58"
+   },
+   {
+    "date": "2018-07-19",
+    "result": "W",
+    "opponent": "Bekbulat Magomedov",
+    "event": "Professional Fighters League - PFL 4: 2018 Regular Season",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2018-06-07",
+    "result": "W",
+    "opponent": "Max Coga",
+    "event": "Professional Fighters League - PFL 1: 2018 Regular Season",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2017-11-02",
+    "result": "W",
+    "opponent": "Josinaldo Silva",
+    "event": "Professional Fighters League - PFL: Fight Night",
+    "method": "Submission (Rear-Naked Choke)",
+    "round": 3,
+    "time": "2:12"
+   },
+   {
+    "date": "2016-10-07",
+    "result": "W",
+    "opponent": "Chris Gutierrez",
+    "event": "WSOF 33 - Branch vs. Magalhaes",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2016-02-20",
+    "result": "L",
+    "opponent": "Chris Gutierrez",
+    "event": "WSOF 28 - Moraes vs. Barajas",
+    "method": "Decision (Split)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2015-09-18",
+    "result": "W",
+    "opponent": "Tito Jones",
+    "event": "WSOF 23 - Gaethje vs. Palomino 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2015-03-28",
+    "result": "W",
+    "opponent": "Ed West",
+    "event": "WSOF 19 - Gaethje vs. Palomino",
+    "method": "TKO (Elbows and Punches)",
+    "round": 1,
+    "time": "1:39"
+   },
+   {
+    "date": "2014-09-13",
+    "result": "W",
+    "opponent": "Isaiah Chapman",
+    "event": "WSOF 13 - Moraes vs. Bollinger",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2014-06-21",
+    "result": "W",
+    "opponent": "Adam Acquaviva",
+    "event": "WSOF 10 - Branch vs. Taylor",
+    "method": "TKO (Flying Knee)",
+    "round": 3,
+    "time": "1:35"
+   },
+   {
+    "date": "2013-06-16",
+    "result": "W",
+    "opponent": "Bruno Marques",
+    "event": "BOS - Battle of Stars 2",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2012-11-03",
+    "result": "W",
+    "opponent": "Oleg Borisov",
+    "event": "Fight Nights - Battle of Moscow 8",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2012-10-21",
+    "result": "W",
+    "opponent": "Algiz Vakhitov",
+    "event": "CBC - Colosseum Battles Champions",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "1:34"
+   },
+   {
+    "date": "2012-06-28",
+    "result": "W",
+    "opponent": "Evgeniy Lazukov",
+    "event": "DFC - Dictator Fighting Championship 1",
+    "method": "TKO (Punches)",
+    "round": 1,
+    "time": "4:36"
+   },
+   {
+    "date": "2012-02-25",
+    "result": "W",
+    "opponent": "Fernando Cosenday",
+    "event": "Top Fight - Battle of the Gyms",
+    "method": "Decision (Unanimous)",
+    "round": 3,
+    "time": "5:00"
+   },
+   {
+    "date": "2011-07-22",
+    "result": "W",
+    "opponent": "Gadzhimurad Gasanov",
+    "event": "UF - Urkarakh Fights",
+    "method": "Submission (Armbar)",
+    "round": 1,
+    "time": "4:38"
+   },
+   {
+    "date": "2010-09-04",
+    "result": "L",
+    "opponent": "Olle Raberg",
+    "event": "WUFC - World Ultimate Full Contact 16",
+    "method": "Decision (Unanimous)",
+    "round": 1,
+    "time": "10:00"
+   }
+  ],
+  "historyComplete": true,
+  "notes": "Record 19-5-0 plus 1 NC. Sherdog locality: Makhachkala, Dagestan. 1 NC (Overturned by NSAC, 2020-08-22 vs Trevin Jones). Oldest bout (2010-09-04 loss to Olle Raberg) is shown as round 1, time 10:00. No amateur/exhibition bouts listed. Sherdog upcoming-fight block: ACA 208, Oct 4 2026 vs Shamil Boraev (7-1-0). History cross-checked across two independent fetches (at least one cache-busted to bypass stale snapshots, and showing the ACA 208 upcoming-fight block); all rows agreed on date/result/opponent/method/round/time."
+ }
+]
